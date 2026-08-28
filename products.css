@@ -1,0 +1,608 @@
+/* =========================================================
+   BMC HOMEMART
+   PRODUCTS PAGE
+========================================================= */
+
+
+/* ==========================================
+   PAGE HEADER
+========================================== */
+
+.page-header {
+
+    padding: 160px 0 80px;
+
+    background: #1e1e1e;
+
+    color: white;
+
+}
+
+
+.page-header span {
+
+    color: #c49a5a;
+
+    letter-spacing: 3px;
+
+    font-size: 12px;
+
+}
+
+
+.page-header h1 {
+
+    font-family: "Prompt", sans-serif;
+
+    font-size: 55px;
+
+    font-weight: 500;
+
+}
+
+
+.page-header p {
+
+    color: #aaa;
+
+}
+
+
+/* ==========================================
+   CATALOG
+========================================== */
+
+.catalog {
+
+    padding: 80px 0;
+
+    background: #f8f7f4;
+
+}
+
+
+.catalog-layout {
+
+    display: grid;
+
+    grid-template-columns: 260px 1fr;
+
+    gap: 50px;
+
+}
+
+
+/* ==========================================
+   SIDEBAR
+========================================== */
+
+.filter-sidebar {
+
+    background: white;
+
+    padding: 30px;
+
+    height: fit-content;
+
+    border-radius: 20px;
+
+}
+
+
+.filter-sidebar h3 {
+
+    font-family: "Prompt", sans-serif;
+
+    margin-bottom: 30px;
+
+}
+
+
+.filter-group {
+
+    margin-bottom: 30px;
+
+}
+
+
+.filter-group > label {
+
+    display: block;
+
+    font-size: 13px;
+
+    margin-bottom: 10px;
+
+    font-weight: 500;
+
+}
+
+
+/* ==========================================
+   SEARCH
+========================================== */
+
+.search-product {
+
+    position: relative;
+
+}
+
+
+.search-product input,
+.filter-group select {
+
+    width: 100%;
+
+    border: 1px solid #ddd;
+
+    padding: 12px;
+
+    outline: none;
+
+    border-radius: 8px;
+
+}
+
+
+.search-product input:focus,
+.filter-group select:focus {
+
+    border-color: #a17a42;
+
+}
+
+
+.search-product i {
+
+    position: absolute;
+
+    right: 12px;
+
+    top: 14px;
+
+    color: #999;
+
+}
+
+
+/* ==========================================
+   CHECKBOX
+========================================== */
+
+.check {
+
+    display: block;
+
+    margin: 12px 0;
+
+    font-size: 13px;
+
+}
+
+
+.check input {
+
+    margin-right: 8px;
+
+}
+
+
+/* ==========================================
+   RESET
+========================================== */
+
+.reset-filter {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #222;
+
+    background: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+
+.reset-filter:hover {
+
+    background: #222;
+
+    color: white;
+
+}
+
+
+/* ==========================================
+   CATALOG TOP
+========================================== */
+
+.catalog-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    gap: 20px;
+
+}
+
+
+.catalog-top select {
+
+    padding: 10px;
+
+    border: 1px solid #ddd;
+
+    background: white;
+
+    border-radius: 8px;
+
+}
+
+
+/* ==========================================
+   PRODUCT GRID
+========================================== */
+
+.catalog-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+}
+
+
+/* ==========================================
+   PRODUCT CARD
+========================================== */
+
+.catalog-product {
+
+    background: white;
+
+    border: 1px solid #e7e7e7;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        border-color .3s ease;
+
+}
+
+
+.catalog-product:hover {
+
+    transform: translateY(-5px);
+
+    border-color: #a17a42;
+
+    box-shadow:
+        0 15px 35px
+        rgba(0,0,0,.08);
+
+}
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.catalog-image {
+
+    height: 260px;
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-image:
+        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+/* ==========================================
+   IMAGES
+========================================== */
+
+.image-oak {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1615529162924-f8605388461d?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+.image-tile {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1615874694520-474822394e73?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+.image-marble {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+.image-granite {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+.image-wood {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+.image-mosaic {
+
+    background-image:
+        url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80");
+
+}
+
+
+/* ==========================================
+   INFO
+========================================== */
+
+.catalog-info {
+
+    padding: 22px;
+
+}
+
+
+.catalog-info small {
+
+    color: #b88a44;
+
+}
+
+
+.catalog-info h3 {
+
+    font-family: "Prompt", sans-serif;
+
+    font-size: 22px;
+
+    font-weight: 500;
+
+    margin: 5px 0;
+
+}
+
+
+.catalog-info p {
+
+    font-size: 13px;
+
+    color: #777;
+
+}
+
+
+/* ==========================================
+   PRICE
+========================================== */
+
+.price {
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    margin: 15px 0;
+
+}
+
+
+.price span {
+
+    font-size: 11px;
+
+    color: #999;
+
+    font-weight: 400;
+
+}
+
+
+/* ==========================================
+   ACTION
+========================================== */
+
+.product-actions {
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+.view-product {
+
+    color: #b88a44;
+
+    font-size: 13px;
+
+}
+
+
+.product-actions button {
+
+    width: 40px;
+
+    height: 40px;
+
+    background: #222;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: .3s;
+
+}
+
+
+.product-actions button:hover {
+
+    background: #a17a42;
+
+}
+
+
+/* ==========================================
+   SALE
+========================================== */
+
+.sale {
+
+    background: #b88a44;
+
+    color: white;
+
+    padding: 5px 10px;
+
+    font-size: 10px;
+
+}
+
+
+/* ==========================================
+   NO PRODUCT
+========================================== */
+
+.no-products {
+
+    display: none;
+
+    text-align: center;
+
+    padding: 80px;
+
+    color: #777;
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width: 900px) {
+
+    .catalog-layout {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .catalog-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .filter-sidebar {
+
+        width: 100%;
+
+    }
+
+}
+
+
+@media(max-width: 600px) {
+
+    .page-header {
+
+        padding:
+            120px 0
+            60px;
+
+    }
+
+
+    .page-header h1 {
+
+        font-size: 40px;
+
+    }
+
+
+    .catalog {
+
+        padding: 50px 0;
+
+    }
+
+
+    .catalog-top {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+    }
+
+
+    .catalog-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .catalog-image {
+
+        height: 240px;
+
+    }
+
+}

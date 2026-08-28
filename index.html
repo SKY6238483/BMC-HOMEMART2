@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BMC HOMEMART | หินอ่อน หินแกรนิต</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<!-- ==========================================
+     FLOATING CONTACT
+========================================== -->
+
+<div class="floating-contact">
+
+    <!-- ปุ่มหลัก -->
+    <button
+        class="floating-main"
+        id="floatingContactBtn"
+        aria-label="เปิดช่องทางติดต่อ">
+        <!--<span class="phone-icon">☎</span> -->
+        <img src="image/tell.png" alt="โทรศัพท์" >
+    </button>
+
+
+    <!-- เมนูติดต่อ -->
+    <div class="floating-menu" id="floatingMenu">
+
+
+        <!-- LINE -->
+        <a
+            href="https://line.me/ti/p/@bmchomemart"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="floating-item">
+
+            <img src="image/line.png" alt="LINE">
+
+            <span>LINE</span>
+
+        </a>
+
+
+        <!-- FACEBOOK -->
+        <a
+            href="https://www.facebook.com/bmchomemart?ref=embed_page"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="floating-item">
+
+            <img src="image/facebook.png" alt="Facebook">
+
+            <span>Facebook</span>
+
+        </a>
+
+
+        <!-- EMAIL -->
+        <a
+            href="mailto:info@bmchomemart.com"
+            class="floating-item">
+
+            <img src="image/email.png" alt="Email">
+
+            <span>Email</span>
+
+        </a>
+
+
+        <!-- TELEPHONE -->
+        <a
+            href="tel:087 686 7772"
+            class="floating-item">
+
+            <!--<span class="phone-icon">☎</span> -->
+            <img src="image/tell.png" alt="โทรศัพท์" >
+
+            <span>โทรหาเรา</span>
+
+        </a>
+
+    </div>
+
+</div>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <div class="container nav">
+
+        <a href="index.html" class="logo">
+            <img src="image/Logo BMC.jpg" alt="BMC HOMEMART">
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="index.html">หน้าแรก</a>
+            <a href="#about">เกี่ยวกับเรา</a>
+            <a href="products.html">สินค้า</a>
+            <a href="#services">บริการ</a>
+            <a href="#projects">ผลงาน</a>
+            <a href="#contact">ติดต่อเรา</a>
+            
+
+
+
+</a>
+
+        </nav>
+<!-- ================= SEARCG + CART ================= -->        
+        <a href="products.html?search=true" class="search-btn" aria-label="ค้นหาสินค้า">
+                <img src="image/search-icon.png" alt="ค้นหา">
+        </a>
+        <a href="cart.html" class="cart-btn">
+            🛒 <span id="cartCount">0</span>
+        </a>
+
+        <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<!-- <section class="hero">
+
+    <div class="hero-overlay"></div> 
+
+    <div class="container hero-content"> -->
+    
+    <!-- ================= HERO SLIDER ================= -->
+<!-- ================= HERO SLIDER ================= -->
+
+<section class="hero">
+
+    <div class="hero-slider">
+
+        <div class="hero-track" id="heroTrack">
+
+            <!-- SLIDE 1 -->
+            <div class="hero-slide">
+
+                <img
+                    src="image/hero1.jpg"
+                    alt="BMC HOMEMART">
+
+            </div>
+
+
+            <!-- SLIDE 2 -->
+            <div class="hero-slide">
+
+                <img
+                    src="image/hero2.jpg"
+                    alt="BMC HOMEMART">
+
+            </div>
+
+
+            <!-- SLIDE 3 -->
+            <div class="hero-slide">
+
+                <img
+                    src="image/hero3.jpg"
+                    alt="BMC HOMEMART">
+
+            </div>
+
+
+            <!-- SLIDE 4 -->
+            <div class="hero-slide">
+
+                <img
+                    src="image/hero4.jpg"
+                    alt="BMC HOMEMART">
+
+            </div>
+
+        </div>
+
+
+        <!-- Overlay -->
+
+        <div class="hero-overlay"></div>
+
+
+        <!-- ข้อความ -->
+
+        <div class="container hero-content">
+
+            <p class="eyebrow">
+                BMC HOMEMART
+            </p>
+
+            <h1>
+                ศูนย์รวมหินธรรมชาติ หินสังเคราะห์<br>
+                กระเบื้อง ไม้ปูพื้น พร้อมบริการติดตั้ง
+            </h1>
+
+            <!--<p class="hero-description">
+                ศูนย์รวมวัสดุคุณภาพสำหรับบ้าน
+                งานตกแต่ง และโครงการ
+                คัดสรรวัสดุที่ตอบโจทย์ทุกพื้นที่
+            </p> -->
+
+            <div class="hero-buttons">
+
+                <a
+                    href="products.html"
+                    class="btn btn-gold">
+
+                    VIEW COLLECTION
+
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="btn btn-light">
+
+                    CONTACT US
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ปุ่มซ้าย -->
+
+        <button
+            class="slider-btn slider-prev"
+            id="heroPrev"
+            aria-label="Previous slide">
+
+            ‹
+
+        </button>
+
+
+        <!-- ปุ่มขวา -->
+
+        <button
+            class="slider-btn slider-next"
+            id="heroNext"
+            aria-label="Next slide">
+
+            ›
+
+        </button>
+
+
+        <!-- จุดบอก Slide -->
+
+        <div
+            class="slider-dots"
+            id="sliderDots">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro" id="about">
+
+    <div class="container intro-grid">
+
+        <!-- ส่วนที่ 1 -->
+        <div class="intro-image">
+
+            <img
+                src="image/about-bmc.jpg"
+                alt="BMC HOMEMART"
+            >
+
+        </div>
+
+
+        <!-- ส่วนที่ 2 -->
+        <div class="intro-content">
+
+            <p class="eyebrow gold">
+                ABOUT BMC HOMEMART
+            </p>
+
+            <h2>
+                ศูนย์รวมวัสดุตกแต่ง
+                สำหรับบ้านและโครงการ
+            </h2>
+
+            <p>
+                BMC HOMEMART
+                บริษัท บางกอก แมททีเรียล จำกัด
+                ผู้จัดจำหน่ายวัสดุตกแต่งและวัสดุก่อสร้าง
+                คัดสรรสินค้าคุณภาพสำหรับบ้าน
+                งานออกแบบตกแต่งภายใน
+                และโครงการต่าง ๆ
+            </p>
+
+            <p>
+                เราให้ความสำคัญกับคุณภาพของสินค้า
+                การบริการ และความต้องการของลูกค้า
+                พร้อมให้คำปรึกษาและช่วยเลือกวัสดุ
+                ให้เหมาะสมกับรูปแบบการใช้งาน
+            </p>
+
+            <a href="#about-detail" class="text-link">
+                อ่านเพิ่มเติม →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<section class="about-detail" id="about-detail">
+
+    <div class="container about-detail-grid">
+
+        <div class="about-detail-content">
+
+            <p class="eyebrow gold">
+                OUR APPROACH
+            </p>
+
+            <h2>
+                คุณภาพ ความใส่ใจ
+                และบริการที่ครบถ้วน
+            </h2>
+
+            <p>
+                BMC HOMEMART มุ่งมั่นในการนำเสนอ
+                วัสดุคุณภาพที่ตอบโจทย์ทั้งด้านความสวยงาม
+                ความแข็งแรง และการใช้งาน
+            </p>
+
+            <p>
+                เรามีสินค้าให้เลือกหลากหลายประเภท
+                ทั้งหินอ่อน หินแกรนิต พื้นไม้
+                วัสดุตกแต่ง ไม้ PVC และประตู
+                เพื่อรองรับทั้งลูกค้าทั่วไป
+                นักออกแบบ ผู้รับเหมา
+                และโครงการต่าง ๆ
+            </p>
+
+            <p>
+                ทีมงานพร้อมให้คำแนะนำตั้งแต่การเลือกวัสดุ
+                ไปจนถึงการประสานงานด้านสินค้า
+                เพื่อให้ลูกค้าได้รับสินค้าที่เหมาะสม
+                กับโครงการมากที่สุด
+            </p>
+
+        </div>
+
+
+        <div class="about-detail-image">
+
+            <img
+                src="image/about-bmc-2.jpg"
+                alt="BMC HOMEMART วัสดุตกแต่ง"
+            >
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= COLLECTION ================= -->
+
+<section class="collection">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow gold">
+                OUR COLLECTION
+            </p>
+
+            <h2>
+                วัสดุตกแต่งภายในและภายนอก
+            </h2>
+
+        </div>
+
+        <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+
+    </div>
+
+
+        <div class="collection-grid">
+
+            <a href="products.html?category=marble"
+               class="collection-card large">
+
+                <img src="image/marble-02.jpg">
+
+                <div class="collection-info">
+
+                    <small>01</small>
+
+                    <h3>MARBLE</h3>
+
+                    <p>หินอ่อน</p>
+
+                </div>
+
+            </a>
+                    <a href="products.html?category=decor"
+               class="collection-card large">
+
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1400&q=85">
+
+                <div class="collection-info">
+
+                    <small>05</small>
+
+                    <h3>DECORATION</h3>
+
+                    <p>วัสดุตกแต่ง</p>
+
+                </div>
+
+            </a>
+
+
+            <a href="products.html?category=granite"
+               class="collection-card">
+
+                <img src="image/granite-01.jpg">
+
+                <div class="collection-info">
+
+                    <small>02</small>
+
+                    <h3>GRANITE</h3>
+
+                    <p>หินแกรนิต</p>
+
+                </div>
+
+            </a>
+
+
+            <a href="products.html?category=flooring"
+               class="collection-card">
+
+                <img src="image/พื้นไม้เทียม.png">
+
+                <div class="collection-info">
+
+                    <small>03</small>
+
+                    <h3>FLOORING</h3>
+
+                    <p>พื้นไม้</p>
+
+                </div>
+
+            </a>
+
+
+            <a href="products.html?category=door"
+               class="collection-card">
+
+                <img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1200&q=85">
+
+                <div class="collection-info">
+
+                    <small>04</small>
+
+                    <h3>DOOR</h3>
+
+                    <p>ประตู</p>
+
+                </div>
+
+            </a>
+
+
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services" id="services">
+
+    <div class="container">
+
+        <div class="section-heading light">
+
+            <p class="eyebrow gold">
+                OUR SERVICES
+            </p>
+
+            <h2>
+                บริการครบจบในที่เดียว
+            </h2>
+
+        </div>
+
+
+        <div class="service-grid">
+
+            <div class="service">
+
+                <span>01</span>
+
+                <h3>
+                    CONSULTATION
+                </h3>
+
+                <p>
+                    ให้คำปรึกษาเกี่ยวกับวัสดุ
+                    การเลือกสินค้า และการใช้งาน
+                    ให้เหมาะกับพื้นที่ของคุณ
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>02</span>
+
+                <h3>
+                    INSTALLATION
+                </h3>
+
+                <p>
+                    บริการติดตั้งโดยทีมงาน
+                    ที่มีประสบการณ์
+                    เพื่อให้ผลงานออกมาได้มาตรฐาน
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <span>03</span>
+
+                <h3>
+                    FLOOR CARE
+                </h3>
+
+                <p>
+                    บริการขัดและดูแลพื้นหิน
+                    และพื้นไม้
+                    ให้กลับมาสวยงามอีกครั้ง
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECT ================= -->
+
+<section class="projects" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow gold">
+                OUR PROJECTS
+            </p>
+
+            <h2>
+                ผลงานที่เราได้มีส่วนร่วม
+            </h2>
+
+        </div>
+
+
+        <div class="project-grid">
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85">
+
+                <div>
+                    <span>RESIDENTIAL</span>
+                    <h3>Luxury Residence</h3>
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85">
+
+                <div>
+                    <span>INTERIOR</span>
+                    <h3>Modern Interior</h3>
+                </div>
+
+            </div>
+
+
+            <div class="project">
+
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85">
+
+                <div>
+                    <span>COMMERCIAL</span>
+                    <h3>Commercial Space</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <p class="eyebrow">
+            LET'S CREATE SOMETHING BEAUTIFUL
+        </p>
+
+        <h2>
+            ให้ BMC HOMEMART<br>
+            ช่วยสร้างพื้นที่ของคุณ
+        </h2>
+
+        <a href="#contact" class="btn btn-gold">
+            CONTACT US
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+    <div class="container contact-grid">
+
+        <div>
+
+            <p class="eyebrow gold">
+                CONTACT BMC HOMEMART
+            </p>
+
+            <h2>
+                ติดต่อเรา
+            </h2>
+
+            <div class="contact-item">
+
+                <strong>ที่อยู่</strong>
+
+                <p>
+                    2296 มอเตอร์เวย์ ถนนพระราม 9<br>
+                    แขวงสวนหลวง เขตสวนหลวง<br>
+                    กรุงเทพมหานคร 10250
+                </p>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <strong>โทรศัพท์</strong>
+
+                <p>
+                    02-3201084-6
+                </p>
+
+            </div>
+            <div class="contact-item">
+
+                <strong>แฟล็กซ์</strong>
+
+                <p>
+                    02-3201087
+                </p>
+
+            </div>
+                        <div class="contact-item">
+
+                <strong>E-Mail</strong>
+
+                <p>
+                    info@bmchomemart.com
+                </p>
+
+            </div>
+
+            <div class="contact-item">
+
+                <strong>เวลาทำการ</strong>
+
+                <p>
+                    จันทร์ – เสาร์<br>
+                    08:00 – 18:00 น.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="contact-box">
+
+            <h3>
+                ขอใบเสนอราคา
+            </h3>
+
+            <p>
+                แจ้งรายละเอียดสินค้าหรือโครงการ
+                ทีมงาน BMC HOMEMART จะติดต่อกลับ
+            </p>
+
+            <input type="text" placeholder="ชื่อ - นามสกุล">
+
+            <input type="tel" placeholder="เบอร์โทรศัพท์">
+
+            <input type="email" placeholder="อีเมล">
+
+            <textarea placeholder="รายละเอียดโครงการ"></textarea>
+
+            <button class="btn btn-gold" onclick="requestQuote()">
+                ส่งคำขอ
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <div class="footer-logo">
+                BMC <span>HOMEMART</span>
+            </div>
+
+            <p>
+                Premium materials for better living.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>MENU</h4>
+
+            <a href="index.html">หน้าแรก</a>
+            <a href="#about">เกี่ยวกับเรา</a>
+            <a href="products.html">สินค้า</a>
+            <a href="#services">บริการ</a>
+            <a href="#projects">ผลงาน</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>PRODUCTS</h4>
+
+            <a href="products.html?category=marble">หินอ่อน</a>
+            <a href="products.html?category=granite">หินแกรนิต</a>
+            <a href="products.html?category=flooring">พื้นไม้</a>
+            <a href="products.html?category=door">ประตู</a>
+
+        </div>
+
+
+        <div>
+
+            <h4>บริษัท บางกอก แมททีเรียล จำกัด</h4>
+
+            <p>
+                2296 มอเตอร์เวย์ ถนนพระราม 9<br>
+                เขตสวนหลวง กรุงเทพมหานคร
+            </p>
+
+            <p>
+                โทร : 02-3201087
+            </p>
+
+<!-- SOCIAL MEDIA -->
+<div class="footer-social">
+
+    <!-- LINE -->
+    <a href="https://lin.ee/XIdfyi8"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="LINE">
+
+        <img src="image/line.png" alt="LINE">
+
+    </a>
+
+
+    <!-- FACEBOOK -->
+    <a href="https://www.facebook.com/bmchomemart?ref=embed_page"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Facebook">
+
+        <img src="image/facebook.png" alt="Facebook">
+
+    </a>
+
+
+    <!-- EMAIL -->
+    <a href="mailto:info@bmchomemart.com"
+       aria-label="Email">
+
+        <img src="image/email.png" alt="Email">
+
+    </a>
+
+</div>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 BMC HOMEMART. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
