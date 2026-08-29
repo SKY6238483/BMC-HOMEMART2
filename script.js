@@ -1129,13 +1129,12 @@ function renderProductDetail() {
 
                 </p>
 
-                <div class="product-detail-price">
+<div class="product-detail-price">
 
-                    ${product.price.toLocaleString()} 
+    ${product.price.toLocaleString()}
+    / ${product.categoryCode === "door" ? "ชุด" : "ตร.ม."}
 
-                    /ตร.ม.
-
-                </div>
+</div>
 
                 <button
 
