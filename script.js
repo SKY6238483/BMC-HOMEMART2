@@ -745,6 +745,7 @@ const productDetails = {
         categoryCode: "marble",
 
         price: 1850,
+        unit : "ตร.ม."
 
         description:
             "หินอ่อนสีขาวจากธรรมชาติ " +
@@ -1130,7 +1131,7 @@ function renderProductDetail() {
 
                 <div class="product-detail-price">
 
-                    ${product.price.toLocaleString()}
+                    ${product.price.toLocaleString()} / ${product.quantity}
 
                     /ตร.ม.
 
