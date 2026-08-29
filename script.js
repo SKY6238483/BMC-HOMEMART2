@@ -1132,7 +1132,7 @@ function renderProductDetail() {
 
                     ${product.price.toLocaleString()}
 
-                    บาท
+                    /ตร.ม.
 
                 </div>
 
