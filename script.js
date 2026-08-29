@@ -745,7 +745,7 @@ const productDetails = {
         categoryCode: "marble",
 
         price: 1850,
-        unit : "ตร.ม.",
+        unit : "/ตร.ม",
 
         description:
             "หินอ่อนสีขาวจากธรรมชาติ " +
