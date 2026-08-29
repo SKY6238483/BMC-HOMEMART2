@@ -745,7 +745,7 @@ const productDetails = {
         categoryCode: "marble",
 
         price: 1850,
-        unit : "ตร.ม.",
+
         
 
         description:
@@ -779,7 +779,7 @@ const productDetails = {
         categoryCode: "marble",
 
         price: 2450,
-        unit : "ตร.ม.",
+
 
         description:
 
@@ -820,7 +820,7 @@ const productDetails = {
         categoryCode: "granite",
 
         price: 1950,
-        unit : "ตร.ม.",
+
 
         description:
 
@@ -863,7 +863,7 @@ const productDetails = {
         categoryCode: "flooring",
 
         price: 1290,
-        unit : "ตร.ม.",
+
 
         description:
 
@@ -904,7 +904,7 @@ const productDetails = {
         categoryCode: "pvc",
 
         price: 590,
-        unit : "ตร.ม.",
+
 
         description:
 
@@ -943,7 +943,7 @@ const productDetails = {
         categoryCode: "door",
 
         price: 8900,
-        unit : "ชุด",
+
 
         description:
 
@@ -1137,8 +1137,8 @@ function renderProductDetail() {
 
 <div class="product-detail-price">
 
-     ${product.price.toLocaleString()} / ${product.unit}
-
+     ${product.price.toLocaleString()} / 
+     บาท
 
 </div>
 
