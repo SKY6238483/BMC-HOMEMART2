@@ -1131,7 +1131,7 @@ function renderProductDetail() {
 
                 <div class="product-detail-price">
 
-                    ${product.price.toLocaleString()} / ${product.quantity}
+                    ${product.price.toLocaleString()} / ${product.unit}
 
                     /ตร.ม.
 
