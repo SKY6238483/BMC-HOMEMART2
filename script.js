@@ -1137,9 +1137,7 @@ function renderProductDetail() {
 
 <div class="product-detail-price">
 
-     ${product.price.toLocaleString()}  
-     บาท
-
+     ${product.price.toLocaleString()} / ${product.categoryCode === "door" ? "ชุด" : "ตร.ม."}
 </div>
 
                 <button
