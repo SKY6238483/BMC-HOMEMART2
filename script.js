@@ -1137,7 +1137,7 @@ function renderProductDetail() {
 
 <div class="product-detail-price">
 
-     ${product.price.toLocaleString()} / 
+     ${product.price.toLocaleString()}  
      บาท
 
 </div>
