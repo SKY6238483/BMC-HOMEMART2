@@ -648,7 +648,9 @@ function filterProducts() {
 
         const matchCategory =
             selectedCategory === "all" ||
-            productCategory === selectedCategory;
+            productCategory === selectedCategory ||
+            (selectedCategory === "natural" &&
+                ["marble", "granite"].includes(productCategory));
 
 
         /* ==================================
@@ -724,6 +726,43 @@ function resetProductFilter() {
 
 }
 
+
+
+/* =========================================================
+   PRODUCT CATALOG UI
+========================================================= */
+function sortProducts(){
+    const grid=document.getElementById('productCatalog');
+    const select=document.getElementById('sortFilter');
+    if(!grid || !select) return;
+    const cards=[...grid.querySelectorAll('.product-card')];
+    if(select.value==='price-low') cards.sort((a,b)=>Number(a.dataset.price||0)-Number(b.dataset.price||0));
+    if(select.value==='price-high') cards.sort((a,b)=>Number(b.dataset.price||0)-Number(a.dataset.price||0));
+    if(select.value==='name') cards.sort((a,b)=>(a.dataset.name||'').localeCompare(b.dataset.name||'','en'));
+    cards.forEach(card=>grid.appendChild(card));
+}
+
+document.addEventListener('DOMContentLoaded',()=>{
+    const pills=document.querySelectorAll('.product-pill');
+    const category=document.getElementById('categoryFilter');
+    pills.forEach(pill=>pill.addEventListener('click',()=>{
+        pills.forEach(p=>p.classList.remove('active'));
+        pill.classList.add('active');
+        if(category){ category.value=pill.dataset.value; filterProducts(); }
+    }));
+    if(category){ category.addEventListener('change',()=>{
+        pills.forEach(p=>p.classList.toggle('active',p.dataset.value===category.value));
+    });}
+    const originalFilter=window.filterProducts;
+    if(originalFilter){
+        const count=document.getElementById('productVisibleCount');
+        const observer=new MutationObserver(()=>{
+            if(count){ count.textContent=[...document.querySelectorAll('.product-card')].filter(c=>c.style.display!=='none').length; }
+        });
+        const grid=document.getElementById('productCatalog');
+        if(grid) observer.observe(grid,{attributes:true,subtree:true,attributeFilter:['style']});
+    }
+});
 
 /* =========================================================
    PRODUCT DETAIL DATA
@@ -1958,3 +1997,28 @@ document.addEventListener(
     }
 
 );   
+/* =========================================================
+   MATERIAL SHOWCASE TABS
+========================================================= */
+document.addEventListener('DOMContentLoaded', function(){
+    const switchButtons=document.querySelectorAll('.material-switch-btn');
+    const panels=document.querySelectorAll('.material-panel');
+    switchButtons.forEach(btn=>btn.addEventListener('click',()=>{
+        switchButtons.forEach(b=>b.classList.remove('active'));
+        panels.forEach(p=>p.classList.remove('active'));
+        btn.classList.add('active');
+        const target=document.getElementById(btn.dataset.materialTarget);
+        if(target) target.classList.add('active');
+    }));
+    document.querySelectorAll('.material-panel').forEach(panel=>{
+        const buttons=panel.querySelectorAll('.material-category-btn');
+        const cats=panel.querySelectorAll('.material-category-panel');
+        buttons.forEach(btn=>btn.addEventListener('click',()=>{
+            buttons.forEach(b=>b.classList.remove('active'));
+            cats.forEach(c=>c.classList.remove('active'));
+            btn.classList.add('active');
+            const target=document.getElementById(btn.dataset.categoryTarget);
+            if(target) target.classList.add('active');
+        }));
+    });
+});

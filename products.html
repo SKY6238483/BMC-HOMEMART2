@@ -177,24 +177,28 @@ BMC HOMEMART COLLECTION
 
 </div>
 
+<div class="product-category-pills" aria-label="หมวดสินค้า">
+    <button type="button" class="product-pill active" data-value="all">ทั้งหมด</button>
+    <button type="button" class="product-pill" data-value="natural">หินธรรมชาติ</button>
+    <button type="button" class="product-pill" data-value="marble">หินอ่อน</button>
+    <button type="button" class="product-pill" data-value="granite">หินแกรนิต</button>
+    <button type="button" class="product-pill" data-value="artificial">หินเทียม</button>
+    <button type="button" class="product-pill" data-value="flooring">ไม้พื้นเทียม</button>
+    <button type="button" class="product-pill" data-value="pvc">ผนัง-ฝ้า</button>
+    <button type="button" class="product-pill" data-value="decor">ตกแต่งอเนกประสงค์</button>
+</div>
 
-<!-- SEARCH -->
-
-<div class="product-toolbar">
-
-<input
-type="text"
-id="searchInput"
-placeholder="ค้นหาสินค้า เช่น หินอ่อน พื้นไม้ ประตู..."
-onkeyup="filterProducts()"
->
-
-
-<select id="categoryFilter"
-onchange="filterProducts()">
+<!-- SEARCH / SORT -->
+<div class="product-toolbar remood-product-toolbar">
+    <input type="text" id="searchInput" placeholder="ค้นหาชื่อวัสดุหรือสินค้า..." onkeyup="filterProducts()">
+    <select id="categoryFilter" onchange="filterProducts()">
 
 <option value="all">
 ทุกหมวดสินค้า
+</option>
+
+<option value="natural">
+หินธรรมชาติ
 </option>
 
 <option value="marble">
@@ -205,12 +209,16 @@ onchange="filterProducts()">
 หินแกรนิต
 </option>
 
+<option value="artificial">
+หินเทียม
+</option>
+
 <option value="flooring">
-พื้นไม้
+ไม้พื้นเทียม
 </option>
 
 <option value="pvc">
-ไม้ PVC
+ไม้เทียมตกแต่งผนัง-ฝ้า
 </option>
 
 <option value="tile">
@@ -226,14 +234,20 @@ onchange="filterProducts()">
 </option>
 
 <option value="decor">
-วัสดุตกแต่ง
+ไม้ตกแต่งอเนกประสงค์ / อุปกรณ์เสริม
 </option>
 
 
 </select>
-
+    <select id="sortFilter" onchange="sortProducts()">
+        <option value="default">เรียงตามลำดับ</option>
+        <option value="price-low">ราคาต่ำ → สูง</option>
+        <option value="price-high">ราคาสูง → ต่ำ</option>
+        <option value="name">ชื่อสินค้า A → Z</option>
+    </select>
 </div>
 
+<div class="catalog-meta"><span>สินค้าในแคตตาล็อก</span><strong id="productVisibleCount">6</strong> <span>รายการ</span></div>
 
 <!-- PRODUCTS -->
 

@@ -381,129 +381,146 @@
 
 </section>
 
-<!-- ================= COLLECTION ================= -->
-
-<section class="collection">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <p class="eyebrow gold">
-                OUR COLLECTION
-            </p>
-
-            <h2>
-                วัสดุตกแต่งภายในและภายนอก
-            </h2>
-
+<!-- ================= REMOOD-INSPIRED MATERIAL SHOWCASE ================= -->
+<section class="material-showcase" id="interior-materials">
+    <div class="container material-container">
+        <div class="material-heading">
+            <div>
+                <p class="eyebrow gold">OUR MATERIALS</p>
+                <h2>เลือกซื้อวัสดุตกแต่ง<br>สำหรับพื้นที่ของคุณ</h2>
+            </div>
+            <p class="material-heading-copy">รวมวัสดุที่มีอยู่ใน BMC HOMEMART แบ่งตามประเภทการใช้งาน เพื่อให้เลือกดูสินค้าได้ง่ายบนทุกอุปกรณ์</p>
         </div>
 
-        <button class="mobile-menu" onclick="toggleMenu()">☰</button>
-
-    </div>
-
-
-        <div class="collection-grid">
-
-            <a href="products.html?category=marble"
-               class="collection-card large">
-
-                <img src="image/marble-02.jpg">
-
-                <div class="collection-info">
-
-                    <small>01</small>
-
-                    <h3>MARBLE</h3>
-
-                    <p>หินอ่อน</p>
-
-                </div>
-
-            </a>
-                    <a href="products.html?category=decor"
-               class="collection-card large">
-
-                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1400&q=85">
-
-                <div class="collection-info">
-
-                    <small>05</small>
-
-                    <h3>DECORATION</h3>
-
-                    <p>วัสดุตกแต่ง</p>
-
-                </div>
-
-            </a>
-
-
-            <a href="products.html?category=granite"
-               class="collection-card">
-
-                <img src="image/granite-01.jpg">
-
-                <div class="collection-info">
-
-                    <small>02</small>
-
-                    <h3>GRANITE</h3>
-
-                    <p>หินแกรนิต</p>
-
-                </div>
-
-            </a>
-
-
-            <a href="products.html?category=flooring"
-               class="collection-card">
-
-                <img src="image/พื้นไม้เทียม.png">
-
-                <div class="collection-info">
-
-                    <small>03</small>
-
-                    <h3>FLOORING</h3>
-
-                    <p>พื้นไม้</p>
-
-                </div>
-
-            </a>
-
-
-            <a href="products.html?category=door"
-               class="collection-card">
-
-                <img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1200&q=85">
-
-                <div class="collection-info">
-
-                    <small>04</small>
-
-                    <h3>DOOR</h3>
-
-                    <p>ประตู</p>
-
-                </div>
-
-            </a>
-
-
-
-
+        <div class="material-switch" role="tablist" aria-label="ประเภทวัสดุ">
+            <button class="material-switch-btn active" data-material-target="interior-panel" type="button">ตกแต่งภายใน</button>
+            <button class="material-switch-btn" data-material-target="exterior-panel" type="button">ตกแต่งภายนอก</button>
         </div>
 
-    </div>
+        <div class="material-panel active" id="interior-panel">
+            <div class="material-category-tabs" role="tablist" aria-label="วัสดุตกแต่งภายใน">
+                <button class="material-category-btn active" data-category-target="natural-panel" type="button">หินธรรมชาติ</button>
+                <button class="material-category-btn" data-category-target="marble-panel" type="button">หินอ่อน</button>
+                <button class="material-category-btn" data-category-target="granite-panel" type="button">หินแกรนิต</button>
+                <button class="material-category-btn" data-category-target="artificial-panel" type="button">หินเทียม</button>
+            </div>
 
+            <div class="material-category-panel active" id="natural-panel">
+                <div class="material-feature">
+                    <div class="material-gallery">
+                        <img src="image/marble-02.jpg" alt="หินธรรมชาติ BMC HOMEMART">
+                        <div class="material-gallery-small">
+                            <img src="image/black-galaxy-granite.jpg" alt="หินแกรนิตธรรมชาติ">
+                            <img src="image/carrara-white.jpg" alt="หินอ่อนธรรมชาติ">
+                        </div>
+                    </div>
+                    <div class="material-copy">
+                        <span class="material-number">01</span>
+                        <h3>หินธรรมชาติ</h3>
+                        <p>วัสดุหินจากธรรมชาติสำหรับงานตกแต่ง โดยข้อมูลสินค้าในเว็บเดิมของ BMC มีทั้งหินอ่อนและหินแกรนิต เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งภายใน</p>
+                        <div class="material-tags"><span>หินอ่อน</span><span>หินแกรนิต</span><span>งานพื้น</span><span>งานผนัง</span></div>
+                        <a class="material-cta" href="products.html?category=natural">เลือกดูวัสดุ <span>→</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="material-category-panel" id="marble-panel">
+                <div class="material-feature">
+                    <div class="material-gallery">
+                        <img src="image/carrara-white.jpg" alt="White Carrara Marble">
+                        <div class="material-gallery-small">
+                            <img src="image/carrara-white-2.jpg" alt="White Carrara Marble detail">
+                            <img src="image/MARQUINA-NERO.jpg" alt="Nero Marquina">
+                        </div>
+                    </div>
+                    <div class="material-copy">
+                        <span class="material-number">02</span>
+                        <h3>หินอ่อน</h3>
+                        <p>หินอ่อนจากข้อมูลเดิมของ BMC เช่น White Carrara Marble และ Nero Marquina เหมาะกับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา</p>
+                        <div class="material-tags"><span>White Carrara</span><span>Nero Marquina</span><span>พื้น</span><span>ผนัง</span></div>
+                        <a class="material-cta" href="products.html?category=marble">เลือกดูวัสดุ <span>→</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="material-category-panel" id="granite-panel">
+                <div class="material-feature">
+                    <div class="material-gallery">
+                        <img src="image/black-galaxy-granite.jpg" alt="Black Galaxy Granite">
+                        <div class="material-gallery-small">
+                            <img src="image/black-galaxy-granite-2.jpg" alt="Black Galaxy Granite detail">
+                            <img src="image/granite-01.jpg" alt="Granite collection">
+                        </div>
+                    </div>
+                    <div class="material-copy">
+                        <span class="material-number">03</span>
+                        <h3>หินแกรนิต</h3>
+                        <p>หินแกรนิตจากข้อมูลเดิมของ BMC เช่น Black Galaxy Granite เน้นความแข็งแรงและทนทาน เหมาะกับเคาน์เตอร์ พื้น ผนัง และงานตกแต่ง</p>
+                        <div class="material-tags"><span>Black Galaxy</span><span>เคาน์เตอร์</span><span>พื้น</span><span>ผนัง</span></div>
+                        <a class="material-cta" href="products.html?category=granite">เลือกดูวัสดุ <span>→</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="material-category-panel" id="artificial-panel">
+                <div class="material-feature">
+                    <div class="material-gallery">
+                        <img src="image/granite-02.jpg" alt="หินเทียมและวัสดุสังเคราะห์ BMC HOMEMART">
+                        <div class="material-gallery-small">
+                            <img src="image/PVC-wall-3.jpg" alt="วัสดุตกแต่งเดิมของ BMC">
+                            <img src="image/PVC-wall-4.jpg" alt="วัสดุผนังเดิมของ BMC">
+                        </div>
+                    </div>
+                    <div class="material-copy">
+                        <span class="material-number">04</span>
+                        <h3>หินเทียม</h3>
+                        <p>จัดหมวดสำหรับวัสดุหินเทียม/หินสังเคราะห์ตามโครงสร้างเว็บไซต์ใหม่ โดยยังไม่เพิ่มชื่อหรือคุณสมบัติสินค้าที่ไม่มีอยู่ในข้อมูลเดิมของ BMC</p>
+                        <div class="material-tags"><span>หินเทียม</span><span>หินสังเคราะห์</span><span>สอบถามสินค้า</span></div>
+                        <a class="material-cta" href="#contact">สอบถามวัสดุ <span>→</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="material-panel" id="exterior-panel">
+            <div class="material-category-tabs" role="tablist" aria-label="วัสดุตกแต่งภายนอก">
+                <button class="material-category-btn active" data-category-target="flooring-panel" type="button">ไม้พื้นเทียม</button>
+                <button class="material-category-btn" data-category-target="cladding-panel" type="button">ไม้เทียมตกแต่งผนัง-ฝ้า</button>
+                <button class="material-category-btn" data-category-target="decor-panel" type="button">ไม้ตกแต่งอเนกประสงค์</button>
+                <button class="material-category-btn" data-category-target="accessories-panel" type="button">อุปกรณ์เสริม - ภายนอก</button>
+            </div>
+
+            <div class="material-category-panel active" id="flooring-panel">
+                <div class="material-feature">
+                    <div class="material-gallery"><img src="image/flooring-01.jpg" alt="ไม้พื้นเทียม BMC HOMEMART"><div class="material-gallery-small"><img src="image/oak-engineer.jpg" alt="Oak flooring"><img src="image/oak-engineer-2.jpg" alt="Oak flooring detail"></div></div>
+                    <div class="material-copy"><span class="material-number">01</span><h3>ไม้พื้นเทียม</h3><p>วัสดุปูพื้นจากข้อมูลเดิมของ BMC ใช้สำหรับงานตกแต่งพื้นและพื้นที่ที่ต้องการลุคไม้ พร้อมข้อมูลสินค้า Oak Engineered Flooring ที่มีอยู่ในเว็บเดิม</p><div class="material-tags"><span>Oak</span><span>พื้นไม้</span><span>งานภายใน</span></div><a class="material-cta" href="products.html?category=flooring">เลือกดูวัสดุ <span>→</span></a></div>
+                </div>
+            </div>
+            <div class="material-category-panel" id="cladding-panel">
+                <div class="material-feature">
+                    <div class="material-gallery"><img src="image/PVC-wall-4.jpg" alt="ไม้เทียมตกแต่งผนังและฝ้า"><div class="material-gallery-small"><img src="image/PVC-wall-2.jpg" alt="PVC wall"><img src="image/PVC-wall-3.jpg" alt="PVC wall detail"></div></div>
+                    <div class="material-copy"><span class="material-number">02</span><h3>ไม้เทียมตกแต่งผนัง-ฝ้า</h3><p>วัสดุตกแต่งผนังจากข้อมูลเดิมของ BMC โดยมีสินค้า Wood PVC Wall เป็นข้อมูลหลักในเว็บไซต์เดิม</p><div class="material-tags"><span>Wood PVC Wall</span><span>ผนัง</span><span>ฝ้า</span></div><a class="material-cta" href="products.html?category=pvc">เลือกดูวัสดุ <span>→</span></a></div>
+                </div>
+            </div>
+            <div class="material-category-panel" id="decor-panel">
+                <div class="material-feature">
+                    <div class="material-gallery"><img src="image/decor-01.jpg" alt="ไม้ตกแต่งอเนกประสงค์"><div class="material-gallery-small"><img src="image/PVC-wall-3.jpg" alt="วัสดุตกแต่ง"><img src="image/PVC-wall-4.jpg" alt="วัสดุตกแต่งผนัง"></div></div>
+                    <div class="material-copy"><span class="material-number">03</span><h3>ไม้ตกแต่งอเนกประสงค์</h3><p>หมวดสำหรับวัสดุตกแต่งอเนกประสงค์ตามโครงสร้างสินค้าเดิมของ BMC โดยไม่เพิ่มรายละเอียดสินค้าที่ไม่มีในข้อมูลเดิม</p><div class="material-tags"><span>Decor</span><span>ตกแต่ง</span><span>อเนกประสงค์</span></div><a class="material-cta" href="products.html?category=decor">เลือกดูวัสดุ <span>→</span></a></div>
+                </div>
+            </div>
+            <div class="material-category-panel" id="accessories-panel">
+                <div class="material-feature">
+                    <div class="material-gallery"><img src="image/PVC-wall-3.jpg" alt="อุปกรณ์เสริมภายนอก"><div class="material-gallery-small"><img src="image/decor-01.jpg" alt="อุปกรณ์เสริม"><img src="image/PVC-wall-4.jpg" alt="อุปกรณ์เสริม"></div></div>
+                    <div class="material-copy"><span class="material-number">04</span><h3>อุปกรณ์เสริม - ภายนอก</h3><p>จัดหมวดอุปกรณ์เสริมให้เหมือนโครงสร้างการนำเสนอแบบร้านวัสดุออนไลน์ โดยใช้ข้อมูลและภาพที่มีอยู่ในเว็บเดิมของ BMC เท่านั้น</p><div class="material-tags"><span>อุปกรณ์เสริม</span><span>ติดตั้ง</span><span>สอบถาม</span></div><a class="material-cta" href="#contact">สอบถามสินค้า <span>→</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
 <!-- ================= SERVICES ================= -->
+
 
 <section class="services" id="services">
 
