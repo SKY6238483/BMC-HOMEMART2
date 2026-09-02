@@ -994,7 +994,7 @@ const productDetails = {
 
         images: [
 
-            "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1200&q=85"
+            "image/door-01.jpg"
 
         ]
 
