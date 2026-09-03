@@ -384,12 +384,17 @@
 <!-- ================= REMOOD-INSPIRED MATERIAL SHOWCASE ================= -->
 <section class="material-showcase" id="interior-materials">
     <div class="container material-container">
-        <div class="material-heading material-section-heading">
+        <div class="material-heading">
             <div>
                 <p class="eyebrow gold">OUR MATERIALS</p>
-                <h2>วัสดุ <span>ตกแต่งภายใน</span> ของเรา</h2>
+                <h2>เลือกซื้อวัสดุตกแต่ง<br>สำหรับพื้นที่ของคุณ</h2>
             </div>
-            <p class="material-heading-copy">รวมวัสดุตกแต่งภายในของ BMC HOMEMART แบ่งเป็นหมวดหมู่เพื่อให้เลือกดูสินค้าได้ง่าย</p>
+            <p class="material-heading-copy">รวมวัสดุที่มีอยู่ใน BMC HOMEMART แบ่งตามประเภทการใช้งาน เพื่อให้เลือกดูสินค้าได้ง่ายบนทุกอุปกรณ์</p>
+        </div>
+
+        <div class="material-switch" role="tablist" aria-label="ประเภทวัสดุ">
+            <button class="material-switch-btn active" data-material-target="interior-panel" type="button">ตกแต่งภายใน</button>
+            <button class="material-switch-btn" data-material-target="exterior-panel" type="button">ตกแต่งภายนอก</button>
         </div>
 
         <div class="material-panel active" id="interior-panel">
@@ -477,15 +482,7 @@
             </div>
         </div>
 
-        <div class="material-panel active material-exterior-section" id="exterior-panel">
-            <div class="material-heading material-section-heading">
-                <div>
-                    <p class="eyebrow gold">EXTERIOR MATERIALS</p>
-                    <h2>ไม้เทียม <span>ภายนอก</span> ของเรา</h2>
-                </div>
-                <p class="material-heading-copy">รวมวัสดุตกแต่งภายนอกของ BMC HOMEMART แบ่งเป็นหมวดหมู่เพื่อให้เลือกดูสินค้าได้ง่าย</p>
-            </div>
-
+        <div class="material-panel" id="exterior-panel">
             <div class="material-category-tabs" role="tablist" aria-label="วัสดุตกแต่งภายนอก">
                 <button class="material-category-btn active" data-category-target="flooring-panel" type="button">ไม้พื้นเทียม</button>
                 <button class="material-category-btn" data-category-target="cladding-panel" type="button">ไม้เทียมตกแต่งผนัง-ฝ้า</button>
@@ -770,32 +767,17 @@
                 ทีมงาน BMC HOMEMART จะติดต่อกลับ
             </p>
 
-            <input
-    type="text"
-    id="customerName"
-    placeholder="ชื่อ - นามสกุล">
+            <input type="text" placeholder="ชื่อ - นามสกุล">
 
-<input
-    type="tel"
-    id="customerPhone"
-    placeholder="เบอร์โทรศัพท์">
+            <input type="tel" placeholder="เบอร์โทรศัพท์">
 
-<input
-    type="email"
-    id="customerEmail"
-    placeholder="อีเมล">
+            <input type="email" placeholder="อีเมล">
 
-<textarea
-    id="customerMessage"
-    placeholder="รายละเอียดโครงการ"></textarea>
+            <textarea placeholder="รายละเอียดโครงการ"></textarea>
 
-
-
-            <button
-    class="btn btn-gold"
-    onclick="submitQuote()">
-    ส่งคำขอ
-</button>
+            <button class="btn btn-gold" onclick="requestQuote()">
+                ส่งคำขอ
+            </button>
 
         </div>
 
