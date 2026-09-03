@@ -1997,28 +1997,191 @@ document.addEventListener(
     }
 
 );   
+
 /* =========================================================
    MATERIAL SHOWCASE TABS
 ========================================================= */
-document.addEventListener('DOMContentLoaded', function(){
-    const switchButtons=document.querySelectorAll('.material-switch-btn');
-    const panels=document.querySelectorAll('.material-panel');
-    switchButtons.forEach(btn=>btn.addEventListener('click',()=>{
-        switchButtons.forEach(b=>b.classList.remove('active'));
-        panels.forEach(p=>p.classList.remove('active'));
-        btn.classList.add('active');
-        const target=document.getElementById(btn.dataset.materialTarget);
-        if(target) target.classList.add('active');
-    }));
-    document.querySelectorAll('.material-panel').forEach(panel=>{
-        const buttons=panel.querySelectorAll('.material-category-btn');
-        const cats=panel.querySelectorAll('.material-category-panel');
-        buttons.forEach(btn=>btn.addEventListener('click',()=>{
-            buttons.forEach(b=>b.classList.remove('active'));
-            cats.forEach(c=>c.classList.remove('active'));
-            btn.classList.add('active');
-            const target=document.getElementById(btn.dataset.categoryTarget);
-            if(target) target.classList.add('active');
-        }));
-    });
-});
+
+document.addEventListener(
+    "DOMContentLoaded",
+    function () {
+
+        /* ==========================================
+           MAIN MATERIAL SWITCH
+           เผื่ออนาคตมี Interior / Exterior switch
+        ========================================== */
+
+        const switchButtons =
+            document.querySelectorAll(
+                ".material-switch-btn"
+            );
+
+        const materialPanels =
+            document.querySelectorAll(
+                ".material-panel"
+            );
+
+
+        switchButtons.forEach(
+            function (button) {
+
+                button.addEventListener(
+                    "click",
+                    function () {
+
+                        switchButtons.forEach(
+                            function (btn) {
+
+                                btn.classList.remove(
+                                    "active"
+                                );
+
+                            }
+                        );
+
+
+                        materialPanels.forEach(
+                            function (panel) {
+
+                                panel.classList.remove(
+                                    "active"
+                                );
+
+                            }
+                        );
+
+
+                        button.classList.add(
+                            "active"
+                        );
+
+
+                        const targetId =
+                            button.dataset.materialTarget;
+
+
+                        const target =
+                            document.getElementById(
+                                targetId
+                            );
+
+
+                        if (target) {
+
+                            target.classList.add(
+                                "active"
+                            );
+
+                        }
+
+                    }
+                );
+
+            }
+        );
+
+
+        /* ==========================================
+           INTERIOR / EXTERIOR CATEGORY TABS
+        ========================================== */
+
+        const materialPanelsWithTabs =
+            document.querySelectorAll(
+                ".material-panel"
+            );
+
+
+        materialPanelsWithTabs.forEach(
+            function (panel) {
+
+                const buttons =
+                    panel.querySelectorAll(
+                        ".material-category-btn"
+                    );
+
+
+                const categoryPanels =
+                    panel.querySelectorAll(
+                        ".material-category-panel"
+                    );
+
+
+                if (!buttons.length) {
+                    return;
+                }
+
+
+                buttons.forEach(
+                    function (button) {
+
+                        button.addEventListener(
+                            "click",
+                            function () {
+
+                                const targetId =
+                                    button.dataset.categoryTarget;
+
+
+                                const target =
+                                    document.getElementById(
+                                        targetId
+                                    );
+
+
+                                if (!target) {
+                                    return;
+                                }
+
+
+                                /* เอา active ออกจากปุ่มทั้งหมด
+                                   เฉพาะ section นี้ */
+
+                                buttons.forEach(
+                                    function (btn) {
+
+                                        btn.classList.remove(
+                                            "active"
+                                        );
+
+                                    }
+                                );
+
+
+                                /* เอา active ออกจาก content
+                                   เฉพาะ section นี้ */
+
+                                categoryPanels.forEach(
+                                    function (categoryPanel) {
+
+                                        categoryPanel.classList.remove(
+                                            "active"
+                                        );
+
+                                    }
+                                );
+
+
+                                /* เปิดปุ่มที่เลือก */
+
+                                button.classList.add(
+                                    "active"
+                                );
+
+
+                                /* เปิด content */
+
+                                target.classList.add(
+                                    "active"
+                                );
+
+                            }
+                        );
+
+                    }
+                );
+
+            }
+        );
+
+    }
+);
