@@ -770,17 +770,30 @@
                 ทีมงาน BMC HOMEMART จะติดต่อกลับ
             </p>
 
-            <input type="text" placeholder="ชื่อ - นามสกุล">
+            <input
+    type="text"
+    id="customerName"
+    placeholder="ชื่อ - นามสกุล">
 
-            <input type="tel" placeholder="เบอร์โทรศัพท์">
+<input
+    type="tel"
+    id="customerPhone"
+    placeholder="เบอร์โทรศัพท์">
 
-            <input type="email" placeholder="อีเมล">
+<input
+    type="email"
+    id="customerEmail"
+    placeholder="อีเมล">
 
-            <textarea placeholder="รายละเอียดโครงการ"></textarea>
+<textarea
+    id="customerMessage"
+    placeholder="รายละเอียดโครงการ"></textarea>
 
-            <button class="btn btn-gold" onclick="requestQuote()">
-                ส่งคำขอ
-            </button>
+            <button
+    class="btn btn-gold"
+    onclick="submitQuote()">
+    ส่งคำขอ
+</button>
 
         </div>
 

@@ -2025,20 +2025,10 @@ footer a:hover {
 
 }
 
-.floating-contact.active
-
-.floating-menu {
-
+.floating-contact.active .floating-menu {
     opacity: 1;
-
     visibility: visible;
-
-    transform:
-
-        translateY(0)
-
-        scale(1);
-
+    transform: translateY(0) scale(1);
 }
 
 .floating-item {
