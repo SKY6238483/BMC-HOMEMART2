@@ -2668,7 +2668,16 @@ footer a:hover {
     text-align: left;
 }
 
-.footer-privacy {
+.footer-policy-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.footer-privacy,
+.footer-cookie {
     display: inline-block;
     margin: 0 !important;
     padding: 0 !important;
@@ -2678,8 +2687,14 @@ footer a:hover {
     white-space: nowrap;
 }
 
-.footer-privacy:hover {
+.footer-privacy:hover,
+.footer-cookie:hover {
     color: #d4b27d !important;
+}
+
+.footer-policy-separator {
+    color: #bbb;
+    font-size: 13px;
 }
 
 @media (max-width: 700px) {
@@ -2690,7 +2705,14 @@ footer a:hover {
         text-align: center;
     }
 
-    .footer-privacy {
+    .footer-policy-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+
+    .footer-privacy,
+    .footer-cookie {
         white-space: normal;
     }
 }
