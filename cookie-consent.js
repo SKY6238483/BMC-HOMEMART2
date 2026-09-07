@@ -3,7 +3,7 @@
    แสดงแจ้งเตือนคุกกี้ทันทีเมื่อเปิดเว็บไซต์
 ========================================================= */
 (function () {
-    const KEY = 'bmcCookieConsentV2';
+    const KEY = 'bmcCookieConsentV4';
 
     function injectStyles() {
         if (document.getElementById('bmcCookieConsentStyles')) return;
@@ -186,7 +186,7 @@
         document.body.style.overflow = 'hidden';
 
         function closeConsent(value) {
-            localStorage.setItem(KEY, value);
+            try { localStorage.setItem(KEY, value); } catch (e) {}
             box.remove();
             overlay.remove();
             document.body.style.overflow = '';
@@ -208,7 +208,13 @@
     }
 
     function init() {
-        if (localStorage.getItem(KEY)) return;
+        // แสดงทุกครั้งจนกว่าผู้ใช้จะเลือก ยอมรับ/ปฏิเสธ
+        // ใช้ try/catch เพื่อให้ทำงานได้แม้เบราว์เซอร์บล็อก localStorage
+        try {
+            if (localStorage.getItem(KEY)) return;
+        } catch (e) {
+            // ถ้า localStorage ใช้งานไม่ได้ ให้แสดงแบนเนอร์ต่อไป
+        }
         showBanner();
     }
 
