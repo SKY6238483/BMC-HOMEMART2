@@ -2001,15 +2001,6 @@ document.addEventListener(
    MATERIAL SHOWCASE TABS
 ========================================================= */
 document.addEventListener('DOMContentLoaded', function(){
-    const switchButtons=document.querySelectorAll('.material-switch-btn');
-    const panels=document.querySelectorAll('.material-panel');
-    switchButtons.forEach(btn=>btn.addEventListener('click',()=>{
-        switchButtons.forEach(b=>b.classList.remove('active'));
-        panels.forEach(p=>p.classList.remove('active'));
-        btn.classList.add('active');
-        const target=document.getElementById(btn.dataset.materialTarget);
-        if(target) target.classList.add('active');
-    }));
     document.querySelectorAll('.material-panel').forEach(panel=>{
         const buttons=panel.querySelectorAll('.material-category-btn');
         const cats=panel.querySelectorAll('.material-category-panel');
