@@ -804,6 +804,40 @@ const productDetails = {
         ]
 
     },
+    /* =====================================================
+       Golden Portoro
+    ===================================================== */
+
+    "golden-portoro": {
+
+        name: "Golden Portoro Marble",
+
+        category: "หินอ่อน",
+
+        categoryCode: "marble",
+
+        price: 1850,
+
+        
+
+        description:
+            "หินอ่อนเทียมพอร์ทโทโร " +
+            "มีโทนสีดำ มีลายสีน้ำตาลทอง " +
+            "สลับขาว ผิวหน้ามัน (Polished) " +
+            "เหมาะสำหรับงานพื้น ผนัง เคาน์เตอร์ " +
+            "และงานตกแต่งภายใน เพื่อความหรูหรา",
+
+        images: [
+
+            "image/Golden-Portoro-01.jpg",
+            "image/Golden-Portoro-02.jpg",
+            "image/Golden-Portoro-03.jpg"
+
+
+        ]
+
+    },
+
 
 
     /* =====================================================
