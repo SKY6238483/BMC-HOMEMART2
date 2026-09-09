@@ -1,688 +1,134 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
-<title>Products | BMC HOMEMART</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>สินค้าของเรา | BMC HOMEMART</title>
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap"
-rel="stylesheet">
-
-    <link rel="stylesheet" href="policy.css">
+<link rel="stylesheet" href="products.css">
+<link rel="stylesheet" href="policy.css">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
-<!-- ==========================================
-     FLOATING CONTACT
-========================================== -->
-
-<div class="floating-contact">
-
-    <!-- ปุ่มหลัก -->
-    <button
-        class="floating-main"
-        id="floatingContactBtn"
-        aria-label="เปิดช่องทางติดต่อ">
-        <!--<span class="phone-icon">☎</span> -->
-        <img src="image/tell.png" alt="โทรศัพท์" >
-    </button>
-
-
-    <!-- เมนูติดต่อ -->
-    <div class="floating-menu" id="floatingMenu">
-
-
-        <!-- LINE -->
-        <a
-            href="https://line.me/ti/p/@bmchomemart"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="floating-item">
-
-            <img src="image/line.png" alt="LINE">
-
-            <span>LINE</span>
-
-        </a>
-
-
-        <!-- FACEBOOK -->
-        <a
-            href="https://www.facebook.com/bmchomemart?ref=embed_page"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="floating-item">
-
-            <img src="image/facebook.png" alt="Facebook">
-
-            <span>Facebook</span>
-
-        </a>
-
-
-        <!-- EMAIL -->
-        <a
-            href="mailto:info@bmchomemart.com"
-            class="floating-item">
-
-            <img src="image/email.png" alt="Email">
-
-            <span>Email</span>
-
-        </a>
-
-
-        <!-- TELEPHONE -->
-        <a
-            href="tel:087 686 7772"
-            class="floating-item">
-
-            <!--<span class="phone-icon">☎</span> -->
-            <img src="image/tell.png" alt="โทรศัพท์" width="40" height="40">
-
-            <span>โทรหาเรา</span>
-
-        </a>
-
-    </div>
-
-</div>
-
-<!-- ================= IMAGE LIGHTBOX ================= -->
-
-<div id="imageLightbox"
-     class="image-lightbox"
-     onclick="closeImage()">
-
-    <button
-        class="lightbox-close"
-        onclick="closeImage(event)">
-        ×
-    </button>
-
-    <img
-        id="lightboxImage"
-        src=""
-        alt=""
-        onclick="event.stopPropagation()">
-
-</div>
-
 <body>
 
-
 <header class="header">
-
 <div class="container nav">
-
-<a href="index.html" class="logo">
-<img src="image/Logo BMC.jpg" alt="BMC HOMEMART">
-</a>
-
-
+<a href="index.html" class="logo"><img src="image/Logo BMC.jpg" alt="BMC HOMEMART"></a>
 <nav id="navMenu">
-
 <a href="index.html">หน้าแรก</a>
-<a href="index.html#about">เกี่ยวกับเรา</a>
+<a href="about-bmc.html">เกี่ยวกับเรา</a>
 <a href="products.html">สินค้า</a>
 <a href="index.html#services">บริการ</a>
 <a href="index.html#projects">ผลงาน</a>
 <a href="index.html#contact">ติดต่อเรา</a>
-
 </nav>
-
-
-<a href="cart.html" class="cart-btn">
-
-🛒 <span id="cartCount">0</span>
-
-</a>
-
-<button class="mobile-menu"
-onclick="toggleMenu()">
-
-☰
-
-</button>
-
+<div class="header-actions">
+<a href="cart.html" class="cart-btn">🛒 <span id="cartCount">0</span></a>
+<button class="mobile-menu" onclick="toggleMenu()">☰</button>
 </div>
-
+</div>
 </header>
 
-
-<section class="products-page">
-
+<main class="products-page">
 <div class="container">
-
-
 <div class="section-heading">
-
-<p class="eyebrow gold">
-BMC HOMEMART COLLECTION
-</p>
-
-<h1>
-สินค้าของเรา
-</h1>
-
-<p>
-เลือกวัสดุที่เหมาะกับพื้นที่
-และสไตล์ของคุณ
-</p>
-
+<p class="eyebrow gold">BMC HOMEMART COLLECTION</p>
+<h1>สินค้าของเรา</h1>
+<p>เลือกวัสดุที่เหมาะกับพื้นที่และสไตล์ของคุณ จากแคตตาล็อกสินค้าของ BMC HOMEMART</p>
 </div>
 
-<!--<div class="product-category-pills" aria-label="หมวดสินค้า">
-    <button type="button" class="product-pill active" data-value="all">ทั้งหมด</button>
-    <button type="button" class="product-pill" data-value="natural">หินธรรมชาติ</button>
-    <button type="button" class="product-pill" data-value="marble">หินอ่อน</button>
-    <button type="button" class="product-pill" data-value="granite">หินแกรนิต</button>
-    <button type="button" class="product-pill" data-value="artificial">หินเทียม</button>
-    <button type="button" class="product-pill" data-value="flooring">ไม้พื้นเทียม</button>
-    <button type="button" class="product-pill" data-value="pvc">ผนัง-ฝ้า</button>
-    <button type="button" class="product-pill" data-value="decor">ตกแต่งอเนกประสงค์</button>
-</div> -->
+<div class="product-category-pills" aria-label="หมวดสินค้า">
+<button type="button" class="product-pill active" data-value="all">ทั้งหมด</button>
+<button type="button" class="product-pill" data-value="natural">หินธรรมชาติ</button>
+<button type="button" class="product-pill" data-value="marble">หินอ่อน</button>
+<button type="button" class="product-pill" data-value="granite">หินแกรนิต</button>
+<button type="button" class="product-pill" data-value="artificial">หินเทียม</button>
+<button type="button" class="product-pill" data-value="tile">กระเบื้องหินอ่อน</button>
+<button type="button" class="product-pill" data-value="mosaic">โมเสค</button>
+<button type="button" class="product-pill" data-value="door">ประตู</button>
+<button type="button" class="product-pill" data-value="solid">ไม้ Solid</button>
+<button type="button" class="product-pill" data-value="laminate">ไม้ Laminate</button>
+<button type="button" class="product-pill" data-value="engineered">ไม้ Engineered</button>
+<button type="button" class="product-pill" data-value="pvc">ไม้ PVC</button>
+</div>
 
-<!-- SEARCH / SORT -->
 <div class="product-toolbar remood-product-toolbar">
-    <input type="text" id="searchInput" placeholder="ค้นหาชื่อวัสดุหรือสินค้า..." onkeyup="filterProducts()">
-    <select id="categoryFilter" onchange="filterProducts()">
-
-<option value="all">
-ทุกหมวดสินค้า
-</option>
-
-<option value="natural">
-หินธรรมชาติ
-</option>
-
-<option value="marble">
-หินอ่อน
-</option>
-
-<option value="granite">
-หินแกรนิต
-</option>
-
-<option value="artificial">
-หินเทียม
-</option>
-
-<option value="flooring">
-ไม้พื้นเทียม
-</option>
-
-<option value="pvc">
-ไม้เทียมตกแต่งผนัง-ฝ้า
-</option>
-
-<option value="tile">
-กระเบื้อง
-</option>
-
-<option value="mosaic">
-โมเสค
-</option>
-
-<option value="door">
-ประตู
-</option>
-
-<option value="decor">
-ไม้ตกแต่งอเนกประสงค์ / อุปกรณ์เสริม
-</option>
-
-
+<input type="text" id="searchInput" placeholder="ค้นหาชื่อวัสดุหรือสินค้า..." autocomplete="off">
+<select id="categoryFilter" aria-label="เลือกหมวดสินค้า">
+<option value="all">ทุกหมวดสินค้า</option>
+<option value="natural">หินธรรมชาติ</option>
+<option value="marble">หินอ่อน</option>
+<option value="granite">หินแกรนิต</option>
+<option value="artificial">หินเทียม</option>
+<option value="tile">กระเบื้องหินอ่อน</option>
+<option value="mosaic">โมเสค</option>
+<option value="door">ประตู</option>
+<option value="solid">ไม้ Solid</option>
+<option value="laminate">ไม้ Laminate</option>
+<option value="engineered">ไม้ Engineered</option>
+<option value="pvc">ไม้ PVC</option>
 </select>
-    <select id="sortFilter" onchange="sortProducts()">
-        <option value="default">เรียงตามลำดับ</option>
-        <option value="price-low">ราคาต่ำ → สูง</option>
-        <option value="price-high">ราคาสูง → ต่ำ</option>
-        <option value="name">ชื่อสินค้า A → Z</option>
-    </select>
+<select id="sortFilter" aria-label="เรียงสินค้า">
+<option value="default">เรียงตามลำดับ</option>
+<option value="price-low">ราคาต่ำ → สูง</option>
+<option value="price-high">ราคาสูง → ต่ำ</option>
+<option value="name">ชื่อสินค้า A → Z</option>
+</select>
 </div>
 
-<div class="catalog-meta"><span>สินค้าในแคตตาล็อก</span><strong id="productVisibleCount">6</strong> <span>รายการ</span></div>
-
-<!-- PRODUCTS -->
-
-<div class="product-catalog"
-id="productCatalog">
-
-
-<!-- PRODUCT 1 -->
-
-<div class="product-card"
-data-category="marble"
-data-name="white carrara marble"
-onclick="openProductDetail('white-carrara')">
-
-<img src="image/carrara-white.jpg"
-alt="White Carrara Marble"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-<div class="product-card-content">
-
-<span>MARBLE</span>
-
-<h3>
-White Carrara Marble
-</h3>
-
-<p>
-หินอ่อนสีขาว ลวดลายธรรมชาติ
-เหมาะสำหรับงานพื้นและผนัง
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿1,850 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-
+<div class="catalog-meta">
+<span>สินค้าในแคตตาล็อก</span>
+<strong id="productVisibleCount">0</strong>
+<span>รายการ</span>
 </div>
 
+<div class="product-catalog" id="productCatalog"></div>
+
+<div id="noProducts" class="no-products" style="display:none">
+<h3>ไม่พบสินค้าที่ค้นหา</h3>
+<p>ลองเปลี่ยนคำค้นหาหรือเลือกหมวดสินค้าอื่น</p>
 </div>
-
 </div>
+</main>
 
-<!-- PRODUCT 2 -->
-
-<div class="product-card"
-data-category="marble"
-data-name="nero marquina marble"
-onclick="openProductDetail('nero-marquina')">
-
-<img src="image/MARQUINA-NERO.jpg"
-alt="Nero Marquina"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-
-<div class="product-card-content">
-
-<span>MARBLE</span>
-
-<h3>
-Nero Marquina
-</h3>
-
-<p>
-หินอ่อนสีดำพร้อมลายเส้นสีขาว
-ให้ความรู้สึกหรูหรา
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿2,450 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
+<div id="imageLightbox" class="product-image-lightbox" onclick="if(event.target===this)closeImage()">
+<button class="lightbox-close" onclick="closeImage()" aria-label="ปิด">×</button>
+<img id="lightboxImage" src="" alt="">
 </div>
-
-</div>
-
-</div>
-
-
-<!-- PRODUCT 3 -->
-
-<div class="product-card"
-data-category="granite"
-data-name="black galaxy granite"
-onclick="openProductDetail('black-galaxy')">
-
-
-<img src="image/black-galaxy-granite.jpg"
-alt="black Galaxy Granite"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-
-<div class="product-card-content">
-
-<span>GRANITE</span>
-
-<h3>
-Black Galaxy Granite
-</h3>
-
-<p>
-หินแกรนิตสีดำ
-เหมาะกับเคาน์เตอร์และงานตกแต่ง
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿1,950 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- PRODUCT 4 -->
-
-<div class="product-card"
-data-category="flooring"
-data-name="oak engineered flooring"
-onclick="openProductDetail('oak-engineered')">
-
-<img src="image/oak-engineer.jpg"
-alt="Engineered Oak"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-
-<div class="product-card-content">
-
-<span>FLOORING</span>
-
-<h3>
-Oak Engineered Flooring
-</h3>
-
-<p>
-พื้นไม้โทนธรรมชาติ
-เหมาะกับบ้านสไตล์ Modern
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿1,290 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- PRODUCT 5 -->
-
-<div class="product-card"
-data-category="pvc"
-data-name="wood pvc wall"
-onclick="openProductDetail('wood-pvc')">
-
-<img src="image/PVC-wall.jpeg"
-alt="PVC Wall"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-
-<div class="product-card-content">
-
-<span>PVC</span>
-
-<h3>
-Wood PVC Wall
-</h3>
-
-<p>
-วัสดุตกแต่งผนัง
-ดูแลรักษาง่าย
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿590 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-
-<!-- PRODUCT 6 -->
-
-<div class="product-card"
-data-category="door"
-data-name="modern wooden door"
-onclick="openProductDetail('modern-door')">
-
-<img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1000&q=85"
-alt="Modern Wooden Door"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-<div class="product-card-content">
-
-<span>DOOR</span>
-
-<h3>
-Modern Wooden Door
-</h3>
-
-<p>
-ประตูไม้ดีไซน์ Modern
-เหมาะสำหรับบ้านและโครงการ
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿8,900 / ชุด
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'White Carrara Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-<!-- PRODUCT 7 -->
-
-<div class="product-card"
-data-category="marble"
-data-name="golden portoto marble"
-onclick="openProductDetail('golden-portoto')">
-
-<img src="image/Golden-Portoro-01.jpg"
-alt="Golden Portoro Marble"
-class = "product-image"
-onclick="openImage(this.src, this.alt)">
-
-<div class="product-card-content">
-
-<span>MARBLE</span>
-
-<h3>
-Golden Portoro Marble
-</h3>
-
-<p>
-หินอ่อนเทียมพอร์ทโทโร โทนสีดำ มีลายสีน้ำตาลทอง
-เหมาะสำหรับ top counter พื้นผนังตกแต่ง
-</p>
-
-<div class="product-bottom">
-
-<strong>
-฿1,850 / ตร.ม.
-</strong>
-
-<button onclick="event.stopPropagation(); addToCart(
-'Golden Portoro Marble',
-1850,
-'marble'
-)">
-    + เพิ่ม
-</button>
-
-
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-
-
-</div>
-
-</section>
-
 
 <footer>
-
 <div class="container footer-grid">
-
-    <!-- BMC HOMEMART -->
-    <div>
-        <div class="footer-logo">
-            BMC
-            <span>HOMEMART</span>
-        </div>
-
-        <p>
-            ศูนย์รวมวัสดุคุณภาพ
-            สำหรับบ้าน งานตกแต่ง
-            และโครงการ
-        </p>
-    </div>
-
-
-    <!-- MENU -->
-    <div>
-        <h4>MENU</h4>
-
-        <a href="index.html">
-            หน้าแรก
-        </a>
-
-        <a href="index.html#about">
-            เกี่ยวกับเรา
-        </a>
-
-        <a href="index.html#services">
-            บริการ
-        </a>
-
-        <a href="index.html#contact">
-            ติดต่อเรา
-        </a>
-    </div>
-
-
-    <!-- PRODUCTS -->
-    <div>
-        <h4>PRODUCTS</h4>
-
-        <a href="products.html?category=marble">
-            หินอ่อน
-        </a>
-
-        <a href="products.html?category=granite">
-            หินแกรนิต
-        </a>
-
-        <a href="products.html?category=flooring">
-            พื้นไม้
-        </a>
-
-        <a href="products.html?category=door">
-            ประตู
-        </a>
-    </div>
-
-
-    <!-- COMPANY -->
-    <div>
-        <h4>CONTACT</h4>
-
-        <p>
-            บริษัท บางกอก แมททีเรียล จำกัด
-        </p>
-
-        <p>
-            2296 ถนนพระราม9 แขวงพัฒนการ
-            เขตสวนหลวง กรุงเทพมหานคร 10250
-        </p>
-    </div>
-
+<div>
+<div class="footer-logo">BMC <span>HOMEMART</span></div>
+<p>ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ</p>
 </div>
-
-<div class="copyright">
-
-© 2026 BMC HOMEMART
-
-
-        <span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html">นโยบายการใช้งานคุกกี้</a></span>
-    </div>
+<div>
+<h4>MENU</h4>
+<a href="index.html">หน้าแรก</a>
+<a href="about-bmc.html">เกี่ยวกับเรา</a>
+<a href="index.html#services">บริการ</a>
+<a href="index.html#contact">ติดต่อเรา</a>
+</div>
+<div>
+<h4>PRODUCTS</h4>
+<a href="products.html?category=marble">หินอ่อน</a>
+<a href="products.html?category=granite">หินแกรนิต</a>
+<a href="products.html?category=engineered">ไม้ Engineered</a>
+<a href="products.html?category=door">ประตู</a>
+</div>
+<div>
+<h4>CONTACT</h4>
+<p>บริษัท บางกอก แมททีเรียล จำกัด</p>
+<p>2296 ถนนพระราม 9 แขวงพัฒนการ เขตสวนหลวง กรุงเทพมหานคร 10250</p>
+</div>
+</div>
+<div class="container copyright">© 2026 BMC HOMEMART
+<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html">นโยบายการใช้งานคุกกี้</a></span>
+</div>
 </footer>
 
-
+<script src="product-catalog-data.js"></script>
 <script src="script.js"></script>
-
 <script src="cookie-consent.js?v=20260907"></script>
 </body>
-
 </html>

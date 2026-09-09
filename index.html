@@ -1,310 +1,154 @@
 <!DOCTYPE html>
+
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>BMC HOMEMART | หินอ่อน หินแกรนิต</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="policy.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BMC HOMEMART | หินอ่อน หินแกรนิต</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="policy.css" rel="stylesheet"/>
 </head>
-
 <!-- ==========================================
      FLOATING CONTACT
 ========================================== -->
-
 <div class="floating-contact">
-
-    <!-- ปุ่มหลัก -->
-    <button
-        class="floating-main"
-        id="floatingContactBtn"
-        aria-label="เปิดช่องทางติดต่อ">
-        <!--<span class="phone-icon">☎</span> -->
-        <img src="image/tell.png" alt="โทรศัพท์" >
-    </button>
-
-
-    <!-- เมนูติดต่อ -->
-    <div class="floating-menu" id="floatingMenu">
-
-
-        <!-- LINE -->
-        <a
-            href="https://line.me/ti/p/@bmchomemart"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="floating-item">
-
-            <img src="image/line.png" alt="LINE">
-
-            <span>LINE</span>
-
-        </a>
-
-
-        <!-- FACEBOOK -->
-        <a
-            href="https://www.facebook.com/bmchomemart?ref=embed_page"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="floating-item">
-
-            <img src="image/facebook.png" alt="Facebook">
-
-            <span>Facebook</span>
-
-        </a>
-
-
-        <!-- EMAIL -->
-        <a
-            href="mailto:info@bmchomemart.com"
-            class="floating-item">
-
-            <img src="image/email.png" alt="Email">
-
-            <span>Email</span>
-
-        </a>
-
-
-        <!-- TELEPHONE -->
-        <a
-            href="tel:087 686 7772"
-            class="floating-item">
-
-            <!--<span class="phone-icon">☎</span> -->
-            <img src="image/tell.png" alt="โทรศัพท์" >
-
-            <span>โทรหาเรา</span>
-
-        </a>
-
-    </div>
-
-</div>
-
-<body>
-
-<!-- ================= HEADER ================= -->
-
-<header class="header">
-
-    <div class="container nav">
-
-        <a href="index.html" class="logo">
-            <img src="image/Logo BMC.jpg" alt="BMC HOMEMART">
-        </a>
-
-        <nav id="navMenu">
-
-            <a href="index.html">หน้าแรก</a>
-            <a href="#about">เกี่ยวกับเรา</a>
-            <a href="products.html">สินค้า</a>
-            <a href="#services">บริการ</a>
-            <a href="#projects">ผลงาน</a>
-            <a href="#contact">ติดต่อเรา</a>
-            
-
-
-
+<!-- ปุ่มหลัก -->
+<button aria-label="เปิดช่องทางติดต่อ" class="floating-main" id="floatingContactBtn">
+<!--<span class="phone-icon">☎</span> -->
+<img alt="โทรศัพท์" src="image/tell.png"/>
+</button>
+<!-- เมนูติดต่อ -->
+<div class="floating-menu" id="floatingMenu">
+<!-- LINE -->
+<a class="floating-item" href="https://line.me/ti/p/@bmchomemart" rel="noopener noreferrer" target="_blank">
+<img alt="LINE" src="image/line.png"/>
+<span>LINE</span>
 </a>
+<!-- FACEBOOK -->
+<a class="floating-item" href="https://www.facebook.com/bmchomemart?ref=embed_page" rel="noopener noreferrer" target="_blank">
+<img alt="Facebook" src="image/facebook.png"/>
+<span>Facebook</span>
+</a>
+<!-- EMAIL -->
+<a class="floating-item" href="mailto:info@bmchomemart.com">
+<img alt="Email" src="image/email.png"/>
+<span>Email</span>
+</a>
+<!-- TELEPHONE -->
+<a class="floating-item" href="tel:087 686 7772">
+<!--<span class="phone-icon">☎</span> -->
+<img alt="โทรศัพท์" src="image/tell.png"/>
+<span>โทรหาเรา</span>
+</a>
+</div>
+</div>
+<body>
+<!-- ================= HEADER ================= -->
+<header class="header">
+<div class="container nav">
+<a class="logo" href="index.html">
+<img alt="BMC HOMEMART" src="image/Logo BMC.jpg"/>
+</a>
+<nav id="navMenu">
+<a href="index.html">หน้าแรก</a>
+<a href="#about">เกี่ยวกับเรา</a>
+<a href="products.html">สินค้า</a>
+<a href="#services">บริการ</a>
+<a href="#projects">ผลงาน</a>
+<a href="#contact">ติดต่อเรา</a>
 
-        </nav>
-<!-- ================= SEARCG + CART ================= -->        
-        <a href="products.html?search=true" class="search-btn" aria-label="ค้นหาสินค้า">
-                <img src="image/search-icon.png" alt="ค้นหา">
-        </a>
-        <a href="cart.html" class="cart-btn">
+</nav>
+<!-- ================= SEARCG + CART ================= -->
+<a aria-label="ค้นหาสินค้า" class="search-btn" href="products.html?search=true">
+<img alt="ค้นหา" src="image/search-icon.png"/>
+</a>
+<a class="cart-btn" href="cart.html">
             🛒 <span id="cartCount">0</span>
-        </a>
-
-        <button class="mobile-menu" onclick="toggleMenu()">☰</button>
-
-    </div>
-
+</a>
+<button class="mobile-menu" onclick="toggleMenu()">☰</button>
+</div>
 </header>
-
-
 <!-- ================= HERO ================= -->
-
 <!-- <section class="hero">
 
     <div class="hero-overlay"></div> 
 
     <div class="container hero-content"> -->
-    
-    <!-- ================= HERO SLIDER ================= -->
 <!-- ================= HERO SLIDER ================= -->
-
+<!-- ================= HERO SLIDER ================= -->
 <section class="hero">
-
-    <div class="hero-slider">
-
-        <div class="hero-track" id="heroTrack">
-
-            <!-- SLIDE 1 -->
-            <div class="hero-slide">
-
-                <img
-                    src="image/hero1.jpg"
-                    alt="BMC HOMEMART">
-
-            </div>
-
-
-            <!-- SLIDE 2 -->
-            <div class="hero-slide">
-
-                <img
-                    src="image/hero2.jpg"
-                    alt="BMC HOMEMART">
-
-            </div>
-
-
-            <!-- SLIDE 3 -->
-            <div class="hero-slide">
-
-                <img
-                    src="image/hero3.jpg"
-                    alt="BMC HOMEMART">
-
-            </div>
-
-
-            <!-- SLIDE 4 -->
-            <div class="hero-slide">
-
-                <img
-                    src="image/hero4.jpg"
-                    alt="BMC HOMEMART">
-
-            </div>
-
-        </div>
-
-
-        <!-- Overlay -->
-
-        <div class="hero-overlay"></div>
-
-
-        <!-- ข้อความ -->
-
-        <div class="container hero-content">
-
-            <p class="eyebrow">
+<div class="hero-slider">
+<div class="hero-track" id="heroTrack">
+<!-- SLIDE 1 -->
+<div class="hero-slide">
+<img alt="BMC HOMEMART" src="image/hero1.jpg"/>
+</div>
+<!-- SLIDE 2 -->
+<div class="hero-slide">
+<img alt="BMC HOMEMART" src="image/hero2.jpg"/>
+</div>
+<!-- SLIDE 3 -->
+<div class="hero-slide">
+<img alt="BMC HOMEMART" src="image/hero3.jpg"/>
+</div>
+<!-- SLIDE 4 -->
+<div class="hero-slide">
+<img alt="BMC HOMEMART" src="image/hero4.jpg"/>
+</div>
+</div>
+<!-- Overlay -->
+<div class="hero-overlay"></div>
+<!-- ข้อความ -->
+<div class="container hero-content">
+<p class="eyebrow">
                 BMC HOMEMART
             </p>
-
-            <h1>
-                ศูนย์รวมหินธรรมชาติ หินสังเคราะห์<br>
+<h1>
+                ศูนย์รวมหินธรรมชาติ หินสังเคราะห์<br/>
                 กระเบื้อง ไม้ปูพื้น พร้อมบริการติดตั้ง
             </h1>
-
-            <!--<p class="hero-description">
+<!--<p class="hero-description">
                 ศูนย์รวมวัสดุคุณภาพสำหรับบ้าน
                 งานตกแต่ง และโครงการ
                 คัดสรรวัสดุที่ตอบโจทย์ทุกพื้นที่
             </p> -->
-
-            <div class="hero-buttons">
-
-                <a
-                    href="products.html"
-                    class="btn btn-gold">
-
-                    VIEW COLLECTION
-
-                </a>
-
-
-                <a
-                    href="#contact"
-                    class="btn btn-light">
-
-                    CONTACT US
-
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <!-- ปุ่มซ้าย -->
-
-        <button
-            class="slider-btn slider-prev"
-            id="heroPrev"
-            aria-label="Previous slide">
+<div class="hero-buttons"><a class="btn btn-gold" href="products.html">VIEW COLLECTION</a><a class="btn btn-light" href="#contact">CONTACT US</a><a class="btn btn-light hero-sample-btn" href="https://line.me/ti/p/@bmchomemart" rel="noopener noreferrer" target="_blank">REQUEST SAMPLE</a></div>
+</div>
+<!-- ปุ่มซ้าย -->
+<button aria-label="Previous slide" class="slider-btn slider-prev" id="heroPrev">
 
             ‹
 
         </button>
-
-
-        <!-- ปุ่มขวา -->
-
-        <button
-            class="slider-btn slider-next"
-            id="heroNext"
-            aria-label="Next slide">
+<!-- ปุ่มขวา -->
+<button aria-label="Next slide" class="slider-btn slider-next" id="heroNext">
 
             ›
 
         </button>
-
-
-        <!-- จุดบอก Slide -->
-
-        <div
-            class="slider-dots"
-            id="sliderDots">
-
-        </div>
-
-    </div>
-
+<!-- จุดบอก Slide -->
+<div class="slider-dots" id="sliderDots">
+</div>
+</div>
 </section>
-
-
-
 <!-- ================= INTRO ================= -->
-
 <section class="intro" id="about">
-
-    <div class="container intro-grid">
-
-        <!-- ส่วนที่ 1 -->
-        <div class="intro-image">
-
-            <img
-                src="image/about-bmc.jpg"
-                alt="BMC HOMEMART"
-            >
-
-        </div>
-
-
-        <!-- ส่วนที่ 2 -->
-        <div class="intro-content">
-
-            <p class="eyebrow gold">
+<div class="container intro-grid">
+<!-- ส่วนที่ 1 -->
+<div class="intro-image">
+<img alt="BMC HOMEMART" src="image/about-bmc.jpg"/>
+</div>
+<!-- ส่วนที่ 2 -->
+<div class="intro-content">
+<p class="eyebrow gold">
                 ABOUT BMC HOMEMART
             </p>
-
-            <h2>
+<h2>
                 ศูนย์รวมวัสดุตกแต่ง
                 สำหรับบ้านและโครงการ
             </h2>
-
-            <p>
+<p>
                 BMC HOMEMART
                 บริษัท บางกอก แมททีเรียล จำกัด
                 ผู้จัดจำหน่ายวัสดุตกแต่งและวัสดุก่อสร้าง
@@ -312,597 +156,431 @@
                 งานออกแบบตกแต่งภายใน
                 และโครงการต่าง ๆ
             </p>
-
-            <p>
+<p>
                 เราให้ความสำคัญกับคุณภาพของสินค้า
                 การบริการ และความต้องการของลูกค้า
                 พร้อมให้คำปรึกษาและช่วยเลือกวัสดุ
                 ให้เหมาะสมกับรูปแบบการใช้งาน
             </p>
-
-            <a href="#about-detail" class="text-link">
-                อ่านเพิ่มเติม →
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-<section class="about-detail" id="about-detail">
-
-    <div class="container about-detail-grid">
-
-        <div class="about-detail-content">
-
-            <p class="eyebrow gold">
-                OUR APPROACH
-            </p>
-
-            <h2>
-                คุณภาพ ความใส่ใจ
-                และบริการที่ครบถ้วน
-            </h2>
-
-            <p>
-                BMC HOMEMART มุ่งมั่นในการนำเสนอ
-                วัสดุคุณภาพที่ตอบโจทย์ทั้งด้านความสวยงาม
-                ความแข็งแรง และการใช้งาน
-            </p>
-
-            <p>
-                เรามีสินค้าให้เลือกหลากหลายประเภท
-                ทั้งหินอ่อน หินแกรนิต พื้นไม้
-                วัสดุตกแต่ง ไม้ PVC และประตู
-                เพื่อรองรับทั้งลูกค้าทั่วไป
-                นักออกแบบ ผู้รับเหมา
-                และโครงการต่าง ๆ
-            </p>
-
-            <p>
-                ทีมงานพร้อมให้คำแนะนำตั้งแต่การเลือกวัสดุ
-                ไปจนถึงการประสานงานด้านสินค้า
-                เพื่อให้ลูกค้าได้รับสินค้าที่เหมาะสม
-                กับโครงการมากที่สุด
-            </p>
-
-        </div>
-
-
-        <div class="about-detail-image">
-
-            <img
-                src="image/about-bmc-2.jpg"
-                alt="BMC HOMEMART วัสดุตกแต่ง"
-            >
-
-        </div>
-
-    </div>
-
+<a class="text-link" href="about-bmc.html">อ่านต่อเพิ่มเติม →</a>
+</div>
+</div>
 </section>
 
 <!-- ================= REMOOD-INSPIRED MATERIAL SHOWCASE ================= -->
+
 <section class="material-showcase" id="interior-materials">
-    <div class="container material-container">
-        <div class="material-panel active" id="interior-panel">
-            <div class="material-sticky-nav">
-                <div class="material-heading material-section-heading">
-            <div>
-                <p class="eyebrow gold">OUR MATERIALS</p>
-                <h2>วัสดุ <span>ตกแต่งภายใน</span> ของเรา</h2>
-            </div>
-            <p class="material-heading-copy">รวมวัสดุตกแต่งภายในของ BMC HOMEMART แบ่งเป็นหมวดหมู่เพื่อให้เลือกดูสินค้าได้ง่าย</p>
-                </div>
-
-                <div class="material-category-tabs" role="tablist" aria-label="วัสดุตกแต่งภายใน">
-                <button class="material-category-btn active" data-category-target="natural-panel" type="button">หินธรรมชาติ</button>
-                <button class="material-category-btn" data-category-target="marble-panel" type="button">หินอ่อน</button>
-                <button class="material-category-btn" data-category-target="granite-panel" type="button">หินแกรนิต</button>
-                <button class="material-category-btn" data-category-target="artificial-panel" type="button">หินเทียม</button>
-                </div>
-            </div>
-
-            <div class="material-category-panel active" id="natural-panel">
-                <div class="material-feature">
-                    <div class="material-gallery">
-                        <img src="image/marble-02.jpg" alt="หินธรรมชาติ BMC HOMEMART">
-                        <div class="material-gallery-small">
-                            <img src="image/black-galaxy-granite.jpg" alt="หินแกรนิตธรรมชาติ">
-                            <img src="image/carrara-white.jpg" alt="หินอ่อนธรรมชาติ">
-                        </div>
-                    </div>
-                    <div class="material-copy">
-                        <span class="material-number">01</span>
-                        <h3>หินธรรมชาติ</h3>
-                        <p>วัสดุหินจากธรรมชาติสำหรับงานตกแต่ง มีทั้งหินอ่อนและหินแกรนิต เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งภายใน</p>
-                        <div class="material-tags"><span>หินอ่อน</span><span>หินแกรนิต</span><span>งานพื้น</span><span>งานผนัง</span></div>
-                        <a class="material-cta" href="products.html?category=natural">เลือกดูวัสดุ <span>→</span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="material-category-panel" id="marble-panel">
-                <div class="material-feature">
-                    <div class="material-gallery">
-                        <img src="image/carrara-white.jpg" alt="White Carrara Marble">
-                        <div class="material-gallery-small">
-                            <img src="image/carrara-white-2.jpg" alt="White Carrara Marble detail">
-                            <img src="image/MARQUINA-NERO.jpg" alt="Nero Marquina">
-                        </div>
-                    </div>
-                    <div class="material-copy">
-                        <span class="material-number">02</span>
-                        <h3>หินอ่อน</h3>
-                        <p>หินอ่อน เช่น White Carrara Marble และ Nero Marquina เหมาะกับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา</p>
-                        <div class="material-tags"><span>White Carrara</span><span>Nero Marquina</span><span>พื้น</span><span>ผนัง</span></div>
-                        <a class="material-cta" href="products.html?category=marble">เลือกดูวัสดุ <span>→</span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="material-category-panel" id="granite-panel">
-                <div class="material-feature">
-                    <div class="material-gallery">
-                        <img src="image/black-galaxy-granite.jpg" alt="Black Galaxy Granite">
-                        <div class="material-gallery-small">
-                            <img src="image/black-galaxy-granite-2.jpg" alt="Black Galaxy Granite detail">
-                            <img src="image/granite-01.jpg" alt="Granite collection">
-                        </div>
-                    </div>
-                    <div class="material-copy">
-                        <span class="material-number">03</span>
-                        <h3>หินแกรนิต</h3>
-                        <p>หินแกรนิต เช่น Black Galaxy Granite เน้นความแข็งแรงและทนทาน เหมาะกับเคาน์เตอร์ พื้น ผนัง และงานตกแต่ง</p>
-                        <div class="material-tags"><span>Black Galaxy</span><span>เคาน์เตอร์</span><span>พื้น</span><span>ผนัง</span></div>
-                        <a class="material-cta" href="products.html?category=granite">เลือกดูวัสดุ <span>→</span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="material-category-panel" id="artificial-panel">
-                <div class="material-feature">
-                    <div class="material-gallery">
-                        <img src="image/granite-02.jpg" alt="หินเทียมและวัสดุสังเคราะห์ BMC HOMEMART">
-                        <div class="material-gallery-small">
-                            <img src="image/granite-01.jpg" alt="วัสดุตกแต่งเดิมของ BMC">
-                            <img src="image/granite-02.jpg" alt="วัสดุผนังเดิมของ BMC">
-                        </div>
-                    </div>
-                    <div class="material-copy">
-                        <span class="material-number">04</span>
-                        <h3>หินเทียม</h3>
-                        <p>วัสดุหินเทียม/หินสังเคราะห์</p>
-                        <div class="material-tags"><span>หินเทียม</span><span>หินสังเคราะห์</span><span>สอบถามสินค้า</span></div>
-                        <a class="material-cta" href="products.html?category=granite">เลือกดูวัสดุ <span>→</span></a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-        <div class="material-panel active material-exterior-section" id="exterior-panel">
-            <div class="material-sticky-nav">
-                <div class="material-heading material-section-heading">
-                <div>
-                    <p class="eyebrow gold">EXTERIOR MATERIALS</p>
-                    <h2>ไม้เทียม <span>ภายนอก</span> ของเรา</h2>
-                </div>
-                <p class="material-heading-copy">รวมวัสดุตกแต่งภายนอกของ BMC HOMEMART แบ่งเป็นหมวดหมู่เพื่อให้เลือกดูสินค้าได้ง่าย</p>
-                </div>
-
-                <div class="material-category-tabs" role="tablist" aria-label="วัสดุตกแต่งภายนอก">
-                <button class="material-category-btn active" data-category-target="flooring-panel" type="button">ไม้พื้นเทียม</button>
-                <button class="material-category-btn" data-category-target="cladding-panel" type="button">ไม้เทียมตกแต่งผนัง-ฝ้า</button>
-                <button class="material-category-btn" data-category-target="decor-panel" type="button">ไม้ตกแต่งอเนกประสงค์</button>
-                <button class="material-category-btn" data-category-target="accessories-panel" type="button">อุปกรณ์เสริม - ภายนอก</button>
-                </div>
-            </div>
-
-            <div class="material-category-panel active" id="flooring-panel">
-                <div class="material-feature">
-                    <div class="material-gallery"><img src="image/flooring-01.jpg" alt="ไม้พื้นเทียม BMC HOMEMART"><div class="material-gallery-small"><img src="image/oak-engineer.jpg" alt="Oak flooring"><img src="image/oak-engineer-2.jpg" alt="Oak flooring detail"></div></div>
-                    <div class="material-copy"><span class="material-number">01</span><h3>ไม้พื้นเทียม</h3><p>วัสดุปูพื้นจากข้อมูลเดิมของ BMC ใช้สำหรับงานตกแต่งพื้นและพื้นที่ที่ต้องการลุคไม้ พร้อมข้อมูลสินค้า Oak Engineered Flooring ที่มีอยู่ในเว็บเดิม</p><div class="material-tags"><span>Oak</span><span>พื้นไม้</span><span>งานภายใน</span></div><a class="material-cta" href="products.html?category=flooring">เลือกดูวัสดุ <span>→</span></a></div>
-                </div>
-            </div>
-            <div class="material-category-panel" id="cladding-panel">
-                <div class="material-feature">
-                    <div class="material-gallery"><img src="image/PVC-wall-4.jpg" alt="ไม้เทียมตกแต่งผนังและฝ้า"><div class="material-gallery-small"><img src="image/PVC-wall-2.jpg" alt="PVC wall"><img src="image/PVC-wall-3.jpg" alt="PVC wall detail"></div></div>
-                    <div class="material-copy"><span class="material-number">02</span><h3>ไม้เทียมตกแต่งผนัง-ฝ้า</h3><p>วัสดุตกแต่งผนังจากข้อมูลเดิมของ BMC โดยมีสินค้า Wood PVC Wall เป็นข้อมูลหลักในเว็บไซต์เดิม</p><div class="material-tags"><span>Wood PVC Wall</span><span>ผนัง</span><span>ฝ้า</span></div><a class="material-cta" href="products.html?category=pvc">เลือกดูวัสดุ <span>→</span></a></div>
-                </div>
-            </div>
-            <div class="material-category-panel" id="decor-panel">
-                <div class="material-feature">
-                    <div class="material-gallery"><img src="image/decor-01.jpg" alt="ไม้ตกแต่งอเนกประสงค์"><div class="material-gallery-small"><img src="image/PVC-wall-3.jpg" alt="วัสดุตกแต่ง"><img src="image/PVC-wall-4.jpg" alt="วัสดุตกแต่งผนัง"></div></div>
-                    <div class="material-copy"><span class="material-number">03</span><h3>ไม้ตกแต่งอเนกประสงค์</h3><p>หมวดสำหรับวัสดุตกแต่งอเนกประสงค์ตามโครงสร้างสินค้าเดิมของ BMC โดยไม่เพิ่มรายละเอียดสินค้าที่ไม่มีในข้อมูลเดิม</p><div class="material-tags"><span>Decor</span><span>ตกแต่ง</span><span>อเนกประสงค์</span></div><a class="material-cta" href="products.html?category=decor">เลือกดูวัสดุ <span>→</span></a></div>
-                </div>
-            </div>
-            <div class="material-category-panel" id="accessories-panel">
-                <div class="material-feature">
-                    <div class="material-gallery"><img src="image/PVC-wall-3.jpg" alt="อุปกรณ์เสริมภายนอก"><div class="material-gallery-small"><img src="image/decor-01.jpg" alt="อุปกรณ์เสริม"><img src="image/PVC-wall-4.jpg" alt="อุปกรณ์เสริม"></div></div>
-                    <div class="material-copy"><span class="material-number">04</span><h3>อุปกรณ์เสริม - ภายนอก</h3><p>จัดหมวดอุปกรณ์เสริมให้เหมือนโครงสร้างการนำเสนอแบบร้านวัสดุออนไลน์ โดยใช้ข้อมูลและภาพที่มีอยู่ในเว็บเดิมของ BMC เท่านั้น</p><div class="material-tags"><span>อุปกรณ์เสริม</span><span>ติดตั้ง</span><span>สอบถาม</span></div><a class="material-cta" href="#contact">สอบถามสินค้า <span>→</span></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container material-container">
+<div class="material-panel active" id="interior-panel">
+<div class="material-sticky-nav">
+<div class="material-heading material-section-heading">
+<div>
+<p class="eyebrow gold">OUR MATERIALS</p>
+<h2>หินธรรมชาติและหิน <span>สังเคราะห์</span></h2>
+</div>
+<p class="material-heading-copy">รวมวัสดุหินของ BMC HOMEMART ตั้งแต่หินธรรมชาติ หินเทียม กระเบื้องหินอ่อน และโมเสค พร้อมเลือกดูสินค้าได้จากแคตตาล็อก</p>
+</div>
+<div aria-label="หินธรรมชาติและหินสังเคราะห์" class="material-category-tabs" role="tablist">
+<button class="material-category-btn active" data-category-target="natural-panel" type="button">หินธรรมชาติ</button>
+<button class="material-category-btn" data-category-target="marble-panel" type="button">หินอ่อน</button>
+<button class="material-category-btn" data-category-target="granite-panel" type="button">หินแกรนิต</button>
+<button class="material-category-btn" data-category-target="artificial-panel" type="button">หินเทียม</button>
+<button class="material-category-btn" data-category-target="tile-panel" type="button">กระเบื้องหินอ่อน</button>
+<button class="material-category-btn" data-category-target="mosaic-panel" type="button">โมเสค</button>
+</div>
+</div>
+<div class="material-category-panel active" id="natural-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="หินอ่อนธรรมชาติ" src="image/Marble ลายน้ำ/RDN040 White Gold Beige-ไวท์โกล์ดเบจ.jpg"/>
+<div class="material-gallery-small">
+<img alt="หินแกรนิตธรรมชาติ" src="image/Granite ลายน้ำ/G602 White Lotus-ไวท์โลตัส.jpg"/>
+<img alt="หินธรรมชาติ" src="image/Marble ลายน้ำ/RD2002 Venata White-เวนนาตาไวท์.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">01</span>
+<h3>หินธรรมชาติ</h3>
+<p>หินธรรมชาติสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง โดดเด่นด้วยลวดลายและเอกลักษณ์เฉพาะของแผ่นหิน เหมาะสำหรับงานที่ต้องการความเป็นธรรมชาติและความพรีเมียม</p>
+<div class="material-tags"><span>หินอ่อน</span><span>หินแกรนิต</span><span>พื้น</span><span>ผนัง</span><span>เคาน์เตอร์</span></div>
+<a class="material-cta" href="products.html?category=natural">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="marble-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="หินอ่อน" src="image/Marble ลายน้ำ/RDN035 Cream Italy-ครีมอิตาลี.jpg"/>
+<div class="material-gallery-small">
+<img alt="หินอ่อนลายธรรมชาติ" src="image/Marble ลายน้ำ/RD2002 Venata White-เวนนาตาไวท์.jpg"/>
+<img alt="White Carrara Marble" src="image/carrara-white.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">02</span><h3>หินอ่อน</h3>
+<p>หินอ่อนที่มีลวดลายธรรมชาติและโทนสีหลากหลาย เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ ห้องน้ำ และงานตกแต่งที่ต้องการความหรูหรา</p>
+<div class="material-tags"><span>Marble</span><span>White Carrara</span><span>พื้น</span><span>ผนัง</span></div>
+<a class="material-cta" href="products.html?category=marble">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="granite-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="หินแกรนิต" src="image/Granite ลายน้ำ/GL500 Light Black-ไรท์แบล็ค.jpg"/>
+<div class="material-gallery-small">
+<img alt="หินแกรนิตลายจุด" src="image/Granite ลายน้ำ/G654 Black Dot-ดำลายจุด.jpg"/>
+<img alt="หินแกรนิต" src="image/Granite ลายน้ำ/TG049 Royal Champagne-รอยัลแชมเปญ.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">03</span><h3>หินแกรนิต</h3>
+<p>หินแกรนิตเน้นความแข็งแรง ทนทาน และดูแลรักษาง่าย เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง บันได และงานโครงการ</p>
+<div class="material-tags"><span>Granite</span><span>ทนทาน</span><span>เคาน์เตอร์</span><span>งานโครงการ</span></div>
+<a class="material-cta" href="products.html?category=granite">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="artificial-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="หินเทียม Quartz" src="image/ต้นฉบับ Quartz 100%/CQ1902.jpg"/>
+<div class="material-gallery-small">
+<img alt="Quartz surface" src="image/ต้นฉบับ Quartz 100%/CQ1532.jpg"/>
+<img alt="Quartz collection" src="image/ต้นฉบับ Quartz 100%/CQ1540.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">04</span><h3>หินเทียม</h3>
+<p>หินเทียมและหินสังเคราะห์ที่มีพื้นผิวสม่ำเสมอ ดูแลรักษาง่าย เหมาะสำหรับเคาน์เตอร์ครัว Island top โต๊ะ พื้นผิวตกแต่ง และงานภายใน</p>
+<div class="material-tags"><span>Quartz</span><span>หินสังเคราะห์</span><span>เคาน์เตอร์</span><span>งานภายใน</span></div>
+<a class="material-cta" href="products.html?category=artificial">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="tile-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="กระเบื้องหินอ่อน" src="image/กระเบื้องหินอ่อน/CTT813.jpg"/>
+<div class="material-gallery-small">
+<img alt="กระเบื้องหินอ่อน" src="image/กระเบื้องหินอ่อน/CTLM20.jpg"/>
+<img alt="กระเบื้องหินอ่อน" src="image/กระเบื้องหินอ่อน/CTK6681A.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">05</span><h3>กระเบื้องหินอ่อน</h3>
+<p>กระเบื้องลวดลายหินอ่อนสำหรับงานพื้นและผนัง ให้ภาพรวมที่เรียบหรูและเลือกใช้งานได้หลากหลายทั้งบ้าน ห้องน้ำ และพื้นที่เชิงพาณิชย์</p>
+<div class="material-tags"><span>กระเบื้อง</span><span>ลายหินอ่อน</span><span>พื้น</span><span>ผนัง</span></div>
+<a class="material-cta" href="products.html?category=tile">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="mosaic-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="โมเสค" src="image/Mosaic ต้นฉบับ/M-AS018-1.jpg"/>
+<div class="material-gallery-small">
+<img alt="โมเสคลายตกแต่ง" src="image/Mosaic ต้นฉบับ/M-AS003-3.jpg"/>
+<img alt="โมเสค" src="image/Mosaic ต้นฉบับ/M-AS010-1.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">06</span><h3>โมเสค</h3>
+<p>โมเสคสำหรับสร้างรายละเอียดและจุดเด่นให้กับพื้นที่ เหมาะสำหรับผนัง ห้องน้ำ พื้นที่ตกแต่ง และงานที่ต้องการลวดลายเฉพาะตัว</p>
+<div class="material-tags"><span>Mosaic</span><span>ตกแต่ง</span><span>ห้องน้ำ</span><span>ผนัง</span></div>
+<a class="material-cta" href="products.html?category=mosaic">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="material-panel active material-exterior-section" id="exterior-panel">
+<div class="material-sticky-nav">
+<div class="material-heading material-section-heading">
+<div>
+<p class="eyebrow gold">WOOD FLOOR COLLECTION</p>
+<h2>ไม้พื้น <span>ของเรา</span></h2>
+</div>
+<p class="material-heading-copy">รวมวัสดุไม้สำหรับพื้นและงานตกแต่ง เลือกตามคุณสมบัติและรูปแบบการใช้งานของพื้นที่</p>
+</div>
+<div aria-label="ไม้พื้น" class="material-category-tabs" role="tablist">
+<button class="material-category-btn active" data-category-target="engineered-panel" type="button">ไม้ Engineered</button>
+<button class="material-category-btn" data-category-target="laminate-panel" type="button">ไม้ Laminate</button>
+<button class="material-category-btn" data-category-target="pvc-panel" type="button">ไม้ PVC</button>
+<button class="material-category-btn" data-category-target="accessories-panel" type="button">อุปกรณ์เสริม - ภายนอก</button>
+</div>
+</div>
+<div class="material-category-panel active" id="engineered-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="ไม้ Engineered" src="image/ไม้ Engineered/04.jpg"/>
+<div class="material-gallery-small">
+<img alt="ไม้ Engineered Oak" src="image/ไม้ Engineered/oak-litte white.jpg"/>
+<img alt="ไม้ Engineered Walnut" src="image/ไม้ Engineered/Walnut -.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">01</span><h3>ไม้ Engineered</h3>
+<p>พื้นไม้ Engineered ที่ให้ความรู้สึกอบอุ่นและเป็นธรรมชาติ เหมาะสำหรับบ้านพักอาศัย ห้องนอน ห้องนั่งเล่น และงานออกแบบภายในที่ต้องการพื้นไม้คุณภาพ</p>
+<div class="material-tags"><span>Engineered</span><span>Oak</span><span>Walnut</span><span>พื้นไม้</span></div>
+<a class="material-cta" href="products.html?category=engineered">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="laminate-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="ไม้ Laminate" src="image/ไม้ Laminate/B03.jpg"/>
+<div class="material-gallery-small">
+<img alt="ไม้ Laminate" src="image/ไม้ Laminate/A08.jpg"/>
+<img alt="ไม้ Laminate" src="image/ไม้ Laminate/D02.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">02</span><h3>ไม้ Laminate</h3>
+<p>ไม้ Laminate สำหรับงานพื้นและตกแต่งภายใน มีลวดลายให้เลือกหลากหลาย เหมาะสำหรับบ้าน สำนักงาน และพื้นที่ที่ต้องการดูแลรักษาง่าย</p>
+<div class="material-tags"><span>Laminate</span><span>พื้น</span><span>ตกแต่งภายใน</span></div>
+<a class="material-cta" href="products.html?category=laminate">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="pvc-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="ไม้ PVC" src="image/ไม้ PVC/pvcลายไม้2.jpg"/>
+<div class="material-gallery-small">
+<img alt="ไม้ PVC ลายไม้" src="image/ไม้ PVC/pvcลายไม้.jpg"/>
+<img alt="ไม้ PVC ตกแต่ง" src="image/ไม้ PVC/2011_5_27_104355.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">03</span><h3>ไม้ PVC</h3>
+<p>วัสดุไม้ PVC สำหรับตกแต่งผนังและงานที่ต้องการวัสดุน้ำหนักเบา ดูแลรักษาง่าย เหมาะกับงานตกแต่งทั้งบ้านและพื้นที่ใช้งาน</p>
+<div class="material-tags"><span>PVC</span><span>ผนัง</span><span>ฝ้า</span><span>ดูแลรักษาง่าย</span></div>
+<a class="material-cta" href="products.html?category=pvc">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+<div class="material-category-panel" id="accessories-panel">
+<div class="material-feature">
+<div class="material-gallery">
+<img alt="อุปกรณ์เสริมภายนอก" src="image/About/สไล_อุปกรณ์ช่าง.jpg"/>
+<div class="material-gallery-small">
+<img alt="อุปกรณ์และงานตกแต่ง" src="image/About/ภาพเพจ.png"/>
+<img alt="อุปกรณ์เสริม" src="image/About/catolog.jpg"/>
+</div>
+</div>
+<div class="material-copy">
+<span class="material-number">04</span><h3>อุปกรณ์เสริม - ภายนอก</h3>
+<p>รวมอุปกรณ์และชิ้นส่วนประกอบสำหรับงานติดตั้งและงานตกแต่ง ช่วยให้งานติดตั้งครบถ้วนและจัดการรายละเอียดหน้างานได้สะดวกยิ่งขึ้น</p>
+<div class="material-tags"><span>อุปกรณ์เสริม</span><span>ติดตั้ง</span><span>ภายนอก</span></div>
+<a class="material-cta" href="products.html">เลือกดูวัสดุ <span>→</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
-
 
 <!-- ================= SERVICES ================= -->
-
-
 <section class="services" id="services">
-
-    <div class="container">
-
-        <div class="section-heading light">
-
-            <p class="eyebrow gold">
-                OUR SERVICES
-            </p>
-
-            <h2>
-                บริการครบจบในที่เดียว
-            </h2>
-
-        </div>
-
-
-        <div class="service-grid">
-
-            <div class="service">
-
-                <span></span>
-
-                <h3>
-                    CONSULTATION
-                </h3>
-
-                <p>
-                    ให้คำปรึกษาเกี่ยวกับวัสดุ
-                    การเลือกสินค้า และการใช้งาน
-                    ให้เหมาะกับพื้นที่ของคุณ
-                </p>
-
-            </div>
-
-
-            <div class="service">
-
-                <span></span>
-
-                <h3>
-                    INSTALLATION
-                </h3>
-
-                <p>
-                    บริการติดตั้งโดยทีมงาน
-                    ที่มีประสบการณ์
-                    เพื่อให้ผลงานออกมาได้มาตรฐาน
-                </p>
-
-            </div>
-
-
-            <div class="service">
-
-                <span></span>
-
-                <h3>
-                    FLOOR CARE
-                </h3>
-
-                <p>
-                    บริการขัดและดูแลพื้นหิน
-                    และพื้นไม้
-                    ให้กลับมาสวยงามอีกครั้ง
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
+<div class="container">
+<div class="section-heading light">
+<p class="eyebrow gold">OUR SERVICES</p>
+<h2>บริการครบจบในที่เดียว</h2>
+</div>
+<div class="service-grid">
+<a class="service service-card" href="service-detail.html?type=installation">
+<img alt="งานติดตั้ง" loading="lazy" src="image/About/banner บริการติดตั้ง.jpg"/>
+<div class="service-overlay"></div>
+<div class="service-content"><span>01</span><h3>งานติดตั้ง</h3><p>บริการติดตั้งวัสดุสำหรับบ้านและโครงการ ตั้งแต่เตรียมพื้นที่ ประสานงานหน้างาน จนถึงตรวจรับและส่งมอบ</p><b>ดูรายละเอียด →</b></div>
+</a>
+<a class="service service-card" href="service-detail.html?type=craft">
+<img alt="งานฝีมือ" loading="lazy" src="image/About/WP_20140501_004.jpg"/>
+<div class="service-overlay"></div>
+<div class="service-content"><span>02</span><h3>งานฝีมือ</h3><p>งานเก็บรายละเอียด งานเข้ามุม งานประกอบ และงานตกแต่งที่ต้องการความประณีตและความเรียบร้อย</p><b>ดูรายละเอียด →</b></div>
+</a>
+<a class="service service-card" href="service-detail.html?type=polishing">
+<img alt="งานขัด" loading="lazy" src="image/About/banner_น้ำยา.png"/>
+<div class="service-overlay"></div>
+<div class="service-content"><span>03</span><h3>งานขัด</h3><p>บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน ช่วยฟื้นฟูความเรียบร้อยและความสวยงามของพื้นที่</p><b>ดูรายละเอียด →</b></div>
+</a>
+</div>
+</div>
 </section>
-
-
 <!-- ================= PROJECT ================= -->
-
 <section class="projects" id="projects">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <p class="eyebrow gold">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow gold">
                 OUR PROJECTS
             </p>
-
-            <h2>
+<h2>
                 ผลงานที่เราได้มีส่วนร่วม
             </h2>
-
-        </div>
-
-
-        <div class="project-grid">
-
-            <div class="project">
-
-                <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85">
-
-                <div>
-                    <span>RESIDENTIAL</span>
-                    <h3>Luxury Residence</h3>
-                </div>
-
-            </div>
-
-
-            <div class="project">
-
-                <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85">
-
-                <div>
-                    <span>INTERIOR</span>
-                    <h3>Modern Interior</h3>
-                </div>
-
-            </div>
-
-
-            <div class="project">
-
-                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=85">
-
-                <div>
-                    <span>COMMERCIAL</span>
-                    <h3>Commercial Space</h3>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
+</div>
+<div class="project-grid">
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+<div>
+<span>RESIDENTIAL</span>
+<h3>Luxury Residence</h3>
+</div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+<div>
+<span>INTERIOR</span>
+<h3>Modern Interior</h3>
+</div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
+<div>
+<span>COMMERCIAL</span>
+<h3>Commercial Space</h3>
+</div>
+</div>
+</div>
+</div>
 </section>
-
-
 <!-- ================= CTA ================= -->
-
 <section class="cta">
-
-    <div class="container">
-
-        <p class="eyebrow">
+<div class="container">
+<p class="eyebrow">
             LET'S CREATE SOMETHING BEAUTIFUL
         </p>
-
-        <h2>
-            ให้ BMC HOMEMART<br>
+<h2>
+            ให้ BMC HOMEMART<br/>
             ช่วยสร้างพื้นที่ของคุณ
         </h2>
-
-        <a href="#contact" class="btn btn-gold">
+<a class="btn btn-gold" href="#contact">
             CONTACT US
         </a>
-
-    </div>
-
+</div>
 </section>
-
-
 <!-- ================= CONTACT ================= -->
-
 <section class="contact" id="contact">
-
-    <div class="container contact-grid">
-
-        <div>
-
-            <p class="eyebrow gold">
+<div class="container contact-grid">
+<div>
+<p class="eyebrow gold">
                 CONTACT BMC HOMEMART
             </p>
-
-            <h2>
+<h2>
                 ติดต่อเรา
             </h2>
-
-            <div class="contact-item">
-
-                <strong>ที่อยู่</strong>
-
-                <p>
-                    2296 ถนนพระราม 9 แขวงพัฒนการ<br>
+<div class="contact-item">
+<strong>ที่อยู่</strong>
+<p>
+                    2296 ถนนพระราม 9 แขวงพัฒนการ<br/>
                     เขตสวนหลวง กรุงเทพมหานคร 10250
                     
                 </p>
-
-            </div>
-
-
-            <div class="contact-item">
-
-                <strong>โทรศัพท์</strong>
-
-                <p>
+</div>
+<div class="contact-item">
+<strong>โทรศัพท์</strong>
+<p>
                     02-3201084-6
                 </p>
-
-            </div>
-            <div class="contact-item">
-
-                <strong>แฟล็กซ์</strong>
-
-                <p>
+</div>
+<div class="contact-item">
+<strong>แฟล็กซ์</strong>
+<p>
                     02-3201087
                 </p>
-
-            </div>
-                        <div class="contact-item">
-
-                <strong>E-Mail</strong>
-
-                <p>
+</div>
+<div class="contact-item">
+<strong>E-Mail</strong>
+<p>
                     info@bmchomemart.com
                 </p>
-
-            </div>
-
-            <div class="contact-item">
-
-                <strong>เวลาทำการ</strong>
-
-                <p>
-                    จันทร์ – เสาร์<br>
+</div>
+<div class="contact-item">
+<strong>เวลาทำการ</strong>
+<p>
+                    จันทร์ – เสาร์<br/>
                     08:00 – 18:00 น.
                 </p>
-
-            </div>
-
-        </div>
-
-
-        <div class="contact-box">
-
-            <h3>
+</div>
+</div>
+<div class="contact-box">
+<h3>
                 ขอใบเสนอราคา
             </h3>
-
-            <p>
+<p>
                 แจ้งรายละเอียดสินค้าหรือโครงการ
                 ทีมงาน BMC HOMEMART จะติดต่อกลับ
             </p>
-
-            <input type="text" placeholder="ชื่อ - นามสกุล">
-
-            <input type="tel" placeholder="เบอร์โทรศัพท์">
-
-            <input type="email" placeholder="อีเมล">
-
-            <textarea placeholder="รายละเอียดโครงการ"></textarea>
-
-            <button class="btn btn-gold" onclick="requestQuote()">
+<input placeholder="ชื่อ - นามสกุล" type="text"/>
+<input placeholder="เบอร์โทรศัพท์" type="tel"/>
+<input placeholder="อีเมล" type="email"/>
+<textarea placeholder="รายละเอียดโครงการ"></textarea>
+<button class="btn btn-gold" onclick="requestQuote()">
                 ส่งคำขอ
             </button>
-
-        </div>
-
-    </div>
-
+</div>
+</div>
 </section>
-
-
 <!-- ================= FOOTER ================= -->
-
 <footer>
-
-    <div class="container footer-grid">
-
-        <div>
-
-            <div class="footer-logo">
+<div class="container footer-grid">
+<div>
+<div class="footer-logo">
                 BMC <span>HOMEMART</span>
-            </div>
-
-            <p>
+</div>
+<p>
                 Premium materials for better living.
             </p>
-
-        </div>
-
-
-        <div>
-
-            <h4>MENU</h4>
-
-            <a href="index.html">หน้าแรก</a>
-            <a href="#about">เกี่ยวกับเรา</a>
-            <a href="products.html">สินค้า</a>
-            <a href="#services">บริการ</a>
-            <a href="#projects">ผลงาน</a>
-
-        </div>
-
-
-        <div>
-
-            <h4>PRODUCTS</h4>
-
-            <a href="products.html?category=marble">หินอ่อน</a>
-            <a href="products.html?category=granite">หินแกรนิต</a>
-            <a href="products.html?category=flooring">พื้นไม้</a>
-            <a href="products.html?category=door">ประตู</a>
-
-        </div>
-
-
-        <div>
-
-            <h4>บริษัท บางกอก แมททีเรียล จำกัด</h4>
-
-            <p>
-                2296 ถนนพระราม9 แขวงพัฒนการ<br>
+</div>
+<div>
+<h4>MENU</h4>
+<a href="index.html">หน้าแรก</a>
+<a href="#about">เกี่ยวกับเรา</a>
+<a href="products.html">สินค้า</a>
+<a href="#services">บริการ</a>
+<a href="#projects">ผลงาน</a>
+</div>
+<div>
+<h4>PRODUCTS</h4>
+<a href="products.html?category=marble">หินอ่อน</a>
+<a href="products.html?category=granite">หินแกรนิต</a>
+<a href="products.html?category=flooring">พื้นไม้</a>
+<a href="products.html?category=door">ประตู</a>
+</div>
+<div>
+<h4>บริษัท บางกอก แมททีเรียล จำกัด</h4>
+<p>
+                2296 ถนนพระราม9 แขวงพัฒนการ<br/>
                 เขตสวนหลวง กรุงเทพมหานคร 10250
             </p>
-
-            <p>
+<p>
                 โทร : 02-3201087
             </p>
-
 <!-- SOCIAL MEDIA -->
 <div class="footer-social">
-
-    <!-- LINE -->
-    <a href="https://lin.ee/XIdfyi8"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="LINE">
-
-        <img src="image/line.png" alt="LINE">
-
-    </a>
-
-
-    <!-- FACEBOOK -->
-    <a href="https://www.facebook.com/bmchomemart?ref=embed_page"
-       target="_blank"
-       rel="noopener noreferrer"
-       aria-label="Facebook">
-
-        <img src="image/facebook.png" alt="Facebook">
-
-    </a>
-
-
-    <!-- EMAIL -->
-    <a href="mailto:info@bmchomemart.com"
-       aria-label="Email">
-
-        <img src="image/email.png" alt="Email">
-
-    </a>
-
+<!-- LINE -->
+<a aria-label="LINE" href="https://lin.ee/XIdfyi8" rel="noopener noreferrer" target="_blank">
+<img alt="LINE" src="image/line.png"/>
+</a>
+<!-- FACEBOOK -->
+<a aria-label="Facebook" href="https://www.facebook.com/bmchomemart?ref=embed_page" rel="noopener noreferrer" target="_blank">
+<img alt="Facebook" src="image/facebook.png"/>
+</a>
+<!-- EMAIL -->
+<a aria-label="Email" href="mailto:info@bmchomemart.com">
+<img alt="Email" src="image/email.png"/>
+</a>
 </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="copyright">
+</div>
+</div>
+<div class="copyright">
 
         © 2026 BMC HOMEMART. All Rights Reserved.
 
     
         <span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html">นโยบายการใช้งานคุกกี้</a></span>
-    </div>
+</div>
 </footer>
-
-
 <script src="script.js"></script>
-
 <script src="cookie-consent.js?v=20260907"></script>
 </body>
 </html>
