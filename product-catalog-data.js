@@ -104,16 +104,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-1",
     "name": "CQ1902",
-    "image": "image/ต้นฉบับ Quartz/CQ1902.jpg",
+    "image": "image/quartz/CQ1902.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1902.jpg",
-      "image/ต้นฉบับ Quartz/CQ1532.jpg",
-      "image/ต้นฉบับ Quartz/CQ1540.jpg",
-      "image/ต้นฉบับ Quartz/CQ118.jpg"
+      "image/quartz/CQ1902.jpg",
+      "image/quartz/CQ1532.jpg",
+      "image/quartz/CQ1540.jpg",
+      "image/quartz/CQ118.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -121,16 +121,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-2",
     "name": "CQ1532",
-    "image": "image/ต้นฉบับ Quartz/CQ1532.jpg",
+    "image": "image/quartz/CQ1532.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1532.jpg",
-      "image/ต้นฉบับ Quartz/CQ1540.jpg",
-      "image/ต้นฉบับ Quartz/CQ118.jpg",
-      "image/ต้นฉบับ Quartz/CQ7006.jpg"
+      "image/quartz/CQ1532.jpg",
+      "image/quartz/CQ1540.jpg",
+      "image/quartz/CQ118.jpg",
+      "image/quartz/CQ7006.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -138,16 +138,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-3",
     "name": "CQ1540",
-    "image": "image/ต้นฉบับ Quartz/CQ1540.jpg",
+    "image": "image/quartz/CQ1540.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1540.jpg",
-      "image/ต้นฉบับ Quartz/CQ118.jpg",
-      "image/ต้นฉบับ Quartz/CQ7006.jpg",
-      "image/ต้นฉบับ Quartz/CQ4003.jpg"
+      "image/quartz/CQ1540.jpg",
+      "image/quartz/CQ118.jpg",
+      "image/quartz/CQ7006.jpg",
+      "image/quartz/CQ4003.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -155,16 +155,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-4",
     "name": "CQ118",
-    "image": "image/ต้นฉบับ Quartz/CQ118.jpg",
+    "image": "image/quartz/CQ118.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ118.jpg",
-      "image/ต้นฉบับ Quartz/CQ7006.jpg",
-      "image/ต้นฉบับ Quartz/CQ4003.jpg",
-      "image/ต้นฉบับ Quartz/CQ7007.jpg"
+      "image/quartz/CQ118.jpg",
+      "image/quartz/CQ7006.jpg",
+      "image/quartz/CQ4003.jpg",
+      "image/quartz/CQ7007.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -172,16 +172,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-5",
     "name": "CQ7006",
-    "image": "image/ต้นฉบับ Quartz/CQ7006.jpg",
+    "image": "image/quartz/CQ7006.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7006.jpg",
-      "image/ต้นฉบับ Quartz/CQ4003.jpg",
-      "image/ต้นฉบับ Quartz/CQ7007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4018.jpg"
+      "image/quartz/CQ7006.jpg",
+      "image/quartz/CQ4003.jpg",
+      "image/quartz/CQ7007.jpg",
+      "image/quartz/CQ4018.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz%",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -189,16 +189,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-6",
     "name": "CQ4003",
-    "image": "image/ต้นฉบับ Quartz/CQ4003.jpg",
+    "image": "image/quartz/CQ4003.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4003.jpg",
-      "image/ต้นฉบับ Quartz/CQ7007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4018.jpg",
-      "image/ต้นฉบับ Quartz/CQ0001.jpg"
+      "image/quartz/CQ4003.jpg",
+      "image/quartz/CQ7007.jpg",
+      "image/quartz/CQ4018.jpg",
+      "image/quartz/CQ0001.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -206,16 +206,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-7",
     "name": "CQ7007",
-    "image": "image/ต้นฉบับ Quartz/CQ7007.jpg",
+    "image": "image/quartz/CQ7007.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4018.jpg",
-      "image/ต้นฉบับ Quartz/CQ0001.jpg",
-      "image/ต้นฉบับ Quartz/CQ4004.jpg"
+      "image/quartz/CQ7007.jpg",
+      "image/quartz/CQ4018.jpg",
+      "image/quartz/CQ0001.jpg",
+      "image/quartz/CQ4004.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -223,16 +223,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-8",
     "name": "CQ4018",
-    "image": "image/ต้นฉบับ Quartz/CQ4018.jpg",
+    "image": "image/quartz/CQ4018.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4018.jpg",
-      "image/ต้นฉบับ Quartz/CQ0001.jpg",
-      "image/ต้นฉบับ Quartz/CQ4004.jpg",
-      "image/ต้นฉบับ Quartz/CQ4023.jpg"
+      "image/quartz/CQ4018.jpg",
+      "image/quartz/CQ0001.jpg",
+      "image/quartz/CQ4004.jpg",
+      "image/quartz/CQ4023.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz%",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -240,16 +240,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-9",
     "name": "CQ0001",
-    "image": "image/ต้นฉบับ Quartz/CQ0001.jpg",
+    "image": "image/quartz/CQ0001.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ0001.jpg",
-      "image/ต้นฉบับ Quartz/CQ4004.jpg",
-      "image/ต้นฉบับ Quartz/CQ4023.jpg",
-      "image/ต้นฉบับ Quartz/CQ4019.jpg"
+      "image/quartz/CQ0001.jpg",
+      "image/quartz/CQ4004.jpg",
+      "image/quartz/CQ4023.jpg",
+      "image/quartz/CQ4019.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -257,16 +257,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-10",
     "name": "CQ4004",
-    "image": "image/ต้นฉบับ Quartz/CQ4004.jpg",
+    "image": "image/quartz/CQ4004.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4004.jpg",
-      "image/ต้นฉบับ Quartz/CQ4023.jpg",
-      "image/ต้นฉบับ Quartz/CQ4019.jpg",
-      "image/ต้นฉบับ Quartz/CQ4001 pure white.jpg"
+      "image/quartz/CQ4004.jpg",
+      "image/quartz/CQ4023.jpg",
+      "image/quartz/CQ4019.jpg",
+      "image/quartz/CQ4001 pure white.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -274,16 +274,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-11",
     "name": "CQ4023",
-    "image": "image/ต้นฉบับ Quartz/CQ4023.jpg",
+    "image": "image/quartz/CQ4023.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4023.jpg",
-      "image/ต้นฉบับ Quartz/CQ4019.jpg",
-      "image/ต้นฉบับ Quartz/CQ4001 pure white.jpg",
-      "image/ต้นฉบับ Quartz/CQ122.jpg"
+      "image/quartz/CQ4023.jpg",
+      "image/quartz/CQ4019.jpg",
+      "image/quartz/CQ4001 pure white.jpg",
+      "image/quartz/CQ122.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -291,16 +291,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-12",
     "name": "CQ4019",
-    "image": "image/ต้นฉบับ Quartz/CQ4019.jpg",
+    "image": "image/quartz/CQ4019.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4019.jpg",
-      "image/ต้นฉบับ Quartz/CQ4001 pure white.jpg",
-      "image/ต้นฉบับ Quartz/CQ122.jpg",
-      "image/ต้นฉบับ Quartz/CQ1219.jpg"
+      "image/quartz/CQ4019.jpg",
+      "image/quartz/CQ4001 pure white.jpg",
+      "image/quartz/CQ122.jpg",
+      "image/quartz/CQ1219.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -308,16 +308,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-13",
     "name": "CQ4001 pure white",
-    "image": "image/ต้นฉบับ Quartz/CQ4001 pure white.jpg",
+    "image": "image/quartz/CQ4001 pure white.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4001 pure white.jpg",
-      "image/ต้นฉบับ Quartz/CQ122.jpg",
-      "image/ต้นฉบับ Quartz/CQ1219.jpg",
-      "image/ต้นฉบับ Quartz/CQ4008.jpg"
+      "image/quartz/CQ4001 pure white.jpg",
+      "image/quartz/CQ122.jpg",
+      "image/quartz/CQ1219.jpg",
+      "image/quartz/CQ4008.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -325,16 +325,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-14",
     "name": "CQ122",
-    "image": "image/ต้นฉบับ Quartz/CQ122.jpg",
+    "image": "image/quartz/CQ122.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ122.jpg",
-      "image/ต้นฉบับ Quartz/CQ1219.jpg",
-      "image/ต้นฉบับ Quartz/CQ4008.jpg",
-      "image/ต้นฉบับ Quartz/CQ1538.jpg"
+      "image/quartz/CQ122.jpg",
+      "image/quartz/CQ1219.jpg",
+      "image/quartz/CQ4008.jpg",
+      "image/quartz/CQ1538.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -342,16 +342,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-15",
     "name": "CQ1219",
-    "image": "image/ต้นฉบับ Quartz/CQ1219.jpg",
+    "image": "image/quartz/CQ1219.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1219.jpg",
-      "image/ต้นฉบับ Quartz/CQ4008.jpg",
-      "image/ต้นฉบับ Quartz/CQ1538.jpg",
-      "image/ต้นฉบับ Quartz/CQ4021.jpg"
+      "image/quartz/CQ1219.jpg",
+      "image/quartz/CQ4008.jpg",
+      "image/quartz/CQ1538.jpg",
+      "image/quartz/CQ4021.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -359,16 +359,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-16",
     "name": "CQ4008",
-    "image": "image/ต้นฉบับ Quartz/CQ4008.jpg",
+    "image": "image/quartz/CQ4008.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4008.jpg",
-      "image/ต้นฉบับ Quartz/CQ1538.jpg",
-      "image/ต้นฉบับ Quartz/CQ4021.jpg",
-      "image/ต้นฉบับ Quartz/CQ1504.jpg"
+      "image/quartz/CQ4008.jpg",
+      "image/quartz/CQ1538.jpg",
+      "image/quartz/CQ4021.jpg",
+      "image/quartz/CQ1504.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -376,16 +376,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-17",
     "name": "CQ1538",
-    "image": "image/ต้นฉบับ Quartz/CQ1538.jpg",
+    "image": "image/quartz/CQ1538.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1538.jpg",
-      "image/ต้นฉบับ Quartz/CQ4021.jpg",
-      "image/ต้นฉบับ Quartz/CQ1504.jpg",
-      "image/ต้นฉบับ Quartz/CQ1697.jpg"
+      "image/quartz/CQ1538.jpg",
+      "image/quartz/CQ4021.jpg",
+      "image/quartz/CQ1504.jpg",
+      "image/quartz/CQ1697.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -393,16 +393,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-18",
     "name": "CQ4021",
-    "image": "image/ต้นฉบับ Quartz/CQ4021.jpg",
+    "image": "image/quartz/CQ4021.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4021.jpg",
-      "image/ต้นฉบับ Quartz/CQ1504.jpg",
-      "image/ต้นฉบับ Quartz/CQ1697.jpg",
-      "image/ต้นฉบับ Quartz/CQ7008.jpg"
+      "image/quartz/CQ4021.jpg",
+      "image/quartz/CQ1504.jpg",
+      "image/quartz/CQ1697.jpg",
+      "image/quartz/CQ7008.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -410,16 +410,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-19",
     "name": "CQ1504",
-    "image": "image/ต้นฉบับ Quartz/CQ1504.jpg",
+    "image": "image/quartz/CQ1504.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1504.jpg",
-      "image/ต้นฉบับ Quartz/CQ1697.jpg",
-      "image/ต้นฉบับ Quartz/CQ7008.jpg",
-      "image/ต้นฉบับ Quartz/CQ4028.jpg"
+      "image/quartz/CQ1504.jpg",
+      "image/quartz/CQ1697.jpg",
+      "image/quartz/CQ7008.jpg",
+      "image/quartz/CQ4028.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -427,16 +427,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-20",
     "name": "CQ1697",
-    "image": "image/ต้นฉบับ Quartz/CQ1697.jpg",
+    "image": "image/quartz/CQ1697.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1697.jpg",
-      "image/ต้นฉบับ Quartz/CQ7008.jpg",
-      "image/ต้นฉบับ Quartz/CQ4028.jpg",
-      "image/ต้นฉบับ Quartz/CQ1612.jpg"
+      "image/quartz/CQ1697.jpg",
+      "image/quartz/CQ7008.jpg",
+      "image/quartz/CQ4028.jpg",
+      "image/quartz/CQ1612.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -444,16 +444,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-21",
     "name": "CQ7008",
-    "image": "image/ต้นฉบับ Quartz/CQ7008.jpg",
+    "image": "image/quartz/CQ7008.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7008.jpg",
-      "image/ต้นฉบับ Quartz/CQ4028.jpg",
-      "image/ต้นฉบับ Quartz/CQ1612.jpg",
-      "image/ต้นฉบับ Quartz/CQ4007.jpg"
+      "image/quartz/CQ7008.jpg",
+      "image/quartz/CQ4028.jpg",
+      "image/quartz/CQ1612.jpg",
+      "image/quartz/CQ4007.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -461,16 +461,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-22",
     "name": "CQ4028",
-    "image": "image/ต้นฉบับ Quartz/CQ4028.jpg",
+    "image": "image/quartz/CQ4028.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4028.jpg",
-      "image/ต้นฉบับ Quartz/CQ1612.jpg",
-      "image/ต้นฉบับ Quartz/CQ4007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4024.jpg"
+      "image/quartz/CQ4028.jpg",
+      "image/quartz/CQ1612.jpg",
+      "image/quartz/CQ4007.jpg",
+      "image/quartz/CQ4024.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -478,16 +478,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-23",
     "name": "CQ1612",
-    "image": "image/ต้นฉบับ Quartz/CQ1612.jpg",
+    "image": "image/quartz/CQ1612.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1612.jpg",
-      "image/ต้นฉบับ Quartz/CQ4007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4024.jpg",
-      "image/ต้นฉบับ Quartz/CQ7002.jpg"
+      "image/quartz/CQ1612.jpg",
+      "image/quartz/CQ4007.jpg",
+      "image/quartz/CQ4024.jpg",
+      "image/quartz/CQ7002.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -495,16 +495,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-24",
     "name": "CQ4007",
-    "image": "image/ต้นฉบับ Quartz/CQ4007.jpg",
+    "image": "image/quartz/CQ4007.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4007.jpg",
-      "image/ต้นฉบับ Quartz/CQ4024.jpg",
-      "image/ต้นฉบับ Quartz/CQ7002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4010.jpg"
+      "image/quartz/CQ4007.jpg",
+      "image/quartz/CQ4024.jpg",
+      "image/quartz/CQ7002.jpg",
+      "image/quartz/CQ4010.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -512,16 +512,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-25",
     "name": "CQ4024",
-    "image": "image/ต้นฉบับ Quartz/CQ4024.jpg",
+    "image": "image/quartz/CQ4024.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4024.jpg",
-      "image/ต้นฉบับ Quartz/CQ7002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4010.jpg",
-      "image/ต้นฉบับ Quartz/CQ4020.jpg"
+      "image/quartz/CQ4024.jpg",
+      "image/quartz/CQ7002.jpg",
+      "image/quartz/CQ4010.jpg",
+      "image/quartz/CQ4020.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -529,16 +529,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-26",
     "name": "CQ7002",
-    "image": "image/ต้นฉบับ Quartz/CQ7002.jpg",
+    "image": "image/quartz/CQ7002.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4010.jpg",
-      "image/ต้นฉบับ Quartz/CQ4020.jpg",
-      "image/ต้นฉบับ Quartz/CQ123.jpg"
+      "image/quartz/CQ7002.jpg",
+      "image/quartz/CQ4010.jpg",
+      "image/quartz/CQ4020.jpg",
+      "image/quartz/CQ123.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -546,16 +546,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-27",
     "name": "CQ4010",
-    "image": "image/ต้นฉบับ Quartz/CQ4010.jpg",
+    "image": "image/quartz/CQ4010.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4010.jpg",
-      "image/ต้นฉบับ Quartz/CQ4020.jpg",
-      "image/ต้นฉบับ Quartz/CQ123.jpg",
-      "image/ต้นฉบับ Quartz/CQ1551.jpg"
+      "image/quartz/CQ4010.jpg",
+      "image/quartz/CQ4020.jpg",
+      "image/quartz/CQ123.jpg",
+      "image/quartz/CQ1551.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -563,16 +563,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-28",
     "name": "CQ4020",
-    "image": "image/ต้นฉบับ Quartz/CQ4020.jpg",
+    "image": "image/quartz/CQ4020.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4020.jpg",
-      "image/ต้นฉบับ Quartz/CQ123.jpg",
-      "image/ต้นฉบับ Quartz/CQ1551.jpg",
-      "image/ต้นฉบับ Quartz/CQ222.jpg"
+      "image/quartz/CQ4020.jpg",
+      "image/quartz/CQ123.jpg",
+      "image/quartz/CQ1551.jpg",
+      "image/quartz/CQ222.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -580,16 +580,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-29",
     "name": "CQ123",
-    "image": "image/ต้นฉบับ Quartz/CQ123.jpg",
+    "image": "image/quartz/CQ123.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ123.jpg",
-      "image/ต้นฉบับ Quartz/CQ1551.jpg",
-      "image/ต้นฉบับ Quartz/CQ222.jpg",
-      "image/ต้นฉบับ Quartz/CQ7013.jpg"
+      "image/quartz/CQ123.jpg",
+      "image/quartz/CQ1551.jpg",
+      "image/quartz/CQ222.jpg",
+      "image/quartz/CQ7013.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -597,16 +597,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-30",
     "name": "CQ1551",
-    "image": "image/ต้นฉบับ Quartz/CQ1551.jpg",
+    "image": "image/quartz/CQ1551.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1551.jpg",
-      "image/ต้นฉบับ Quartz/CQ222.jpg",
-      "image/ต้นฉบับ Quartz/CQ7013.jpg",
-      "image/ต้นฉบับ Quartz/CQ1682.jpg"
+      "image/quartz/CQ1551.jpg",
+      "image/quartz/CQ222.jpg",
+      "image/quartz/CQ7013.jpg",
+      "image/quartz/CQ1682.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -614,16 +614,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-31",
     "name": "CQ222",
-    "image": "image/ต้นฉบับ Quartz/CQ222.jpg",
+    "image": "image/quartz/CQ222.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ222.jpg",
-      "image/ต้นฉบับ Quartz/CQ7013.jpg",
-      "image/ต้นฉบับ Quartz/CQ1682.jpg",
-      "image/ต้นฉบับ Quartz/CQ7005.jpg"
+      "image/quartz/CQ222.jpg",
+      "image/quartz/CQ7013.jpg",
+      "image/quartz/CQ1682.jpg",
+      "image/quartz/CQ7005.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -631,16 +631,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-32",
     "name": "CQ7013",
-    "image": "image/ต้นฉบับ Quartz/CQ7013.jpg",
+    "image": "image/quartz/CQ7013.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7013.jpg",
-      "image/ต้นฉบับ Quartz/CQ1682.jpg",
-      "image/ต้นฉบับ Quartz/CQ7005.jpg",
-      "image/ต้นฉบับ Quartz/CQ7001.jpg"
+      "image/quartz/CQ7013.jpg",
+      "image/quartz/CQ1682.jpg",
+      "image/quartz/CQ7005.jpg",
+      "image/quartz/CQ7001.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -648,16 +648,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-33",
     "name": "CQ1682",
-    "image": "image/ต้นฉบับ Quartz/CQ1682.jpg",
+    "image": "image/quartz/CQ1682.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1682.jpg",
-      "image/ต้นฉบับ Quartz/CQ7005.jpg",
-      "image/ต้นฉบับ Quartz/CQ7001.jpg",
-      "image/ต้นฉบับ Quartz/CQ1195.jpg"
+      "image/quartz/CQ1682.jpg",
+      "image/quartz/CQ7005.jpg",
+      "image/quartz/CQ7001.jpg",
+      "image/quartz/CQ1195.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -665,16 +665,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-34",
     "name": "CQ7005",
-    "image": "image/ต้นฉบับ Quartz/CQ7005.jpg",
+    "image": "image/quartz/CQ7005.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7005.jpg",
-      "image/ต้นฉบับ Quartz/CQ7001.jpg",
-      "image/ต้นฉบับ Quartz/CQ1195.jpg",
-      "image/ต้นฉบับ Quartz/CQ7010.jpg"
+      "image/quartz/CQ7005.jpg",
+      "image/quartz/CQ7001.jpg",
+      "image/quartz/CQ1195.jpg",
+      "image/quartz/CQ7010.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -682,16 +682,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-35",
     "name": "CQ7001",
-    "image": "image/ต้นฉบับ Quartz/CQ7001.jpg",
+    "image": "image/quartz/CQ7001.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7001.jpg",
-      "image/ต้นฉบับ Quartz/CQ1195.jpg",
-      "image/ต้นฉบับ Quartz/CQ7010.jpg",
-      "image/ต้นฉบับ Quartz/CQ1531.jpg"
+      "image/quartz/CQ7001.jpg",
+      "image/quartz/CQ1195.jpg",
+      "image/quartz/CQ7010.jpg",
+      "image/quartz/CQ1531.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -699,16 +699,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-36",
     "name": "CQ1195",
-    "image": "image/ต้นฉบับ Quartz/CQ1195.jpg",
+    "image": "image/quartz/CQ1195.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1195.jpg",
-      "image/ต้นฉบับ Quartz/CQ7010.jpg",
-      "image/ต้นฉบับ Quartz/CQ1531.jpg",
-      "image/ต้นฉบับ Quartz/CQ7011.jpg"
+      "image/quartz/CQ1195.jpg",
+      "image/quartz/CQ7010.jpg",
+      "image/quartz/CQ1531.jpg",
+      "image/quartz/CQ7011.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -716,16 +716,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-37",
     "name": "CQ7010",
-    "image": "image/ต้นฉบับ Quartz/CQ7010.jpg",
+    "image": "image/quartz/CQ7010.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7010.jpg",
-      "image/ต้นฉบับ Quartz/CQ1531.jpg",
-      "image/ต้นฉบับ Quartz/CQ7011.jpg",
-      "image/ต้นฉบับ Quartz/CQ1478.jpg"
+      "image/quartz/CQ7010.jpg",
+      "image/quartz/CQ1531.jpg",
+      "image/quartz/CQ7011.jpg",
+      "image/quartz/CQ1478.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -733,16 +733,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-38",
     "name": "CQ1531",
-    "image": "image/ต้นฉบับ Quartz/CQ1531.jpg",
+    "image": "image/quartz/CQ1531.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1531.jpg",
-      "image/ต้นฉบับ Quartz/CQ7011.jpg",
-      "image/ต้นฉบับ Quartz/CQ1478.jpg",
-      "image/ต้นฉบับ Quartz/CQ1560.jpg"
+      "image/quartz/CQ1531.jpg",
+      "image/quartz/CQ7011.jpg",
+      "image/quartz/CQ1478.jpg",
+      "image/quartz/CQ1560.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -750,16 +750,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-39",
     "name": "CQ7011",
-    "image": "image/ต้นฉบับ Quartz/CQ7011.jpg",
+    "image": "image/quartz/CQ7011.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7011.jpg",
-      "image/ต้นฉบับ Quartz/CQ1478.jpg",
-      "image/ต้นฉบับ Quartz/CQ1560.jpg",
-      "image/ต้นฉบับ Quartz/CQ1703.jpg"
+      "image/quartz/CQ7011.jpg",
+      "image/quartz/CQ1478.jpg",
+      "image/quartz/CQ1560.jpg",
+      "image/quartz/CQ1703.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -767,16 +767,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-40",
     "name": "CQ1478",
-    "image": "image/ต้นฉบับ Quartz/CQ1478.jpg",
+    "image": "image/quartz/CQ1478.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1478.jpg",
-      "image/ต้นฉบับ Quartz/CQ1560.jpg",
-      "image/ต้นฉบับ Quartz/CQ1703.jpg",
-      "image/ต้นฉบับ Quartz/CQ1565.jpg"
+      "image/quartz/CQ1478.jpg",
+      "image/quartz/CQ1560.jpg",
+      "image/quartz/CQ1703.jpg",
+      "image/quartz/CQ1565.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -784,16 +784,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-41",
     "name": "CQ1560",
-    "image": "image/ต้นฉบับ Quartz/CQ1560.jpg",
+    "image": "image/quartz/CQ1560.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1560.jpg",
-      "image/ต้นฉบับ Quartz/CQ1703.jpg",
-      "image/ต้นฉบับ Quartz/CQ1565.jpg",
-      "image/ต้นฉบับ Quartz/CQ7016.jpg"
+      "image/quartz/CQ1560.jpg",
+      "image/quartz/CQ1703.jpg",
+      "image/quartz/CQ1565.jpg",
+      "image/quartz/CQ7016.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -801,16 +801,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-42",
     "name": "CQ1703",
-    "image": "image/ต้นฉบับ Quartz/CQ1703.jpg",
+    "image": "image/quartz/CQ1703.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1703.jpg",
-      "image/ต้นฉบับ Quartz/CQ1565.jpg",
-      "image/ต้นฉบับ Quartz/CQ7016.jpg",
-      "image/ต้นฉบับ Quartz/CQ1196.jpg"
+      "image/quartz/CQ1703.jpg",
+      "image/quartz/CQ1565.jpg",
+      "image/quartz/CQ7016.jpg",
+      "image/quartz/CQ1196.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -818,16 +818,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-43",
     "name": "CQ1565",
-    "image": "image/ต้นฉบับ Quartz/CQ1565.jpg",
+    "image": "image/quartz/CQ1565.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1565.jpg",
-      "image/ต้นฉบับ Quartz/CQ7016.jpg",
-      "image/ต้นฉบับ Quartz/CQ1196.jpg",
-      "image/ต้นฉบับ Quartz/CQ7004.jpg"
+      "image/quartz/CQ1565.jpg",
+      "image/quartz/CQ7016.jpg",
+      "image/quartz/CQ1196.jpg",
+      "image/quartz/CQ7004.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -835,16 +835,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-44",
     "name": "CQ7016",
-    "image": "image/ต้นฉบับ Quartz 100%/CQ7016.jpg",
+    "image": "image/quartz/CQ7016.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7016.jpg",
-      "image/ต้นฉบับ Quartz/CQ1196.jpg",
-      "image/ต้นฉบับ Quartz/CQ7004.jpg",
-      "image/ต้นฉบับ Quartz/CQ7012.jpg"
+      "image/quartz/CQ7016.jpg",
+      "image/quartz/CQ1196.jpg",
+      "image/quartz/CQ7004.jpg",
+      "image/quartz/CQ7012.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -852,16 +852,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-45",
     "name": "CQ1196",
-    "image": "image/ต้นฉบับ Quartz/CQ1196.jpg",
+    "image": "image/quartz/CQ1196.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1196.jpg",
-      "image/ต้นฉบับ Quartz/CQ7004.jpg",
-      "image/ต้นฉบับ Quartz/CQ7012.jpg",
-      "image/ต้นฉบับ Quartz/CQ4005.jpg"
+      "image/quartz/CQ1196.jpg",
+      "image/quartz/CQ7004.jpg",
+      "image/quartz/CQ7012.jpg",
+      "image/quartz/CQ4005.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -869,16 +869,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-46",
     "name": "CQ7004",
-    "image": "image/ต้นฉบับ Quartz/CQ7004.jpg",
+    "image": "image/quartz/CQ7004.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7004.jpg",
-      "image/ต้นฉบับ Quartz/CQ7012.jpg",
-      "image/ต้นฉบับ Quartz/CQ4005.jpg",
-      "image/ต้นฉบับ Quartz/CQ1216.jpg"
+      "image/quartz/CQ7004.jpg",
+      "image/quartz/CQ7012.jpg",
+      "image/quartz/CQ4005.jpg",
+      "image/quartz/CQ1216.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -886,16 +886,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-47",
     "name": "CQ7012",
-    "image": "image/ต้นฉบับ Quartz/CQ7012.jpg",
+    "image": "image/quartz/CQ7012.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7012.jpg",
-      "image/ต้นฉบับ Quartz/CQ4005.jpg",
-      "image/ต้นฉบับ Quartz/CQ1216.jpg",
-      "image/ต้นฉบับ Quartz/CQ7009.jpg"
+      "image/quartz/CQ7012.jpg",
+      "image/quartz/CQ4005.jpg",
+      "image/quartz/CQ1216.jpg",
+      "image/quartz/CQ7009.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -903,16 +903,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-48",
     "name": "CQ4005",
-    "image": "image/ต้นฉบับ Quartz/CQ4005.jpg",
+    "image": "image/quartz/CQ4005.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4005.jpg",
-      "image/ต้นฉบับ Quartz/CQ1216.jpg",
-      "image/ต้นฉบับ Quartz/CQ7009.jpg",
-      "image/ต้นฉบับ Quartz/CQ4002.jpg"
+      "image/quartz/CQ4005.jpg",
+      "image/quartz/CQ1216.jpg",
+      "image/quartz/CQ7009.jpg",
+      "image/quartz/CQ4002.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -920,16 +920,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-49",
     "name": "CQ1216",
-    "image": "image/ต้นฉบับ Quartz/CQ1216.jpg",
+    "image": "image/quartz/CQ1216.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1216.jpg",
-      "image/ต้นฉบับ Quartz/CQ7009.jpg",
-      "image/ต้นฉบับ Quartz/CQ4002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4022.jpg"
+      "image/quartz/CQ1216.jpg",
+      "image/quartz/CQ7009.jpg",
+      "image/quartz/CQ4002.jpg",
+      "image/quartz/CQ4022.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -937,16 +937,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-50",
     "name": "CQ7009",
-    "image": "image/ต้นฉบับ Quartz/CQ7009.jpg",
+    "image": "image/quartz/CQ7009.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7009.jpg",
-      "image/ต้นฉบับ Quartz/CQ4002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4022.jpg",
-      "image/ต้นฉบับ Quartz/CQ1214.jpg"
+      "image/quartz/CQ7009.jpg",
+      "image/quartz/CQ4002.jpg",
+      "image/quartz/CQ4022.jpg",
+      "image/quartz/CQ1214.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -954,16 +954,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-51",
     "name": "CQ4002",
-    "image": "image/ต้นฉบับ Quartz/CQ4002.jpg",
+    "image": "image/quartz/CQ4002.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4002.jpg",
-      "image/ต้นฉบับ Quartz/CQ4022.jpg",
-      "image/ต้นฉบับ Quartz/CQ1214.jpg",
-      "image/ต้นฉบับ Quartz/CQ7014.jpg"
+      "image/quartz/CQ4002.jpg",
+      "image/quartz/CQ4022.jpg",
+      "image/quartz/CQ1214.jpg",
+      "image/quartz/CQ7014.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -971,16 +971,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-52",
     "name": "CQ4022",
-    "image": "image/ต้นฉบับ Quartz/CQ4022.jpg",
+    "image": "image/quartz/CQ4022.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4022.jpg",
-      "image/ต้นฉบับ Quartz/CQ1214.jpg",
-      "image/ต้นฉบับ Quartz/CQ7014.jpg",
-      "image/ต้นฉบับ Quartz/CQ7015.jpg"
+      "image/quartz/CQ4022.jpg",
+      "image/quartz/CQ1214.jpg",
+      "image/quartz/CQ7014.jpg",
+      "image/quartz/CQ7015.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz%",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -988,16 +988,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-53",
     "name": "CQ1214",
-    "image": "image/ต้นฉบับ Quartz/CQ1214.jpg",
+    "image": "image/quartz/CQ1214.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1214.jpg",
-      "image/ต้นฉบับ Quartz/CQ7014.jpg",
-      "image/ต้นฉบับ Quartz/CQ7015.jpg",
-      "image/ต้นฉบับ Quartz/CQ1529.jpg"
+      "image/quartz/CQ1214.jpg",
+      "image/quartz/CQ7014.jpg",
+      "image/quartz/CQ7015.jpg",
+      "image/quartz/CQ1529.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1005,16 +1005,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-54",
     "name": "CQ7014",
-    "image": "image/ต้นฉบับ Quartz/CQ7014.jpg",
+    "image": "image/quartz/CQ7014.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7014.jpg",
-      "image/ต้นฉบับ Quartz/CQ7015.jpg",
-      "image/ต้นฉบับ Quartz/CQ1529.jpg",
-      "image/ต้นฉบับ Quartz/CQ7003.jpg"
+      "image/quartz/CQ7014.jpg",
+      "image/quartz/CQ7015.jpg",
+      "image/quartz/CQ1529.jpg",
+      "image/quartz/CQ7003.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1022,16 +1022,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-55",
     "name": "CQ7015",
-    "image": "image/ต้นฉบับ Quartz/CQ7015.jpg",
+    "image": "image/quartz/CQ7015.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7015.jpg",
-      "image/ต้นฉบับ Quartz/CQ1529.jpg",
-      "image/ต้นฉบับ Quartz/CQ7003.jpg",
-      "image/ต้นฉบับ Quartz/CQ4006.jpg"
+      "image/quartz/CQ7015.jpg",
+      "image/quartz/CQ1529.jpg",
+      "image/quartz/CQ7003.jpg",
+      "image/quartz/CQ4006.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1039,16 +1039,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-56",
     "name": "CQ1529",
-    "image": "image/ต้นฉบับ Quartz/CQ1529.jpg",
+    "image": "image/quartz/CQ1529.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1529.jpg",
-      "image/ต้นฉบับ Quartz/CQ7003.jpg",
-      "image/ต้นฉบับ Quartz/CQ4006.jpg",
-      "image/ต้นฉบับ Quartz/CQ1694.jpg"
+      "image/quartz/CQ1529.jpg",
+      "image/quartz/CQ7003.jpg",
+      "image/quartz/CQ4006.jpg",
+      "image/quartz/CQ1694.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1056,16 +1056,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-57",
     "name": "CQ7003",
-    "image": "image/ต้นฉบับ Quartz/CQ7003.jpg",
+    "image": "image/quartz/CQ7003.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ7003.jpg",
-      "image/ต้นฉบับ Quartz/CQ4006.jpg",
-      "image/ต้นฉบับ Quartz/CQ1694.jpg",
-      "image/ต้นฉบับ Quartz/CQ4026.jpg"
+      "image/quartz/CQ7003.jpg",
+      "image/quartz/CQ4006.jpg",
+      "image/quartz/CQ1694.jpg",
+      "image/quartz/CQ4026.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1073,16 +1073,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-58",
     "name": "CQ4006",
-    "image": "image/ต้นฉบับ Quartz/CQ4006.jpg",
+    "image": "image/quartz/CQ4006.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4006.jpg",
-      "image/ต้นฉบับ Quartz/CQ1694.jpg",
-      "image/ต้นฉบับ Quartz/CQ4026.jpg",
-      "image/ต้นฉบับ Quartz/CQ4009.jpg"
+      "image/quartz/CQ4006.jpg",
+      "image/quartz/CQ1694.jpg",
+      "image/quartz/CQ4026.jpg",
+      "image/quartz/CQ4009.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1090,16 +1090,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-59",
     "name": "CQ1694",
-    "image": "image/ต้นฉบับ Quartz/CQ1694.jpg",
+    "image": "image/quartz/CQ1694.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1694.jpg",
-      "image/ต้นฉบับ Quartz/CQ4026.jpg",
-      "image/ต้นฉบับ Quartz/CQ4009.jpg",
-      "image/ต้นฉบับ Quartz/CQ1674.jpg"
+      "image/quartz/CQ1694.jpg",
+      "image/quartz/CQ4026.jpg",
+      "image/quartz/CQ4009.jpg",
+      "image/quartz/CQ1674.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1107,16 +1107,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-60",
     "name": "CQ4026",
-    "image": "image/ต้นฉบับ Quartz/CQ4026.jpg",
+    "image": "image/quartz/CQ4026.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4026.jpg",
-      "image/ต้นฉบับ Quartz/CQ4009.jpg",
-      "image/ต้นฉบับ Quartz/CQ1674.jpg",
-      "image/ต้นฉบับ Quartz/CQ1547.jpg"
+      "image/quartz/CQ4026.jpg",
+      "image/quartz/CQ4009.jpg",
+      "image/quartz/CQ1674.jpg",
+      "image/quartz/CQ1547.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1124,16 +1124,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-61",
     "name": "CQ4009",
-    "image": "image/ต้นฉบับ Quartz/CQ4009.jpg",
+    "image": "image/quartz/CQ4009.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ4009.jpg",
-      "image/ต้นฉบับ Quartz/CQ1674.jpg",
-      "image/ต้นฉบับ Quartz/CQ1547.jpg",
-      "image/ต้นฉบับ Quartz/CQ1525.jpg"
+      "image/quartz/CQ4009.jpg",
+      "image/quartz/CQ1674.jpg",
+      "image/quartz/CQ1547.jpg",
+      "image/quartz/CQ1525.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1141,15 +1141,15 @@ const BMC_CATALOG = [
   {
     "id": "catalog-62",
     "name": "CQ1674",
-    "image": "image/ต้นฉบับ Quartz/CQ1674.jpg",
+    "image": "image/quartz/CQ1674.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1674.jpg",
-      "image/ต้นฉบับ Quartz/CQ1547.jpg",
-      "image/ต้นฉบับ Quartz/CQ1525.jpg"
+      "image/quartz/CQ1674.jpg",
+      "image/quartz/CQ1547.jpg",
+      "image/quartz/CQ1525.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1157,14 +1157,14 @@ const BMC_CATALOG = [
   {
     "id": "catalog-63",
     "name": "CQ1547",
-    "image": "image/ต้นฉบับ Quartz/CQ1547.jpg",
+    "image": "image/quartz/CQ1547.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1547.jpg",
-      "image/ต้นฉบับ Quartz/CQ1525.jpg"
+      "image/quartz/CQ1547.jpg",
+      "image/quartz/CQ1525.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
@@ -1172,16 +1172,16 @@ const BMC_CATALOG = [
   {
     "id": "catalog-64",
     "name": "CQ1525",
-    "image": "image/ต้นฉบับ Quartz/CQ1525.jpg",
+    "image": "image/quartz/CQ1525.jpg",
     "gallery": [
-      "image/ต้นฉบับ Quartz/CQ1902.jpg",
-      "image/ต้นฉบับ Quartz/CQ1532.jpg",
-      "image/ต้นฉบับ Quartz/CQ1540.jpg",
-      "image/ต้นฉบับ Quartz/CQ118.jpg"
+      "image/quartz/CQ1902.jpg",
+      "image/quartz/CQ1532.jpg",
+      "image/quartz/CQ1540.jpg",
+      "image/quartz/CQ118.jpg"
     ],
     "category": "artificial",
     "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz",
+    "subcategory": "ต้นฉบับ Quartz 100%",
     "price": 0,
     "unit": "ตร.ม.",
     "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
