@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>บริการ | BMC HOMEMART</title>
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="policy.css">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header"><div class="container nav">
+<a href="index.html" class="logo"><img src="image/Logo BMC.jpg" alt="BMC HOMEMART"></a>
+<nav id="navMenu"><a href="index.html">หน้าแรก</a><a href="about-bmc.html">เกี่ยวกับเรา</a><a href="products.html">สินค้า</a><a href="index.html#services">บริการ</a><a href="index.html#projects">ผลงาน</a><a href="index.html#contact">ติดต่อเรา</a></nav>
+<a href="cart.html" class="cart-btn">🛒 <span id="cartCount">0</span></a><button class="mobile-menu" onclick="toggleMenu()">☰</button>
+</div></header>
+
+<main class="detail-page" id="serviceDetail">
+<section class="detail-hero"><div class="container detail-hero-inner">
+<p class="eyebrow gold">OUR SERVICES</p><h1 id="serviceTitle">บริการของ BMC HOMEMART</h1><p id="serviceLead"></p>
+</div></section>
+<section class="detail-section"><div class="container service-detail-grid">
+<div><img id="serviceImage" class="detail-main-image" src="" alt=""></div>
+<div class="detail-copy"><p class="eyebrow gold">SERVICE DETAIL</p><h2 id="serviceHeading"></h2><div id="serviceBody"></div><a href="index.html#contact" class="btn btn-gold">สอบถามบริการ</a></div>
+</div></section>
+<section class="detail-section service-process"><div class="container">
+<div class="section-heading"><p class="eyebrow gold">OUR PROCESS</p><h2>ขั้นตอนการทำงาน</h2></div>
+<div class="detail-benefits"><div><span>01</span><h3>ประเมินหน้างาน</h3><p>พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทาง</p></div><div><span>02</span><h3>วางแผนงาน</h3><p>เลือกวัสดุและวางแผนขั้นตอนให้เหมาะกับโครงการ</p></div><div><span>03</span><h3>ส่งมอบงาน</h3><p>ตรวจรายละเอียดและให้คำแนะนำในการดูแลรักษา</p></div></div>
+</div></section>
+</main>
+<footer><div class="copyright">© 2026 BMC HOMEMART</div></footer>
+
+<script src="script.js"></script>
+<script>
+const services={
+ installation:{title:"งานติดตั้ง",heading:"ติดตั้งอย่างเป็นระบบ ตั้งแต่เตรียมพื้นที่ถึงส่งมอบ",lead:"บริการติดตั้งวัสดุสำหรับบ้านและโครงการ โดยเน้นความเรียบร้อยของหน้างานและรายละเอียดของวัสดุ",image:"image/About/banner บริการ.jpg",body:["ทีมงานช่วยวางแผนลำดับงาน ตรวจสอบพื้นที่ และเตรียมรายละเอียดก่อนติดตั้ง เพื่อให้วัสดุแต่ละประเภททำงานร่วมกันได้อย่างเหมาะสม","เหมาะสำหรับงานพื้น งานผนัง งานหิน งานไม้ และงานตกแต่งที่ต้องการทีมช่างประสานงานตั้งแต่ต้นจนจบ"]},
+ craft:{title:"งานฝีมือ",heading:"รายละเอียดเล็ก ๆ ที่ทำให้งานดูแตกต่าง",lead:"งานเก็บรายละเอียด งานเข้ามุม งานประกอบ และงานตกแต่งที่ต้องอาศัยความประณีต",image:"image/About/WP_20140501_004.jpg",body:["งานฝีมือเน้นความละเอียดของขอบ รอยต่อ มุม และการจัดวางวัสดุให้เกิดความต่อเนื่อง","ทีมงานให้ความสำคัญกับความเรียบร้อยของพื้นผิวและภาพรวม เพื่อให้งานที่ส่งมอบสอดคล้องกับแบบและความต้องการของลูกค้า"]},
+ polishing:{title:"งานขัดใส",heading:"ฟื้นฟูพื้นผิวให้กลับมาดูสะอาดและสวยงาม",lead:"บริการขัดและดูแลพื้นหิน ช่วยปรับสภาพพื้นผิวและเพิ่มความเรียบร้อยของงาน",image:"image/About/banner_น้ำยา.png",body:["ประเมินสภาพพื้นก่อนเลือกวิธีดูแล จากนั้นทำความสะอาดและขัดตามชนิดของวัสดุ","เหมาะสำหรับพื้นที่ที่ต้องการฟื้นฟูความสวยงามและดูแลพื้นให้พร้อมใช้งานในระยะยาว"]}
+};
+const key=new URLSearchParams(location.search).get("type")||"installation";
+const data=services[key]||services.installation;
+document.getElementById("serviceTitle").textContent=data.title;
+document.getElementById("serviceHeading").textContent=data.heading;
+document.getElementById("serviceLead").textContent=data.lead;
+document.getElementById("serviceImage").src=data.image;
+document.getElementById("serviceImage").alt=data.title;
+document.getElementById("serviceBody").innerHTML=data.body.map(p=>"<p>"+p+"</p>").join("");
+</script>
+</body></html>

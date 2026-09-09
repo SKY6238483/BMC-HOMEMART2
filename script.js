@@ -1086,9 +1086,24 @@ function renderProductDetail() {
 
         params.get("id");
 
-    const product =
+    let product = productDetails[productId];
 
-        productDetails[productId];
+    /* รองรับสินค้าใหม่ที่สร้างจากโฟลเดอร์รูปภาพ */
+    if (!product && window.BMC_CATALOG) {
+        const catalogProduct = window.BMC_CATALOG.find(
+            item => item.id === productId
+        );
+        if (catalogProduct) {
+            product = {
+                name: catalogProduct.name,
+                category: catalogProduct.categoryLabel,
+                categoryCode: catalogProduct.category,
+                price: Number(catalogProduct.price || 0),
+                images: [catalogProduct.image],
+                description: `สินค้า ${catalogProduct.name} สำหรับงานตกแต่งบ้านและโครงการ สามารถสอบถามรายละเอียด ขนาด รุ่น และราคาได้กับทีมงาน BMC HOMEMART`
+            };
+        }
+    }
 
     if (!product) {
 
