@@ -11,7 +11,6 @@ content="width=device-width, initial-scale=1.0">
 <title>Products | BMC HOMEMART</title>
 
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="products.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap"
 rel="stylesheet">
@@ -193,17 +192,53 @@ BMC HOMEMART COLLECTION
 <!-- SEARCH / SORT -->
 <div class="product-toolbar remood-product-toolbar">
     <input type="text" id="searchInput" placeholder="ค้นหาชื่อวัสดุหรือสินค้า..." onkeyup="filterProducts()">
-    <select id="categoryFilter" aria-label="เลือกหมวดสินค้า">
-<option value="all">ทุกหมวดสินค้า</option>
-<option value="door">ประตู</option>
-<option value="solid">ไม้ Solid</option>
-<option value="laminate">ไม้ Laminate</option>
-<option value="engineered">ไม้ Engineered</option>
-<option value="mosaic">โมเสค</option>
-<option value="tile">กระเบื้องหินอ่อน</option>
-<option value="artificial">หินเทียม</option>
-<option value="granite">หินแกรนิต</option>
-<option value="marble">หินอ่อน</option>
+    <select id="categoryFilter" onchange="filterProducts()">
+
+<option value="all">
+ทุกหมวดสินค้า
+</option>
+
+<option value="natural">
+หินธรรมชาติ
+</option>
+
+<option value="marble">
+หินอ่อน
+</option>
+
+<option value="granite">
+หินแกรนิต
+</option>
+
+<option value="artificial">
+หินเทียม
+</option>
+
+<option value="flooring">
+ไม้พื้นเทียม
+</option>
+
+<option value="pvc">
+ไม้เทียมตกแต่งผนัง-ฝ้า
+</option>
+
+<option value="tile">
+กระเบื้อง
+</option>
+
+<option value="mosaic">
+โมเสค
+</option>
+
+<option value="door">
+ประตู
+</option>
+
+<option value="decor">
+ไม้ตกแต่งอเนกประสงค์ / อุปกรณ์เสริม
+</option>
+
+
 </select>
     <select id="sortFilter" onchange="sortProducts()">
         <option value="default">เรียงตามลำดับ</option>
@@ -213,17 +248,346 @@ BMC HOMEMART COLLECTION
     </select>
 </div>
 
-<div class="catalog-meta"><span>สินค้าในแคตตาล็อก</span><strong id="productVisibleCount">0</strong> <span>รายการ</span></div>
+<div class="catalog-meta"><span>สินค้าในแคตตาล็อก</span><strong id="productVisibleCount">6</strong> <span>รายการ</span></div>
 
 <!-- PRODUCTS -->
-<div class="catalog-meta"><span>สินค้าในแคตตาล็อก</span><strong id="productVisibleCount">0</strong> <span>รายการ</span></div>
 
-<div class="product-catalog" id="productCatalog" aria-live="polite"></div>
+<div class="product-catalog"
+id="productCatalog">
 
-<div id="noProducts" class="product-not-found" style="display:none;">
-    <h3>ไม่พบสินค้า</h3>
-    <p>ลองเปลี่ยนคำค้นหาหรือเลือกหมวดหมู่อื่น</p>
+
+<!-- PRODUCT 1 -->
+
+<div class="product-card"
+data-category="marble"
+data-name="white carrara marble"
+onclick="openProductDetail('white-carrara')">
+
+<img src="image/carrara-white.jpg"
+alt="White Carrara Marble"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+<div class="product-card-content">
+
+<span>MARBLE</span>
+
+<h3>
+White Carrara Marble
+</h3>
+
+<p>
+หินอ่อนสีขาว ลวดลายธรรมชาติ
+เหมาะสำหรับงานพื้นและผนัง
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿1,850 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+
 </div>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 2 -->
+
+<div class="product-card"
+data-category="marble"
+data-name="nero marquina marble"
+onclick="openProductDetail('nero-marquina')">
+
+<img src="image/MARQUINA-NERO.jpg"
+alt="Nero Marquina"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+
+<div class="product-card-content">
+
+<span>MARBLE</span>
+
+<h3>
+Nero Marquina
+</h3>
+
+<p>
+หินอ่อนสีดำพร้อมลายเส้นสีขาว
+ให้ความรู้สึกหรูหรา
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿2,450 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT 3 -->
+
+<div class="product-card"
+data-category="granite"
+data-name="black galaxy granite"
+onclick="openProductDetail('black-galaxy')">
+
+
+<img src="image/black-galaxy-granite.jpg"
+alt="black Galaxy Granite"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+
+<div class="product-card-content">
+
+<span>GRANITE</span>
+
+<h3>
+Black Galaxy Granite
+</h3>
+
+<p>
+หินแกรนิตสีดำ
+เหมาะกับเคาน์เตอร์และงานตกแต่ง
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿1,950 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT 4 -->
+
+<div class="product-card"
+data-category="flooring"
+data-name="oak engineered flooring"
+onclick="openProductDetail('oak-engineered')">
+
+<img src="image/oak-engineer.jpg"
+alt="Engineered Oak"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+
+<div class="product-card-content">
+
+<span>FLOORING</span>
+
+<h3>
+Oak Engineered Flooring
+</h3>
+
+<p>
+พื้นไม้โทนธรรมชาติ
+เหมาะกับบ้านสไตล์ Modern
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿1,290 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT 5 -->
+
+<div class="product-card"
+data-category="pvc"
+data-name="wood pvc wall"
+onclick="openProductDetail('wood-pvc')">
+
+<img src="image/PVC-wall.jpeg"
+alt="PVC Wall"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+
+<div class="product-card-content">
+
+<span>PVC</span>
+
+<h3>
+Wood PVC Wall
+</h3>
+
+<p>
+วัสดุตกแต่งผนัง
+ดูแลรักษาง่าย
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿590 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- PRODUCT 6 -->
+
+<div class="product-card"
+data-category="door"
+data-name="modern wooden door"
+onclick="openProductDetail('modern-door')">
+
+<img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=1000&q=85"
+alt="Modern Wooden Door"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+<div class="product-card-content">
+
+<span>DOOR</span>
+
+<h3>
+Modern Wooden Door
+</h3>
+
+<p>
+ประตูไม้ดีไซน์ Modern
+เหมาะสำหรับบ้านและโครงการ
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿8,900 / ชุด
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'White Carrara Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- PRODUCT 7 -->
+
+<div class="product-card"
+data-category="marble"
+data-name="golden portoto marble"
+onclick="openProductDetail('golden-portoto')">
+
+<img src="image/Golden-Portoro-01.jpg"
+alt="Golden Portoro Marble"
+class = "product-image"
+onclick="openImage(this.src, this.alt)">
+
+<div class="product-card-content">
+
+<span>MARBLE</span>
+
+<h3>
+Golden Portoro Marble
+</h3>
+
+<p>
+หินอ่อนเทียมพอร์ทโทโร โทนสีดำ มีลายสีน้ำตาลทอง
+เหมาะสำหรับ top counter พื้นผนังตกแต่ง
+</p>
+
+<div class="product-bottom">
+
+<strong>
+฿1,850 / ตร.ม.
+</strong>
+
+<button onclick="event.stopPropagation(); addToCart(
+'Golden Portoro Marble',
+1850,
+'marble'
+)">
+    + เพิ่ม
+</button>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
 </section>
 
 
@@ -317,8 +681,6 @@ BMC HOMEMART COLLECTION
 
 
 <script src="script.js"></script>
-<script src="product-catalog-data.js"></script>
-<script src="products.js"></script>
 
 <script src="cookie-consent.js?v=20260907"></script>
 </body>

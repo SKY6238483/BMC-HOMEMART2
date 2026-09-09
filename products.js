@@ -1,72 +1,324 @@
 /* =========================================================
-   BMC HOMEMART — DYNAMIC PRODUCT CATALOG
-   Products are generated from product-catalog-data.js
+   BMC HOMEMART
+   PRODUCT CATALOG FILTER
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", function () {
-    const catalog = Array.isArray(window.BMC_CATALOG) ? window.BMC_CATALOG : [];
-    const grid = document.getElementById("productCatalog");
-    const search = document.getElementById("searchInput");
-    const category = document.getElementById("categoryFilter");
-    const sort = document.getElementById("sortFilter");
-    const count = document.getElementById("productVisibleCount");
-    const empty = document.getElementById("noProducts");
 
-    if (!grid) return;
+    const products =
+        document.querySelectorAll(".catalog-product");
 
-    const params = new URLSearchParams(window.location.search);
-    const initialCategory = params.get("category");
-    if (category && initialCategory && [...category.options].some(o => o.value === initialCategory)) {
-        category.value = initialCategory;
+    const search =
+        document.getElementById("productSearch");
+
+    const price =
+        document.getElementById("priceFilter");
+
+    const categories =
+        document.querySelectorAll(".category-filter");
+
+    const sort =
+        document.getElementById("sortProduct");
+
+    const total =
+        document.getElementById("productTotal");
+
+    const noProducts =
+        document.getElementById("noProducts");
+
+    const resetButton =
+        document.getElementById("resetFilter");
+
+
+    /* ไม่มีหน้าสินค้า ก็ไม่ต้องทำอะไร */
+
+    if (!products.length) {
+        return;
     }
 
-    function card(product) {
-        const safeId = String(product.id).replace(/'/g, "\\'");
-        const price = Number(product.price || 0);
-        return `
-            <article class="product-card"
-                data-category="${product.category}"
-                data-name="${String(product.name).toLowerCase().replace(/"/g, '&quot;')}"
-                data-price="${price}"
-                onclick="openCatalogProduct('${safeId}')">
-                <img src="${product.image}" alt="${product.name}" class="product-image" loading="lazy"
-                     onclick="event.stopPropagation(); openImage(this.src, this.alt)">
-                <div class="product-card-content">
-                    <span>${product.categoryLabel}</span>
-                    <h3>${product.name}</h3>
-                    <p>วัสดุสำหรับงานบ้าน งานตกแต่งภายใน และโครงการ</p>
-                    <div class="product-bottom">
-                        <strong>${price > 0 ? `฿${price.toLocaleString()} / ตร.ม.` : 'สอบถามราคา'}</strong>
-                        <button type="button" onclick="event.stopPropagation(); addToCart('${String(product.name).replace(/'/g, "\\'")}',${price},'${product.category}')">+ เพิ่ม</button>
-                    </div>
-                </div>
-            </article>`;
+
+    /* =====================================================
+       FILTER
+    ===================================================== */
+
+    function filterCatalogProducts() {
+
+        const keyword =
+            search
+                ? search.value.trim().toLowerCase()
+                : "";
+
+
+        const selectedCategories =
+            [...categories]
+                .filter(c => c.checked)
+                .map(c => c.value);
+
+
+        const selectedPrice =
+            price
+                ? price.value
+                : "all";
+
+
+        let visible = [];
+
+
+        products.forEach(product => {
+
+            const name =
+                (
+                    product.dataset.name || ""
+                ).toLowerCase();
+
+
+            const category =
+                product.dataset.category || "";
+
+
+            const productPrice =
+                Number(
+                    product.dataset.price || 0
+                );
+
+
+            /* SEARCH */
+
+            const matchSearch =
+                name.includes(keyword);
+
+
+            /* CATEGORY */
+
+            const matchCategory =
+                selectedCategories.length === 0 ||
+                selectedCategories.includes(category);
+
+
+            /* PRICE */
+
+            let matchPrice = true;
+
+
+            if (selectedPrice === "under1000") {
+
+                matchPrice =
+                    productPrice < 1000;
+
+            }
+
+
+            if (selectedPrice === "1000-5000") {
+
+                matchPrice =
+                    productPrice >= 1000 &&
+                    productPrice <= 5000;
+
+            }
+
+
+            if (selectedPrice === "5000") {
+
+                matchPrice =
+                    productPrice > 5000;
+
+            }
+
+
+            /* SHOW / HIDE */
+
+            if (
+                matchSearch &&
+                matchCategory &&
+                matchPrice
+            ) {
+
+                product.style.display = "";
+
+                visible.push(product);
+
+            } else {
+
+                product.style.display = "none";
+
+            }
+
+        });
+
+
+        if (total) {
+
+            total.textContent =
+                visible.length;
+
+        }
+
+
+        if (noProducts) {
+
+            noProducts.style.display =
+                visible.length === 0
+                    ? "block"
+                    : "none";
+
+        }
+
     }
 
-    function render() {
-        const q = (search?.value || "").trim().toLowerCase();
-        const cat = category?.value || "all";
-        let list = catalog.filter(p =>
-            (!q || p.name.toLowerCase().includes(q) || p.categoryLabel.toLowerCase().includes(q)) &&
-            (cat === "all" || p.category === cat)
+
+    /* =====================================================
+       SEARCH
+    ===================================================== */
+
+    if (search) {
+
+        search.addEventListener(
+            "input",
+            filterCatalogProducts
         );
 
-        if (sort?.value === "name") list.sort((a,b) => a.name.localeCompare(b.name, "th"));
-        if (sort?.value === "price-low") list.sort((a,b) => Number(a.price) - Number(b.price));
-        if (sort?.value === "price-high") list.sort((a,b) => Number(b.price) - Number(a.price));
-
-        grid.innerHTML = list.map(card).join("");
-        if (count) count.textContent = list.length;
-        if (empty) empty.style.display = list.length ? "none" : "block";
     }
 
-    window.openCatalogProduct = function(id) {
-        window.location.href = "product-detail.html?catalog=" + encodeURIComponent(id);
-    };
 
-    search?.addEventListener("input", render);
-    category?.addEventListener("change", render);
-    sort?.addEventListener("change", render);
+    /* =====================================================
+       PRICE
+    ===================================================== */
 
-    render();
+    if (price) {
+
+        price.addEventListener(
+            "change",
+            filterCatalogProducts
+        );
+
+    }
+
+
+    /* =====================================================
+       CATEGORY
+    ===================================================== */
+
+    categories.forEach(checkbox => {
+
+        checkbox.addEventListener(
+            "change",
+            filterCatalogProducts
+        );
+
+    });
+
+
+    /* =====================================================
+       SORT
+    ===================================================== */
+
+    if (sort) {
+
+        sort.addEventListener(
+            "change",
+            function () {
+
+                const grid =
+                    document.getElementById(
+                        "catalogGrid"
+                    );
+
+
+                if (!grid) {
+                    return;
+                }
+
+
+                const items =
+                    [...products];
+
+
+                if (sort.value === "low") {
+
+                    items.sort(
+                        (a, b) =>
+                            Number(a.dataset.price) -
+                            Number(b.dataset.price)
+                    );
+
+                }
+
+
+                if (sort.value === "high") {
+
+                    items.sort(
+                        (a, b) =>
+                            Number(b.dataset.price) -
+                            Number(a.dataset.price)
+                    );
+
+                }
+
+
+                if (sort.value === "name") {
+
+                    items.sort(
+                        (a, b) =>
+                            (
+                                a.dataset.name || ""
+                            ).localeCompare(
+                                b.dataset.name || "",
+                                "th"
+                            )
+                    );
+
+                }
+
+
+                items.forEach(item => {
+
+                    grid.appendChild(item);
+
+                });
+
+            }
+        );
+
+    }
+
+
+    /* =====================================================
+       RESET
+    ===================================================== */
+
+    if (resetButton) {
+
+        resetButton.addEventListener(
+            "click",
+            function () {
+
+                if (search) {
+                    search.value = "";
+                }
+
+
+                if (price) {
+                    price.value = "all";
+                }
+
+
+                categories.forEach(
+                    checkbox => {
+                        checkbox.checked = false;
+                    }
+                );
+
+
+                filterCatalogProducts();
+
+            }
+        );
+
+    }
+
+
+    /* เรียกครั้งแรก */
+
+    filterCatalogProducts();
+
 });
