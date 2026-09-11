@@ -3881,3 +3881,90 @@ footer a:hover {
 .product-category-pills::-webkit-scrollbar,
 .material-category-tabs::-webkit-scrollbar{display:none}
 .product-category-pills.is-dragging{cursor:grabbing!important}
+
+/* =========================================================
+   PRODUCT SLIDER — DESKTOP ONLY
+   ========================================================= */
+
+@media (min-width: 901px) {
+
+    .product-catalog-wrap {
+        position: relative;
+        width: 100%;
+    }
+
+    .product-catalog {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 30px;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding: 5px 2px 20px;
+    }
+
+    .product-catalog::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* แสดงสินค้า 3 ใบต่อหนึ่งช่วง */
+    .product-catalog .product-card {
+        flex: 0 0 calc((100% - 60px) / 3);
+        min-width: 0;
+    }
+
+    /* ปุ่มซ้าย-ขวา */
+    .product-slider-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 48px;
+        height: 48px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        background: #fff;
+        color: #333;
+        font-size: 25px;
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 10;
+        box-shadow: 0 4px 15px rgba(0,0,0,.12);
+        transition: all .25s ease;
+    }
+
+    .product-slider-btn:hover {
+        background: #a17a42;
+        color: #fff;
+        border-color: #a17a42;
+    }
+
+    .product-slider-prev {
+        left: -24px;
+    }
+
+    .product-slider-next {
+        right: -24px;
+    }
+}
+
+
+/* =========================================================
+   MOBILE / TABLET
+   ไม่ใช้ปุ่ม Slider
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+    .product-slider-btn {
+        display: none !important;
+    }
+
+    .product-catalog {
+        display: grid !important;
+    }
+}

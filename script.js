@@ -621,3 +621,71 @@ document.addEventListener('DOMContentLoaded',()=>{
     strip.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){strip.scrollLeft += e.deltaY;}}, {passive:true});
   });
 });
+
+
+/* =========================================================
+   PRODUCT SLIDER — DESKTOP
+   ========================================================= */
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document
+        .querySelectorAll(".product-catalog-wrap")
+        .forEach(function (wrap) {
+
+            const catalog =
+                wrap.querySelector(".product-catalog");
+
+            const prev =
+                wrap.querySelector(".product-slider-prev");
+
+            const next =
+                wrap.querySelector(".product-slider-next");
+
+            if (!catalog || !prev || !next) return;
+
+
+            function getScrollAmount() {
+
+                const card =
+                    catalog.querySelector(".product-card");
+
+                if (!card) {
+                    return 400;
+                }
+
+                const cardWidth =
+                    card.getBoundingClientRect().width;
+
+                const style =
+                    window.getComputedStyle(catalog);
+
+                const gap =
+                    parseFloat(style.columnGap || style.gap) || 30;
+
+                return cardWidth + gap;
+            }
+
+
+            prev.addEventListener("click", function () {
+
+                catalog.scrollBy({
+                    left: -getScrollAmount(),
+                    behavior: "smooth"
+                });
+
+            });
+
+
+            next.addEventListener("click", function () {
+
+                catalog.scrollBy({
+                    left: getScrollAmount(),
+                    behavior: "smooth"
+                });
+
+            });
+
+        });
+
+});
