@@ -1,4 +1,4 @@
-/* BMC HOMEMART - generated product catalog */
+/* BMC HOMEMART - bilingual product catalog */
 const BMC_CATALOG = [
   {
     "id": "white-carrara",
@@ -15,7 +15,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble",
     "price": 1850,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนสีขาว ลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและผนัง ใช้ได้กับเคาน์เตอร์และงานตกแต่งภายในที่ต้องการความหรูหราและสะอาดตา"
+    "description": "หินอ่อนสีขาว ลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและผนัง ใช้ได้กับเคาน์เตอร์และงานตกแต่งภายในที่ต้องการความหรูหราและสะอาดตา",
+    "nameEn": "White Carrara Marble",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble",
+    "descriptionEn": "หินอ่อนสีขาว ลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและผนัง ใช้ได้กับเคาน์เตอร์และงานตกแต่งภายในที่ต้องการความหรูหราและสะอาดตา"
   },
   {
     "id": "nero-marquina",
@@ -32,7 +36,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble",
     "price": 2450,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนสีดำพร้อมลายเส้นสีขาว ให้ความรู้สึกหรูหราและโดดเด่น เหมาะสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง"
+    "description": "หินอ่อนสีดำพร้อมลายเส้นสีขาว ให้ความรู้สึกหรูหราและโดดเด่น เหมาะสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "Nero Marquina",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble",
+    "descriptionEn": "หินอ่อนสีดำพร้อมลายเส้นสีขาว ให้ความรู้สึกหรูหราและโดดเด่น เหมาะสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง"
   },
   {
     "id": "black-galaxy",
@@ -49,7 +57,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite",
     "price": 1950,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตสีดำ มีลวดลายประกายธรรมชาติ แข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานตกแต่ง"
+    "description": "หินแกรนิตสีดำ มีลวดลายประกายธรรมชาติ แข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานตกแต่ง",
+    "nameEn": "Black Galaxy Granite",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite",
+    "descriptionEn": "หินแกรนิตสีดำ มีลวดลายประกายธรรมชาติ แข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานตกแต่ง"
   },
   {
     "id": "oak-engineered",
@@ -66,7 +78,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 1290,
     "unit": "ตร.ม.",
-    "description": "พื้นไม้ Engineered โทนสีธรรมชาติ ให้ความรู้สึกอบอุ่นและทันสมัย เหมาะสำหรับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "พื้นไม้ Engineered โทนสีธรรมชาติ ให้ความรู้สึกอบอุ่นและทันสมัย เหมาะสำหรับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Oak Engineered Flooring",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "wood-pvc",
@@ -83,7 +99,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 590,
     "unit": "ตร.ม.",
-    "description": "วัสดุตกแต่งผนังลายไม้ PVC ดูแลรักษาง่าย น้ำหนักเบา เหมาะสำหรับงานตกแต่งผนังและพื้นที่ใช้งานหลากหลาย"
+    "description": "วัสดุตกแต่งผนังลายไม้ PVC ดูแลรักษาง่าย น้ำหนักเบา เหมาะสำหรับงานตกแต่งผนังและพื้นที่ใช้งานหลากหลาย",
+    "nameEn": "Wood PVC Wall",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "วัสดุตกแต่งผนังลายไม้ PVC ดูแลรักษาง่าย น้ำหนักเบา เหมาะสำหรับงานตกแต่งผนังและพื้นที่ใช้งานหลากหลาย"
   },
   {
     "id": "golden-portoro",
@@ -99,7 +119,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble",
     "price": 1850,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนเทียมพอร์ทโทโร โทนสีดำ มีลายสีน้ำตาลทองสลับขาว ผิวหน้ามัน เหมาะสำหรับท็อปเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน"
+    "description": "หินอ่อนเทียมพอร์ทโทโร โทนสีดำ มีลายสีน้ำตาลทองสลับขาว ผิวหน้ามัน เหมาะสำหรับท็อปเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน",
+    "nameEn": "Golden Portoro Marble",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble",
+    "descriptionEn": "หินอ่อนเทียมพอร์ทโทโร โทนสีดำ มีลายสีน้ำตาลทองสลับขาว ผิวหน้ามัน เหมาะสำหรับท็อปเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน"
   },
   {
     "id": "catalog-1",
@@ -111,12 +135,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1540.jpg",
       "image/quartz/CQ118.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1902",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-2",
@@ -128,12 +156,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ118.jpg",
       "image/quartz/CQ7006.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1532",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-3",
@@ -145,12 +177,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7006.jpg",
       "image/quartz/CQ4003.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1540",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-4",
@@ -162,12 +198,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4003.jpg",
       "image/quartz/CQ7007.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ118",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-5",
@@ -179,12 +219,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7007.jpg",
       "image/quartz/CQ4018.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7006",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-6",
@@ -196,12 +240,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4018.jpg",
       "image/quartz/CQ0001.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4003",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-7",
@@ -213,12 +261,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ0001.jpg",
       "image/quartz/CQ4004.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7007",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-8",
@@ -230,12 +282,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4004.jpg",
       "image/quartz/CQ4023.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4018",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-9",
@@ -247,12 +303,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4023.jpg",
       "image/quartz/CQ4019.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ0001",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-10",
@@ -264,12 +324,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4019.jpg",
       "image/quartz/CQ4001 pure white.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4004",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-11",
@@ -281,12 +345,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4001 pure white.jpg",
       "image/quartz/CQ122.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4023",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-12",
@@ -298,12 +366,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ122.jpg",
       "image/quartz/CQ1219.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4019",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-13",
@@ -315,12 +387,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1219.jpg",
       "image/quartz/CQ4008.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4001 pure white",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-14",
@@ -332,12 +408,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4008.jpg",
       "image/quartz/CQ1538.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ122",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-15",
@@ -349,12 +429,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1538.jpg",
       "image/quartz/CQ4021.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1219",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-16",
@@ -366,12 +450,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4021.jpg",
       "image/quartz/CQ1504.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4008",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-17",
@@ -383,12 +471,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1504.jpg",
       "image/quartz/CQ1697.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1538",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-18",
@@ -400,12 +492,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1697.jpg",
       "image/quartz/CQ7008.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4021",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-19",
@@ -417,12 +513,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7008.jpg",
       "image/quartz/CQ4028.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1504",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-20",
@@ -434,12 +534,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4028.jpg",
       "image/quartz/CQ1612.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1697",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-21",
@@ -451,12 +555,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1612.jpg",
       "image/quartz/CQ4007.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7008",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-22",
@@ -468,12 +576,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4007.jpg",
       "image/quartz/CQ4024.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4028",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-23",
@@ -485,12 +597,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4024.jpg",
       "image/quartz/CQ7002.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1612",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-24",
@@ -502,12 +618,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7002.jpg",
       "image/quartz/CQ4010.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4007",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-25",
@@ -519,12 +639,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4010.jpg",
       "image/quartz/CQ4020.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4024",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-26",
@@ -536,12 +660,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4020.jpg",
       "image/quartz/CQ123.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7002",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-27",
@@ -553,12 +681,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ123.jpg",
       "image/quartz/CQ1551.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4010",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-28",
@@ -570,12 +702,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1551.jpg",
       "image/quartz/CQ222.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4020",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-29",
@@ -587,12 +723,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ222.jpg",
       "image/quartz/CQ7013.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ123",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-30",
@@ -604,12 +744,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7013.jpg",
       "image/quartz/CQ1682.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1551",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-31",
@@ -621,12 +765,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1682.jpg",
       "image/quartz/CQ7005.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ222",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-32",
@@ -638,12 +786,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7005.jpg",
       "image/quartz/CQ7001.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7013",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-33",
@@ -655,12 +807,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7001.jpg",
       "image/quartz/CQ1195.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1682",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-34",
@@ -672,12 +828,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1195.jpg",
       "image/quartz/CQ7010.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7005",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-35",
@@ -689,12 +849,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7010.jpg",
       "image/quartz/CQ1531.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7001",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-36",
@@ -706,12 +870,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1531.jpg",
       "image/quartz/CQ7011.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1195",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-37",
@@ -723,12 +891,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7011.jpg",
       "image/quartz/CQ1478.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7010",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-38",
@@ -740,12 +912,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1478.jpg",
       "image/quartz/CQ1560.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1531",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-39",
@@ -757,12 +933,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1560.jpg",
       "image/quartz/CQ1703.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7011",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-40",
@@ -774,12 +954,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1703.jpg",
       "image/quartz/CQ1565.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1478",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-41",
@@ -791,12 +975,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1565.jpg",
       "image/quartz/CQ7016.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1560",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-42",
@@ -808,12 +996,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7016.jpg",
       "image/quartz/CQ1196.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1703",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-43",
@@ -825,12 +1017,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1196.jpg",
       "image/quartz/CQ7004.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1565",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-44",
@@ -842,12 +1038,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7004.jpg",
       "image/quartz/CQ7012.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7016",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-45",
@@ -859,12 +1059,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7012.jpg",
       "image/quartz/CQ4005.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1196",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-46",
@@ -876,12 +1080,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4005.jpg",
       "image/quartz/CQ1216.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7004",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-47",
@@ -893,12 +1101,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1216.jpg",
       "image/quartz/CQ7009.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7012",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-48",
@@ -910,12 +1122,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7009.jpg",
       "image/quartz/CQ4002.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4005",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-49",
@@ -927,12 +1143,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4002.jpg",
       "image/quartz/CQ4022.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1216",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-50",
@@ -944,12 +1164,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4022.jpg",
       "image/quartz/CQ1214.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7009",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-51",
@@ -961,12 +1185,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1214.jpg",
       "image/quartz/CQ7014.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4002",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-52",
@@ -978,12 +1206,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7014.jpg",
       "image/quartz/CQ7015.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4022",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-53",
@@ -995,12 +1227,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7015.jpg",
       "image/quartz/CQ1529.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1214",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-54",
@@ -1012,12 +1248,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1529.jpg",
       "image/quartz/CQ7003.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7014",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-55",
@@ -1029,12 +1269,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ7003.jpg",
       "image/quartz/CQ4006.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7015",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-56",
@@ -1046,12 +1290,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4006.jpg",
       "image/quartz/CQ1694.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1529",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-57",
@@ -1063,12 +1311,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1694.jpg",
       "image/quartz/CQ4026.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ7003",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-58",
@@ -1080,12 +1332,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4026.jpg",
       "image/quartz/CQ4009.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4006",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-59",
@@ -1097,12 +1353,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ4009.jpg",
       "image/quartz/CQ1674.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1694",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-60",
@@ -1114,12 +1374,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1674.jpg",
       "image/quartz/CQ1547.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4026",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-61",
@@ -1131,12 +1395,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1547.jpg",
       "image/quartz/CQ1525.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ4009",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-62",
@@ -1147,12 +1415,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1547.jpg",
       "image/quartz/CQ1525.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1674",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-63",
@@ -1162,12 +1434,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1547.jpg",
       "image/quartz/CQ1525.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1547",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-64",
@@ -1179,12 +1455,16 @@ const BMC_CATALOG = [
       "image/quartz/CQ1540.jpg",
       "image/quartz/CQ118.jpg"
     ],
-    "category": "artificial",
-    "categoryLabel": "หินเทียม",
-    "subcategory": "ต้นฉบับ Quartz 100%",
+    "category": "quartz",
+    "categoryLabel": "หินควอตซ์",
+    "subcategory": "Quartz",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินเทียม/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งที่ต้องการความสม่ำเสมอของลวดลาย"
+    "description": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย",
+    "nameEn": "CQ1525",
+    "categoryLabelEn": "หินควอตซ์",
+    "subcategoryEn": "Quartz",
+    "descriptionEn": "หินควอตซ์/หินสังเคราะห์สำหรับงานเคาน์เตอร์ พื้น ผนัง และงานตกแต่งภายใน มีพื้นผิวสม่ำเสมอและดูแลรักษาง่าย"
   },
   {
     "id": "catalog-65",
@@ -1201,7 +1481,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS018-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-66",
@@ -1218,7 +1502,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS003-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-67",
@@ -1235,7 +1523,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS010-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-68",
@@ -1252,7 +1544,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS032-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-69",
@@ -1269,7 +1565,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS067-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-70",
@@ -1286,7 +1586,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS067-7",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-71",
@@ -1303,7 +1607,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS007-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-72",
@@ -1320,7 +1628,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS014-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-73",
@@ -1337,7 +1649,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS067-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-74",
@@ -1354,7 +1670,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-75",
@@ -1371,7 +1691,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS023-5",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-76",
@@ -1388,7 +1712,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-77",
@@ -1405,7 +1733,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS071-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-78",
@@ -1422,7 +1754,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-5",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-79",
@@ -1439,7 +1775,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG010-5",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-80",
@@ -1456,7 +1796,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-81",
@@ -1473,7 +1817,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS069-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-82",
@@ -1490,7 +1838,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS004-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-83",
@@ -1507,7 +1859,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS035-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-84",
@@ -1524,7 +1880,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG011-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-85",
@@ -1541,7 +1901,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS023-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-86",
@@ -1558,7 +1922,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG012-6",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-87",
@@ -1575,7 +1943,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS071-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-88",
@@ -1592,7 +1964,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS067-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-89",
@@ -1609,7 +1985,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS043-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-90",
@@ -1626,7 +2006,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS020-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-91",
@@ -1643,7 +2027,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS085-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-92",
@@ -1660,7 +2048,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG011-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-93",
@@ -1677,7 +2069,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS050-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-94",
@@ -1694,7 +2090,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS028-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-95",
@@ -1711,7 +2111,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS038-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-96",
@@ -1728,7 +2132,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG012-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-97",
@@ -1745,7 +2153,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS044-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-98",
@@ -1762,7 +2174,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS030-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-99",
@@ -1779,7 +2195,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS070-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-100",
@@ -1796,7 +2216,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS067-6",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-101",
@@ -1813,7 +2237,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS024-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-102",
@@ -1830,7 +2258,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS068-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-103",
@@ -1847,7 +2279,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS020-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-104",
@@ -1864,7 +2300,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS026-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-105",
@@ -1881,7 +2321,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS034-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-106",
@@ -1898,7 +2342,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS003-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-107",
@@ -1915,7 +2363,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS023-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-108",
@@ -1932,7 +2384,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS091-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-109",
@@ -1949,7 +2405,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS045-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-110",
@@ -1966,7 +2426,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-7",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-111",
@@ -1983,7 +2447,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS016-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-112",
@@ -2000,7 +2468,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS004-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-113",
@@ -2017,7 +2489,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS044-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-114",
@@ -2034,7 +2510,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS061-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-115",
@@ -2051,7 +2531,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AM023-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-116",
@@ -2068,7 +2552,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS0223-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-117",
@@ -2085,7 +2573,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS086-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-118",
@@ -2102,7 +2594,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS007-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-119",
@@ -2119,7 +2615,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG012-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-120",
@@ -2136,7 +2636,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS041-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-121",
@@ -2153,7 +2657,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG010-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-122",
@@ -2170,7 +2678,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS012-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-123",
@@ -2187,7 +2699,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS088-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-124",
@@ -2204,7 +2720,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-5",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-125",
@@ -2221,7 +2741,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS084-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-126",
@@ -2238,7 +2762,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-127",
@@ -2255,7 +2783,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS015-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-128",
@@ -2272,7 +2804,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-129",
@@ -2289,7 +2825,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS060-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-130",
@@ -2306,7 +2846,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS025-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-131",
@@ -2323,7 +2867,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS068-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-132",
@@ -2340,7 +2888,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS017-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-133",
@@ -2357,7 +2909,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS021-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-134",
@@ -2374,7 +2930,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG010-6",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-135",
@@ -2391,7 +2951,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS047-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-136",
@@ -2408,7 +2972,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS066-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-137",
@@ -2425,7 +2993,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-138",
@@ -2442,7 +3014,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS008-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-139",
@@ -2459,7 +3035,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS073-4",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-140",
@@ -2476,7 +3056,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS036-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-141",
@@ -2493,7 +3077,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS003-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-142",
@@ -2510,7 +3098,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-3",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-143",
@@ -2527,7 +3119,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS004-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-144",
@@ -2544,7 +3140,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG010-2",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-145",
@@ -2561,7 +3161,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS060-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-146",
@@ -2577,7 +3181,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AG010-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-147",
@@ -2592,7 +3200,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS064-1",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-148",
@@ -2609,7 +3221,11 @@ const BMC_CATALOG = [
     "subcategory": "Mosaic ต้นฉบับ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง"
+    "description": "โมเสคสำหรับเพิ่มรายละเอียดและสร้างจุดเด่นให้กับผนัง พื้น ห้องน้ำ และพื้นที่ตกแต่ง",
+    "nameEn": "M-AS002-6",
+    "categoryLabelEn": "Mosaic",
+    "subcategoryEn": "Mosaic",
+    "descriptionEn": "Mosaic for walls, floors and decorative applications, adding detail and character to spaces."
   },
   {
     "id": "catalog-149",
@@ -2626,7 +3242,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG027 Blue Pearl-บูลเพิลร์-",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-150",
@@ -2643,7 +3263,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G562 Orange Bloom-ออเรนจ์บูม",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-151",
@@ -2660,7 +3284,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "GL500 Light Black-ไรท์แบล็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-152",
@@ -2677,7 +3305,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G602 White Lotus-ไวท์โลตัส",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-153",
@@ -2694,7 +3326,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G912 Shanxi Black-ดำซาซี",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-154",
@@ -2711,7 +3347,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G654 Black Dot-ดำลายจุด",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-155",
@@ -2728,7 +3368,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG041 Rose Yellow-โรสเยลโล่",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-156",
@@ -2745,7 +3389,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG038 Royal Crown Black-รอยอล์คราว์แบ็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-157",
@@ -2762,7 +3410,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G365  Yellow Snow-เหลืองเกล็ดหิมะ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-158",
@@ -2779,7 +3431,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G908 Rawsilk-รอลซิล",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-159",
@@ -2796,7 +3452,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG049 Royal Champagne-รอยัลแชมเปญ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-160",
@@ -2813,7 +3473,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "GL1000 Absolue Black-แอ๊บโซลูทแบล็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-161",
@@ -2830,7 +3494,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG040 Yellow Bazil-เหลืองบราซิล",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-162",
@@ -2847,7 +3515,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G655 Dark Flower-ดาร์ก ฟลาวเวอร์",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-163",
@@ -2864,7 +3536,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G915 Cherry Red- เชอร์รี่เรด",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-164",
@@ -2881,7 +3557,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G681 Camilian Pink-คามิเลียพิงค์",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-165",
@@ -2898,7 +3578,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G623 เทาจีน",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-166",
@@ -2915,7 +3599,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G657 พิงค์เพอร์ริโน่",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-167",
@@ -2932,7 +3620,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G687 Orange Sakura-ซากุระส้ม",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-168",
@@ -2949,7 +3641,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG010 Emeral Pear-เอ็มเมอร์รัลเพิลร์",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-169",
@@ -2966,7 +3662,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G910 White Tiger-ขาวลายเสือ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-170",
@@ -2983,7 +3683,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G911 Red Tiger-แดงลายเสีอ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-171",
@@ -3000,7 +3704,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG029 Black Africa- ดำอาฟริกา",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-172",
@@ -3017,7 +3725,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG026 Super Black-ซุปเปอร์แบ็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-173",
@@ -3034,7 +3746,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TF101 Top Black-ท็อปแบล็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-174",
@@ -3051,7 +3767,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G603 White Snow-ขาวเกร็ดหิมะ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-175",
@@ -3068,7 +3788,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG047 Picasso Black-ปิกาโซ ดำ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-176",
@@ -3085,7 +3809,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG023 India Red- แดงอินเดีย",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-177",
@@ -3102,7 +3830,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG056 VisconWhite-วิสคอนไวท์",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-178",
@@ -3119,7 +3851,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG048 Picasso Gray-ปิกาโซ เทา",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-179",
@@ -3136,7 +3872,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG002 Black Galaxy-ดำเกล็ดทอง",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-180",
@@ -3153,7 +3893,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG028 Tanbrown-แทนบาร์ว",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-181",
@@ -3170,7 +3914,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG052 White G-ไวท์จี",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-182",
@@ -3187,7 +3935,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG042 Crown Black-คราว์แบ็ค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-183",
@@ -3204,7 +3956,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G640 Gray Clasic- เทาคลาสสิค",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-184",
@@ -3221,7 +3977,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G664 Pink Gems-พลอยชมพู",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-185",
@@ -3238,7 +3998,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G635 Dark Pink Jade-หยกชมพูเข้ม",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-186",
@@ -3255,7 +4019,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G636 Light Pink Jade-หยกชมพูอ่อน",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-187",
@@ -3272,7 +4040,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G6571 Mocha-มอคค่า",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-188",
@@ -3288,7 +4060,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G6231 Super Gray-ซุปเปอร์เกรย์",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-189",
@@ -3303,7 +4079,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "TG011 Spoondrift White-เทาลายเมฆ",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-190",
@@ -3320,7 +4100,11 @@ const BMC_CATALOG = [
     "subcategory": "Granite ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
+    "description": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ",
+    "nameEn": "G301-3 Black Jubpo- ดำจัปโป้",
+    "categoryLabelEn": "หินแกรนิต",
+    "subcategoryEn": "Granite ลายน้ำ",
+    "descriptionEn": "หินแกรนิตที่มีความแข็งแรงและทนทาน เหมาะสำหรับเคาน์เตอร์ พื้น ผนัง และงานโครงการ"
   },
   {
     "id": "catalog-191",
@@ -3337,7 +4121,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN040 White Gold Beige-ไวท์โกล์ดเบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-192",
@@ -3354,7 +4142,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN035 Cream Italy-ครีมอิตาลี",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-193",
@@ -3371,7 +4163,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD2002 Venata White-เวนนาตาไวท์",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-194",
@@ -3388,7 +4184,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "CP225 Limestone-ลามสโตน",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-195",
@@ -3405,7 +4205,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN014 Rosa Lapanto-โรซ่า ลาปานโต้",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-196",
@@ -3422,7 +4226,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD3001 Travertine Beige-ทาเวอร์ทีน เบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-197",
@@ -3439,7 +4247,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "CP243 Tiger Beige-ไทเกอร์ เบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-198",
@@ -3456,7 +4268,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD1006 Silivia Beige-ซิลเวีย เบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-199",
@@ -3473,7 +4289,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN043 Gray Classic-เกรย์คลาสสิค",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-200",
@@ -3490,7 +4310,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD1001 Cream Marfil-ครีมมาเฟล",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-201",
@@ -3507,7 +4331,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD1002 Botticino Classico-บิติชิโน่",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-202",
@@ -3524,7 +4352,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN046 Black Cezar-แบล็คซีซา",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-203",
@@ -3541,7 +4373,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD5001 Rosa Verona-โรซ่า เวอโรน่า",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-204",
@@ -3558,7 +4394,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN047 Rustic Gray-รัสติคเกรย์",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-205",
@@ -3575,7 +4415,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN022 Travertine Gray-ทาเวอร์ทีนเกร์ย",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-206",
@@ -3592,7 +4436,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD5002 Rojo Alicante-โรโจอาคานเต้",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-207",
@@ -3609,7 +4457,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD1008 Galala Beige-กาลาล่าเบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-208",
@@ -3626,7 +4478,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN038 Golden Dargon-โกลเด้นดาร์กอน (แบล็คฟอร์เรส)",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-209",
@@ -3643,7 +4499,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD1007 Sunny Beige-ซันนี่ เบจ",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-210",
@@ -3660,7 +4520,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD6001 Grand Dark Emperador-แกรนด์ดาคเอ็มเพอร์ราโด",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-211",
@@ -3677,7 +4541,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD6002 Light Emperador-ไรท์ เอ็มเพอร์ราโด",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-212",
@@ -3694,7 +4562,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN027 Royal Biticino-รอยัลบิติชิโน่",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-213",
@@ -3711,7 +4583,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD200812 Rain Forest(Polish)-เลน ฟอเรส",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-214",
@@ -3728,7 +4604,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD6004 Italy Green-เขียว อิตาลี",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-215",
@@ -3745,7 +4625,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN023 Travertine Thai-ทราเวอร์ทีนไทยลายไม้",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-216",
@@ -3762,7 +4646,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "CP255 Royal Crown-รอยัลคราว",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-217",
@@ -3778,7 +4666,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN036 White Varacas-ไวท์วาราคัส",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-218",
@@ -3793,7 +4685,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RDN013 Black Marquina-แบล็คมาคิวน่า",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-219",
@@ -3810,7 +4706,11 @@ const BMC_CATALOG = [
     "subcategory": "Marble ลายน้ำ",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
+    "description": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา",
+    "nameEn": "RD2003 White Carrara-ไวท์คาราร่า",
+    "categoryLabelEn": "หินอ่อน",
+    "subcategoryEn": "Marble ลายน้ำ",
+    "descriptionEn": "หินอ่อนลวดลายธรรมชาติ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความหรูหรา"
   },
   {
     "id": "catalog-220",
@@ -3827,7 +4727,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTT813",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-221",
@@ -3844,7 +4748,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM20",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-222",
@@ -3861,7 +4769,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6681A",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-223",
@@ -3878,7 +4790,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8830P",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-224",
@@ -3895,7 +4811,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6684A",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-225",
@@ -3912,7 +4832,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6684D",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-226",
@@ -3929,7 +4853,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM21",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-227",
@@ -3946,7 +4874,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6685B",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-228",
@@ -3963,7 +4895,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT6618 600x600",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-229",
@@ -3980,7 +4916,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6687B",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-230",
@@ -3997,7 +4937,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM17",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-231",
@@ -4014,7 +4958,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8818P",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-232",
@@ -4031,7 +4979,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8825P",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-233",
@@ -4048,7 +5000,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM14",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-234",
@@ -4065,7 +5021,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8880",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-235",
@@ -4082,7 +5042,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6685C",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-236",
@@ -4099,7 +5063,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM18",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-237",
@@ -4116,7 +5084,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTHD6304",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-238",
@@ -4133,7 +5105,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTHD8809",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-239",
@@ -4150,7 +5126,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6685A",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-240",
@@ -4167,7 +5147,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM16",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-241",
@@ -4184,7 +5168,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6683C",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-242",
@@ -4201,7 +5189,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTHD6666",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-243",
@@ -4218,7 +5210,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6687C",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-244",
@@ -4235,7 +5231,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6681B",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-245",
@@ -4252,7 +5252,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT6616 600x600",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-246",
@@ -4269,7 +5273,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6687A",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-247",
@@ -4286,7 +5294,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTHD6305",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-248",
@@ -4303,7 +5315,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8836P",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-249",
@@ -4320,7 +5336,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6685D",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-250",
@@ -4337,7 +5357,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT6615 600x600",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-251",
@@ -4354,7 +5378,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT6619 600x600",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-252",
@@ -4371,7 +5399,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6683A",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-253",
@@ -4388,7 +5420,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6681C",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-254",
@@ -4405,7 +5441,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT2-MSD8816P",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-255",
@@ -4422,7 +5462,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM15",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-256",
@@ -4439,7 +5483,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6683B",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-257",
@@ -4456,7 +5504,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CT8819",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-258",
@@ -4473,7 +5525,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6684B",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-259",
@@ -4490,7 +5546,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTCDS8153",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-260",
@@ -4506,7 +5566,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6683D",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-261",
@@ -4521,7 +5585,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTLM19",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-262",
@@ -4538,7 +5606,11 @@ const BMC_CATALOG = [
     "subcategory": "กระเบื้องหินอ่อน",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
+    "description": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู",
+    "nameEn": "CTK6684C",
+    "categoryLabelEn": "กระเบื้องหินอ่อน",
+    "subcategoryEn": "กระเบื้องหินอ่อน",
+    "descriptionEn": "กระเบื้องหินอ่อนสำหรับงานพื้นและผนัง ช่วยสร้างพื้นผิวและบรรยากาศที่เรียบหรู"
   },
   {
     "id": "catalog-263",
@@ -4555,7 +5627,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู HDF3",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-264",
@@ -4572,7 +5648,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู HDF1",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-265",
@@ -4589,7 +5669,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู HDF5",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-266",
@@ -4605,7 +5689,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู HDF2",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-267",
@@ -4620,7 +5708,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู HDF4",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-268",
@@ -4637,7 +5729,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตู HDF",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "HDF Door",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตู HDF",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-269",
@@ -4654,7 +5750,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์01",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-270",
@@ -4671,7 +5771,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์06",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-271",
@@ -4688,7 +5792,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์04",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-272",
@@ -4705,7 +5813,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Veneer Door",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-273",
@@ -4722,7 +5834,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์03",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-274",
@@ -4738,7 +5854,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์02",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-275",
@@ -4753,7 +5873,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์07",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-276",
@@ -4770,7 +5894,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูวีเนียร์",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิววีเนียร์05",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูวีเนียร์",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-277",
@@ -4787,7 +5915,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูไม้จริง",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู3",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูไม้จริง",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-278",
@@ -4804,7 +5936,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูไม้จริง",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูไม้จริง1",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูไม้จริง",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-279",
@@ -4820,7 +5956,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูไม้จริง",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูไม้",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูไม้จริง",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-280",
@@ -4835,7 +5975,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูไม้จริง",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู2",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูไม้จริง",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-281",
@@ -4852,7 +5996,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูไม้จริง",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตู1",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูไม้จริง",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-282",
@@ -4869,7 +6017,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-5",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-283",
@@ -4886,7 +6038,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต01",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-284",
@@ -4903,7 +6059,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-6",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-285",
@@ -4920,7 +6080,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-12",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-286",
@@ -4937,7 +6101,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-4",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-287",
@@ -4954,7 +6122,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-2",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-288",
@@ -4971,7 +6143,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-11",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-289",
@@ -4988,7 +6164,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-14",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-290",
@@ -5005,7 +6185,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต03",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-291",
@@ -5022,7 +6206,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-8",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-292",
@@ -5039,7 +6227,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-13",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-293",
@@ -5056,7 +6248,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต07",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-294",
@@ -5073,7 +6269,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต05",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-295",
@@ -5090,7 +6290,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต04",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-296",
@@ -5107,7 +6311,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-1",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-297",
@@ -5124,7 +6332,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-10",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-298",
@@ -5141,7 +6353,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-3",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-299",
@@ -5158,7 +6374,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-7",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-300",
@@ -5175,7 +6395,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Laminate Door",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-301",
@@ -5191,7 +6415,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต02",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-302",
@@ -5206,7 +6434,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "Door-9",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-303",
@@ -5223,7 +6455,11 @@ const BMC_CATALOG = [
     "subcategory": "ประตูปิดผิวลามิเนต",
     "price": 0,
     "unit": "ชุด",
-    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
+    "description": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง",
+    "nameEn": "ประตูปิดผิวลามิเนต06",
+    "categoryLabelEn": "ประตู",
+    "subcategoryEn": "ประตูปิดผิวลามิเนต",
+    "descriptionEn": "ประตูสำหรับบ้านและโครงการ มีหลายรูปแบบและผิววัสดุให้เลือกตามสไตล์การตกแต่ง"
   },
   {
     "id": "catalog-304",
@@ -5240,7 +6476,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "04",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-305",
@@ -5257,7 +6497,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "oak-litte white",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-306",
@@ -5274,7 +6518,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Walnut -",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-307",
@@ -5291,7 +6539,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "1(1)",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-308",
@@ -5308,7 +6560,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "maple",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-309",
@@ -5325,7 +6581,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "oak",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-310",
@@ -5342,7 +6602,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "IMG_8502",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-311",
@@ -5359,7 +6623,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "3(1)",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-312",
@@ -5376,7 +6644,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "IMG_8504",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-313",
@@ -5393,7 +6665,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "EFS-20102",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-314",
@@ -5410,7 +6686,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "1",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-315",
@@ -5427,7 +6707,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "2",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-316",
@@ -5444,7 +6728,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "oak-",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-317",
@@ -5461,7 +6749,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "05",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-318",
@@ -5478,7 +6770,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Teak -",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-319",
@@ -5495,7 +6791,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "6(1)",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-320",
@@ -5512,7 +6812,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "01",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-321",
@@ -5529,7 +6833,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "1(2)",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-322",
@@ -5546,7 +6854,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "5",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-323",
@@ -5563,7 +6875,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "chreey",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-324",
@@ -5580,7 +6896,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "maple -",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-325",
@@ -5597,7 +6917,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Beech-",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-326",
@@ -5614,7 +6938,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "02",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-327",
@@ -5630,7 +6958,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "teak",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-328",
@@ -5645,7 +6977,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "2(1)",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-329",
@@ -5662,7 +6998,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Engineered",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน"
+    "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "06",
+    "categoryLabelEn": "Engineered Wood",
+    "subcategoryEn": "Engineered Wood",
+    "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
   {
     "id": "catalog-330",
@@ -5679,7 +7019,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B03",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-331",
@@ -5696,7 +7040,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A08",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-332",
@@ -5713,7 +7061,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141223105625738",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-333",
@@ -5730,7 +7082,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "D02",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-334",
@@ -5747,7 +7103,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B04",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-335",
@@ -5764,7 +7124,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A36",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-336",
@@ -5781,7 +7145,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "201412221247039463",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-337",
@@ -5798,7 +7166,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141222132551822",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-338",
@@ -5815,7 +7187,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "D03",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-339",
@@ -5832,7 +7208,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "I03",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-340",
@@ -5849,7 +7229,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-341",
@@ -5866,7 +7250,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141225104009198",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-342",
@@ -5883,7 +7271,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B07",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-343",
@@ -5900,7 +7292,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "C01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-344",
@@ -5917,7 +7313,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "H01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-345",
@@ -5934,7 +7334,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141225110852195",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-346",
@@ -5951,7 +7355,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "201412221246063860",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-347",
@@ -5968,7 +7376,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B06",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-348",
@@ -5985,7 +7397,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A49",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-349",
@@ -6002,7 +7418,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-350",
@@ -6019,7 +7439,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B12",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-351",
@@ -6036,7 +7460,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A02",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-352",
@@ -6053,7 +7481,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "H02",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-353",
@@ -6070,7 +7502,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A50",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-354",
@@ -6087,7 +7523,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "201412221246586423",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-355",
@@ -6104,7 +7544,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A04",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-356",
@@ -6121,7 +7565,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B05",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-357",
@@ -6138,7 +7586,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "I01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-358",
@@ -6155,7 +7607,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141223105706167",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-359",
@@ -6172,7 +7628,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A03",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-360",
@@ -6189,7 +7649,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A06",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-361",
@@ -6206,7 +7670,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "I02",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-362",
@@ -6223,7 +7691,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "201412221246513588",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-363",
@@ -6240,7 +7712,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A07",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-364",
@@ -6257,7 +7733,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141223112628661",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-365",
@@ -6274,7 +7754,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "D01",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-366",
@@ -6291,7 +7775,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A05",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-367",
@@ -6308,7 +7796,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B02",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-368",
@@ -6325,7 +7817,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141225104021140",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-369",
@@ -6342,7 +7838,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "B09",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-370",
@@ -6358,7 +7858,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "20141224101754866",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-371",
@@ -6373,7 +7877,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A51",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-372",
@@ -6390,7 +7898,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ Laminate",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย"
+    "description": "ไม้ Laminate สำหรับงานตกแต่งพื้นและพื้นที่ภายใน ดูแลรักษาง่ายและมีลวดลายให้เลือกหลากหลาย",
+    "nameEn": "A31",
+    "categoryLabelEn": "Laminate Flooring",
+    "subcategoryEn": "Laminate Flooring",
+    "descriptionEn": "Laminate flooring is easy to maintain and available in many patterns, suitable for indoor spaces."
   },
   {
     "id": "catalog-373",
@@ -6407,7 +7919,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_104336",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-374",
@@ -6424,7 +7940,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_104436",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-375",
@@ -6441,7 +7961,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "pvcลายไม้2",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-376",
@@ -6458,7 +7982,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_104355",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-377",
@@ -6475,7 +8003,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_2_20315",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-378",
@@ -6492,7 +8024,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "pvcลายไม้",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-379",
@@ -6509,7 +8045,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_10451",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-380",
@@ -6526,7 +8066,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_104046",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-381",
@@ -6543,7 +8087,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "pvcลายไม้1",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-382",
@@ -6560,7 +8108,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_21_133522",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-383",
@@ -6577,7 +8129,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_103349",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-384",
@@ -6594,7 +8150,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_24_125813",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-385",
@@ -6611,7 +8171,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_21_13222",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-386",
@@ -6628,7 +8192,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_103428",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-387",
@@ -6645,7 +8213,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_5_27_10426",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-388",
@@ -6661,7 +8233,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_8_11713",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-389",
@@ -6676,7 +8252,11 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_21_133414",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
   },
   {
     "id": "catalog-390",
@@ -6693,6 +8273,4342 @@ const BMC_CATALOG = [
     "subcategory": "ไม้ PVC",
     "price": 0,
     "unit": "ตร.ม.",
-    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+    "description": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา",
+    "nameEn": "2011_6_21_132330",
+    "categoryLabelEn": "ไม้ PVC",
+    "subcategoryEn": "ไม้ PVC",
+    "descriptionEn": "ไม้ PVC สำหรับตกแต่งผนังและพื้นที่ใช้งานที่ต้องการวัสดุดูแลรักษาง่าย น้ำหนักเบา"
+  },
+  {
+    "id": "quartzite-1",
+    "name": "Cairo",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Cairo",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-2",
+    "name": "Da Vinci",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Da Vinci",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-3",
+    "name": "Explosion Blue",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Explosion Blue",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-4",
+    "name": "La Valle",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "La Valle",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-5",
+    "name": "Mont Blanc",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Mont Blanc",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-6",
+    "name": "Pink Lake",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Pink Lake",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-7",
+    "name": "Starry Night",
+    "image": "image/หินควอตไซต์/Cairo.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Cairo.jpg",
+      "image/หินควอตไซต์/Da Vinci.jpg",
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "subcategory": "หินควอตไซต์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์เป็นหินธรรมชาติที่มีความแข็งแรงสูง ลวดลายโดดเด่นและมีมิติ เหมาะสำหรับเคาน์เตอร์ ผนัง พื้น และงานตกแต่งระดับพรีเมียม",
+    "nameEn": "Starry Night",
+    "categoryLabelEn": "Quartzite",
+    "subcategoryEn": "Quartzite",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "limestone-1",
+    "name": "Avorio Beige",
+    "image": "image/หินไลม์สโตน/Avorio Beige.jpg",
+    "gallery": [
+      "image/หินไลม์สโตน/Avorio Beige.jpg",
+      "image/หินไลม์สโตน/Mocca Cream.jpg",
+      "image/หินไลม์สโตน/Rava Beige.jpg"
+    ],
+    "category": "limestone",
+    "categoryLabel": "หินไลม์สโตน",
+    "subcategory": "หินไลม์สโตน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินไลม์สโตนให้โทนสีธรรมชาติและพื้นผิวอบอุ่น เหมาะกับผนัง พื้น งานภูมิทัศน์ และงานตกแต่งที่ต้องการความเป็นธรรมชาติ",
+    "nameEn": "Avorio Beige",
+    "categoryLabelEn": "Limestone",
+    "subcategoryEn": "Limestone",
+    "descriptionEn": "Natural limestone with warm tones, suitable for floors, walls, landscaping and exterior applications."
+  },
+  {
+    "id": "limestone-2",
+    "name": "Mocca Cream",
+    "image": "image/หินไลม์สโตน/Avorio Beige.jpg",
+    "gallery": [
+      "image/หินไลม์สโตน/Avorio Beige.jpg",
+      "image/หินไลม์สโตน/Mocca Cream.jpg",
+      "image/หินไลม์สโตน/Rava Beige.jpg"
+    ],
+    "category": "limestone",
+    "categoryLabel": "หินไลม์สโตน",
+    "subcategory": "หินไลม์สโตน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินไลม์สโตนให้โทนสีธรรมชาติและพื้นผิวอบอุ่น เหมาะกับผนัง พื้น งานภูมิทัศน์ และงานตกแต่งที่ต้องการความเป็นธรรมชาติ",
+    "nameEn": "Mocca Cream",
+    "categoryLabelEn": "Limestone",
+    "subcategoryEn": "Limestone",
+    "descriptionEn": "Natural limestone with warm tones, suitable for floors, walls, landscaping and exterior applications."
+  },
+  {
+    "id": "limestone-3",
+    "name": "Rava Beige",
+    "image": "image/หินไลม์สโตน/Avorio Beige.jpg",
+    "gallery": [
+      "image/หินไลม์สโตน/Avorio Beige.jpg",
+      "image/หินไลม์สโตน/Mocca Cream.jpg",
+      "image/หินไลม์สโตน/Rava Beige.jpg"
+    ],
+    "category": "limestone",
+    "categoryLabel": "หินไลม์สโตน",
+    "subcategory": "หินไลม์สโตน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินไลม์สโตนให้โทนสีธรรมชาติและพื้นผิวอบอุ่น เหมาะกับผนัง พื้น งานภูมิทัศน์ และงานตกแต่งที่ต้องการความเป็นธรรมชาติ",
+    "nameEn": "Rava Beige",
+    "categoryLabelEn": "Limestone",
+    "subcategoryEn": "Limestone",
+    "descriptionEn": "Natural limestone with warm tones, suitable for floors, walls, landscaping and exterior applications."
+  },
+  {
+    "id": "travertine-1",
+    "name": "Beige Travertine",
+    "image": "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+      "image/หินทราเวอร์ทีน/Silver Travertine.jpg",
+      "image/หินทราเวอร์ทีน/White Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "subcategory": "หินทราเวอร์ทีน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากรูพรุนและลวดลายตามธรรมชาติ เหมาะสำหรับพื้น ผนัง ห้องน้ำ และงานตกแต่งทั้งภายในและภายนอก",
+    "nameEn": "Beige Travertine",
+    "categoryLabelEn": "Travertine",
+    "subcategoryEn": "Travertine",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "travertine-2",
+    "name": "Silver Travertine",
+    "image": "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+      "image/หินทราเวอร์ทีน/Silver Travertine.jpg",
+      "image/หินทราเวอร์ทีน/White Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "subcategory": "หินทราเวอร์ทีน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากรูพรุนและลวดลายตามธรรมชาติ เหมาะสำหรับพื้น ผนัง ห้องน้ำ และงานตกแต่งทั้งภายในและภายนอก",
+    "nameEn": "Silver Travertine",
+    "categoryLabelEn": "Travertine",
+    "subcategoryEn": "Travertine",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "travertine-3",
+    "name": "White Travertine",
+    "image": "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+      "image/หินทราเวอร์ทีน/Silver Travertine.jpg",
+      "image/หินทราเวอร์ทีน/White Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "subcategory": "หินทราเวอร์ทีน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากรูพรุนและลวดลายตามธรรมชาติ เหมาะสำหรับพื้น ผนัง ห้องน้ำ และงานตกแต่งทั้งภายในและภายนอก",
+    "nameEn": "White Travertine",
+    "categoryLabelEn": "Travertine",
+    "subcategoryEn": "Travertine",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "travertine-4",
+    "name": "Yellow Travertine",
+    "image": "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Beige Travertine.jpg",
+      "image/หินทราเวอร์ทีน/Silver Travertine.jpg",
+      "image/หินทราเวอร์ทีน/White Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "subcategory": "หินทราเวอร์ทีน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากรูพรุนและลวดลายตามธรรมชาติ เหมาะสำหรับพื้น ผนัง ห้องน้ำ และงานตกแต่งทั้งภายในและภายนอก",
+    "nameEn": "Yellow Travertine",
+    "categoryLabelEn": "Travertine",
+    "subcategoryEn": "Travertine",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "onyx-1",
+    "name": "Bruno Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Bruno Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-2",
+    "name": "Cola Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Cola Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-3",
+    "name": "Damra Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Damra Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-4",
+    "name": "Grey Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Grey Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-5",
+    "name": "Honey Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Honey Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-6",
+    "name": "Oriental Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Oriental Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-7",
+    "name": "Rustica Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Rustica Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-8",
+    "name": "Valencia Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Valencia Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-9",
+    "name": "Vedeci Onyx",
+    "image": "image/หินออนิกซ์/Bruno Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Bruno Onyx.jpg",
+      "image/หินออนิกซ์/Cola Onyx.jpg",
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "subcategory": "หินออนิกซ์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงที่โดดเด่น เหมาะสำหรับผนังตกแต่ง เคาน์เตอร์ และงานดีไซน์ที่ต้องการความหรูหรา",
+    "nameEn": "Vedeci Onyx",
+    "categoryLabelEn": "Onyx",
+    "subcategoryEn": "Onyx",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "pool-1",
+    "name": "10",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "10",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-2",
+    "name": "11",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "11",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-3",
+    "name": "2",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "2",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-4",
+    "name": "4",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "4",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-5",
+    "name": "6",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "6",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-6",
+    "name": "7",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "7",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-7",
+    "name": "8",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "8",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-8",
+    "name": "9",
+    "image": "image/หินปูสระว่ายน้ำ/10.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/10.jpg",
+      "image/หินปูสระว่ายน้ำ/11.jpg",
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินปูสระว่ายน้ำคัดเลือกสำหรับพื้นที่รอบสระและงานภายนอก ให้ผิวสัมผัสเหมาะกับพื้นที่ใช้งานและช่วยสร้างบรรยากาศเป็นธรรมชาติ",
+    "nameEn": "9",
+    "categoryLabelEn": "Pool Stone",
+    "subcategoryEn": "Pool Stone",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "compressed-marble-1",
+    "name": "CF0001 Lightning Beige",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0001 Lightning Beige",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-2",
+    "name": "CF0012 Rainbow",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0012 Rainbow",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-3",
+    "name": "CF0028 Marfil Geige",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0028 Marfil Geige",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-4",
+    "name": "CF0030 Atom Beige",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0030 Atom Beige",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-5",
+    "name": "CF0031 Golddust Red",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0031 Golddust Red",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-6",
+    "name": "CF0032 New Beige",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0032 New Beige",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-7",
+    "name": "CF0033 Red Dot",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0033 Red Dot",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-8",
+    "name": "CF0034 Ixoa",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0034 Ixoa",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-9",
+    "name": "CF0038 Black Jade With Star",
+    "image": "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0001 Lightning Beige.jpg",
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "subcategory": "หินอ่อนอัด",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "nameEn": "CF0038 Black Jade With Star",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategoryEn": "Compressed Marble",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "terrazzo-1",
+    "name": "SB100_BIANCO_LEV-IMG_7976",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB100_BIANCO_LEV-IMG_7976",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-2",
+    "name": "SB101_PEPESALE_LEV-IMG_7925",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB101_PEPESALE_LEV-IMG_7925",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-3",
+    "name": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-4",
+    "name": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-5",
+    "name": "SB105_ANTRACITE_LEV-IMG_7949",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB105_ANTRACITE_LEV-IMG_7949",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-6",
+    "name": "SB106_NERO_LEV-IMG_7964-1",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB106_NERO_LEV-IMG_7964-1",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-7",
+    "name": "SB108_BEIGE_LEV-IMG_7904",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB108_BEIGE_LEV-IMG_7904",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-8",
+    "name": "SB109_GIALLO_LEV-IMG_7847",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB109_GIALLO_LEV-IMG_7847",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-9",
+    "name": "SB111_VERDE_LEV-IMG_7913",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB111_VERDE_LEV-IMG_7913",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-10",
+    "name": "SB112_VERDE_SCURO_LEV-IMG_8052",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB112_VERDE_SCURO_LEV-IMG_8052",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-11",
+    "name": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-12",
+    "name": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-13",
+    "name": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-14",
+    "name": "SB119_PEPEGRIGIO_LEV-IMG_8037",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB119_PEPEGRIGIO_LEV-IMG_8037",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-15",
+    "name": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-16",
+    "name": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-17",
+    "name": "SB128_GRIGIO_NERO_LEV-IMG_7805",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB128_GRIGIO_NERO_LEV-IMG_7805",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-18",
+    "name": "SB130_AGGLOCEPPO_LEV-IMG_7660",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB130_AGGLOCEPPO_LEV-IMG_7660",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-19",
+    "name": "SB136_BIANCO_VR_LUX-IMG_7691",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB136_BIANCO_VR_LUX-IMG_7691",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-20",
+    "name": "SB138_GHIACCIO_LEV-IMG_7754",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB138_GHIACCIO_LEV-IMG_7754",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-21",
+    "name": "SB140_CA-DORO_LEV-IMG_7639",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB140_CA-DORO_LEV-IMG_7639",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-22",
+    "name": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-23",
+    "name": "SB143_BIANCO25_LEV-IMG_7651",
+    "image": "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB100_BIANCO_LEV-IMG_7976.jpg",
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "subcategory": "หินเทอราซโซ่",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น",
+    "nameEn": "SB143_BIANCO25_LEV-IMG_7651",
+    "categoryLabelEn": "Terrazzo",
+    "subcategoryEn": "Terrazzo",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "solid-1",
+    "name": "Bamboo-",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Bamboo-",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-2",
+    "name": "BAMBOO",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "BAMBOO",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-3",
+    "name": "beech-",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "beech-",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-4",
+    "name": "kempus",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "kempus",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-5",
+    "name": "MERBAU-",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "MERBAU-",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-6",
+    "name": "MERBAU",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "MERBAU",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-7",
+    "name": "oak-",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "oak-",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-8",
+    "name": "OAK",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "OAK",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-9",
+    "name": "TALI",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "TALI",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-10",
+    "name": "TAUARI",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "TAUARI",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-11",
+    "name": "teak-",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "teak-",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-12",
+    "name": "TEAK",
+    "image": "image/ไม้ Solid/Bamboo-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/Bamboo-.jpg",
+      "image/ไม้ Solid/BAMBOO.jpg",
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "subcategory": "ไม้ Solid",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "TEAK",
+    "categoryLabelEn": "Solid Wood",
+    "subcategoryEn": "Solid Wood",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "furniture-1",
+    "name": "KL514011",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL514011",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-2",
+    "name": "KL5181310    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5181310    （8mm）",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-3",
+    "name": "KL5297422（6mm）",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5297422（6mm）",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-4",
+    "name": "KL5593312",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5593312",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-5",
+    "name": "KL5599322    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5599322    （8mm）",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-6",
+    "name": "KL5668222    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5668222    （8mm）",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-7",
+    "name": "KL5693212",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5693212",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-8",
+    "name": "KL5697212（6mm）",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "KL5697212（6mm）",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-9",
+    "name": "RTJ-TB",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "RTJ-TB",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-10",
+    "name": "tb-001-2",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "tb-001-2",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-11",
+    "name": "TB-01T",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "TB-01T",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-12",
+    "name": "เก้าอี้ 01",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "เก้าอี้ 01",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-13",
+    "name": "เก้าอี้ 02",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "เก้าอี้ 02",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-14",
+    "name": "เก้าอี้ 03",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "เก้าอี้ 03",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-15",
+    "name": "โต๊ะ01",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "โต๊ะ01",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-16",
+    "name": "โต๊ะ02",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "โต๊ะ02",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-17",
+    "name": "โต๊ะ03",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "โต๊ะ03",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-18",
+    "name": "โต๊ะกลางดีสนี่",
+    "image": "image/เฟอร์นิเจอร์/KL514011.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL514011.jpg",
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "subcategory": "เฟอร์นิเจอร์",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์และวัสดุสำหรับงานตกแต่ง คัดสรรรูปแบบให้เข้ากับบ้านและโครงการหลากหลายสไตล์",
+    "nameEn": "โต๊ะกลางดีสนี่",
+    "categoryLabelEn": "Furniture",
+    "subcategoryEn": "Furniture",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "wpc-1",
+    "name": "ไม้เทียม WPC 1",
+    "image": "image/ไม้ Engineered/01.jpg",
+    "gallery": [
+      "image/ไม้ Engineered/01.jpg",
+      "image/ไม้ Engineered/02.jpg",
+      "image/ไม้ Engineered/04.jpg"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "ไม้เทียม WPC 1",
+    "categoryLabelEn": "ไม้เทียม WPC",
+    "subcategoryEn": "ไม้เทียม WPC",
+    "descriptionEn": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC"
+  },
+  {
+    "id": "wpc-2",
+    "name": "ไม้เทียม WPC 2",
+    "image": "image/ไม้ Engineered/02.jpg",
+    "gallery": [
+      "image/ไม้ Engineered/01.jpg",
+      "image/ไม้ Engineered/02.jpg",
+      "image/ไม้ Engineered/04.jpg"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "ไม้เทียม WPC 2",
+    "categoryLabelEn": "ไม้เทียม WPC",
+    "subcategoryEn": "ไม้เทียม WPC",
+    "descriptionEn": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC"
+  },
+  {
+    "id": "wpc-3",
+    "name": "ไม้เทียม WPC 3",
+    "image": "image/ไม้ Engineered/04.jpg",
+    "gallery": [
+      "image/ไม้ Engineered/01.jpg",
+      "image/ไม้ Engineered/02.jpg",
+      "image/ไม้ Engineered/04.jpg"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "ไม้เทียม WPC 3",
+    "categoryLabelEn": "ไม้เทียม WPC",
+    "subcategoryEn": "ไม้เทียม WPC",
+    "descriptionEn": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC"
+  },
+  {
+    "id": "spc-1",
+    "name": "ไม้เทียม SPC 1",
+    "image": "image/ไม้ Laminate/201412221246063860.jpg",
+    "gallery": [
+      "image/ไม้ Laminate/201412221246063860.jpg",
+      "image/ไม้ Laminate/201412221246513588.jpg",
+      "image/ไม้ Laminate/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "ไม้เทียม SPC 1",
+    "categoryLabelEn": "ไม้เทียม SPC",
+    "subcategoryEn": "ไม้เทียม SPC",
+    "descriptionEn": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC"
+  },
+  {
+    "id": "spc-2",
+    "name": "ไม้เทียม SPC 2",
+    "image": "image/ไม้ Laminate/201412221246513588.jpg",
+    "gallery": [
+      "image/ไม้ Laminate/201412221246063860.jpg",
+      "image/ไม้ Laminate/201412221246513588.jpg",
+      "image/ไม้ Laminate/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "ไม้เทียม SPC 2",
+    "categoryLabelEn": "ไม้เทียม SPC",
+    "subcategoryEn": "ไม้เทียม SPC",
+    "descriptionEn": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC"
+  },
+  {
+    "id": "spc-3",
+    "name": "ไม้เทียม SPC 3",
+    "image": "image/ไม้ Laminate/201412221246586423.jpg",
+    "gallery": [
+      "image/ไม้ Laminate/201412221246063860.jpg",
+      "image/ไม้ Laminate/201412221246513588.jpg",
+      "image/ไม้ Laminate/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "ไม้เทียม SPC 3",
+    "categoryLabelEn": "ไม้เทียม SPC",
+    "subcategoryEn": "ไม้เทียม SPC",
+    "descriptionEn": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC"
+  },
+  {
+    "id": "ceramic-1",
+    "name": "กระเบื้องเซรามิก 1",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "subcategory": "กระเบื้องเซรามิก",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิก สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องเซรามิก",
+    "nameEn": "กระเบื้องเซรามิก 1",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategoryEn": "Ceramic Tile",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-2",
+    "name": "กระเบื้องเซรามิก 2",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "subcategory": "กระเบื้องเซรามิก",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิก สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องเซรามิก",
+    "nameEn": "กระเบื้องเซรามิก 2",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategoryEn": "Ceramic Tile",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-3",
+    "name": "กระเบื้องเซรามิก 3",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "subcategory": "กระเบื้องเซรามิก",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิก สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องเซรามิก",
+    "nameEn": "กระเบื้องเซรามิก 3",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategoryEn": "Ceramic Tile",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "porcelain-1",
+    "name": "กระเบื้องพอซเซเลน 1",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "porcelain",
+    "categoryLabel": "กระเบื้องพอซเซเลน",
+    "subcategory": "กระเบื้องพอซเซเลน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน",
+    "nameEn": "กระเบื้องพอซเซเลน 1",
+    "categoryLabelEn": "กระเบื้องพอซเซเลน",
+    "subcategoryEn": "กระเบื้องพอซเซเลน",
+    "descriptionEn": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน"
+  },
+  {
+    "id": "porcelain-2",
+    "name": "กระเบื้องพอซเซเลน 2",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "porcelain",
+    "categoryLabel": "กระเบื้องพอซเซเลน",
+    "subcategory": "กระเบื้องพอซเซเลน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน",
+    "nameEn": "กระเบื้องพอซเซเลน 2",
+    "categoryLabelEn": "กระเบื้องพอซเซเลน",
+    "subcategoryEn": "กระเบื้องพอซเซเลน",
+    "descriptionEn": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน"
+  },
+  {
+    "id": "porcelain-3",
+    "name": "กระเบื้องพอซเซเลน 3",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8818P.jpg",
+      "image/กระเบื้องหินอ่อน/CT2-MSD8825P.jpg"
+    ],
+    "category": "porcelain",
+    "categoryLabel": "กระเบื้องพอซเซเลน",
+    "subcategory": "กระเบื้องพอซเซเลน",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน",
+    "nameEn": "กระเบื้องพอซเซเลน 3",
+    "categoryLabelEn": "กระเบื้องพอซเซเลน",
+    "subcategoryEn": "กระเบื้องพอซเซเลน",
+    "descriptionEn": "กระเบื้องพอซเซเลน สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ กระเบื้องพอซเซเลน"
+  },
+  {
+    "id": "quartzite-da-vinci",
+    "name": "Da Vinci",
+    "nameEn": "Da Vinci",
+    "image": "image/หินควอตไซต์/Da Vinci.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Da Vinci.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-explosion-blue",
+    "name": "Explosion Blue",
+    "nameEn": "Explosion Blue",
+    "image": "image/หินควอตไซต์/Explosion Blue.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Explosion Blue.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-la-valle",
+    "name": "La Valle",
+    "nameEn": "La Valle",
+    "image": "image/หินควอตไซต์/La Valle.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/La Valle.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-mont-blanc",
+    "name": "Mont Blanc",
+    "nameEn": "Mont Blanc",
+    "image": "image/หินควอตไซต์/Mont Blanc.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Mont Blanc.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-pink-lake",
+    "name": "Pink Lake",
+    "nameEn": "Pink Lake",
+    "image": "image/หินควอตไซต์/Pink Lake.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Pink Lake.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "quartzite-starry-night",
+    "name": "Starry Night",
+    "nameEn": "Starry Night",
+    "image": "image/หินควอตไซต์/Starry Night.jpg",
+    "gallery": [
+      "image/หินควอตไซต์/Starry Night.jpg"
+    ],
+    "category": "quartzite",
+    "categoryLabel": "หินควอตไซต์",
+    "categoryLabelEn": "Quartzite",
+    "subcategory": "หินควอตไซต์",
+    "subcategoryEn": "Quartzite",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินควอตไซต์ธรรมชาติ มีความแข็งแรงสูง ลวดลายโดดเด่น เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งระดับพรีเมียม",
+    "descriptionEn": "Natural quartzite with high durability and distinctive patterns, suitable for floors, walls, countertops and premium interiors."
+  },
+  {
+    "id": "limestone-mocca-cream",
+    "name": "Mocca Cream",
+    "nameEn": "Mocca Cream",
+    "image": "image/หินไลม์สโตน/Mocca Cream.jpg",
+    "gallery": [
+      "image/หินไลม์สโตน/Mocca Cream.jpg"
+    ],
+    "category": "limestone",
+    "categoryLabel": "หินไลม์สโตน",
+    "categoryLabelEn": "Limestone",
+    "subcategory": "หินไลม์สโตน",
+    "subcategoryEn": "Limestone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินไลม์สโตนโทนธรรมชาติ ให้พื้นผิวอบอุ่น เหมาะสำหรับพื้น ผนัง งานภูมิทัศน์ และงานภายนอก",
+    "descriptionEn": "Natural limestone with warm tones, suitable for floors, walls, landscaping and exterior applications."
+  },
+  {
+    "id": "limestone-rava-beige",
+    "name": "Rava Beige",
+    "nameEn": "Rava Beige",
+    "image": "image/หินไลม์สโตน/Rava Beige.jpg",
+    "gallery": [
+      "image/หินไลม์สโตน/Rava Beige.jpg"
+    ],
+    "category": "limestone",
+    "categoryLabel": "หินไลม์สโตน",
+    "categoryLabelEn": "Limestone",
+    "subcategory": "หินไลม์สโตน",
+    "subcategoryEn": "Limestone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินไลม์สโตนโทนธรรมชาติ ให้พื้นผิวอบอุ่น เหมาะสำหรับพื้น ผนัง งานภูมิทัศน์ และงานภายนอก",
+    "descriptionEn": "Natural limestone with warm tones, suitable for floors, walls, landscaping and exterior applications."
+  },
+  {
+    "id": "travertine-silver-travertine",
+    "name": "Silver Travertine",
+    "nameEn": "Silver Travertine",
+    "image": "image/หินทราเวอร์ทีน/Silver Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Silver Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "categoryLabelEn": "Travertine",
+    "subcategory": "หินทราเวอร์ทีน",
+    "subcategoryEn": "Travertine",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากลวดลายและรูพรุนตามธรรมชาติ เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "travertine-white-travertine",
+    "name": "White Travertine",
+    "nameEn": "White Travertine",
+    "image": "image/หินทราเวอร์ทีน/White Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/White Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "categoryLabelEn": "Travertine",
+    "subcategory": "หินทราเวอร์ทีน",
+    "subcategoryEn": "Travertine",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากลวดลายและรูพรุนตามธรรมชาติ เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "travertine-yellow-travertine",
+    "name": "Yellow Travertine",
+    "nameEn": "Yellow Travertine",
+    "image": "image/หินทราเวอร์ทีน/Yellow Travertine.jpg",
+    "gallery": [
+      "image/หินทราเวอร์ทีน/Yellow Travertine.jpg"
+    ],
+    "category": "travertine",
+    "categoryLabel": "หินทราเวอร์ทีน",
+    "categoryLabelEn": "Travertine",
+    "subcategory": "หินทราเวอร์ทีน",
+    "subcategoryEn": "Travertine",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินทราเวอร์ทีนมีเอกลักษณ์จากลวดลายและรูพรุนตามธรรมชาติ เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Travertine with naturally distinctive texture and pores, suitable for floors, walls and decorative applications."
+  },
+  {
+    "id": "onyx-cola-onyx",
+    "name": "Cola Onyx",
+    "nameEn": "Cola Onyx",
+    "image": "image/หินออนิกซ์/Cola Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Cola Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-damra-onyx",
+    "name": "Damra Onyx",
+    "nameEn": "Damra Onyx",
+    "image": "image/หินออนิกซ์/Damra Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Damra Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-grey-onyx",
+    "name": "Grey Onyx",
+    "nameEn": "Grey Onyx",
+    "image": "image/หินออนิกซ์/Grey Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Grey Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-honey-onyx",
+    "name": "Honey Onyx",
+    "nameEn": "Honey Onyx",
+    "image": "image/หินออนิกซ์/Honey Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Honey Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-oriental-onyx",
+    "name": "Oriental Onyx",
+    "nameEn": "Oriental Onyx",
+    "image": "image/หินออนิกซ์/Oriental Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Oriental Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-rustica-onyx",
+    "name": "Rustica Onyx",
+    "nameEn": "Rustica Onyx",
+    "image": "image/หินออนิกซ์/Rustica Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Rustica Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-valencia-onyx",
+    "name": "Valencia Onyx",
+    "nameEn": "Valencia Onyx",
+    "image": "image/หินออนิกซ์/Valencia Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Valencia Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "onyx-vedeci-onyx",
+    "name": "Vedeci Onyx",
+    "nameEn": "Vedeci Onyx",
+    "image": "image/หินออนิกซ์/Vedeci Onyx.jpg",
+    "gallery": [
+      "image/หินออนิกซ์/Vedeci Onyx.jpg"
+    ],
+    "category": "onyx",
+    "categoryLabel": "หินออนิกซ์",
+    "categoryLabelEn": "Onyx",
+    "subcategory": "หินออนิกซ์",
+    "subcategoryEn": "Onyx",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินออนิกซ์มีลวดลายและความโปร่งแสงโดดเด่น เหมาะสำหรับงานตกแต่งที่ต้องการความหรูหรา",
+    "descriptionEn": "Onyx with striking patterns and translucency, ideal for luxurious decorative applications."
+  },
+  {
+    "id": "pool-11",
+    "name": "11",
+    "nameEn": "11",
+    "image": "image/หินปูสระว่ายน้ำ/11.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/11.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-2-2",
+    "name": "2",
+    "nameEn": "2",
+    "image": "image/หินปูสระว่ายน้ำ/2.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/2.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-4-2",
+    "name": "4",
+    "nameEn": "4",
+    "image": "image/หินปูสระว่ายน้ำ/4.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/4.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-6-2",
+    "name": "6",
+    "nameEn": "6",
+    "image": "image/หินปูสระว่ายน้ำ/6.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/6.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-7-2",
+    "name": "7",
+    "nameEn": "7",
+    "image": "image/หินปูสระว่ายน้ำ/7.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/7.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-8-2",
+    "name": "8",
+    "nameEn": "8",
+    "image": "image/หินปูสระว่ายน้ำ/8.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/8.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "pool-9",
+    "name": "9",
+    "nameEn": "9",
+    "image": "image/หินปูสระว่ายน้ำ/9.jpg",
+    "gallery": [
+      "image/หินปูสระว่ายน้ำ/9.jpg"
+    ],
+    "category": "pool",
+    "categoryLabel": "ปูสระว่ายน้ำ",
+    "categoryLabelEn": "Pool Stone",
+    "subcategory": "ปูสระว่ายน้ำ",
+    "subcategoryEn": "Pool Stone",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก",
+    "descriptionEn": "Stone selected for swimming pools and surrounding areas, suitable for exterior applications."
+  },
+  {
+    "id": "compressed-marble-cf0012-rainbow",
+    "name": "CF0012 Rainbow",
+    "nameEn": "CF0012 Rainbow",
+    "image": "image/หินอ่อนอัด/CF0012 Rainbow.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0012 Rainbow.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0028-marfil-geige",
+    "name": "CF0028 Marfil Geige",
+    "nameEn": "CF0028 Marfil Geige",
+    "image": "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0028 Marfil Geige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0030-atom-beige",
+    "name": "CF0030 Atom Beige",
+    "nameEn": "CF0030 Atom Beige",
+    "image": "image/หินอ่อนอัด/CF0030 Atom Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0030 Atom Beige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0031-golddust-red",
+    "name": "CF0031 Golddust Red",
+    "nameEn": "CF0031 Golddust Red",
+    "image": "image/หินอ่อนอัด/CF0031 Golddust Red.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0031 Golddust Red.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0032-new-beige",
+    "name": "CF0032 New Beige",
+    "nameEn": "CF0032 New Beige",
+    "image": "image/หินอ่อนอัด/CF0032 New Beige.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0032 New Beige.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0033-red-dot",
+    "name": "CF0033 Red Dot",
+    "nameEn": "CF0033 Red Dot",
+    "image": "image/หินอ่อนอัด/CF0033 Red Dot.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0033 Red Dot.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0034-ixoa",
+    "name": "CF0034 Ixoa",
+    "nameEn": "CF0034 Ixoa",
+    "image": "image/หินอ่อนอัด/CF0034 Ixoa.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0034 Ixoa.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "compressed-marble-cf0038-black-jade-with-star",
+    "name": "CF0038 Black Jade With Star",
+    "nameEn": "CF0038 Black Jade With Star",
+    "image": "image/หินอ่อนอัด/CF0038 Black Jade With Star.jpg",
+    "gallery": [
+      "image/หินอ่อนอัด/CF0038 Black Jade With Star.jpg"
+    ],
+    "category": "compressed-marble",
+    "categoryLabel": "หินอ่อนอัด",
+    "categoryLabelEn": "Compressed Marble",
+    "subcategory": "หินอ่อนอัด",
+    "subcategoryEn": "Compressed Marble",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินอ่อนอัดให้โทนสีและลวดลายสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง",
+    "descriptionEn": "Compressed marble with consistent colors and patterns, suitable for floors, walls, countertops and interiors."
+  },
+  {
+    "id": "terrazzo-sb101-pepesale-lev-img-7925",
+    "name": "SB101_PEPESALE_LEV-IMG_7925",
+    "nameEn": "SB101_PEPESALE_LEV-IMG_7925",
+    "image": "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB101_PEPESALE_LEV-IMG_7925.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb102-grigio-chiaro-lev-img-7868",
+    "name": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
+    "nameEn": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
+    "image": "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB102_GRIGIO_CHIARO_LEV-IMG_7868.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb103-grigio-medio-lev-sga9125",
+    "name": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
+    "nameEn": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
+    "image": "image/หินเทอราซโซ่/SB103_GRIGIO_MEDIO_LEV_SGA9125.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB103_GRIGIO_MEDIO_LEV_SGA9125.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb105-antracite-lev-img-7949",
+    "name": "SB105_ANTRACITE_LEV-IMG_7949",
+    "nameEn": "SB105_ANTRACITE_LEV-IMG_7949",
+    "image": "image/หินเทอราซโซ่/SB105_ANTRACITE_LEV-IMG_7949.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB105_ANTRACITE_LEV-IMG_7949.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb106-nero-lev-img-7964-1",
+    "name": "SB106_NERO_LEV-IMG_7964-1",
+    "nameEn": "SB106_NERO_LEV-IMG_7964-1",
+    "image": "image/หินเทอราซโซ่/SB106_NERO_LEV-IMG_7964-1.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB106_NERO_LEV-IMG_7964-1.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb108-beige-lev-img-7904",
+    "name": "SB108_BEIGE_LEV-IMG_7904",
+    "nameEn": "SB108_BEIGE_LEV-IMG_7904",
+    "image": "image/หินเทอราซโซ่/SB108_BEIGE_LEV-IMG_7904.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB108_BEIGE_LEV-IMG_7904.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb109-giallo-lev-img-7847",
+    "name": "SB109_GIALLO_LEV-IMG_7847",
+    "nameEn": "SB109_GIALLO_LEV-IMG_7847",
+    "image": "image/หินเทอราซโซ่/SB109_GIALLO_LEV-IMG_7847.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB109_GIALLO_LEV-IMG_7847.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb111-verde-lev-img-7913",
+    "name": "SB111_VERDE_LEV-IMG_7913",
+    "nameEn": "SB111_VERDE_LEV-IMG_7913",
+    "image": "image/หินเทอราซโซ่/SB111_VERDE_LEV-IMG_7913.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB111_VERDE_LEV-IMG_7913.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb112-verde-scuro-lev-img-8052",
+    "name": "SB112_VERDE_SCURO_LEV-IMG_8052",
+    "nameEn": "SB112_VERDE_SCURO_LEV-IMG_8052",
+    "image": "image/หินเทอราซโซ่/SB112_VERDE_SCURO_LEV-IMG_8052.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB112_VERDE_SCURO_LEV-IMG_8052.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb113-multicolor-nero-lev-img-7979",
+    "name": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
+    "nameEn": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
+    "image": "image/หินเทอราซโซ่/SB113_MULTICOLOR_NERO_LEV-IMG_7979.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB113_MULTICOLOR_NERO_LEV-IMG_7979.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb114-multicolor-grigio-lev-img-7703",
+    "name": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
+    "nameEn": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
+    "image": "image/หินเทอราซโซ่/SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb115-multicolor-verde-lev-img-7624",
+    "name": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
+    "nameEn": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
+    "image": "image/หินเทอราซโซ่/SB115_MULTICOLOR_VERDE_LEV-IMG_7624.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB115_MULTICOLOR_VERDE_LEV-IMG_7624.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb119-pepegrigio-lev-img-8037",
+    "name": "SB119_PEPEGRIGIO_LEV-IMG_8037",
+    "nameEn": "SB119_PEPEGRIGIO_LEV-IMG_8037",
+    "image": "image/หินเทอราซโซ่/SB119_PEPEGRIGIO_LEV-IMG_8037.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB119_PEPEGRIGIO_LEV-IMG_8037.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb124-grigio-rotondo-lev-img-7676",
+    "name": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
+    "nameEn": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
+    "image": "image/หินเทอราซโซ่/SB124_GRIGIO_ROTONDO_LEV-IMG_7676.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB124_GRIGIO_ROTONDO_LEV-IMG_7676.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb125-bruno-rotondo-lev-img-7835-1",
+    "name": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
+    "nameEn": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
+    "image": "image/หินเทอราซโซ่/SB125_BRUNO_ROTONDO_LEV-IMG_7835-1.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB125_BRUNO_ROTONDO_LEV-IMG_7835-1.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb128-grigio-nero-lev-img-7805",
+    "name": "SB128_GRIGIO_NERO_LEV-IMG_7805",
+    "nameEn": "SB128_GRIGIO_NERO_LEV-IMG_7805",
+    "image": "image/หินเทอราซโซ่/SB128_GRIGIO_NERO_LEV-IMG_7805.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB128_GRIGIO_NERO_LEV-IMG_7805.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb130-aggloceppo-lev-img-7660",
+    "name": "SB130_AGGLOCEPPO_LEV-IMG_7660",
+    "nameEn": "SB130_AGGLOCEPPO_LEV-IMG_7660",
+    "image": "image/หินเทอราซโซ่/SB130_AGGLOCEPPO_LEV-IMG_7660.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB130_AGGLOCEPPO_LEV-IMG_7660.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb136-bianco-vr-lux-img-7691",
+    "name": "SB136_BIANCO_VR_LUX-IMG_7691",
+    "nameEn": "SB136_BIANCO_VR_LUX-IMG_7691",
+    "image": "image/หินเทอราซโซ่/SB136_BIANCO_VR_LUX-IMG_7691.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB136_BIANCO_VR_LUX-IMG_7691.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb138-ghiaccio-lev-img-7754",
+    "name": "SB138_GHIACCIO_LEV-IMG_7754",
+    "nameEn": "SB138_GHIACCIO_LEV-IMG_7754",
+    "image": "image/หินเทอราซโซ่/SB138_GHIACCIO_LEV-IMG_7754.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB138_GHIACCIO_LEV-IMG_7754.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb140-ca-doro-lev-img-7639",
+    "name": "SB140_CA-DORO_LEV-IMG_7639",
+    "nameEn": "SB140_CA-DORO_LEV-IMG_7639",
+    "image": "image/หินเทอราซโซ่/SB140_CA-DORO_LEV-IMG_7639.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB140_CA-DORO_LEV-IMG_7639.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb141-multicolor-verona-lev-img-7778-2",
+    "name": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
+    "nameEn": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
+    "image": "image/หินเทอราซโซ่/SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "terrazzo-sb143-bianco25-lev-img-7651",
+    "name": "SB143_BIANCO25_LEV-IMG_7651",
+    "nameEn": "SB143_BIANCO25_LEV-IMG_7651",
+    "image": "image/หินเทอราซโซ่/SB143_BIANCO25_LEV-IMG_7651.jpg",
+    "gallery": [
+      "image/หินเทอราซโซ่/SB143_BIANCO25_LEV-IMG_7651.jpg"
+    ],
+    "category": "terrazzo",
+    "categoryLabel": "หินเทอราซโซ่",
+    "categoryLabelEn": "Terrazzo",
+    "subcategory": "หินเทอราซโซ่",
+    "subcategoryEn": "Terrazzo",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง และงานตกแต่ง",
+    "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
+  },
+  {
+    "id": "solid-bamboo",
+    "name": "BAMBOO",
+    "nameEn": "BAMBOO",
+    "image": "image/ไม้ Solid/BAMBOO.jpg",
+    "gallery": [
+      "image/ไม้ Solid/BAMBOO.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-beech",
+    "name": "beech-",
+    "nameEn": "beech-",
+    "image": "image/ไม้ Solid/beech-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/beech-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-kempus",
+    "name": "kempus",
+    "nameEn": "kempus",
+    "image": "image/ไม้ Solid/kempus.jpg",
+    "gallery": [
+      "image/ไม้ Solid/kempus.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-merbau",
+    "name": "MERBAU-",
+    "nameEn": "MERBAU-",
+    "image": "image/ไม้ Solid/MERBAU-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/MERBAU-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-merbau-2",
+    "name": "MERBAU",
+    "nameEn": "MERBAU",
+    "image": "image/ไม้ Solid/MERBAU.jpg",
+    "gallery": [
+      "image/ไม้ Solid/MERBAU.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-oak",
+    "name": "oak-",
+    "nameEn": "oak-",
+    "image": "image/ไม้ Solid/oak-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/oak-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-oak-2",
+    "name": "OAK",
+    "nameEn": "OAK",
+    "image": "image/ไม้ Solid/OAK.jpg",
+    "gallery": [
+      "image/ไม้ Solid/OAK.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-tali",
+    "name": "TALI",
+    "nameEn": "TALI",
+    "image": "image/ไม้ Solid/TALI.jpg",
+    "gallery": [
+      "image/ไม้ Solid/TALI.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-tauari",
+    "name": "TAUARI",
+    "nameEn": "TAUARI",
+    "image": "image/ไม้ Solid/TAUARI.jpg",
+    "gallery": [
+      "image/ไม้ Solid/TAUARI.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-teak",
+    "name": "teak-",
+    "nameEn": "teak-",
+    "image": "image/ไม้ Solid/teak-.jpg",
+    "gallery": [
+      "image/ไม้ Solid/teak-.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-teak-2",
+    "name": "TEAK",
+    "nameEn": "TEAK",
+    "image": "image/ไม้ Solid/TEAK.jpg",
+    "gallery": [
+      "image/ไม้ Solid/TEAK.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "furniture-kl5181310-8mm",
+    "name": "KL5181310    （8mm）",
+    "nameEn": "KL5181310    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5181310    （8mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5297422-6mm",
+    "name": "KL5297422（6mm）",
+    "nameEn": "KL5297422（6mm）",
+    "image": "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5297422（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5593312",
+    "name": "KL5593312",
+    "nameEn": "KL5593312",
+    "image": "image/เฟอร์นิเจอร์/KL5593312.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5593312.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5599322-8mm",
+    "name": "KL5599322    （8mm）",
+    "nameEn": "KL5599322    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL5599322    （8mm）.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5599322    （8mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5668222-8mm",
+    "name": "KL5668222    （8mm）",
+    "nameEn": "KL5668222    （8mm）",
+    "image": "image/เฟอร์นิเจอร์/KL5668222    （8mm）.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5668222    （8mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5693212",
+    "name": "KL5693212",
+    "nameEn": "KL5693212",
+    "image": "image/เฟอร์นิเจอร์/KL5693212.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5693212.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-kl5697212-6mm",
+    "name": "KL5697212（6mm）",
+    "nameEn": "KL5697212（6mm）",
+    "image": "image/เฟอร์นิเจอร์/KL5697212（6mm）.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/KL5697212（6mm）.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-rtj-tb",
+    "name": "RTJ-TB",
+    "nameEn": "RTJ-TB",
+    "image": "image/เฟอร์นิเจอร์/RTJ-TB.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/RTJ-TB.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-tb-001-2",
+    "name": "tb-001-2",
+    "nameEn": "tb-001-2",
+    "image": "image/เฟอร์นิเจอร์/tb-001-2.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/tb-001-2.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-tb-01t",
+    "name": "TB-01T",
+    "nameEn": "TB-01T",
+    "image": "image/เฟอร์นิเจอร์/TB-01T.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/TB-01T.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-01",
+    "name": "เก้าอี้ 01",
+    "nameEn": "เก้าอี้ 01",
+    "image": "image/เฟอร์นิเจอร์/เก้าอี้ 01.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/เก้าอี้ 01.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-02",
+    "name": "เก้าอี้ 02",
+    "nameEn": "เก้าอี้ 02",
+    "image": "image/เฟอร์นิเจอร์/เก้าอี้ 02.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/เก้าอี้ 02.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-03",
+    "name": "เก้าอี้ 03",
+    "nameEn": "เก้าอี้ 03",
+    "image": "image/เฟอร์นิเจอร์/เก้าอี้ 03.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/เก้าอี้ 03.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-01-2",
+    "name": "โต๊ะ01",
+    "nameEn": "โต๊ะ01",
+    "image": "image/เฟอร์นิเจอร์/โต๊ะ01.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/โต๊ะ01.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-02-2",
+    "name": "โต๊ะ02",
+    "nameEn": "โต๊ะ02",
+    "image": "image/เฟอร์นิเจอร์/โต๊ะ02.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/โต๊ะ02.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture-03-2",
+    "name": "โต๊ะ03",
+    "nameEn": "โต๊ะ03",
+    "image": "image/เฟอร์นิเจอร์/โต๊ะ03.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/โต๊ะ03.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "furniture",
+    "name": "โต๊ะกลางดีสนี่",
+    "nameEn": "โต๊ะกลางดีสนี่",
+    "image": "image/เฟอร์นิเจอร์/โต๊ะกลางดีสนี่.jpg",
+    "gallery": [
+      "image/เฟอร์นิเจอร์/โต๊ะกลางดีสนี่.jpg"
+    ],
+    "category": "furniture",
+    "categoryLabel": "เฟอร์นิเจอร์",
+    "categoryLabelEn": "Furniture",
+    "subcategory": "เฟอร์นิเจอร์",
+    "subcategoryEn": "Furniture",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "เฟอร์นิเจอร์สำหรับงานบ้านและงานตกแต่ง คัดเลือกดีไซน์และวัสดุให้เหมาะกับพื้นที่",
+    "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
+  },
+  {
+    "id": "ceramic-ct2-msd8830p",
+    "name": "CT2-MSD8830P",
+    "nameEn": "CT2-MSD8830P",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8830P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8830P.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct2-msd8836p",
+    "name": "CT2-MSD8836P",
+    "nameEn": "CT2-MSD8836P",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8836P.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8836P.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct2-msd8880",
+    "name": "CT2-MSD8880",
+    "nameEn": "CT2-MSD8880",
+    "image": "image/กระเบื้องหินอ่อน/CT2-MSD8880.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT2-MSD8880.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct6615-600x600",
+    "name": "CT6615 600x600",
+    "nameEn": "CT6615 600x600",
+    "image": "image/กระเบื้องหินอ่อน/CT6615 600x600.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT6615 600x600.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct6616-600x600",
+    "name": "CT6616 600x600",
+    "nameEn": "CT6616 600x600",
+    "image": "image/กระเบื้องหินอ่อน/CT6616 600x600.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT6616 600x600.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct6618-600x600",
+    "name": "CT6618 600x600",
+    "nameEn": "CT6618 600x600",
+    "image": "image/กระเบื้องหินอ่อน/CT6618 600x600.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT6618 600x600.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct6619-600x600",
+    "name": "CT6619 600x600",
+    "nameEn": "CT6619 600x600",
+    "image": "image/กระเบื้องหินอ่อน/CT6619 600x600.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT6619 600x600.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ct8819",
+    "name": "CT8819",
+    "nameEn": "CT8819",
+    "image": "image/กระเบื้องหินอ่อน/CT8819.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CT8819.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctcds8153",
+    "name": "CTCDS8153",
+    "nameEn": "CTCDS8153",
+    "image": "image/กระเบื้องหินอ่อน/CTCDS8153.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTCDS8153.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-cthd6304",
+    "name": "CTHD6304",
+    "nameEn": "CTHD6304",
+    "image": "image/กระเบื้องหินอ่อน/CTHD6304.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTHD6304.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-cthd6305",
+    "name": "CTHD6305",
+    "nameEn": "CTHD6305",
+    "image": "image/กระเบื้องหินอ่อน/CTHD6305.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTHD6305.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-cthd6666",
+    "name": "CTHD6666",
+    "nameEn": "CTHD6666",
+    "image": "image/กระเบื้องหินอ่อน/CTHD6666.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTHD6666.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-cthd8809",
+    "name": "CTHD8809",
+    "nameEn": "CTHD8809",
+    "image": "image/กระเบื้องหินอ่อน/CTHD8809.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTHD8809.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6681a",
+    "name": "CTK6681A",
+    "nameEn": "CTK6681A",
+    "image": "image/กระเบื้องหินอ่อน/CTK6681A.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6681A.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6681b",
+    "name": "CTK6681B",
+    "nameEn": "CTK6681B",
+    "image": "image/กระเบื้องหินอ่อน/CTK6681B.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6681B.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6681c",
+    "name": "CTK6681C",
+    "nameEn": "CTK6681C",
+    "image": "image/กระเบื้องหินอ่อน/CTK6681C.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6681C.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6683a",
+    "name": "CTK6683A",
+    "nameEn": "CTK6683A",
+    "image": "image/กระเบื้องหินอ่อน/CTK6683A.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6683A.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6683b",
+    "name": "CTK6683B",
+    "nameEn": "CTK6683B",
+    "image": "image/กระเบื้องหินอ่อน/CTK6683B.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6683B.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6683c",
+    "name": "CTK6683C",
+    "nameEn": "CTK6683C",
+    "image": "image/กระเบื้องหินอ่อน/CTK6683C.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6683C.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6683d",
+    "name": "CTK6683D",
+    "nameEn": "CTK6683D",
+    "image": "image/กระเบื้องหินอ่อน/CTK6683D.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6683D.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6684a",
+    "name": "CTK6684A",
+    "nameEn": "CTK6684A",
+    "image": "image/กระเบื้องหินอ่อน/CTK6684A.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6684A.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6684b",
+    "name": "CTK6684B",
+    "nameEn": "CTK6684B",
+    "image": "image/กระเบื้องหินอ่อน/CTK6684B.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6684B.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6684c",
+    "name": "CTK6684C",
+    "nameEn": "CTK6684C",
+    "image": "image/กระเบื้องหินอ่อน/CTK6684C.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6684C.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6684d",
+    "name": "CTK6684D",
+    "nameEn": "CTK6684D",
+    "image": "image/กระเบื้องหินอ่อน/CTK6684D.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6684D.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6685a",
+    "name": "CTK6685A",
+    "nameEn": "CTK6685A",
+    "image": "image/กระเบื้องหินอ่อน/CTK6685A.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6685A.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6685b",
+    "name": "CTK6685B",
+    "nameEn": "CTK6685B",
+    "image": "image/กระเบื้องหินอ่อน/CTK6685B.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6685B.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6685c",
+    "name": "CTK6685C",
+    "nameEn": "CTK6685C",
+    "image": "image/กระเบื้องหินอ่อน/CTK6685C.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6685C.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6685d",
+    "name": "CTK6685D",
+    "nameEn": "CTK6685D",
+    "image": "image/กระเบื้องหินอ่อน/CTK6685D.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6685D.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6687a",
+    "name": "CTK6687A",
+    "nameEn": "CTK6687A",
+    "image": "image/กระเบื้องหินอ่อน/CTK6687A.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6687A.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6687b",
+    "name": "CTK6687B",
+    "nameEn": "CTK6687B",
+    "image": "image/กระเบื้องหินอ่อน/CTK6687B.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6687B.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctk6687c",
+    "name": "CTK6687C",
+    "nameEn": "CTK6687C",
+    "image": "image/กระเบื้องหินอ่อน/CTK6687C.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTK6687C.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm14",
+    "name": "CTLM14",
+    "nameEn": "CTLM14",
+    "image": "image/กระเบื้องหินอ่อน/CTLM14.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM14.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm15",
+    "name": "CTLM15",
+    "nameEn": "CTLM15",
+    "image": "image/กระเบื้องหินอ่อน/CTLM15.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM15.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm16",
+    "name": "CTLM16",
+    "nameEn": "CTLM16",
+    "image": "image/กระเบื้องหินอ่อน/CTLM16.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM16.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm17",
+    "name": "CTLM17",
+    "nameEn": "CTLM17",
+    "image": "image/กระเบื้องหินอ่อน/CTLM17.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM17.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm18",
+    "name": "CTLM18",
+    "nameEn": "CTLM18",
+    "image": "image/กระเบื้องหินอ่อน/CTLM18.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM18.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm19",
+    "name": "CTLM19",
+    "nameEn": "CTLM19",
+    "image": "image/กระเบื้องหินอ่อน/CTLM19.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM19.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm20",
+    "name": "CTLM20",
+    "nameEn": "CTLM20",
+    "image": "image/กระเบื้องหินอ่อน/CTLM20.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM20.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctlm21",
+    "name": "CTLM21",
+    "nameEn": "CTLM21",
+    "image": "image/กระเบื้องหินอ่อน/CTLM21.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTLM21.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
+  },
+  {
+    "id": "ceramic-ctt813",
+    "name": "CTT813",
+    "nameEn": "CTT813",
+    "image": "image/กระเบื้องหินอ่อน/CTT813.jpg",
+    "gallery": [
+      "image/กระเบื้องหินอ่อน/CTT813.jpg"
+    ],
+    "category": "ceramic",
+    "categoryLabel": "กระเบื้องเซรามิก",
+    "categoryLabelEn": "Ceramic Tile",
+    "subcategory": "กระเบื้องเซรามิก",
+    "subcategoryEn": "Ceramic Tile",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "กระเบื้องเซรามิกสำหรับพื้นและผนัง มีรูปแบบหลากหลาย เหมาะกับงานตกแต่งหลายสไตล์",
+    "descriptionEn": "Ceramic tiles for floors and walls, available in a variety of styles for different interiors."
   }
 ];
