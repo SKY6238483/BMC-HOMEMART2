@@ -1813,6 +1813,7 @@ footer {
     gap: 25px;
     align-items: start;
 
+
 }
 
 .footer-logo {
@@ -1823,7 +1824,7 @@ footer {
 
 .footer-logo img {
 
-    width: 180px;
+    width: 70px;
 
     height: auto;
 
