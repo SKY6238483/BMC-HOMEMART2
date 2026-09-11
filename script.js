@@ -357,13 +357,18 @@ function initCategoryFilter(){
     const search = params.get("q");
     const filter = document.getElementById("categoryFilter");
     const input = document.getElementById("searchInput");
-    if(filter && category && categoryLabels[category]){
-        filter.value = category;
-        document.querySelectorAll(".product-pill").forEach(btn=>{
-            btn.classList.toggle("active", (btn.dataset.value||"all") === category);
-        });
+    if(filter && category){
+        const valid = [...filter.options].some(option => option.value === category);
+        if(valid){
+            filter.value = category;
+            document.querySelectorAll(".product-pill").forEach(btn=>{
+                btn.classList.toggle("active", (btn.dataset.value||"all") === category);
+            });
+        }
     }
     if(input && search) input.value = search;
+    // Apply URL parameters immediately so homepage category links open the correct filtered catalog.
+    filterProducts();
 }
 
 function matchesCategory(product, selected){
@@ -425,54 +430,50 @@ function openInquiry(product){
  const en=document.documentElement.lang==='en'; box.querySelector('#inquiryTitle').textContent=en?'Product Inquiry':'สอบถามสินค้า'; box.querySelector('#inquiryProduct').textContent=en?(product.nameEn||product.name):(product.name||''); box.querySelector('.inquiry-links span').textContent=en?'Phone':'เบอร์โทร'; box.classList.add('show');
 }
 function initProductPills(){
-    const container = document.querySelector(".product-category-pills");
-    if(!container) return;
-    container.querySelectorAll(".product-pill").forEach(btn=>{
-        if(btn.dataset.categoryBound === "1") return;
-        btn.dataset.categoryBound = "1";
-        btn.addEventListener("click", function(event){
+    document.querySelectorAll(".product-pill").forEach(btn=>{
+        if(btn.dataset.filterReady === "1") return;
+        btn.dataset.filterReady = "1";
+        btn.addEventListener("click", event=>{
             event.preventDefault();
             event.stopPropagation();
-            const value = this.dataset.value || "all";
+            const value = btn.dataset.value || "all";
             const filter = document.getElementById("categoryFilter");
-            container.querySelectorAll(".product-pill").forEach(b=>{
-                const active = (b.dataset.value || "all") === value;
-                b.classList.toggle("active", active);
-                b.setAttribute("aria-pressed", active ? "true" : "false");
-            });
             if(filter) filter.value = value;
+            document.querySelectorAll(".product-pill").forEach(b=>b.classList.toggle("active", (b.dataset.value || "all") === value));
+            filterProducts();
             const url = new URL(window.location.href);
             if(value === "all") url.searchParams.delete("category");
             else url.searchParams.set("category", value);
             window.history.replaceState({}, "", url);
-            filterProducts();
+            document.getElementById("productCatalog")?.scrollIntoView({behavior:"smooth", block:"start"});
         });
     });
 }
 
 function initHorizontalProductPillScroll(){
-    document.querySelectorAll(".product-category-pills").forEach(scroller=>{
-        if(scroller.dataset.dragReady==="1") return;
-        scroller.dataset.dragReady="1";
-        let down=false,startX=0,startScroll=0,moved=false;
-        scroller.style.cursor="grab";
-        scroller.addEventListener("mousedown",e=>{
-            down=true; moved=false; startX=e.pageX; startScroll=scroller.scrollLeft;
-            scroller.style.cursor="grabbing";
-        });
-        window.addEventListener("mousemove",e=>{
-            if(!down) return;
-            const dx=e.pageX-startX;
-            if(Math.abs(dx)>4) moved=true;
-            scroller.scrollLeft=startScroll-dx;
-        });
-        window.addEventListener("mouseup",()=>{
-            if(!down) return;
-            down=false; scroller.style.cursor="grab";
-        });
-        scroller.addEventListener("click",e=>{
-            if(moved){ e.preventDefault(); e.stopPropagation(); moved=false; }
-        },true);
+    // Product category navigation uses explicit ← / → buttons instead of mouse-drag scrolling.
+    document.querySelectorAll(".product-category-nav").forEach(nav=>{
+        if(nav.dataset.arrowReady === "1") return;
+        nav.dataset.arrowReady = "1";
+        const scroller = nav.querySelector(".product-category-pills");
+        const left = nav.querySelector(".product-category-arrow-left");
+        const right = nav.querySelector(".product-category-arrow-right");
+        if(!scroller || !left || !right) return;
+
+        const getStep = () => Math.max(220, Math.floor(scroller.clientWidth * 0.72));
+        const updateArrows = () => {
+            const max = Math.max(0, scroller.scrollWidth - scroller.clientWidth);
+            left.disabled = scroller.scrollLeft <= 2;
+            right.disabled = scroller.scrollLeft >= max - 2;
+            left.classList.toggle("is-hidden", max <= 2);
+            right.classList.toggle("is-hidden", max <= 2);
+        };
+
+        left.addEventListener("click",()=>scroller.scrollBy({left:-getStep(),behavior:"smooth"}));
+        right.addEventListener("click",()=>scroller.scrollBy({left:getStep(),behavior:"smooth"}));
+        scroller.addEventListener("scroll",updateArrows,{passive:true});
+        window.addEventListener("resize",updateArrows);
+        updateArrows();
     });
 }
 
@@ -609,17 +610,40 @@ document.addEventListener("DOMContentLoaded",()=>{
     window.addEventListener('bmcLanguageChanged',()=>renderProductDetail());
 });
 
-/* Horizontal product category navigation: mouse drag + wheel + touch */
+/* Product category navigation: arrows on desktop; touch swipe on iPad/mobile */
 document.addEventListener('DOMContentLoaded',()=>{
+  const touchLayout = window.matchMedia('(max-width: 1024px)');
+
   document.querySelectorAll('.product-category-pills').forEach(strip=>{
     let down=false,startX=0,startScroll=0,moved=false;
-    strip.addEventListener('pointerdown',e=>{down=true;moved=false;startX=e.clientX;startScroll=strip.scrollLeft;strip.setPointerCapture?.(e.pointerId);strip.classList.add('is-dragging');});
-    strip.addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-startX;if(Math.abs(dx)>4)moved=true;strip.scrollLeft=startScroll-dx;});
+
+    // Keep finger/swipe scrolling on iPad and mobile only.
+    const enableTouchSwipe = () => touchLayout.matches;
+
+    strip.addEventListener('pointerdown',e=>{
+      if(!enableTouchSwipe() || e.pointerType === 'mouse') return;
+      down=true; moved=false; startX=e.clientX; startScroll=strip.scrollLeft;
+      strip.setPointerCapture?.(e.pointerId);
+      strip.classList.add('is-dragging');
+    });
+    strip.addEventListener('pointermove',e=>{
+      if(!down) return;
+      const dx=e.clientX-startX;
+      if(Math.abs(dx)>4) moved=true;
+      strip.scrollLeft=startScroll-dx;
+    });
     const end=()=>{down=false;strip.classList.remove('is-dragging');};
-    strip.addEventListener('pointerup',end); strip.addEventListener('pointercancel',end); strip.addEventListener('pointerleave',()=>{if(down)end();});
-    strip.addEventListener('click',e=>{if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
-    strip.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)>Math.abs(e.deltaX)){strip.scrollLeft += e.deltaY;}}, {passive:true});
+    strip.addEventListener('pointerup',end);
+    strip.addEventListener('pointercancel',end);
+    strip.addEventListener('pointerleave',()=>{if(down)end();});
+    strip.addEventListener('click',e=>{
+      if(moved){e.preventDefault();e.stopPropagation();moved=false;}
+    },true);
+
+    // Desktop category navigation is controlled only by ← / → buttons.
+    strip.addEventListener('wheel',e=>{
+      if(enableTouchSwipe()) return;
+      e.preventDefault();
+    }, {passive:false});
   });
 });
-
-
