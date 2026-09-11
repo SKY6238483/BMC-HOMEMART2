@@ -2709,9 +2709,6 @@ footer a:hover {
     display:none
 }
 .material-category-btn{
-    display:inline-flex;
-    align-items:center;
-    text-decoration:none;
     flex:0 0 auto;
     border:1px solid #dedbd4;
     background:#f8f7f4;
