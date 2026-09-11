@@ -425,12 +425,27 @@ function openInquiry(product){
  const en=document.documentElement.lang==='en'; box.querySelector('#inquiryTitle').textContent=en?'Product Inquiry':'สอบถามสินค้า'; box.querySelector('#inquiryProduct').textContent=en?(product.nameEn||product.name):(product.name||''); box.querySelector('.inquiry-links span').textContent=en?'Phone':'เบอร์โทร'; box.classList.add('show');
 }
 function initProductPills(){
-    document.querySelectorAll(".product-pill").forEach(btn=>{
-        btn.addEventListener("click",()=>{
-            document.querySelectorAll(".product-pill").forEach(b=>b.classList.remove("active"));
-            btn.classList.add("active");
-            const filter=document.getElementById("categoryFilter");
-            if(filter){ filter.value=btn.dataset.value || "all"; filterProducts(); }
+    const container = document.querySelector(".product-category-pills");
+    if(!container) return;
+    container.querySelectorAll(".product-pill").forEach(btn=>{
+        if(btn.dataset.categoryBound === "1") return;
+        btn.dataset.categoryBound = "1";
+        btn.addEventListener("click", function(event){
+            event.preventDefault();
+            event.stopPropagation();
+            const value = this.dataset.value || "all";
+            const filter = document.getElementById("categoryFilter");
+            container.querySelectorAll(".product-pill").forEach(b=>{
+                const active = (b.dataset.value || "all") === value;
+                b.classList.toggle("active", active);
+                b.setAttribute("aria-pressed", active ? "true" : "false");
+            });
+            if(filter) filter.value = value;
+            const url = new URL(window.location.href);
+            if(value === "all") url.searchParams.delete("category");
+            else url.searchParams.set("category", value);
+            window.history.replaceState({}, "", url);
+            filterProducts();
         });
     });
 }
