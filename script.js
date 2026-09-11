@@ -464,41 +464,25 @@ function initHorizontalProductPillScroll(){
 function initProductsPage(){
     const grid = document.getElementById("productCatalog");
     if(!grid) return;
-
-    // อ่านหมวดหมู่จาก URL ก่อน
-    initCategoryFilter();
-
-    // สร้างรายการสินค้า
     renderCatalog();
-
-    // ตั้งค่าปุ่มหมวดหมู่
+    initCategoryFilter();
     initProductPills();
     initHorizontalProductPillScroll();
 
-    // ระบบค้นหา
-    document.getElementById("searchInput")?.addEventListener("input", filterProducts);
-
-    // ระบบเลือกหมวดหมู่
-    document.getElementById("categoryFilter")?.addEventListener("change", filterProducts);
-
-    // ระบบเรียงสินค้า
-    document.getElementById("sortFilter")?.addEventListener("change", sortProducts);
-
-    // ปุ่ม Reset ถ้ามี
+    document.getElementById("searchInput")?.addEventListener("input",filterProducts);
+    document.getElementById("categoryFilter")?.addEventListener("change",filterProducts);
+    document.getElementById("sortFilter")?.addEventListener("change",sortProducts);
     document.getElementById("resetFilter")?.addEventListener("click",()=>{
-        const input = document.getElementById("searchInput");
-        const filter = document.getElementById("categoryFilter");
-        const sort = document.getElementById("sortFilter");
-
-        if(input) input.value = "";
-        if(filter) filter.value = "all";
-        if(sort) sort.value = "default";
-
+        const input=document.getElementById("searchInput");
+        const filter=document.getElementById("categoryFilter");
+        const sort=document.getElementById("sortFilter");
+        if(input) input.value="";
+        if(filter) filter.value="all";
+        if(sort) sort.value="default";
         sortProducts();
         filterProducts();
     });
 
-    // กรองสินค้าอีกครั้งหลังจากอ่าน URL แล้ว
     filterProducts();
 }
 
