@@ -16,7 +16,7 @@
 <a href="index.html" class="logo"><img src="image/Logo BMC.jpg" alt="BMC HOMEMART"></a>
 <nav id="navMenu">
 <a href="index.html">หน้าแรก</a>
-<a href="about-bmc.html">เกี่ยวกับเรา</a>
+<a href="about.html">เกี่ยวกับเรา</a>
 <a href="products.html">สินค้า</a>
 <a href="index.html#services">บริการ</a>
 <a href="index.html#projects">ผลงาน</a>
@@ -24,6 +24,7 @@
 </nav>
 <div class="header-actions">
 <a href="cart.html" class="cart-btn">🛒 <span id="cartCount">0</span></a>
+<div class="language-switch" aria-label="เลือกภาษา"><button type="button" class="lang-btn" data-lang="th">TH</button><span>|</span><button type="button" class="lang-btn" data-lang="en">EN</button></div>
 <button class="mobile-menu" onclick="toggleMenu()">☰</button>
 </div>
 </div>
@@ -39,34 +40,39 @@
 
 <div class="product-category-pills" aria-label="หมวดสินค้า">
 <button type="button" class="product-pill active" data-value="all">ทั้งหมด</button>
-<button type="button" class="product-pill" data-value="natural">หินธรรมชาติ</button>
-<button type="button" class="product-pill" data-value="marble">หินอ่อน</button>
-<button type="button" class="product-pill" data-value="granite">หินแกรนิต</button>
-<button type="button" class="product-pill" data-value="artificial">หินเทียม</button>
-<button type="button" class="product-pill" data-value="tile">กระเบื้องหินอ่อน</button>
-<button type="button" class="product-pill" data-value="mosaic">โมเสค</button>
-<button type="button" class="product-pill" data-value="door">ประตู</button>
-<button type="button" class="product-pill" data-value="solid">ไม้ Solid</button>
-<button type="button" class="product-pill" data-value="laminate">ไม้ Laminate</button>
-<button type="button" class="product-pill" data-value="engineered">ไม้ Engineered</button>
-<button type="button" class="product-pill" data-value="pvc">ไม้ PVC</button>
+<a type="button" class="product-pill" data-value="marble" data-th="หินอ่อน" data-en="Marble" href="products.html?category=marble">หินอ่อน</a>
+<a type="button" class="product-pill" data-value="granite" data-th="หินแกรนิต" data-en="Granite" href="products.html?category=granite">หินแกรนิต</a>
+<a type="button" class="product-pill" data-value="limestone" data-th="หินไลม์สโตน" data-en="Limestone" href="products.html?category=limestone">หินไลม์สโตน</a>
+<a type="button" class="product-pill" data-value="travertine" data-th="หินทราเวอร์ทีน" data-en="Travertine" href="products.html?category=travertine">หินทราเวอร์ทีน</a>
+<a type="button" class="product-pill" data-value="onyx" data-th="หินออนิกซ์" data-en="Onyx" href="products.html?category=onyx">หินออนิกซ์</a>
+<a type="button" class="product-pill" data-value="quartzite" data-th="หินควอตไซต์" data-en="Quartzite" href="products.html?category=quartzite">หินควอตไซต์</a>
+<a type="button" class="product-pill" data-value="mosaic" data-th="หินโมเสค" data-en="Mosaic" href="products.html?category=mosaic">หินโมเสค</a>
+<a type="button" class="product-pill" data-value="pool" data-th="หินปูสระว่ายน้ำ" data-en="Pool Stone" href="products.html?category=pool">หินปูสระว่ายน้ำ</a>
+<a type="button" class="product-pill" data-value="quartz" data-th="หินควอตซ์" data-en="Quartz" href="products.html?category=quartz">หินควอตซ์</a>
+<a type="button" class="product-pill" data-value="compressed-marble" data-th="หินอ่อนอัด" data-en="Compressed Marble" href="products.html?category=compressed-marble">หินอ่อนอัด</a>
+<a type="button" class="product-pill" data-value="terrazzo" data-th="หินเทอราซโซ่" data-en="Terrazzo" href="products.html?category=terrazzo">หินเทอราซโซ่</a>
+<a type="button" class="product-pill" data-value="solid" data-th="ไม้ Solid" data-en="Solid Wood" href="products.html?category=solid">ไม้ Solid</a>
+<a type="button" class="product-pill" data-value="engineered" data-th="ไม้เอ็นจิเนียร์" data-en="Engineered Wood" href="products.html?category=engineered">ไม้เอ็นจิเนียร์</a>
+<a type="button" class="product-pill" data-value="laminate" data-th="ไม้ลามิเนต" data-en="Laminate Flooring" href="products.html?category=laminate">ไม้ลามิเนต</a>
+<a type="button" class="product-pill" data-value="wpc" data-th="ไม้เทียม WPC" data-en="WPC Wood" href="products.html?category=wpc">ไม้เทียม WPC</a>
+<a type="button" class="product-pill" data-value="spc" data-th="ไม้เทียม SPC" data-en="SPC Wood" href="products.html?category=spc">ไม้เทียม SPC</a>
+<a type="button" class="product-pill" data-value="stair" data-th="ไม้บันได" data-en="Stair Wood" href="products.html?category=stair">ไม้บันได</a>
+<a type="button" class="product-pill" data-value="ceramic" data-th="กระเบื้องเซรามิก" data-en="Ceramic Tile" href="products.html?category=ceramic">กระเบื้องเซรามิก</a>
+<a type="button" class="product-pill" data-value="porcelain" data-th="กระเบื้องพอซเซเลน" data-en="Porcelain Tile" href="products.html?category=porcelain">กระเบื้องพอซเซเลน</a>
+<a type="button" class="product-pill" data-value="furniture" data-th="เฟอร์นิเจอร์" data-en="Furniture" href="products.html?category=furniture">เฟอร์นิเจอร์</a>
 </div>
 
 <div class="product-toolbar remood-product-toolbar">
 <input type="text" id="searchInput" placeholder="ค้นหาชื่อวัสดุหรือสินค้า..." autocomplete="off">
 <select id="categoryFilter" aria-label="เลือกหมวดสินค้า">
 <option value="all">ทุกหมวดสินค้า</option>
-<option value="natural">หินธรรมชาติ</option>
-<option value="marble">หินอ่อน</option>
-<option value="granite">หินแกรนิต</option>
-<option value="artificial">หินเทียม</option>
-<option value="tile">กระเบื้องหินอ่อน</option>
-<option value="mosaic">โมเสค</option>
-<option value="door">ประตู</option>
-<option value="solid">ไม้ Solid</option>
-<option value="laminate">ไม้ Laminate</option>
-<option value="engineered">ไม้ Engineered</option>
-<option value="pvc">ไม้ PVC</option>
+<option value="marble">หินอ่อน</option><option value="granite">หินแกรนิต</option><option value="limestone">หินไลม์สโตน</option>
+<option value="travertine">หินทราเวอร์ทีน</option><option value="onyx">หินออนิกซ์</option><option value="quartzite">หินควอตไซต์</option>
+<option value="mosaic">หินโมเสค</option><option value="pool">หินปูสระว่ายน้ำ</option><option value="quartz">หินควอตซ์</option>
+<option value="compressed-marble">หินอ่อนอัด</option><option value="terrazzo">หินเทอราซโซ่</option><option value="solid">ไม้ Solid</option>
+<option value="engineered">ไม้เอ็นจิเนียร์</option><option value="laminate">ไม้ลามิเนต</option><option value="wpc">ไม้เทียม WPC</option>
+<option value="spc">ไม้เทียม SPC</option><option value="stair">ไม้บันได</option><option value="ceramic">กระเบื้องเซรามิก</option>
+<option value="porcelain">กระเบื้องพอซเซเลน</option><option value="furniture">เฟอร์นิเจอร์</option>
 </select>
 <select id="sortFilter" aria-label="เรียงสินค้า">
 <option value="default">เรียงตามลำดับ</option>
@@ -105,7 +111,7 @@
 <div>
 <h4>MENU</h4>
 <a href="index.html">หน้าแรก</a>
-<a href="about-bmc.html">เกี่ยวกับเรา</a>
+<a href="about.html">เกี่ยวกับเรา</a>
 <a href="index.html#services">บริการ</a>
 <a href="index.html#contact">ติดต่อเรา</a>
 </div>
@@ -130,5 +136,6 @@
 <script src="product-catalog-data.js"></script>
 <script src="script.js"></script>
 <script src="cookie-consent.js?v=20260907"></script>
+<script src="lang.js"></script>
 </body>
 </html>
