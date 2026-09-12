@@ -59,8 +59,8 @@
 <a type="button" class="product-pill" data-value="wpc" data-th="ไม้เทียม WPC" data-en="WPC Wood">ไม้เทียม WPC</a>
 <a type="button" class="product-pill" data-value="spc" data-th="ไม้เทียม SPC" data-en="SPC Wood">ไม้เทียม SPC</a>
 <a type="button" class="product-pill" data-value="stair" data-th="ไม้บันได" data-en="Stair Wood">ไม้บันได</a>
-<a type="button" class="product-pill" data-value="ceramic" data-th="กระเบื้องเซรามิก" data-en="Ceramic Tile">กระเบื้องเซรามิก</a>
-<a type="button" class="product-pill" data-value="porcelain" data-th="กระเบื้องพอซเซเลน" data-en="Porcelain Tile">กระเบื้องพอซเซเลน</a>
+<a type="button" class="product-pill" data-value="tile" data-th="กระเบื้อง" data-en="Tiles">กระเบื้อง</a>
+<a type="button" class="product-pill" data-value="door" data-th="ประตู" data-en="Doors">ประตู</a>
 <a type="button" class="product-pill" data-value="furniture" data-th="เฟอร์นิเจอร์" data-en="Furniture">เฟอร์นิเจอร์</a>
 </div>
 <button type="button" class="product-category-arrow product-category-arrow-right" aria-label="เลื่อนหมวดสินค้าไปขวา">→</button>
@@ -75,8 +75,8 @@
 <option value="mosaic">หินโมเสค</option><option value="pool">หินปูสระว่ายน้ำ</option><option value="quartz">หินควอตซ์</option>
 <option value="compressed-marble">หินอ่อนอัด</option><option value="terrazzo">หินเทอราซโซ่</option><option value="solid">ไม้ Solid</option>
 <option value="engineered">ไม้เอ็นจิเนียร์</option><option value="laminate">ไม้ลามิเนต</option><option value="wpc">ไม้เทียม WPC</option>
-<option value="spc">ไม้เทียม SPC</option><option value="stair">ไม้บันได</option><option value="ceramic">กระเบื้องเซรามิก</option>
-<option value="porcelain">กระเบื้องพอซเซเลน</option><option value="furniture">เฟอร์นิเจอร์</option>
+<option value="spc">ไม้เทียม SPC</option><option value="stair">ไม้บันได</option><option value="tile">กระเบื้อง</option>
+<option value="door">ประตู</option><option value="furniture">เฟอร์นิเจอร์</option>
 </select>
 <select id="sortFilter" aria-label="เรียงสินค้า">
 <option value="default">เรียงตามลำดับ</option>
@@ -117,22 +117,32 @@
 <a href="index.html">หน้าแรก</a>
 <a href="about.html">เกี่ยวกับเรา</a>
 <a href="index.html#services">บริการ</a>
+<a href="index.html#projects">ผลงาน</a>
 <a href="index.html#contact">ติดต่อเรา</a>
 </div>
 <div>
 <h4>PRODUCTS</h4>
-<a href="products.html?category=marble">หินอ่อน</a>
-<a href="products.html?category=granite">หินแกรนิต</a>
-<a href="products.html?category=engineered">ไม้ Engineered</a>
-<a href="products.html?category=door">ประตู</a>
+<!-- NOTE: แก้ชื่อ/ลิงก์สินค้าใน Footer ทุกหน้าได้จากส่วนนี้ -->
+<a href="index.html#natural-stone">หินธรรมชาติ</a>
+<a href="index.html#synthetic-stone">หินสังเคราะห์</a>
+<a href="index.html#wood-floor">พื้นไม้ของเรา</a>
+<a href="index.html#other-products">สินค้าอื่นๆ</a>
 </div>
 <div>
-<h4>CONTACT</h4>
-<p>บริษัท บางกอก แมททีเรียล จำกัด</p>
-<p>2296 ถนนพระราม 9 แขวงพัฒนการ เขตสวนหลวง กรุงเทพมหานคร 10250</p>
+<h4>บริษัท บางกอก แมททีเรียล จำกัด</h4>
+<p>2296 ถนนพระราม 9 แขวงพัฒนการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p>
+<p>โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p>
+<!-- NOTE: ปุ่ม LINE ใน Footer ใช้ LINE Page สำหรับแชทกับร้าน -->
+<div class="footer-social">
+<a aria-label="LINE" href="https://line.me/R/ti/p/@553anmze" rel="noopener noreferrer" target="_blank"><img alt="LINE" src="image/line.png"/></a>
+<a aria-label="Facebook" href="https://www.facebook.com/bmchomemart?ref=embed_page" rel="noopener noreferrer" target="_blank"><img alt="Facebook" src="image/facebook.png"/></a>
+<a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="image/email.png"/></a>
+<a aria-label="IG" href="mailto:info@bmchomemart.com"><img alt="IG" src="image/instagram.png"/></a>
+<a aria-label="Tiktok" href="mailto:info@bmchomemart.com"><img alt="Tiktok" src="image/TIKTOK.png"/></a>
 </div>
 </div>
-<div class="container copyright">© 2026 BMC HOMEMART
+</div>
+<div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.
 <span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html">นโยบายการใช้งานคุกกี้</a></span>
 </div>
 </footer>

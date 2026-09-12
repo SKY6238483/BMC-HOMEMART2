@@ -3,7 +3,7 @@
    Responsive catalog / product detail / cart / slider
 ========================================================= */
 
-const LINE_OA_URL = "https://line.me/ti/p/@bmchomemart";
+const LINE_OA_URL = "https://line.me/R/ti/p/@553anmze";
 
 /* =========================
    CART
@@ -266,7 +266,7 @@ const categoryLabels = {
     quartz:"หินควอตซ์", quartzite:"หินควอตไซต์", limestone:"หินไลม์สโตน", travertine:"หินทราเวอร์ทีน",
     onyx:"หินออนิกซ์", pool:"ปูสระว่ายน้ำ", "compressed-marble":"หินอ่อนอัด", terrazzo:"หินเทอราซโซ่",
     solid:"ไม้ Solid", wpc:"ไม้เทียม WPC", spc:"ไม้เทียม SPC", stair:"ไม้บันได",
-    "marble-tile":"กระเบื้องหินอ่อน", ceramic:"กระเบื้องเซรามิก", porcelain:"กระเบื้องพอซเซเลน",
+    "marble-tile":"กระเบื้องหินอ่อน", ceramic:"กระเบื้องเซรามิก", porcelain:"กระเบื้องพอซเซเลน", tile:"กระเบื้อง",
     furniture:"เฟอร์นิเจอร์", laminate:"ไม้ลามิเนต", engineered:"ไม้เอ็นจิเนียร์", mosaic:"โมเสค", pvc:"ไม้ PVC", artificial:"หินควอตซ์"
 };
 
@@ -276,7 +276,7 @@ function getProductById(id){
 }
 
 const categoryLabelsEn = {
-    all:'All Categories', natural:'Natural Stone', marble:'Marble', granite:'Granite', quartz:'Quartz', quartzite:'Quartzite', limestone:'Limestone', travertine:'Travertine', onyx:'Onyx', pool:'Pool Stone', mosaic:'Mosaic', 'compressed-marble':'Compressed Marble', terrazzo:'Terrazzo', solid:'Solid Wood', wpc:'WPC Wood', spc:'SPC Flooring', stair:'Stair Wood', engineered:'Engineered Wood', laminate:'Laminate Flooring', 'marble-tile':'Marble Tile', ceramic:'Ceramic Tile', porcelain:'Porcelain Tile', furniture:'Furniture', tile:'Marble Tile', pvc:'PVC Wood', door:'Doors', granite:'Granite'
+    all:'All Categories', natural:'Natural Stone', marble:'Marble', granite:'Granite', quartz:'Quartz', quartzite:'Quartzite', limestone:'Limestone', travertine:'Travertine', onyx:'Onyx', pool:'Pool Stone', mosaic:'Mosaic', 'compressed-marble':'Compressed Marble', terrazzo:'Terrazzo', solid:'Solid Wood', wpc:'WPC Wood', spc:'SPC Flooring', stair:'Stair Wood', engineered:'Engineered Wood', laminate:'Laminate Flooring', 'marble-tile':'Marble Tile', ceramic:'Ceramic Tile', porcelain:'Porcelain Tile', tile:'Tiles', furniture:'Furniture', pvc:'PVC Wood', door:'Doors', granite:'Granite'
 };
 const descriptionEnByCategory = {
  marble:'Natural marble with distinctive patterns, suitable for floors, walls, countertops and premium interiors.',
@@ -369,6 +369,8 @@ function initCategoryFilter(){
 function matchesCategory(product, selected){
     if(selected === "all") return true;
     if(selected === "marble-tile") return product.category === "marble-tile" || product.category === "tile";
+    /* NOTE: หมวด 'กระเบื้อง' รวม Ceramic + Porcelain ไว้ด้วยกัน */
+    if(selected === "tile") return product.category === "ceramic" || product.category === "porcelain" || product.category === "tile";
     return product.category === selected;
 }
 
@@ -421,7 +423,7 @@ function sortProducts(){
 
 function openInquiry(product){
  let box=document.getElementById('productInquiryModal');
- if(!box){box=document.createElement('div');box.id='productInquiryModal';box.className='inquiry-modal';box.innerHTML=`<div class="inquiry-modal-backdrop" data-close-inquiry></div><div class="inquiry-modal-box"><button class="inquiry-close" data-close-inquiry>×</button><div class="eyebrow gold">BMC HOMEMART</div><h3 id="inquiryTitle">สอบถามสินค้า</h3><p id="inquiryProduct"></p><div class="inquiry-links"><a href="tel:0876867772">📞 <span>เบอร์โทร</span></a><a href="https://line.me/ti/p/@bmchomemart" target="_blank" rel="noopener">LINE OA</a><a href="mailto:info@bmchomemart.com">✉ Email</a></div></div>`;document.body.appendChild(box);box.querySelectorAll('[data-close-inquiry]').forEach(e=>e.addEventListener('click',()=>box.classList.remove('show')))}
+ if(!box){box=document.createElement('div');box.id='productInquiryModal';box.className='inquiry-modal';box.innerHTML=`<div class="inquiry-modal-backdrop" data-close-inquiry></div><div class="inquiry-modal-box"><button class="inquiry-close" data-close-inquiry>×</button><div class="eyebrow gold">BMC HOMEMART</div><h3 id="inquiryTitle">สอบถามสินค้า</h3><p id="inquiryProduct"></p><div class="inquiry-links"><a href="tel:0876867772">📞 <span>เบอร์โทร</span></a><a href="https://line.me/R/ti/p/@553anmze" target="_blank" rel="noopener">LINE OA</a><a href="mailto:info@bmchomemart.com">✉ Email</a></div></div>`;document.body.appendChild(box);box.querySelectorAll('[data-close-inquiry]').forEach(e=>e.addEventListener('click',()=>box.classList.remove('show')))}
  const en=document.documentElement.lang==='en'; box.querySelector('#inquiryTitle').textContent=en?'Product Inquiry':'สอบถามสินค้า'; box.querySelector('#inquiryProduct').textContent=en?(product.nameEn||product.name):(product.name||''); box.querySelector('.inquiry-links span').textContent=en?'Phone':'เบอร์โทร'; box.classList.add('show');
 }
 function initProductPills(){

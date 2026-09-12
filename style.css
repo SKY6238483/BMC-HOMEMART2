@@ -4052,3 +4052,240 @@ footer a:hover {
         border-radius:13px;
     }
 }
+
+
+/* =========================================================
+   BMC HOMEMART — USER REQUEST UPDATE 2026-09
+   RESPONSIVE + EASY-TO-EDIT NOTES
+========================================================= */
+
+/* NOTE: ปรับระยะห่าง TH | EN จากตะกร้าสินค้าที่ .header-actions
+   - margin-left ของ .language-switch = ระยะห่างจากตะกร้า
+   - font-size ของ .lang-btn = ขนาดตัวอักษร TH/EN
+   - ไม่มีกล่อง/กรอบตามที่กำหนด */
+.header-actions{
+    gap:18px;
+}
+.language-switch{
+    margin-left:10px !important;
+    padding:0 !important;
+    border:0 !important;
+    border-radius:0 !important;
+    background:transparent !important;
+    font-size:15px !important;
+    font-weight:700 !important;
+    flex:0 0 auto;
+}
+.language-switch .lang-btn{
+    padding:4px 2px !important;
+    font-size:15px !important;
+    font-weight:700 !important;
+    color:#202020;
+}
+.language-switch > span{
+    margin:0 3px !important;
+    color:#999;
+}
+
+/* NOTE: ป้องกัน Header ล้นจอ โดยเฉพาะ iPad/Mobile */
+.nav,
+.header-actions,
+.search-btn,
+.cart-btn,
+.mobile-menu{
+    min-width:0;
+}
+.header-actions{
+    flex-shrink:0;
+}
+
+/* NOTE: รูปภาพ 3 รูปของไม้เอ็นจิเนียร์ให้ใช้สัดส่วน/spacing
+   เท่ากับไม้ Solid และไม่ให้รูปภาพล้นออกนอก section */
+#wood-floor .material-feature{
+    min-width:0;
+}
+#wood-floor .material-gallery,
+#engineered-panel .material-gallery{
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+#wood-floor .material-gallery-small{
+    min-width:0;
+    overflow:hidden;
+}
+#wood-floor .material-gallery > img,
+#wood-floor .material-gallery-small img{
+    max-width:100%;
+    min-width:0;
+    box-sizing:border-box;
+}
+
+/* NOTE: คุมขนาด/spacing ของ Section พื้นไม้บน Tablet */
+@media (min-width:701px) and (max-width:1024px){
+    #wood-floor .material-gallery{
+        height:330px;
+        min-height:330px;
+        grid-template-columns:1.55fr .75fr;
+        gap:12px;
+    }
+    #wood-floor .material-gallery-small{
+        grid-template-rows:1fr 1fr;
+        gap:12px;
+    }
+}
+
+/* NOTE: คุมขนาด/spacing ของ Section พื้นไม้บน Mobile */
+@media (max-width:700px){
+    .header-actions{
+        gap:9px;
+    }
+    .language-switch{
+        margin-left:7px !important;
+        font-size:14px !important;
+    }
+    .language-switch .lang-btn{
+        font-size:14px !important;
+        padding:4px 1px !important;
+    }
+    #wood-floor .material-gallery,
+    #engineered-panel .material-gallery{
+        width:100%;
+        max-width:100%;
+        overflow:hidden;
+    }
+}
+@media (max-width:410px){
+    .header-actions{
+        gap:7px;
+    }
+    .language-switch{
+        margin-left:5px !important;
+    }
+}
+
+/* NOTE: ป้องกันทุก Material Gallery ล้นบน iPad/Mobile
+   โดยไม่เปลี่ยนโครงสร้าง Desktop */
+@media (max-width:1024px){
+    .material-feature{
+        min-width:0;
+    }
+    .material-gallery,
+    .material-gallery-small{
+        min-width:0;
+        max-width:100%;
+    }
+    .material-gallery img{
+        max-width:100%;
+    }
+}
+
+
+/* =========================================================
+   NOTE: SECTION "สินค้าอื่นๆ" — แก้ไขเฉพาะส่วนนี้
+   จุดประสงค์:
+   - เมื่อเลื่อนมาถึง section สินค้าอื่นๆ ให้ข้อมูล/รูปภาพ
+     ของหมวดเริ่มต้นแสดงทันที ไม่รอ animation หรือการคลิก
+   - ไม่เปลี่ยนการทำงานของ Section อื่น
+   - ถ้าต้องการปรับขนาดรูป ให้แก้ที่ .other-products-section .material-gallery
+========================================================= */
+.other-products-section .material-category-panel.active{
+    display:block;
+    visibility:visible;
+    opacity:1;
+    height:auto;
+    overflow:visible;
+}
+
+.other-products-section .material-feature{
+    min-width:0;
+}
+
+.other-products-section .material-gallery,
+.other-products-section .material-gallery-small{
+    min-width:0;
+}
+
+.other-products-section .material-gallery img{
+    max-width:100%;
+}
+
+@media (max-width:900px){
+    .other-products-section .material-feature{
+        width:100%;
+        min-width:0;
+    }
+
+    .other-products-section .material-gallery{
+        width:100%;
+        max-width:100%;
+    }
+}
+
+@media (max-width:600px){
+    .other-products-section{
+        overflow:hidden;
+    }
+
+    .other-products-section .material-gallery{
+        width:100%;
+        max-width:100%;
+    }
+}
+
+
+/* =========================================================
+   NOTE: หินปูสระว่ายน้ำ — ปรับระยะรูปให้เท่ากับหินอ่อน
+   แก้เฉพาะ pool-panel:
+   - gap = ระยะห่างระหว่างรูป
+   - min-height/height = ความสูงรวมของชุดรูป
+   - border-radius = ความมนของมุม
+   ไม่กระทบรูปหมวดหินอื่น
+========================================================= */
+#pool-panel .material-gallery{
+    grid-template-columns:1.55fr .75fr;
+    gap:12px;
+    min-height:520px;
+    height:520px;
+}
+
+#pool-panel .material-gallery-small{
+    grid-template-rows:1fr 1fr;
+    gap:12px;
+}
+
+#pool-panel .material-gallery>img,
+#pool-panel .material-gallery-small img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    border-radius:20px;
+}
+
+@media (max-width:900px){
+    #pool-panel .material-gallery{
+        min-height:430px;
+        height:430px;
+    }
+}
+
+@media (max-width:600px){
+    #pool-panel .material-gallery{
+        grid-template-columns:1.15fr .85fr;
+        gap:8px;
+        min-height:150px;
+        height:150px;
+    }
+
+    #pool-panel .material-gallery-small{
+        gap:8px;
+    }
+
+    #pool-panel .material-gallery>img,
+    #pool-panel .material-gallery-small img{
+        border-radius:13px;
+    }
+}
