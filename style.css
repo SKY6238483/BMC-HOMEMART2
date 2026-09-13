@@ -4888,7 +4888,7 @@ button, input, select, textarea{
 
     .hero{
         height:540px;
-        border-radius:28px;
+        
     }
     .hero-content{width:86%;}
     .hero h1{font-size:42px;line-height:1.2;}
@@ -5009,7 +5009,7 @@ button, input, select, textarea{
     .mobile-menu{font-size:23px;}
 
     /* Hero */
-    .hero{height:500px;border-radius:22px;}
+    .hero{height:500px;}
     .hero-content{width:88%;}
     .hero h1{font-size:29px;line-height:1.22;overflow-wrap:anywhere;}
     .hero-description{font-size:12px;line-height:1.55;}
@@ -5276,7 +5276,7 @@ img{max-width:100%;}
         background:#202020;
     }
     .hero-slide img{
-        width:100% !important;
+        width:150% !important;
         height:100%;
         object-fit:cover;
         flex:0 0 50%;
