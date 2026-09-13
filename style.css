@@ -5748,3 +5748,7 @@ body{
 }
 
 /* End of Sticky fix */
+
+
+/* BMC HOMEMART — Sticky fallback spacer */
+.material-sticky-spacer{display:none;height:0;}
