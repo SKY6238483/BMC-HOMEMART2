@@ -5683,58 +5683,68 @@ img{max-width:100%;}
 
 
 
+
 /* =========================================================
-   FINAL PATCH — RESTORE STICKY FOR THE 4 MAIN MATERIAL SECTIONS
-   Scope: ONLY the 4 requested sections.
-   Do not alter/remove existing content.
-   Reason: overflow-x: clip/hidden on an ancestor prevents
-   position: sticky from working in several browsers.
+   FINAL — SIMPLE STICKY FIX FOR THE 4 MATERIAL SECTIONS
+   Scope: ONLY Sticky behavior.
+   Keeps the existing HTML, content and layout unchanged.
    ========================================================= */
+
+/* Important:
+   overflow-x:hidden on html/body can create a scroll container
+   and prevent position:sticky from behaving correctly.
+   clip prevents horizontal overflow without creating that
+   scrolling ancestor. */
+html,
+body{
+    max-width:100%;
+    overflow-x:clip !important;
+}
+
+/* The sticky element must have no overflow-clipping ancestor. */
 #natural-stone,
 #synthetic-stone,
 #wood-floor,
 #other-products{
-    position: relative;
-    overflow: visible !important;
-    overflow-x: visible !important;
-    overflow-y: visible !important;
+    position:relative;
+    overflow:visible !important;
 }
 
+/* Keep the existing container/layout; only remove overflow
+   that could block Sticky. */
 #natural-stone > .material-container,
 #synthetic-stone > .material-container,
 #wood-floor > .material-container,
-#other-products > .material-container{
-    position: relative;
-    overflow: visible !important;
-}
-
+#other-products > .material-container,
 #natural-stone .material-panel,
 #synthetic-stone .material-panel,
 #wood-floor .material-panel,
 #other-products .material-panel{
-    position: relative;
-    overflow: visible !important;
+    position:relative;
+    overflow:visible !important;
 }
 
+/* One common Sticky rule for all 4 sections. */
 #natural-stone .material-sticky-nav,
 #synthetic-stone .material-sticky-nav,
 #wood-floor .material-sticky-nav,
 #other-products .material-sticky-nav{
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 82px !important;
-    z-index: 1000 !important;
-    background: #fff;
-    overflow: visible !important;
+    position:-webkit-sticky !important;
+    position:sticky !important;
+    top:82px !important;
+    z-index:1000 !important;
+    background:#fff;
 }
 
-/* Keep the horizontal category buttons scrollable without
-   creating an overflow container around the sticky element. */
+/* Only the category row may scroll horizontally.
+   This does NOT become the Sticky container itself. */
 #natural-stone .material-category-tabs,
 #synthetic-stone .material-category-tabs,
 #wood-floor .material-category-tabs,
 #other-products .material-category-tabs{
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-    max-width: 100%;
+    overflow-x:auto !important;
+    overflow-y:hidden !important;
+    max-width:100%;
 }
+
+/* End of Sticky fix */
