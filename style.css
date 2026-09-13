@@ -5465,7 +5465,7 @@ img{max-width:100%;}
         background:#202020;
     }
     .hero-slide img{
-        width:50% !important;
+        width:100% !important;
         flex:0 0 50%;
         height:100%;
         object-fit:cover;
