@@ -5221,3 +5221,57 @@ button, input, select, textarea{
     footer p, footer a{font-size:6px;}
     footer h4{font-size:7px;}
 }
+
+
+/* =========================================================
+   BMC HOMEMART — FIX MATERIAL SECTION STICKY HEADER
+   2026-09-13
+   NOTE:
+   .material-panel เดิมเป็น parent ที่มีความสูงแค่ส่วนหัว
+   ทำให้ .material-sticky-nav ไม่มีพื้นที่ให้ sticky เลื่อนตาม
+   ไปจนจบ Section
+
+   เปลี่ยน .material-panel เป็น display:contents เฉพาะ 4 Section
+   เพื่อให้ .material-sticky-nav ใช้ .material-container / Section
+   เป็นพื้นที่อ้างอิง และจะหยุด sticky อัตโนมัติเมื่อถึงท้าย Section
+========================================================= */
+
+#natural-stone > .material-container > .material-panel,
+#synthetic-stone > .material-container > .material-panel,
+#wood-floor > .material-container > .material-panel,
+#other-products > .material-container > .material-panel{
+    display:contents;
+}
+
+/* ให้หัวข้อ + ปุ่มหมวดติดตามลงมาตามการ scroll */
+#natural-stone .material-sticky-nav,
+#synthetic-stone .material-sticky-nav,
+#wood-floor .material-sticky-nav,
+#other-products .material-sticky-nav{
+    position:sticky;
+    top:82px;
+    z-index:40;
+    width:100%;
+    box-sizing:border-box;
+}
+
+/* iPad */
+@media (min-width:701px) and (max-width:1100px){
+    #natural-stone .material-sticky-nav,
+    #synthetic-stone .material-sticky-nav,
+    #wood-floor .material-sticky-nav,
+    #other-products .material-sticky-nav{
+        top:82px;
+    }
+}
+
+/* Mobile */
+@media (max-width:700px){
+    #natural-stone .material-sticky-nav,
+    #synthetic-stone .material-sticky-nav,
+    #wood-floor .material-sticky-nav,
+    #other-products .material-sticky-nav{
+        top:74px;
+    }
+}
+
