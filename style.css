@@ -5221,3 +5221,1039 @@ button, input, select, textarea{
     footer p, footer a{font-size:6px;}
     footer h4{font-size:7px;}
 }
+
+
+/* =========================================================
+   BMC HOMEMART — RESPONSIVE COMPACT LAYOUT (FINAL OVERRIDE)
+   เป้าหมาย:
+   - iPad แนวตั้ง/แนวนอน และมือถือให้โครงสร้างใกล้ Desktop
+   - ลดขนาดพื้นที่ รูปภาพ ตัวอักษร และช่องว่าง
+   - ป้องกันข้อความ/รูปภาพล้นกรอบ
+   - Hero: ลดความสูง/พื้นที่ประมาณ 50% และปุ่ม 3 ปุ่มอยู่แถวเดียว
+   - Material 4 sections: รูปใหญ่ + รูปเล็ก 2 รูป ไม่ซ้อน/ไม่ล้น
+   - About: รูป + ข้อความอยู่แถวเดียว
+   - Contact + Request a Quote อยู่แถวเดียว
+========================================================= */
+
+img,
+video,
+iframe,
+input,
+textarea,
+select,
+button{
+    max-width:100%;
+    box-sizing:border-box;
+}
+
+.container{
+    min-width:0;
+}
+
+body{
+    overflow-x:hidden;
+}
+
+/* =========================================================
+   TABLET + MOBILE : 1024px ลงมา
+========================================================= */
+@media (max-width:1024px){
+
+    .container{
+        width:94%;
+        max-width:1250px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    /* ---------- HEADER ---------- */
+    .header{
+        height:72px;
+    }
+
+    nav{
+        top:72px;
+    }
+
+    .logo img{
+        width:150px;
+        max-width:100%;
+    }
+
+    .header-actions{
+        gap:7px !important;
+        min-width:0;
+    }
+
+    .language-switch{
+        margin-left:3px !important;
+    }
+
+    .language-switch .lang-btn{
+        font-size:12px !important;
+    }
+
+    .cart-btn{
+        font-size:11px;
+        padding:6px 8px;
+        white-space:nowrap;
+    }
+
+    .mobile-menu{
+        font-size:22px;
+        padding:0 2px;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero{
+        height:300px !important;
+        min-height:0;
+        border-radius:20px;
+    }
+
+    .hero-content{
+        left:50%;
+        width:88%;
+        max-width:1100px;
+    }
+
+    .eyebrow{
+        font-size:11px;
+        letter-spacing:2px;
+    }
+
+    .hero h1{
+        font-size:28px;
+        line-height:1.08;
+        margin:9px 0 10px;
+        letter-spacing:-.7px;
+        max-width:70%;
+        overflow-wrap:anywhere;
+    }
+
+    .hero-description{
+        max-width:55%;
+        font-size:12px;
+        line-height:1.5;
+    }
+
+    .hero-buttons{
+        display:flex !important;
+        flex-direction:row !important;
+        flex-wrap:nowrap !important;
+        align-items:center;
+        gap:6px;
+        width:100%;
+        margin-top:12px;
+    }
+
+    .hero-buttons .btn{
+        flex:0 1 auto;
+        min-width:0 !important;
+        width:auto;
+        padding:7px 9px;
+        font-size:10px;
+        line-height:1.2;
+        white-space:nowrap;
+        text-align:center;
+        border-radius:6px;
+    }
+
+    .slider-btn{
+        width:34px;
+        height:34px;
+        font-size:24px;
+    }
+
+    .slider-prev{left:8px;}
+    .slider-next{right:8px;}
+
+    .slider-dots{
+        bottom:12px;
+        gap:6px;
+    }
+
+    .slider-dot{
+        width:7px;
+        height:7px;
+    }
+
+    /* ---------- SECTION HEADINGS ---------- */
+    .section-heading{
+        margin-bottom:25px;
+    }
+
+    .section-heading h1,
+    .section-heading h2{
+        font-size:32px;
+        line-height:1.15;
+    }
+
+    /* ---------- ABOUT BMC ----------
+       รูป + ข้อความอยู่แถวเดียวแบบ Desktop */
+    .intro,
+    .about-detail{
+        padding:35px 0 !important;
+    }
+
+    .intro-grid,
+    .about-detail-grid{
+        grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr) !important;
+        gap:18px !important;
+        align-items:center;
+    }
+
+    .intro-image,
+    .about-detail-image{
+        min-width:0;
+        width:100%;
+        border-radius:20px;
+    }
+
+    .intro-image img,
+    .about-detail-image img{
+        display:block;
+        width:100% !important;
+        height:230px !important;
+        max-height:230px;
+        object-fit:cover;
+        border-radius:20px;
+    }
+
+    .intro-content,
+    .about-detail-content{
+        min-width:0;
+        padding:5px 0 !important;
+    }
+
+    .intro-content h2,
+    .about-detail-content h2{
+        font-size:25px;
+        line-height:1.22;
+        margin:8px 0 12px;
+        overflow-wrap:anywhere;
+    }
+
+    .intro-content p,
+    .about-detail-content p{
+        font-size:12px;
+        line-height:1.65;
+        margin-bottom:10px;
+        overflow-wrap:anywhere;
+    }
+
+    /* ---------- MATERIAL 4 SECTIONS ----------
+       คง layout รูป + ข้อความแบบ Desktop
+       ลดรูปลงประมาณ 50% จาก 520px -> 250px */
+    .material-showcase{
+        padding:50px 0 !important;
+        overflow-x:hidden;
+    }
+
+    .material-container{
+        width:94%;
+        max-width:1250px;
+        min-width:0;
+    }
+
+    .material-heading{
+        margin-bottom:18px;
+        gap:12px;
+        align-items:flex-end;
+    }
+
+    .material-heading h2{
+        font-size:30px;
+        line-height:1.1;
+        margin-top:5px;
+    }
+
+    .material-heading-copy{
+        max-width:38%;
+        font-size:11px;
+        line-height:1.55;
+        overflow-wrap:anywhere;
+    }
+
+    .material-sticky-nav{
+        top:72px;
+        max-width:100%;
+        overflow:hidden;
+    }
+
+    .material-category-tabs{
+        gap:6px;
+        max-width:100%;
+        overflow-x:auto;
+        padding:7px 0 12px;
+    }
+
+    .material-category-btn{
+        font-size:10px;
+        padding:7px 11px;
+        white-space:nowrap;
+    }
+
+    .material-feature{
+        display:grid !important;
+        grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr) !important;
+        gap:16px !important;
+        align-items:center;
+        min-width:0;
+    }
+
+    .material-gallery{
+        display:grid !important;
+        grid-template-columns:minmax(0,1.55fr) minmax(0,.75fr) !important;
+        gap:8px !important;
+        width:100%;
+        height:250px !important;
+        min-height:250px !important;
+        max-height:250px;
+        min-width:0;
+        overflow:hidden !important;
+        box-sizing:border-box;
+    }
+
+    .material-gallery > img,
+    .material-gallery-small img{
+        width:100% !important;
+        height:100% !important;
+        min-width:0;
+        min-height:0;
+        object-fit:cover;
+        border-radius:12px;
+    }
+
+    .material-gallery-small{
+        display:grid !important;
+        grid-template-rows:minmax(0,1fr) minmax(0,1fr) !important;
+        gap:8px !important;
+        min-width:0;
+        min-height:0;
+        height:100%;
+        overflow:hidden !important;
+    }
+
+    .material-copy{
+        min-width:0;
+        padding:0 !important;
+    }
+
+    .material-number{
+        font-size:10px;
+    }
+
+    .material-copy h3{
+        font-size:27px;
+        line-height:1.12;
+        margin:7px 0 10px;
+        overflow-wrap:anywhere;
+    }
+
+    .material-copy p{
+        max-width:100%;
+        font-size:11px;
+        line-height:1.65;
+        overflow-wrap:anywhere;
+    }
+
+    .material-tags{
+        gap:5px;
+        margin:12px 0;
+    }
+
+    .material-tags span{
+        padding:5px 8px;
+        font-size:9px;
+    }
+
+    .material-cta{
+        gap:14px;
+        padding:7px 0;
+        font-size:10px;
+    }
+
+    .material-cta span{
+        font-size:17px;
+    }
+
+    /* ---------- SERVICES / PROJECTS ----------
+       คง grid หลายคอลัมน์ ไม่บังคับเป็นแนวตั้ง */
+    .services .service-grid,
+    .projects .project-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+        gap:8px;
+    }
+
+    /* ---------- CONTACT + REQUEST A QUOTE ----------
+       อยู่แถวเดียวแบบ Desktop */
+    .contact{
+        padding:50px 0 !important;
+    }
+
+    .contact-grid{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+        gap:24px !important;
+        align-items:start;
+    }
+
+    .contact h2{
+        font-size:34px;
+        line-height:1.15;
+        margin:8px 0 20px;
+    }
+
+    .contact-item{
+        margin:14px 0;
+    }
+
+    .contact-item strong{
+        font-size:12px;
+    }
+
+    .contact-item p{
+        font-size:11px;
+        line-height:1.55;
+        margin:3px 0 0;
+        overflow-wrap:anywhere;
+    }
+
+    .contact-box{
+        min-width:0;
+        padding:22px !important;
+        border-radius:16px;
+    }
+
+    .contact-box h3{
+        font-size:22px;
+        line-height:1.2;
+        margin-bottom:7px;
+    }
+
+    .contact-box p{
+        font-size:11px;
+        line-height:1.55;
+        margin-bottom:13px;
+        overflow-wrap:anywhere;
+    }
+
+    input,
+    textarea,
+    select{
+        width:100%;
+        padding:9px 10px;
+        margin-bottom:9px;
+        font-size:11px;
+        border-radius:7px;
+    }
+
+    textarea{
+        min-height:85px;
+    }
+
+    .contact-box .btn{
+        font-size:11px;
+        padding:8px 14px;
+    }
+
+    /* ---------- PRODUCT CATALOG ---------- */
+    .products-page{
+        padding:55px 0 !important;
+    }
+
+    .catalog-layout{
+        grid-template-columns:minmax(170px,.32fr) minmax(0,1fr) !important;
+        gap:15px;
+    }
+
+    .catalog-grid,
+    .product-catalog{
+        grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+        gap:10px;
+    }
+
+    .product-card{
+        min-width:0;
+        overflow:hidden;
+    }
+
+    .product-card img{
+        width:100%;
+        height:180px;
+        object-fit:cover;
+    }
+
+    .product-card-content{
+        min-width:0;
+        padding:8px;
+    }
+
+    .product-card-content h3{
+        font-size:13px;
+        line-height:1.25;
+    }
+
+    .product-card-content p{
+        font-size:10px;
+        line-height:1.5;
+    }
+
+    /* ---------- PRODUCT DETAIL ---------- */
+    .product-detail-grid{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+        gap:20px !important;
+    }
+
+    .main-product-image img{
+        width:100%;
+        height:260px !important;
+        object-fit:cover;
+    }
+
+    .product-detail-info h1{
+        font-size:25px;
+        line-height:1.2;
+        overflow-wrap:anywhere;
+    }
+
+    .product-detail-description{
+        font-size:11px;
+        line-height:1.65;
+        overflow-wrap:anywhere;
+    }
+
+    .product-detail-actions{
+        display:flex;
+        flex-wrap:wrap;
+        gap:6px;
+    }
+
+    .product-detail-actions .btn{
+        margin:0;
+        padding:8px 10px;
+        font-size:10px;
+    }
+
+    /* ---------- CART ---------- */
+    .cart-item{
+        flex-direction:row !important;
+        align-items:center !important;
+        gap:12px !important;
+        min-width:0;
+    }
+
+    .cart-item-control{
+        width:auto !important;
+        min-width:150px;
+    }
+
+    /* ---------- POLICY / DETAIL PAGES ---------- */
+    .detail-hero{
+        padding:55px 0 35px;
+    }
+
+    .detail-hero h1{
+        font-size:30px;
+    }
+
+    .service-detail-grid,
+    .reference-grid{
+        grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+        gap:10px;
+    }
+
+    .detail-copy h2{
+        font-size:26px;
+    }
+
+    .detail-copy p,
+    .policy-wrap p,
+    .policy-wrap li{
+        font-size:11px;
+        line-height:1.7;
+        overflow-wrap:anywhere;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer .footer-grid{
+        grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+        gap:10px;
+    }
+
+    footer p,
+    footer a{
+        font-size:9px;
+        line-height:1.45;
+        overflow-wrap:anywhere;
+    }
+
+    footer h4{
+        font-size:11px;
+    }
+}
+
+/* =========================================================
+   PHONE : 600px ลงมา
+   ยังคง layout 2 คอลัมน์ เพื่อให้ใกล้ Desktop ตามคำขอ
+========================================================= */
+@media (max-width:600px){
+
+    .container,
+    .material-container{
+        width:calc(100% - 18px);
+    }
+
+    .header{
+        height:64px;
+    }
+
+    nav{
+        top:64px;
+    }
+
+    .logo img{
+        width:125px;
+    }
+
+    .header-actions{
+        gap:3px !important;
+    }
+
+    .cart-btn{
+        font-size:9px;
+        padding:5px 5px;
+    }
+
+    .language-switch .lang-btn{
+        font-size:10px !important;
+    }
+
+    .mobile-menu{
+        font-size:21px;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero{
+        height:260px !important;
+        border-radius:16px;
+    }
+
+    .hero-content{
+        width:90%;
+    }
+
+    .hero h1{
+        font-size:22px;
+        line-height:1.05;
+        margin:6px 0 7px;
+        max-width:76%;
+    }
+
+    .hero-description{
+        max-width:62%;
+        font-size:9px;
+        line-height:1.45;
+    }
+
+    .hero-buttons{
+        gap:4px;
+        margin-top:8px;
+    }
+
+    .hero-buttons .btn{
+        padding:6px 6px;
+        font-size:8px;
+        border-radius:5px;
+    }
+
+    .slider-btn{
+        width:29px;
+        height:29px;
+        font-size:20px;
+    }
+
+    /* ---------- ABOUT ---------- */
+    .intro,
+    .about-detail{
+        padding:25px 0 !important;
+    }
+
+    .intro-grid,
+    .about-detail-grid{
+        grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr) !important;
+        gap:10px !important;
+    }
+
+    .intro-image img,
+    .about-detail-image img{
+        height:165px !important;
+        max-height:165px;
+        border-radius:14px;
+    }
+
+    .intro-content h2,
+    .about-detail-content h2{
+        font-size:18px;
+        line-height:1.18;
+        margin:4px 0 7px;
+    }
+
+    .intro-content p,
+    .about-detail-content p{
+        font-size:9px;
+        line-height:1.55;
+        margin-bottom:6px;
+    }
+
+    .intro-content .text-link{
+        font-size:9px;
+    }
+
+    /* ---------- MATERIAL ---------- */
+    .material-showcase{
+        padding:35px 0 !important;
+    }
+
+    .material-heading{
+        margin-bottom:12px;
+        gap:7px;
+    }
+
+    .material-heading h2{
+        font-size:21px;
+    }
+
+    .material-heading-copy{
+        max-width:43%;
+        font-size:8px;
+        line-height:1.45;
+    }
+
+    .material-sticky-nav{
+        top:64px;
+    }
+
+    .material-category-tabs{
+        gap:4px;
+        padding:5px 0 8px;
+    }
+
+    .material-category-btn{
+        font-size:8px;
+        padding:6px 8px;
+    }
+
+    .material-feature{
+        grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr) !important;
+        gap:8px !important;
+    }
+
+    .material-gallery{
+        grid-template-columns:minmax(0,1.5fr) minmax(0,.75fr) !important;
+        height:150px !important;
+        min-height:150px !important;
+        max-height:150px;
+        gap:5px !important;
+    }
+
+    .material-gallery-small{
+        gap:5px !important;
+    }
+
+    .material-gallery > img,
+    .material-gallery-small img{
+        border-radius:8px;
+    }
+
+    .material-number{
+        font-size:8px;
+    }
+
+    .material-copy h3{
+        font-size:18px;
+        line-height:1.12;
+        margin:4px 0 6px;
+    }
+
+    .material-copy p{
+        font-size:8px;
+        line-height:1.5;
+    }
+
+    .material-tags{
+        margin:7px 0;
+        gap:3px;
+    }
+
+    .material-tags span{
+        padding:3px 5px;
+        font-size:7px;
+    }
+
+    .material-cta{
+        font-size:8px;
+        gap:8px;
+        padding:5px 0;
+    }
+
+    .material-cta span{
+        font-size:13px;
+    }
+
+    /* ---------- CONTACT ---------- */
+    .contact{
+        padding:35px 0 !important;
+    }
+
+    .contact-grid{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+        gap:10px !important;
+    }
+
+    .contact h2{
+        font-size:23px;
+        margin:5px 0 12px;
+    }
+
+    .contact-item{
+        margin:9px 0;
+    }
+
+    .contact-item strong{
+        font-size:9px;
+    }
+
+    .contact-item p{
+        font-size:8px;
+        line-height:1.45;
+    }
+
+    .contact-box{
+        padding:12px !important;
+        border-radius:11px;
+    }
+
+    .contact-box h3{
+        font-size:16px;
+        margin-bottom:5px;
+    }
+
+    .contact-box p{
+        font-size:8px;
+        line-height:1.45;
+        margin-bottom:8px;
+    }
+
+    input,
+    textarea,
+    select{
+        padding:7px 7px;
+        margin-bottom:6px;
+        font-size:8px;
+        border-radius:5px;
+    }
+
+    textarea{
+        min-height:60px;
+    }
+
+    .contact-box .btn{
+        font-size:8px;
+        padding:6px 9px;
+    }
+
+    /* ---------- PRODUCT CATALOG ---------- */
+    .catalog-layout{
+        grid-template-columns:minmax(100px,.35fr) minmax(0,1fr) !important;
+        gap:8px;
+    }
+
+    .catalog-grid,
+    .product-catalog{
+        grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+        gap:7px;
+    }
+
+    .product-card img{
+        height:125px;
+    }
+
+    .product-card-content{
+        padding:6px 5px;
+    }
+
+    .product-card-content h3{
+        font-size:10px;
+    }
+
+    .product-card-content p{
+        font-size:8px;
+    }
+
+    /* ---------- PRODUCT DETAIL ---------- */
+    .product-detail-grid{
+        grid-template-columns:minmax(0,1fr) minmax(0,1fr) !important;
+        gap:8px !important;
+    }
+
+    .main-product-image img{
+        height:175px !important;
+    }
+
+    .product-detail-info h1{
+        font-size:17px;
+    }
+
+    .product-detail-description{
+        font-size:8px;
+        line-height:1.5;
+    }
+
+    .product-detail-actions .btn{
+        font-size:8px;
+        padding:6px 6px;
+    }
+
+    .product-thumbnails{
+        gap:4px;
+    }
+
+    .product-thumbnails img{
+        width:42px;
+        height:42px;
+    }
+
+    /* ---------- SERVICES / PROJECTS ---------- */
+    .services .service-grid,
+    .projects .project-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+        gap:4px;
+    }
+
+    .services .service-card,
+    .projects .project{
+        height:160px;
+        min-height:160px;
+        border-radius:10px;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer{
+        padding:35px 0 12px;
+    }
+
+    footer .footer-grid{
+        grid-template-columns:repeat(4,minmax(0,1fr)) !important;
+        gap:4px;
+    }
+
+    footer .footer-logo{
+        font-size:9px;
+    }
+
+    footer p,
+    footer a{
+        font-size:6px;
+        line-height:1.3;
+    }
+
+    footer h4{
+        font-size:7px;
+        margin-bottom:4px;
+    }
+
+    /* ---------- FLOATING CONTACT ---------- */
+    .floating-contact{
+        right:8px;
+        bottom:8px;
+    }
+
+    .floating-main{
+        width:45px;
+        height:45px;
+    }
+}
+
+/* =========================================================
+   VERY SMALL PHONE : 390px ลงมา
+   ลดขนาดอีกเล็กน้อยเพื่อไม่ให้ล้น
+========================================================= */
+@media (max-width:390px){
+
+    .logo img{
+        width:112px;
+    }
+
+    .header-actions{
+        gap:2px !important;
+    }
+
+    .hero{
+        height:240px !important;
+    }
+
+    .hero h1{
+        font-size:20px;
+    }
+
+    .hero-description{
+        font-size:8px;
+    }
+
+    .hero-buttons{
+        gap:3px;
+    }
+
+    .hero-buttons .btn{
+        padding:5px 5px;
+        font-size:7px;
+    }
+
+    .intro-grid,
+    .about-detail-grid{
+        gap:7px !important;
+    }
+
+    .intro-image img,
+    .about-detail-image img{
+        height:145px !important;
+        max-height:145px;
+    }
+
+    .intro-content h2,
+    .about-detail-content h2{
+        font-size:16px;
+    }
+
+    .intro-content p,
+    .about-detail-content p{
+        font-size:8px;
+    }
+
+    .material-gallery{
+        height:135px !important;
+        min-height:135px !important;
+        max-height:135px;
+    }
+
+    .material-copy h3{
+        font-size:16px;
+    }
+
+    .material-copy p{
+        font-size:7px;
+    }
+
+    .contact-grid{
+        gap:7px !important;
+    }
+
+    .contact-box{
+        padding:9px !important;
+    }
+
+    .contact-box h3{
+        font-size:14px;
+    }
+}
