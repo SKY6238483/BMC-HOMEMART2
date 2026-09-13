@@ -5267,7 +5267,7 @@ img{max-width:100%;}
        รูปกว้างประมาณ 50% และปุ่ม 3 ปุ่มแถวเดียว */
     .hero{
         height:500px;
-        
+        /*border-radius:24px;*/
     }
     .hero-slide{
         display:flex;
@@ -5457,7 +5457,7 @@ img{max-width:100%;}
     .container{width:calc(100% - 16px);max-width:none;}
 
     /* ---------- HERO ---------- */
-    .hero{height:360px !important;}
+    .hero{height:430px !important;border-radius:0px;}
     .hero-slide{
         display:flex;
         align-items:stretch;
