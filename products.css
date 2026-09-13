@@ -1,3 +1,8 @@
+/*
+BMC HOMEMART — CSS สินค้า
+สารบัญ: Product Catalog | Category Navigation | Product Card | Product Detail | Cart
+      | Inquiry UI | Responsive Desktop/Tablet/Mobile
+*/
 /* =========================================================
    BMC HOMEMART
    PRODUCTS PAGE
@@ -605,4 +610,27 @@
 
     }
 
+}
+
+/* NOTE: PRODUCT DETAIL / CATALOG
+   ควบคุมรูปสินค้าไม่ให้เกินกรอบบน Desktop / Tablet / Mobile */
+.product-card,
+.product-card-image-wrap,
+.product-detail-page,
+.product-detail-info{
+    min-width:0;
+    max-width:100%;
+    box-sizing:border-box;
+}
+.product-card img,
+.main-product-image img,
+.product-thumbnails img{
+    max-width:100%;
+    box-sizing:border-box;
+}
+@media(max-width:1024px){
+    .product-card-image-wrap,
+    .main-product-image{
+        overflow:hidden;
+    }
 }
