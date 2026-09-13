@@ -1,3 +1,9 @@
+/*
+BMC HOMEMART — CSS หลัก
+สารบัญ: 01 Header/Navigation | 02 Hero/Slider | 03 Intro | 04 Material Sections
+      | 05 Services/Projects | 06 CTA/Contact/Footer | 07 Product UI | 08 Responsive
+      | 09 Language | 10 LINE/Social | 11 Overflow protection
+*/
 /* =========================================================
    BMC HOMEMART
    MAIN STYLE
@@ -4184,108 +4190,298 @@ footer a:hover {
 
 
 /* =========================================================
-   NOTE: SECTION "สินค้าอื่นๆ" — แก้ไขเฉพาะส่วนนี้
-   จุดประสงค์:
-   - เมื่อเลื่อนมาถึง section สินค้าอื่นๆ ให้ข้อมูล/รูปภาพ
-     ของหมวดเริ่มต้นแสดงทันที ไม่รอ animation หรือการคลิก
-   - ไม่เปลี่ยนการทำงานของ Section อื่น
-   - ถ้าต้องการปรับขนาดรูป ให้แก้ที่ .other-products-section .material-gallery
+   BMC HOMEMART — FINAL STRUCTURE / RESPONSIVE PATCH
+   NOTE: ส่วนนี้เป็นกฎแก้ไขท้ายไฟล์เพื่อให้ลำดับการทำงานชัดเจน
+   และลดการชนกันของกฎ CSS เดิม โดยไม่เปลี่ยน Layout หลัก Desktop
 ========================================================= */
-.other-products-section .material-category-panel.active{
+
+/* NOTE: สารบัญ CSS หลัก
+   01 Header / Navigation
+   02 Hero / Slider
+   03 Material Sections / Tabs / Gallery
+   04 Services / Projects / Contact / Footer
+   05 Product Catalog / Product Detail / Cart
+   06 Responsive Desktop / Tablet / Mobile
+   07 LINE OA / Social Links / Language
+*/
+
+/* NOTE: ทุก Material Section ต้องตัดขอบของภาพให้อยู่ภายใน Section
+   และให้ sticky navigation หยุดทำงานเมื่อพ้นขอบ Section */
+.material-showcase{
+    position:relative;
+    min-width:0;
+    overflow:clip;
+    scroll-margin-top:82px;
+}
+.material-container,
+.material-panel,
+.material-category-panel,
+.material-feature,
+.material-copy,
+.material-gallery,
+.material-gallery-small{
+    min-width:0;
+    max-width:100%;
+    box-sizing:border-box;
+}
+
+/* NOTE: Section "สินค้าอื่นๆ" ใช้โครงสร้างและการแสดงผลเหมือน "หินธรรมชาติ"
+   แก้ปัญหา class ซ้ำใน HTML ซึ่งทำให้ .other-products-section ไม่ถูกใช้งาน */
+#other-products.other-products-section{
+    position:relative;
+    overflow:clip;
+}
+#other-products .material-panel.active{
+    display:block;
+}
+#other-products .material-category-panel.active{
     display:block;
     visibility:visible;
     opacity:1;
     height:auto;
     overflow:visible;
 }
-
-.other-products-section .material-feature{
+#other-products .material-feature{
+    width:100%;
     min-width:0;
 }
-
-.other-products-section .material-gallery,
-.other-products-section .material-gallery-small{
+#other-products .material-gallery{
+    width:100%;
+    max-width:100%;
     min-width:0;
+    overflow:hidden;
 }
 
-.other-products-section .material-gallery img{
+/* NOTE: ซ่อนแท็กเฉพาะ 4 Section ที่ผู้ใช้ระบุ
+   ไม่ลบข้อมูล HTML เพื่อคงข้อมูลเดิมไว้ครบ */
+#natural-stone .material-tags,
+#synthetic-stone .material-tags,
+#wood-floor .material-tags,
+#other-products .material-tags{
+    display:none !important;
+}
+
+/* NOTE: Pool Stone ใช้สัดส่วน/spacing เดียวกับ Marble และถูกบังคับ
+   ให้อยู่ในกรอบ Gallery ไม่ล้นออกนอก Section */
+#natural-stone #pool-panel .material-gallery,
+#natural-stone #marble-panel .material-gallery{
+    grid-template-columns:1.55fr .75fr;
+    gap:12px;
+    min-height:520px;
+    height:520px;
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+}
+#natural-stone #pool-panel .material-gallery-small,
+#natural-stone #marble-panel .material-gallery-small{
+    grid-template-rows:1fr 1fr;
+    gap:12px;
+    min-width:0;
+    overflow:hidden;
+}
+#natural-stone #pool-panel .material-gallery>img,
+#natural-stone #pool-panel .material-gallery-small img,
+#natural-stone #marble-panel .material-gallery>img,
+#natural-stone #marble-panel .material-gallery-small img{
+    width:100%;
+    height:100%;
+    max-width:100%;
+    min-width:0;
+    object-fit:cover;
+    display:block;
+    box-sizing:border-box;
+    border-radius:20px;
+}
+
+/* NOTE: Hero ปุ่มใช้ data-th/data-en เพื่อให้เปลี่ยนภาษาพร้อมกัน */
+.hero-buttons .btn{
+    min-width:0;
     max-width:100%;
 }
 
-@media (max-width:900px){
-    .other-products-section .material-feature{
-        width:100%;
-        min-width:0;
-    }
+/* NOTE: LINE OA / Instagram / TikTok เป็นลิงก์ภายนอก
+   เปิดหน้าใหม่ตามข้อกำหนด และไม่ให้ลิงก์ทำให้ Layout ล้น */
+.footer-social a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:0;
+}
+.footer-social img{
+    max-width:100%;
+}
 
-    .other-products-section .material-gallery{
+/* NOTE: Tablet — ยึดโครงสร้าง Desktop แต่ลดขนาดภาพ/ข้อความ/spacing */
+@media (min-width:701px) and (max-width:1024px){
+    .material-showcase{
+        overflow:clip;
+    }
+    .material-feature{
+        grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+        gap:22px;
+    }
+    .material-gallery,
+    #natural-stone #pool-panel .material-gallery,
+    #natural-stone #marble-panel .material-gallery{
         width:100%;
+        max-width:100%;
+        height:330px;
+        min-height:330px;
+        gap:12px;
+    }
+    #natural-stone #pool-panel .material-gallery-small,
+    #natural-stone #marble-panel .material-gallery-small{
+        gap:12px;
+    }
+    #natural-stone #pool-panel .material-gallery>img,
+    #natural-stone #pool-panel .material-gallery-small img,
+    #natural-stone #marble-panel .material-gallery>img,
+    #natural-stone #marble-panel .material-gallery-small img{
+        border-radius:20px;
+    }
+}
+
+/* NOTE: Mobile — เปลี่ยนเฉพาะขนาด/spacing ไม่เปลี่ยนลำดับองค์ประกอบหลัก */
+@media (max-width:700px){
+    .material-showcase{
+        width:100%;
+        max-width:100%;
+        overflow:clip;
+    }
+    .material-container{
+        width:100%;
+        max-width:100%;
+    }
+    .material-gallery,
+    #natural-stone #pool-panel .material-gallery,
+    #natural-stone #marble-panel .material-gallery{
+        width:100%;
+        max-width:100%;
+        grid-template-columns:1.15fr .85fr;
+        gap:8px;
+        height:150px;
+        min-height:150px;
+        overflow:hidden;
+    }
+    #natural-stone #pool-panel .material-gallery-small,
+    #natural-stone #marble-panel .material-gallery-small{
+        gap:8px;
+        min-width:0;
+        overflow:hidden;
+    }
+    #natural-stone #pool-panel .material-gallery>img,
+    #natural-stone #pool-panel .material-gallery-small img,
+    #natural-stone #marble-panel .material-gallery>img,
+    #natural-stone #marble-panel .material-gallery-small img{
+        border-radius:13px;
+    }
+    .material-copy{
+        width:100%;
+        max-width:100%;
+        overflow-wrap:anywhere;
+    }
+    .hero-buttons{
         max-width:100%;
     }
 }
 
-@media (max-width:600px){
-    .other-products-section{
-        overflow:hidden;
-    }
-
-    .other-products-section .material-gallery{
-        width:100%;
-        max-width:100%;
+@media (max-width:410px){
+    .material-gallery,
+    #natural-stone #pool-panel .material-gallery,
+    #natural-stone #marble-panel .material-gallery{
+        grid-template-columns:1.2fr .8fr;
+        gap:8px;
+        height:150px;
+        min-height:150px;
     }
 }
 
 
 /* =========================================================
-   NOTE: หินปูสระว่ายน้ำ — ปรับระยะรูปให้เท่ากับหินอ่อน
-   แก้เฉพาะ pool-panel:
-   - gap = ระยะห่างระหว่างรูป
-   - min-height/height = ความสูงรวมของชุดรูป
-   - border-radius = ความมนของมุม
-   ไม่กระทบรูปหมวดหินอื่น
+   NOTE: PATCH 2026-09-13 — MATERIAL SECTION CONSISTENCY
+   เป้าหมาย:
+   1) สินค้าอื่นๆ ต้องแสดงรูปหมวดแรกทันทีเมื่อเลื่อนถึง Section
+      โดยไม่ต้องคลิกปุ่มก่อน
+   2) ปุ่มหมวดสินค้าอื่นๆ ต้องสลับภาพ/เนื้อหาแบบเดียวกับพื้นไม้
+   3) ขอบซ้าย-ขวาของ 4 Material Sections ต้องอยู่แนวเดียวกัน
+      บน Desktop / Tablet / Mobile โดยไม่ทำให้ภาพล้นจอ
 ========================================================= */
-#pool-panel .material-gallery{
-    grid-template-columns:1.55fr .75fr;
-    gap:12px;
-    min-height:520px;
-    height:520px;
+
+/* NOTE: กรอบกลางของ 4 Section ใช้ขนาด/ขอบเดียวกัน */
+#natural-stone > .material-container,
+#synthetic-stone > .material-container,
+#wood-floor > .material-container,
+#other-products > .material-container{
+    width:90%;
+    max-width:1250px;
+    margin-left:auto;
+    margin-right:auto;
+    box-sizing:border-box;
 }
 
-#pool-panel .material-gallery-small{
-    grid-template-rows:1fr 1fr;
-    gap:12px;
+/* NOTE: สินค้าอื่นๆ — panel แรก (กระเบื้อง) ต้องแสดงทันทีตั้งแต่เริ่มโหลด */
+#other-products #ceramic-panel.active{
+    display:block !important;
+    visibility:visible;
+    opacity:1;
+    height:auto;
 }
 
-#pool-panel .material-gallery>img,
-#pool-panel .material-gallery-small img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+/* NOTE: กันกรณี JS/Browser state เดิมทำให้ panel แรกไม่มี active
+   ปุ่มแรกเป็นค่าเริ่มต้นและ panel แรกต้องจับคู่กันเสมอ */
+#other-products .material-category-btn:first-child{
+    cursor:pointer;
+}
+
+/* NOTE: รูปแบบการสลับหมวดใช้ระบบเดียวกับ Wood Floor */
+#other-products .material-category-panel{
+    display:none;
+}
+#other-products .material-category-panel.active{
     display:block;
-    border-radius:20px;
 }
 
-@media (max-width:900px){
-    #pool-panel .material-gallery{
-        min-height:430px;
-        height:430px;
+/* NOTE: ไม่ให้เนื้อหา/รูปภาพดันกรอบ Section ออกด้านข้าง */
+#natural-stone,
+#synthetic-stone,
+#wood-floor,
+#other-products{
+    width:100%;
+    max-width:100%;
+    overflow-x:clip;
+    box-sizing:border-box;
+}
+
+#natural-stone .material-container,
+#synthetic-stone .material-container,
+#wood-floor .material-container,
+#other-products .material-container,
+#natural-stone .material-feature,
+#synthetic-stone .material-feature,
+#wood-floor .material-feature,
+#other-products .material-feature{
+    min-width:0;
+}
+
+/* NOTE: Tablet — ขอบซ้าย/ขวาเท่ากันทั้ง 4 Section */
+@media (min-width:701px) and (max-width:1100px){
+    #natural-stone > .material-container,
+    #synthetic-stone > .material-container,
+    #wood-floor > .material-container,
+    #other-products > .material-container{
+        width:92%;
+        max-width:none;
     }
 }
 
-@media (max-width:600px){
-    #pool-panel .material-gallery{
-        grid-template-columns:1.15fr .85fr;
-        gap:8px;
-        min-height:150px;
-        height:150px;
-    }
-
-    #pool-panel .material-gallery-small{
-        gap:8px;
-    }
-
-    #pool-panel .material-gallery>img,
-    #pool-panel .material-gallery-small img{
-        border-radius:13px;
+/* NOTE: Mobile — ใช้ขอบเท่ากันทุก Section และป้องกันภาพล้น */
+@media (max-width:700px){
+    #natural-stone > .material-container,
+    #synthetic-stone > .material-container,
+    #wood-floor > .material-container,
+    #other-products > .material-container{
+        width:calc(100% - 28px);
+        max-width:none;
     }
 }

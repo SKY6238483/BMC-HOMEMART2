@@ -1,3 +1,8 @@
+/*
+BMC HOMEMART — ระบบภาษา TH/EN
+หน้าที่: เปลี่ยนข้อความ data-th/data-en, แปลข้อความที่มี dictionary, placeholder, aria-label และ title
+หลักการ: เก็บข้อความไทยเดิมไว้และสลับภาษาโดยไม่ทำลายข้อมูลสินค้า/โครงสร้าง HTML
+*/
 /* BMC HOMEMART - bilingual site language engine */
 (function(){
   const dict = {

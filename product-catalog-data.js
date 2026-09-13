@@ -1,4 +1,10 @@
 /* BMC HOMEMART product catalog - preserved original products + Granite watermark catalog */
+/*
+BMC HOMEMART — ฐานข้อมูลสินค้า
+สารบัญข้อมูล: id | name/nameEn | image | gallery | category | ราคา/หน่วย | description
+หน้าที่: เป็นแหล่งข้อมูลกลางให้ Product Catalog และ Product Detail
+หมายเหตุ: ห้ามลบรายการเดิมโดยไม่ตั้งใจ; หมวดไม้บันไดสามารถอ้างอิงภาพจาก image/ไม้ Solid ผ่านระบบกรองสินค้า
+*/
 const BMC_CATALOG = [
   {
     "id": "white-carrara",

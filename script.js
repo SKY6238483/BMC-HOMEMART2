@@ -1,9 +1,15 @@
+/*
+BMC HOMEMART — JavaScript หลัก
+สารบัญระบบ: Header/เมนู | Hero Slider | Floating Contact | Material Tabs | Product Catalog | Product Detail
+            | Cart | Inquiry | LINE OA | Responsive interactions
+แต่ละฟังก์ชันมีหน้าที่ควบคุมพฤติกรรมหน้าเว็บ โดยหลีกเลี่ยงการทำงานซ้ำซ้อน
+*/
 /* =========================================================
    BMC HOMEMART - MAIN JAVASCRIPT
    Responsive catalog / product detail / cart / slider
 ========================================================= */
 
-const LINE_OA_URL = "https://line.me/R/ti/p/@553anmze";
+const LINE_OA_URL = "https://page.line.me/553anmze";
 
 /* =========================
    CART
@@ -244,15 +250,34 @@ function initFloatingContact(){
    MATERIAL TABS
 ========================= */
 function initMaterialTabs(){
+    /* NOTE: ระบบแท็บวัสดุ — ตั้งค่า panel แรกให้แสดงทันที
+       เพื่อป้องกัน Section ที่ไม่มีภาพจนกว่าจะคลิกปุ่ม */
     document.querySelectorAll(".material-panel").forEach(panel=>{
-        const buttons = panel.querySelectorAll(".material-category-btn");
-        const panels = panel.querySelectorAll(".material-category-panel");
+        const buttons = Array.from(panel.querySelectorAll(".material-category-btn"));
+        const panels = Array.from(panel.querySelectorAll(".material-category-panel"));
+        if(!buttons.length || !panels.length) return;
+
+        // NOTE: ให้ปุ่ม active และ panel active สอดคล้องกันตั้งแต่เริ่มโหลด
+        let activeButton = buttons.find(btn=>btn.classList.contains("active")) || buttons[0];
+        let activeTarget = activeButton?.dataset.categoryTarget;
+        let activePanel = activeTarget ? panel.querySelector(`#${CSS.escape(activeTarget)}`) : null;
+        if(!activePanel) activePanel = panels[0];
+
+        buttons.forEach(btn=>btn.classList.remove("active"));
+        panels.forEach(p=>p.classList.remove("active"));
+        activeButton?.classList.add("active");
+        activePanel?.classList.add("active");
+
         buttons.forEach(button=>{
             button.addEventListener("click",()=>{
+                const targetId = button.dataset.categoryTarget;
+                const targetPanel = targetId ? panel.querySelector(`#${CSS.escape(targetId)}`) : null;
+                if(!targetPanel) return;
+
                 buttons.forEach(btn=>btn.classList.remove("active"));
                 panels.forEach(p=>p.classList.remove("active"));
                 button.classList.add("active");
-                document.getElementById(button.dataset.categoryTarget)?.classList.add("active");
+                targetPanel.classList.add("active");
             });
         });
     });
@@ -373,6 +398,9 @@ function initCategoryFilter(){
 
 function matchesCategory(product, selected){
     if(selected === "all") return true;
+    /* NOTE: หมวดไม้บันไดใช้ชุดภาพจากโฟลเดอร์ "ไม้ Solid" ตามที่กำหนด
+       โดยไม่ทำสำเนาข้อมูลสินค้าในฐานข้อมูลหลัก */
+    if(selected === "stair") return product.category === "solid";
     if(selected === "marble-tile") return product.category === "marble-tile" || product.category === "tile";
     /* NOTE: หมวด 'กระเบื้อง' รวม Ceramic + Porcelain ไว้ด้วยกัน */
     if(selected === "tile") return product.category === "ceramic" || product.category === "porcelain" || product.category === "tile";
@@ -428,7 +456,7 @@ function sortProducts(){
 
 function openInquiry(product){
  let box=document.getElementById('productInquiryModal');
- if(!box){box=document.createElement('div');box.id='productInquiryModal';box.className='inquiry-modal';box.innerHTML=`<div class="inquiry-modal-backdrop" data-close-inquiry></div><div class="inquiry-modal-box"><button class="inquiry-close" data-close-inquiry>×</button><div class="eyebrow gold">BMC HOMEMART</div><h3 id="inquiryTitle">สอบถามสินค้า</h3><p id="inquiryProduct"></p><div class="inquiry-links"><a href="tel:0876867772">📞 <span>เบอร์โทร</span></a><a href="https://line.me/R/ti/p/@553anmze" target="_blank" rel="noopener">LINE OA</a><a href="mailto:info@bmchomemart.com">✉ Email</a></div></div>`;document.body.appendChild(box);box.querySelectorAll('[data-close-inquiry]').forEach(e=>e.addEventListener('click',()=>box.classList.remove('show')))}
+ if(!box){box=document.createElement('div');box.id='productInquiryModal';box.className='inquiry-modal';box.innerHTML=`<div class="inquiry-modal-backdrop" data-close-inquiry></div><div class="inquiry-modal-box"><button class="inquiry-close" data-close-inquiry>×</button><div class="eyebrow gold">BMC HOMEMART</div><h3 id="inquiryTitle">สอบถามสินค้า</h3><p id="inquiryProduct"></p><div class="inquiry-links"><a href="tel:0876867772">📞 <span>เบอร์โทร</span></a><a href="https://page.line.me/553anmze" target="_blank" rel="noopener">LINE OA</a><a href="mailto:info@bmchomemart.com">✉ Email</a></div></div>`;document.body.appendChild(box);box.querySelectorAll('[data-close-inquiry]').forEach(e=>e.addEventListener('click',()=>box.classList.remove('show')))}
  const en=document.documentElement.lang==='en'; box.querySelector('#inquiryTitle').textContent=en?'Product Inquiry':'สอบถามสินค้า'; box.querySelector('#inquiryProduct').textContent=en?(product.nameEn||product.name):(product.name||''); box.querySelector('.inquiry-links span').textContent=en?'Phone':'เบอร์โทร'; box.classList.add('show');
 }
 function initProductPills(){
