@@ -5813,7 +5813,7 @@ body{
    animation:bmcLogoMarqueeReverse 28s linear infinite;
 ========================================================= */
 .client-logo-banner{
-    width:50%;
+    width:100%;
     overflow:hidden;
     background:#fff;
     padding:15px 0;
