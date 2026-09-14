@@ -5805,85 +5805,221 @@ body{
 .project-carousel-btn:disabled{opacity:.3;cursor:not-allowed;}
 
 /* =========================================================
-   NOTE: CLIENT LOGO MARQUEE — 15 โลโก้ / ไม่มีกรอบ
-   เปลี่ยนโลโก้: index.html > .client-logo-set img
+   CLIENT LOGO MARQUEE — 15 โลโก้ / ไม่มีกรอบ
+   Premium Responsive Version
+
    ทิศทางปัจจุบัน: ขวา → ซ้าย
+
    หากต้องการ ซ้าย → ขวา:
    เปลี่ยน animation เป็น
+
    animation:bmcLogoMarqueeReverse 28s linear infinite;
 ========================================================= */
+
 .client-logo-banner{
-    width:50%;
+    width:100%;
     overflow:hidden;
     background:#fff;
-    padding:15px 0;
-    border-top:1px solid rgba(0,0,0,.05);
-    border-bottom:1px solid rgba(0,0,0,.05);
+
+    /* แถบบาง Premium */
+    padding:5px 0 7px;
+
+    border-top:1px solid rgba(0,0,0,.04);
+    border-bottom:1px solid rgba(0,0,0,.04);
+
+    box-sizing:border-box;
 }
+
 .client-logo-track{
     display:flex;
     width:max-content;
+
     animation:bmcLogoMarquee 28s linear infinite;
+
     will-change:transform;
+    transform:translate3d(0,0,0);
 }
+
 .client-logo-set{
     display:flex;
     align-items:center;
-    gap:54px;
-    padding-right:54px;
+
+    /* ระยะห่างโลโก้ */
+    gap:32px;
+
+    padding-right:30px;
+
     flex:0 0 auto;
 }
+
 .client-logo-set img{
-    width:96px;
-    height:54px;
+    width:58px;
+    height:34px;
+
     object-fit:contain;
+    object-position:center;
+
     display:block;
+
     border:0 !important;
     background:transparent !important;
     box-shadow:none !important;
+
     flex:0 0 auto;
 }
-@keyframes bmcLogoMarquee{
-    from{transform:translateX(0);}
-    to{transform:translateX(-50%);}
-}
-@keyframes bmcLogoMarqueeReverse{
-    from{transform:translateX(-50%);}
-    to{transform:translateX(0);}
+
+
+/* =========================================================
+   MARQUEE — ขวา → ซ้าย
+========================================================= */
+
+/*@keyframes bmcLogoMarquee{
+    from{
+        transform:translate3d(0,0,0);
+    }
+
+    to{
+        transform:translate3d(-50%,0,0);
+    }
 }
 
-/* NOTE: iPad — OUR PROJECTS ยังคง 3 รูปต่อหน้า และโลโก้ 1 แถว */
+
+/* =========================================================
+   MARQUEE — ซ้าย → ขวา
+========================================================= */
+
+@keyframes bmcLogoMarqueeReverse{
+    from{
+        transform:translate3d(-50%,0,0);
+    }
+
+    to{
+        transform:translate3d(0,0,0);
+    }
+}
+
+
+/* =========================================================
+   iPAD / TABLET
+   601px – 1024px
+
+   OUR PROJECTS ยังคง 3 รูปต่อหน้า
+========================================================= */
+
 @media (min-width:601px) and (max-width:1024px){
-    .projects .project-carousel{padding:0 42px;}
-    .projects .project-grid#projectTrack{gap:10px !important;}
+
+    /* OUR PROJECTS */
+    .projects .project-carousel{
+        padding:0 42px;
+    }
+
+    .projects .project-grid#projectTrack{
+        gap:10px !important;
+    }
+
     .projects .project-grid#projectTrack .project{
         flex-basis:calc((100% - 20px) / 3);
         width:calc((100% - 20px) / 3);
         height:330px;
     }
-    .project-carousel-btn{width:36px;height:36px;font-size:26px;}
-    .client-logo-banner{padding:15px 0;}
-    .client-logo-set{gap:32px;padding-right:32px;}
-    .client-logo-set img{width:36px;height:14px;}
+
+    .project-carousel-btn{
+        width:36px;
+        height:36px;
+        font-size:26px;
+    }
+
+
+    /* CLIENT LOGO */
+    .client-logo-banner{
+        width:100%;
+        padding:3px 0 5px;
+    }
+
+    .client-logo-set{
+        gap:26px;
+        padding-right:26px;
+    }
+
+    .client-logo-set img{
+        width:52px;
+        height:30px;
+    }
 }
 
-/* NOTE: Mobile — OUR PROJECTS ยังคง 3 รูปต่อหน้าแบบแถวเดียว */
+
+/* =========================================================
+   MOBILE
+   600px ลงมา
+
+   OUR PROJECTS ยังคง 3 รูปต่อหน้าแบบแถวเดียว
+========================================================= */
+
 @media (max-width:600px){
-    .projects .project-carousel{padding:0 34px;}
-    .projects .project-grid#projectTrack{gap:5px !important;}
+
+    /* OUR PROJECTS */
+    .projects .project-carousel{
+        padding:0 34px;
+    }
+
+    .projects .project-grid#projectTrack{
+        gap:5px !important;
+    }
+
     .projects .project-grid#projectTrack .project{
         flex-basis:calc((100% - 10px) / 3);
         width:calc((100% - 10px) / 3);
         height:230px;
         border-radius:14px;
     }
-    .projects .project-grid#projectTrack .project img{border-radius:14px;}
-    .project-carousel-btn{width:28px;height:28px;font-size:21px;}
-    .project-carousel-btn.prev{left:1px;}
-    .project-carousel-btn.next{right:1px;}
-    .client-logo-banner{padding:10px 0;}
-    .client-logo-set{gap:22px;padding-right:22px;}
-    .client-logo-set img{width:28px;height:14px;}
+
+    .projects .project-grid#projectTrack .project img{
+        border-radius:14px;
+    }
+
+    .project-carousel-btn{
+        width:28px;
+        height:28px;
+        font-size:21px;
+    }
+
+    .project-carousel-btn.prev{
+        left:1px;
+    }
+
+    .project-carousel-btn.next{
+        right:1px;
+    }
+
+
+    /* CLIENT LOGO */
+    .client-logo-banner{
+        width:100%;
+        padding:2px 0 4px;
+    }
+
+    .client-logo-set{
+        gap:20px;
+        padding-right:20px;
+    }
+
+    .client-logo-set img{
+        width:44px;
+        height:26px;
+    }
+}
+
+
+/* =========================================================
+   ลด Motion สำหรับผู้ใช้ที่ตั้งค่า Reduce Motion
+========================================================= */
+
+@media (prefers-reduced-motion:reduce){
+
+    .client-logo-track{
+        animation:none;
+        transform:none;
+    }
 }
 
 /* =========================================================
