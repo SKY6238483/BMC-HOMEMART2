@@ -32,7 +32,7 @@ const BMC_CATALOG = [
     "name": "Nero Marquina",
     "image": "image/MARQUINA-NERO.jpg",
     "gallery": [
-      "image/MARQUINA-NERO.jpg",
+      "image/MARQUINA-NERO.jpg", 
       "image/MARQUINA-NERO-2.jpg",
       "image/MARQUINA-NERO-3.jpg",
       "image/MARQUINA-NERO-4.jpg"

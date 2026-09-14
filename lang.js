@@ -104,14 +104,14 @@ BMC HOMEMART — ระบบภาษา TH/EN
 
     Object.assign(dict, {
       'ศูนย์รวมวัสดุตกแต่ง สำหรับบ้านและโครงการ':'A Center for Decorative Materials for Homes and Projects',
-      'BMC HOMEMART บริษัท บางกอก แมททีเรียล จำกัด ผู้จัดจำหน่ายวัสดุตกแต่งและวัสดุก่อสร้าง คัดสรรสินค้าคุณภาพสำหรับบ้าน งานออกแบบตกแต่งภายใน และโครงการต่าง ๆ':'BMC HOMEMART, Bangkok Material Co., Ltd., supplies carefully selected decorative and construction materials for homes, interior design and projects.',
-      'เราให้ความสำคัญกับคุณภาพของสินค้า การบริการ และความต้องการของลูกค้า พร้อมให้คำปรึกษาและช่วยเลือกวัสดุ ให้เหมาะสมกับรูปแบบการใช้งาน':'We focus on product quality, service and customer needs, providing advice and helping customers select materials that suit each application.',
-      'บริการครบจบในที่เดียว':'Complete Services in One Place','งานติดตั้ง':'Installation','งานฝีมือ':'Craftsmanship','งานขัด':'Polishing',
-      'บริการติดตั้งวัสดุสำหรับบ้านและโครงการ ตั้งแต่เตรียมพื้นที่ ประสานงานหน้างาน จนถึงตรวจรับและส่งมอบ':'Material installation services for homes and projects, from site preparation and coordination to inspection and handover.',
-      'งานเก็บรายละเอียด งานเข้ามุม งานประกอบ และงานตกแต่งที่ต้องการความประณีตและความเรียบร้อย':'Detailed finishing, corners, assembly and decorative work requiring precision and care.',
-      'บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน ช่วยฟื้นฟูความเรียบร้อยและความสวยงามของพื้นที่':'Cleaning, polishing and stone surface care to restore the appearance and finish of your space.',
-      'ผลงานที่เราได้มีส่วนร่วม':'Projects We Have Contributed To','ให้ BMC HOMEMART<br/> ช่วยสร้างพื้นที่ของคุณ':'Let BMC HOMEMART<br/> help create your space',
-      'ติดต่อเรา':'Contact Us','ที่อยู่':'Address','โทรศัพท์':'Phone','แฟล็กซ์':'Fax','เวลาทำการ':'Opening Hours','ขอใบเสนอราคา':'Request a Quote','ส่งคำขอ':'Submit Request',
+      'BMC HOMEMART บริษัท บางกอก แมททีเรียล จำกัด เป็นผููจัดจำหน่ายหินธรรมชาติ หินสังเคราะห์ กระเบื้อง และไม้ปูพื้น':'BMC HOMEMART (Bangkok Material Co., Ltd.) is a distributor of natural stone, engineered stone, tiles, and flooring wood.',
+      'จากประสบการณ์มากกว่า 20 ปี เราให้ความสำคัญกับคุณภาพขงสินค้า การบริการ และความต้องการของลูกค้า พร้อมให้คำปรึกษาตั้งแต่การเลือกวัสดุ ไปจนถึงการบริการติดตั้ง และการรักษาดูแลวัสดุ':'With over 20 years of experience, we prioritize product quality, service, and customer needs. We provide professional advice on everything from material selection to installation and maintenance.',
+      'บริการครบจบในที่เดียว':'Complete Services in One Place','งานแปรรูปหิน':'STONE FABRICATION','งานติดตั้ง':'INSTALLATION','งานขัดและดูแลพื้น':'FLOOR CARE',
+      'ทาผิวหินได้ทั้งขัดเงา ผิวด้าน เผาไฟ พ่นทราย และผิวแอนทีค พร้อมงานตัดลายด้วยวอเตอร์เจ็ท และงานขึ้นรูปตามแบบ':'We offer a variety of stone surface finishes, including polished, honed, flamed, sandblasted, and antique, as well as waterjet pattern cutting and custom fabrication.',
+      'ติดตั้งครบทุกกลุ่มสินค้า ทั้งหิน กระเบื้อง โมเสค พื้นไม้ และงานเฟอร์นิเจอร์ ดูแลตั้งแต่งานวางแพทเทิร์น เตรียมพื้นที่ จัดลาดับงาน งานติดตั้ง จนถึงส่งมอบ':'We offer full installation services across all product categories—including natural stone, tiles, mosaics, wood flooring, and custom furniture. We manage the entire process, from pattern planning and site preparation to task sequencing, installation, and final handover.',
+      'ขัด เคลือบ และฟื้นฟูทั้งพื้นหินและพื้นไม้ ประเมินสภาพก่อนเลือกวิธี เพื่อให้พื้นกลับมาสวยโดยไม่ทาให้ผิววัสดุเสียหาย':'We offer polishing, coating, and restoration services for both stone and wood floors. We carefully assess the surface condition before selecting the right method to restore its beauty without damaging the material.',
+      'ผลงานที่เราได้มีส่วนร่วม':'Projects We Have Contributed To','ให้ BMC ช่วยสร้างโปรเจกต์ในฝันของคุณ':'Let BMC help build your dream project.',
+      'ติดต่อเรา':'Contact Us','ที่อยู่':'Address','โทรศัพท์':'Phone','แฟกซ์':'Fax','เวลาทำการ':'Opening Hours','ขอใบเสนอราคา':'Request a Quote','ส่งคำขอ':'Submit Request',
       'แจ้งรายละเอียดสินค้าหรือโครงการ ทีมงาน BMC HOMEMART จะติดต่อกลับ':'Tell us about your product or project and the BMC HOMEMART team will contact you.'
     });
   Object.keys(dict).forEach(k=>reverse[dict[k]]=k);
