@@ -5813,10 +5813,10 @@ body{
    animation:bmcLogoMarqueeReverse 28s linear infinite;
 ========================================================= */
 .client-logo-banner{
-    width:100%;
+    width:50%;
     overflow:hidden;
     background:#fff;
-    padding:20px 0;
+    padding:15px 0;
     border-top:1px solid rgba(0,0,0,.05);
     border-bottom:1px solid rgba(0,0,0,.05);
 }
@@ -5864,7 +5864,7 @@ body{
     .project-carousel-btn{width:36px;height:36px;font-size:26px;}
     .client-logo-banner{padding:15px 0;}
     .client-logo-set{gap:32px;padding-right:32px;}
-    .client-logo-set img{width:56px;height:34px;}
+    .client-logo-set img{width:36px;height:14px;}
 }
 
 /* NOTE: Mobile — OUR PROJECTS ยังคง 3 รูปต่อหน้าแบบแถวเดียว */
@@ -5883,7 +5883,7 @@ body{
     .project-carousel-btn.next{right:1px;}
     .client-logo-banner{padding:10px 0;}
     .client-logo-set{gap:22px;padding-right:22px;}
-    .client-logo-set img{width:58px;height:34px;}
+    .client-logo-set img{width:28px;height:14px;}
 }
 
 /* =========================================================
