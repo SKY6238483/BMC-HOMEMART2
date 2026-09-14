@@ -5400,7 +5400,7 @@ img{max-width:100%;}
     #wood-floor .material-gallery-small img,
     #other-products .material-gallery > img,
     #other-products .material-gallery-small img{
-        width:100%;height:100%;object-fit:cover;display:block;
+        width:100%;height:50%;object-fit:cover;display:block;
     }
     .material-heading{gap:20px;margin-bottom:20px;}
     .material-heading h2{font-size:34px;}
