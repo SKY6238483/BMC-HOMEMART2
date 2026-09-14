@@ -193,123 +193,6 @@ BMC HOMEMART — โครงสร้างหน้าแรก
 </div>
 </div>
 </section>
-
-<!-- ================= OUR PRODUCTS ================= -->
-<!-- NOTE: SECTION OUR PRODUCTS
-     แก้/เพิ่มรูปสินค้า: แก้เฉพาะ src ของ .our-product-card ด้านล่างนี้
-     มีทั้งหมด 9 รูป และแสดงครั้งละ 3 รูป; ลูกศรเลื่อนทีละ 3 รูป
-     หากต้องการเปลี่ยนชื่อสินค้า/ข้อความ ให้แก้ h3 และ data-th/data-en ในแต่ละการ์ด
--->
-<section class="our-products-section" id="our-products">
-  <div class="container">
-    <div class="section-heading our-products-heading">
-      <p class="eyebrow gold">OUR PRODUCTS</p>
-      <h2 data-th="สินค้าของเรา" data-en="Our Products">สินค้าของเรา</h2>
-    </div>
-
-    <div class="our-products-carousel" aria-label="Our Products carousel">
-      <button class="our-products-arrow our-products-prev" type="button" aria-label="Previous 3 products">←</button>
-      <div class="our-products-viewport">
-        <div class="our-products-track">
-          <!-- NOTE: รูป 1-3 = ใช้รูปเดิมจากเว็บไซต์ -->
-          <article class="our-product-card">
-            <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Luxury Residence" loading="lazy">
-            <div class="our-product-card-content"><span>01</span><h3>Marble</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Modern Interior" loading="lazy">
-            <div class="our-product-card-content"><span>02</span><h3>Quartz</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Commercial Space" loading="lazy">
-            <div class="our-product-card-content"><span>03</span><h3>Solid Wood</h3></div>
-          </article>
-
-          <!-- NOTE: รูป 4-9 = รูปเพิ่มเติม สามารถเปลี่ยน src ได้โดยไม่ต้องแก้ JavaScript -->
-          <article class="our-product-card">
-            <img src="image/Granite ลายน้ำ/G655 Dark Flower-ดาร์ก ฟลาวเวอร์.jpg" alt="หินแกรนิต" loading="lazy">
-            <div class="our-product-card-content"><span>04</span><h3>Granite</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="image/ไม้ Engineered/oak-.jpg" alt="พื้นไม้ Engineered" loading="lazy">
-            <div class="our-product-card-content"><span>05</span><h3>Engineered Wood</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="image/กระเบื้องหินอ่อน/CT2-MSD8816P.jpg" alt="กระเบื้อง" loading="lazy">
-            <div class="our-product-card-content"><span>06</span><h3>Tiles</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="image/หินออนิกซ์/Bruno Onyx.jpg" alt="หินออนิกซ์" loading="lazy">
-            <div class="our-product-card-content"><span>07</span><h3>Onyx</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="image/หินทราเวอร์ทีน/Beige Travertine.jpg" alt="หินทราเวอร์ทีน" loading="lazy">
-            <div class="our-product-card-content"><span>08</span><h3>Travertine</h3></div>
-          </article>
-          <article class="our-product-card">
-            <img src="image/Mosaic ต้นฉบับ/M-AS067-6.jpg" alt="หินโมเสค" loading="lazy">
-            <div class="our-product-card-content"><span>09</span><h3>Stone Mosaic</h3></div>
-          </article>
-        </div>
-      </div>
-      <button class="our-products-arrow our-products-next" type="button" aria-label="Next 3 products">→</button>
-    </div>
-  </div>
-</section>
-
-<!-- ================= CLIENT LOGO BANNER ================= -->
-<!-- NOTE: CLIENT LOGO BANNER
-     แก้โลโก้/ชื่อบริษัทตัวอย่าง: แก้ข้อความใน .client-logo-item ทั้ง 15 รายการ
-     การวิ่งปัจจุบัน = ขวามือ → ซ้ายมือ
-     หากต้องการให้วิ่งจากซ้ายมือ → ขวามือ ให้แก้ animation ใน style.css:
-     จาก "clientLogoMarquee 28s linear infinite" เป็น
-     "clientLogoMarqueeReverse 28s linear infinite"
-     หรือเปลี่ยน animation-direction: reverse;
--->
-<section class="client-logo-section" aria-label="Client logo banner">
-  <div class="container">
-    <div class="client-logo-heading">
-      <p class="eyebrow gold">OUR CLIENTS</p>
-      <h2 data-th="ลูกค้าของเรา" data-en="Our Clients">ลูกค้าของเรา</h2>
-    </div>
-  </div>
-  <div class="client-logo-marquee">
-    <div class="client-logo-track">
-      <div class="client-logo-item">CLIENT 01</div>
-      <div class="client-logo-item">CLIENT 02</div>
-      <div class="client-logo-item">CLIENT 03</div>
-      <div class="client-logo-item">CLIENT 04</div>
-      <div class="client-logo-item">CLIENT 05</div>
-      <div class="client-logo-item">CLIENT 06</div>
-      <div class="client-logo-item">CLIENT 07</div>
-      <div class="client-logo-item">CLIENT 08</div>
-      <div class="client-logo-item">CLIENT 09</div>
-      <div class="client-logo-item">CLIENT 10</div>
-      <div class="client-logo-item">CLIENT 11</div>
-      <div class="client-logo-item">CLIENT 12</div>
-      <div class="client-logo-item">CLIENT 13</div>
-      <div class="client-logo-item">CLIENT 14</div>
-      <div class="client-logo-item">CLIENT 15</div>
-      <!-- duplicate set for seamless continuous marquee -->
-      <div class="client-logo-item">CLIENT 01</div>
-      <div class="client-logo-item">CLIENT 02</div>
-      <div class="client-logo-item">CLIENT 03</div>
-      <div class="client-logo-item">CLIENT 04</div>
-      <div class="client-logo-item">CLIENT 05</div>
-      <div class="client-logo-item">CLIENT 06</div>
-      <div class="client-logo-item">CLIENT 07</div>
-      <div class="client-logo-item">CLIENT 08</div>
-      <div class="client-logo-item">CLIENT 09</div>
-      <div class="client-logo-item">CLIENT 10</div>
-      <div class="client-logo-item">CLIENT 11</div>
-      <div class="client-logo-item">CLIENT 12</div>
-      <div class="client-logo-item">CLIENT 13</div>
-      <div class="client-logo-item">CLIENT 14</div>
-      <div class="client-logo-item">CLIENT 15</div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= PROJECT ================= -->
 <section class="projects" id="projects">
 <div class="container">
@@ -321,28 +204,94 @@ BMC HOMEMART — โครงสร้างหน้าแรก
                 ผลงานที่เราได้มีส่วนร่วม
             </h2>
 </div>
-<div class="project-grid">
+<div class="project-carousel" aria-label="Our Projects">
+<!-- NOTE: OUR PROJECTS — แก้รูป/ชื่อ/ประเภทของผลงานได้ที่ .project แต่ละรายการด้านล่าง -->
+<div class="project-grid" id="projectTrack">
 <div class="project">
-<img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
-<div>
-<span>RESIDENTIAL</span>
-<h3>Luxury Residence</h3>
-</div>
-</div>
-<div class="project">
-<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
-<div>
-<span>INTERIOR</span>
-<h3>Modern Interior</h3>
-</div>
+<img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Luxury Residence"/>
+<div><span>RESIDENTIAL</span><h3>Luxury Residence</h3></div>
 </div>
 <div class="project">
-<img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"/>
-<div>
-<span>COMMERCIAL</span>
-<h3>Commercial Space</h3>
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Modern Interior"/>
+<div><span>INTERIOR</span><h3>Modern Interior</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Commercial Space"/>
+<div><span>COMMERCIAL</span><h3>Commercial Space</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Contemporary Residence"/>
+<div><span>RESIDENTIAL</span><h3>Contemporary Residence</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Premium Interior"/>
+<div><span>INTERIOR</span><h3>Premium Interior</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Modern Villa"/>
+<div><span>RESIDENTIAL</span><h3>Modern Villa</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Luxury Living Space"/>
+<div><span>INTERIOR</span><h3>Luxury Living Space</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Boutique Residence"/>
+<div><span>RESIDENTIAL</span><h3>Boutique Residence</h3></div>
+</div>
+<div class="project">
+<img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Commercial Interior"/>
+<div><span>COMMERCIAL</span><h3>Commercial Interior</h3></div>
 </div>
 </div>
+<button class="project-carousel-btn prev" type="button" aria-label="Previous projects" aria-controls="projectTrack">‹</button>
+<button class="project-carousel-btn next" type="button" aria-label="Next projects" aria-controls="projectTrack">›</button>
+</div>
+
+</div>
+</section>
+<!-- ================= CLIENT LOGO BANNER =================
+NOTE: ตัวอย่างโลโก้ 15 บริษัทจากอินเทอร์เน็ต ใช้เป็น placeholder ก่อนเปลี่ยนเป็นโลโก้ลูกค้าจริง
+NOTE: เปลี่ยนโลโก้: แก้ src ของ <img> แต่ละรายการด้านล่าง
+NOTE: เปลี่ยนทิศทางวิ่งเป็น "ซ้าย → ขวา": แก้ animation ใน style.css จาก
+      animation: bmcLogoMarquee 28s linear infinite;
+      เป็น animation: bmcLogoMarqueeReverse 28s linear infinite;
+========================================================= -->
+<section class="client-logo-banner" aria-label="Client logos">
+<div class="client-logo-track">
+<div class="client-logo-set">
+<img src="https://www.google.com/s2/favicons?domain=scg.com&amp;sz=128" alt="SCG" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=cpgroupglobal.com&amp;sz=128" alt="CP Group" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=central.co.th&amp;sz=128" alt="Central" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=pttplc.com&amp;sz=128" alt="PTT" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=toyota.co.th&amp;sz=128" alt="Toyota" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=honda.co.th&amp;sz=128" alt="Honda" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=samsung.com&amp;sz=128" alt="Samsung" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=lg.com&amp;sz=128" alt="LG" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=ikea.com&amp;sz=128" alt="IKEA" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=uniqlo.com&amp;sz=128" alt="UNIQLO" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=ais.th&amp;sz=128" alt="AIS" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=true.th&amp;sz=128" alt="True" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=shopee.co.th&amp;sz=128" alt="Shopee" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=lazada.co.th&amp;sz=128" alt="Lazada" loading="lazy">
+<img src="https://www.google.com/s2/favicons?domain=google.com&amp;sz=128" alt="Google" loading="lazy">
+</div>
+<div class="client-logo-set" aria-hidden="true">
+<img src="https://www.google.com/s2/favicons?domain=scg.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=cpgroupglobal.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=central.co.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=pttplc.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=toyota.co.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=honda.co.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=samsung.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=lg.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=ikea.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=uniqlo.com&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=ais.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=true.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=shopee.co.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=lazada.co.th&amp;sz=128" alt="">
+<img src="https://www.google.com/s2/favicons?domain=google.com&amp;sz=128" alt="">
 </div>
 </div>
 </section>

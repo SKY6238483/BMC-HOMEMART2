@@ -625,6 +625,41 @@ function openMainProductImage(){
     if(main) openImage(main.src,main.alt);
 }
 
+
+/* =========================================================
+   NOTE: OUR PROJECTS CAROUSEL
+   แสดง 3 รูปต่อครั้ง และเลื่อนครั้งละ 3 รูป
+   เปลี่ยนจำนวน/รูป: index.html > #projectTrack
+========================================================= */
+function initProjectCarousel(){
+    const track=document.getElementById('projectTrack');
+    const carousel=track?.closest('.project-carousel');
+    if(!track || !carousel) return;
+
+    const prev=carousel.querySelector('.project-carousel-btn.prev');
+    const next=carousel.querySelector('.project-carousel-btn.next');
+    const total=track.querySelectorAll('.project').length;
+    const pages=Math.max(1,Math.ceil(total/3));
+    let page=0;
+
+    const update=()=>{
+        track.style.transform=`translateX(-${page*100}%)`;
+        if(prev) prev.disabled=page===0;
+        if(next) next.disabled=page===pages-1;
+    };
+
+    prev?.addEventListener('click',()=>{
+        if(page>0){page--;update();}
+    });
+    next?.addEventListener('click',()=>{
+        if(page<pages-1){page++;update();}
+    });
+
+    // NOTE: Responsive เปลี่ยนขนาดจอแล้วกลับมาเริ่มหน้าแรกเพื่อป้องกันตำแหน่งเพี้ยน
+    window.addEventListener('resize',()=>{page=0;update();});
+    update();
+}
+
 /* =========================
    INIT
 ========================= */
@@ -632,6 +667,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     updateCartCount();
     renderCart();
     initHeroSlider();
+    initProjectCarousel();
     initFloatingContact();
     initMobileMenuLinks();
     initMaterialTabs();
@@ -676,39 +712,4 @@ document.addEventListener('DOMContentLoaded',()=>{
       e.preventDefault();
     }, {passive:false});
   });
-});
-
-/* =========================================================
-   BMC UPDATE — OUR PRODUCTS CAROUSEL
-   NOTE: ไม่ต้องแก้รูปภาพที่นี่
-   เปลี่ยนรูป/ชื่อสินค้าให้แก้ใน index.html ที่ SECTION OUR PRODUCTS
-   ปุ่ม ← / → จะเลื่อนครั้งละ 3 รูป ทั้ง Desktop, iPad และ Mobile
-========================================================= */
-function initOurProductsCarousel(){
-    const viewport=document.querySelector('.our-products-viewport');
-    const track=document.querySelector('.our-products-track');
-    const prev=document.querySelector('.our-products-prev');
-    const next=document.querySelector('.our-products-next');
-    if(!viewport || !track || !prev || !next) return;
-
-    const totalGroups=3; // 9 รูป ÷ 3 รูปต่อครั้ง
-    let group=0;
-
-    function update(){
-        track.style.transform=`translateX(-${group*(100/totalGroups)}%)`;
-        prev.disabled=group===0;
-        next.disabled=group===totalGroups-1;
-    }
-    prev.addEventListener('click',()=>{
-        if(group>0){ group--; update(); }
-    });
-    next.addEventListener('click',()=>{
-        if(group<totalGroups-1){ group++; update(); }
-    });
-
-    update();
-}
-
-document.addEventListener('DOMContentLoaded',()=>{
-    initOurProductsCarousel();
 });
