@@ -5844,7 +5844,7 @@ body{
 
 /* ---------- CLIENT LOGO MARQUEE ---------- */
 .client-logo-banner{
-    --client-logo-size:64px;
+    --client-logo-size:34px;
     --client-logo-gap:58px;
     --client-logo-banner-margin-top:58px;
     margin-top:var(--client-logo-banner-margin-top);
@@ -5924,7 +5924,7 @@ body{
     .project-next{right:-12px;}
 
     .client-logo-banner{
-        --client-logo-size:52px;
+        --client-logo-size:32px;
         --client-logo-gap:42px;
         --client-logo-banner-margin-top:45px;
     }
@@ -5969,7 +5969,7 @@ body{
     .project-next{right:-7px;}
 
     .client-logo-banner{
-        --client-logo-size:40px;
+        --client-logo-size:20px;
         --client-logo-gap:30px;
         --client-logo-banner-margin-top:32px;
     }
