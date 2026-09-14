@@ -5863,8 +5863,8 @@ body{
     }
     .project-carousel-btn{width:36px;height:36px;font-size:26px;}
     .client-logo-banner{padding:25px 0;}
-    .client-logo-set{gap:32px;padding-right:32px;}
-    .client-logo-set img{width:76px;height:44px;}
+    .client-logo-set{gap:32px;padding-right:px;}
+    .client-logo-set img{width:56px;height:34px;}
 }
 
 /* NOTE: Mobile — OUR PROJECTS ยังคง 3 รูปต่อหน้าแบบแถวเดียว */
