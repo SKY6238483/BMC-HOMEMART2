@@ -5816,7 +5816,7 @@ body{
     width:100%;
     overflow:hidden;
     background:#fff;
-    padding:34px 0;
+    padding:20px 0;
     border-top:1px solid rgba(0,0,0,.05);
     border-bottom:1px solid rgba(0,0,0,.05);
 }
@@ -5862,8 +5862,8 @@ body{
         height:330px;
     }
     .project-carousel-btn{width:36px;height:36px;font-size:26px;}
-    .client-logo-banner{padding:25px 0;}
-    .client-logo-set{gap:32px;padding-right:px;}
+    .client-logo-banner{padding:15px 0;}
+    .client-logo-set{gap:32px;padding-right:32px;}
     .client-logo-set img{width:56px;height:34px;}
 }
 
@@ -5881,7 +5881,7 @@ body{
     .project-carousel-btn{width:28px;height:28px;font-size:21px;}
     .project-carousel-btn.prev{left:1px;}
     .project-carousel-btn.next{right:1px;}
-    .client-logo-banner{padding:20px 0;}
+    .client-logo-banner{padding:10px 0;}
     .client-logo-set{gap:22px;padding-right:22px;}
     .client-logo-set img{width:58px;height:34px;}
 }
