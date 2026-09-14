@@ -6244,8 +6244,8 @@ body{
     #synthetic-stone,
     #wood-floor,
     #other-products{
-        padding-top:55px !important;
-        padding-bottom:55px !important;
+        padding-top:20px !important;
+        padding-bottom:20px !important;
     }
 
     /* ลดระยะก่อนเริ่มเนื้อหาภายใน Section */
@@ -6279,8 +6279,8 @@ body{
     #synthetic-stone,
     #wood-floor,
     #other-products{
-        padding-top:40px !important;
-        padding-bottom:40px !important;
+        padding-top:20px !important;
+        padding-bottom:20px !important;
     }
 
     /* ระยะหัวข้อภายใน Section */
