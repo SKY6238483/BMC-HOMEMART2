@@ -6118,3 +6118,47 @@ body{
   .project-track{gap:var(--project-gap) !important;}
   .project-track .project{flex:0 0 var(--project-card-width) !important;width:var(--project-card-width) !important;min-width:var(--project-card-width) !important;}
 }
+
+/* =========================================================
+   URGENT FIX — OUR PROJECTS 12 รูป / iPad + Mobile PORTRAIT
+   NOTE: ใช้ความกว้างของ viewport จริงที่ script.js คำนวณไว้
+   NOTE: ห้ามใช้ 100% ของ .project-track เพราะ track มีความกว้าง 12 รูป
+   ซึ่งเป็นสาเหตุให้ iPad/มือถือแนวตั้งแสดงผลผิดขนาด
+   NOTE: แก้เฉพาะ OUR PROJECTS ไม่กระทบ Section อื่น
+========================================================= */
+.project-track .project{
+    flex:0 0 var(--project-card-width) !important;
+    width:var(--project-card-width) !important;
+    min-width:var(--project-card-width) !important;
+    max-width:var(--project-card-width) !important;
+    box-sizing:border-box !important;
+}
+
+.project-track{
+    flex-wrap:nowrap !important;
+    width:max-content !important;
+}
+
+.project-viewport{
+    width:100% !important;
+    max-width:100% !important;
+    overflow:hidden !important;
+}
+
+@media (min-width:601px) and (max-width:1024px){
+    /* NOTE: iPad แนวตั้ง + แนวนอน — แสดง 3 รูปในแถวเดียว */
+    .project-track .project{
+        flex:0 0 var(--project-card-width) !important;
+        width:var(--project-card-width) !important;
+        min-width:var(--project-card-width) !important;
+    }
+}
+
+@media (max-width:600px){
+    /* NOTE: มือถือแนวตั้ง + แนวนอน — แสดง 3 รูปในแถวเดียว */
+    .project-track .project{
+        flex:0 0 var(--project-card-width) !important;
+        width:var(--project-card-width) !important;
+        min-width:var(--project-card-width) !important;
+    }
+}

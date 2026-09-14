@@ -722,6 +722,7 @@ function initProjectSlider(){
         const gap = getGap();
         const cardWidth = (viewport.clientWidth - (gap * 2)) / 3;
         track.style.setProperty("--project-card-width", `${cardWidth}px`);
+        /* NOTE: ส่งความกว้างการ์ดที่คำนวณจากจอจริงให้ CSS เพื่อให้ iPad/มือถือแนวตั้งยังคง 3 รูปในแถวเดียว */
 
         const step = (cardWidth + gap) * itemsPerPage;
         track.style.transform = `translate3d(-${page * step}px,0,0)`;
