@@ -5834,8 +5834,8 @@ body{
     flex:0 0 auto;
 }
 .client-logo-set img{
-    width:96px;
-    height:54px;
+    width:66px;
+    height:34px;
     object-fit:contain;
     display:block;
     border:0 !important;
