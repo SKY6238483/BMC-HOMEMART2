@@ -5276,10 +5276,10 @@ img{max-width:100%;}
         background:#202020;
     }
     .hero-slide img{
-        width:300% !important;
+        width:100% !important;
         height:100%;
         object-fit:cover;
-        flex:0 0 50%;
+        flex:0 0 100%;
     }
     .hero-content{
         left:50%;
