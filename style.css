@@ -5844,7 +5844,7 @@ body{
 
 /* ---------- CLIENT LOGO MARQUEE ---------- */
 .client-logo-banner{
-    --client-logo-size:10px;
+    --client-logo-size:20px;
     --client-logo-gap:58px;
     --client-logo-banner-margin-top:58px;
     margin-top:var(--client-logo-banner-margin-top);
