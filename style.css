@@ -5873,7 +5873,7 @@ body{
    MARQUEE — ขวา → ซ้าย
 ========================================================= */
 
-/*@keyframes bmcLogoMarquee{
+@keyframes bmcLogoMarquee{
     from{
         transform:translate3d(0,0,0);
     }
