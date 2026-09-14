@@ -696,6 +696,7 @@ function initProjectSlider(){
     if(!slider || !viewport || !track) return;
 
     let page = 0;
+    const itemsPerPage = 3;
 
     function getGap(){
         const styles = getComputedStyle(track);
@@ -703,28 +704,31 @@ function initProjectSlider(){
         return Number.isFinite(gap) ? gap : 0;
     }
 
-    function getPageCount(){
-        const total = track.querySelectorAll(".project").length;
-        return Math.max(0, Math.ceil(total / 3) - 1);
+    function getTotal(){
+        return track.querySelectorAll(".project").length;
     }
 
-    function syncWidth(){
-        /*
-          NOTE: กำหนดความกว้างของ 1 หน้าสไลด์จากพื้นที่จริง
-          เพื่อให้ 3 รูปพอดีทั้ง Desktop / iPad / Mobile
-        */
-        track.style.setProperty("--project-viewport-width", `${viewport.clientWidth}px`);
+    function getMaxPage(){
+        return Math.max(0, Math.ceil(getTotal() / itemsPerPage) - 1);
     }
 
     function render(){
-        syncWidth();
+        /*
+         NOTE: OUR PROJECTS = 12 รูปในแถวเดียว (flex nowrap)
+         แสดงครั้งละ 3 รูป และเลื่อนครั้งละ 3 รูป
+         คำนวณจากความกว้างจริงของจอ เพื่อให้ Desktop / iPad / Mobile
+         ทั้งแนวตั้งและแนวนอนยังคงเห็น 3 รูปพอดีในแถวเดียว
+        */
         const gap = getGap();
-        const pageWidth = viewport.clientWidth + gap;
-        track.style.transform = `translateX(-${page * pageWidth}px)`;
+        const cardWidth = (viewport.clientWidth - (gap * 2)) / 3;
+        track.style.setProperty("--project-card-width", `${cardWidth}px`);
 
-        const maxPage = getPageCount();
-        prev && (prev.disabled = page <= 0);
-        next && (next.disabled = page >= maxPage);
+        const step = (cardWidth + gap) * itemsPerPage;
+        track.style.transform = `translate3d(-${page * step}px,0,0)`;
+
+        const maxPage = getMaxPage();
+        if(prev) prev.disabled = page <= 0;
+        if(next) next.disabled = page >= maxPage;
     }
 
     prev?.addEventListener("click",()=>{
@@ -733,20 +737,16 @@ function initProjectSlider(){
     });
 
     next?.addEventListener("click",()=>{
-        page = Math.min(getPageCount(), page + 1);
+        page = Math.min(getMaxPage(), page + 1);
         render();
     });
 
     window.addEventListener("resize",()=>{
-        page = Math.min(page, getPageCount());
+        page = Math.min(page, getMaxPage());
         render();
     });
 
-    /*
-      NOTE: รองรับการปัดซ้าย/ขวาบน iPad และมือถือ
-      - ปัดซ้าย = ไปชุดถัดไป 3 รูป
-      - ปัดขวา = กลับชุดก่อนหน้า 3 รูป
-    */
+    /* NOTE: iPad / Mobile สามารถปัดซ้าย-ขวาเพื่อเปลี่ยนทีละ 3 รูป */
     let startX = 0;
     let tracking = false;
 
@@ -761,13 +761,10 @@ function initProjectSlider(){
         tracking = false;
         const endX = e.changedTouches?.[0]?.clientX ?? startX;
         const distance = startX - endX;
-
         if(Math.abs(distance) > 45){
-            if(distance > 0){
-                page = Math.min(getPageCount(), page + 1);
-            }else{
-                page = Math.max(0, page - 1);
-            }
+            page = distance > 0
+                ? Math.min(getMaxPage(), page + 1)
+                : Math.max(0, page - 1);
             render();
         }
     },{passive:true});

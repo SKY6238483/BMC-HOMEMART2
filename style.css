@@ -6099,3 +6099,22 @@ body{
    แต่ละหมวดมี <div class="material-gallery"> = รูปที่ 1
    และ <div class="material-gallery-small"> = รูปที่ 2 + รูปที่ 3
 */
+
+
+/* =========================================================
+   BMC HOMEMART — OUR PROJECTS FINAL SINGLE-ROW FIX
+   NOTE:
+   - .project-track มีรูปทั้ง 12 รูปอยู่ในแถวเดียวเท่านั้น
+   - แสดงครั้งละ 3 รูปทุกอุปกรณ์
+   - เลื่อนด้วยลูกศรครั้งละ 3 รูป
+   - แก้ขนาดช่องว่างระหว่างรูปที่ --project-gap
+   - แก้ความสูงรูปที่ --project-card-height
+========================================================= */
+.project-viewport{overflow:hidden !important;}
+.project-track{display:flex !important;flex-direction:row !important;flex-wrap:nowrap !important;width:max-content !important;}
+.project-track .project{flex:0 0 var(--project-card-width) !important;width:var(--project-card-width) !important;min-width:var(--project-card-width) !important;box-sizing:border-box !important;}
+.project-track .project-image{display:block;width:100%;height:100%;object-fit:cover;}
+@media (max-width:600px){
+  .project-track{gap:var(--project-gap) !important;}
+  .project-track .project{flex:0 0 var(--project-card-width) !important;width:var(--project-card-width) !important;min-width:var(--project-card-width) !important;}
+}
