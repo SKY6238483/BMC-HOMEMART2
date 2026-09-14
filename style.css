@@ -5391,7 +5391,7 @@ img{max-width:100%;}
     #natural-stone .material-gallery-small,
     #synthetic-stone .material-gallery-small,
     #wood-floor .material-gallery-small,
-    #other-products .material-gallery-small{gap:9px !important;}
+    #other-products .material-gallery-small{gap:2px !important;}
     #natural-stone .material-gallery > img,
     #natural-stone .material-gallery-small img,
     #synthetic-stone .material-gallery > img,
@@ -5594,7 +5594,7 @@ img{max-width:100%;}
     #natural-stone .material-gallery-small,
     #synthetic-stone .material-gallery-small,
     #wood-floor .material-gallery-small,
-    #other-products .material-gallery-small{gap:5px !important;}
+    #other-products .material-gallery-small{gap:2px !important;}
     #natural-stone .material-gallery > img,
     #natural-stone .material-gallery-small img,
     #synthetic-stone .material-gallery > img,
