@@ -6215,3 +6215,170 @@ body{
     .project-slider .project-track{gap:6px !important;}
     .project-slider .project-track > .project{height:190px !important;}
 }
+
+
+
+
+
+/* =========================================================
+   BMC HOMEMART — REDUCE GAP BETWEEN 4 MATERIAL SECTIONS
+   4 Sections:
+   1. หินธรรมชาติ
+   2. หินสังเคราะห์
+   3. พื้นไม้ของเรา
+   4. สินค้าอื่นๆ
+
+   ปรับเฉพาะ "ระยะห่างระหว่าง Section"
+   ไม่กระทบ Sticky / Header / รูปภาพ
+========================================================= */
+
+
+/* =========================================================
+   DESKTOP
+   ========================================================= */
+
+@media (min-width:1025px){
+
+    /* ลดพื้นที่ด้านบนและด้านล่างของแต่ละ Material Section */
+    #natural-stone,
+    #synthetic-stone,
+    #wood-floor,
+    #other-products{
+        padding-top:55px !important;
+        padding-bottom:55px !important;
+    }
+
+    /* ลดระยะก่อนเริ่มเนื้อหาภายใน Section */
+    #natural-stone .material-section-heading,
+    #synthetic-stone .material-section-heading,
+    #wood-floor .material-section-heading,
+    #other-products .material-section-heading{
+        margin-top:30px !important;
+    }
+
+    /* Section แรกไม่ต้องมีระยะด้านบนเพิ่ม */
+    #natural-stone .material-section-heading:first-child,
+    #synthetic-stone .material-section-heading:first-child,
+    #wood-floor .material-section-heading:first-child,
+    #other-products .material-section-heading:first-child{
+        margin-top:0 !important;
+    }
+
+}
+
+
+/* =========================================================
+   iPAD / TABLET
+   601px - 1024px
+   ========================================================= */
+
+@media (min-width:601px) and (max-width:1024px){
+
+    /* ลดระยะ Section ให้กระชับกว่า Desktop */
+    #natural-stone,
+    #synthetic-stone,
+    #wood-floor,
+    #other-products{
+        padding-top:40px !important;
+        padding-bottom:40px !important;
+    }
+
+    /* ระยะหัวข้อภายใน Section */
+    #natural-stone .material-section-heading,
+    #synthetic-stone .material-section-heading,
+    #wood-floor .material-section-heading,
+    #other-products .material-section-heading{
+        margin-top:25px !important;
+    }
+
+    #natural-stone .material-section-heading:first-child,
+    #synthetic-stone .material-section-heading:first-child,
+    #wood-floor .material-section-heading:first-child,
+    #other-products .material-section-heading:first-child{
+        margin-top:0 !important;
+    }
+
+    /* ป้องกัน .material-exterior-section เพิ่มช่องว่างกลับมา */
+    #natural-stone .material-exterior-section,
+    #synthetic-stone .material-exterior-section,
+    #wood-floor .material-exterior-section,
+    #other-products .material-exterior-section{
+        margin-top:35px !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   600px ลงมา
+   ========================================================= */
+
+@media (max-width:600px){
+
+    /* ลดระยะบน-ล่างของแต่ละ Section */
+    #natural-stone,
+    #synthetic-stone,
+    #wood-floor,
+    #other-products{
+        padding-top:25px !important;
+        padding-bottom:25px !important;
+    }
+
+    /* ลดระยะหัวข้อ */
+    #natural-stone .material-section-heading,
+    #synthetic-stone .material-section-heading,
+    #wood-floor .material-section-heading,
+    #other-products .material-section-heading{
+        margin-top:18px !important;
+    }
+
+    /* Section แรกไม่ต้องมี margin ด้านบน */
+    #natural-stone .material-section-heading:first-child,
+    #synthetic-stone .material-section-heading:first-child,
+    #wood-floor .material-section-heading:first-child,
+    #other-products .material-section-heading:first-child{
+        margin-top:0 !important;
+    }
+
+    /* ลดระยะระหว่างกลุ่มภายใน Section */
+    #natural-stone .material-exterior-section,
+    #synthetic-stone .material-exterior-section,
+    #wood-floor .material-exterior-section,
+    #other-products .material-exterior-section{
+        margin-top:25px !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE เล็กมาก
+   390px ลงมา
+   ========================================================= */
+
+@media (max-width:390px){
+
+    #natural-stone,
+    #synthetic-stone,
+    #wood-floor,
+    #other-products{
+        padding-top:20px !important;
+        padding-bottom:20px !important;
+    }
+
+    #natural-stone .material-section-heading,
+    #synthetic-stone .material-section-heading,
+    #wood-floor .material-section-heading,
+    #other-products .material-section-heading{
+        margin-top:14px !important;
+    }
+
+    #natural-stone .material-exterior-section,
+    #synthetic-stone .material-exterior-section,
+    #wood-floor .material-exterior-section,
+    #other-products .material-exterior-section{
+        margin-top:20px !important;
+    }
+
+}
