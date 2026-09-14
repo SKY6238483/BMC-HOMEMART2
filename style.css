@@ -6162,3 +6162,56 @@ body{
         min-width:var(--project-card-width) !important;
     }
 }
+
+
+/* =========================================================
+   FINAL FIX — OUR PROJECTS: 12 รูปแถวเดียว / แสดง 3 รูป / เลื่อนทีละ 3
+   NOTE: ห้ามแก้เป็น grid หรือ flex-wrap:wrap
+   - รูปทั้ง 12 ต้องอยู่ใน .project-track แถวเดียว
+   - .project-viewport แสดงหน้าต่างครั้งละ 3 รูป
+   - ปุ่มลูกศรเลื่อนทีละ 3 รูป
+   - ใช้ได้ Desktop / iPad Portrait + Landscape / Mobile Portrait + Landscape
+========================================================= */
+.project-slider .project-viewport{
+    display:block !important;
+    width:100% !important;
+    max-width:100% !important;
+    overflow:hidden !important;
+    position:relative !important;
+}
+.project-slider .project-track{
+    display:flex !important;
+    flex-direction:row !important;
+    flex-wrap:nowrap !important;
+    align-items:stretch !important;
+    width:max-content !important;
+    max-width:none !important;
+    gap:var(--project-gap,20px) !important;
+    transition:transform .45s ease !important;
+    will-change:transform;
+}
+.project-slider .project-track > .project{
+    display:block !important;
+    flex:0 0 var(--project-card-width) !important;
+    width:var(--project-card-width) !important;
+    min-width:var(--project-card-width) !important;
+    max-width:var(--project-card-width) !important;
+    height:var(--project-card-height,450px) !important;
+    margin:0 !important;
+    box-sizing:border-box !important;
+}
+.project-slider .project-track > .project .project-image,
+.project-slider .project-track > .project > img{
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+}
+@media (min-width:601px) and (max-width:1024px){
+    .project-slider .project-track{gap:12px !important;}
+    .project-slider .project-track > .project{height:300px !important;}
+}
+@media (max-width:600px){
+    .project-slider .project-track{gap:6px !important;}
+    .project-slider .project-track > .project{height:190px !important;}
+}

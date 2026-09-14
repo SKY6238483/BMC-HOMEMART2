@@ -705,7 +705,7 @@ function initProjectSlider(){
     }
 
     function getTotal(){
-        return track.querySelectorAll(".project").length;
+        return track.querySelectorAll(":scope > .project").length;
     }
 
     function getMaxPage(){
@@ -714,18 +714,21 @@ function initProjectSlider(){
 
     function render(){
         /*
-         NOTE: OUR PROJECTS = 12 รูปในแถวเดียว (flex nowrap)
-         แสดงครั้งละ 3 รูป และเลื่อนครั้งละ 3 รูป
-         คำนวณจากความกว้างจริงของจอ เพื่อให้ Desktop / iPad / Mobile
-         ทั้งแนวตั้งและแนวนอนยังคงเห็น 3 รูปพอดีในแถวเดียว
+         NOTE: สำคัญ — รูปทั้ง 12 รูปอยู่ในแถวเดียวเสมอ
+         viewport = พื้นที่ที่มองเห็น 3 รูป
+         track = แถวจริงที่มีทั้ง 12 รูป
+         การคำนวณนี้ทำให้ iPad/มือถือแนวตั้งและแนวนอนเห็น 3 รูปพอดี
         */
-        const gap = getGap();
-        const cardWidth = (viewport.clientWidth - (gap * 2)) / 3;
-        track.style.setProperty("--project-card-width", `${cardWidth}px`);
-        /* NOTE: ส่งความกว้างการ์ดที่คำนวณจากจอจริงให้ CSS เพื่อให้ iPad/มือถือแนวตั้งยังคง 3 รูปในแถวเดียว */
+        const viewportWidth = viewport.clientWidth;
+        if(!viewportWidth) return;
 
-        const step = (cardWidth + gap) * itemsPerPage;
-        track.style.transform = `translate3d(-${page * step}px,0,0)`;
+        const gap = getGap();
+        const cardWidth = Math.max(1, (viewportWidth - (gap * 2)) / 3);
+        track.style.setProperty("--project-card-width", `${cardWidth}px`);
+
+        /* เลื่อนทีละ 3 รูป โดยรวมช่องว่างระหว่างรูป */
+        const step = (cardWidth * itemsPerPage) + (gap * itemsPerPage);
+        track.style.transform = `translate3d(-${page * step}px, 0, 0)`;
 
         const maxPage = getMaxPage();
         if(prev) prev.disabled = page <= 0;
@@ -742,15 +745,18 @@ function initProjectSlider(){
         render();
     });
 
+    let resizeTimer;
     window.addEventListener("resize",()=>{
-        page = Math.min(page, getMaxPage());
-        render();
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(()=>{
+            page = Math.min(page, getMaxPage());
+            render();
+        },80);
     });
 
-    /* NOTE: iPad / Mobile สามารถปัดซ้าย-ขวาเพื่อเปลี่ยนทีละ 3 รูป */
+    /* NOTE: iPad/มือถือปัดซ้าย-ขวา = เลื่อนทีละ 3 รูป */
     let startX = 0;
     let tracking = false;
-
     viewport.addEventListener("touchstart",e=>{
         if(!e.touches?.length) return;
         startX = e.touches[0].clientX;
@@ -769,6 +775,12 @@ function initProjectSlider(){
             render();
         }
     },{passive:true});
+
+    /* NOTE: ResizeObserver ช่วยเมื่อ iPad หมุนจอ Portrait <-> Landscape */
+    if(window.ResizeObserver){
+        const observer = new ResizeObserver(()=>render());
+        observer.observe(viewport);
+    }
 
     render();
 }
