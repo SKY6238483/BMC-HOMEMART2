@@ -5887,68 +5887,265 @@ body{
 }
 
 /* =========================================================
-   NOTE: 4 MATERIAL SECTIONS — iPad + Mobile
-   รูปที่ 1 ต้องสูงเท่ากับพื้นที่รวมของรูป 2 และ 3
-   ระยะห่าง 1-2 และ 2-3 เท่ากัน
-   แก้ภาพของแต่ละหมวดที่ index.html > .material-gallery
+   4 MATERIAL SECTIONS — iPad LANDSCAPE
+   768px - 1024px
+   ---------------------------------------------------------
+   Layout:
+   
+   ┌──────────────┬─────────┐
+   │              │  IMG 2  │
+   │    IMG 1     ├─────────┤
+   │              │  IMG 3  │
+   └──────────────┴─────────┘
+
+   - IMG 1 สูง = IMG 2 + gap + IMG 3
+   - Gap 1-2 = Gap 2-3
+   - ป้องกันรูปซ้อนกัน
 ========================================================= */
-@media (max-width:1024px){
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+
+    /* -----------------------------------------
+       MAIN GALLERY
+    ----------------------------------------- */
+
     #natural-stone .material-gallery,
     #synthetic-stone .material-gallery,
     #wood-floor .material-gallery,
     #other-products .material-gallery{
-        grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr) !important;
-        grid-template-rows:minmax(0,1fr) minmax(0,1fr) !important;
-        gap:8px !important;
-        height:300px !important;
-        min-height:300px !important;
+
+        display:grid !important;
+
+        grid-template-columns:
+            minmax(0, 1.3fr)
+            minmax(0, .7fr) !important;
+
+        grid-template-rows:
+            minmax(0, 1fr)
+            minmax(0, 1fr) !important;
+
+        column-gap:8px !important;
+        row-gap:8px !important;
+
+        width:100% !important;
+
+        height:320px !important;
+        min-height:320px !important;
+        max-height:320px !important;
+
+        box-sizing:border-box !important;
+
         align-items:stretch !important;
+
+        overflow:hidden !important;
     }
+
+
+    /* -----------------------------------------
+       IMAGE 1 — รูปใหญ่ด้านซ้าย
+       สูงรวม 2 + 3
+    ----------------------------------------- */
+
     #natural-stone .material-gallery > img,
     #synthetic-stone .material-gallery > img,
     #wood-floor .material-gallery > img,
     #other-products .material-gallery > img{
+
         grid-column:1 !important;
         grid-row:1 / 3 !important;
+
         width:100% !important;
         height:100% !important;
+
+        min-width:0 !important;
         min-height:0 !important;
+
+        max-width:none !important;
+        max-height:none !important;
+
+        display:block !important;
+
         object-fit:cover !important;
+
+        position:relative !important;
+        z-index:1 !important;
     }
+
+
+    /* -----------------------------------------
+       RIGHT SIDE — รูป 2 + รูป 3
+    ----------------------------------------- */
+
     #natural-stone .material-gallery-small,
     #synthetic-stone .material-gallery-small,
     #wood-floor .material-gallery-small,
     #other-products .material-gallery-small{
+
         grid-column:2 !important;
         grid-row:1 / 3 !important;
+
         display:grid !important;
-        grid-template-rows:minmax(0,1fr) minmax(0,1fr) !important;
+
+        grid-template-columns:minmax(0, 1fr) !important;
+
+        grid-template-rows:
+            minmax(0, 1fr)
+            minmax(0, 1fr) !important;
+
         gap:8px !important;
+
+        width:100% !important;
         height:100% !important;
+
+        min-width:0 !important;
         min-height:0 !important;
+
+        max-height:none !important;
+
+        overflow:hidden !important;
+
+        box-sizing:border-box !important;
     }
+
+
+    /* -----------------------------------------
+       IMAGE 2 + IMAGE 3
+    ----------------------------------------- */
+
     #natural-stone .material-gallery-small img,
     #synthetic-stone .material-gallery-small img,
     #wood-floor .material-gallery-small img,
     #other-products .material-gallery-small img{
+
         width:100% !important;
         height:100% !important;
+
+        min-width:0 !important;
         min-height:0 !important;
-        object-fit:cover !important;
+
+        max-width:none !important;
+        max-height:none !important;
+
         display:block !important;
+
+        object-fit:cover !important;
+
+        position:relative !important;
+        z-index:1 !important;
     }
 }
-@media (max-width:600px){
+
+
+/* =========================================================
+   iPad PORTRAIT
+   คงรูปแบบเดิมที่ใช้งานถูกต้อง
+========================================================= */
+
+@media (min-width:601px) and (max-width:1024px) and (orientation:portrait){
+
     #natural-stone .material-gallery,
     #synthetic-stone .material-gallery,
     #wood-floor .material-gallery,
     #other-products .material-gallery{
-        gap:5px !important;
-        height:250px !important;
-        min-height:250px !important;
+
+        grid-template-columns:
+            minmax(0,1.3fr)
+            minmax(0,.7fr) !important;
+
+        grid-template-rows:
+            minmax(0,1fr)
+            minmax(0,1fr) !important;
+
+        gap:8px !important;
+
+        height:300px !important;
+        min-height:300px !important;
+
+        align-items:stretch !important;
+
+        overflow:hidden !important;
     }
+
+    #natural-stone .material-gallery > img,
+    #synthetic-stone .material-gallery > img,
+    #wood-floor .material-gallery > img,
+    #other-products .material-gallery > img{
+
+        grid-column:1 !important;
+        grid-row:1 / 3 !important;
+
+        width:100% !important;
+        height:100% !important;
+
+        min-height:0 !important;
+
+        object-fit:cover !important;
+    }
+
     #natural-stone .material-gallery-small,
     #synthetic-stone .material-gallery-small,
     #wood-floor .material-gallery-small,
-    #other-products .material-gallery-small{gap:5px !important;}
+    #other-products .material-gallery-small{
+
+        grid-column:2 !important;
+        grid-row:1 / 3 !important;
+
+        display:grid !important;
+
+        grid-template-rows:
+            minmax(0,1fr)
+            minmax(0,1fr) !important;
+
+        gap:8px !important;
+
+        height:100% !important;
+        min-height:0 !important;
+
+        overflow:hidden !important;
+    }
+
+    #natural-stone .material-gallery-small img,
+    #synthetic-stone .material-gallery-small img,
+    #wood-floor .material-gallery-small img,
+    #other-products .material-gallery-small img{
+
+        width:100% !important;
+        height:100% !important;
+
+        min-height:0 !important;
+
+        object-fit:cover !important;
+
+        display:block !important;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   ไม่กระทบส่วนที่ใช้งานถูกต้องอยู่แล้ว
+========================================================= */
+
+@media (max-width:600px){
+
+    #natural-stone .material-gallery,
+    #synthetic-stone .material-gallery,
+    #wood-floor .material-gallery,
+    #other-products .material-gallery{
+
+        gap:5px !important;
+
+        height:250px !important;
+        min-height:250px !important;
+
+        overflow:hidden !important;
+    }
+
+    #natural-stone .material-gallery-small,
+    #synthetic-stone .material-gallery-small,
+    #wood-floor .material-gallery-small,
+    #other-products .material-gallery-small{
+
+        gap:5px !important;
+    }
 }
