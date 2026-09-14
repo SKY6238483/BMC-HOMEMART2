@@ -625,41 +625,6 @@ function openMainProductImage(){
     if(main) openImage(main.src,main.alt);
 }
 
-
-/* =========================================================
-   NOTE: OUR PROJECTS CAROUSEL
-   แสดง 3 รูปต่อครั้ง และเลื่อนครั้งละ 3 รูป
-   เปลี่ยนจำนวน/รูป: index.html > #projectTrack
-========================================================= */
-function initProjectCarousel(){
-    const track=document.getElementById('projectTrack');
-    const carousel=track?.closest('.project-carousel');
-    if(!track || !carousel) return;
-
-    const prev=carousel.querySelector('.project-carousel-btn.prev');
-    const next=carousel.querySelector('.project-carousel-btn.next');
-    const total=track.querySelectorAll('.project').length;
-    const pages=Math.max(1,Math.ceil(total/3));
-    let page=0;
-
-    const update=()=>{
-        track.style.transform=`translateX(-${page*100}%)`;
-        if(prev) prev.disabled=page===0;
-        if(next) next.disabled=page===pages-1;
-    };
-
-    prev?.addEventListener('click',()=>{
-        if(page>0){page--;update();}
-    });
-    next?.addEventListener('click',()=>{
-        if(page<pages-1){page++;update();}
-    });
-
-    // NOTE: Responsive เปลี่ยนขนาดจอแล้วกลับมาเริ่มหน้าแรกเพื่อป้องกันตำแหน่งเพี้ยน
-    window.addEventListener('resize',()=>{page=0;update();});
-    update();
-}
-
 /* =========================
    INIT
 ========================= */
@@ -667,7 +632,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     updateCartCount();
     renderCart();
     initHeroSlider();
-    initProjectCarousel();
     initFloatingContact();
     initMobileMenuLinks();
     initMaterialTabs();
@@ -712,4 +676,106 @@ document.addEventListener('DOMContentLoaded',()=>{
       e.preventDefault();
     }, {passive:false});
   });
+});
+
+
+/* =========================================================
+   BMC HOMEMART — OUR PROJECTS SLIDER
+   NOTE:
+   - OUR PROJECTS มี 12 รูป แสดงครั้งละ 3 รูป
+   - ลูกศรเลื่อนทีละ 3 รูป
+   - ใช้ได้ Desktop / iPad / Mobile
+   - ไม่แตะระบบ Hero / Material Tabs / Cart / Quote เดิม
+========================================================= */
+function initProjectSlider(){
+    const slider = document.querySelector(".project-slider");
+    const viewport = slider?.querySelector(".project-viewport");
+    const track = slider?.querySelector(".project-track");
+    const prev = slider?.querySelector(".project-prev");
+    const next = slider?.querySelector(".project-next");
+    if(!slider || !viewport || !track) return;
+
+    let page = 0;
+
+    function getGap(){
+        const styles = getComputedStyle(track);
+        const gap = parseFloat(styles.columnGap || styles.gap || "0");
+        return Number.isFinite(gap) ? gap : 0;
+    }
+
+    function getPageCount(){
+        const total = track.querySelectorAll(".project").length;
+        return Math.max(0, Math.ceil(total / 3) - 1);
+    }
+
+    function syncWidth(){
+        /*
+          NOTE: กำหนดความกว้างของ 1 หน้าสไลด์จากพื้นที่จริง
+          เพื่อให้ 3 รูปพอดีทั้ง Desktop / iPad / Mobile
+        */
+        track.style.setProperty("--project-viewport-width", `${viewport.clientWidth}px`);
+    }
+
+    function render(){
+        syncWidth();
+        const gap = getGap();
+        const pageWidth = viewport.clientWidth + gap;
+        track.style.transform = `translateX(-${page * pageWidth}px)`;
+
+        const maxPage = getPageCount();
+        prev && (prev.disabled = page <= 0);
+        next && (next.disabled = page >= maxPage);
+    }
+
+    prev?.addEventListener("click",()=>{
+        page = Math.max(0, page - 1);
+        render();
+    });
+
+    next?.addEventListener("click",()=>{
+        page = Math.min(getPageCount(), page + 1);
+        render();
+    });
+
+    window.addEventListener("resize",()=>{
+        page = Math.min(page, getPageCount());
+        render();
+    });
+
+    /*
+      NOTE: รองรับการปัดซ้าย/ขวาบน iPad และมือถือ
+      - ปัดซ้าย = ไปชุดถัดไป 3 รูป
+      - ปัดขวา = กลับชุดก่อนหน้า 3 รูป
+    */
+    let startX = 0;
+    let tracking = false;
+
+    viewport.addEventListener("touchstart",e=>{
+        if(!e.touches?.length) return;
+        startX = e.touches[0].clientX;
+        tracking = true;
+    },{passive:true});
+
+    viewport.addEventListener("touchend",e=>{
+        if(!tracking) return;
+        tracking = false;
+        const endX = e.changedTouches?.[0]?.clientX ?? startX;
+        const distance = startX - endX;
+
+        if(Math.abs(distance) > 45){
+            if(distance > 0){
+                page = Math.min(getPageCount(), page + 1);
+            }else{
+                page = Math.max(0, page - 1);
+            }
+            render();
+        }
+    },{passive:true});
+
+    render();
+}
+
+/* NOTE: เรียกเฉพาะระบบ OUR PROJECTS Slider ที่เพิ่มใหม่ */
+document.addEventListener("DOMContentLoaded",()=>{
+    initProjectSlider();
 });

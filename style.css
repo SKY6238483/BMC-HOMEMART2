@@ -5755,397 +5755,347 @@ body{
 
 
 /* =========================================================
-   NOTE: OUR PROJECTS CAROUSEL — 9 รูป / แสดงครั้งละ 3 รูป
-   แก้รูปและชื่อผลงาน: index.html > #projectTrack
-   เปลี่ยนจำนวนรูป: เพิ่ม/ลบ .project ภายใน #projectTrack
-   ลูกศรเลื่อนครั้งละ 3 รูป: script.js > initProjectCarousel()
+   BMC HOMEMART — PROJECT SLIDER + CLIENT LOGO MARQUEE
+   NOTE: เพิ่ม/แก้ไขเฉพาะ OUR PROJECTS และแบนเนอร์โลโก้ลูกค้า
+   จุดแก้ไขหลัก:
+   1) ขนาดรูป OUR PROJECTS -> --project-card-height
+   2) ระยะห่างรูป OUR PROJECTS -> --project-gap
+   3) ขนาดโลโก้ -> --client-logo-size
+   4) ระยะห่างโลโก้ -> --client-logo-gap
+   5) ระยะห่างจาก OUR PROJECTS ถึงโลโก้ -> --client-logo-banner-margin-top
+   6) โลโก้วิ่งขวา -> ซ้าย เป็นค่าเริ่มต้น
+      ถ้าต้องการ ซ้าย -> ขวา ให้เปลี่ยน
+      animation-direction: reverse;
+   7) รายการ/URL รูปโลโก้แก้ใน index.html เท่านั้น
 ========================================================= */
-.projects .project-carousel{
+
+.projects{
+    --project-gap:20px;
+    --project-card-height:450px;
+}
+
+.project-slider{
     position:relative;
     width:100%;
-    overflow:hidden;
-    padding:0 52px;
-    box-sizing:border-box;
 }
-.projects .project-grid#projectTrack{
+
+.project-viewport{
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+
+.project-track{
     display:flex !important;
     flex-wrap:nowrap !important;
-    gap:20px !important;
-    width:100%;
-    transform:translateX(0);
-    transition:transform .55s ease;
+    gap:var(--project-gap) !important;
+    width:max-content;
+    transition:transform .45s ease;
+    will-change:transform;
 }
-.projects .project-grid#projectTrack .project{
-    flex:0 0 calc((100% - 40px) / 3);
-    width:calc((100% - 40px) / 3);
+
+.project-track .project{
+    flex:0 0 calc((var(--project-viewport-width, 100%) - (var(--project-gap) * 2)) / 3);
+    width:calc((var(--project-viewport-width, 100%) - (var(--project-gap) * 2)) / 3);
+    height:var(--project-card-height) !important;
     min-width:0;
-    height:450px;
+    box-sizing:border-box;
 }
-.project-carousel-btn{
+
+.project-track .project img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.project-arrow{
     position:absolute;
     top:50%;
     transform:translateY(-50%);
-    width:42px;
-    height:42px;
+    z-index:15;
+    width:46px;
+    height:46px;
     border:0;
     border-radius:50%;
-    background:rgba(23,23,23,.9);
-    color:#fff;
-    font-size:30px;
+    background:rgba(255,255,255,.94);
+    color:#1b1b1b;
+    box-shadow:0 6px 22px rgba(0,0,0,.15);
+    font-size:25px;
     line-height:1;
+    cursor:pointer;
     display:flex;
     align-items:center;
     justify-content:center;
-    cursor:pointer;
-    z-index:5;
+    transition:.2s ease;
 }
-.project-carousel-btn:hover{opacity:.82;}
-.project-carousel-btn.prev{left:4px;}
-.project-carousel-btn.next{right:4px;}
-.project-carousel-btn:disabled{opacity:.3;cursor:not-allowed;}
 
-/* =========================================================
-   NOTE: CLIENT LOGO MARQUEE — 15 โลโก้ / ไม่มีกรอบ
-   เปลี่ยนโลโก้: index.html > .client-logo-set img
-   ทิศทางปัจจุบัน: ขวา → ซ้าย
-   หากต้องการ ซ้าย → ขวา:
-   เปลี่ยน animation เป็น
-   animation:bmcLogoMarqueeReverse 28s linear infinite;
-========================================================= */
+.project-arrow:hover{
+    transform:translateY(-50%) scale(1.05);
+}
+
+.project-arrow:disabled{
+    opacity:.35;
+    cursor:not-allowed;
+    transform:translateY(-50%);
+}
+
+.project-prev{left:-23px;}
+.project-next{right:-23px;}
+
+/* ---------- CLIENT LOGO MARQUEE ---------- */
 .client-logo-banner{
+    --client-logo-size:64px;
+    --client-logo-gap:58px;
+    --client-logo-banner-margin-top:58px;
+    margin-top:var(--client-logo-banner-margin-top);
     width:100%;
     overflow:hidden;
-    background:#fff;
-    padding:15px 0;
-    border-top:1px solid rgba(0,0,0,.05);
-    border-bottom:1px solid rgba(0,0,0,.05);
 }
+
+.client-logo-viewport{
+    width:100%;
+    overflow:hidden;
+}
+
 .client-logo-track{
     display:flex;
     width:max-content;
-    animation:bmcLogoMarquee 28s linear infinite;
+    animation:bmcLogoMarquee 35s linear infinite;
     will-change:transform;
 }
+
 .client-logo-set{
     display:flex;
     align-items:center;
-    gap:54px;
-    padding-right:44px;
     flex:0 0 auto;
+    gap:var(--client-logo-gap);
 }
-.client-logo-set img{
-    width:66px;
-    height:34px;
-    object-fit:contain;
+
+.client-logo-item{
+    width:var(--client-logo-size);
+    height:var(--client-logo-size);
+    flex:0 0 var(--client-logo-size);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:transparent;
+    border:0;
+    padding:0;
+}
+
+.client-logo-item img{
     display:block;
-    border:0 !important;
-    background:transparent !important;
-    box-shadow:none !important;
-    flex:0 0 auto;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    border:0;
+    background:transparent;
 }
+
 @keyframes bmcLogoMarquee{
     from{transform:translateX(0);}
     to{transform:translateX(-50%);}
 }
-@keyframes bmcLogoMarqueeReverse{
-    from{transform:translateX(-50%);}
-    to{transform:translateX(0);}
-}
 
-/* NOTE: iPad — OUR PROJECTS ยังคง 3 รูปต่อหน้า และโลโก้ 1 แถว */
+/* NOTE:
+   หากต้องการให้โลโก้วิ่งจาก "ซ้าย -> ขวา"
+   แก้ animation-direction เป็น reverse:
+   .client-logo-track{animation-direction:reverse;}
+*/
+
 @media (min-width:601px) and (max-width:1024px){
-    .projects .project-carousel{padding:0 42px;}
-    .projects .project-grid#projectTrack{gap:10px !important;}
-    .projects .project-grid#projectTrack .project{
-        flex-basis:calc((100% - 20px) / 3);
-        width:calc((100% - 20px) / 3);
-        height:330px;
+    .projects{
+        --project-gap:12px;
+        --project-card-height:300px;
     }
-    .project-carousel-btn{width:36px;height:36px;font-size:26px;}
-    .client-logo-banner{padding:15px 0;}
-    .client-logo-set{gap:32px;padding-right:32px;}
-    .client-logo-set img{width:36px;height:14px;}
+
+    .project-track .project{
+        flex-basis:calc((100% - (var(--project-gap) * 2)) / 3);
+        width:calc((100% - (var(--project-gap) * 2)) / 3);
+    }
+
+    .project-arrow{
+        width:40px;
+        height:40px;
+        font-size:21px;
+    }
+
+    .project-prev{left:-12px;}
+    .project-next{right:-12px;}
+
+    .client-logo-banner{
+        --client-logo-size:52px;
+        --client-logo-gap:42px;
+        --client-logo-banner-margin-top:45px;
+    }
+
+    .client-logo-track{
+        animation-duration:30s;
+    }
 }
 
-/* NOTE: Mobile — OUR PROJECTS ยังคง 3 รูปต่อหน้าแบบแถวเดียว */
+/* NOTE: Mobile ทั้งแนวตั้งและแนวนอน
+   - ยังแสดง OUR PROJECTS ครั้งละ 3 รูป
+   - ปรับขนาดรูป/ช่องว่างตามพื้นที่จอ
+   - โลโก้ยังวิ่งต่อเนื่องเหมือน Desktop/iPad */
 @media (max-width:600px){
-    .projects .project-carousel{padding:0 34px;}
-    .projects .project-grid#projectTrack{gap:5px !important;}
-    .projects .project-grid#projectTrack .project{
-        flex-basis:calc((100% - 10px) / 3);
-        width:calc((100% - 10px) / 3);
-        height:230px;
-        border-radius:14px;
+    .projects{
+        --project-gap:5px;
+        --project-card-height:190px;
     }
-    .projects .project-grid#projectTrack .project img{border-radius:14px;}
-    .project-carousel-btn{width:28px;height:28px;font-size:21px;}
-    .project-carousel-btn.prev{left:1px;}
-    .project-carousel-btn.next{right:1px;}
-    .client-logo-banner{padding:10px 0;}
-    .client-logo-set{gap:22px;padding-right:22px;}
-    .client-logo-set img{width:28px;height:14px;}
+
+    .project-slider{
+        padding:0 1px;
+    }
+
+    .project-track .project{
+        flex-basis:calc((100% - (var(--project-gap) * 2)) / 3);
+        width:calc((100% - (var(--project-gap) * 2)) / 3);
+        border-radius:11px !important;
+    }
+
+    .project-track .project img{
+        border-radius:11px !important;
+    }
+
+    .project-arrow{
+        width:30px;
+        height:30px;
+        font-size:17px;
+        box-shadow:0 4px 14px rgba(0,0,0,.16);
+    }
+
+    .project-prev{left:-7px;}
+    .project-next{right:-7px;}
+
+    .client-logo-banner{
+        --client-logo-size:40px;
+        --client-logo-gap:30px;
+        --client-logo-banner-margin-top:32px;
+    }
+
+    .client-logo-track{
+        animation-duration:25s;
+    }
 }
 
 /* =========================================================
-   4 MATERIAL SECTIONS — iPad LANDSCAPE
-   768px - 1024px
-   ---------------------------------------------------------
-   Layout:
-   
-   ┌──────────────┬─────────┐
-   │              │  IMG 2  │
-   │    IMG 1     ├─────────┤
-   │              │  IMG 3  │
-   └──────────────┴─────────┘
-
-   - IMG 1 สูง = IMG 2 + gap + IMG 3
-   - Gap 1-2 = Gap 2-3
-   - ป้องกันรูปซ้อนกัน
+   MATERIAL 4 SECTIONS — IMAGE 1 / IMAGE 2 / IMAGE 3
+   NOTE: ใช้กติกาเดียวกันทั้ง 4 section
+   - รูป 1 = คอลัมน์ใหญ่ด้านซ้าย สูงเท่ากับรูป 2 + ช่องว่าง + รูป 3
+   - รูป 2 และ 3 = ขนาดเท่ากัน
+   - ช่องว่างระหว่างรูป 1-2 = ช่องว่างระหว่างรูป 2-3
+   - object-fit:cover เพื่อไม่ให้รูปยืด
+   - แก้รูปจริง (src) ที่ index.html
 ========================================================= */
 
-@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+#natural-stone .material-gallery,
+#synthetic-stone .material-gallery,
+#wood-floor .material-gallery,
+#other-products .material-gallery{
+    display:grid !important;
+    grid-template-columns:1.55fr .75fr !important;
+    grid-template-rows:1fr !important;
+    gap:12px !important;
+    width:100%;
+    height:520px !important;
+    min-height:520px !important;
+    overflow:hidden;
+}
 
-    /* -----------------------------------------
-       MAIN GALLERY
-    ----------------------------------------- */
+#natural-stone .material-gallery > img,
+#synthetic-stone .material-gallery > img,
+#wood-floor .material-gallery > img,
+#other-products .material-gallery > img{
+    grid-column:1;
+    grid-row:1;
+    width:100% !important;
+    height:100% !important;
+    min-height:0 !important;
+    object-fit:cover !important;
+}
 
+#natural-stone .material-gallery-small,
+#synthetic-stone .material-gallery-small,
+#wood-floor .material-gallery-small,
+#other-products .material-gallery-small{
+    grid-column:2;
+    grid-row:1;
+    display:grid !important;
+    grid-template-rows:1fr 1fr !important;
+    gap:12px !important;
+    width:100%;
+    height:100%;
+    min-height:0;
+}
+
+#natural-stone .material-gallery-small img,
+#synthetic-stone .material-gallery-small img,
+#wood-floor .material-gallery-small img,
+#other-products .material-gallery-small img{
+    width:100% !important;
+    height:100% !important;
+    min-height:0 !important;
+    object-fit:cover !important;
+}
+
+/* NOTE: iPad แนวนอน/แนวตั้ง — ใช้ 2 คอลัมน์เหมือน Desktop */
+@media (min-width:601px) and (max-width:1024px){
     #natural-stone .material-gallery,
     #synthetic-stone .material-gallery,
     #wood-floor .material-gallery,
     #other-products .material-gallery{
-
-        display:grid !important;
-
-        grid-template-columns:
-            minmax(0, 1.3fr)
-            minmax(0, .7fr) !important;
-
-        grid-template-rows:
-            minmax(0, 1fr)
-            minmax(0, 1fr) !important;
-
-        column-gap:8px !important;
-        row-gap:8px !important;
-
-        width:100% !important;
-
-        height:320px !important;
-        min-height:320px !important;
-        max-height:320px !important;
-
-        box-sizing:border-box !important;
-
-        align-items:stretch !important;
-
-        overflow:hidden !important;
+        grid-template-columns:1.55fr .75fr !important;
+        gap:10px !important;
+        height:390px !important;
+        min-height:390px !important;
     }
-
-
-    /* -----------------------------------------
-       IMAGE 1 — รูปใหญ่ด้านซ้าย
-       สูงรวม 2 + 3
-    ----------------------------------------- */
-
-    #natural-stone .material-gallery > img,
-    #synthetic-stone .material-gallery > img,
-    #wood-floor .material-gallery > img,
-    #other-products .material-gallery > img{
-
-        grid-column:1 !important;
-        grid-row:1 / 3 !important;
-
-        width:100% !important;
-        height:100% !important;
-
-        min-width:0 !important;
-        min-height:0 !important;
-
-        max-width:none !important;
-        max-height:none !important;
-
-        display:block !important;
-
-        object-fit:cover !important;
-
-        position:relative !important;
-        z-index:1 !important;
-    }
-
-
-    /* -----------------------------------------
-       RIGHT SIDE — รูป 2 + รูป 3
-    ----------------------------------------- */
 
     #natural-stone .material-gallery-small,
     #synthetic-stone .material-gallery-small,
     #wood-floor .material-gallery-small,
     #other-products .material-gallery-small{
-
-        grid-column:2 !important;
-        grid-row:1 / 3 !important;
-
-        display:grid !important;
-
-        grid-template-columns:minmax(0, 1fr) !important;
-
-        grid-template-rows:
-            minmax(0, 1fr)
-            minmax(0, 1fr) !important;
-
-        gap:8px !important;
-
-        width:100% !important;
-        height:100% !important;
-
-        min-width:0 !important;
-        min-height:0 !important;
-
-        max-height:none !important;
-
-        overflow:hidden !important;
-
-        box-sizing:border-box !important;
-    }
-
-
-    /* -----------------------------------------
-       IMAGE 2 + IMAGE 3
-    ----------------------------------------- */
-
-    #natural-stone .material-gallery-small img,
-    #synthetic-stone .material-gallery-small img,
-    #wood-floor .material-gallery-small img,
-    #other-products .material-gallery-small img{
-
-        width:100% !important;
-        height:100% !important;
-
-        min-width:0 !important;
-        min-height:0 !important;
-
-        max-width:none !important;
-        max-height:none !important;
-
-        display:block !important;
-
-        object-fit:cover !important;
-
-        position:relative !important;
-        z-index:1 !important;
+        gap:10px !important;
     }
 }
 
-
-/* =========================================================
-   iPad PORTRAIT
-   คงรูปแบบเดิมที่ใช้งานถูกต้อง
-========================================================= */
-
-@media (min-width:601px) and (max-width:1024px) and (orientation:portrait){
-
+/* NOTE: Mobile Portrait + Landscape — ยังรักษา 3 รูปในชุดเดียว
+   รูป 1 สูงเท่ากับรูป 2+gap+รูป 3 และรูป 2/3 เท่ากัน */
+@media (max-width:600px){
     #natural-stone .material-gallery,
     #synthetic-stone .material-gallery,
     #wood-floor .material-gallery,
     #other-products .material-gallery{
+        grid-template-columns:1.55fr .75fr !important;
+        gap:6px !important;
+        height:245px !important;
+        min-height:245px !important;
+    }
 
-        grid-template-columns:
-            minmax(0,1.3fr)
-            minmax(0,.7fr) !important;
-
-        grid-template-rows:
-            minmax(0,1fr)
-            minmax(0,1fr) !important;
-
-        gap:8px !important;
-
-        height:300px !important;
-        min-height:300px !important;
-
-        align-items:stretch !important;
-
-        overflow:hidden !important;
+    #natural-stone .material-gallery-small,
+    #synthetic-stone .material-gallery-small,
+    #wood-floor .material-gallery-small,
+    #other-products .material-gallery-small{
+        gap:6px !important;
     }
 
     #natural-stone .material-gallery > img,
-    #synthetic-stone .material-gallery > img,
-    #wood-floor .material-gallery > img,
-    #other-products .material-gallery > img{
-
-        grid-column:1 !important;
-        grid-row:1 / 3 !important;
-
-        width:100% !important;
-        height:100% !important;
-
-        min-height:0 !important;
-
-        object-fit:cover !important;
-    }
-
-    #natural-stone .material-gallery-small,
-    #synthetic-stone .material-gallery-small,
-    #wood-floor .material-gallery-small,
-    #other-products .material-gallery-small{
-
-        grid-column:2 !important;
-        grid-row:1 / 3 !important;
-
-        display:grid !important;
-
-        grid-template-rows:
-            minmax(0,1fr)
-            minmax(0,1fr) !important;
-
-        gap:8px !important;
-
-        height:100% !important;
-        min-height:0 !important;
-
-        overflow:hidden !important;
-    }
-
     #natural-stone .material-gallery-small img,
+    #synthetic-stone .material-gallery > img,
     #synthetic-stone .material-gallery-small img,
+    #wood-floor .material-gallery > img,
     #wood-floor .material-gallery-small img,
+    #other-products .material-gallery > img,
     #other-products .material-gallery-small img{
-
-        width:100% !important;
-        height:100% !important;
-
-        min-height:0 !important;
-
-        object-fit:cover !important;
-
-        display:block !important;
+        border-radius:9px !important;
     }
 }
 
-
-/* =========================================================
-   MOBILE
-   ไม่กระทบส่วนที่ใช้งานถูกต้องอยู่แล้ว
-========================================================= */
-
-@media (max-width:600px){
-
-    #natural-stone .material-gallery,
-    #synthetic-stone .material-gallery,
-    #wood-floor .material-gallery,
-    #other-products .material-gallery{
-
-        gap:5px !important;
-
-        height:250px !important;
-        min-height:250px !important;
-
-        overflow:hidden !important;
-    }
-
-    #natural-stone .material-gallery-small,
-    #synthetic-stone .material-gallery-small,
-    #wood-floor .material-gallery-small,
-    #other-products .material-gallery-small{
-
-        gap:5px !important;
-    }
-}
+/* NOTE: จุดเปลี่ยนรูปสินค้าใน 4 section:
+   1) หินธรรมชาติ -> index.html ใน <section id="natural-stone">
+   2) หินสังเคราะห์ -> index.html ใน <section id="synthetic-stone">
+   3) พื้นไม้ของเรา -> index.html ใน <section id="wood-floor">
+   4) สินค้าอื่นๆ -> index.html ใน <section id="other-products">
+   แต่ละหมวดมี <div class="material-gallery"> = รูปที่ 1
+   และ <div class="material-gallery-small"> = รูปที่ 2 + รูปที่ 3
+*/
