@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open GitHub Pages",
+            "url": "https://sky6238483.github.io/BMC-HOMEMART2/",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
