@@ -11,131 +11,210 @@
 <body>
 <header class="header">
 <div class="container nav">
-<a href="index.html" class="logo"><img src="image/Logo BMC.jpg" alt="BMC HOMEMART"></a>
+<a href="index.html" class="logo"><img src="image/logo-bmc.jpg" alt="BMC HOMEMART"></a>
 <nav id="navMenu">
-<a href="index.html">หน้าแรก</a><a href="products.html">สินค้า</a>
-<a href="index.html#services">บริการ</a><a href="index.html#projects">ผลงาน</a><a href="about.html">เกี่ยวกับเรา</a><a href="index.html#contact">ติดต่อเรา</a>
+<a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+<a href="products.html" data-th="สินค้า" data-en="Products">สินค้า</a>
+<a href="index.html#services" data-th="บริการ" data-en="Services">บริการ</a>
+<a href="index.html#projects" data-th="ผลงาน" data-en="Projects">ผลงาน</a>
+<a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a>
+<a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a>
 </nav>
-<div class="header-actions"><a href="cart.html" class="cart-btn">🛒 <span id="cartCount">0</span></a>
-<div class="language-switch" aria-label="เลือกภาษา"><button type="button" class="lang-btn" data-lang="th">TH</button><span>|</span><button type="button" class="lang-btn" data-lang="en">EN</button></div><button class="mobile-menu" onclick="toggleMenu()">☰</button></div>
+<div class="header-actions">
+<a href="cart.html" class="cart-btn" aria-label="ตะกร้าสินค้า">🛒 <span id="cartCount">0</span></a>
+<div class="language-switch" aria-label="เลือกภาษา"><button type="button" class="lang-btn" data-lang="th">TH</button><span>|</span><button type="button" class="lang-btn" data-lang="en">EN</button></div>
+<button class="mobile-menu" onclick="toggleMenu()" aria-label="เปิดเมนู">☰</button>
+</div>
 </div>
 </header>
 
 <main class="detail-page" id="serviceDetail">
-<section class="detail-hero"><div class="container detail-hero-inner">
-<p class="eyebrow gold">OUR SERVICES</p><h1 id="serviceTitle">บริการของ BMC HOMEMART</h1><p id="serviceLead"></p>
-</div></section>
+<section class="detail-hero">
+<div class="container detail-hero-inner">
+<p class="eyebrow gold" data-th="บริการของเรา" data-en="OUR SERVICES">บริการของเรา</p>
+<h1 id="serviceTitle"></h1>
+<p id="serviceLead"></p>
+</div>
+</section>
 
-<section class="detail-section"><div class="container service-detail-grid">
+<section class="detail-section service-intro-section">
+<div class="container service-detail-grid">
 <div><img id="serviceImage" class="detail-main-image" src="" alt=""></div>
 <div class="detail-copy">
-<p class="eyebrow gold">SERVICE DETAIL</p><h2 id="serviceHeading"></h2><div id="serviceBody"></div>
-<a href="index.html#contact" class="btn btn-gold">สอบถามบริการ</a>
+<p class="eyebrow gold" data-th="รายละเอียดบริการ" data-en="SERVICE DETAIL">รายละเอียดบริการ</p>
+<h2 id="serviceHeading"></h2>
+<div id="serviceBody"></div>
+<a href="index.html#contact" class="btn btn-gold" data-th="สอบถามบริการ" data-en="INQUIRE ABOUT THIS SERVICE">สอบถามบริการ</a>
 </div>
-</div></section>
+</div>
+</section>
 
-<section class="detail-section service-process"><div class="container">
-<div class="section-heading"><p class="eyebrow gold">OUR PROCESS</p><h2>ขั้นตอนการทำงาน</h2></div>
-<div class="detail-benefits">
-<div><span>01</span><h3>ประเมินหน้างาน</h3><p>พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน</p></div>
-<div><span>02</span><h3>วางแผนงาน</h3><p>เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน</p></div>
-<div><span>03</span><h3>ตรวจและส่งมอบ</h3><p>ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ</p></div>
+<section class="detail-section service-gallery-section">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow gold" data-th="ผลงานและขั้นตอน" data-en="WORK & PROCESS">ผลงานและขั้นตอน</p>
+<h2 id="galleryTitle"></h2>
+<p id="galleryLead"></p>
 </div>
-</div></section>
+<div class="service-detail-gallery" id="serviceGallery"></div>
+</div>
+</section>
 
-<section class="detail-section"><div class="container service-extra">
-<div class="section-heading"><p class="eyebrow gold">WHY BMC</p><h2>บริการที่ใส่ใจรายละเอียด</h2></div>
-<div class="service-extra-grid">
-<div><h3>เลือกวิธีให้เหมาะกับวัสดุ</h3><p>พิจารณาชนิดพื้นผิว ลักษณะพื้นที่ และวัตถุประสงค์ของงานก่อนเลือกวิธีดำเนินการ</p></div>
-<div><h3>ประสานงานเป็นขั้นตอน</h3><p>ช่วยจัดลำดับการทำงานให้สอดคล้องกับงานวัสดุและหน้างาน เพื่อลดปัญหาที่อาจเกิดขึ้น</p></div>
-<div><h3>เน้นความเรียบร้อย</h3><p>ให้ความสำคัญกับขอบ มุม รอยต่อ และภาพรวมของพื้นที่ก่อนส่งมอบ</p></div>
+<section class="detail-section service-special-section" id="serviceSpecial"></section>
+
+<section class="detail-section service-process">
+<div class="container">
+<div class="section-heading"><p class="eyebrow gold" data-th="ขั้นตอนการทำงาน" data-en="OUR PROCESS">ขั้นตอนการทำงาน</p><h2 data-th="ขั้นตอนการทำงาน" data-en="Our Process">ขั้นตอนการทำงาน</h2></div>
+<div class="detail-benefits" id="serviceProcess"></div>
 </div>
-</div></section>
+</section>
+
+<section class="detail-section">
+<div class="container service-extra">
+<div class="section-heading"><p class="eyebrow gold" data-th="ทำไมต้อง BMC" data-en="WHY BMC">ทำไมต้อง BMC</p><h2 data-th="บริการที่ใส่ใจรายละเอียด" data-en="Detail-focused service">บริการที่ใส่ใจรายละเอียด</h2></div>
+<div class="service-extra-grid" id="serviceWhy"></div>
+</div>
+</section>
 </main>
 
 <footer>
 <div class="container footer-grid">
-<div>
-<div class="footer-logo">BMC <span>HOMEMART</span></div>
-<p>ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ</p>
+<div><div class="footer-logo">BMC <span>HOMEMART</span></div><p data-th="ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ" data-en="Quality materials for homes, interiors and projects">ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ</p></div>
+<div><h4 data-th="เมนู" data-en="MENU">เมนู</h4><a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a><a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a><a href="index.html#services" data-th="บริการ" data-en="Services">บริการ</a><a href="index.html#projects" data-th="ผลงาน" data-en="Projects">ผลงาน</a><a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a></div>
+<div><h4 data-th="สินค้า" data-en="PRODUCTS">สินค้า</h4><a href="index.html#natural-stone" data-th="หินธรรมชาติ" data-en="Natural Stone">หินธรรมชาติ</a><a href="index.html#synthetic-stone" data-th="หินสังเคราะห์" data-en="Engineered Stone">หินสังเคราะห์</a><a href="index.html#wood-floor" data-th="พื้นไม้ของเรา" data-en="Our Wood Flooring">พื้นไม้ของเรา</a><a href="index.html#other-products" data-th="สินค้าอื่นๆ" data-en="Other Products">สินค้าอื่นๆ</a></div>
+<div><h4 data-th="บริษัท บางกอก แมททีเรียล จำกัด" data-en="Bangkok Material Co., Ltd.">บริษัท บางกอก แมททีเรียล จำกัด</h4><p>2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p><p data-th="โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772" data-en="Tel: 02-320-1084-5<br/>Mobile: 087-686-7772">โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p><div class="footer-social"><a aria-label="LINE" href="https://page.line.me/553anmze" target="_blank"><img alt="LINE" src="image/line.png"></a><a aria-label="Facebook" href="https://www.facebook.com/bmchomemart" target="_blank"><img alt="Facebook" src="image/facebook.png"></a><a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="image/email.png"></a><a aria-label="IG" href="https://www.instagram.com/bmchomemart" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="image/instagram.png"></a><a aria-label="TikTok" href="https://www.tiktok.com/@bmc.homemart" target="_blank" rel="noopener noreferrer"><img alt="TikTok" src="image/tiktok.png"></a></div></div>
 </div>
-<div>
-<h4>MENU</h4>
-<a href="index.html">หน้าแรก</a>
-<a href="about.html">เกี่ยวกับเรา</a>
-<a href="index.html#services">บริการ</a>
-<a href="index.html#projects">ผลงาน</a>
-<a href="index.html#contact">ติดต่อเรา</a>
-</div>
-<div>
-<h4>PRODUCTS</h4>
-<!-- NOTE: แก้ชื่อ/ลิงก์สินค้าใน Footer ทุกหน้าได้จากส่วนนี้ -->
-<a href="index.html#natural-stone">หินธรรมชาติ</a>
-<a href="index.html#synthetic-stone">หินสังเคราะห์</a>
-<a href="index.html#wood-floor">พื้นไม้ของเรา</a>
-<a href="index.html#other-products">สินค้าอื่นๆ</a>
-</div>
-<div>
-<h4>บริษัท บางกอก แมททีเรียล จำกัด</h4>
-<p>2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p>
-<p>โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p>
-<!-- NOTE: ปุ่ม LINE ใน Footer ใช้ LINE Page สำหรับแชทกับร้าน -->
-<div class="footer-social">
-<a aria-label="LINE" href="https://page.line.me/553anmze"  target="_blank"><img alt="LINE" src="image/line.png"/></a>
-<a aria-label="Facebook" href="https://www.facebook.com/bmchomemart"  target="_blank"><img alt="Facebook" src="image/facebook.png"/></a>
-<a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="image/email.png"/></a>
-<a aria-label="IG" href="https://www.instagram.com/bmchomemart?stkn=aDdpOWx4Zjh4eHc0&utm_source=qr" target="_blank" rel="noopener noreferrer"><img alt="IG" src="image/instagram.png"/></a>
-<a aria-label="Tiktok" href="https://www.tiktok.com/@bmc.homemart?_r=1&_t=ZS-99dsgixHfTl" target="_blank" rel="noopener noreferrer"><img alt="Tiktok" src="image/TIKTOK.png"/></a>
-</div>
-</div>
-</div>
-<div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.
-<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html">นโยบายการใช้งานคุกกี้</a></span>
-</div>
+<div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html" data-th="นโยบายความเป็นส่วนตัว" data-en="Privacy Policy">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html" data-th="นโยบายการใช้งานคุกกี้" data-en="Cookie Policy">นโยบายการใช้งานคุกกี้</a></span></div>
 </footer>
 
 <script src="script.js"></script>
 <script>
-const services = {
+(function(){
+const services={
  installation:{
-   title:"งานติดตั้ง",
-   heading:"ติดตั้งอย่างเป็นระบบ ตั้งแต่เตรียมพื้นที่ถึงส่งมอบ",
-   lead:"บริการติดตั้งวัสดุสำหรับบ้านและโครงการ โดยให้ความสำคัญกับการเตรียมพื้นที่ ลำดับงาน และความเรียบร้อยของหน้างาน",
-   image:"image/About/banner บริการติดตั้ง.jpg",
-   body:[
-     "ทีมงานช่วยประเมินพื้นที่และวางแผนลำดับงานก่อนติดตั้ง เพื่อให้วัสดุแต่ละประเภททำงานร่วมกันได้อย่างเหมาะสม",
-     "เหมาะสำหรับงานพื้น งานผนัง งานหิน งานกระเบื้อง โมเสค งานไม้ และงานตกแต่งที่ต้องการการประสานงานตั้งแต่ต้นจนจบ"
-   ]
+  title:{th:'บริการติดตั้ง',en:'Installation Services'},
+  heading:{th:'ติดตั้งอย่างเป็นระบบ ตั้งแต่เตรียมพื้นที่จนถึงส่งมอบ',en:'Systematic installation from site preparation to handover'},
+  lead:{th:'บริการติดตั้งวัสดุสำหรับบ้านและโครงการ โดยให้ความสำคัญกับการเตรียมพื้นที่ ลำดับงาน และความเรียบร้อยของหน้างาน',en:'Material installation services for homes and projects, with careful attention to site preparation, work sequencing and a well-organized site.'},
+  image:'image/about/banner-installation.jpg',
+  body:[
+   {th:'ทีมงานช่วยประเมินพื้นที่และวางแผนลำดับงานก่อนติดตั้ง เพื่อให้วัสดุแต่ละประเภททำงานร่วมกันได้อย่างเหมาะสม',en:'Our team assesses the site and plans the work sequence before installation so different materials can work together properly.'},
+   {th:'ดำเนินการติดตั้งอย่างมืออาชีพตามขอบเขตและระยะเวลาที่กำหนดโดยโครงการ เหมาะกับงานพื้น งานผนัง งานหิน กระเบื้อง โมเสค พื้นไม้ และงานตกแต่ง',en:'We install professionally within the project scope and schedule, covering floors, walls, stone, tiles, mosaic, wood flooring and decorative work.'}
+  ],
+  galleryTitle:{th:'ภาพงานติดตั้งและการประสานงานหน้างาน',en:'Installation & Site Coordination'},
+  galleryLead:{th:'ภาพตัวอย่างจากการเตรียมพื้นที่ การทำงานหน้างาน และการประสานงานเพื่อส่งมอบงานอย่างเป็นระบบ',en:'Examples of site preparation, on-site work and coordination for an organized handover.'},
+  gallery:[
+   ['image/about/banner-installation.jpg','เตรียมพื้นที่และตรวจหน้างาน','Site preparation and inspection'],
+   ['image/about/banner-service.jpg','ทีมงานและการประสานงาน','Team and project coordination'],
+   ['image/about/wp-20140501-001.jpg','การทำงานหน้างาน','On-site work'],
+   ['image/about/wp-20140501-003.jpg','ตรวจรายละเอียดงาน','Detail inspection'],
+   ['image/about/wp-20140430-002.jpg','อุปกรณ์และการเตรียมงาน','Tools and preparation'],
+   ['image/about/page-image.png','การจัดการวัสดุในโรงงาน','Material handling in the workshop']
+  ],
+  process:[
+   {th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the materials and project.'}},
+   {th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select materials, plan the work sequence and prepare the details needed for execution.'}},
+   {th:'ติดตั้ง',en:'Installation',p:{th:'ติดตั้งตามขอบเขตงานและตามกำหนดการที่ได้รับ พร้อมความประณีต',en:'Install according to the approved scope and schedule, with careful attention to finish quality.'}},
+   {th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished work and provide guidance for care and maintenance.'}}
+  ]
  },
  craft:{
-   title:"งานฝีมือ",
-   heading:"รายละเอียดเล็ก ๆ ที่ทำให้งานดูแตกต่าง",
-   lead:"งานเก็บรายละเอียด งานเข้ามุม งานประกอบ และงานตกแต่งที่ต้องอาศัยความประณีต",
-   image:"image/About/WP_20140501_004.jpg",
-   body:[
-     "งานฝีมือเน้นความละเอียดของขอบ รอยต่อ มุม และการจัดวางวัสดุให้เกิดความต่อเนื่องกับแบบและภาพรวมของพื้นที่",
-     "เหมาะกับงานที่ต้องการเก็บรายละเอียดเป็นพิเศษ เช่น งานหิน งานไม้ งานตกแต่งผนัง และงานประกอบวัสดุ"
-   ]
+  title:{th:'งานแปรรูปหิน',en:'Stone Fabrication'},
+  heading:{th:'ทำให้บ้านในฝันที่คุณออกแบบไว้เกิดขึ้นจริง',en:'Bring the home you designed to life'},
+  lead:{th:'รายละเอียดเล็ก ๆ ที่ทำให้งานดูแตกต่าง ด้วยงานทำผิวหิน 5 แบบ งานวางแพทเทิร์นแบบต่อลายหรือ Bookmatch งานตัดด้วยวอเตอร์เจ็ท งานบัว และการขึ้นรูปแบบพิเศษ ด้วยโรงงานของเรา',en:'Small details make a difference. We provide five stone finishes, bookmatching, waterjet cutting, custom molding and special profiles, produced in our own workshop.'},
+  image:'image/about/banner-services.jpg',
+  body:[
+   {th:'บริการแปรรูปหินสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง โดยเลือกวิธีให้เหมาะกับชนิดวัสดุ แบบ และการใช้งานจริง',en:'Stone fabrication for floors, walls, countertops and decorative work, with methods selected to suit the material, design and application.'},
+   {th:'งานทุกขั้นตอนเน้นความแม่นยำของขนาด ขอบ มุม รอยต่อ และภาพรวมของลายหิน เพื่อให้ชิ้นงานพร้อมสำหรับการติดตั้งและส่งมอบ',en:'Every stage focuses on dimensional accuracy, edges, corners, joints and overall stone pattern continuity so each piece is ready for installation and handover.'}
+  ],
+  galleryTitle:{th:'บริการแปรรูปและภาพงานจากโรงงาน',en:'Fabrication Services & Workshop'},
+  galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ พื้นที่ทำงาน และงานแปรรูปที่เกี่ยวข้องกับการเตรียมชิ้นงานหิน',en:'Examples of equipment, workshop areas and fabrication-related work used to prepare stone pieces.'},
+  gallery:[
+   ['image/about/banner-services.jpg','งานช่างและการเตรียมผิว','Craft work and surface preparation'],
+   ['image/about/page-image.png','พื้นที่โรงงานและการจัดการแผ่นหิน','Workshop and stone-slab handling'],
+   ['image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานแปรรูป','Fabrication equipment'],
+   ['image/about/wp-20140430-002.jpg','การเตรียมเครื่องมือและชิ้นงาน','Tool and workpiece preparation'],
+   ['image/granite-watermark/g655-dark-flower.jpg','ตัวอย่างลายหินสำหรับงานแปรรูป','Stone pattern for fabrication'],
+   ['image/marble-watermark/rd200812-rain-forest-polish.jpg','ตัวอย่างพื้นผิวหิน','Stone surface example']
+  ],
+  specialTitle:{th:'งานทำผิวหิน 5 แบบ',en:'Five Stone Surface Finishes'},
+  specialLead:{th:'เลือกผิวให้เหมาะกับวัสดุ พื้นที่ และภาพลักษณ์ของงาน',en:'Choose the finish according to the material, location and design intent.'},
+  finishes:[
+   ['ผิวเงา (Polished)','Polished','ขัดจนสะท้อนแสง ให้สีและลายหินเข้มชัดที่สุด เหมาะกับพื้นและผนังภายใน','Highly polished to reflect light and enhance the depth of color and veining; ideal for interior floors and walls.'],
+   ['ผิวด้าน (Honed)','Honed','ขัดเรียบแต่ไม่สะท้อน ดูสงบ รอยขีดข่วนเห็นน้อยกว่าผิวเงา เหมาะกับพื้นที่ใช้งานหนัก','Smooth but non-reflective, with a calm appearance and less visible scratching than polished finishes; suitable for heavy-use areas.'],
+   ['ผิวเผาไฟ (Flamed)','Flamed','เผาผิวให้แตกเป็นเม็ดหยาบ กันลื่นได้ดี เหมาะกับพื้นภายนอกและรอบสระ','Thermally textured to create a rough, slip-resistant surface; suitable for exterior floors and pool surrounds.'],
+   ['ผิวพ่นทราย (Sandblasted)','Sandblasted','พ่นทรายให้ผิวสาก สัมผัสนุ่มกว่าเผาไฟ เหมาะกับทางเดินและพื้นที่กึ่งภายนอก','Sandblasted for a textured surface that feels softer than flamed stone; suitable for walkways and semi-outdoor areas.'],
+   ['ผิวแอนทีค (Antique)','Antique','แปรงผิวให้เป็นคลื่นนุ่ม ให้ลุคเก่าอย่างตั้งใจ เหมาะกับงานตกแต่งที่ต้องการมิติ','Brushed to create soft undulations and an intentionally aged look; ideal for decorative work with added dimension.']
+  ],
+  customTitle:{th:'งานสั่งทำตามแบบ',en:'Custom Fabrication'},
+  custom:[
+   ['งานต่อลายหิน (Bookmatch)','Bookmatching','จัดเรียงแผ่นให้ลายต่อเนื่องเป็นภาพเดียวกันบนพื้น ผนัง หรือเคาน์เตอร์','Arrange slabs so the veining flows as one continuous image across floors, walls or countertops.'],
+   ['งานตัดลายด้วยวอเตอร์เจ็ท','Waterjet Cutting','ตัดโค้ง ตัดลายละเอียด และประกอบเป็นรูปแบบพิเศษ ที่เครื่องตัดทั่วไปทำไม่ได้','Cut curves, intricate patterns and special assemblies that conventional cutting cannot achieve.'],
+   ['งานบัวและงานขึ้นรูปแบบพิเศษ','Custom Molding & Profiles','เสาหิน บัวหิน จมูกบันได เซาะร่องกันลื่น เข้ามุม 45° และงานโค้งตามแบบ','Stone columns, moldings, stair nosings, anti-slip grooves, 45° corners and custom curved profiles.']
+  ],
+  process:[
+   {th:'รับความต้องการของลูกค้า',en:'Understand Requirements',p:{th:'พูดคุยความต้องการ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements and define an approach suited to the material and design.'}},
+   {th:'นำเสนอดีไซน์หรือตัวอย่าง',en:'Present Design or Samples',p:{th:'นำเสนอดีไซน์หรือตัวอย่างเพื่อกำหนดขอบเขตงานที่ถูกต้องกับลูกค้า และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Present designs or samples to confirm the correct scope with the client and prepare fabrication details.'}},
+   {th:'ดำเนินการผลิต',en:'Fabrication & Delivery',p:{th:'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการและส่งมอบ',en:'Fabricate according to the approved design and deliver the completed work.'}}
+  ]
  },
  polishing:{
-   title:"งานขัด",
-   heading:"ฟื้นฟูพื้นผิวให้กลับมาดูสะอาดและสวยงาม",
-   lead:"บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน โดยเลือกวิธีให้เหมาะกับสภาพและชนิดของวัสดุ",
-   image:"image/About/banner_น้ำยา.png",
-   body:[
-     "ประเมินสภาพพื้นผิวก่อนเลือกวิธีดูแล จากนั้นทำความสะอาดและขัดตามประเภทวัสดุและสภาพหน้างาน",
-     "เหมาะสำหรับพื้นที่หินที่ต้องการฟื้นฟูความเรียบร้อย ลดคราบและร่องรอยจากการใช้งาน และเตรียมพื้นผิวให้พร้อมใช้งาน"
-   ]
+  title:{th:'งานขัดและดูแลพื้นผิว',en:'Surface Polishing & Care'},
+  heading:{th:'ฟื้นฟูพื้นผิวให้กลับมาดูสะอาดและสวยงาม',en:'Restore surfaces to a clean and beautiful finish'},
+  lead:{th:'บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน โดยเลือกวิธีให้เหมาะกับสภาพและชนิดของวัสดุ',en:'Stone cleaning, polishing and surface-care services using methods suited to the condition and type of material.'},
+  image:'image/about/banner-polishing-solution.png',
+  body:[
+   {th:'ประเมินสภาพพื้นผิวก่อนเลือกวิธีดูแล จากนั้นทำความสะอาดและขัดตามประเภทวัสดุและสภาพหน้างาน',en:'We assess the surface before selecting a care method, then clean and polish according to the material and site condition.'},
+   {th:'เหมาะสำหรับพื้นที่หินที่ต้องการฟื้นฟูความเรียบร้อย ลดคราบและร่องรอยจากการใช้งาน และเตรียมพื้นผิวให้พร้อมใช้งาน',en:'Suitable for stone areas that need renewed appearance, reduced stains and wear marks, and a surface prepared for continued use.'}
+  ],
+  galleryTitle:{th:'ภาพงานขัดและดูแลพื้นผิว',en:'Polishing & Surface Care'},
+  galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ งานเตรียมพื้นผิว และกระบวนการดูแลพื้นผิว',en:'Examples of equipment, surface preparation and care processes.'},
+  gallery:[
+   ['image/about/banner-polishing-solution.png','ชุดอุปกรณ์และน้ำยาดูแลพื้นผิว','Polishing equipment and care products'],
+   ['image/about/tools.png','เครื่องมือสำหรับงานขัด','Tools for polishing work'],
+   ['image/about/tools.jpg','อุปกรณ์ขัดและดูแลพื้นผิว','Polishing and surface-care equipment'],
+   ['image/about/wp-20140430-002.jpg','การเตรียมอุปกรณ์หน้างาน','On-site equipment preparation'],
+   ['image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานพื้นผิว','Surface-care equipment'],
+   ['image/about/banner-services.jpg','การทำงานของทีมช่าง','Technician work']
+  ],
+  process:[
+   {th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the material and project.'}},
+   {th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select the appropriate method, plan the work sequence and prepare the details for execution.'}},
+   {th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished surface and provide guidance for ongoing care and maintenance.'}}
+  ]
  }
 };
-const key=new URLSearchParams(location.search).get("type") || "installation";
-const data=services[key] || services.installation;
-document.getElementById("serviceTitle").textContent=data.title;
-document.getElementById("serviceHeading").textContent=data.heading;
-document.getElementById("serviceLead").textContent=data.lead;
-document.getElementById("serviceImage").src=data.image;
-document.getElementById("serviceImage").alt=data.title;
-document.getElementById("serviceBody").innerHTML=data.body.map(text=>"<p>"+text+"</p>").join("");
+function esc(v){return String(v).replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[m]));}
+function render(){
+ const key=new URLSearchParams(location.search).get('type')||'installation';
+ const data=services[key]||services.installation;
+ const en=(localStorage.getItem('bmcLang')||'th')==='en';
+ const t=o=>o && typeof o==='object' && 'th' in o ? (en?o.en:o.th) : (o||'');
+ document.getElementById('serviceTitle').textContent=t(data.title);
+ document.getElementById('serviceHeading').textContent=t(data.heading);
+ document.getElementById('serviceLead').textContent=t(data.lead);
+ const main=document.getElementById('serviceImage'); main.src=data.image; main.alt=t(data.title);
+ document.getElementById('serviceBody').innerHTML=data.body.map(x=>`<p>${esc(t(x))}</p>`).join('');
+ document.getElementById('galleryTitle').textContent=t(data.galleryTitle);
+ document.getElementById('galleryLead').textContent=t(data.galleryLead);
+ document.getElementById('serviceGallery').innerHTML=data.gallery.map(x=>`<figure><img src="${esc(x[0])}" alt="${esc(en?x[2]:x[1])}" loading="lazy"><figcaption>${esc(en?x[2]:x[1])}</figcaption></figure>`).join('');
+ const special=document.getElementById('serviceSpecial');
+ if(data.finishes){
+  special.innerHTML=`<div class="container service-special"><div class="section-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div><div class="service-feature-grid">${data.finishes.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div><div class="section-heading service-custom-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div><div class="service-feature-grid">${data.custom.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div></div>`;
+ } else {special.innerHTML='';}
+ document.getElementById('serviceProcess').innerHTML=data.process.map((x,i)=>`<div><span>${String(i+1).padStart(2,'0')}</span><h3>${esc(t({th:x.th,en:x.en}))}</h3><p>${esc(t(x.p))}</p></div>`).join('');
+ const why=[
+  {th:'เลือกวิธีให้เหมาะกับวัสดุ',en:'Choose the right method for the material',p:{th:'พิจารณาวัสดุ และชนิดพื้นผิว ลักษณะพื้นที่ และวัตถุประสงค์ของงานก่อนเลือกวิธีดำเนินการ',en:'Consider the material, surface type, site conditions and purpose before selecting the working method.'}},
+  {th:'ประสานงานเป็นขั้นตอน',en:'Coordinate step by step',p:{th:'ช่วยจัดลำดับการทำงานให้สอดคล้องกับงานวัสดุและหน้างาน เพื่อลดปัญหาที่อาจเกิดขึ้น',en:'Coordinate the work sequence with materials and site conditions to reduce avoidable issues.'}},
+  {th:'เน้นความเรียบร้อย',en:'Focus on finish quality',p:{th:'ให้ความสำคัญกับขอบ มุม รอยต่อ และภาพรวมของพื้นที่ก่อนส่งมอบ',en:'Pay close attention to edges, corners, joints and the overall appearance before handover.'}}
+ ];
+ document.getElementById('serviceWhy').innerHTML=why.map(x=>`<div><h3>${esc(en?x.en:x.th)}</h3><p>${esc(t(x.p))}</p></div>`).join('');
+ document.documentElement.lang=en?'en':'th';
+}
+window.renderServiceDetail=render;
+window.addEventListener('bmcLanguageChanged',render);
+render();
+})();
 </script>
-<script src="lang.js"></script></body>
+<script src="lang.js"></script>
+</body>
 </html>

@@ -229,3 +229,13 @@ initProjectSlider()
 - หากต้องการเปลี่ยนช่องว่างระหว่างรูป OUR PROJECTS ให้แก้ --project-gap
 
 การแก้ครั้งนี้ตั้งใจให้ส่วนที่ไม่ได้ระบุในคำขอทำงานตามเดิม และไม่ลบข้อมูลส่วนบนของเว็บไซต์
+
+## 2026-09-15 — Website content / image / material spacing update
+- Corrected TH/EN service content and made the three service detail routes work from `service-detail.html?type=installation|craft|polishing`.
+- Changed the first service card to Stone Fabrication and the second to Installation so card labels and links match.
+- Added at least 6 local images to each service detail gallery.
+- Added Stone Fabrication content: five stone finishes, bookmatching, waterjet cutting, custom molding/profiles, process and WHY BMC.
+- Normalized image file/folder names to lowercase English-safe names and updated HTML/CSS/JS references.
+- Corrected English product catalog fields so `nameEn`, `categoryLabelEn`, `subcategoryEn` and `descriptionEn` no longer contain Thai text.
+- Reduced spacing between the four main material sections and tightened the material heading/category controls while keeping the existing sticky navigation behavior and top offset.
+- Added `PRODUCT_ADD_NOTE.md` explaining exactly where to add products, images, categories and bilingual content.
