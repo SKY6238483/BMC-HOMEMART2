@@ -6371,6 +6371,3 @@ body{
     max-width:100%;
     object-fit:cover;
 }
-
-/* IMAGE LOAD ERROR: keep broken image from collapsing the card. */
-.image-load-error{display:block !important;min-height:40px;background:#f3f1ec;}
