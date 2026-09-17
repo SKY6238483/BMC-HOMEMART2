@@ -31,7 +31,7 @@ const BMC_CATALOG = [
   {
     "id": "nero-marquina",
     "name": "Nero Marquina",
-    "image": "./image/marquina-nero.jpg",
+    "image": "./image/marquina-nero-2.jpg",
     "gallery": [
       "./image/marquina-nero.jpg", 
       "./image/marquina-nero-2.jpg",
