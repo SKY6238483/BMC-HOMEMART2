@@ -84,8 +84,7 @@ img {
 
     height: 82px;
 
-    /*background: #fff;*/
-    background: #fae5d2;
+    background: #fff;
 
     position: sticky;
 
@@ -179,8 +178,7 @@ nav a:hover {
 
     border-radius: 8px;
 
-    /*background: #fff;*/
-    background: #fae5d2;
+    background: #fff;
 
     transition: .3s;
 
