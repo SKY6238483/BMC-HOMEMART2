@@ -87,6 +87,7 @@
 <div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html" data-th="นโยบายความเป็นส่วนตัว" data-en="Privacy Policy">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html" data-th="นโยบายการใช้งานคุกกี้" data-en="Cookie Policy">นโยบายการใช้งานคุกกี้</a></span></div>
 </footer>
 
+<script src="image-path-manifest.js"></script>
 <script src="script.js"></script>
 <script>
 (function(){
@@ -192,11 +193,11 @@ function render(){
  document.getElementById('serviceTitle').textContent=t(data.title);
  document.getElementById('serviceHeading').textContent=t(data.heading);
  document.getElementById('serviceLead').textContent=t(data.lead);
- const main=document.getElementById('serviceImage'); main.src=data.image; main.alt=t(data.title);
+ const main=document.getElementById('serviceImage'); main.src=data.image; main.loading="eager"; main.alt=t(data.title);
  document.getElementById('serviceBody').innerHTML=data.body.map(x=>`<p>${esc(t(x))}</p>`).join('');
  document.getElementById('galleryTitle').textContent=t(data.galleryTitle);
  document.getElementById('galleryLead').textContent=t(data.galleryLead);
- document.getElementById('serviceGallery').innerHTML=data.gallery.map(x=>`<figure><img src="${esc(x[0])}" alt="${esc(en?x[2]:x[1])}" loading="lazy"><figcaption>${esc(en?x[2]:x[1])}</figcaption></figure>`).join('');
+ document.getElementById('serviceGallery').innerHTML=data.gallery.map(x=>`<figure><img src="${esc(x[0])}" alt="${esc(en?x[2]:x[1])}" loading="eager" decoding="async"><figcaption>${esc(en?x[2]:x[1])}</figcaption></figure>`).join('');
  const special=document.getElementById('serviceSpecial');
  if(data.finishes){
   special.innerHTML=`<div class="container service-special"><div class="section-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div><div class="service-feature-grid">${data.finishes.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div><div class="section-heading service-custom-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div><div class="service-feature-grid">${data.custom.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div></div>`;

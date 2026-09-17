@@ -6338,3 +6338,36 @@ body{
     .service-detail-gallery img{height:220px;}
     .service-feature-grid article{padding:20px;}
 }
+
+
+/* =========================================================
+   IMAGE VISIBILITY PATCH — 2026-09-16
+   NOTE: Keep all website images visible and contained.
+   NOTE: Service cards are intentionally eager-loaded in HTML.
+   NOTE: Synthetic Quartz uses a unique panel ID so it cannot
+         conflict with the Natural Stone Quartzite panel.
+========================================================= */
+.service-card img,
+.service-detail-gallery img,
+#synthetic-stone .material-gallery img{
+    display:block;
+    visibility:visible;
+    opacity:1;
+}
+#synthetic-stone #synthetic-quartz-panel{
+    display:block;
+}
+#synthetic-stone .material-category-panel:not(#synthetic-quartz-panel){
+    display:none;
+}
+#synthetic-stone #synthetic-quartz-panel .material-gallery,
+#synthetic-stone #synthetic-quartz-panel .material-gallery-small{
+    min-width:0;
+    max-width:100%;
+    overflow:hidden;
+}
+#synthetic-stone #synthetic-quartz-panel .material-gallery img{
+    width:100%;
+    max-width:100%;
+    object-fit:cover;
+}

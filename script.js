@@ -247,6 +247,43 @@ function initFloatingContact(){
 }
 
 /* =========================
+   IMAGE PATH SAFETY
+   NOTE: ทำให้ path รูปภาพใช้ชื่อไฟล์จริงในโฟลเดอร์ image/ เสมอ
+   - แก้ปัญหา path สะกด/ตัวพิมพ์/./ ที่ทำให้บาง hosting หาไฟล์ไม่เจอ
+   - โหลดรูปที่อยู่ในหน้าเว็บแบบ eager เพื่อไม่ให้บางรูปค้าง/ไม่แสดง
+   - หาก src เดิมหาไม่พบ จะ fallback ตามชื่อไฟล์ที่มีอยู่จริง
+========================= */
+function initImagePathSafety(){
+    const manifest = window.BMC_IMAGE_PATHS || {};
+    const normalize = src => {
+        if(!src) return '';
+        try { src = decodeURIComponent(src); } catch(e) {}
+        src = src.replace(/\\/g,'/').replace(/\/+/g,'/');
+        return src;
+    };
+    document.querySelectorAll('img').forEach(img=>{
+        img.loading = 'eager';
+        img.decoding = 'async';
+        const raw = normalize(img.getAttribute('src') || '');
+        if(!raw || /^(https?:|data:|blob:|\/\/)/i.test(raw)) return;
+        const clean = raw.split('?')[0].split('#')[0];
+        const base = clean.substring(clean.lastIndexOf('/')+1).toLowerCase();
+        const fallback = manifest[base];
+        if(fallback){
+            // ถ้า path เดิมต่างรูปแบบ ให้ใช้ canonical path ที่ตรงกับไฟล์จริง
+            img.setAttribute('src', fallback);
+        }
+        img.addEventListener('error', function(){
+            const b = (this.getAttribute('src')||'').split('?')[0].split('#')[0].split('/').pop().toLowerCase();
+            const fb = manifest[b];
+            if(fb && this.getAttribute('src') !== fb){
+                this.setAttribute('src', fb);
+            }
+        }, {once:false});
+    });
+}
+
+/* =========================
    MATERIAL TABS
 ========================= */
 function initMaterialTabs(){
@@ -260,7 +297,7 @@ function initMaterialTabs(){
         // NOTE: ให้ปุ่ม active และ panel active สอดคล้องกันตั้งแต่เริ่มโหลด
         let activeButton = buttons.find(btn=>btn.classList.contains("active")) || buttons[0];
         let activeTarget = activeButton?.dataset.categoryTarget;
-        let activePanel = activeTarget ? panel.querySelector(`#${CSS.escape(activeTarget)}`) : null;
+        let activePanel = activeTarget ? panels.find(p => p.id === activeTarget) : null;
         if(!activePanel) activePanel = panels[0];
 
         buttons.forEach(btn=>btn.classList.remove("active"));
@@ -271,7 +308,7 @@ function initMaterialTabs(){
         buttons.forEach(button=>{
             button.addEventListener("click",()=>{
                 const targetId = button.dataset.categoryTarget;
-                const targetPanel = targetId ? panel.querySelector(`#${CSS.escape(targetId)}`) : null;
+                const targetPanel = targetId ? panels.find(p => p.id === targetId) : null;
                 if(!targetPanel) return;
 
                 buttons.forEach(btn=>btn.classList.remove("active"));
@@ -345,7 +382,7 @@ function cardHTML(product){
  const hasThai=/[\u0E00-\u0E7F]/.test(rawEn);
  const description=en?(hasThai?(descriptionEnByCategory[product.category]||'Quality materials for homes, interiors and projects.'):rawEn):(product.description||'วัสดุคุณภาพสำหรับงานบ้าน งานตกแต่ง และโครงการ');
  return `<article class="product-card" data-id="${escapeHTML(product.id)}" data-category="${escapeHTML(product.category)}" data-name="${escapeHTML((name+' '+cat+' '+sub).toLowerCase())}" data-price="${Number(product.price||0)}">
- <div class="product-card-image-wrap"><img class="product-image" src="${escapeHTML(product.image)}" alt="${escapeHTML(name)}" loading="lazy"></div>
+ <div class="product-card-image-wrap"><img class="product-image" src="${escapeHTML(product.image)}" alt="${escapeHTML(name)}" loading="eager"></div>
  <div class="product-card-content"><span>${escapeHTML(cat)}</span><small class="product-subcategory">${escapeHTML(sub)}</small><h3>${escapeHTML(name)}</h3><p>${escapeHTML(description)}</p>
  <div class="product-bottom"><strong>${formatPrice(product)}</strong><div class="product-actions"><button class="product-add-btn-small" type="button">+ เพิ่ม</button><button class="product-inquiry-btn" type="button">${en?'Inquiry':'สอบถาม'}</button></div></div></div></article>`;
 }
@@ -789,3 +826,5 @@ function initProjectSlider(){
 document.addEventListener("DOMContentLoaded",()=>{
     initProjectSlider();
 });
+
+if(document.readyState !== "loading") initImagePathSafety(); else document.addEventListener("DOMContentLoaded",initImagePathSafety);
