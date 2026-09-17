@@ -83,7 +83,7 @@
 <div><div class="footer-logo">BMC <span>HOMEMART</span></div><p data-th="ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ" data-en="Quality materials for homes, interiors and projects">ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ</p></div>
 <div><h4 data-th="เมนู" data-en="MENU">เมนู</h4><a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a><a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a><a href="index.html#services" data-th="บริการ" data-en="Services">บริการ</a><a href="index.html#projects" data-th="ผลงาน" data-en="Projects">ผลงาน</a><a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a></div>
 <div><h4 data-th="สินค้า" data-en="PRODUCTS">สินค้า</h4><a href="index.html#natural-stone" data-th="หินธรรมชาติ" data-en="Natural Stone">หินธรรมชาติ</a><a href="index.html#synthetic-stone" data-th="หินสังเคราะห์" data-en="Engineered Stone">หินสังเคราะห์</a><a href="index.html#wood-floor" data-th="พื้นไม้ของเรา" data-en="Our Wood Flooring">พื้นไม้ของเรา</a><a href="index.html#other-products" data-th="สินค้าอื่นๆ" data-en="Other Products">สินค้าอื่นๆ</a></div>
-<div><h4 data-th="บริษัท บางกอก แมททีเรียล จำกัด" data-en="Bangkok Material Co., Ltd.">บริษัท บางกอก แมททีเรียล จำกัด</h4><p>2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p><p data-th="โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772" data-en="Tel: 02-320-1084-5<br/>Mobile: 087-686-7772">โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p><div class="footer-social"><a aria-label="LINE" href="https://page.line.me/553anmze" target="_blank"><img alt="LINE" src="./image/line.png"></a><a aria-label="Facebook" href="https://www.facebook.com/bmchomemart" target="_blank"><img alt="Facebook" src="./image/facebook.png"></a><a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="./image/email.png"></a><a aria-label="IG" href="https://www.instagram.com/bmchomemart" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="./image/instagram.png"></a><a aria-label="TikTok" href="https://www.tiktok.com/@bmc.homemart" target="_blank" rel="noopener noreferrer"><img alt="TikTok" src="./image/tiktok_logo.png"></a></div></div>
+<div><h4 data-th="บริษัท บางกอก แมททีเรียล จำกัด" data-en="Bangkok Material Co., Ltd.">บริษัท บางกอก แมททีเรียล จำกัด</h4><p>2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p><p data-th="โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772" data-en="Tel: 02-320-1084-5<br/>Mobile: 087-686-7772">โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p><div class="footer-social"><a aria-label="LINE" href="https://page.line.me/553anmze" target="_blank"><img alt="LINE" src="./image/line.png"></a><a aria-label="Facebook" href="https://www.facebook.com/bmchomemart" target="_blank"><img alt="Facebook" src="./image/facebook.png"></a><a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="./image/email.png"></a><a aria-label="IG" href="https://www.instagram.com/bmchomemart" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="./image/instagram.png"></a><a aria-label="TikTok" href="https://www.tiktok.com/@bmc.homemart" target="_blank" rel="noopener noreferrer"><img alt="TikTok" src="./image/tiktok.png"></a></div></div>
 </div>
 <div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html" data-th="นโยบายความเป็นส่วนตัว" data-en="Privacy Policy">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html" data-th="นโยบายการใช้งานคุกกี้" data-en="Cookie Policy">นโยบายการใช้งานคุกกี้</a></span></div>
 </footer>
@@ -188,7 +188,6 @@ function esc(v){return String(v).replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;'
 function render(){
  const key=new URLSearchParams(location.search).get('type')||'installation';
  const data=services[key]||services.installation;
- document.body.classList.toggle('craft-page', key==='craft');
  const en=(localStorage.getItem('bmcLang')||'th')==='en';
  const t=o=>o && typeof o==='object' && 'th' in o ? (en?o.en:o.th) : (o||'');
  document.getElementById('serviceTitle').textContent=t(data.title);
@@ -201,28 +200,7 @@ function render(){
  document.getElementById('serviceGallery').innerHTML=data.gallery.map(x=>`<figure><img src="${esc(x[0])}" alt="${esc(en?x[2]:x[1])}" loading="lazy"><figcaption>${esc(en?x[2]:x[1])}</figcaption></figure>`).join('');
  const special=document.getElementById('serviceSpecial');
  if(data.finishes){
-  if(key==='craft'){
-   const finishImages=[data.gallery[4]?.[0]||data.image,data.gallery[5]?.[0]||data.image,data.gallery[0]?.[0]||data.image,data.gallery[2]?.[0]||data.image,data.gallery[1]?.[0]||data.image];
-   const finishNames=en?['Polished','Honed','Flamed','Sandblasted','Antique']:['ผิวเงา (Polished)','ผิวด้าน (Honed)','ผิวเผาไฟ (Flamed)','ผิวพ่นทราย (Sandblasted)','ผิวแอนทีค (Antique)'];
-   const customImages=[data.gallery[0]?.[0]||data.image,data.gallery[4]?.[0]||data.image,data.gallery[2]?.[0]||data.image];
-   const customNames=en?data.custom.map(x=>x[1]):data.custom.map(x=>x[0]);
-   const customCopy=en?data.custom.map(x=>x[3]):data.custom.map(x=>x[2]);
-   special.innerHTML=`
-    <div class="craft-wrap">
-      <section class="craft-finishes">
-        <div class="container">
-          <div class="craft-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div>
-          <div class="craft-finish-grid">${data.finishes.map((x,i)=>`<article class="craft-finish-card ${i===0?'is-active':''}"><img src="${esc(finishImages[i])}" alt="${esc(finishNames[i])}" loading="lazy"><div class="craft-finish-copy"><h3>${esc(finishNames[i])}</h3><p>${esc(en?x[3]:x[2])}</p><ul><li>${esc(en?'Suitable for the intended application':'เหมาะกับการใช้งานตามประเภทพื้นที่และรูปแบบงาน')}</li></ul></div></article>`).join('')}</div>
-        </div>
-      </section>
-      <section class="craft-custom">
-        <div class="container"><div class="craft-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div>
-        <div class="craft-custom-list">${data.custom.map((x,i)=>`<article><img src="${esc(customImages[i])}" alt="${esc(customNames[i])}" loading="lazy"><div><h3>${esc(customNames[i])}</h3><p>${esc(customCopy[i])}</p></div></article>`).join('')}</div></div>
-      </section>
-    </div>`;
-   } else {
-    special.innerHTML=`<div class="container service-special"><div class="section-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div><div class="service-feature-grid">${data.finishes.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div><div class="section-heading service-custom-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div><div class="service-feature-grid">${data.custom.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div></div>`;
-   }
+  special.innerHTML=`<div class="container service-special"><div class="section-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div><div class="service-feature-grid">${data.finishes.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div><div class="section-heading service-custom-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div><div class="service-feature-grid">${data.custom.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div></div>`;
  } else {special.innerHTML='';}
  document.getElementById('serviceProcess').innerHTML=data.process.map((x,i)=>`<div><span>${String(i+1).padStart(2,'0')}</span><h3>${esc(t({th:x.th,en:x.en}))}</h3><p>${esc(t(x.p))}</p></div>`).join('');
  const why=[
