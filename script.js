@@ -254,33 +254,75 @@ function initFloatingContact(){
    - หาก src เดิมหาไม่พบ จะ fallback ตามชื่อไฟล์ที่มีอยู่จริง
 ========================= */
 function initImagePathSafety(){
+    /*
+       IMPORTANT:
+       Do NOT resolve images by basename alone.
+       Several folders intentionally contain the same filename (for example
+       01.jpg / 02.jpg / oak.jpg). A basename-only manifest can silently
+       replace a correct image with an image from another folder.
+    */
     const manifest = window.BMC_IMAGE_PATHS || {};
-    const normalize = src => {
+
+    const normalizePath = src => {
         if(!src) return '';
         try { src = decodeURIComponent(src); } catch(e) {}
-        src = src.replace(/\\/g,'/').replace(/\/+/g,'/');
-        return src;
+        return src
+            .replace(/\\/g,'/')
+            .replace(/^\.\//,'')
+            .replace(/\/+/g,'/');
     };
-    document.querySelectorAll('img').forEach(img=>{
+
+    const canonicalFor = src => {
+        const clean = normalizePath(String(src).split('?')[0].split('#')[0]);
+        const key = clean.toLowerCase();
+        return manifest[key] || '';
+    };
+
+    const attach = img => {
+        if(!img || img.dataset.imageSafetyReady === '1') return;
+        img.dataset.imageSafetyReady = '1';
         img.loading = 'eager';
         img.decoding = 'async';
-        const raw = normalize(img.getAttribute('src') || '');
+
+        /* Keep the original full path. Never replace a valid path just
+           because another folder has the same basename. */
+        const raw = img.getAttribute('src') || '';
         if(!raw || /^(https?:|data:|blob:|\/\/)/i.test(raw)) return;
-        const clean = raw.split('?')[0].split('#')[0];
-        const base = clean.substring(clean.lastIndexOf('/')+1).toLowerCase();
-        const fallback = manifest[base];
-        if(fallback){
-            // ถ้า path เดิมต่างรูปแบบ ให้ใช้ canonical path ที่ตรงกับไฟล์จริง
-            img.setAttribute('src', fallback);
+
+        const canonical = canonicalFor(raw);
+        if(canonical && normalizePath(raw).toLowerCase() !== canonical.toLowerCase()){
+            img.setAttribute('src', canonical);
         }
-        img.addEventListener('error', function(){
-            const b = (this.getAttribute('src')||'').split('?')[0].split('#')[0].split('/').pop().toLowerCase();
-            const fb = manifest[b];
-            if(fb && this.getAttribute('src') !== fb){
-                this.setAttribute('src', fb);
+
+        img.addEventListener('error', function onImageError(){
+            const current = this.getAttribute('src') || '';
+            const fallback = canonicalFor(current);
+            if(fallback && normalizePath(current).toLowerCase() !== fallback.toLowerCase()){
+                this.setAttribute('src', fallback);
+                return;
             }
+            /* If the full path is already canonical, do not guess another
+               folder from the basename. This prevents wrong images. */
+            this.classList.add('image-load-error');
         }, {once:false});
-    });
+    };
+
+    const scan = () => document.querySelectorAll('img').forEach(attach);
+    scan();
+
+    /* Dynamic product cards/details are inserted after DOMContentLoaded. */
+    if(window.MutationObserver){
+        const observer = new MutationObserver(mutations=>{
+            for(const mutation of mutations){
+                mutation.addedNodes?.forEach(node=>{
+                    if(node.nodeType !== 1) return;
+                    if(node.matches?.('img')) attach(node);
+                    node.querySelectorAll?.('img').forEach(attach);
+                });
+            }
+        });
+        observer.observe(document.body,{childList:true,subtree:true});
+    }
 }
 
 /* =========================
