@@ -28,7 +28,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Marble",
     "descriptionEn": "White marble with natural veining, suitable for floors, walls, countertops and elegant, clean interior applications."
   },
-  {
+/*  {
     "id": "nero-marquina",
     "name": "Nero Marquina",
     "image": "./image/marquina-nero-2.jpg",
@@ -48,7 +48,7 @@ const BMC_CATALOG = [
     "categoryLabelEn": "Marble",
     "subcategoryEn": "Marble",
     "descriptionEn": "Black marble with white veining, creating a luxurious and distinctive look for floors, walls, countertops and decorative applications."
-  },
+  },*/
   {
     "id": "black-galaxy",
     "name": "Black Galaxy Granite",
@@ -91,7 +91,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
-  {
+  /*{
     "id": "wood-pvc",
     "name": "Wood PVC Wall",
     "image": "./image/pvc-wall.jpeg",
@@ -131,7 +131,7 @@ const BMC_CATALOG = [
     "categoryLabelEn": "Marble",
     "subcategoryEn": "Marble",
     "descriptionEn": "Artificial Portoro marble in a black tone with brown-gold and white veining and a polished surface, suitable for countertops, floors, walls and interiors."
-  },
+  },*/
   {
     "id": "catalog-1",
     "name": "CQ1902",
