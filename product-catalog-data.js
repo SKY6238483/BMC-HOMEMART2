@@ -4,18 +4,18 @@ NOTE: วิธีเพิ่มสินค้าอยู่ที่ PRODUCT
 BMC HOMEMART — ฐานข้อมูลสินค้า
 สารบัญข้อมูล: id | name/nameEn | image | gallery | category | ราคา/หน่วย | description
 หน้าที่: เป็นแหล่งข้อมูลกลางให้ Product Catalog และ Product Detail
-หมายเหตุ: ห้ามลบรายการเดิมโดยไม่ตั้งใจ; หมวดไม้บันไดสามารถอ้างอิงภาพจาก image/solid-wood ผ่านระบบกรองสินค้า
+หมายเหตุ: ห้ามลบรายการเดิมโดยไม่ตั้งใจ; หมวดไม้บันไดสามารถอ้างอิงภาพจาก ./image/solid-wood ผ่านระบบกรองสินค้า
 */
 const BMC_CATALOG = [
   {
     "id": "white-carrara",
     "name": "White Carrara Marble",
-    "image": "image/carrara-white.jpg",
+    "image": "./image/carrara-white.jpg",
     "gallery": [
-      "image/carrara-white.jpg",
-      "image/carrara-white-2.jpg",
-      "image/carrara-white-3.jpg",
-      "image/carrara-white-4.jpg"
+      "./image/carrara-white.jpg",
+      "./image/carrara-white-2.jpg",
+      "./image/carrara-white-3.jpg",
+      "./image/carrara-white-4.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -31,12 +31,12 @@ const BMC_CATALOG = [
   {
     "id": "nero-marquina",
     "name": "Nero Marquina",
-    "image": "image/marquina-nero.jpg",
+    "image": "./image/marquina-nero.jpg",
     "gallery": [
-      "image/marquina-nero.jpg", 
-      "image/marquina-nero-2.jpg",
-      "image/marquina-nero-3.jpg",
-      "image/marquina-nero-4.jpg"
+      "./image/marquina-nero.jpg", 
+      "./image/marquina-nero-2.jpg",
+      "./image/marquina-nero-3.jpg",
+      "./image/marquina-nero-4.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -52,12 +52,12 @@ const BMC_CATALOG = [
   {
     "id": "black-galaxy",
     "name": "Black Galaxy Granite",
-    "image": "image/black-galaxy-granite.jpg",
+    "image": "./image/black-galaxy-granite.jpg",
     "gallery": [
-      "image/black-galaxy-granite.jpg",
-      "image/black-galaxy-granite-2.jpg",
-      "image/black-galaxy-granite-3.jpg",
-      "image/black-galaxy-granite-4.jpg"
+      "./image/black-galaxy-granite.jpg",
+      "./image/black-galaxy-granite-2.jpg",
+      "./image/black-galaxy-granite-3.jpg",
+      "./image/black-galaxy-granite-4.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -73,12 +73,12 @@ const BMC_CATALOG = [
   {
     "id": "oak-engineered",
     "name": "Oak Engineered Flooring",
-    "image": "image/oak-engineer.jpg",
+    "image": "./image/oak-engineer.jpg",
     "gallery": [
-      "image/oak-engineer.jpg",
-      "image/oak-engineer-2.jpg",
-      "image/oak-engineer-3.jpg",
-      "image/oak-engineer-4.jpg"
+      "./image/oak-engineer.jpg",
+      "./image/oak-engineer-2.jpg",
+      "./image/oak-engineer-3.jpg",
+      "./image/oak-engineer-4.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -94,12 +94,12 @@ const BMC_CATALOG = [
   {
     "id": "wood-pvc",
     "name": "Wood PVC Wall",
-    "image": "image/pvc-wall.jpeg",
+    "image": "./image/pvc-wall.jpeg",
     "gallery": [
-      "image/pvc-wall.jpeg",
-      "image/pvc-wall-2.jpg",
-      "image/pvc-wall-3.jpg",
-      "image/pvc-wall-4.jpg"
+      "./image/pvc-wall.jpeg",
+      "./image/pvc-wall-2.jpg",
+      "./image/pvc-wall-3.jpg",
+      "./image/pvc-wall-4.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -115,11 +115,11 @@ const BMC_CATALOG = [
   {
     "id": "golden-portoro",
     "name": "Golden Portoro Marble",
-    "image": "image/golden-portoro-01.jpg",
+    "image": "./image/golden-portoro-01.jpg",
     "gallery": [
-      "image/golden-portoro-01.jpg",
-      "image/golden-portoro-02.jpg",
-      "image/golden-portoro-03.jpg"
+      "./image/golden-portoro-01.jpg",
+      "./image/golden-portoro-02.jpg",
+      "./image/golden-portoro-03.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -135,12 +135,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-1",
     "name": "CQ1902",
-    "image": "image/quartz/cq1902.jpg",
+    "image": "./image/quartz/cq1902.jpg",
     "gallery": [
-      "image/quartz/cq1902.jpg",
-      "image/quartz/cq1532.jpg",
-      "image/quartz/cq1540.jpg",
-      "image/quartz/cq118.jpg"
+      "./image/quartz/cq1902.jpg",
+      "./image/quartz/cq1532.jpg",
+      "./image/quartz/cq1540.jpg",
+      "./image/quartz/cq118.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -156,12 +156,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-2",
     "name": "CQ1532",
-    "image": "image/quartz/cq1532.jpg",
+    "image": "./image/quartz/cq1532.jpg",
     "gallery": [
-      "image/quartz/cq1532.jpg",
-      "image/quartz/cq1540.jpg",
-      "image/quartz/cq118.jpg",
-      "image/quartz/cq7006.jpg"
+      "./image/quartz/cq1532.jpg",
+      "./image/quartz/cq1540.jpg",
+      "./image/quartz/cq118.jpg",
+      "./image/quartz/cq7006.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -177,12 +177,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-3",
     "name": "CQ1540",
-    "image": "image/quartz/cq1540.jpg",
+    "image": "./image/quartz/cq1540.jpg",
     "gallery": [
-      "image/quartz/cq1540.jpg",
-      "image/quartz/cq118.jpg",
-      "image/quartz/cq7006.jpg",
-      "image/quartz/cq4003.jpg"
+      "./image/quartz/cq1540.jpg",
+      "./image/quartz/cq118.jpg",
+      "./image/quartz/cq7006.jpg",
+      "./image/quartz/cq4003.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -198,12 +198,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-4",
     "name": "CQ118",
-    "image": "image/quartz/cq118.jpg",
+    "image": "./image/quartz/cq118.jpg",
     "gallery": [
-      "image/quartz/cq118.jpg",
-      "image/quartz/cq7006.jpg",
-      "image/quartz/cq4003.jpg",
-      "image/quartz/cq7007.jpg"
+      "./image/quartz/cq118.jpg",
+      "./image/quartz/cq7006.jpg",
+      "./image/quartz/cq4003.jpg",
+      "./image/quartz/cq7007.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -219,12 +219,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-5",
     "name": "CQ7006",
-    "image": "image/quartz/cq7006.jpg",
+    "image": "./image/quartz/cq7006.jpg",
     "gallery": [
-      "image/quartz/cq7006.jpg",
-      "image/quartz/cq4003.jpg",
-      "image/quartz/cq7007.jpg",
-      "image/quartz/cq4018.jpg"
+      "./image/quartz/cq7006.jpg",
+      "./image/quartz/cq4003.jpg",
+      "./image/quartz/cq7007.jpg",
+      "./image/quartz/cq4018.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -240,12 +240,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-6",
     "name": "CQ4003",
-    "image": "image/quartz/cq4003.jpg",
+    "image": "./image/quartz/cq4003.jpg",
     "gallery": [
-      "image/quartz/cq4003.jpg",
-      "image/quartz/cq7007.jpg",
-      "image/quartz/cq4018.jpg",
-      "image/quartz/cq0001.jpg"
+      "./image/quartz/cq4003.jpg",
+      "./image/quartz/cq7007.jpg",
+      "./image/quartz/cq4018.jpg",
+      "./image/quartz/cq0001.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -261,12 +261,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-7",
     "name": "CQ7007",
-    "image": "image/quartz/cq7007.jpg",
+    "image": "./image/quartz/cq7007.jpg",
     "gallery": [
-      "image/quartz/cq7007.jpg",
-      "image/quartz/cq4018.jpg",
-      "image/quartz/cq0001.jpg",
-      "image/quartz/cq4004.jpg"
+      "./image/quartz/cq7007.jpg",
+      "./image/quartz/cq4018.jpg",
+      "./image/quartz/cq0001.jpg",
+      "./image/quartz/cq4004.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -282,12 +282,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-8",
     "name": "CQ4018",
-    "image": "image/quartz/cq4018.jpg",
+    "image": "./image/quartz/cq4018.jpg",
     "gallery": [
-      "image/quartz/cq4018.jpg",
-      "image/quartz/cq0001.jpg",
-      "image/quartz/cq4004.jpg",
-      "image/quartz/cq4023.jpg"
+      "./image/quartz/cq4018.jpg",
+      "./image/quartz/cq0001.jpg",
+      "./image/quartz/cq4004.jpg",
+      "./image/quartz/cq4023.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -303,12 +303,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-9",
     "name": "CQ0001",
-    "image": "image/quartz/cq0001.jpg",
+    "image": "./image/quartz/cq0001.jpg",
     "gallery": [
-      "image/quartz/cq0001.jpg",
-      "image/quartz/cq4004.jpg",
-      "image/quartz/cq4023.jpg",
-      "image/quartz/cq4019.jpg"
+      "./image/quartz/cq0001.jpg",
+      "./image/quartz/cq4004.jpg",
+      "./image/quartz/cq4023.jpg",
+      "./image/quartz/cq4019.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -324,12 +324,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-10",
     "name": "CQ4004",
-    "image": "image/quartz/cq4004.jpg",
+    "image": "./image/quartz/cq4004.jpg",
     "gallery": [
-      "image/quartz/cq4004.jpg",
-      "image/quartz/cq4023.jpg",
-      "image/quartz/cq4019.jpg",
-      "image/quartz/cq4001-pure-white.jpg"
+      "./image/quartz/cq4004.jpg",
+      "./image/quartz/cq4023.jpg",
+      "./image/quartz/cq4019.jpg",
+      "./image/quartz/cq4001-pure-white.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -345,12 +345,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-11",
     "name": "CQ4023",
-    "image": "image/quartz/cq4023.jpg",
+    "image": "./image/quartz/cq4023.jpg",
     "gallery": [
-      "image/quartz/cq4023.jpg",
-      "image/quartz/cq4019.jpg",
-      "image/quartz/cq4001-pure-white.jpg",
-      "image/quartz/cq122.jpg"
+      "./image/quartz/cq4023.jpg",
+      "./image/quartz/cq4019.jpg",
+      "./image/quartz/cq4001-pure-white.jpg",
+      "./image/quartz/cq122.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -366,12 +366,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-12",
     "name": "CQ4019",
-    "image": "image/quartz/cq4019.jpg",
+    "image": "./image/quartz/cq4019.jpg",
     "gallery": [
-      "image/quartz/cq4019.jpg",
-      "image/quartz/cq4001-pure-white.jpg",
-      "image/quartz/cq122.jpg",
-      "image/quartz/cq1219.jpg"
+      "./image/quartz/cq4019.jpg",
+      "./image/quartz/cq4001-pure-white.jpg",
+      "./image/quartz/cq122.jpg",
+      "./image/quartz/cq1219.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -387,12 +387,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-13",
     "name": "CQ4001 pure white",
-    "image": "image/quartz/cq4001-pure-white.jpg",
+    "image": "./image/quartz/cq4001-pure-white.jpg",
     "gallery": [
-      "image/quartz/cq4001-pure-white.jpg",
-      "image/quartz/cq122.jpg",
-      "image/quartz/cq1219.jpg",
-      "image/quartz/cq4008.jpg"
+      "./image/quartz/cq4001-pure-white.jpg",
+      "./image/quartz/cq122.jpg",
+      "./image/quartz/cq1219.jpg",
+      "./image/quartz/cq4008.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -408,12 +408,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-14",
     "name": "CQ122",
-    "image": "image/quartz/cq122.jpg",
+    "image": "./image/quartz/cq122.jpg",
     "gallery": [
-      "image/quartz/cq122.jpg",
-      "image/quartz/cq1219.jpg",
-      "image/quartz/cq4008.jpg",
-      "image/quartz/cq1538.jpg"
+      "./image/quartz/cq122.jpg",
+      "./image/quartz/cq1219.jpg",
+      "./image/quartz/cq4008.jpg",
+      "./image/quartz/cq1538.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -429,12 +429,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-15",
     "name": "CQ1219",
-    "image": "image/quartz/cq1219.jpg",
+    "image": "./image/quartz/cq1219.jpg",
     "gallery": [
-      "image/quartz/cq1219.jpg",
-      "image/quartz/cq4008.jpg",
-      "image/quartz/cq1538.jpg",
-      "image/quartz/cq4021.jpg"
+      "./image/quartz/cq1219.jpg",
+      "./image/quartz/cq4008.jpg",
+      "./image/quartz/cq1538.jpg",
+      "./image/quartz/cq4021.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -450,12 +450,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-16",
     "name": "CQ4008",
-    "image": "image/quartz/cq4008.jpg",
+    "image": "./image/quartz/cq4008.jpg",
     "gallery": [
-      "image/quartz/cq4008.jpg",
-      "image/quartz/cq1538.jpg",
-      "image/quartz/cq4021.jpg",
-      "image/quartz/cq1504.jpg"
+      "./image/quartz/cq4008.jpg",
+      "./image/quartz/cq1538.jpg",
+      "./image/quartz/cq4021.jpg",
+      "./image/quartz/cq1504.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -471,12 +471,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-17",
     "name": "CQ1538",
-    "image": "image/quartz/cq1538.jpg",
+    "image": "./image/quartz/cq1538.jpg",
     "gallery": [
-      "image/quartz/cq1538.jpg",
-      "image/quartz/cq4021.jpg",
-      "image/quartz/cq1504.jpg",
-      "image/quartz/cq1697.jpg"
+      "./image/quartz/cq1538.jpg",
+      "./image/quartz/cq4021.jpg",
+      "./image/quartz/cq1504.jpg",
+      "./image/quartz/cq1697.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -492,12 +492,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-18",
     "name": "CQ4021",
-    "image": "image/quartz/cq4021.jpg",
+    "image": "./image/quartz/cq4021.jpg",
     "gallery": [
-      "image/quartz/cq4021.jpg",
-      "image/quartz/cq1504.jpg",
-      "image/quartz/cq1697.jpg",
-      "image/quartz/cq7008.jpg"
+      "./image/quartz/cq4021.jpg",
+      "./image/quartz/cq1504.jpg",
+      "./image/quartz/cq1697.jpg",
+      "./image/quartz/cq7008.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -513,12 +513,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-19",
     "name": "CQ1504",
-    "image": "image/quartz/cq1504.jpg",
+    "image": "./image/quartz/cq1504.jpg",
     "gallery": [
-      "image/quartz/cq1504.jpg",
-      "image/quartz/cq1697.jpg",
-      "image/quartz/cq7008.jpg",
-      "image/quartz/cq4028.jpg"
+      "./image/quartz/cq1504.jpg",
+      "./image/quartz/cq1697.jpg",
+      "./image/quartz/cq7008.jpg",
+      "./image/quartz/cq4028.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -534,12 +534,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-20",
     "name": "CQ1697",
-    "image": "image/quartz/cq1697.jpg",
+    "image": "./image/quartz/cq1697.jpg",
     "gallery": [
-      "image/quartz/cq1697.jpg",
-      "image/quartz/cq7008.jpg",
-      "image/quartz/cq4028.jpg",
-      "image/quartz/cq1612.jpg"
+      "./image/quartz/cq1697.jpg",
+      "./image/quartz/cq7008.jpg",
+      "./image/quartz/cq4028.jpg",
+      "./image/quartz/cq1612.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -555,12 +555,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-21",
     "name": "CQ7008",
-    "image": "image/quartz/cq7008.jpg",
+    "image": "./image/quartz/cq7008.jpg",
     "gallery": [
-      "image/quartz/cq7008.jpg",
-      "image/quartz/cq4028.jpg",
-      "image/quartz/cq1612.jpg",
-      "image/quartz/cq4007.jpg"
+      "./image/quartz/cq7008.jpg",
+      "./image/quartz/cq4028.jpg",
+      "./image/quartz/cq1612.jpg",
+      "./image/quartz/cq4007.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -576,12 +576,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-22",
     "name": "CQ4028",
-    "image": "image/quartz/cq4028.jpg",
+    "image": "./image/quartz/cq4028.jpg",
     "gallery": [
-      "image/quartz/cq4028.jpg",
-      "image/quartz/cq1612.jpg",
-      "image/quartz/cq4007.jpg",
-      "image/quartz/cq4024.jpg"
+      "./image/quartz/cq4028.jpg",
+      "./image/quartz/cq1612.jpg",
+      "./image/quartz/cq4007.jpg",
+      "./image/quartz/cq4024.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -597,12 +597,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-23",
     "name": "CQ1612",
-    "image": "image/quartz/cq1612.jpg",
+    "image": "./image/quartz/cq1612.jpg",
     "gallery": [
-      "image/quartz/cq1612.jpg",
-      "image/quartz/cq4007.jpg",
-      "image/quartz/cq4024.jpg",
-      "image/quartz/cq7002.jpg"
+      "./image/quartz/cq1612.jpg",
+      "./image/quartz/cq4007.jpg",
+      "./image/quartz/cq4024.jpg",
+      "./image/quartz/cq7002.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -618,12 +618,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-24",
     "name": "CQ4007",
-    "image": "image/quartz/cq4007.jpg",
+    "image": "./image/quartz/cq4007.jpg",
     "gallery": [
-      "image/quartz/cq4007.jpg",
-      "image/quartz/cq4024.jpg",
-      "image/quartz/cq7002.jpg",
-      "image/quartz/cq4010.jpg"
+      "./image/quartz/cq4007.jpg",
+      "./image/quartz/cq4024.jpg",
+      "./image/quartz/cq7002.jpg",
+      "./image/quartz/cq4010.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -639,12 +639,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-25",
     "name": "CQ4024",
-    "image": "image/quartz/cq4024.jpg",
+    "image": "./image/quartz/cq4024.jpg",
     "gallery": [
-      "image/quartz/cq4024.jpg",
-      "image/quartz/cq7002.jpg",
-      "image/quartz/cq4010.jpg",
-      "image/quartz/cq4020.jpg"
+      "./image/quartz/cq4024.jpg",
+      "./image/quartz/cq7002.jpg",
+      "./image/quartz/cq4010.jpg",
+      "./image/quartz/cq4020.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -660,12 +660,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-26",
     "name": "CQ7002",
-    "image": "image/quartz/cq7002.jpg",
+    "image": "./image/quartz/cq7002.jpg",
     "gallery": [
-      "image/quartz/cq7002.jpg",
-      "image/quartz/cq4010.jpg",
-      "image/quartz/cq4020.jpg",
-      "image/quartz/cq123.jpg"
+      "./image/quartz/cq7002.jpg",
+      "./image/quartz/cq4010.jpg",
+      "./image/quartz/cq4020.jpg",
+      "./image/quartz/cq123.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -681,12 +681,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-27",
     "name": "CQ4010",
-    "image": "image/quartz/cq4010.jpg",
+    "image": "./image/quartz/cq4010.jpg",
     "gallery": [
-      "image/quartz/cq4010.jpg",
-      "image/quartz/cq4020.jpg",
-      "image/quartz/cq123.jpg",
-      "image/quartz/cq1551.jpg"
+      "./image/quartz/cq4010.jpg",
+      "./image/quartz/cq4020.jpg",
+      "./image/quartz/cq123.jpg",
+      "./image/quartz/cq1551.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -702,12 +702,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-28",
     "name": "CQ4020",
-    "image": "image/quartz/cq4020.jpg",
+    "image": "./image/quartz/cq4020.jpg",
     "gallery": [
-      "image/quartz/cq4020.jpg",
-      "image/quartz/cq123.jpg",
-      "image/quartz/cq1551.jpg",
-      "image/quartz/cq222.jpg"
+      "./image/quartz/cq4020.jpg",
+      "./image/quartz/cq123.jpg",
+      "./image/quartz/cq1551.jpg",
+      "./image/quartz/cq222.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -723,12 +723,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-29",
     "name": "CQ123",
-    "image": "image/quartz/cq123.jpg",
+    "image": "./image/quartz/cq123.jpg",
     "gallery": [
-      "image/quartz/cq123.jpg",
-      "image/quartz/cq1551.jpg",
-      "image/quartz/cq222.jpg",
-      "image/quartz/cq7013.jpg"
+      "./image/quartz/cq123.jpg",
+      "./image/quartz/cq1551.jpg",
+      "./image/quartz/cq222.jpg",
+      "./image/quartz/cq7013.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -744,12 +744,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-30",
     "name": "CQ1551",
-    "image": "image/quartz/cq1551.jpg",
+    "image": "./image/quartz/cq1551.jpg",
     "gallery": [
-      "image/quartz/cq1551.jpg",
-      "image/quartz/cq222.jpg",
-      "image/quartz/cq7013.jpg",
-      "image/quartz/cq1682.jpg"
+      "./image/quartz/cq1551.jpg",
+      "./image/quartz/cq222.jpg",
+      "./image/quartz/cq7013.jpg",
+      "./image/quartz/cq1682.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -765,12 +765,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-31",
     "name": "CQ222",
-    "image": "image/quartz/cq222.jpg",
+    "image": "./image/quartz/cq222.jpg",
     "gallery": [
-      "image/quartz/cq222.jpg",
-      "image/quartz/cq7013.jpg",
-      "image/quartz/cq1682.jpg",
-      "image/quartz/cq7005.jpg"
+      "./image/quartz/cq222.jpg",
+      "./image/quartz/cq7013.jpg",
+      "./image/quartz/cq1682.jpg",
+      "./image/quartz/cq7005.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -786,12 +786,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-32",
     "name": "CQ7013",
-    "image": "image/quartz/cq7013.jpg",
+    "image": "./image/quartz/cq7013.jpg",
     "gallery": [
-      "image/quartz/cq7013.jpg",
-      "image/quartz/cq1682.jpg",
-      "image/quartz/cq7005.jpg",
-      "image/quartz/cq7001.jpg"
+      "./image/quartz/cq7013.jpg",
+      "./image/quartz/cq1682.jpg",
+      "./image/quartz/cq7005.jpg",
+      "./image/quartz/cq7001.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -807,12 +807,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-33",
     "name": "CQ1682",
-    "image": "image/quartz/cq1682.jpg",
+    "image": "./image/quartz/cq1682.jpg",
     "gallery": [
-      "image/quartz/cq1682.jpg",
-      "image/quartz/cq7005.jpg",
-      "image/quartz/cq7001.jpg",
-      "image/quartz/cq1195.jpg"
+      "./image/quartz/cq1682.jpg",
+      "./image/quartz/cq7005.jpg",
+      "./image/quartz/cq7001.jpg",
+      "./image/quartz/cq1195.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -828,12 +828,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-34",
     "name": "CQ7005",
-    "image": "image/quartz/cq7005.jpg",
+    "image": "./image/quartz/cq7005.jpg",
     "gallery": [
-      "image/quartz/cq7005.jpg",
-      "image/quartz/cq7001.jpg",
-      "image/quartz/cq1195.jpg",
-      "image/quartz/cq7010.jpg"
+      "./image/quartz/cq7005.jpg",
+      "./image/quartz/cq7001.jpg",
+      "./image/quartz/cq1195.jpg",
+      "./image/quartz/cq7010.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -849,12 +849,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-35",
     "name": "CQ7001",
-    "image": "image/quartz/cq7001.jpg",
+    "image": "./image/quartz/cq7001.jpg",
     "gallery": [
-      "image/quartz/cq7001.jpg",
-      "image/quartz/cq1195.jpg",
-      "image/quartz/cq7010.jpg",
-      "image/quartz/cq1531.jpg"
+      "./image/quartz/cq7001.jpg",
+      "./image/quartz/cq1195.jpg",
+      "./image/quartz/cq7010.jpg",
+      "./image/quartz/cq1531.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -870,12 +870,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-36",
     "name": "CQ1195",
-    "image": "image/quartz/cq1195.jpg",
+    "image": "./image/quartz/cq1195.jpg",
     "gallery": [
-      "image/quartz/cq1195.jpg",
-      "image/quartz/cq7010.jpg",
-      "image/quartz/cq1531.jpg",
-      "image/quartz/cq7011.jpg"
+      "./image/quartz/cq1195.jpg",
+      "./image/quartz/cq7010.jpg",
+      "./image/quartz/cq1531.jpg",
+      "./image/quartz/cq7011.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -891,12 +891,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-37",
     "name": "CQ7010",
-    "image": "image/quartz/cq7010.jpg",
+    "image": "./image/quartz/cq7010.jpg",
     "gallery": [
-      "image/quartz/cq7010.jpg",
-      "image/quartz/cq1531.jpg",
-      "image/quartz/cq7011.jpg",
-      "image/quartz/cq1478.jpg"
+      "./image/quartz/cq7010.jpg",
+      "./image/quartz/cq1531.jpg",
+      "./image/quartz/cq7011.jpg",
+      "./image/quartz/cq1478.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -912,12 +912,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-38",
     "name": "CQ1531",
-    "image": "image/quartz/cq1531.jpg",
+    "image": "./image/quartz/cq1531.jpg",
     "gallery": [
-      "image/quartz/cq1531.jpg",
-      "image/quartz/cq7011.jpg",
-      "image/quartz/cq1478.jpg",
-      "image/quartz/cq1560.jpg"
+      "./image/quartz/cq1531.jpg",
+      "./image/quartz/cq7011.jpg",
+      "./image/quartz/cq1478.jpg",
+      "./image/quartz/cq1560.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -933,12 +933,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-39",
     "name": "CQ7011",
-    "image": "image/quartz/cq7011.jpg",
+    "image": "./image/quartz/cq7011.jpg",
     "gallery": [
-      "image/quartz/cq7011.jpg",
-      "image/quartz/cq1478.jpg",
-      "image/quartz/cq1560.jpg",
-      "image/quartz/cq1703.jpg"
+      "./image/quartz/cq7011.jpg",
+      "./image/quartz/cq1478.jpg",
+      "./image/quartz/cq1560.jpg",
+      "./image/quartz/cq1703.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -954,12 +954,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-40",
     "name": "CQ1478",
-    "image": "image/quartz/cq1478.jpg",
+    "image": "./image/quartz/cq1478.jpg",
     "gallery": [
-      "image/quartz/cq1478.jpg",
-      "image/quartz/cq1560.jpg",
-      "image/quartz/cq1703.jpg",
-      "image/quartz/cq1565.jpg"
+      "./image/quartz/cq1478.jpg",
+      "./image/quartz/cq1560.jpg",
+      "./image/quartz/cq1703.jpg",
+      "./image/quartz/cq1565.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -975,12 +975,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-41",
     "name": "CQ1560",
-    "image": "image/quartz/cq1560.jpg",
+    "image": "./image/quartz/cq1560.jpg",
     "gallery": [
-      "image/quartz/cq1560.jpg",
-      "image/quartz/cq1703.jpg",
-      "image/quartz/cq1565.jpg",
-      "image/quartz/cq7016.jpg"
+      "./image/quartz/cq1560.jpg",
+      "./image/quartz/cq1703.jpg",
+      "./image/quartz/cq1565.jpg",
+      "./image/quartz/cq7016.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -996,12 +996,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-42",
     "name": "CQ1703",
-    "image": "image/quartz/cq1703.jpg",
+    "image": "./image/quartz/cq1703.jpg",
     "gallery": [
-      "image/quartz/cq1703.jpg",
-      "image/quartz/cq1565.jpg",
-      "image/quartz/cq7016.jpg",
-      "image/quartz/cq1196.jpg"
+      "./image/quartz/cq1703.jpg",
+      "./image/quartz/cq1565.jpg",
+      "./image/quartz/cq7016.jpg",
+      "./image/quartz/cq1196.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1017,12 +1017,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-43",
     "name": "CQ1565",
-    "image": "image/quartz/cq1565.jpg",
+    "image": "./image/quartz/cq1565.jpg",
     "gallery": [
-      "image/quartz/cq1565.jpg",
-      "image/quartz/cq7016.jpg",
-      "image/quartz/cq1196.jpg",
-      "image/quartz/cq7004.jpg"
+      "./image/quartz/cq1565.jpg",
+      "./image/quartz/cq7016.jpg",
+      "./image/quartz/cq1196.jpg",
+      "./image/quartz/cq7004.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1038,12 +1038,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-44",
     "name": "CQ7016",
-    "image": "image/quartz/cq7016.jpg",
+    "image": "./image/quartz/cq7016.jpg",
     "gallery": [
-      "image/quartz/cq7016.jpg",
-      "image/quartz/cq1196.jpg",
-      "image/quartz/cq7004.jpg",
-      "image/quartz/cq7012.jpg"
+      "./image/quartz/cq7016.jpg",
+      "./image/quartz/cq1196.jpg",
+      "./image/quartz/cq7004.jpg",
+      "./image/quartz/cq7012.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1059,12 +1059,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-45",
     "name": "CQ1196",
-    "image": "image/quartz/cq1196.jpg",
+    "image": "./image/quartz/cq1196.jpg",
     "gallery": [
-      "image/quartz/cq1196.jpg",
-      "image/quartz/cq7004.jpg",
-      "image/quartz/cq7012.jpg",
-      "image/quartz/cq4005.jpg"
+      "./image/quartz/cq1196.jpg",
+      "./image/quartz/cq7004.jpg",
+      "./image/quartz/cq7012.jpg",
+      "./image/quartz/cq4005.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1080,12 +1080,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-46",
     "name": "CQ7004",
-    "image": "image/quartz/cq7004.jpg",
+    "image": "./image/quartz/cq7004.jpg",
     "gallery": [
-      "image/quartz/cq7004.jpg",
-      "image/quartz/cq7012.jpg",
-      "image/quartz/cq4005.jpg",
-      "image/quartz/cq1216.jpg"
+      "./image/quartz/cq7004.jpg",
+      "./image/quartz/cq7012.jpg",
+      "./image/quartz/cq4005.jpg",
+      "./image/quartz/cq1216.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1101,12 +1101,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-47",
     "name": "CQ7012",
-    "image": "image/quartz/cq7012.jpg",
+    "image": "./image/quartz/cq7012.jpg",
     "gallery": [
-      "image/quartz/cq7012.jpg",
-      "image/quartz/cq4005.jpg",
-      "image/quartz/cq1216.jpg",
-      "image/quartz/cq7009.jpg"
+      "./image/quartz/cq7012.jpg",
+      "./image/quartz/cq4005.jpg",
+      "./image/quartz/cq1216.jpg",
+      "./image/quartz/cq7009.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1122,12 +1122,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-48",
     "name": "CQ4005",
-    "image": "image/quartz/cq4005.jpg",
+    "image": "./image/quartz/cq4005.jpg",
     "gallery": [
-      "image/quartz/cq4005.jpg",
-      "image/quartz/cq1216.jpg",
-      "image/quartz/cq7009.jpg",
-      "image/quartz/cq4002.jpg"
+      "./image/quartz/cq4005.jpg",
+      "./image/quartz/cq1216.jpg",
+      "./image/quartz/cq7009.jpg",
+      "./image/quartz/cq4002.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1143,12 +1143,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-49",
     "name": "CQ1216",
-    "image": "image/quartz/cq1216.jpg",
+    "image": "./image/quartz/cq1216.jpg",
     "gallery": [
-      "image/quartz/cq1216.jpg",
-      "image/quartz/cq7009.jpg",
-      "image/quartz/cq4002.jpg",
-      "image/quartz/cq4022.jpg"
+      "./image/quartz/cq1216.jpg",
+      "./image/quartz/cq7009.jpg",
+      "./image/quartz/cq4002.jpg",
+      "./image/quartz/cq4022.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1164,12 +1164,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-50",
     "name": "CQ7009",
-    "image": "image/quartz/cq7009.jpg",
+    "image": "./image/quartz/cq7009.jpg",
     "gallery": [
-      "image/quartz/cq7009.jpg",
-      "image/quartz/cq4002.jpg",
-      "image/quartz/cq4022.jpg",
-      "image/quartz/cq1214.jpg"
+      "./image/quartz/cq7009.jpg",
+      "./image/quartz/cq4002.jpg",
+      "./image/quartz/cq4022.jpg",
+      "./image/quartz/cq1214.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1185,12 +1185,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-51",
     "name": "CQ4002",
-    "image": "image/quartz/cq4002.jpg",
+    "image": "./image/quartz/cq4002.jpg",
     "gallery": [
-      "image/quartz/cq4002.jpg",
-      "image/quartz/cq4022.jpg",
-      "image/quartz/cq1214.jpg",
-      "image/quartz/cq7014.jpg"
+      "./image/quartz/cq4002.jpg",
+      "./image/quartz/cq4022.jpg",
+      "./image/quartz/cq1214.jpg",
+      "./image/quartz/cq7014.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1206,12 +1206,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-52",
     "name": "CQ4022",
-    "image": "image/quartz/cq4022.jpg",
+    "image": "./image/quartz/cq4022.jpg",
     "gallery": [
-      "image/quartz/cq4022.jpg",
-      "image/quartz/cq1214.jpg",
-      "image/quartz/cq7014.jpg",
-      "image/quartz/cq7015.jpg"
+      "./image/quartz/cq4022.jpg",
+      "./image/quartz/cq1214.jpg",
+      "./image/quartz/cq7014.jpg",
+      "./image/quartz/cq7015.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1227,12 +1227,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-53",
     "name": "CQ1214",
-    "image": "image/quartz/cq1214.jpg",
+    "image": "./image/quartz/cq1214.jpg",
     "gallery": [
-      "image/quartz/cq1214.jpg",
-      "image/quartz/cq7014.jpg",
-      "image/quartz/cq7015.jpg",
-      "image/quartz/cq1529.jpg"
+      "./image/quartz/cq1214.jpg",
+      "./image/quartz/cq7014.jpg",
+      "./image/quartz/cq7015.jpg",
+      "./image/quartz/cq1529.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1248,12 +1248,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-54",
     "name": "CQ7014",
-    "image": "image/quartz/cq7014.jpg",
+    "image": "./image/quartz/cq7014.jpg",
     "gallery": [
-      "image/quartz/cq7014.jpg",
-      "image/quartz/cq7015.jpg",
-      "image/quartz/cq1529.jpg",
-      "image/quartz/cq7003.jpg"
+      "./image/quartz/cq7014.jpg",
+      "./image/quartz/cq7015.jpg",
+      "./image/quartz/cq1529.jpg",
+      "./image/quartz/cq7003.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1269,12 +1269,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-55",
     "name": "CQ7015",
-    "image": "image/quartz/cq7015.jpg",
+    "image": "./image/quartz/cq7015.jpg",
     "gallery": [
-      "image/quartz/cq7015.jpg",
-      "image/quartz/cq1529.jpg",
-      "image/quartz/cq7003.jpg",
-      "image/quartz/cq4006.jpg"
+      "./image/quartz/cq7015.jpg",
+      "./image/quartz/cq1529.jpg",
+      "./image/quartz/cq7003.jpg",
+      "./image/quartz/cq4006.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1290,12 +1290,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-56",
     "name": "CQ1529",
-    "image": "image/quartz/cq1529.jpg",
+    "image": "./image/quartz/cq1529.jpg",
     "gallery": [
-      "image/quartz/cq1529.jpg",
-      "image/quartz/cq7003.jpg",
-      "image/quartz/cq4006.jpg",
-      "image/quartz/cq1694.jpg"
+      "./image/quartz/cq1529.jpg",
+      "./image/quartz/cq7003.jpg",
+      "./image/quartz/cq4006.jpg",
+      "./image/quartz/cq1694.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1311,12 +1311,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-57",
     "name": "CQ7003",
-    "image": "image/quartz/cq7003.jpg",
+    "image": "./image/quartz/cq7003.jpg",
     "gallery": [
-      "image/quartz/cq7003.jpg",
-      "image/quartz/cq4006.jpg",
-      "image/quartz/cq1694.jpg",
-      "image/quartz/cq4026.jpg"
+      "./image/quartz/cq7003.jpg",
+      "./image/quartz/cq4006.jpg",
+      "./image/quartz/cq1694.jpg",
+      "./image/quartz/cq4026.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1332,12 +1332,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-58",
     "name": "CQ4006",
-    "image": "image/quartz/cq4006.jpg",
+    "image": "./image/quartz/cq4006.jpg",
     "gallery": [
-      "image/quartz/cq4006.jpg",
-      "image/quartz/cq1694.jpg",
-      "image/quartz/cq4026.jpg",
-      "image/quartz/cq4009.jpg"
+      "./image/quartz/cq4006.jpg",
+      "./image/quartz/cq1694.jpg",
+      "./image/quartz/cq4026.jpg",
+      "./image/quartz/cq4009.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1353,12 +1353,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-59",
     "name": "CQ1694",
-    "image": "image/quartz/cq1694.jpg",
+    "image": "./image/quartz/cq1694.jpg",
     "gallery": [
-      "image/quartz/cq1694.jpg",
-      "image/quartz/cq4026.jpg",
-      "image/quartz/cq4009.jpg",
-      "image/quartz/cq1674.jpg"
+      "./image/quartz/cq1694.jpg",
+      "./image/quartz/cq4026.jpg",
+      "./image/quartz/cq4009.jpg",
+      "./image/quartz/cq1674.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1374,12 +1374,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-60",
     "name": "CQ4026",
-    "image": "image/quartz/cq4026.jpg",
+    "image": "./image/quartz/cq4026.jpg",
     "gallery": [
-      "image/quartz/cq4026.jpg",
-      "image/quartz/cq4009.jpg",
-      "image/quartz/cq1674.jpg",
-      "image/quartz/cq1547.jpg"
+      "./image/quartz/cq4026.jpg",
+      "./image/quartz/cq4009.jpg",
+      "./image/quartz/cq1674.jpg",
+      "./image/quartz/cq1547.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1395,12 +1395,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-61",
     "name": "CQ4009",
-    "image": "image/quartz/cq4009.jpg",
+    "image": "./image/quartz/cq4009.jpg",
     "gallery": [
-      "image/quartz/cq4009.jpg",
-      "image/quartz/cq1674.jpg",
-      "image/quartz/cq1547.jpg",
-      "image/quartz/cq1525.jpg"
+      "./image/quartz/cq4009.jpg",
+      "./image/quartz/cq1674.jpg",
+      "./image/quartz/cq1547.jpg",
+      "./image/quartz/cq1525.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1416,11 +1416,11 @@ const BMC_CATALOG = [
   {
     "id": "catalog-62",
     "name": "CQ1674",
-    "image": "image/quartz/cq1674.jpg",
+    "image": "./image/quartz/cq1674.jpg",
     "gallery": [
-      "image/quartz/cq1674.jpg",
-      "image/quartz/cq1547.jpg",
-      "image/quartz/cq1525.jpg"
+      "./image/quartz/cq1674.jpg",
+      "./image/quartz/cq1547.jpg",
+      "./image/quartz/cq1525.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1436,10 +1436,10 @@ const BMC_CATALOG = [
   {
     "id": "catalog-63",
     "name": "CQ1547",
-    "image": "image/quartz/cq1547.jpg",
+    "image": "./image/quartz/cq1547.jpg",
     "gallery": [
-      "image/quartz/cq1547.jpg",
-      "image/quartz/cq1525.jpg"
+      "./image/quartz/cq1547.jpg",
+      "./image/quartz/cq1525.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1455,12 +1455,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-64",
     "name": "CQ1525",
-    "image": "image/quartz/cq1525.jpg",
+    "image": "./image/quartz/cq1525.jpg",
     "gallery": [
-      "image/quartz/cq1902.jpg",
-      "image/quartz/cq1532.jpg",
-      "image/quartz/cq1540.jpg",
-      "image/quartz/cq118.jpg"
+      "./image/quartz/cq1902.jpg",
+      "./image/quartz/cq1532.jpg",
+      "./image/quartz/cq1540.jpg",
+      "./image/quartz/cq118.jpg"
     ],
     "category": "quartz",
     "categoryLabel": "หินควอตซ์",
@@ -1476,12 +1476,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-65",
     "name": "M-AS018-1",
-    "image": "image/mosaic-original/m-as018-1.jpg",
+    "image": "./image/mosaic-original/m-as018-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1497,12 +1497,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-66",
     "name": "M-AS003-3",
-    "image": "image/mosaic-original/m-as003-3.jpg",
+    "image": "./image/mosaic-original/m-as003-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1518,12 +1518,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-67",
     "name": "M-AS010-1",
-    "image": "image/mosaic-original/m-as010-1.jpg",
+    "image": "./image/mosaic-original/m-as010-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1539,12 +1539,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-68",
     "name": "M-AS032-1",
-    "image": "image/mosaic-original/m-as032-1.jpg",
+    "image": "./image/mosaic-original/m-as032-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1560,12 +1560,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-69",
     "name": "M-AS067-4",
-    "image": "image/mosaic-original/m-as067-4.jpg",
+    "image": "./image/mosaic-original/m-as067-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1581,12 +1581,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-70",
     "name": "M-AS067-7",
-    "image": "image/mosaic-original/m-as067-7.jpg",
+    "image": "./image/mosaic-original/m-as067-7.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1602,12 +1602,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-71",
     "name": "M-AS007-2",
-    "image": "image/mosaic-original/m-as007-2.jpg",
+    "image": "./image/mosaic-original/m-as007-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1623,12 +1623,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-72",
     "name": "M-AS014-1",
-    "image": "image/mosaic-original/m-as014-1.jpg",
+    "image": "./image/mosaic-original/m-as014-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1644,12 +1644,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-73",
     "name": "M-AS067-1",
-    "image": "image/mosaic-original/m-as067-1.jpg",
+    "image": "./image/mosaic-original/m-as067-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1665,12 +1665,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-74",
     "name": "M-AS002-1",
-    "image": "image/mosaic-original/m-as002-1.jpg",
+    "image": "./image/mosaic-original/m-as002-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1686,12 +1686,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-75",
     "name": "M-AS023-5",
-    "image": "image/mosaic-original/m-as023-5.jpg",
+    "image": "./image/mosaic-original/m-as023-5.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1707,12 +1707,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-76",
     "name": "M-AS002-4",
-    "image": "image/mosaic-original/m-as002-4.jpg",
+    "image": "./image/mosaic-original/m-as002-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1728,12 +1728,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-77",
     "name": "M-AS071-1",
-    "image": "image/mosaic-original/m-as071-1.jpg",
+    "image": "./image/mosaic-original/m-as071-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1749,12 +1749,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-78",
     "name": "M-AS002-5",
-    "image": "image/mosaic-original/m-as002-5.jpg",
+    "image": "./image/mosaic-original/m-as002-5.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1770,12 +1770,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-79",
     "name": "M-AG010-5",
-    "image": "image/mosaic-original/m-ag010-5.jpg",
+    "image": "./image/mosaic-original/m-ag010-5.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1791,12 +1791,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-80",
     "name": "M-AS008-3",
-    "image": "image/mosaic-original/m-as008-3.jpg",
+    "image": "./image/mosaic-original/m-as008-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1812,12 +1812,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-81",
     "name": "M-AS069-1",
-    "image": "image/mosaic-original/m-as069-1.jpg",
+    "image": "./image/mosaic-original/m-as069-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1833,12 +1833,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-82",
     "name": "M-AS004-2",
-    "image": "image/mosaic-original/m-as004-2.jpg",
+    "image": "./image/mosaic-original/m-as004-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1854,12 +1854,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-83",
     "name": "M-AS035-2",
-    "image": "image/mosaic-original/m-as035-2.jpg",
+    "image": "./image/mosaic-original/m-as035-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1875,12 +1875,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-84",
     "name": "M-AG011-2",
-    "image": "image/mosaic-original/m-ag011-2.jpg",
+    "image": "./image/mosaic-original/m-ag011-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1896,12 +1896,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-85",
     "name": "M-AS023-3",
-    "image": "image/mosaic-original/m-as023-3.jpg",
+    "image": "./image/mosaic-original/m-as023-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1917,12 +1917,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-86",
     "name": "M-AG012-6",
-    "image": "image/mosaic-original/m-ag012-6.jpg",
+    "image": "./image/mosaic-original/m-ag012-6.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1938,12 +1938,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-87",
     "name": "M-AS071-2",
-    "image": "image/mosaic-original/m-as071-2.jpg",
+    "image": "./image/mosaic-original/m-as071-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1959,12 +1959,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-88",
     "name": "M-AS067-3",
-    "image": "image/mosaic-original/m-as067-3.jpg",
+    "image": "./image/mosaic-original/m-as067-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -1980,12 +1980,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-89",
     "name": "M-AS043-1",
-    "image": "image/mosaic-original/m-as043-1.jpg",
+    "image": "./image/mosaic-original/m-as043-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2001,12 +2001,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-90",
     "name": "M-AS020-3",
-    "image": "image/mosaic-original/m-as020-3.jpg",
+    "image": "./image/mosaic-original/m-as020-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2022,12 +2022,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-91",
     "name": "M-AS085-1",
-    "image": "image/mosaic-original/m-as085-1.jpg",
+    "image": "./image/mosaic-original/m-as085-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2043,12 +2043,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-92",
     "name": "M-AG011-3",
-    "image": "image/mosaic-original/m-ag011-3.jpg",
+    "image": "./image/mosaic-original/m-ag011-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2064,12 +2064,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-93",
     "name": "M-AS050-3",
-    "image": "image/mosaic-original/m-as050-3.jpg",
+    "image": "./image/mosaic-original/m-as050-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2085,12 +2085,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-94",
     "name": "M-AS028-2",
-    "image": "image/mosaic-original/m-as028-2.jpg",
+    "image": "./image/mosaic-original/m-as028-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2106,12 +2106,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-95",
     "name": "M-AS038-1",
-    "image": "image/mosaic-original/m-as038-1.jpg",
+    "image": "./image/mosaic-original/m-as038-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg",
-      "image/mosaic-original/m-as030-1.jpg"
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg",
+      "./image/mosaic-original/m-as030-1.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2127,12 +2127,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-96",
     "name": "M-AG012-4",
-    "image": "image/mosaic-original/m-ag012-4.jpg",
+    "image": "./image/mosaic-original/m-ag012-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg",
-      "image/mosaic-original/m-as030-1.jpg",
-      "image/mosaic-original/m-as070-3.jpg"
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg",
+      "./image/mosaic-original/m-as030-1.jpg",
+      "./image/mosaic-original/m-as070-3.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2148,12 +2148,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-97",
     "name": "M-AS044-2",
-    "image": "image/mosaic-original/m-as044-2.jpg",
+    "image": "./image/mosaic-original/m-as044-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2169,12 +2169,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-98",
     "name": "M-AS030-1",
-    "image": "image/mosaic-original/m-as030-1.jpg",
+    "image": "./image/mosaic-original/m-as030-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2190,12 +2190,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-99",
     "name": "M-AS070-3",
-    "image": "image/mosaic-original/m-as070-3.jpg",
+    "image": "./image/mosaic-original/m-as070-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2211,12 +2211,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-100",
     "name": "M-AS067-6",
-    "image": "image/mosaic-original/m-as067-6.jpg",
+    "image": "./image/mosaic-original/m-as067-6.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2232,12 +2232,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-101",
     "name": "M-AS024-1",
-    "image": "image/mosaic-original/m-as024-1.jpg",
+    "image": "./image/mosaic-original/m-as024-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2253,12 +2253,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-102",
     "name": "M-AS068-1",
-    "image": "image/mosaic-original/m-as068-1.jpg",
+    "image": "./image/mosaic-original/m-as068-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2274,12 +2274,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-103",
     "name": "M-AS020-2",
-    "image": "image/mosaic-original/m-as020-2.jpg",
+    "image": "./image/mosaic-original/m-as020-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2295,12 +2295,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-104",
     "name": "M-AS026-1",
-    "image": "image/mosaic-original/m-as026-1.jpg",
+    "image": "./image/mosaic-original/m-as026-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2316,12 +2316,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-105",
     "name": "M-AS034-1",
-    "image": "image/mosaic-original/m-as034-1.jpg",
+    "image": "./image/mosaic-original/m-as034-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2337,12 +2337,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-106",
     "name": "M-AS003-4",
-    "image": "image/mosaic-original/m-as003-4.jpg",
+    "image": "./image/mosaic-original/m-as003-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2358,12 +2358,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-107",
     "name": "M-AS023-4",
-    "image": "image/mosaic-original/m-as023-4.jpg",
+    "image": "./image/mosaic-original/m-as023-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2379,12 +2379,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-108",
     "name": "M-AS091-1",
-    "image": "image/mosaic-original/m-as091-1.jpg",
+    "image": "./image/mosaic-original/m-as091-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2400,12 +2400,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-109",
     "name": "M-AS045-1",
-    "image": "image/mosaic-original/m-as045-1.jpg",
+    "image": "./image/mosaic-original/m-as045-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2421,12 +2421,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-110",
     "name": "M-AS008-7",
-    "image": "image/mosaic-original/m-as008-7.jpg",
+    "image": "./image/mosaic-original/m-as008-7.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2442,12 +2442,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-111",
     "name": "M-AS016-1",
-    "image": "image/mosaic-original/m-as016-1.jpg",
+    "image": "./image/mosaic-original/m-as016-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2463,12 +2463,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-112",
     "name": "M-AS004-3",
-    "image": "image/mosaic-original/m-as004-3.jpg",
+    "image": "./image/mosaic-original/m-as004-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2484,12 +2484,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-113",
     "name": "M-AS044-1",
-    "image": "image/mosaic-original/m-as044-1.jpg",
+    "image": "./image/mosaic-original/m-as044-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2505,12 +2505,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-114",
     "name": "M-AS061-1",
-    "image": "image/mosaic-original/m-as061-1.jpg",
+    "image": "./image/mosaic-original/m-as061-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2526,12 +2526,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-115",
     "name": "M-AM023-1",
-    "image": "image/mosaic-original/m-am023-1.jpg",
+    "image": "./image/mosaic-original/m-am023-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2547,12 +2547,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-116",
     "name": "M-AS0223-3",
-    "image": "image/mosaic-original/m-as0223-3.jpg",
+    "image": "./image/mosaic-original/m-as0223-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2568,12 +2568,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-117",
     "name": "M-AS086-1",
-    "image": "image/mosaic-original/m-as086-1.jpg",
+    "image": "./image/mosaic-original/m-as086-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2589,12 +2589,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-118",
     "name": "M-AS007-1",
-    "image": "image/mosaic-original/m-as007-1.jpg",
+    "image": "./image/mosaic-original/m-as007-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2610,12 +2610,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-119",
     "name": "M-AG012-1",
-    "image": "image/mosaic-original/m-ag012-1.jpg",
+    "image": "./image/mosaic-original/m-ag012-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2631,12 +2631,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-120",
     "name": "M-AS041-2",
-    "image": "image/mosaic-original/m-as041-2.jpg",
+    "image": "./image/mosaic-original/m-as041-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2652,12 +2652,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-121",
     "name": "M-AG010-3",
-    "image": "image/mosaic-original/m-ag010-3.jpg",
+    "image": "./image/mosaic-original/m-ag010-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2673,12 +2673,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-122",
     "name": "M-AS012-1",
-    "image": "image/mosaic-original/m-as012-1.jpg",
+    "image": "./image/mosaic-original/m-as012-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2694,12 +2694,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-123",
     "name": "M-AS088-1",
-    "image": "image/mosaic-original/m-as088-1.jpg",
+    "image": "./image/mosaic-original/m-as088-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2715,12 +2715,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-124",
     "name": "M-AS008-5",
-    "image": "image/mosaic-original/m-as008-5.jpg",
+    "image": "./image/mosaic-original/m-as008-5.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2736,12 +2736,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-125",
     "name": "M-AS084-1",
-    "image": "image/mosaic-original/m-as084-1.jpg",
+    "image": "./image/mosaic-original/m-as084-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2757,12 +2757,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-126",
     "name": "M-AS008-4",
-    "image": "image/mosaic-original/m-as008-4.jpg",
+    "image": "./image/mosaic-original/m-as008-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2778,12 +2778,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-127",
     "name": "M-AS015-1",
-    "image": "image/mosaic-original/m-as015-1.jpg",
+    "image": "./image/mosaic-original/m-as015-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2799,12 +2799,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-128",
     "name": "M-AS008-1",
-    "image": "image/mosaic-original/m-as008-1.jpg",
+    "image": "./image/mosaic-original/m-as008-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2820,12 +2820,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-129",
     "name": "M-AS060-3",
-    "image": "image/mosaic-original/m-as060-3.jpg",
+    "image": "./image/mosaic-original/m-as060-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2841,12 +2841,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-130",
     "name": "M-AS025-1",
-    "image": "image/mosaic-original/m-as025-1.jpg",
+    "image": "./image/mosaic-original/m-as025-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2862,12 +2862,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-131",
     "name": "M-AS068-3",
-    "image": "image/mosaic-original/m-as068-3.jpg",
+    "image": "./image/mosaic-original/m-as068-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2883,12 +2883,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-132",
     "name": "M-AS017-1",
-    "image": "image/mosaic-original/m-as017-1.jpg",
+    "image": "./image/mosaic-original/m-as017-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2904,12 +2904,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-133",
     "name": "M-AS021-2",
-    "image": "image/mosaic-original/m-as021-2.jpg",
+    "image": "./image/mosaic-original/m-as021-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2925,12 +2925,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-134",
     "name": "M-AG010-6",
-    "image": "image/mosaic-original/m-ag010-6.jpg",
+    "image": "./image/mosaic-original/m-ag010-6.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2946,12 +2946,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-135",
     "name": "M-AS047-2",
-    "image": "image/mosaic-original/m-as047-2.jpg",
+    "image": "./image/mosaic-original/m-as047-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2967,12 +2967,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-136",
     "name": "M-AS066-1",
-    "image": "image/mosaic-original/m-as066-1.jpg",
+    "image": "./image/mosaic-original/m-as066-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -2988,12 +2988,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-137",
     "name": "M-AS002-2",
-    "image": "image/mosaic-original/m-as002-2.jpg",
+    "image": "./image/mosaic-original/m-as002-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3009,12 +3009,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-138",
     "name": "M-AS008-2",
-    "image": "image/mosaic-original/m-as008-2.jpg",
+    "image": "./image/mosaic-original/m-as008-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3030,12 +3030,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-139",
     "name": "M-AS073-4",
-    "image": "image/mosaic-original/m-as073-4.jpg",
+    "image": "./image/mosaic-original/m-as073-4.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3051,12 +3051,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-140",
     "name": "M-AS036-1",
-    "image": "image/mosaic-original/m-as036-1.jpg",
+    "image": "./image/mosaic-original/m-as036-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3072,12 +3072,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-141",
     "name": "M-AS003-1",
-    "image": "image/mosaic-original/m-as003-1.jpg",
+    "image": "./image/mosaic-original/m-as003-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3093,12 +3093,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-142",
     "name": "M-AS002-3",
-    "image": "image/mosaic-original/m-as002-3.jpg",
+    "image": "./image/mosaic-original/m-as002-3.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3114,12 +3114,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-143",
     "name": "M-AS004-1",
-    "image": "image/mosaic-original/m-as004-1.jpg",
+    "image": "./image/mosaic-original/m-as004-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3135,12 +3135,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-144",
     "name": "M-AG010-2",
-    "image": "image/mosaic-original/m-ag010-2.jpg",
+    "image": "./image/mosaic-original/m-ag010-2.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3156,12 +3156,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-145",
     "name": "M-AS060-1",
-    "image": "image/mosaic-original/m-as060-1.jpg",
+    "image": "./image/mosaic-original/m-as060-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3177,12 +3177,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-146",
     "name": "M-AG010-1",
-    "image": "image/mosaic-original/m-ag010-1.jpg",
+    "image": "./image/mosaic-original/m-ag010-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3198,12 +3198,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-147",
     "name": "M-AS064-1",
-    "image": "image/mosaic-original/m-as064-1.jpg",
+    "image": "./image/mosaic-original/m-as064-1.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3219,12 +3219,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-148",
     "name": "M-AS002-6",
-    "image": "image/mosaic-original/m-as002-6.jpg",
+    "image": "./image/mosaic-original/m-as002-6.jpg",
     "gallery": [
-      "image/mosaic-original/m-as028-2.jpg",
-      "image/mosaic-original/m-as038-1.jpg",
-      "image/mosaic-original/m-ag012-4.jpg",
-      "image/mosaic-original/m-as044-2.jpg"
+      "./image/mosaic-original/m-as028-2.jpg",
+      "./image/mosaic-original/m-as038-1.jpg",
+      "./image/mosaic-original/m-ag012-4.jpg",
+      "./image/mosaic-original/m-as044-2.jpg"
     ],
     "category": "mosaic",
     "categoryLabel": "โมเสค",
@@ -3240,12 +3240,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-149",
     "name": "TG027 Blue Pearl-บูลเพิลร์-",
-    "image": "image/granite-watermark/tg027-blue-pearl.jpg",
+    "image": "./image/granite-watermark/tg027-blue-pearl.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3261,12 +3261,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-150",
     "name": "G562 Orange Bloom-ออเรนจ์บูม",
-    "image": "image/granite-watermark/g562-orange-bloom.jpg",
+    "image": "./image/granite-watermark/g562-orange-bloom.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3282,12 +3282,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-151",
     "name": "GL500 Light Black-ไรท์แบล็ค",
-    "image": "image/granite-watermark/gl500-light-black.jpg",
+    "image": "./image/granite-watermark/gl500-light-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3303,12 +3303,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-152",
     "name": "G602 White Lotus-ไวท์โลตัส",
-    "image": "image/granite-watermark/g602-white-lotus.jpg",
+    "image": "./image/granite-watermark/g602-white-lotus.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3324,12 +3324,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-153",
     "name": "G912 Shanxi Black-ดำซาซี",
-    "image": "image/granite-watermark/g912-shanxi-black.jpg",
+    "image": "./image/granite-watermark/g912-shanxi-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3345,12 +3345,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-154",
     "name": "G654 Black Dot-ดำลายจุด",
-    "image": "image/granite-watermark/g654-black-dot.jpg",
+    "image": "./image/granite-watermark/g654-black-dot.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3366,12 +3366,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-155",
     "name": "TG041 Rose Yellow-โรสเยลโล่",
-    "image": "image/granite-watermark/tg041-rose-yellow.jpg",
+    "image": "./image/granite-watermark/tg041-rose-yellow.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3387,12 +3387,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-156",
     "name": "TG038 Royal Crown Black-รอยอล์คราว์แบ็ค",
-    "image": "image/granite-watermark/tg038-royal-crown-black.jpg",
+    "image": "./image/granite-watermark/tg038-royal-crown-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3408,12 +3408,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-157",
     "name": "G365  Yellow Snow-เหลืองเกล็ดหิมะ",
-    "image": "image/granite-watermark/g365-yellow-snow.jpg",
+    "image": "./image/granite-watermark/g365-yellow-snow.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3429,12 +3429,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-158",
     "name": "G908 Rawsilk-รอลซิล",
-    "image": "image/granite-watermark/g908-rawsilk.jpg",
+    "image": "./image/granite-watermark/g908-rawsilk.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3450,12 +3450,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-159",
     "name": "TG049 Royal Champagne-รอยัลแชมเปญ",
-    "image": "image/granite-watermark/tg049-royal-champagne.jpg",
+    "image": "./image/granite-watermark/tg049-royal-champagne.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3471,12 +3471,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-160",
     "name": "GL1000 Absolue Black-แอ๊บโซลูทแบล็ค",
-    "image": "image/granite-watermark/gl1000-absolue-black.jpg",
+    "image": "./image/granite-watermark/gl1000-absolue-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3492,12 +3492,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-161",
     "name": "TG040 Yellow Bazil-เหลืองบราซิล",
-    "image": "image/granite-watermark/tg040-yellow-bazil.jpg",
+    "image": "./image/granite-watermark/tg040-yellow-bazil.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3513,12 +3513,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-162",
     "name": "G655 Dark Flower-ดาร์ก ฟลาวเวอร์",
-    "image": "image/granite-watermark/g655-dark-flower.jpg",
+    "image": "./image/granite-watermark/g655-dark-flower.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3534,12 +3534,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-163",
     "name": "G915 Cherry Red- เชอร์รี่เรด",
-    "image": "image/granite-watermark/g915-cherry-red.jpg",
+    "image": "./image/granite-watermark/g915-cherry-red.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3555,12 +3555,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-164",
     "name": "G681 Camilian Pink-คามิเลียพิงค์",
-    "image": "image/granite-watermark/g681-camilian-pink.jpg",
+    "image": "./image/granite-watermark/g681-camilian-pink.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3576,12 +3576,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-165",
     "name": "G623 เทาจีน",
-    "image": "image/granite-watermark/g623.jpg",
+    "image": "./image/granite-watermark/g623.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3597,12 +3597,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-166",
     "name": "G657 พิงค์เพอร์ริโน่",
-    "image": "image/granite-watermark/g657.jpg",
+    "image": "./image/granite-watermark/g657.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3618,12 +3618,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-167",
     "name": "G687 Orange Sakura-ซากุระส้ม",
-    "image": "image/granite-watermark/g687-orange-sakura.jpg",
+    "image": "./image/granite-watermark/g687-orange-sakura.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3639,12 +3639,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-168",
     "name": "TG010 Emeral Pear-เอ็มเมอร์รัลเพิลร์",
-    "image": "image/granite-watermark/tg010-emeral-pear.jpg",
+    "image": "./image/granite-watermark/tg010-emeral-pear.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3660,12 +3660,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-169",
     "name": "G910 White Tiger-ขาวลายเสือ",
-    "image": "image/granite-watermark/g910-white-tiger.jpg",
+    "image": "./image/granite-watermark/g910-white-tiger.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3681,12 +3681,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-170",
     "name": "G911 Red Tiger-แดงลายเสีอ",
-    "image": "image/granite-watermark/g911-red-tiger.jpg",
+    "image": "./image/granite-watermark/g911-red-tiger.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3702,12 +3702,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-171",
     "name": "TG029 Black Africa- ดำอาฟริกา",
-    "image": "image/granite-watermark/tg029-black-africa.jpg",
+    "image": "./image/granite-watermark/tg029-black-africa.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3723,12 +3723,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-172",
     "name": "TG026 Super Black-ซุปเปอร์แบ็ค",
-    "image": "image/granite-watermark/tg026-super-black.jpg",
+    "image": "./image/granite-watermark/tg026-super-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3744,12 +3744,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-173",
     "name": "TF101 Top Black-ท็อปแบล็ค",
-    "image": "image/granite-watermark/tf101-top-black.jpg",
+    "image": "./image/granite-watermark/tf101-top-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3765,12 +3765,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-174",
     "name": "G603 White Snow-ขาวเกร็ดหิมะ",
-    "image": "image/granite-watermark/g603-white-snow.jpg",
+    "image": "./image/granite-watermark/g603-white-snow.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3786,12 +3786,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-175",
     "name": "TG047 Picasso Black-ปิกาโซ ดำ",
-    "image": "image/granite-watermark/tg047-picasso-black.jpg",
+    "image": "./image/granite-watermark/tg047-picasso-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3807,12 +3807,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-176",
     "name": "TG023 India Red- แดงอินเดีย",
-    "image": "image/granite-watermark/tg023-india-red.jpg",
+    "image": "./image/granite-watermark/tg023-india-red.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3828,12 +3828,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-177",
     "name": "TG056 VisconWhite-วิสคอนไวท์",
-    "image": "image/granite-watermark/tg056-visconwhite.jpg",
+    "image": "./image/granite-watermark/tg056-visconwhite.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3849,12 +3849,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-178",
     "name": "TG048 Picasso Gray-ปิกาโซ เทา",
-    "image": "image/granite-watermark/tg048-picasso-gray.jpg",
+    "image": "./image/granite-watermark/tg048-picasso-gray.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3870,12 +3870,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-179",
     "name": "TG002 Black Galaxy-ดำเกล็ดทอง",
-    "image": "image/granite-watermark/tg002-black-galaxy.jpg",
+    "image": "./image/granite-watermark/tg002-black-galaxy.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3891,12 +3891,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-180",
     "name": "TG028 Tanbrown-แทนบาร์ว",
-    "image": "image/granite-watermark/tg028-tanbrown.jpg",
+    "image": "./image/granite-watermark/tg028-tanbrown.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3912,12 +3912,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-181",
     "name": "TG052 White G-ไวท์จี",
-    "image": "image/granite-watermark/tg052-white-g.jpg",
+    "image": "./image/granite-watermark/tg052-white-g.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3933,12 +3933,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-182",
     "name": "TG042 Crown Black-คราว์แบ็ค",
-    "image": "image/granite-watermark/tg042-crown-black.jpg",
+    "image": "./image/granite-watermark/tg042-crown-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3954,12 +3954,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-183",
     "name": "G640 Gray Clasic- เทาคลาสสิค",
-    "image": "image/granite-watermark/g640-gray-clasic.jpg",
+    "image": "./image/granite-watermark/g640-gray-clasic.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3975,12 +3975,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-184",
     "name": "G664 Pink Gems-พลอยชมพู",
-    "image": "image/granite-watermark/g664-pink-gems.jpg",
+    "image": "./image/granite-watermark/g664-pink-gems.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -3996,12 +3996,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-185",
     "name": "G635 Dark Pink Jade-หยกชมพูเข้ม",
-    "image": "image/granite-watermark/g635-dark-pink-jade.jpg",
+    "image": "./image/granite-watermark/g635-dark-pink-jade.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4017,12 +4017,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-186",
     "name": "G636 Light Pink Jade-หยกชมพูอ่อน",
-    "image": "image/granite-watermark/g636-light-pink-jade.jpg",
+    "image": "./image/granite-watermark/g636-light-pink-jade.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4038,12 +4038,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-187",
     "name": "G6571 Mocha-มอคค่า",
-    "image": "image/granite-watermark/g6571-mocha.jpg",
+    "image": "./image/granite-watermark/g6571-mocha.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4059,12 +4059,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-188",
     "name": "G6231 Super Gray-ซุปเปอร์เกรย์",
-    "image": "image/granite-watermark/g6231-super-gray.jpg",
+    "image": "./image/granite-watermark/g6231-super-gray.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4080,12 +4080,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-189",
     "name": "TG011 Spoondrift White-เทาลายเมฆ",
-    "image": "image/granite-watermark/tg011-spoondrift-white.jpg",
+    "image": "./image/granite-watermark/tg011-spoondrift-white.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4101,12 +4101,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-190",
     "name": "G301-3 Black Jubpo- ดำจัปโป้",
-    "image": "image/granite-watermark/g301-3-black-jubpo.jpg",
+    "image": "./image/granite-watermark/g301-3-black-jubpo.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg",
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg",
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -4122,12 +4122,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-191",
     "name": "RDN040 White Gold Beige-ไวท์โกล์ดเบจ",
-    "image": "image/marble-watermark/rdn040-white-gold-beige.jpg",
+    "image": "./image/marble-watermark/rdn040-white-gold-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4143,12 +4143,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-192",
     "name": "RDN035 Cream Italy-ครีมอิตาลี",
-    "image": "image/marble-watermark/rdn035-cream-italy.jpg",
+    "image": "./image/marble-watermark/rdn035-cream-italy.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4164,12 +4164,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-193",
     "name": "RD2002 Venata White-เวนนาตาไวท์",
-    "image": "image/marble-watermark/rd2002-venata-white.jpg",
+    "image": "./image/marble-watermark/rd2002-venata-white.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4185,12 +4185,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-194",
     "name": "CP225 Limestone-ลามสโตน",
-    "image": "image/marble-watermark/cp225-limestone.jpg",
+    "image": "./image/marble-watermark/cp225-limestone.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4206,12 +4206,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-195",
     "name": "RDN014 Rosa Lapanto-โรซ่า ลาปานโต้",
-    "image": "image/marble-watermark/rd5001-rosa-verona.jpg",
+    "image": "./image/marble-watermark/rd5001-rosa-verona.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4227,12 +4227,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-196",
     "name": "RD3001 Travertine Beige-ทาเวอร์ทีน เบจ",
-    "image": "image/marble-watermark/rd3001-travertine-beige.jpg",
+    "image": "./image/marble-watermark/rd3001-travertine-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4248,12 +4248,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-197",
     "name": "CP243 Tiger Beige-ไทเกอร์ เบจ",
-    "image": "image/marble-watermark/cp243-tiger-beige.jpg",
+    "image": "./image/marble-watermark/cp243-tiger-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4269,12 +4269,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-198",
     "name": "RD1006 Silivia Beige-ซิลเวีย เบจ",
-    "image": "image/marble-watermark/rd1006-silivia-beige.jpg",
+    "image": "./image/marble-watermark/rd1006-silivia-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4290,12 +4290,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-199",
     "name": "RDN043 Gray Classic-เกรย์คลาสสิค",
-    "image": "image/marble-watermark/rdn043-gray-classic.jpg",
+    "image": "./image/marble-watermark/rdn043-gray-classic.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4311,12 +4311,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-200",
     "name": "RD1001 Cream Marfil-ครีมมาเฟล",
-    "image": "image/marble-watermark/rd1001-cream-marfil.jpg",
+    "image": "./image/marble-watermark/rd1001-cream-marfil.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4332,12 +4332,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-201",
     "name": "RD1002 Botticino Classico-บิติชิโน่",
-    "image": "image/marble-watermark/rd1002-botticino-classico.jpg",
+    "image": "./image/marble-watermark/rd1002-botticino-classico.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4353,12 +4353,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-202",
     "name": "RDN046 Black Cezar-แบล็คซีซา",
-    "image": "image/marble-watermark/rdn046-black-cezar.jpg",
+    "image": "./image/marble-watermark/rdn046-black-cezar.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4374,12 +4374,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-203",
     "name": "RD5001 Rosa Verona-โรซ่า เวอโรน่า",
-    "image": "image/marble-watermark/rd5001-rosa-verona.jpg",
+    "image": "./image/marble-watermark/rd5001-rosa-verona.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4395,12 +4395,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-204",
     "name": "RDN047 Rustic Gray-รัสติคเกรย์",
-    "image": "image/marble-watermark/rdn047-rustic-gray.jpg",
+    "image": "./image/marble-watermark/rdn047-rustic-gray.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4416,12 +4416,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-205",
     "name": "RDN022 Travertine Gray-ทาเวอร์ทีนเกร์ย",
-    "image": "image/marble-watermark/rdn022-travertine-gray.jpg",
+    "image": "./image/marble-watermark/rdn022-travertine-gray.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4437,12 +4437,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-206",
     "name": "RD5002 Rojo Alicante-โรโจอาคานเต้",
-    "image": "image/marble-watermark/rd5002-rojo-alicante.jpg",
+    "image": "./image/marble-watermark/rd5002-rojo-alicante.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4458,12 +4458,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-207",
     "name": "RD1008 Galala Beige-กาลาล่าเบจ",
-    "image": "image/marble-watermark/rd1008-galala-beige.jpg",
+    "image": "./image/marble-watermark/rd1008-galala-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4479,12 +4479,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-208",
     "name": "RDN038 Golden Dargon-โกลเด้นดาร์กอน (แบล็คฟอร์เรส)",
-    "image": "image/marble-watermark/rdn038-golden-dargon.jpg",
+    "image": "./image/marble-watermark/rdn038-golden-dargon.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4500,12 +4500,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-209",
     "name": "RD1007 Sunny Beige-ซันนี่ เบจ",
-    "image": "image/marble-watermark/rd1007-sunny-beige.jpg",
+    "image": "./image/marble-watermark/rd1007-sunny-beige.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4521,12 +4521,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-210",
     "name": "RD6001 Grand Dark Emperador-แกรนด์ดาคเอ็มเพอร์ราโด",
-    "image": "image/marble-watermark/rd6001-grand-dark-emperador.jpg",
+    "image": "./image/marble-watermark/rd6001-grand-dark-emperador.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4542,12 +4542,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-211",
     "name": "RD6002 Light Emperador-ไรท์ เอ็มเพอร์ราโด",
-    "image": "image/marble-watermark/rd6002-light-emperador.jpg",
+    "image": "./image/marble-watermark/rd6002-light-emperador.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4563,12 +4563,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-212",
     "name": "RDN027 Royal Biticino-รอยัลบิติชิโน่",
-    "image": "image/marble-watermark/rdn027-royal-biticino.jpg",
+    "image": "./image/marble-watermark/rdn027-royal-biticino.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4584,12 +4584,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-213",
     "name": "RD200812 Rain Forest(Polish)-เลน ฟอเรส",
-    "image": "image/marble-watermark/rd200812-rain-forest-polish.jpg",
+    "image": "./image/marble-watermark/rd200812-rain-forest-polish.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4605,12 +4605,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-214",
     "name": "RD6004 Italy Green-เขียว อิตาลี",
-    "image": "image/marble-watermark/rd6004-italy-green.jpg",
+    "image": "./image/marble-watermark/rd6004-italy-green.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4626,12 +4626,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-215",
     "name": "RDN023 Travertine Thai-ทราเวอร์ทีนไทยลายไม้",
-    "image": "image/marble-watermark/rdn023-travertine-thai.jpg",
+    "image": "./image/marble-watermark/rdn023-travertine-thai.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4647,12 +4647,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-216",
     "name": "CP255 Royal Crown-รอยัลคราว",
-    "image": "image/marble-watermark/cp255-royal-crown.jpg",
+    "image": "./image/marble-watermark/cp255-royal-crown.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4668,12 +4668,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-217",
     "name": "RDN036 White Varacas-ไวท์วาราคัส",
-    "image": "image/marble-watermark/rdn036-white-varacas.jpg",
+    "image": "./image/marble-watermark/rdn036-white-varacas.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4689,12 +4689,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-218",
     "name": "RDN013 Black Marquina-แบล็คมาคิวน่า",
-    "image": "image/marble-watermark/rdn013-black-marquina.jpg",
+    "image": "./image/marble-watermark/rdn013-black-marquina.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4710,12 +4710,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-219",
     "name": "RD2003 White Carrara-ไวท์คาราร่า",
-    "image": "image/marble-watermark/rd2003-white-carrara.jpg",
+    "image": "./image/marble-watermark/rd2003-white-carrara.jpg",
     "gallery": [
-      "image/marble-watermark/rdn040-white-gold-beige.jpg",
-      "image/marble-watermark/rdn035-cream-italy.jpg",
-      "image/marble-watermark/rd2002-venata-white.jpg",
-      "image/marble-watermark/cp225-limestone.jpg"
+      "./image/marble-watermark/rdn040-white-gold-beige.jpg",
+      "./image/marble-watermark/rdn035-cream-italy.jpg",
+      "./image/marble-watermark/rd2002-venata-white.jpg",
+      "./image/marble-watermark/cp225-limestone.jpg"
     ],
     "category": "marble",
     "categoryLabel": "หินอ่อน",
@@ -4731,12 +4731,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-220",
     "name": "CTT813",
-    "image": "image/marble-tiles/ctt813.jpg",
+    "image": "./image/marble-tiles/ctt813.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4752,12 +4752,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-221",
     "name": "CTLM20",
-    "image": "image/marble-tiles/ctlm20.jpg",
+    "image": "./image/marble-tiles/ctlm20.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg",
-      "image/marble-tiles/ctk6684a.jpg"
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg",
+      "./image/marble-tiles/ctk6684a.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4773,12 +4773,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-222",
     "name": "CTK6681A",
-    "image": "image/marble-tiles/ctk6681a.jpg",
+    "image": "./image/marble-tiles/ctk6681a.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4794,12 +4794,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-223",
     "name": "CT2-MSD8830P",
-    "image": "image/marble-tiles/ct2-msd8830p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8830p.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4815,12 +4815,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-224",
     "name": "CTK6684A",
-    "image": "image/marble-tiles/ctk6684a.jpg",
+    "image": "./image/marble-tiles/ctk6684a.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4836,12 +4836,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-225",
     "name": "CTK6684D",
-    "image": "image/marble-tiles/ctk6684d.jpg",
+    "image": "./image/marble-tiles/ctk6684d.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4857,12 +4857,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-226",
     "name": "CTLM21",
-    "image": "image/marble-tiles/ctlm21.jpg",
+    "image": "./image/marble-tiles/ctlm21.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4878,12 +4878,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-227",
     "name": "CTK6685B",
-    "image": "image/marble-tiles/ctk6685b.jpg",
+    "image": "./image/marble-tiles/ctk6685b.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4899,12 +4899,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-228",
     "name": "CT6618 600x600",
-    "image": "image/marble-tiles/ct6618-600x600.jpg",
+    "image": "./image/marble-tiles/ct6618-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4920,12 +4920,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-229",
     "name": "CTK6687B",
-    "image": "image/marble-tiles/ctk6687b.jpg",
+    "image": "./image/marble-tiles/ctk6687b.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4941,12 +4941,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-230",
     "name": "CTLM17",
-    "image": "image/marble-tiles/ctlm17.jpg",
+    "image": "./image/marble-tiles/ctlm17.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4962,12 +4962,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-231",
     "name": "CT2-MSD8818P",
-    "image": "image/marble-tiles/ct2-msd8818p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8818p.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -4983,12 +4983,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-232",
     "name": "CT2-MSD8825P",
-    "image": "image/marble-tiles/ct2-msd8825p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8825p.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5004,12 +5004,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-233",
     "name": "CTLM14",
-    "image": "image/marble-tiles/ctlm14.jpg",
+    "image": "./image/marble-tiles/ctlm14.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5025,12 +5025,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-234",
     "name": "CT2-MSD8880",
-    "image": "image/marble-tiles/ct2-msd8880.jpg",
+    "image": "./image/marble-tiles/ct2-msd8880.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5046,12 +5046,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-235",
     "name": "CTK6685C",
-    "image": "image/marble-tiles/ctk6685c.jpg",
+    "image": "./image/marble-tiles/ctk6685c.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5067,12 +5067,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-236",
     "name": "CTLM18",
-    "image": "image/marble-tiles/ctlm18.jpg",
+    "image": "./image/marble-tiles/ctlm18.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5088,12 +5088,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-237",
     "name": "CTHD6304",
-    "image": "image/marble-tiles/cthd6304.jpg",
+    "image": "./image/marble-tiles/cthd6304.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5109,12 +5109,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-238",
     "name": "CTHD8809",
-    "image": "image/marble-tiles/cthd8809.jpg",
+    "image": "./image/marble-tiles/cthd8809.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5130,12 +5130,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-239",
     "name": "CTK6685A",
-    "image": "image/marble-tiles/ctk6685a.jpg",
+    "image": "./image/marble-tiles/ctk6685a.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5151,12 +5151,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-240",
     "name": "CTLM16",
-    "image": "image/marble-tiles/ctlm16.jpg",
+    "image": "./image/marble-tiles/ctlm16.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5172,12 +5172,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-241",
     "name": "CTK6683C",
-    "image": "image/marble-tiles/ctk6683c.jpg",
+    "image": "./image/marble-tiles/ctk6683c.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5193,12 +5193,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-242",
     "name": "CTHD6666",
-    "image": "image/marble-tiles/cthd6666.jpg",
+    "image": "./image/marble-tiles/cthd6666.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5214,12 +5214,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-243",
     "name": "CTK6687C",
-    "image": "image/marble-tiles/ctk6687c.jpg",
+    "image": "./image/marble-tiles/ctk6687c.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5235,12 +5235,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-244",
     "name": "CTK6681B",
-    "image": "image/marble-tiles/ctk6681b.jpg",
+    "image": "./image/marble-tiles/ctk6681b.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5256,12 +5256,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-245",
     "name": "CT6616 600x600",
-    "image": "image/marble-tiles/ct6616-600x600.jpg",
+    "image": "./image/marble-tiles/ct6616-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5277,12 +5277,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-246",
     "name": "CTK6687A",
-    "image": "image/marble-tiles/ctk6687a.jpg",
+    "image": "./image/marble-tiles/ctk6687a.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5298,12 +5298,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-247",
     "name": "CTHD6305",
-    "image": "image/marble-tiles/cthd6305.jpg",
+    "image": "./image/marble-tiles/cthd6305.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5319,12 +5319,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-248",
     "name": "CT2-MSD8836P",
-    "image": "image/marble-tiles/ct2-msd8836p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8836p.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5340,12 +5340,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-249",
     "name": "CTK6685D",
-    "image": "image/marble-tiles/ctk6685d.jpg",
+    "image": "./image/marble-tiles/ctk6685d.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5361,12 +5361,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-250",
     "name": "CT6615 600x600",
-    "image": "image/marble-tiles/ct6615-600x600.jpg",
+    "image": "./image/marble-tiles/ct6615-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5382,13 +5382,13 @@ const BMC_CATALOG = [
   {
     "id": "catalog-251",
     "name": "CT6619 600x600",
-    "image": "image/marble-tiles/ct6619-600x600.jpg",
+    "image": "./image/marble-tiles/ct6619-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ct6619-600x600.jpg",
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ct6619-600x600.jpg",
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5404,12 +5404,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-252",
     "name": "CTK6683A",
-    "image": "image/marble-tiles/ctk6683a.jpg",
+    "image": "./image/marble-tiles/ctk6683a.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5425,12 +5425,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-253",
     "name": "CTK6681C",
-    "image": "image/marble-tiles/ctk6681c.jpg",
+    "image": "./image/marble-tiles/ctk6681c.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5446,12 +5446,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-254",
     "name": "CT2-MSD8816P",
-    "image": "image/marble-tiles/ct2-msd8816p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8816p.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5467,12 +5467,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-255",
     "name": "CTLM15",
-    "image": "image/marble-tiles/ctlm15.jpg",
+    "image": "./image/marble-tiles/ctlm15.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5488,12 +5488,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-256",
     "name": "CTK6683B",
-    "image": "image/marble-tiles/ctk6683b.jpg",
+    "image": "./image/marble-tiles/ctk6683b.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5509,12 +5509,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-257",
     "name": "CT8819",
-    "image": "image/marble-tiles/ct8819.jpg",
+    "image": "./image/marble-tiles/ct8819.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5530,12 +5530,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-258",
     "name": "CTK6684B",
-    "image": "image/marble-tiles/ctk6684b.jpg",
+    "image": "./image/marble-tiles/ctk6684b.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5551,12 +5551,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-259",
     "name": "CTCDS8153",
-    "image": "image/marble-tiles/ctcds8153.jpg",
+    "image": "./image/marble-tiles/ctcds8153.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5572,12 +5572,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-260",
     "name": "CTK6683D",
-    "image": "image/marble-tiles/ctk6683d.jpg",
+    "image": "./image/marble-tiles/ctk6683d.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5593,12 +5593,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-261",
     "name": "CTLM19",
-    "image": "image/marble-tiles/ctlm19.jpg",
+    "image": "./image/marble-tiles/ctlm19.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5614,12 +5614,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-262",
     "name": "CTK6684C",
-    "image": "image/marble-tiles/ctk6684c.jpg",
+    "image": "./image/marble-tiles/ctk6684c.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg",
-      "image/marble-tiles/ctlm20.jpg",
-      "image/marble-tiles/ctk6681a.jpg",
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ctt813.jpg",
+      "./image/marble-tiles/ctlm20.jpg",
+      "./image/marble-tiles/ctk6681a.jpg",
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "tile",
     "categoryLabel": "กระเบื้องหินอ่อน",
@@ -5635,12 +5635,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-263",
     "name": "ประตู HDF3",
-    "image": "image/hdf-doors/hdf-door3.jpg",
+    "image": "./image/hdf-doors/hdf-door3.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5656,12 +5656,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-264",
     "name": "ประตู HDF1",
-    "image": "image/hdf-doors/hdf-door1.jpg",
+    "image": "./image/hdf-doors/hdf-door1.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5677,12 +5677,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-265",
     "name": "ประตู HDF5",
-    "image": "image/hdf-doors/hdf-door5.jpg",
+    "image": "./image/hdf-doors/hdf-door5.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5698,12 +5698,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-266",
     "name": "ประตู HDF2",
-    "image": "image/hdf-doors/hdf-door2.jpg",
+    "image": "./image/hdf-doors/hdf-door2.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5719,12 +5719,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-267",
     "name": "ประตู HDF4",
-    "image": "image/hdf-doors/hdf-door4.jpg",
+    "image": "./image/hdf-doors/hdf-door4.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5740,12 +5740,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-268",
     "name": "HDF Door",
-    "image": "image/hdf-doors/hdf-door.jpg",
+    "image": "./image/hdf-doors/hdf-door.jpg",
     "gallery": [
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door1.jpg",
-      "image/hdf-doors/hdf-door5.jpg",
-      "image/hdf-doors/hdf-door2.jpg"
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door1.jpg",
+      "./image/hdf-doors/hdf-door5.jpg",
+      "./image/hdf-doors/hdf-door2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5761,12 +5761,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-269",
     "name": "ประตูปิดผิววีเนียร์01",
-    "image": "image/veneer-doors/01.jpg",
+    "image": "./image/veneer-doors/01.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5782,12 +5782,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-270",
     "name": "ประตูปิดผิววีเนียร์06",
-    "image": "image/veneer-doors/06.jpg",
+    "image": "./image/veneer-doors/06.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5803,12 +5803,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-271",
     "name": "ประตูปิดผิววีเนียร์04",
-    "image": "image/veneer-doors/04.jpg",
+    "image": "./image/veneer-doors/04.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5824,12 +5824,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-272",
     "name": "Veneer Door",
-    "image": "image/veneer-doors/veneer-door.jpg",
+    "image": "./image/veneer-doors/veneer-door.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5845,12 +5845,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-273",
     "name": "ประตูปิดผิววีเนียร์03",
-    "image": "image/veneer-doors/03.jpg",
+    "image": "./image/veneer-doors/03.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5866,12 +5866,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-274",
     "name": "ประตูปิดผิววีเนียร์02",
-    "image": "image/veneer-doors/02.jpg",
+    "image": "./image/veneer-doors/02.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5887,12 +5887,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-275",
     "name": "ประตูปิดผิววีเนียร์07",
-    "image": "image/veneer-doors/07.jpg",
+    "image": "./image/veneer-doors/07.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5908,12 +5908,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-276",
     "name": "ประตูปิดผิววีเนียร์05",
-    "image": "image/veneer-doors/05.jpg",
+    "image": "./image/veneer-doors/05.jpg",
     "gallery": [
-      "image/veneer-doors/01.jpg",
-      "image/veneer-doors/06.jpg",
-      "image/veneer-doors/04.jpg",
-      "image/veneer-doors/veneer-door.jpg"
+      "./image/veneer-doors/01.jpg",
+      "./image/veneer-doors/06.jpg",
+      "./image/veneer-doors/04.jpg",
+      "./image/veneer-doors/veneer-door.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5929,12 +5929,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-277",
     "name": "ประตู3",
-    "image": "image/solid-wood-doors/3.jpg",
+    "image": "./image/solid-wood-doors/3.jpg",
     "gallery": [
-      "image/solid-wood-doors/3.jpg",
-      "image/solid-wood-doors/solid-wood-door1.jpg",
-      "image/solid-wood-doors/image.jpg",
-      "image/solid-wood-doors/2.jpg"
+      "./image/solid-wood-doors/3.jpg",
+      "./image/solid-wood-doors/solid-wood-door1.jpg",
+      "./image/solid-wood-doors/image.jpg",
+      "./image/solid-wood-doors/2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5950,12 +5950,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-278",
     "name": "ประตูไม้จริง1",
-    "image": "image/solid-wood-doors/1.jpg",
+    "image": "./image/solid-wood-doors/1.jpg",
     "gallery": [
-      "image/solid-wood-doors/3.jpg",
-      "image/solid-wood-doors/solid-wood-door1.jpg",
-      "image/solid-wood-doors/image.jpg",
-      "image/solid-wood-doors/2.jpg"
+      "./image/solid-wood-doors/3.jpg",
+      "./image/solid-wood-doors/solid-wood-door1.jpg",
+      "./image/solid-wood-doors/image.jpg",
+      "./image/solid-wood-doors/2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5971,12 +5971,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-279",
     "name": "ประตูไม้",
-    "image": "image/solid-wood-doors/image.jpg",
+    "image": "./image/solid-wood-doors/image.jpg",
     "gallery": [
-      "image/solid-wood-doors/3.jpg",
-      "image/solid-wood-doors/solid-wood-door1.jpg",
-      "image/solid-wood-doors/image.jpg",
-      "image/solid-wood-doors/2.jpg"
+      "./image/solid-wood-doors/3.jpg",
+      "./image/solid-wood-doors/solid-wood-door1.jpg",
+      "./image/solid-wood-doors/image.jpg",
+      "./image/solid-wood-doors/2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -5992,12 +5992,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-280",
     "name": "ประตู2",
-    "image": "image/solid-wood-doors/2.jpg",
+    "image": "./image/solid-wood-doors/2.jpg",
     "gallery": [
-      "image/solid-wood-doors/3.jpg",
-      "image/solid-wood-doors/solid-wood-door1.jpg",
-      "image/solid-wood-doors/image.jpg",
-      "image/solid-wood-doors/2.jpg"
+      "./image/solid-wood-doors/3.jpg",
+      "./image/solid-wood-doors/solid-wood-door1.jpg",
+      "./image/solid-wood-doors/image.jpg",
+      "./image/solid-wood-doors/2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6013,12 +6013,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-281",
     "name": "ประตู1",
-    "image": "image/solid-wood-doors/1.jpg",
+    "image": "./image/solid-wood-doors/1.jpg",
     "gallery": [
-      "image/solid-wood-doors/3.jpg",
-      "image/solid-wood-doors/solid-wood-door1.jpg",
-      "image/solid-wood-doors/image.jpg",
-      "image/solid-wood-doors/2.jpg"
+      "./image/solid-wood-doors/3.jpg",
+      "./image/solid-wood-doors/solid-wood-door1.jpg",
+      "./image/solid-wood-doors/image.jpg",
+      "./image/solid-wood-doors/2.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6034,12 +6034,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-282",
     "name": "Door-5",
-    "image": "image/laminate-doors/door-5.jpg",
+    "image": "./image/laminate-doors/door-5.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6055,12 +6055,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-283",
     "name": "ประตูปิดผิวลามิเนต01",
-    "image": "image/laminate-doors/laminate-door01.jpg",
+    "image": "./image/laminate-doors/laminate-door01.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6076,12 +6076,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-284",
     "name": "Door-6",
-    "image": "image/laminate-doors/door-6.jpg",
+    "image": "./image/laminate-doors/door-6.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6097,12 +6097,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-285",
     "name": "Door-12",
-    "image": "image/laminate-doors/door-12.jpg",
+    "image": "./image/laminate-doors/door-12.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6118,12 +6118,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-286",
     "name": "Door-4",
-    "image": "image/laminate-doors/door-4.jpg",
+    "image": "./image/laminate-doors/door-4.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6139,12 +6139,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-287",
     "name": "Door-2",
-    "image": "image/laminate-doors/door-2.jpg",
+    "image": "./image/laminate-doors/door-2.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6160,12 +6160,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-288",
     "name": "Door-11",
-    "image": "image/laminate-doors/door-11.jpg",
+    "image": "./image/laminate-doors/door-11.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6181,12 +6181,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-289",
     "name": "Door-14",
-    "image": "image/laminate-doors/door-14.jpg",
+    "image": "./image/laminate-doors/door-14.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6202,12 +6202,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-290",
     "name": "ประตูปิดผิวลามิเนต03",
-    "image": "image/laminate-doors/laminate-door03.jpg",
+    "image": "./image/laminate-doors/laminate-door03.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6223,12 +6223,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-291",
     "name": "Door-8",
-    "image": "image/laminate-doors/door-8.jpg",
+    "image": "./image/laminate-doors/door-8.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6244,12 +6244,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-292",
     "name": "Door-13",
-    "image": "image/laminate-doors/door-13.jpg",
+    "image": "./image/laminate-doors/door-13.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6265,12 +6265,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-293",
     "name": "ประตูปิดผิวลามิเนต07",
-    "image": "image/laminate-doors/laminate-door07.jpg",
+    "image": "./image/laminate-doors/laminate-door07.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6286,13 +6286,13 @@ const BMC_CATALOG = [
   {
     "id": "catalog-294",
     "name": "ประตูปิดผิวลามิเนต05",
-    "image": "image/laminate-doors/laminate-door05.jpg",
+    "image": "./image/laminate-doors/laminate-door05.jpg",
     "gallery": [
-      "image/engineered-wood/05.jpg",
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/engineered-wood/05.jpg",
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6308,12 +6308,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-295",
     "name": "ประตูปิดผิวลามิเนต04",
-    "image": "image/laminate-doors/laminate-door04.jpg",
+    "image": "./image/laminate-doors/laminate-door04.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6329,12 +6329,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-296",
     "name": "Door-1",
-    "image": "image/laminate-doors/door-1.jpg",
+    "image": "./image/laminate-doors/door-1.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6350,12 +6350,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-297",
     "name": "Door-10",
-    "image": "image/laminate-doors/door-10.jpg",
+    "image": "./image/laminate-doors/door-10.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6371,12 +6371,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-298",
     "name": "Door-3",
-    "image": "image/laminate-doors/door-3.jpg",
+    "image": "./image/laminate-doors/door-3.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6392,12 +6392,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-299",
     "name": "Door-7",
-    "image": "image/laminate-doors/door-7.jpg",
+    "image": "./image/laminate-doors/door-7.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6413,12 +6413,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-300",
     "name": "Laminate Door",
-    "image": "image/laminate-doors/laminate-door.jpg",
+    "image": "./image/laminate-doors/laminate-door.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6434,12 +6434,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-301",
     "name": "ประตูปิดผิวลามิเนต02",
-    "image": "image/laminate-doors/laminate-door02.jpg",
+    "image": "./image/laminate-doors/laminate-door02.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6455,12 +6455,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-302",
     "name": "Door-9",
-    "image": "image/laminate-doors/door-9.jpg",
+    "image": "./image/laminate-doors/door-9.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6476,12 +6476,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-303",
     "name": "ประตูปิดผิวลามิเนต06",
-    "image": "image/laminate-doors/laminate-door06.jpg",
+    "image": "./image/laminate-doors/laminate-door06.jpg",
     "gallery": [
-      "image/laminate-doors/door-5.jpg",
-      "image/laminate-doors/laminate-door01.jpg",
-      "image/laminate-doors/door-6.jpg",
-      "image/laminate-doors/door-12.jpg"
+      "./image/laminate-doors/door-5.jpg",
+      "./image/laminate-doors/laminate-door01.jpg",
+      "./image/laminate-doors/door-6.jpg",
+      "./image/laminate-doors/door-12.jpg"
     ],
     "category": "door",
     "categoryLabel": "ประตู",
@@ -6497,12 +6497,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-304",
     "name": "04",
-    "image": "image/engineered-wood/04.jpg",
+    "image": "./image/engineered-wood/04.jpg",
     "gallery": [
-      "image/engineered-wood/04.jpg",
-      "image/engineered-wood/oak-litte-white.jpg",
-      "image/engineered-wood/walnut.jpg",
-      "image/engineered-wood/1-1.jpg"
+      "./image/engineered-wood/04.jpg",
+      "./image/engineered-wood/oak-litte-white.jpg",
+      "./image/engineered-wood/walnut.jpg",
+      "./image/engineered-wood/1-1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6518,12 +6518,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-305",
     "name": "oak-litte white",
-    "image": "image/engineered-wood/oak-litte-white.jpg",
+    "image": "./image/engineered-wood/oak-litte-white.jpg",
     "gallery": [
-      "image/engineered-wood/oak-litte-white.jpg",
-      "image/engineered-wood/walnut.jpg",
-      "image/engineered-wood/1-1.jpg",
-      "image/engineered-wood/maple.jpg"
+      "./image/engineered-wood/oak-litte-white.jpg",
+      "./image/engineered-wood/walnut.jpg",
+      "./image/engineered-wood/1-1.jpg",
+      "./image/engineered-wood/maple.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6539,12 +6539,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-306",
     "name": "Walnut -",
-    "image": "image/engineered-wood/walnut.jpg",
+    "image": "./image/engineered-wood/walnut.jpg",
     "gallery": [
-      "image/engineered-wood/walnut.jpg",
-      "image/engineered-wood/1-1.jpg",
-      "image/engineered-wood/maple.jpg",
-      "image/engineered-wood/oak-2.jpg"
+      "./image/engineered-wood/walnut.jpg",
+      "./image/engineered-wood/1-1.jpg",
+      "./image/engineered-wood/maple.jpg",
+      "./image/engineered-wood/oak-2.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6560,12 +6560,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-307",
     "name": "1(1)",
-    "image": "image/engineered-wood/1-1.jpg",
+    "image": "./image/engineered-wood/1-1.jpg",
     "gallery": [
-      "image/engineered-wood/1-1.jpg",
-      "image/engineered-wood/maple.jpg",
-      "image/engineered-wood/oak-2.jpg",
-      "image/engineered-wood/img-8502.jpg"
+      "./image/engineered-wood/1-1.jpg",
+      "./image/engineered-wood/maple.jpg",
+      "./image/engineered-wood/oak-2.jpg",
+      "./image/engineered-wood/img-8502.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6581,12 +6581,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-308",
     "name": "maple",
-    "image": "image/engineered-wood/maple.jpg",
+    "image": "./image/engineered-wood/maple.jpg",
     "gallery": [
-      "image/engineered-wood/maple.jpg",
-      "image/engineered-wood/oak-2.jpg",
-      "image/engineered-wood/img-8502.jpg",
-      "image/engineered-wood/3-1.jpg"
+      "./image/engineered-wood/maple.jpg",
+      "./image/engineered-wood/oak-2.jpg",
+      "./image/engineered-wood/img-8502.jpg",
+      "./image/engineered-wood/3-1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6602,12 +6602,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-309",
     "name": "oak",
-    "image": "image/engineered-wood/oak-2.jpg",
+    "image": "./image/engineered-wood/oak-2.jpg",
     "gallery": [
-      "image/engineered-wood/oak-2.jpg",
-      "image/engineered-wood/img-8502.jpg",
-      "image/engineered-wood/3-1.jpg",
-      "image/engineered-wood/img-8504.jpg"
+      "./image/engineered-wood/oak-2.jpg",
+      "./image/engineered-wood/img-8502.jpg",
+      "./image/engineered-wood/3-1.jpg",
+      "./image/engineered-wood/img-8504.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6623,12 +6623,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-310",
     "name": "IMG_8502",
-    "image": "image/engineered-wood/img-8502.jpg",
+    "image": "./image/engineered-wood/img-8502.jpg",
     "gallery": [
-      "image/engineered-wood/img-8502.jpg",
-      "image/engineered-wood/3-1.jpg",
-      "image/engineered-wood/img-8504.jpg",
-      "image/engineered-wood/efs-20102.jpg"
+      "./image/engineered-wood/img-8502.jpg",
+      "./image/engineered-wood/3-1.jpg",
+      "./image/engineered-wood/img-8504.jpg",
+      "./image/engineered-wood/efs-20102.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6644,12 +6644,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-311",
     "name": "3(1)",
-    "image": "image/engineered-wood/3-1.jpg",
+    "image": "./image/engineered-wood/3-1.jpg",
     "gallery": [
-      "image/engineered-wood/3-1.jpg",
-      "image/engineered-wood/img-8504.jpg",
-      "image/engineered-wood/efs-20102.jpg",
-      "image/engineered-wood/1.jpg"
+      "./image/engineered-wood/3-1.jpg",
+      "./image/engineered-wood/img-8504.jpg",
+      "./image/engineered-wood/efs-20102.jpg",
+      "./image/engineered-wood/1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6665,12 +6665,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-312",
     "name": "IMG_8504",
-    "image": "image/engineered-wood/img-8504.jpg",
+    "image": "./image/engineered-wood/img-8504.jpg",
     "gallery": [
-      "image/engineered-wood/img-8504.jpg",
-      "image/engineered-wood/efs-20102.jpg",
-      "image/engineered-wood/1.jpg",
-      "image/engineered-wood/2.jpg"
+      "./image/engineered-wood/img-8504.jpg",
+      "./image/engineered-wood/efs-20102.jpg",
+      "./image/engineered-wood/1.jpg",
+      "./image/engineered-wood/2.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6686,12 +6686,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-313",
     "name": "EFS-20102",
-    "image": "image/engineered-wood/efs-20102.jpg",
+    "image": "./image/engineered-wood/efs-20102.jpg",
     "gallery": [
-      "image/engineered-wood/efs-20102.jpg",
-      "image/engineered-wood/1.jpg",
-      "image/engineered-wood/2.jpg",
-      "image/engineered-wood/oak.jpg"
+      "./image/engineered-wood/efs-20102.jpg",
+      "./image/engineered-wood/1.jpg",
+      "./image/engineered-wood/2.jpg",
+      "./image/engineered-wood/oak.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6707,12 +6707,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-314",
     "name": "1",
-    "image": "image/engineered-wood/1.jpg",
+    "image": "./image/engineered-wood/1.jpg",
     "gallery": [
-      "image/engineered-wood/1.jpg",
-      "image/engineered-wood/2.jpg",
-      "image/engineered-wood/oak.jpg",
-      "image/engineered-wood/05.jpg"
+      "./image/engineered-wood/1.jpg",
+      "./image/engineered-wood/2.jpg",
+      "./image/engineered-wood/oak.jpg",
+      "./image/engineered-wood/05.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6728,12 +6728,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-315",
     "name": "2",
-    "image": "image/engineered-wood/2.jpg",
+    "image": "./image/engineered-wood/2.jpg",
     "gallery": [
-      "image/engineered-wood/2.jpg",
-      "image/engineered-wood/oak.jpg",
-      "image/engineered-wood/05.jpg",
-      "image/engineered-wood/teak-2.jpg"
+      "./image/engineered-wood/2.jpg",
+      "./image/engineered-wood/oak.jpg",
+      "./image/engineered-wood/05.jpg",
+      "./image/engineered-wood/teak-2.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6749,12 +6749,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-316",
     "name": "oak-",
-    "image": "image/engineered-wood/oak.jpg",
+    "image": "./image/engineered-wood/oak.jpg",
     "gallery": [
-      "image/engineered-wood/oak.jpg",
-      "image/engineered-wood/05.jpg",
-      "image/engineered-wood/teak-2.jpg",
-      "image/engineered-wood/6-1.jpg"
+      "./image/engineered-wood/oak.jpg",
+      "./image/engineered-wood/05.jpg",
+      "./image/engineered-wood/teak-2.jpg",
+      "./image/engineered-wood/6-1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6770,12 +6770,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-317",
     "name": "05",
-    "image": "image/engineered-wood/05.jpg",
+    "image": "./image/engineered-wood/05.jpg",
     "gallery": [
-      "image/engineered-wood/05.jpg",
-      "image/engineered-wood/teak-2.jpg",
-      "image/engineered-wood/6-1.jpg",
-      "image/engineered-wood/01.jpg"
+      "./image/engineered-wood/05.jpg",
+      "./image/engineered-wood/teak-2.jpg",
+      "./image/engineered-wood/6-1.jpg",
+      "./image/engineered-wood/01.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6791,12 +6791,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-318",
     "name": "Teak -",
-    "image": "image/engineered-wood/teak-2.jpg",
+    "image": "./image/engineered-wood/teak-2.jpg",
     "gallery": [
-      "image/engineered-wood/teak-2.jpg",
-      "image/engineered-wood/6-1.jpg",
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/1-2.jpg"
+      "./image/engineered-wood/teak-2.jpg",
+      "./image/engineered-wood/6-1.jpg",
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/1-2.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6812,12 +6812,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-319",
     "name": "6(1)",
-    "image": "image/engineered-wood/6-1.jpg",
+    "image": "./image/engineered-wood/6-1.jpg",
     "gallery": [
-      "image/engineered-wood/6-1.jpg",
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/1-2.jpg",
-      "image/engineered-wood/5.jpg"
+      "./image/engineered-wood/6-1.jpg",
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/1-2.jpg",
+      "./image/engineered-wood/5.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6833,12 +6833,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-320",
     "name": "01",
-    "image": "image/engineered-wood/01.jpg",
+    "image": "./image/engineered-wood/01.jpg",
     "gallery": [
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/1-2.jpg",
-      "image/engineered-wood/5.jpg",
-      "image/engineered-wood/chreey.jpg"
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/1-2.jpg",
+      "./image/engineered-wood/5.jpg",
+      "./image/engineered-wood/chreey.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6854,12 +6854,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-321",
     "name": "1(2)",
-    "image": "image/engineered-wood/1-2.jpg",
+    "image": "./image/engineered-wood/1-2.jpg",
     "gallery": [
-      "image/engineered-wood/1-2.jpg",
-      "image/engineered-wood/5.jpg",
-      "image/engineered-wood/chreey.jpg",
-      "image/engineered-wood/maple-2.jpg"
+      "./image/engineered-wood/1-2.jpg",
+      "./image/engineered-wood/5.jpg",
+      "./image/engineered-wood/chreey.jpg",
+      "./image/engineered-wood/maple-2.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6875,12 +6875,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-322",
     "name": "5",
-    "image": "image/engineered-wood/5.jpg",
+    "image": "./image/engineered-wood/5.jpg",
     "gallery": [
-      "image/engineered-wood/5.jpg",
-      "image/engineered-wood/chreey.jpg",
-      "image/engineered-wood/maple-2.jpg",
-      "image/engineered-wood/beech.jpg"
+      "./image/engineered-wood/5.jpg",
+      "./image/engineered-wood/chreey.jpg",
+      "./image/engineered-wood/maple-2.jpg",
+      "./image/engineered-wood/beech.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6896,12 +6896,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-323",
     "name": "chreey",
-    "image": "image/engineered-wood/chreey.jpg",
+    "image": "./image/engineered-wood/chreey.jpg",
     "gallery": [
-      "image/engineered-wood/chreey.jpg",
-      "image/engineered-wood/maple-2.jpg",
-      "image/engineered-wood/beech.jpg",
-      "image/engineered-wood/02.jpg"
+      "./image/engineered-wood/chreey.jpg",
+      "./image/engineered-wood/maple-2.jpg",
+      "./image/engineered-wood/beech.jpg",
+      "./image/engineered-wood/02.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6917,12 +6917,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-324",
     "name": "maple -",
-    "image": "image/engineered-wood/maple-2.jpg",
+    "image": "./image/engineered-wood/maple-2.jpg",
     "gallery": [
-      "image/engineered-wood/maple-2.jpg",
-      "image/engineered-wood/beech.jpg",
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/teak.jpg"
+      "./image/engineered-wood/maple-2.jpg",
+      "./image/engineered-wood/beech.jpg",
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/teak.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6938,12 +6938,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-325",
     "name": "Beech-",
-    "image": "image/engineered-wood/beech.jpg",
+    "image": "./image/engineered-wood/beech.jpg",
     "gallery": [
-      "image/engineered-wood/beech.jpg",
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/teak.jpg",
-      "image/engineered-wood/2-1.jpg"
+      "./image/engineered-wood/beech.jpg",
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/teak.jpg",
+      "./image/engineered-wood/2-1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6959,12 +6959,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-326",
     "name": "02",
-    "image": "image/engineered-wood/02.jpg",
+    "image": "./image/engineered-wood/02.jpg",
     "gallery": [
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/teak.jpg",
-      "image/engineered-wood/2-1.jpg",
-      "image/engineered-wood/06.jpg"
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/teak.jpg",
+      "./image/engineered-wood/2-1.jpg",
+      "./image/engineered-wood/06.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6980,11 +6980,11 @@ const BMC_CATALOG = [
   {
     "id": "catalog-327",
     "name": "teak",
-    "image": "image/engineered-wood/teak.jpg",
+    "image": "./image/engineered-wood/teak.jpg",
     "gallery": [
-      "image/engineered-wood/teak.jpg",
-      "image/engineered-wood/2-1.jpg",
-      "image/engineered-wood/06.jpg"
+      "./image/engineered-wood/teak.jpg",
+      "./image/engineered-wood/2-1.jpg",
+      "./image/engineered-wood/06.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -7000,10 +7000,10 @@ const BMC_CATALOG = [
   {
     "id": "catalog-328",
     "name": "2(1)",
-    "image": "image/engineered-wood/2-1.jpg",
+    "image": "./image/engineered-wood/2-1.jpg",
     "gallery": [
-      "image/engineered-wood/2-1.jpg",
-      "image/engineered-wood/06.jpg"
+      "./image/engineered-wood/2-1.jpg",
+      "./image/engineered-wood/06.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -7019,12 +7019,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-329",
     "name": "06",
-    "image": "image/engineered-wood/06.jpg",
+    "image": "./image/engineered-wood/06.jpg",
     "gallery": [
-      "image/engineered-wood/04.jpg",
-      "image/engineered-wood/oak-litte-white.jpg",
-      "image/engineered-wood/walnut.jpg",
-      "image/engineered-wood/1-1.jpg"
+      "./image/engineered-wood/04.jpg",
+      "./image/engineered-wood/oak-litte-white.jpg",
+      "./image/engineered-wood/walnut.jpg",
+      "./image/engineered-wood/1-1.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -7040,12 +7040,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-330",
     "name": "B03",
-    "image": "image/laminate-wood/b03.jpg",
+    "image": "./image/laminate-wood/b03.jpg",
     "gallery": [
-      "image/laminate-wood/b03.jpg",
-      "image/laminate-wood/a08.jpg",
-      "image/laminate-wood/20141223105625738.jpg",
-      "image/laminate-wood/d02.jpg"
+      "./image/laminate-wood/b03.jpg",
+      "./image/laminate-wood/a08.jpg",
+      "./image/laminate-wood/20141223105625738.jpg",
+      "./image/laminate-wood/d02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7061,12 +7061,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-331",
     "name": "A08",
-    "image": "image/laminate-wood/a08.jpg",
+    "image": "./image/laminate-wood/a08.jpg",
     "gallery": [
-      "image/laminate-wood/a08.jpg",
-      "image/laminate-wood/20141223105625738.jpg",
-      "image/laminate-wood/d02.jpg",
-      "image/laminate-wood/b04.jpg"
+      "./image/laminate-wood/a08.jpg",
+      "./image/laminate-wood/20141223105625738.jpg",
+      "./image/laminate-wood/d02.jpg",
+      "./image/laminate-wood/b04.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7082,12 +7082,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-332",
     "name": "20141223105625738",
-    "image": "image/laminate-wood/20141223105625738.jpg",
+    "image": "./image/laminate-wood/20141223105625738.jpg",
     "gallery": [
-      "image/laminate-wood/20141223105625738.jpg",
-      "image/laminate-wood/d02.jpg",
-      "image/laminate-wood/b04.jpg",
-      "image/laminate-wood/a36.jpg"
+      "./image/laminate-wood/20141223105625738.jpg",
+      "./image/laminate-wood/d02.jpg",
+      "./image/laminate-wood/b04.jpg",
+      "./image/laminate-wood/a36.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7103,12 +7103,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-333",
     "name": "D02",
-    "image": "image/laminate-wood/d02.jpg",
+    "image": "./image/laminate-wood/d02.jpg",
     "gallery": [
-      "image/laminate-wood/d02.jpg",
-      "image/laminate-wood/b04.jpg",
-      "image/laminate-wood/a36.jpg",
-      "image/laminate-wood/201412221247039463.jpg"
+      "./image/laminate-wood/d02.jpg",
+      "./image/laminate-wood/b04.jpg",
+      "./image/laminate-wood/a36.jpg",
+      "./image/laminate-wood/201412221247039463.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7124,12 +7124,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-334",
     "name": "B04",
-    "image": "image/laminate-wood/b04.jpg",
+    "image": "./image/laminate-wood/b04.jpg",
     "gallery": [
-      "image/laminate-wood/b04.jpg",
-      "image/laminate-wood/a36.jpg",
-      "image/laminate-wood/201412221247039463.jpg",
-      "image/laminate-wood/20141222132551822.jpg"
+      "./image/laminate-wood/b04.jpg",
+      "./image/laminate-wood/a36.jpg",
+      "./image/laminate-wood/201412221247039463.jpg",
+      "./image/laminate-wood/20141222132551822.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7145,12 +7145,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-335",
     "name": "A36",
-    "image": "image/laminate-wood/a36.jpg",
+    "image": "./image/laminate-wood/a36.jpg",
     "gallery": [
-      "image/laminate-wood/a36.jpg",
-      "image/laminate-wood/201412221247039463.jpg",
-      "image/laminate-wood/20141222132551822.jpg",
-      "image/laminate-wood/d03.jpg"
+      "./image/laminate-wood/a36.jpg",
+      "./image/laminate-wood/201412221247039463.jpg",
+      "./image/laminate-wood/20141222132551822.jpg",
+      "./image/laminate-wood/d03.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7166,12 +7166,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-336",
     "name": "201412221247039463",
-    "image": "image/laminate-wood/201412221247039463.jpg",
+    "image": "./image/laminate-wood/201412221247039463.jpg",
     "gallery": [
-      "image/laminate-wood/201412221247039463.jpg",
-      "image/laminate-wood/20141222132551822.jpg",
-      "image/laminate-wood/d03.jpg",
-      "image/laminate-wood/i03.jpg"
+      "./image/laminate-wood/201412221247039463.jpg",
+      "./image/laminate-wood/20141222132551822.jpg",
+      "./image/laminate-wood/d03.jpg",
+      "./image/laminate-wood/i03.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7187,12 +7187,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-337",
     "name": "20141222132551822",
-    "image": "image/laminate-wood/20141222132551822.jpg",
+    "image": "./image/laminate-wood/20141222132551822.jpg",
     "gallery": [
-      "image/laminate-wood/20141222132551822.jpg",
-      "image/laminate-wood/d03.jpg",
-      "image/laminate-wood/i03.jpg",
-      "image/laminate-wood/b01.jpg"
+      "./image/laminate-wood/20141222132551822.jpg",
+      "./image/laminate-wood/d03.jpg",
+      "./image/laminate-wood/i03.jpg",
+      "./image/laminate-wood/b01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7208,12 +7208,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-338",
     "name": "D03",
-    "image": "image/laminate-wood/d03.jpg",
+    "image": "./image/laminate-wood/d03.jpg",
     "gallery": [
-      "image/laminate-wood/d03.jpg",
-      "image/laminate-wood/i03.jpg",
-      "image/laminate-wood/b01.jpg",
-      "image/laminate-wood/20141225104009198.jpg"
+      "./image/laminate-wood/d03.jpg",
+      "./image/laminate-wood/i03.jpg",
+      "./image/laminate-wood/b01.jpg",
+      "./image/laminate-wood/20141225104009198.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7229,12 +7229,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-339",
     "name": "I03",
-    "image": "image/laminate-wood/i03.jpg",
+    "image": "./image/laminate-wood/i03.jpg",
     "gallery": [
-      "image/laminate-wood/i03.jpg",
-      "image/laminate-wood/b01.jpg",
-      "image/laminate-wood/20141225104009198.jpg",
-      "image/laminate-wood/b07.jpg"
+      "./image/laminate-wood/i03.jpg",
+      "./image/laminate-wood/b01.jpg",
+      "./image/laminate-wood/20141225104009198.jpg",
+      "./image/laminate-wood/b07.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7250,12 +7250,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-340",
     "name": "B01",
-    "image": "image/laminate-wood/b01.jpg",
+    "image": "./image/laminate-wood/b01.jpg",
     "gallery": [
-      "image/laminate-wood/b01.jpg",
-      "image/laminate-wood/20141225104009198.jpg",
-      "image/laminate-wood/b07.jpg",
-      "image/laminate-wood/c01.jpg"
+      "./image/laminate-wood/b01.jpg",
+      "./image/laminate-wood/20141225104009198.jpg",
+      "./image/laminate-wood/b07.jpg",
+      "./image/laminate-wood/c01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7271,12 +7271,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-341",
     "name": "20141225104009198",
-    "image": "image/laminate-wood/20141225104009198.jpg",
+    "image": "./image/laminate-wood/20141225104009198.jpg",
     "gallery": [
-      "image/laminate-wood/20141225104009198.jpg",
-      "image/laminate-wood/b07.jpg",
-      "image/laminate-wood/c01.jpg",
-      "image/laminate-wood/h01.jpg"
+      "./image/laminate-wood/20141225104009198.jpg",
+      "./image/laminate-wood/b07.jpg",
+      "./image/laminate-wood/c01.jpg",
+      "./image/laminate-wood/h01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7292,12 +7292,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-342",
     "name": "B07",
-    "image": "image/laminate-wood/b07.jpg",
+    "image": "./image/laminate-wood/b07.jpg",
     "gallery": [
-      "image/laminate-wood/b07.jpg",
-      "image/laminate-wood/c01.jpg",
-      "image/laminate-wood/h01.jpg",
-      "image/laminate-wood/20141225110852195.jpg"
+      "./image/laminate-wood/b07.jpg",
+      "./image/laminate-wood/c01.jpg",
+      "./image/laminate-wood/h01.jpg",
+      "./image/laminate-wood/20141225110852195.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7313,12 +7313,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-343",
     "name": "C01",
-    "image": "image/laminate-wood/c01.jpg",
+    "image": "./image/laminate-wood/c01.jpg",
     "gallery": [
-      "image/laminate-wood/c01.jpg",
-      "image/laminate-wood/h01.jpg",
-      "image/laminate-wood/20141225110852195.jpg",
-      "image/laminate-wood/201412221246063860.jpg"
+      "./image/laminate-wood/c01.jpg",
+      "./image/laminate-wood/h01.jpg",
+      "./image/laminate-wood/20141225110852195.jpg",
+      "./image/laminate-wood/201412221246063860.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7334,12 +7334,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-344",
     "name": "H01",
-    "image": "image/laminate-wood/h01.jpg",
+    "image": "./image/laminate-wood/h01.jpg",
     "gallery": [
-      "image/laminate-wood/h01.jpg",
-      "image/laminate-wood/20141225110852195.jpg",
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/b06.jpg"
+      "./image/laminate-wood/h01.jpg",
+      "./image/laminate-wood/20141225110852195.jpg",
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/b06.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7355,12 +7355,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-345",
     "name": "20141225110852195",
-    "image": "image/laminate-wood/20141225110852195.jpg",
+    "image": "./image/laminate-wood/20141225110852195.jpg",
     "gallery": [
-      "image/laminate-wood/20141225110852195.jpg",
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/b06.jpg",
-      "image/laminate-wood/a49.jpg"
+      "./image/laminate-wood/20141225110852195.jpg",
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/b06.jpg",
+      "./image/laminate-wood/a49.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7376,12 +7376,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-346",
     "name": "201412221246063860",
-    "image": "image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/b06.jpg",
-      "image/laminate-wood/a49.jpg",
-      "image/laminate-wood/a01.jpg"
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/b06.jpg",
+      "./image/laminate-wood/a49.jpg",
+      "./image/laminate-wood/a01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7397,12 +7397,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-347",
     "name": "B06",
-    "image": "image/laminate-wood/b06.jpg",
+    "image": "./image/laminate-wood/b06.jpg",
     "gallery": [
-      "image/laminate-wood/b06.jpg",
-      "image/laminate-wood/a49.jpg",
-      "image/laminate-wood/a01.jpg",
-      "image/laminate-wood/b12.jpg"
+      "./image/laminate-wood/b06.jpg",
+      "./image/laminate-wood/a49.jpg",
+      "./image/laminate-wood/a01.jpg",
+      "./image/laminate-wood/b12.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7418,12 +7418,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-348",
     "name": "A49",
-    "image": "image/laminate-wood/a49.jpg",
+    "image": "./image/laminate-wood/a49.jpg",
     "gallery": [
-      "image/laminate-wood/a49.jpg",
-      "image/laminate-wood/a01.jpg",
-      "image/laminate-wood/b12.jpg",
-      "image/laminate-wood/a02.jpg"
+      "./image/laminate-wood/a49.jpg",
+      "./image/laminate-wood/a01.jpg",
+      "./image/laminate-wood/b12.jpg",
+      "./image/laminate-wood/a02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7439,12 +7439,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-349",
     "name": "A01",
-    "image": "image/laminate-wood/a01.jpg",
+    "image": "./image/laminate-wood/a01.jpg",
     "gallery": [
-      "image/laminate-wood/a01.jpg",
-      "image/laminate-wood/b12.jpg",
-      "image/laminate-wood/a02.jpg",
-      "image/laminate-wood/h02.jpg"
+      "./image/laminate-wood/a01.jpg",
+      "./image/laminate-wood/b12.jpg",
+      "./image/laminate-wood/a02.jpg",
+      "./image/laminate-wood/h02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7460,12 +7460,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-350",
     "name": "B12",
-    "image": "image/laminate-wood/b12.jpg",
+    "image": "./image/laminate-wood/b12.jpg",
     "gallery": [
-      "image/laminate-wood/b12.jpg",
-      "image/laminate-wood/a02.jpg",
-      "image/laminate-wood/h02.jpg",
-      "image/laminate-wood/a50.jpg"
+      "./image/laminate-wood/b12.jpg",
+      "./image/laminate-wood/a02.jpg",
+      "./image/laminate-wood/h02.jpg",
+      "./image/laminate-wood/a50.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7481,12 +7481,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-351",
     "name": "A02",
-    "image": "image/laminate-wood/a02.jpg",
+    "image": "./image/laminate-wood/a02.jpg",
     "gallery": [
-      "image/laminate-wood/a02.jpg",
-      "image/laminate-wood/h02.jpg",
-      "image/laminate-wood/a50.jpg",
-      "image/laminate-wood/201412221246586423.jpg"
+      "./image/laminate-wood/a02.jpg",
+      "./image/laminate-wood/h02.jpg",
+      "./image/laminate-wood/a50.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7502,12 +7502,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-352",
     "name": "H02",
-    "image": "image/laminate-wood/h02.jpg",
+    "image": "./image/laminate-wood/h02.jpg",
     "gallery": [
-      "image/laminate-wood/h02.jpg",
-      "image/laminate-wood/a50.jpg",
-      "image/laminate-wood/201412221246586423.jpg",
-      "image/laminate-wood/a04.jpg"
+      "./image/laminate-wood/h02.jpg",
+      "./image/laminate-wood/a50.jpg",
+      "./image/laminate-wood/201412221246586423.jpg",
+      "./image/laminate-wood/a04.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7523,12 +7523,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-353",
     "name": "A50",
-    "image": "image/laminate-wood/a50.jpg",
+    "image": "./image/laminate-wood/a50.jpg",
     "gallery": [
-      "image/laminate-wood/a50.jpg",
-      "image/laminate-wood/201412221246586423.jpg",
-      "image/laminate-wood/a04.jpg",
-      "image/laminate-wood/b05.jpg"
+      "./image/laminate-wood/a50.jpg",
+      "./image/laminate-wood/201412221246586423.jpg",
+      "./image/laminate-wood/a04.jpg",
+      "./image/laminate-wood/b05.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7544,12 +7544,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-354",
     "name": "201412221246586423",
-    "image": "image/laminate-wood/201412221246586423.jpg",
+    "image": "./image/laminate-wood/201412221246586423.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246586423.jpg",
-      "image/laminate-wood/a04.jpg",
-      "image/laminate-wood/b05.jpg",
-      "image/laminate-wood/i01.jpg"
+      "./image/laminate-wood/201412221246586423.jpg",
+      "./image/laminate-wood/a04.jpg",
+      "./image/laminate-wood/b05.jpg",
+      "./image/laminate-wood/i01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7565,12 +7565,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-355",
     "name": "A04",
-    "image": "image/laminate-wood/a04.jpg",
+    "image": "./image/laminate-wood/a04.jpg",
     "gallery": [
-      "image/laminate-wood/a04.jpg",
-      "image/laminate-wood/b05.jpg",
-      "image/laminate-wood/i01.jpg",
-      "image/laminate-wood/20141223105706167.jpg"
+      "./image/laminate-wood/a04.jpg",
+      "./image/laminate-wood/b05.jpg",
+      "./image/laminate-wood/i01.jpg",
+      "./image/laminate-wood/20141223105706167.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7586,12 +7586,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-356",
     "name": "B05",
-    "image": "image/laminate-wood/b05.jpg",
+    "image": "./image/laminate-wood/b05.jpg",
     "gallery": [
-      "image/laminate-wood/b05.jpg",
-      "image/laminate-wood/i01.jpg",
-      "image/laminate-wood/20141223105706167.jpg",
-      "image/laminate-wood/a03.jpg"
+      "./image/laminate-wood/b05.jpg",
+      "./image/laminate-wood/i01.jpg",
+      "./image/laminate-wood/20141223105706167.jpg",
+      "./image/laminate-wood/a03.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7607,12 +7607,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-357",
     "name": "I01",
-    "image": "image/laminate-wood/i01.jpg",
+    "image": "./image/laminate-wood/i01.jpg",
     "gallery": [
-      "image/laminate-wood/i01.jpg",
-      "image/laminate-wood/20141223105706167.jpg",
-      "image/laminate-wood/a03.jpg",
-      "image/laminate-wood/a06.jpg"
+      "./image/laminate-wood/i01.jpg",
+      "./image/laminate-wood/20141223105706167.jpg",
+      "./image/laminate-wood/a03.jpg",
+      "./image/laminate-wood/a06.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7628,12 +7628,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-358",
     "name": "20141223105706167",
-    "image": "image/laminate-wood/20141223105706167.jpg",
+    "image": "./image/laminate-wood/20141223105706167.jpg",
     "gallery": [
-      "image/laminate-wood/20141223105706167.jpg",
-      "image/laminate-wood/a03.jpg",
-      "image/laminate-wood/a06.jpg",
-      "image/laminate-wood/i02.jpg"
+      "./image/laminate-wood/20141223105706167.jpg",
+      "./image/laminate-wood/a03.jpg",
+      "./image/laminate-wood/a06.jpg",
+      "./image/laminate-wood/i02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7649,12 +7649,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-359",
     "name": "A03",
-    "image": "image/laminate-wood/a03.jpg",
+    "image": "./image/laminate-wood/a03.jpg",
     "gallery": [
-      "image/laminate-wood/a03.jpg",
-      "image/laminate-wood/a06.jpg",
-      "image/laminate-wood/i02.jpg",
-      "image/laminate-wood/201412221246513588.jpg"
+      "./image/laminate-wood/a03.jpg",
+      "./image/laminate-wood/a06.jpg",
+      "./image/laminate-wood/i02.jpg",
+      "./image/laminate-wood/201412221246513588.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7670,12 +7670,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-360",
     "name": "A06",
-    "image": "image/laminate-wood/a06.jpg",
+    "image": "./image/laminate-wood/a06.jpg",
     "gallery": [
-      "image/laminate-wood/a06.jpg",
-      "image/laminate-wood/i02.jpg",
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/a07.jpg"
+      "./image/laminate-wood/a06.jpg",
+      "./image/laminate-wood/i02.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/a07.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7691,12 +7691,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-361",
     "name": "I02",
-    "image": "image/laminate-wood/i02.jpg",
+    "image": "./image/laminate-wood/i02.jpg",
     "gallery": [
-      "image/laminate-wood/i02.jpg",
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/a07.jpg",
-      "image/laminate-wood/20141223112628661.jpg"
+      "./image/laminate-wood/i02.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/a07.jpg",
+      "./image/laminate-wood/20141223112628661.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7712,12 +7712,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-362",
     "name": "201412221246513588",
-    "image": "image/laminate-wood/201412221246513588.jpg",
+    "image": "./image/laminate-wood/201412221246513588.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/a07.jpg",
-      "image/laminate-wood/20141223112628661.jpg",
-      "image/laminate-wood/d01.jpg"
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/a07.jpg",
+      "./image/laminate-wood/20141223112628661.jpg",
+      "./image/laminate-wood/d01.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7733,12 +7733,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-363",
     "name": "A07",
-    "image": "image/laminate-wood/a07.jpg",
+    "image": "./image/laminate-wood/a07.jpg",
     "gallery": [
-      "image/laminate-wood/a07.jpg",
-      "image/laminate-wood/20141223112628661.jpg",
-      "image/laminate-wood/d01.jpg",
-      "image/laminate-wood/a05.jpg"
+      "./image/laminate-wood/a07.jpg",
+      "./image/laminate-wood/20141223112628661.jpg",
+      "./image/laminate-wood/d01.jpg",
+      "./image/laminate-wood/a05.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7754,12 +7754,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-364",
     "name": "20141223112628661",
-    "image": "image/laminate-wood/20141223112628661.jpg",
+    "image": "./image/laminate-wood/20141223112628661.jpg",
     "gallery": [
-      "image/laminate-wood/20141223112628661.jpg",
-      "image/laminate-wood/d01.jpg",
-      "image/laminate-wood/a05.jpg",
-      "image/laminate-wood/b02.jpg"
+      "./image/laminate-wood/20141223112628661.jpg",
+      "./image/laminate-wood/d01.jpg",
+      "./image/laminate-wood/a05.jpg",
+      "./image/laminate-wood/b02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7775,12 +7775,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-365",
     "name": "D01",
-    "image": "image/laminate-wood/d01.jpg",
+    "image": "./image/laminate-wood/d01.jpg",
     "gallery": [
-      "image/laminate-wood/d01.jpg",
-      "image/laminate-wood/a05.jpg",
-      "image/laminate-wood/b02.jpg",
-      "image/laminate-wood/20141225104021140.jpg"
+      "./image/laminate-wood/d01.jpg",
+      "./image/laminate-wood/a05.jpg",
+      "./image/laminate-wood/b02.jpg",
+      "./image/laminate-wood/20141225104021140.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7796,12 +7796,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-366",
     "name": "A05",
-    "image": "image/laminate-wood/a05.jpg",
+    "image": "./image/laminate-wood/a05.jpg",
     "gallery": [
-      "image/laminate-wood/a05.jpg",
-      "image/laminate-wood/b02.jpg",
-      "image/laminate-wood/20141225104021140.jpg",
-      "image/laminate-wood/b09.jpg"
+      "./image/laminate-wood/a05.jpg",
+      "./image/laminate-wood/b02.jpg",
+      "./image/laminate-wood/20141225104021140.jpg",
+      "./image/laminate-wood/b09.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7817,12 +7817,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-367",
     "name": "B02",
-    "image": "image/laminate-wood/b02.jpg",
+    "image": "./image/laminate-wood/b02.jpg",
     "gallery": [
-      "image/laminate-wood/b02.jpg",
-      "image/laminate-wood/20141225104021140.jpg",
-      "image/laminate-wood/b09.jpg",
-      "image/laminate-wood/20141224101754866.jpg"
+      "./image/laminate-wood/b02.jpg",
+      "./image/laminate-wood/20141225104021140.jpg",
+      "./image/laminate-wood/b09.jpg",
+      "./image/laminate-wood/20141224101754866.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7838,12 +7838,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-368",
     "name": "20141225104021140",
-    "image": "image/laminate-wood/20141225104021140.jpg",
+    "image": "./image/laminate-wood/20141225104021140.jpg",
     "gallery": [
-      "image/laminate-wood/20141225104021140.jpg",
-      "image/laminate-wood/b09.jpg",
-      "image/laminate-wood/20141224101754866.jpg",
-      "image/laminate-wood/a51.jpg"
+      "./image/laminate-wood/20141225104021140.jpg",
+      "./image/laminate-wood/b09.jpg",
+      "./image/laminate-wood/20141224101754866.jpg",
+      "./image/laminate-wood/a51.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7859,12 +7859,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-369",
     "name": "B09",
-    "image": "image/laminate-wood/b09.jpg",
+    "image": "./image/laminate-wood/b09.jpg",
     "gallery": [
-      "image/laminate-wood/b09.jpg",
-      "image/laminate-wood/20141224101754866.jpg",
-      "image/laminate-wood/a51.jpg",
-      "image/laminate-wood/a31.jpg"
+      "./image/laminate-wood/b09.jpg",
+      "./image/laminate-wood/20141224101754866.jpg",
+      "./image/laminate-wood/a51.jpg",
+      "./image/laminate-wood/a31.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7880,11 +7880,11 @@ const BMC_CATALOG = [
   {
     "id": "catalog-370",
     "name": "20141224101754866",
-    "image": "image/laminate-wood/20141224101754866.jpg",
+    "image": "./image/laminate-wood/20141224101754866.jpg",
     "gallery": [
-      "image/laminate-wood/20141224101754866.jpg",
-      "image/laminate-wood/a51.jpg",
-      "image/laminate-wood/a31.jpg"
+      "./image/laminate-wood/20141224101754866.jpg",
+      "./image/laminate-wood/a51.jpg",
+      "./image/laminate-wood/a31.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7900,10 +7900,10 @@ const BMC_CATALOG = [
   {
     "id": "catalog-371",
     "name": "A51",
-    "image": "image/laminate-wood/a51.jpg",
+    "image": "./image/laminate-wood/a51.jpg",
     "gallery": [
-      "image/laminate-wood/a51.jpg",
-      "image/laminate-wood/a31.jpg"
+      "./image/laminate-wood/a51.jpg",
+      "./image/laminate-wood/a31.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7919,12 +7919,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-372",
     "name": "A31",
-    "image": "image/laminate-wood/a31.jpg",
+    "image": "./image/laminate-wood/a31.jpg",
     "gallery": [
-      "image/laminate-wood/b03.jpg",
-      "image/laminate-wood/a08.jpg",
-      "image/laminate-wood/20141223105625738.jpg",
-      "image/laminate-wood/d02.jpg"
+      "./image/laminate-wood/b03.jpg",
+      "./image/laminate-wood/a08.jpg",
+      "./image/laminate-wood/20141223105625738.jpg",
+      "./image/laminate-wood/d02.jpg"
     ],
     "category": "laminate",
     "categoryLabel": "ไม้ Laminate",
@@ -7940,12 +7940,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-373",
     "name": "2011_5_27_104336",
-    "image": "image/pvc-wood/2011-5-27-104336.jpg",
+    "image": "./image/pvc-wood/2011-5-27-104336.jpg",
     "gallery": [
-      "image/pvc-wood/2011-5-27-104336.jpg",
-      "image/pvc-wood/2011-5-27-104436.jpg",
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg"
+      "./image/pvc-wood/2011-5-27-104336.jpg",
+      "./image/pvc-wood/2011-5-27-104436.jpg",
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -7961,12 +7961,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-374",
     "name": "2011_5_27_104436",
-    "image": "image/pvc-wood/2011-5-27-104436.jpg",
+    "image": "./image/pvc-wood/2011-5-27-104436.jpg",
     "gallery": [
-      "image/pvc-wood/2011-5-27-104436.jpg",
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg"
+      "./image/pvc-wood/2011-5-27-104436.jpg",
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -7982,12 +7982,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-375",
     "name": "pvcลายไม้2",
-    "image": "image/pvc-wood/pvc2.jpg",
+    "image": "./image/pvc-wood/pvc2.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8003,12 +8003,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-376",
     "name": "2011_5_27_104355",
-    "image": "image/pvc-wood/2011-5-27-104355.jpg",
+    "image": "./image/pvc-wood/2011-5-27-104355.jpg",
     "gallery": [
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg",
-      "image/pvc-wood/2011-5-27-10451.jpg"
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg",
+      "./image/pvc-wood/2011-5-27-10451.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8024,12 +8024,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-377",
     "name": "2011_6_2_20315",
-    "image": "image/pvc-wood/2011-6-2-20315.jpg",
+    "image": "./image/pvc-wood/2011-6-2-20315.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8045,12 +8045,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-378",
     "name": "pvcลายไม้",
-    "image": "image/pvc-wood/pvc.jpg",
+    "image": "./image/pvc-wood/pvc.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8066,12 +8066,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-379",
     "name": "2011_5_27_10451",
-    "image": "image/pvc-wood/2011-5-27-10451.jpg",
+    "image": "./image/pvc-wood/2011-5-27-10451.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8087,12 +8087,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-380",
     "name": "2011_5_27_104046",
-    "image": "image/pvc-wood/2011-5-27-104046.jpg",
+    "image": "./image/pvc-wood/2011-5-27-104046.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8108,12 +8108,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-381",
     "name": "pvcลายไม้1",
-    "image": "image/pvc-wood/pvc1.jpg",
+    "image": "./image/pvc-wood/pvc1.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8129,12 +8129,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-382",
     "name": "2011_6_21_133522",
-    "image": "image/pvc-wood/2011-6-21-133522.jpg",
+    "image": "./image/pvc-wood/2011-6-21-133522.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8150,12 +8150,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-383",
     "name": "2011_5_27_103349",
-    "image": "image/pvc-wood/2011-5-27-103349.jpg",
+    "image": "./image/pvc-wood/2011-5-27-103349.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8171,12 +8171,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-384",
     "name": "2011_6_24_125813",
-    "image": "image/pvc-wood/2011-6-24-125813.jpg",
+    "image": "./image/pvc-wood/2011-6-24-125813.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8192,12 +8192,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-385",
     "name": "2011_6_21_13222",
-    "image": "image/pvc-wood/2011-6-21-13222.jpg",
+    "image": "./image/pvc-wood/2011-6-21-13222.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8213,12 +8213,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-386",
     "name": "2011_5_27_103428",
-    "image": "image/pvc-wood/2011-5-27-103428.jpg",
+    "image": "./image/pvc-wood/2011-5-27-103428.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8234,12 +8234,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-387",
     "name": "2011_5_27_10426",
-    "image": "image/pvc-wood/2011-5-27-10426.jpg",
+    "image": "./image/pvc-wood/2011-5-27-10426.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8255,11 +8255,11 @@ const BMC_CATALOG = [
   {
     "id": "catalog-388",
     "name": "2011_6_8_11713",
-    "image": "image/pvc-wood/2011-6-8-11713.jpg",
+    "image": "./image/pvc-wood/2011-6-8-11713.jpg",
     "gallery": [
-      "image/pvc-wood/2011-6-8-11713.jpg",
-      "image/pvc-wood/2011-6-21-133414.jpg",
-      "image/pvc-wood/2011-6-21-132330.jpg"
+      "./image/pvc-wood/2011-6-8-11713.jpg",
+      "./image/pvc-wood/2011-6-21-133414.jpg",
+      "./image/pvc-wood/2011-6-21-132330.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8275,10 +8275,10 @@ const BMC_CATALOG = [
   {
     "id": "catalog-389",
     "name": "2011_6_21_133414",
-    "image": "image/pvc-wood/2011-6-21-133414.jpg",
+    "image": "./image/pvc-wood/2011-6-21-133414.jpg",
     "gallery": [
-      "image/pvc-wood/2011-6-21-133414.jpg",
-      "image/pvc-wood/2011-6-21-132330.jpg"
+      "./image/pvc-wood/2011-6-21-133414.jpg",
+      "./image/pvc-wood/2011-6-21-132330.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8294,12 +8294,12 @@ const BMC_CATALOG = [
   {
     "id": "catalog-390",
     "name": "2011_6_21_132330",
-    "image": "image/pvc-wood/2011-6-21-132330.jpg",
+    "image": "./image/pvc-wood/2011-6-21-132330.jpg",
     "gallery": [
-      "image/pvc-wood/pvc2.jpg",
-      "image/pvc-wood/2011-5-27-104355.jpg",
-      "image/pvc-wood/2011-6-2-20315.jpg",
-      "image/pvc-wood/pvc.jpg"
+      "./image/pvc-wood/pvc2.jpg",
+      "./image/pvc-wood/2011-5-27-104355.jpg",
+      "./image/pvc-wood/2011-6-2-20315.jpg",
+      "./image/pvc-wood/pvc.jpg"
     ],
     "category": "pvc",
     "categoryLabel": "ไม้ PVC",
@@ -8315,11 +8315,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-1",
     "name": "Cairo",
-    "image": "image/quartz-stone/cairo.jpg",
+    "image": "./image/quartz-stone/cairo.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8335,11 +8335,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-2",
     "name": "Da Vinci",
-    "image": "image/quartz-stone/da-vinci.jpg",
+    "image": "./image/quartz-stone/da-vinci.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8355,11 +8355,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-3",
     "name": "Explosion Blue",
-    "image": "image/quartz-stone/explosion-blue.jpg",
+    "image": "./image/quartz-stone/explosion-blue.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8375,11 +8375,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-4",
     "name": "La Valle",
-    "image": "image/quartz-stone/la-valle.jpg",
+    "image": "./image/quartz-stone/la-valle.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8395,11 +8395,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-5",
     "name": "Mont Blanc",
-    "image": "image/quartz-stone/mont-blanc.jpg",
+    "image": "./image/quartz-stone/mont-blanc.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8415,11 +8415,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-6",
     "name": "Pink Lake",
-    "image": "image/quartz-stone/pink-lake.jpg",
+    "image": "./image/quartz-stone/pink-lake.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8435,11 +8435,11 @@ const BMC_CATALOG = [
   {
     "id": "quartzite-7",
     "name": "Starry Night",
-    "image": "image/quartz-stone/starry-night.jpg",
+    "image": "./image/quartz-stone/starry-night.jpg",
     "gallery": [
-      "image/quartz-stone/cairo.jpg",
-      "image/quartz-stone/da-vinci.jpg",
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/cairo.jpg",
+      "./image/quartz-stone/da-vinci.jpg",
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -8455,11 +8455,11 @@ const BMC_CATALOG = [
   {
     "id": "limestone-1",
     "name": "Avorio Beige",
-    "image": "image/limestone-stone/avorio-beige.jpg",
+    "image": "./image/limestone-stone/avorio-beige.jpg",
     "gallery": [
-      "image/limestone-stone/avorio-beige.jpg",
-      "image/limestone-stone/mocca-cream.jpg",
-      "image/limestone-stone/rava-beige.jpg"
+      "./image/limestone-stone/avorio-beige.jpg",
+      "./image/limestone-stone/mocca-cream.jpg",
+      "./image/limestone-stone/rava-beige.jpg"
     ],
     "category": "limestone",
     "categoryLabel": "หินไลม์สโตน",
@@ -8475,11 +8475,11 @@ const BMC_CATALOG = [
   {
     "id": "limestone-2",
     "name": "Mocca Cream",
-    "image": "image/limestone-stone/mocca-cream.jpg",
+    "image": "./image/limestone-stone/mocca-cream.jpg",
     "gallery": [
-      "image/limestone-stone/avorio-beige.jpg",
-      "image/limestone-stone/mocca-cream.jpg",
-      "image/limestone-stone/rava-beige.jpg"
+      "./image/limestone-stone/avorio-beige.jpg",
+      "./image/limestone-stone/mocca-cream.jpg",
+      "./image/limestone-stone/rava-beige.jpg"
     ],
     "category": "limestone",
     "categoryLabel": "หินไลม์สโตน",
@@ -8495,11 +8495,11 @@ const BMC_CATALOG = [
   {
     "id": "limestone-3",
     "name": "Rava Beige",
-    "image": "image/limestone-stone/rava-beige.jpg",
+    "image": "./image/limestone-stone/rava-beige.jpg",
     "gallery": [
-      "image/limestone-stone/avorio-beige.jpg",
-      "image/limestone-stone/mocca-cream.jpg",
-      "image/limestone-stone/rava-beige.jpg"
+      "./image/limestone-stone/avorio-beige.jpg",
+      "./image/limestone-stone/mocca-cream.jpg",
+      "./image/limestone-stone/rava-beige.jpg"
     ],
     "category": "limestone",
     "categoryLabel": "หินไลม์สโตน",
@@ -8515,11 +8515,11 @@ const BMC_CATALOG = [
   {
     "id": "travertine-1",
     "name": "Beige Travertine",
-    "image": "image/travertine-stone/beige-travertine.jpg",
+    "image": "./image/travertine-stone/beige-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/beige-travertine.jpg",
-      "image/travertine-stone/silver-travertine.jpg",
-      "image/travertine-stone/white-travertine.jpg"
+      "./image/travertine-stone/beige-travertine.jpg",
+      "./image/travertine-stone/silver-travertine.jpg",
+      "./image/travertine-stone/white-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -8535,11 +8535,11 @@ const BMC_CATALOG = [
   {
     "id": "travertine-2",
     "name": "Silver Travertine",
-    "image": "image/travertine-stone/silver-travertine.jpg",
+    "image": "./image/travertine-stone/silver-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/beige-travertine.jpg",
-      "image/travertine-stone/silver-travertine.jpg",
-      "image/travertine-stone/white-travertine.jpg"
+      "./image/travertine-stone/beige-travertine.jpg",
+      "./image/travertine-stone/silver-travertine.jpg",
+      "./image/travertine-stone/white-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -8555,11 +8555,11 @@ const BMC_CATALOG = [
   {
     "id": "travertine-3",
     "name": "White Travertine",
-    "image": "image/travertine-stone/white-travertine.jpg",
+    "image": "./image/travertine-stone/white-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/beige-travertine.jpg",
-      "image/travertine-stone/silver-travertine.jpg",
-      "image/travertine-stone/white-travertine.jpg"
+      "./image/travertine-stone/beige-travertine.jpg",
+      "./image/travertine-stone/silver-travertine.jpg",
+      "./image/travertine-stone/white-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -8575,11 +8575,11 @@ const BMC_CATALOG = [
   {
     "id": "travertine-4",
     "name": "Yellow Travertine",
-    "image": "image/travertine-stone/yellow-travertine.jpg",
+    "image": "./image/travertine-stone/yellow-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/beige-travertine.jpg",
-      "image/travertine-stone/silver-travertine.jpg",
-      "image/travertine-stone/white-travertine.jpg"
+      "./image/travertine-stone/beige-travertine.jpg",
+      "./image/travertine-stone/silver-travertine.jpg",
+      "./image/travertine-stone/white-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -8595,11 +8595,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-1",
     "name": "Bruno Onyx",
-    "image": "image/onyx-stone/bruno-onyx.jpg",
+    "image": "./image/onyx-stone/bruno-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8615,11 +8615,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-2",
     "name": "Cola Onyx",
-    "image": "image/onyx-stone/cola-onyx.jpg",
+    "image": "./image/onyx-stone/cola-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8635,11 +8635,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-3",
     "name": "Damra Onyx",
-    "image": "image/onyx-stone/damra-onyx.jpg",
+    "image": "./image/onyx-stone/damra-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8655,11 +8655,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-4",
     "name": "Grey Onyx",
-    "image": "image/onyx-stone/grey-onyx.jpg",
+    "image": "./image/onyx-stone/grey-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8675,11 +8675,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-5",
     "name": "Honey Onyx",
-    "image": "image/onyx-stone/honey-onyx.jpg",
+    "image": "./image/onyx-stone/honey-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8695,11 +8695,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-6",
     "name": "Oriental Onyx",
-    "image": "image/onyx-stone/oriental-onyx.jpg",
+    "image": "./image/onyx-stone/oriental-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8715,11 +8715,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-7",
     "name": "Rustica Onyx",
-    "image": "image/onyx-stone/rustica-onyx.jpg",
+    "image": "./image/onyx-stone/rustica-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8735,11 +8735,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-8",
     "name": "Valencia Onyx",
-    "image": "image/onyx-stone/valencia-onyx.jpg",
+    "image": "./image/onyx-stone/valencia-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8755,11 +8755,11 @@ const BMC_CATALOG = [
   {
     "id": "onyx-9",
     "name": "Vedeci Onyx",
-    "image": "image/onyx-stone/vedeci-onyx.jpg",
+    "image": "./image/onyx-stone/vedeci-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/bruno-onyx.jpg",
-      "image/onyx-stone/cola-onyx.jpg",
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/bruno-onyx.jpg",
+      "./image/onyx-stone/cola-onyx.jpg",
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -8775,11 +8775,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-1",
     "name": "10",
-    "image": "image/pool-stone/10.jpg",
+    "image": "./image/pool-stone/10.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8795,11 +8795,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-2",
     "name": "11",
-    "image": "image/pool-stone/11.jpg",
+    "image": "./image/pool-stone/11.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8815,11 +8815,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-3",
     "name": "2",
-    "image": "image/pool-stone/2.jpg",
+    "image": "./image/pool-stone/2.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8835,11 +8835,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-4",
     "name": "4",
-    "image": "image/pool-stone/4.jpg",
+    "image": "./image/pool-stone/4.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8855,11 +8855,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-5",
     "name": "6",
-    "image": "image/pool-stone/6.jpg",
+    "image": "./image/pool-stone/6.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8875,11 +8875,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-6",
     "name": "7",
-    "image": "image/pool-stone/7.jpg",
+    "image": "./image/pool-stone/7.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8895,11 +8895,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-7",
     "name": "8",
-    "image": "image/pool-stone/8.jpg",
+    "image": "./image/pool-stone/8.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8915,11 +8915,11 @@ const BMC_CATALOG = [
   {
     "id": "pool-8",
     "name": "9",
-    "image": "image/pool-stone/9.jpg",
+    "image": "./image/pool-stone/9.jpg",
     "gallery": [
-      "image/pool-stone/10.jpg",
-      "image/pool-stone/11.jpg",
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/10.jpg",
+      "./image/pool-stone/11.jpg",
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -8935,11 +8935,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-1",
     "name": "CF0001 Lightning Beige",
-    "image": "image/compressed-marble/cf0001-lightning-beige.jpg",
+    "image": "./image/compressed-marble/cf0001-lightning-beige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -8955,11 +8955,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-2",
     "name": "CF0012 Rainbow",
-    "image": "image/compressed-marble/cf0012-rainbow.jpg",
+    "image": "./image/compressed-marble/cf0012-rainbow.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -8975,11 +8975,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-3",
     "name": "CF0028 Marfil Geige",
-    "image": "image/compressed-marble/cf0028-marfil-geige.jpg",
+    "image": "./image/compressed-marble/cf0028-marfil-geige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -8995,11 +8995,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-4",
     "name": "CF0030 Atom Beige",
-    "image": "image/compressed-marble/cf0030-atom-beige.jpg",
+    "image": "./image/compressed-marble/cf0030-atom-beige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9015,11 +9015,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-5",
     "name": "CF0031 Golddust Red",
-    "image": "image/compressed-marble/cf0031-golddust-red.jpg",
+    "image": "./image/compressed-marble/cf0031-golddust-red.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9035,11 +9035,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-6",
     "name": "CF0032 New Beige",
-    "image": "image/compressed-marble/cf0032-new-beige.jpg",
+    "image": "./image/compressed-marble/cf0032-new-beige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9055,11 +9055,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-7",
     "name": "CF0033 Red Dot",
-    "image": "image/compressed-marble/cf0033-red-dot.jpg",
+    "image": "./image/compressed-marble/cf0033-red-dot.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9075,11 +9075,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-8",
     "name": "CF0034 Ixoa",
-    "image": "image/compressed-marble/cf0034-ixoa.jpg",
+    "image": "./image/compressed-marble/cf0034-ixoa.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9095,11 +9095,11 @@ const BMC_CATALOG = [
   {
     "id": "compressed-marble-9",
     "name": "CF0038 Black Jade With Star",
-    "image": "image/compressed-marble/cf0038-black-jade-with-star.jpg",
+    "image": "./image/compressed-marble/cf0038-black-jade-with-star.jpg",
     "gallery": [
-      "image/compressed-marble/cf0001-lightning-beige.jpg",
-      "image/compressed-marble/cf0012-rainbow.jpg",
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0001-lightning-beige.jpg",
+      "./image/compressed-marble/cf0012-rainbow.jpg",
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -9115,11 +9115,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-1",
     "name": "SB100_BIANCO_LEV-IMG_7976",
-    "image": "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+    "image": "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9135,11 +9135,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-2",
     "name": "SB101_PEPESALE_LEV-IMG_7925",
-    "image": "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+    "image": "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9155,11 +9155,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-3",
     "name": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
-    "image": "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg",
+    "image": "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9175,11 +9175,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-4",
     "name": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
-    "image": "image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg",
+    "image": "./image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9195,11 +9195,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-5",
     "name": "SB105_ANTRACITE_LEV-IMG_7949",
-    "image": "image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg",
+    "image": "./image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9215,11 +9215,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-6",
     "name": "SB106_NERO_LEV-IMG_7964-1",
-    "image": "image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg",
+    "image": "./image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9235,11 +9235,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-7",
     "name": "SB108_BEIGE_LEV-IMG_7904",
-    "image": "image/terrazzo-stone/sb108-beige-lev-img-7904.jpg",
+    "image": "./image/terrazzo-stone/sb108-beige-lev-img-7904.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9255,11 +9255,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-8",
     "name": "SB109_GIALLO_LEV-IMG_7847",
-    "image": "image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg",
+    "image": "./image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9275,11 +9275,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-9",
     "name": "SB111_VERDE_LEV-IMG_7913",
-    "image": "image/terrazzo-stone/sb111-verde-lev-img-7913.jpg",
+    "image": "./image/terrazzo-stone/sb111-verde-lev-img-7913.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9295,11 +9295,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-10",
     "name": "SB112_VERDE_SCURO_LEV-IMG_8052",
-    "image": "image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg",
+    "image": "./image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9315,11 +9315,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-11",
     "name": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
-    "image": "image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg",
+    "image": "./image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9335,11 +9335,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-12",
     "name": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
-    "image": "image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg",
+    "image": "./image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9355,11 +9355,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-13",
     "name": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
-    "image": "image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg",
+    "image": "./image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9375,11 +9375,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-14",
     "name": "SB119_PEPEGRIGIO_LEV-IMG_8037",
-    "image": "image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg",
+    "image": "./image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9395,11 +9395,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-15",
     "name": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
-    "image": "image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg",
+    "image": "./image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9415,11 +9415,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-16",
     "name": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
-    "image": "image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg",
+    "image": "./image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9435,11 +9435,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-17",
     "name": "SB128_GRIGIO_NERO_LEV-IMG_7805",
-    "image": "image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg",
+    "image": "./image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9455,11 +9455,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-18",
     "name": "SB130_AGGLOCEPPO_LEV-IMG_7660",
-    "image": "image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg",
+    "image": "./image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9475,11 +9475,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-19",
     "name": "SB136_BIANCO_VR_LUX-IMG_7691",
-    "image": "image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg",
+    "image": "./image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9495,11 +9495,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-20",
     "name": "SB138_GHIACCIO_LEV-IMG_7754",
-    "image": "image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg",
+    "image": "./image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9515,11 +9515,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-21",
     "name": "SB140_CA-DORO_LEV-IMG_7639",
-    "image": "image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg",
+    "image": "./image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9535,11 +9535,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-22",
     "name": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
-    "image": "image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg",
+    "image": "./image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9555,11 +9555,11 @@ const BMC_CATALOG = [
   {
     "id": "terrazzo-23",
     "name": "SB143_BIANCO25_LEV-IMG_7651",
-    "image": "image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg",
+    "image": "./image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb100-bianco-lev-img-7976.jpg",
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -9575,11 +9575,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-1",
     "name": "Bamboo-",
-    "image": "image/solid-wood/bamboo-2.jpg",
+    "image": "./image/solid-wood/bamboo-2.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9595,11 +9595,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-2",
     "name": "BAMBOO",
-    "image": "image/solid-wood/bamboo.jpg",
+    "image": "./image/solid-wood/bamboo.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9615,11 +9615,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-3",
     "name": "beech-",
-    "image": "image/solid-wood/beech.jpg",
+    "image": "./image/solid-wood/beech.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9635,11 +9635,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-4",
     "name": "kempus",
-    "image": "image/solid-wood/kempus.jpg",
+    "image": "./image/solid-wood/kempus.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9655,11 +9655,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-5",
     "name": "MERBAU-",
-    "image": "image/solid-wood/merbau-2.jpg",
+    "image": "./image/solid-wood/merbau-2.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9675,11 +9675,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-6",
     "name": "MERBAU",
-    "image": "image/solid-wood/merbau.jpg",
+    "image": "./image/solid-wood/merbau.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9695,11 +9695,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-7",
     "name": "oak-",
-    "image": "image/solid-wood/oak.jpg",
+    "image": "./image/solid-wood/oak.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9715,11 +9715,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-8",
     "name": "OAK",
-    "image": "image/solid-wood/oak-2.jpg",
+    "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9735,11 +9735,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-9",
     "name": "TALI",
-    "image": "image/solid-wood/tali.jpg",
+    "image": "./image/solid-wood/tali.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9755,11 +9755,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-10",
     "name": "TAUARI",
-    "image": "image/solid-wood/tauari.jpg",
+    "image": "./image/solid-wood/tauari.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9775,11 +9775,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-11",
     "name": "teak-",
-    "image": "image/solid-wood/teak-2.jpg",
+    "image": "./image/solid-wood/teak-2.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9795,11 +9795,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-12",
     "name": "TEAK",
-    "image": "image/solid-wood/teak.jpg",
+    "image": "./image/solid-wood/teak.jpg",
     "gallery": [
-      "image/solid-wood/bamboo-2.jpg",
-      "image/solid-wood/bamboo.jpg",
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/bamboo-2.jpg",
+      "./image/solid-wood/bamboo.jpg",
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9815,11 +9815,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-1",
     "name": "KL514011",
-    "image": "image/furniture/kl514011.jpg",
+    "image": "./image/furniture/kl514011.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9835,11 +9835,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-2",
     "name": "KL5181310    （8mm）",
-    "image": "image/furniture/kl5181310-8mm.jpg",
+    "image": "./image/furniture/kl5181310-8mm.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9855,11 +9855,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-3",
     "name": "KL5297422（6mm）",
-    "image": "image/furniture/kl5297422-6mm.jpg",
+    "image": "./image/furniture/kl5297422-6mm.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9875,11 +9875,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-4",
     "name": "KL5593312",
-    "image": "image/furniture/kl5593312.jpg",
+    "image": "./image/furniture/kl5593312.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9895,11 +9895,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-5",
     "name": "KL5599322    （8mm）",
-    "image": "image/furniture/kl5599322-8mm.jpg",
+    "image": "./image/furniture/kl5599322-8mm.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9915,11 +9915,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-6",
     "name": "KL5668222    （8mm）",
-    "image": "image/furniture/kl5668222-8mm.jpg",
+    "image": "./image/furniture/kl5668222-8mm.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9935,11 +9935,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-7",
     "name": "KL5693212",
-    "image": "image/furniture/kl5693212.jpg",
+    "image": "./image/furniture/kl5693212.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9955,11 +9955,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-8",
     "name": "KL5697212（6mm）",
-    "image": "image/furniture/kl5697212-6mm.jpg",
+    "image": "./image/furniture/kl5697212-6mm.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9975,11 +9975,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-9",
     "name": "RTJ-TB",
-    "image": "image/furniture/rtj-tb.jpg",
+    "image": "./image/furniture/rtj-tb.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -9995,11 +9995,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-10",
     "name": "tb-001-2",
-    "image": "image/furniture/tb-001-2.jpg",
+    "image": "./image/furniture/tb-001-2.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10015,11 +10015,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-11",
     "name": "TB-01T",
-    "image": "image/furniture/tb-01t.jpg",
+    "image": "./image/furniture/tb-01t.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10035,11 +10035,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-12",
     "name": "เก้าอี้ 01",
-    "image": "image/furniture/01-2.jpg",
+    "image": "./image/furniture/01-2.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10055,11 +10055,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-13",
     "name": "เก้าอี้ 02",
-    "image": "image/furniture/02-2.jpg",
+    "image": "./image/furniture/02-2.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10075,11 +10075,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-14",
     "name": "เก้าอี้ 03",
-    "image": "image/furniture/03.jpg",
+    "image": "./image/furniture/03.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10095,11 +10095,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-15",
     "name": "โต๊ะ01",
-    "image": "image/furniture/01.jpg",
+    "image": "./image/furniture/01.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10115,11 +10115,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-16",
     "name": "โต๊ะ02",
-    "image": "image/furniture/02.jpg",
+    "image": "./image/furniture/02.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10135,11 +10135,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-17",
     "name": "โต๊ะ03",
-    "image": "image/furniture/03-2.jpg",
+    "image": "./image/furniture/03-2.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10155,11 +10155,11 @@ const BMC_CATALOG = [
   {
     "id": "furniture-18",
     "name": "โต๊ะกลางดีสนี่",
-    "image": "image/furniture/image.jpg",
+    "image": "./image/furniture/image.jpg",
     "gallery": [
-      "image/furniture/kl514011.jpg",
-      "image/furniture/kl5181310-8mm.jpg",
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl514011.jpg",
+      "./image/furniture/kl5181310-8mm.jpg",
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -10175,11 +10175,11 @@ const BMC_CATALOG = [
   {
     "id": "wpc-1",
     "name": "ไม้เทียม WPC 1",
-    "image": "image/engineered-wood/01.jpg",
+    "image": "./image/engineered-wood/01.jpg",
     "gallery": [
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/04.jpg"
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/04.jpg"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10195,11 +10195,11 @@ const BMC_CATALOG = [
   {
     "id": "wpc-2",
     "name": "ไม้เทียม WPC 2",
-    "image": "image/engineered-wood/01.jpg",
+    "image": "./image/engineered-wood/01.jpg",
     "gallery": [
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/04.jpg"
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/04.jpg"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10215,11 +10215,11 @@ const BMC_CATALOG = [
   {
     "id": "wpc-3",
     "name": "ไม้เทียม WPC 3",
-    "image": "image/engineered-wood/01.jpg",
+    "image": "./image/engineered-wood/01.jpg",
     "gallery": [
-      "image/engineered-wood/01.jpg",
-      "image/engineered-wood/02.jpg",
-      "image/engineered-wood/04.jpg"
+      "./image/engineered-wood/01.jpg",
+      "./image/engineered-wood/02.jpg",
+      "./image/engineered-wood/04.jpg"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10235,11 +10235,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-1",
     "name": "ไม้เทียม SPC 1",
-    "image": "image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/201412221246586423.jpg"
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10255,11 +10255,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-2",
     "name": "ไม้เทียม SPC 2",
-    "image": "image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/201412221246586423.jpg"
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10275,11 +10275,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-3",
     "name": "ไม้เทียม SPC 3",
-    "image": "image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
     "gallery": [
-      "image/laminate-wood/201412221246063860.jpg",
-      "image/laminate-wood/201412221246513588.jpg",
-      "image/laminate-wood/201412221246586423.jpg"
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10295,11 +10295,11 @@ const BMC_CATALOG = [
   {
     "id": "ceramic-1",
     "name": "กระเบื้องเซรามิก 1",
-    "image": "image/marble-tiles/ct2-msd8816p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8816p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -10315,11 +10315,11 @@ const BMC_CATALOG = [
   {
     "id": "ceramic-2",
     "name": "กระเบื้องเซรามิก 2",
-    "image": "image/marble-tiles/ct2-msd8818p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8818p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -10335,11 +10335,11 @@ const BMC_CATALOG = [
   {
     "id": "ceramic-3",
     "name": "กระเบื้องเซรามิก 3",
-    "image": "image/marble-tiles/ct2-msd8825p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8825p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -10355,11 +10355,11 @@ const BMC_CATALOG = [
   {
     "id": "porcelain-1",
     "name": "กระเบื้องพอซเซเลน 1",
-    "image": "image/marble-tiles/ct2-msd8816p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8816p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "porcelain",
     "categoryLabel": "กระเบื้องพอซเซเลน",
@@ -10375,11 +10375,11 @@ const BMC_CATALOG = [
   {
     "id": "porcelain-2",
     "name": "กระเบื้องพอซเซเลน 2",
-    "image": "image/marble-tiles/ct2-msd8818p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8818p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "porcelain",
     "categoryLabel": "กระเบื้องพอซเซเลน",
@@ -10395,11 +10395,11 @@ const BMC_CATALOG = [
   {
     "id": "porcelain-3",
     "name": "กระเบื้องพอซเซเลน 3",
-    "image": "image/marble-tiles/ct2-msd8825p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8825p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8816p.jpg",
-      "image/marble-tiles/ct2-msd8818p.jpg",
-      "image/marble-tiles/ct2-msd8825p.jpg"
+      "./image/marble-tiles/ct2-msd8816p.jpg",
+      "./image/marble-tiles/ct2-msd8818p.jpg",
+      "./image/marble-tiles/ct2-msd8825p.jpg"
     ],
     "category": "porcelain",
     "categoryLabel": "กระเบื้องพอซเซเลน",
@@ -10416,9 +10416,9 @@ const BMC_CATALOG = [
     "id": "quartzite-da-vinci",
     "name": "Da Vinci",
     "nameEn": "Da Vinci",
-    "image": "image/quartz-stone/da-vinci.jpg",
+    "image": "./image/quartz-stone/da-vinci.jpg",
     "gallery": [
-      "image/quartz-stone/da-vinci.jpg"
+      "./image/quartz-stone/da-vinci.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10434,9 +10434,9 @@ const BMC_CATALOG = [
     "id": "quartzite-explosion-blue",
     "name": "Explosion Blue",
     "nameEn": "Explosion Blue",
-    "image": "image/quartz-stone/explosion-blue.jpg",
+    "image": "./image/quartz-stone/explosion-blue.jpg",
     "gallery": [
-      "image/quartz-stone/explosion-blue.jpg"
+      "./image/quartz-stone/explosion-blue.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10452,9 +10452,9 @@ const BMC_CATALOG = [
     "id": "quartzite-la-valle",
     "name": "La Valle",
     "nameEn": "La Valle",
-    "image": "image/quartz-stone/la-valle.jpg",
+    "image": "./image/quartz-stone/la-valle.jpg",
     "gallery": [
-      "image/quartz-stone/la-valle.jpg"
+      "./image/quartz-stone/la-valle.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10470,9 +10470,9 @@ const BMC_CATALOG = [
     "id": "quartzite-mont-blanc",
     "name": "Mont Blanc",
     "nameEn": "Mont Blanc",
-    "image": "image/quartz-stone/mont-blanc.jpg",
+    "image": "./image/quartz-stone/mont-blanc.jpg",
     "gallery": [
-      "image/quartz-stone/mont-blanc.jpg"
+      "./image/quartz-stone/mont-blanc.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10488,9 +10488,9 @@ const BMC_CATALOG = [
     "id": "quartzite-pink-lake",
     "name": "Pink Lake",
     "nameEn": "Pink Lake",
-    "image": "image/quartz-stone/pink-lake.jpg",
+    "image": "./image/quartz-stone/pink-lake.jpg",
     "gallery": [
-      "image/quartz-stone/pink-lake.jpg"
+      "./image/quartz-stone/pink-lake.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10506,9 +10506,9 @@ const BMC_CATALOG = [
     "id": "quartzite-starry-night",
     "name": "Starry Night",
     "nameEn": "Starry Night",
-    "image": "image/quartz-stone/starry-night.jpg",
+    "image": "./image/quartz-stone/starry-night.jpg",
     "gallery": [
-      "image/quartz-stone/starry-night.jpg"
+      "./image/quartz-stone/starry-night.jpg"
     ],
     "category": "quartzite",
     "categoryLabel": "หินควอตไซต์",
@@ -10524,9 +10524,9 @@ const BMC_CATALOG = [
     "id": "limestone-mocca-cream",
     "name": "Mocca Cream",
     "nameEn": "Mocca Cream",
-    "image": "image/limestone-stone/mocca-cream.jpg",
+    "image": "./image/limestone-stone/mocca-cream.jpg",
     "gallery": [
-      "image/limestone-stone/mocca-cream.jpg"
+      "./image/limestone-stone/mocca-cream.jpg"
     ],
     "category": "limestone",
     "categoryLabel": "หินไลม์สโตน",
@@ -10542,9 +10542,9 @@ const BMC_CATALOG = [
     "id": "limestone-rava-beige",
     "name": "Rava Beige",
     "nameEn": "Rava Beige",
-    "image": "image/limestone-stone/rava-beige.jpg",
+    "image": "./image/limestone-stone/rava-beige.jpg",
     "gallery": [
-      "image/limestone-stone/rava-beige.jpg"
+      "./image/limestone-stone/rava-beige.jpg"
     ],
     "category": "limestone",
     "categoryLabel": "หินไลม์สโตน",
@@ -10560,9 +10560,9 @@ const BMC_CATALOG = [
     "id": "travertine-silver-travertine",
     "name": "Silver Travertine",
     "nameEn": "Silver Travertine",
-    "image": "image/travertine-stone/silver-travertine.jpg",
+    "image": "./image/travertine-stone/silver-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/silver-travertine.jpg"
+      "./image/travertine-stone/silver-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -10578,9 +10578,9 @@ const BMC_CATALOG = [
     "id": "travertine-white-travertine",
     "name": "White Travertine",
     "nameEn": "White Travertine",
-    "image": "image/travertine-stone/white-travertine.jpg",
+    "image": "./image/travertine-stone/white-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/white-travertine.jpg"
+      "./image/travertine-stone/white-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -10596,9 +10596,9 @@ const BMC_CATALOG = [
     "id": "travertine-yellow-travertine",
     "name": "Yellow Travertine",
     "nameEn": "Yellow Travertine",
-    "image": "image/travertine-stone/yellow-travertine.jpg",
+    "image": "./image/travertine-stone/yellow-travertine.jpg",
     "gallery": [
-      "image/travertine-stone/yellow-travertine.jpg"
+      "./image/travertine-stone/yellow-travertine.jpg"
     ],
     "category": "travertine",
     "categoryLabel": "หินทราเวอร์ทีน",
@@ -10614,9 +10614,9 @@ const BMC_CATALOG = [
     "id": "onyx-cola-onyx",
     "name": "Cola Onyx",
     "nameEn": "Cola Onyx",
-    "image": "image/onyx-stone/cola-onyx.jpg",
+    "image": "./image/onyx-stone/cola-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/cola-onyx.jpg"
+      "./image/onyx-stone/cola-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10632,9 +10632,9 @@ const BMC_CATALOG = [
     "id": "onyx-damra-onyx",
     "name": "Damra Onyx",
     "nameEn": "Damra Onyx",
-    "image": "image/onyx-stone/damra-onyx.jpg",
+    "image": "./image/onyx-stone/damra-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/damra-onyx.jpg"
+      "./image/onyx-stone/damra-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10650,9 +10650,9 @@ const BMC_CATALOG = [
     "id": "onyx-grey-onyx",
     "name": "Grey Onyx",
     "nameEn": "Grey Onyx",
-    "image": "image/onyx-stone/grey-onyx.jpg",
+    "image": "./image/onyx-stone/grey-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/grey-onyx.jpg"
+      "./image/onyx-stone/grey-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10668,9 +10668,9 @@ const BMC_CATALOG = [
     "id": "onyx-honey-onyx",
     "name": "Honey Onyx",
     "nameEn": "Honey Onyx",
-    "image": "image/onyx-stone/honey-onyx.jpg",
+    "image": "./image/onyx-stone/honey-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/honey-onyx.jpg"
+      "./image/onyx-stone/honey-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10686,9 +10686,9 @@ const BMC_CATALOG = [
     "id": "onyx-oriental-onyx",
     "name": "Oriental Onyx",
     "nameEn": "Oriental Onyx",
-    "image": "image/onyx-stone/oriental-onyx.jpg",
+    "image": "./image/onyx-stone/oriental-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/oriental-onyx.jpg"
+      "./image/onyx-stone/oriental-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10704,9 +10704,9 @@ const BMC_CATALOG = [
     "id": "onyx-rustica-onyx",
     "name": "Rustica Onyx",
     "nameEn": "Rustica Onyx",
-    "image": "image/onyx-stone/rustica-onyx.jpg",
+    "image": "./image/onyx-stone/rustica-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/rustica-onyx.jpg"
+      "./image/onyx-stone/rustica-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10722,9 +10722,9 @@ const BMC_CATALOG = [
     "id": "onyx-valencia-onyx",
     "name": "Valencia Onyx",
     "nameEn": "Valencia Onyx",
-    "image": "image/onyx-stone/valencia-onyx.jpg",
+    "image": "./image/onyx-stone/valencia-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/valencia-onyx.jpg"
+      "./image/onyx-stone/valencia-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10740,9 +10740,9 @@ const BMC_CATALOG = [
     "id": "onyx-vedeci-onyx",
     "name": "Vedeci Onyx",
     "nameEn": "Vedeci Onyx",
-    "image": "image/onyx-stone/vedeci-onyx.jpg",
+    "image": "./image/onyx-stone/vedeci-onyx.jpg",
     "gallery": [
-      "image/onyx-stone/vedeci-onyx.jpg"
+      "./image/onyx-stone/vedeci-onyx.jpg"
     ],
     "category": "onyx",
     "categoryLabel": "หินออนิกซ์",
@@ -10758,9 +10758,9 @@ const BMC_CATALOG = [
     "id": "pool-11",
     "name": "11",
     "nameEn": "11",
-    "image": "image/pool-stone/11.jpg",
+    "image": "./image/pool-stone/11.jpg",
     "gallery": [
-      "image/pool-stone/11.jpg"
+      "./image/pool-stone/11.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10776,9 +10776,9 @@ const BMC_CATALOG = [
     "id": "pool-2-2",
     "name": "2",
     "nameEn": "2",
-    "image": "image/pool-stone/2.jpg",
+    "image": "./image/pool-stone/2.jpg",
     "gallery": [
-      "image/pool-stone/2.jpg"
+      "./image/pool-stone/2.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10794,9 +10794,9 @@ const BMC_CATALOG = [
     "id": "pool-4-2",
     "name": "4",
     "nameEn": "4",
-    "image": "image/pool-stone/4.jpg",
+    "image": "./image/pool-stone/4.jpg",
     "gallery": [
-      "image/pool-stone/4.jpg"
+      "./image/pool-stone/4.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10812,9 +10812,9 @@ const BMC_CATALOG = [
     "id": "pool-6-2",
     "name": "6",
     "nameEn": "6",
-    "image": "image/pool-stone/6.jpg",
+    "image": "./image/pool-stone/6.jpg",
     "gallery": [
-      "image/pool-stone/6.jpg"
+      "./image/pool-stone/6.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10830,9 +10830,9 @@ const BMC_CATALOG = [
     "id": "pool-7-2",
     "name": "7",
     "nameEn": "7",
-    "image": "image/pool-stone/7.jpg",
+    "image": "./image/pool-stone/7.jpg",
     "gallery": [
-      "image/pool-stone/7.jpg"
+      "./image/pool-stone/7.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10848,9 +10848,9 @@ const BMC_CATALOG = [
     "id": "pool-8-2",
     "name": "8",
     "nameEn": "8",
-    "image": "image/pool-stone/8.jpg",
+    "image": "./image/pool-stone/8.jpg",
     "gallery": [
-      "image/pool-stone/8.jpg"
+      "./image/pool-stone/8.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10866,9 +10866,9 @@ const BMC_CATALOG = [
     "id": "pool-9",
     "name": "9",
     "nameEn": "9",
-    "image": "image/pool-stone/9.jpg",
+    "image": "./image/pool-stone/9.jpg",
     "gallery": [
-      "image/pool-stone/9.jpg"
+      "./image/pool-stone/9.jpg"
     ],
     "category": "pool",
     "categoryLabel": "ปูสระว่ายน้ำ",
@@ -10884,9 +10884,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0012-rainbow",
     "name": "CF0012 Rainbow",
     "nameEn": "CF0012 Rainbow",
-    "image": "image/compressed-marble/cf0012-rainbow.jpg",
+    "image": "./image/compressed-marble/cf0012-rainbow.jpg",
     "gallery": [
-      "image/compressed-marble/cf0012-rainbow.jpg"
+      "./image/compressed-marble/cf0012-rainbow.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10902,9 +10902,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0028-marfil-geige",
     "name": "CF0028 Marfil Geige",
     "nameEn": "CF0028 Marfil Geige",
-    "image": "image/compressed-marble/cf0028-marfil-geige.jpg",
+    "image": "./image/compressed-marble/cf0028-marfil-geige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0028-marfil-geige.jpg"
+      "./image/compressed-marble/cf0028-marfil-geige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10920,9 +10920,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0030-atom-beige",
     "name": "CF0030 Atom Beige",
     "nameEn": "CF0030 Atom Beige",
-    "image": "image/compressed-marble/cf0030-atom-beige.jpg",
+    "image": "./image/compressed-marble/cf0030-atom-beige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0030-atom-beige.jpg"
+      "./image/compressed-marble/cf0030-atom-beige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10938,9 +10938,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0031-golddust-red",
     "name": "CF0031 Golddust Red",
     "nameEn": "CF0031 Golddust Red",
-    "image": "image/compressed-marble/cf0031-golddust-red.jpg",
+    "image": "./image/compressed-marble/cf0031-golddust-red.jpg",
     "gallery": [
-      "image/compressed-marble/cf0031-golddust-red.jpg"
+      "./image/compressed-marble/cf0031-golddust-red.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10956,9 +10956,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0032-new-beige",
     "name": "CF0032 New Beige",
     "nameEn": "CF0032 New Beige",
-    "image": "image/compressed-marble/cf0032-new-beige.jpg",
+    "image": "./image/compressed-marble/cf0032-new-beige.jpg",
     "gallery": [
-      "image/compressed-marble/cf0032-new-beige.jpg"
+      "./image/compressed-marble/cf0032-new-beige.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10974,9 +10974,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0033-red-dot",
     "name": "CF0033 Red Dot",
     "nameEn": "CF0033 Red Dot",
-    "image": "image/compressed-marble/cf0033-red-dot.jpg",
+    "image": "./image/compressed-marble/cf0033-red-dot.jpg",
     "gallery": [
-      "image/compressed-marble/cf0033-red-dot.jpg"
+      "./image/compressed-marble/cf0033-red-dot.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -10992,9 +10992,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0034-ixoa",
     "name": "CF0034 Ixoa",
     "nameEn": "CF0034 Ixoa",
-    "image": "image/compressed-marble/cf0034-ixoa.jpg",
+    "image": "./image/compressed-marble/cf0034-ixoa.jpg",
     "gallery": [
-      "image/compressed-marble/cf0034-ixoa.jpg"
+      "./image/compressed-marble/cf0034-ixoa.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -11010,9 +11010,9 @@ const BMC_CATALOG = [
     "id": "compressed-marble-cf0038-black-jade-with-star",
     "name": "CF0038 Black Jade With Star",
     "nameEn": "CF0038 Black Jade With Star",
-    "image": "image/compressed-marble/cf0038-black-jade-with-star.jpg",
+    "image": "./image/compressed-marble/cf0038-black-jade-with-star.jpg",
     "gallery": [
-      "image/compressed-marble/cf0038-black-jade-with-star.jpg"
+      "./image/compressed-marble/cf0038-black-jade-with-star.jpg"
     ],
     "category": "compressed-marble",
     "categoryLabel": "หินอ่อนอัด",
@@ -11028,9 +11028,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb101-pepesale-lev-img-7925",
     "name": "SB101_PEPESALE_LEV-IMG_7925",
     "nameEn": "SB101_PEPESALE_LEV-IMG_7925",
-    "image": "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
+    "image": "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg"
+      "./image/terrazzo-stone/sb101-pepesale-lev-img-7925.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11046,9 +11046,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb102-grigio-chiaro-lev-img-7868",
     "name": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
     "nameEn": "SB102_GRIGIO_CHIARO_LEV-IMG_7868",
-    "image": "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg",
+    "image": "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
+      "./image/terrazzo-stone/sb102-grigio-chiaro-lev-img-7868.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11064,9 +11064,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb103-grigio-medio-lev-sga9125",
     "name": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
     "nameEn": "SB103_GRIGIO_MEDIO_LEV_SGA9125",
-    "image": "image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg",
+    "image": "./image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg"
+      "./image/terrazzo-stone/sb103-grigio-medio-lev-sga9125.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11082,9 +11082,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb105-antracite-lev-img-7949",
     "name": "SB105_ANTRACITE_LEV-IMG_7949",
     "nameEn": "SB105_ANTRACITE_LEV-IMG_7949",
-    "image": "image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg",
+    "image": "./image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg"
+      "./image/terrazzo-stone/sb105-antracite-lev-img-7949.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11100,9 +11100,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb106-nero-lev-img-7964-1",
     "name": "SB106_NERO_LEV-IMG_7964-1",
     "nameEn": "SB106_NERO_LEV-IMG_7964-1",
-    "image": "image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg",
+    "image": "./image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg"
+      "./image/terrazzo-stone/sb106-nero-lev-img-7964-1.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11118,9 +11118,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb108-beige-lev-img-7904",
     "name": "SB108_BEIGE_LEV-IMG_7904",
     "nameEn": "SB108_BEIGE_LEV-IMG_7904",
-    "image": "image/terrazzo-stone/sb108-beige-lev-img-7904.jpg",
+    "image": "./image/terrazzo-stone/sb108-beige-lev-img-7904.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb108-beige-lev-img-7904.jpg"
+      "./image/terrazzo-stone/sb108-beige-lev-img-7904.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11136,9 +11136,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb109-giallo-lev-img-7847",
     "name": "SB109_GIALLO_LEV-IMG_7847",
     "nameEn": "SB109_GIALLO_LEV-IMG_7847",
-    "image": "image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg",
+    "image": "./image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg"
+      "./image/terrazzo-stone/sb109-giallo-lev-img-7847.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11154,9 +11154,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb111-verde-lev-img-7913",
     "name": "SB111_VERDE_LEV-IMG_7913",
     "nameEn": "SB111_VERDE_LEV-IMG_7913",
-    "image": "image/terrazzo-stone/sb111-verde-lev-img-7913.jpg",
+    "image": "./image/terrazzo-stone/sb111-verde-lev-img-7913.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb111-verde-lev-img-7913.jpg"
+      "./image/terrazzo-stone/sb111-verde-lev-img-7913.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11172,9 +11172,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb112-verde-scuro-lev-img-8052",
     "name": "SB112_VERDE_SCURO_LEV-IMG_8052",
     "nameEn": "SB112_VERDE_SCURO_LEV-IMG_8052",
-    "image": "image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg",
+    "image": "./image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg"
+      "./image/terrazzo-stone/sb112-verde-scuro-lev-img-8052.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11190,9 +11190,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb113-multicolor-nero-lev-img-7979",
     "name": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
     "nameEn": "SB113_MULTICOLOR_NERO_LEV-IMG_7979",
-    "image": "image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg",
+    "image": "./image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg"
+      "./image/terrazzo-stone/sb113-multicolor-nero-lev-img-7979.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11208,9 +11208,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb114-multicolor-grigio-lev-img-7703",
     "name": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
     "nameEn": "SB114_MULTICOLOR_GRIGIO_LEV-IMG_7703",
-    "image": "image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg",
+    "image": "./image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg"
+      "./image/terrazzo-stone/sb114-multicolor-grigio-lev-img-7703.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11226,9 +11226,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb115-multicolor-verde-lev-img-7624",
     "name": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
     "nameEn": "SB115_MULTICOLOR_VERDE_LEV-IMG_7624",
-    "image": "image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg",
+    "image": "./image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg"
+      "./image/terrazzo-stone/sb115-multicolor-verde-lev-img-7624.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11244,9 +11244,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb119-pepegrigio-lev-img-8037",
     "name": "SB119_PEPEGRIGIO_LEV-IMG_8037",
     "nameEn": "SB119_PEPEGRIGIO_LEV-IMG_8037",
-    "image": "image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg",
+    "image": "./image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg"
+      "./image/terrazzo-stone/sb119-pepegrigio-lev-img-8037.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11262,9 +11262,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb124-grigio-rotondo-lev-img-7676",
     "name": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
     "nameEn": "SB124_GRIGIO_ROTONDO_LEV-IMG_7676",
-    "image": "image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg",
+    "image": "./image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg"
+      "./image/terrazzo-stone/sb124-grigio-rotondo-lev-img-7676.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11280,9 +11280,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb125-bruno-rotondo-lev-img-7835-1",
     "name": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
     "nameEn": "SB125_BRUNO_ROTONDO_LEV-IMG_7835-1",
-    "image": "image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg",
+    "image": "./image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg"
+      "./image/terrazzo-stone/sb125-bruno-rotondo-lev-img-7835-1.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11298,9 +11298,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb128-grigio-nero-lev-img-7805",
     "name": "SB128_GRIGIO_NERO_LEV-IMG_7805",
     "nameEn": "SB128_GRIGIO_NERO_LEV-IMG_7805",
-    "image": "image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg",
+    "image": "./image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg"
+      "./image/terrazzo-stone/sb128-grigio-nero-lev-img-7805.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11316,9 +11316,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb130-aggloceppo-lev-img-7660",
     "name": "SB130_AGGLOCEPPO_LEV-IMG_7660",
     "nameEn": "SB130_AGGLOCEPPO_LEV-IMG_7660",
-    "image": "image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg",
+    "image": "./image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg"
+      "./image/terrazzo-stone/sb130-aggloceppo-lev-img-7660.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11334,9 +11334,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb136-bianco-vr-lux-img-7691",
     "name": "SB136_BIANCO_VR_LUX-IMG_7691",
     "nameEn": "SB136_BIANCO_VR_LUX-IMG_7691",
-    "image": "image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg",
+    "image": "./image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg"
+      "./image/terrazzo-stone/sb136-bianco-vr-lux-img-7691.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11352,9 +11352,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb138-ghiaccio-lev-img-7754",
     "name": "SB138_GHIACCIO_LEV-IMG_7754",
     "nameEn": "SB138_GHIACCIO_LEV-IMG_7754",
-    "image": "image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg",
+    "image": "./image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg"
+      "./image/terrazzo-stone/sb138-ghiaccio-lev-img-7754.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11370,9 +11370,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb140-ca-doro-lev-img-7639",
     "name": "SB140_CA-DORO_LEV-IMG_7639",
     "nameEn": "SB140_CA-DORO_LEV-IMG_7639",
-    "image": "image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg",
+    "image": "./image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg"
+      "./image/terrazzo-stone/sb140-ca-doro-lev-img-7639.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11388,9 +11388,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb141-multicolor-verona-lev-img-7778-2",
     "name": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
     "nameEn": "SB141_MULTICOLOR_VERONA_LEV-IMG_7778-2",
-    "image": "image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg",
+    "image": "./image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg"
+      "./image/terrazzo-stone/sb141-multicolor-verona-lev-img-7778-2.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11406,9 +11406,9 @@ const BMC_CATALOG = [
     "id": "terrazzo-sb143-bianco25-lev-img-7651",
     "name": "SB143_BIANCO25_LEV-IMG_7651",
     "nameEn": "SB143_BIANCO25_LEV-IMG_7651",
-    "image": "image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg",
+    "image": "./image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg",
     "gallery": [
-      "image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg"
+      "./image/terrazzo-stone/sb143-bianco25-lev-img-7651.jpg"
     ],
     "category": "terrazzo",
     "categoryLabel": "หินเทอราซโซ่",
@@ -11424,9 +11424,9 @@ const BMC_CATALOG = [
     "id": "solid-bamboo",
     "name": "BAMBOO",
     "nameEn": "BAMBOO",
-    "image": "image/solid-wood/bamboo.jpg",
+    "image": "./image/solid-wood/bamboo.jpg",
     "gallery": [
-      "image/solid-wood/bamboo.jpg"
+      "./image/solid-wood/bamboo.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11442,9 +11442,9 @@ const BMC_CATALOG = [
     "id": "solid-beech",
     "name": "beech-",
     "nameEn": "beech-",
-    "image": "image/solid-wood/beech.jpg",
+    "image": "./image/solid-wood/beech.jpg",
     "gallery": [
-      "image/solid-wood/beech.jpg"
+      "./image/solid-wood/beech.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11460,9 +11460,9 @@ const BMC_CATALOG = [
     "id": "solid-kempus",
     "name": "kempus",
     "nameEn": "kempus",
-    "image": "image/solid-wood/kempus.jpg",
+    "image": "./image/solid-wood/kempus.jpg",
     "gallery": [
-      "image/solid-wood/kempus.jpg"
+      "./image/solid-wood/kempus.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11478,9 +11478,9 @@ const BMC_CATALOG = [
     "id": "solid-merbau",
     "name": "MERBAU-",
     "nameEn": "MERBAU-",
-    "image": "image/solid-wood/merbau-2.jpg",
+    "image": "./image/solid-wood/merbau-2.jpg",
     "gallery": [
-      "image/solid-wood/merbau-2.jpg"
+      "./image/solid-wood/merbau-2.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11496,9 +11496,9 @@ const BMC_CATALOG = [
     "id": "solid-merbau-2",
     "name": "MERBAU",
     "nameEn": "MERBAU",
-    "image": "image/solid-wood/merbau.jpg",
+    "image": "./image/solid-wood/merbau.jpg",
     "gallery": [
-      "image/solid-wood/merbau.jpg"
+      "./image/solid-wood/merbau.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11514,9 +11514,9 @@ const BMC_CATALOG = [
     "id": "solid-oak",
     "name": "oak-",
     "nameEn": "oak-",
-    "image": "image/solid-wood/oak.jpg",
+    "image": "./image/solid-wood/oak.jpg",
     "gallery": [
-      "image/solid-wood/oak.jpg"
+      "./image/solid-wood/oak.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11532,9 +11532,9 @@ const BMC_CATALOG = [
     "id": "solid-oak-2",
     "name": "OAK",
     "nameEn": "OAK",
-    "image": "image/solid-wood/oak-2.jpg",
+    "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
-      "image/solid-wood/oak-2.jpg"
+      "./image/solid-wood/oak-2.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11550,9 +11550,9 @@ const BMC_CATALOG = [
     "id": "solid-tali",
     "name": "TALI",
     "nameEn": "TALI",
-    "image": "image/solid-wood/tali.jpg",
+    "image": "./image/solid-wood/tali.jpg",
     "gallery": [
-      "image/solid-wood/tali.jpg"
+      "./image/solid-wood/tali.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11568,9 +11568,9 @@ const BMC_CATALOG = [
     "id": "solid-tauari",
     "name": "TAUARI",
     "nameEn": "TAUARI",
-    "image": "image/solid-wood/tauari.jpg",
+    "image": "./image/solid-wood/tauari.jpg",
     "gallery": [
-      "image/solid-wood/tauari.jpg"
+      "./image/solid-wood/tauari.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11586,9 +11586,9 @@ const BMC_CATALOG = [
     "id": "solid-teak",
     "name": "teak-",
     "nameEn": "teak-",
-    "image": "image/solid-wood/teak-2.jpg",
+    "image": "./image/solid-wood/teak-2.jpg",
     "gallery": [
-      "image/solid-wood/teak-2.jpg"
+      "./image/solid-wood/teak-2.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11604,9 +11604,9 @@ const BMC_CATALOG = [
     "id": "solid-teak-2",
     "name": "TEAK",
     "nameEn": "TEAK",
-    "image": "image/solid-wood/teak.jpg",
+    "image": "./image/solid-wood/teak.jpg",
     "gallery": [
-      "image/solid-wood/teak.jpg"
+      "./image/solid-wood/teak.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11622,9 +11622,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5181310-8mm",
     "name": "KL5181310    （8mm）",
     "nameEn": "KL5181310    （8mm）",
-    "image": "image/furniture/kl5181310-8mm.jpg",
+    "image": "./image/furniture/kl5181310-8mm.jpg",
     "gallery": [
-      "image/furniture/kl5181310-8mm.jpg"
+      "./image/furniture/kl5181310-8mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11640,9 +11640,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5297422-6mm",
     "name": "KL5297422（6mm）",
     "nameEn": "KL5297422（6mm）",
-    "image": "image/furniture/kl5297422-6mm.jpg",
+    "image": "./image/furniture/kl5297422-6mm.jpg",
     "gallery": [
-      "image/furniture/kl5297422-6mm.jpg"
+      "./image/furniture/kl5297422-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11658,9 +11658,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5593312",
     "name": "KL5593312",
     "nameEn": "KL5593312",
-    "image": "image/furniture/kl5593312.jpg",
+    "image": "./image/furniture/kl5593312.jpg",
     "gallery": [
-      "image/furniture/kl5593312.jpg"
+      "./image/furniture/kl5593312.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11676,9 +11676,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5599322-8mm",
     "name": "KL5599322    （8mm）",
     "nameEn": "KL5599322    （8mm）",
-    "image": "image/furniture/kl5599322-8mm.jpg",
+    "image": "./image/furniture/kl5599322-8mm.jpg",
     "gallery": [
-      "image/furniture/kl5599322-8mm.jpg"
+      "./image/furniture/kl5599322-8mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11694,9 +11694,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5668222-8mm",
     "name": "KL5668222    （8mm）",
     "nameEn": "KL5668222    （8mm）",
-    "image": "image/furniture/kl5668222-8mm.jpg",
+    "image": "./image/furniture/kl5668222-8mm.jpg",
     "gallery": [
-      "image/furniture/kl5668222-8mm.jpg"
+      "./image/furniture/kl5668222-8mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11712,9 +11712,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5693212",
     "name": "KL5693212",
     "nameEn": "KL5693212",
-    "image": "image/furniture/kl5693212.jpg",
+    "image": "./image/furniture/kl5693212.jpg",
     "gallery": [
-      "image/furniture/kl5693212.jpg"
+      "./image/furniture/kl5693212.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11730,9 +11730,9 @@ const BMC_CATALOG = [
     "id": "furniture-kl5697212-6mm",
     "name": "KL5697212（6mm）",
     "nameEn": "KL5697212（6mm）",
-    "image": "image/furniture/kl5697212-6mm.jpg",
+    "image": "./image/furniture/kl5697212-6mm.jpg",
     "gallery": [
-      "image/furniture/kl5697212-6mm.jpg"
+      "./image/furniture/kl5697212-6mm.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11748,9 +11748,9 @@ const BMC_CATALOG = [
     "id": "furniture-rtj-tb",
     "name": "RTJ-TB",
     "nameEn": "RTJ-TB",
-    "image": "image/furniture/rtj-tb.jpg",
+    "image": "./image/furniture/rtj-tb.jpg",
     "gallery": [
-      "image/furniture/rtj-tb.jpg"
+      "./image/furniture/rtj-tb.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11766,9 +11766,9 @@ const BMC_CATALOG = [
     "id": "furniture-tb-001-2",
     "name": "tb-001-2",
     "nameEn": "tb-001-2",
-    "image": "image/furniture/tb-001-2.jpg",
+    "image": "./image/furniture/tb-001-2.jpg",
     "gallery": [
-      "image/furniture/tb-001-2.jpg"
+      "./image/furniture/tb-001-2.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11784,9 +11784,9 @@ const BMC_CATALOG = [
     "id": "furniture-tb-01t",
     "name": "TB-01T",
     "nameEn": "TB-01T",
-    "image": "image/furniture/tb-01t.jpg",
+    "image": "./image/furniture/tb-01t.jpg",
     "gallery": [
-      "image/furniture/tb-01t.jpg"
+      "./image/furniture/tb-01t.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11802,9 +11802,9 @@ const BMC_CATALOG = [
     "id": "furniture-01",
     "name": "เก้าอี้ 01",
     "nameEn": "Chair 01",
-    "image": "image/furniture/01-2.jpg",
+    "image": "./image/furniture/01-2.jpg",
     "gallery": [
-      "image/furniture/01-2.jpg"
+      "./image/furniture/01-2.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11820,9 +11820,9 @@ const BMC_CATALOG = [
     "id": "furniture-02",
     "name": "เก้าอี้ 02",
     "nameEn": "Chair 02",
-    "image": "image/furniture/02-2.jpg",
+    "image": "./image/furniture/02-2.jpg",
     "gallery": [
-      "image/furniture/02-2.jpg"
+      "./image/furniture/02-2.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11838,9 +11838,9 @@ const BMC_CATALOG = [
     "id": "furniture-03",
     "name": "เก้าอี้ 03",
     "nameEn": "Chair 03",
-    "image": "image/furniture/03.jpg",
+    "image": "./image/furniture/03.jpg",
     "gallery": [
-      "image/furniture/03.jpg"
+      "./image/furniture/03.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11856,9 +11856,9 @@ const BMC_CATALOG = [
     "id": "furniture-01-2",
     "name": "โต๊ะ01",
     "nameEn": "Table 01",
-    "image": "image/furniture/01.jpg",
+    "image": "./image/furniture/01.jpg",
     "gallery": [
-      "image/furniture/01.jpg"
+      "./image/furniture/01.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11874,9 +11874,9 @@ const BMC_CATALOG = [
     "id": "furniture-02-2",
     "name": "โต๊ะ02",
     "nameEn": "Table 02",
-    "image": "image/furniture/02.jpg",
+    "image": "./image/furniture/02.jpg",
     "gallery": [
-      "image/furniture/02.jpg"
+      "./image/furniture/02.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11892,9 +11892,9 @@ const BMC_CATALOG = [
     "id": "furniture-03-2",
     "name": "โต๊ะ03",
     "nameEn": "Table 03",
-    "image": "image/furniture/03-2.jpg",
+    "image": "./image/furniture/03-2.jpg",
     "gallery": [
-      "image/furniture/03-2.jpg"
+      "./image/furniture/03-2.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11910,9 +11910,9 @@ const BMC_CATALOG = [
     "id": "furniture",
     "name": "โต๊ะกลางดีสนี่",
     "nameEn": "Disney Coffee Table",
-    "image": "image/furniture/image.jpg",
+    "image": "./image/furniture/image.jpg",
     "gallery": [
-      "image/furniture/image.jpg"
+      "./image/furniture/image.jpg"
     ],
     "category": "furniture",
     "categoryLabel": "เฟอร์นิเจอร์",
@@ -11928,9 +11928,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct2-msd8830p",
     "name": "CT2-MSD8830P",
     "nameEn": "CT2-MSD8830P",
-    "image": "image/marble-tiles/ct2-msd8830p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8830p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8830p.jpg"
+      "./image/marble-tiles/ct2-msd8830p.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -11946,9 +11946,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct2-msd8836p",
     "name": "CT2-MSD8836P",
     "nameEn": "CT2-MSD8836P",
-    "image": "image/marble-tiles/ct2-msd8836p.jpg",
+    "image": "./image/marble-tiles/ct2-msd8836p.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8836p.jpg"
+      "./image/marble-tiles/ct2-msd8836p.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -11964,9 +11964,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct2-msd8880",
     "name": "CT2-MSD8880",
     "nameEn": "CT2-MSD8880",
-    "image": "image/marble-tiles/ct2-msd8880.jpg",
+    "image": "./image/marble-tiles/ct2-msd8880.jpg",
     "gallery": [
-      "image/marble-tiles/ct2-msd8880.jpg"
+      "./image/marble-tiles/ct2-msd8880.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -11982,9 +11982,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct6615-600x600",
     "name": "CT6615 600x600",
     "nameEn": "CT6615 600x600",
-    "image": "image/marble-tiles/ct6615-600x600.jpg",
+    "image": "./image/marble-tiles/ct6615-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ct6615-600x600.jpg"
+      "./image/marble-tiles/ct6615-600x600.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12000,9 +12000,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct6616-600x600",
     "name": "CT6616 600x600",
     "nameEn": "CT6616 600x600",
-    "image": "image/marble-tiles/ct6616-600x600.jpg",
+    "image": "./image/marble-tiles/ct6616-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ct6616-600x600.jpg"
+      "./image/marble-tiles/ct6616-600x600.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12018,9 +12018,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct6618-600x600",
     "name": "CT6618 600x600",
     "nameEn": "CT6618 600x600",
-    "image": "image/marble-tiles/ct6618-600x600.jpg",
+    "image": "./image/marble-tiles/ct6618-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ct6618-600x600.jpg"
+      "./image/marble-tiles/ct6618-600x600.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12036,9 +12036,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct6619-600x600",
     "name": "CT6619 600x600",
     "nameEn": "CT6619 600x600",
-    "image": "image/marble-tiles/ct6619-600x600.jpg",
+    "image": "./image/marble-tiles/ct6619-600x600.jpg",
     "gallery": [
-      "image/marble-tiles/ct6619-600x600.jpg"
+      "./image/marble-tiles/ct6619-600x600.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12054,9 +12054,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ct8819",
     "name": "CT8819",
     "nameEn": "CT8819",
-    "image": "image/marble-tiles/ct8819.jpg",
+    "image": "./image/marble-tiles/ct8819.jpg",
     "gallery": [
-      "image/marble-tiles/ct8819.jpg"
+      "./image/marble-tiles/ct8819.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12072,9 +12072,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctcds8153",
     "name": "CTCDS8153",
     "nameEn": "CTCDS8153",
-    "image": "image/marble-tiles/ctcds8153.jpg",
+    "image": "./image/marble-tiles/ctcds8153.jpg",
     "gallery": [
-      "image/marble-tiles/ctcds8153.jpg"
+      "./image/marble-tiles/ctcds8153.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12090,9 +12090,9 @@ const BMC_CATALOG = [
     "id": "ceramic-cthd6304",
     "name": "CTHD6304",
     "nameEn": "CTHD6304",
-    "image": "image/marble-tiles/cthd6304.jpg",
+    "image": "./image/marble-tiles/cthd6304.jpg",
     "gallery": [
-      "image/marble-tiles/cthd6304.jpg"
+      "./image/marble-tiles/cthd6304.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12108,9 +12108,9 @@ const BMC_CATALOG = [
     "id": "ceramic-cthd6305",
     "name": "CTHD6305",
     "nameEn": "CTHD6305",
-    "image": "image/marble-tiles/cthd6305.jpg",
+    "image": "./image/marble-tiles/cthd6305.jpg",
     "gallery": [
-      "image/marble-tiles/cthd6305.jpg"
+      "./image/marble-tiles/cthd6305.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12126,9 +12126,9 @@ const BMC_CATALOG = [
     "id": "ceramic-cthd6666",
     "name": "CTHD6666",
     "nameEn": "CTHD6666",
-    "image": "image/marble-tiles/cthd6666.jpg",
+    "image": "./image/marble-tiles/cthd6666.jpg",
     "gallery": [
-      "image/marble-tiles/cthd6666.jpg"
+      "./image/marble-tiles/cthd6666.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12144,9 +12144,9 @@ const BMC_CATALOG = [
     "id": "ceramic-cthd8809",
     "name": "CTHD8809",
     "nameEn": "CTHD8809",
-    "image": "image/marble-tiles/cthd8809.jpg",
+    "image": "./image/marble-tiles/cthd8809.jpg",
     "gallery": [
-      "image/marble-tiles/cthd8809.jpg"
+      "./image/marble-tiles/cthd8809.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12162,9 +12162,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6681a",
     "name": "CTK6681A",
     "nameEn": "CTK6681A",
-    "image": "image/marble-tiles/ctk6681a.jpg",
+    "image": "./image/marble-tiles/ctk6681a.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6681a.jpg"
+      "./image/marble-tiles/ctk6681a.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12180,9 +12180,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6681b",
     "name": "CTK6681B",
     "nameEn": "CTK6681B",
-    "image": "image/marble-tiles/ctk6681b.jpg",
+    "image": "./image/marble-tiles/ctk6681b.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6681b.jpg"
+      "./image/marble-tiles/ctk6681b.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12198,9 +12198,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6681c",
     "name": "CTK6681C",
     "nameEn": "CTK6681C",
-    "image": "image/marble-tiles/ctk6681c.jpg",
+    "image": "./image/marble-tiles/ctk6681c.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6681c.jpg"
+      "./image/marble-tiles/ctk6681c.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12216,9 +12216,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6683a",
     "name": "CTK6683A",
     "nameEn": "CTK6683A",
-    "image": "image/marble-tiles/ctk6683a.jpg",
+    "image": "./image/marble-tiles/ctk6683a.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6683a.jpg"
+      "./image/marble-tiles/ctk6683a.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12234,9 +12234,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6683b",
     "name": "CTK6683B",
     "nameEn": "CTK6683B",
-    "image": "image/marble-tiles/ctk6683b.jpg",
+    "image": "./image/marble-tiles/ctk6683b.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6683b.jpg"
+      "./image/marble-tiles/ctk6683b.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12252,9 +12252,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6683c",
     "name": "CTK6683C",
     "nameEn": "CTK6683C",
-    "image": "image/marble-tiles/ctk6683c.jpg",
+    "image": "./image/marble-tiles/ctk6683c.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6683c.jpg"
+      "./image/marble-tiles/ctk6683c.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12270,9 +12270,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6683d",
     "name": "CTK6683D",
     "nameEn": "CTK6683D",
-    "image": "image/marble-tiles/ctk6683d.jpg",
+    "image": "./image/marble-tiles/ctk6683d.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6683d.jpg"
+      "./image/marble-tiles/ctk6683d.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12288,9 +12288,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6684a",
     "name": "CTK6684A",
     "nameEn": "CTK6684A",
-    "image": "image/marble-tiles/ctk6684a.jpg",
+    "image": "./image/marble-tiles/ctk6684a.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6684a.jpg"
+      "./image/marble-tiles/ctk6684a.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12306,9 +12306,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6684b",
     "name": "CTK6684B",
     "nameEn": "CTK6684B",
-    "image": "image/marble-tiles/ctk6684b.jpg",
+    "image": "./image/marble-tiles/ctk6684b.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6684b.jpg"
+      "./image/marble-tiles/ctk6684b.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12324,9 +12324,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6684c",
     "name": "CTK6684C",
     "nameEn": "CTK6684C",
-    "image": "image/marble-tiles/ctk6684c.jpg",
+    "image": "./image/marble-tiles/ctk6684c.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6684c.jpg"
+      "./image/marble-tiles/ctk6684c.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12342,9 +12342,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6684d",
     "name": "CTK6684D",
     "nameEn": "CTK6684D",
-    "image": "image/marble-tiles/ctk6684d.jpg",
+    "image": "./image/marble-tiles/ctk6684d.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6684d.jpg"
+      "./image/marble-tiles/ctk6684d.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12360,9 +12360,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6685a",
     "name": "CTK6685A",
     "nameEn": "CTK6685A",
-    "image": "image/marble-tiles/ctk6685a.jpg",
+    "image": "./image/marble-tiles/ctk6685a.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6685a.jpg"
+      "./image/marble-tiles/ctk6685a.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12378,9 +12378,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6685b",
     "name": "CTK6685B",
     "nameEn": "CTK6685B",
-    "image": "image/marble-tiles/ctk6685b.jpg",
+    "image": "./image/marble-tiles/ctk6685b.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6685b.jpg"
+      "./image/marble-tiles/ctk6685b.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12396,9 +12396,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6685c",
     "name": "CTK6685C",
     "nameEn": "CTK6685C",
-    "image": "image/marble-tiles/ctk6685c.jpg",
+    "image": "./image/marble-tiles/ctk6685c.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6685c.jpg"
+      "./image/marble-tiles/ctk6685c.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12414,9 +12414,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6685d",
     "name": "CTK6685D",
     "nameEn": "CTK6685D",
-    "image": "image/marble-tiles/ctk6685d.jpg",
+    "image": "./image/marble-tiles/ctk6685d.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6685d.jpg"
+      "./image/marble-tiles/ctk6685d.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12432,9 +12432,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6687a",
     "name": "CTK6687A",
     "nameEn": "CTK6687A",
-    "image": "image/marble-tiles/ctk6687a.jpg",
+    "image": "./image/marble-tiles/ctk6687a.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6687a.jpg"
+      "./image/marble-tiles/ctk6687a.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12450,9 +12450,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6687b",
     "name": "CTK6687B",
     "nameEn": "CTK6687B",
-    "image": "image/marble-tiles/ctk6687b.jpg",
+    "image": "./image/marble-tiles/ctk6687b.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6687b.jpg"
+      "./image/marble-tiles/ctk6687b.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12468,9 +12468,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctk6687c",
     "name": "CTK6687C",
     "nameEn": "CTK6687C",
-    "image": "image/marble-tiles/ctk6687c.jpg",
+    "image": "./image/marble-tiles/ctk6687c.jpg",
     "gallery": [
-      "image/marble-tiles/ctk6687c.jpg"
+      "./image/marble-tiles/ctk6687c.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12486,9 +12486,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm14",
     "name": "CTLM14",
     "nameEn": "CTLM14",
-    "image": "image/marble-tiles/ctlm14.jpg",
+    "image": "./image/marble-tiles/ctlm14.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm14.jpg"
+      "./image/marble-tiles/ctlm14.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12504,9 +12504,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm15",
     "name": "CTLM15",
     "nameEn": "CTLM15",
-    "image": "image/marble-tiles/ctlm15.jpg",
+    "image": "./image/marble-tiles/ctlm15.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm15.jpg"
+      "./image/marble-tiles/ctlm15.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12522,9 +12522,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm16",
     "name": "CTLM16",
     "nameEn": "CTLM16",
-    "image": "image/marble-tiles/ctlm16.jpg",
+    "image": "./image/marble-tiles/ctlm16.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm16.jpg"
+      "./image/marble-tiles/ctlm16.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12540,9 +12540,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm17",
     "name": "CTLM17",
     "nameEn": "CTLM17",
-    "image": "image/marble-tiles/ctlm17.jpg",
+    "image": "./image/marble-tiles/ctlm17.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm17.jpg"
+      "./image/marble-tiles/ctlm17.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12558,9 +12558,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm18",
     "name": "CTLM18",
     "nameEn": "CTLM18",
-    "image": "image/marble-tiles/ctlm18.jpg",
+    "image": "./image/marble-tiles/ctlm18.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm18.jpg"
+      "./image/marble-tiles/ctlm18.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12576,9 +12576,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm19",
     "name": "CTLM19",
     "nameEn": "CTLM19",
-    "image": "image/marble-tiles/ctlm19.jpg",
+    "image": "./image/marble-tiles/ctlm19.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm19.jpg"
+      "./image/marble-tiles/ctlm19.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12594,9 +12594,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm20",
     "name": "CTLM20",
     "nameEn": "CTLM20",
-    "image": "image/marble-tiles/ctlm20.jpg",
+    "image": "./image/marble-tiles/ctlm20.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm20.jpg"
+      "./image/marble-tiles/ctlm20.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12612,9 +12612,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctlm21",
     "name": "CTLM21",
     "nameEn": "CTLM21",
-    "image": "image/marble-tiles/ctlm21.jpg",
+    "image": "./image/marble-tiles/ctlm21.jpg",
     "gallery": [
-      "image/marble-tiles/ctlm21.jpg"
+      "./image/marble-tiles/ctlm21.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12630,9 +12630,9 @@ const BMC_CATALOG = [
     "id": "ceramic-ctt813",
     "name": "CTT813",
     "nameEn": "CTT813",
-    "image": "image/marble-tiles/ctt813.jpg",
+    "image": "./image/marble-tiles/ctt813.jpg",
     "gallery": [
-      "image/marble-tiles/ctt813.jpg"
+      "./image/marble-tiles/ctt813.jpg"
     ],
     "category": "ceramic",
     "categoryLabel": "กระเบื้องเซรามิก",
@@ -12647,9 +12647,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-001",
     "name": "G655 Dark Flower-ดาร์ก ฟลาวเวอร์",
-    "image": "image/granite-watermark/g655-dark-flower.jpg",
+    "image": "./image/granite-watermark/g655-dark-flower.jpg",
     "gallery": [
-      "image/granite-watermark/g655-dark-flower.jpg"
+      "./image/granite-watermark/g655-dark-flower.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12665,9 +12665,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-002",
     "name": "TG029 Black Africa- ดำอาฟริกา",
-    "image": "image/granite-watermark/tg029-black-africa.jpg",
+    "image": "./image/granite-watermark/tg029-black-africa.jpg",
     "gallery": [
-      "image/granite-watermark/tg029-black-africa.jpg"
+      "./image/granite-watermark/tg029-black-africa.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12683,9 +12683,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-003",
     "name": "G911 Red Tiger-แดงลายเสีอ",
-    "image": "image/granite-watermark/g911-red-tiger.jpg",
+    "image": "./image/granite-watermark/g911-red-tiger.jpg",
     "gallery": [
-      "image/granite-watermark/g911-red-tiger.jpg"
+      "./image/granite-watermark/g911-red-tiger.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12701,9 +12701,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-004",
     "name": "TG052 White G-ไวท์จี",
-    "image": "image/granite-watermark/tg052-white-g.jpg",
+    "image": "./image/granite-watermark/tg052-white-g.jpg",
     "gallery": [
-      "image/granite-watermark/tg052-white-g.jpg"
+      "./image/granite-watermark/tg052-white-g.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12719,9 +12719,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-005",
     "name": "GL1000 Absolue Black-แอ๊บโซลูทแบล็ค",
-    "image": "image/granite-watermark/gl1000-absolue-black.jpg",
+    "image": "./image/granite-watermark/gl1000-absolue-black.jpg",
     "gallery": [
-      "image/granite-watermark/gl1000-absolue-black.jpg"
+      "./image/granite-watermark/gl1000-absolue-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12737,9 +12737,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-006",
     "name": "TF101 Top Black-ท็อปแบล็ค",
-    "image": "image/granite-watermark/tf101-top-black.jpg",
+    "image": "./image/granite-watermark/tf101-top-black.jpg",
     "gallery": [
-      "image/granite-watermark/tf101-top-black.jpg"
+      "./image/granite-watermark/tf101-top-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12755,9 +12755,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-007",
     "name": "G654 Black Dot-ดำลายจุด",
-    "image": "image/granite-watermark/g654-black-dot.jpg",
+    "image": "./image/granite-watermark/g654-black-dot.jpg",
     "gallery": [
-      "image/granite-watermark/g654-black-dot.jpg"
+      "./image/granite-watermark/g654-black-dot.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12773,9 +12773,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-008",
     "name": "G603 White Snow-ขาวเกร็ดหิมะ",
-    "image": "image/granite-watermark/g603-white-snow.jpg",
+    "image": "./image/granite-watermark/g603-white-snow.jpg",
     "gallery": [
-      "image/granite-watermark/g603-white-snow.jpg"
+      "./image/granite-watermark/g603-white-snow.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12791,9 +12791,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-009",
     "name": "G602 White Lotus-ไวท์โลตัส",
-    "image": "image/granite-watermark/g602-white-lotus.jpg",
+    "image": "./image/granite-watermark/g602-white-lotus.jpg",
     "gallery": [
-      "image/granite-watermark/g602-white-lotus.jpg"
+      "./image/granite-watermark/g602-white-lotus.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12809,9 +12809,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-010",
     "name": "TG002 Black Galaxy-ดำเกล็ดทอง",
-    "image": "image/granite-watermark/tg002-black-galaxy.jpg",
+    "image": "./image/granite-watermark/tg002-black-galaxy.jpg",
     "gallery": [
-      "image/granite-watermark/tg002-black-galaxy.jpg"
+      "./image/granite-watermark/tg002-black-galaxy.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12827,9 +12827,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-011",
     "name": "TG040 Yellow Bazil-เหลืองบราซิล",
-    "image": "image/granite-watermark/tg040-yellow-bazil.jpg",
+    "image": "./image/granite-watermark/tg040-yellow-bazil.jpg",
     "gallery": [
-      "image/granite-watermark/tg040-yellow-bazil.jpg"
+      "./image/granite-watermark/tg040-yellow-bazil.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12845,9 +12845,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-012",
     "name": "G301-3 Black Jubpo- ดำจัปโป้",
-    "image": "image/granite-watermark/g301-3-black-jubpo.jpg",
+    "image": "./image/granite-watermark/g301-3-black-jubpo.jpg",
     "gallery": [
-      "image/granite-watermark/g301-3-black-jubpo.jpg"
+      "./image/granite-watermark/g301-3-black-jubpo.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12863,9 +12863,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-013",
     "name": "TG047 Picasso Black-ปิกาโซ ดำ",
-    "image": "image/granite-watermark/tg047-picasso-black.jpg",
+    "image": "./image/granite-watermark/tg047-picasso-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg047-picasso-black.jpg"
+      "./image/granite-watermark/tg047-picasso-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12881,9 +12881,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-014",
     "name": "TG038 Royal Crown Black-รอยอล์คราว์แบ็ค",
-    "image": "image/granite-watermark/tg038-royal-crown-black.jpg",
+    "image": "./image/granite-watermark/tg038-royal-crown-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg038-royal-crown-black.jpg"
+      "./image/granite-watermark/tg038-royal-crown-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12899,9 +12899,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-015",
     "name": "G910 White Tiger-ขาวลายเสือ",
-    "image": "image/granite-watermark/g910-white-tiger.jpg",
+    "image": "./image/granite-watermark/g910-white-tiger.jpg",
     "gallery": [
-      "image/granite-watermark/g910-white-tiger.jpg"
+      "./image/granite-watermark/g910-white-tiger.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12917,9 +12917,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-016",
     "name": "TG028 Tanbrown-แทนบาร์ว",
-    "image": "image/granite-watermark/tg028-tanbrown.jpg",
+    "image": "./image/granite-watermark/tg028-tanbrown.jpg",
     "gallery": [
-      "image/granite-watermark/tg028-tanbrown.jpg"
+      "./image/granite-watermark/tg028-tanbrown.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12935,9 +12935,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-017",
     "name": "G681 Camilian Pink-คามิเลียพิงค์",
-    "image": "image/granite-watermark/g681-camilian-pink.jpg",
+    "image": "./image/granite-watermark/g681-camilian-pink.jpg",
     "gallery": [
-      "image/granite-watermark/g681-camilian-pink.jpg"
+      "./image/granite-watermark/g681-camilian-pink.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12953,9 +12953,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-018",
     "name": "TG010 Emeral Pear-เอ็มเมอร์รัลเพิลร์",
-    "image": "image/granite-watermark/tg010-emeral-pear.jpg",
+    "image": "./image/granite-watermark/tg010-emeral-pear.jpg",
     "gallery": [
-      "image/granite-watermark/tg010-emeral-pear.jpg"
+      "./image/granite-watermark/tg010-emeral-pear.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12971,9 +12971,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-019",
     "name": "G640 Gray Clasic- เทาคลาสสิค",
-    "image": "image/granite-watermark/g640-gray-clasic.jpg",
+    "image": "./image/granite-watermark/g640-gray-clasic.jpg",
     "gallery": [
-      "image/granite-watermark/g640-gray-clasic.jpg"
+      "./image/granite-watermark/g640-gray-clasic.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -12989,9 +12989,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-020",
     "name": "G908 Rawsilk-รอลซิล",
-    "image": "image/granite-watermark/g908-rawsilk.jpg",
+    "image": "./image/granite-watermark/g908-rawsilk.jpg",
     "gallery": [
-      "image/granite-watermark/g908-rawsilk.jpg"
+      "./image/granite-watermark/g908-rawsilk.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13007,9 +13007,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-021",
     "name": "G664 Pink Gems-พลอยชมพู",
-    "image": "image/granite-watermark/g664-pink-gems.jpg",
+    "image": "./image/granite-watermark/g664-pink-gems.jpg",
     "gallery": [
-      "image/granite-watermark/g664-pink-gems.jpg"
+      "./image/granite-watermark/g664-pink-gems.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13025,9 +13025,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-022",
     "name": "G687 Orange Sakura-ซากุระส้ม",
-    "image": "image/granite-watermark/g687-orange-sakura.jpg",
+    "image": "./image/granite-watermark/g687-orange-sakura.jpg",
     "gallery": [
-      "image/granite-watermark/g687-orange-sakura.jpg"
+      "./image/granite-watermark/g687-orange-sakura.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13043,9 +13043,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-023",
     "name": "G6571 Mocha-มอคค่า",
-    "image": "image/granite-watermark/g6571-mocha.jpg",
+    "image": "./image/granite-watermark/g6571-mocha.jpg",
     "gallery": [
-      "image/granite-watermark/g6571-mocha.jpg"
+      "./image/granite-watermark/g6571-mocha.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13061,9 +13061,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-024",
     "name": "TG048 Picasso Gray-ปิกาโซ เทา",
-    "image": "image/granite-watermark/tg048-picasso-gray.jpg",
+    "image": "./image/granite-watermark/tg048-picasso-gray.jpg",
     "gallery": [
-      "image/granite-watermark/tg048-picasso-gray.jpg"
+      "./image/granite-watermark/tg048-picasso-gray.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13079,9 +13079,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-025",
     "name": "TG011 Spoondrift White-เทาลายเมฆ",
-    "image": "image/granite-watermark/tg011-spoondrift-white.jpg",
+    "image": "./image/granite-watermark/tg011-spoondrift-white.jpg",
     "gallery": [
-      "image/granite-watermark/tg011-spoondrift-white.jpg"
+      "./image/granite-watermark/tg011-spoondrift-white.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13097,9 +13097,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-026",
     "name": "TG023 India Red- แดงอินเดีย",
-    "image": "image/granite-watermark/tg023-india-red.jpg",
+    "image": "./image/granite-watermark/tg023-india-red.jpg",
     "gallery": [
-      "image/granite-watermark/tg023-india-red.jpg"
+      "./image/granite-watermark/tg023-india-red.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13115,9 +13115,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-027",
     "name": "TG027 Blue Pearl-บูลเพิลร์-",
-    "image": "image/granite-watermark/tg027-blue-pearl.jpg",
+    "image": "./image/granite-watermark/tg027-blue-pearl.jpg",
     "gallery": [
-      "image/granite-watermark/tg027-blue-pearl.jpg"
+      "./image/granite-watermark/tg027-blue-pearl.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13133,9 +13133,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-028",
     "name": "GL500 Light Black-ไรท์แบล็ค",
-    "image": "image/granite-watermark/gl500-light-black.jpg",
+    "image": "./image/granite-watermark/gl500-light-black.jpg",
     "gallery": [
-      "image/granite-watermark/gl500-light-black.jpg"
+      "./image/granite-watermark/gl500-light-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13151,9 +13151,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-029",
     "name": "TG049 Royal Champagne-รอยัลแชมเปญ",
-    "image": "image/granite-watermark/tg049-royal-champagne.jpg",
+    "image": "./image/granite-watermark/tg049-royal-champagne.jpg",
     "gallery": [
-      "image/granite-watermark/tg049-royal-champagne.jpg"
+      "./image/granite-watermark/tg049-royal-champagne.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13169,9 +13169,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-030",
     "name": "G6231 Super Gray-ซุปเปอร์เกรย์",
-    "image": "image/granite-watermark/g6231-super-gray.jpg",
+    "image": "./image/granite-watermark/g6231-super-gray.jpg",
     "gallery": [
-      "image/granite-watermark/g6231-super-gray.jpg"
+      "./image/granite-watermark/g6231-super-gray.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13187,9 +13187,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-031",
     "name": "G623 เทาจีน",
-    "image": "image/granite-watermark/g623.jpg",
+    "image": "./image/granite-watermark/g623.jpg",
     "gallery": [
-      "image/granite-watermark/g623.jpg"
+      "./image/granite-watermark/g623.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13205,9 +13205,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-032",
     "name": "G562 Orange Bloom-ออเรนจ์บูม",
-    "image": "image/granite-watermark/g562-orange-bloom.jpg",
+    "image": "./image/granite-watermark/g562-orange-bloom.jpg",
     "gallery": [
-      "image/granite-watermark/g562-orange-bloom.jpg"
+      "./image/granite-watermark/g562-orange-bloom.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13223,9 +13223,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-033",
     "name": "TG041 Rose Yellow-โรสเยลโล่",
-    "image": "image/granite-watermark/tg041-rose-yellow.jpg",
+    "image": "./image/granite-watermark/tg041-rose-yellow.jpg",
     "gallery": [
-      "image/granite-watermark/tg041-rose-yellow.jpg"
+      "./image/granite-watermark/tg041-rose-yellow.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13241,9 +13241,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-034",
     "name": "G912 Shanxi Black-ดำซาซี",
-    "image": "image/granite-watermark/g912-shanxi-black.jpg",
+    "image": "./image/granite-watermark/g912-shanxi-black.jpg",
     "gallery": [
-      "image/granite-watermark/g912-shanxi-black.jpg"
+      "./image/granite-watermark/g912-shanxi-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13259,9 +13259,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-035",
     "name": "G915 Cherry Red- เชอร์รี่เรด",
-    "image": "image/granite-watermark/g915-cherry-red.jpg",
+    "image": "./image/granite-watermark/g915-cherry-red.jpg",
     "gallery": [
-      "image/granite-watermark/g915-cherry-red.jpg"
+      "./image/granite-watermark/g915-cherry-red.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13277,9 +13277,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-036",
     "name": "G636 Light Pink Jade-หยกชมพูอ่อน",
-    "image": "image/granite-watermark/g636-light-pink-jade.jpg",
+    "image": "./image/granite-watermark/g636-light-pink-jade.jpg",
     "gallery": [
-      "image/granite-watermark/g636-light-pink-jade.jpg"
+      "./image/granite-watermark/g636-light-pink-jade.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13295,9 +13295,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-037",
     "name": "TG026 Super Black-ซุปเปอร์แบ็ค",
-    "image": "image/granite-watermark/tg026-super-black.jpg",
+    "image": "./image/granite-watermark/tg026-super-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg026-super-black.jpg"
+      "./image/granite-watermark/tg026-super-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13313,9 +13313,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-038",
     "name": "TG042 Crown Black-คราว์แบ็ค",
-    "image": "image/granite-watermark/tg042-crown-black.jpg",
+    "image": "./image/granite-watermark/tg042-crown-black.jpg",
     "gallery": [
-      "image/granite-watermark/tg042-crown-black.jpg"
+      "./image/granite-watermark/tg042-crown-black.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13331,9 +13331,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-039",
     "name": "G365  Yellow Snow-เหลืองเกล็ดหิมะ",
-    "image": "image/granite-watermark/g365-yellow-snow.jpg",
+    "image": "./image/granite-watermark/g365-yellow-snow.jpg",
     "gallery": [
-      "image/granite-watermark/g365-yellow-snow.jpg"
+      "./image/granite-watermark/g365-yellow-snow.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13349,9 +13349,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-040",
     "name": "G635 Dark Pink Jade-หยกชมพูเข้ม",
-    "image": "image/granite-watermark/g635-dark-pink-jade.jpg",
+    "image": "./image/granite-watermark/g635-dark-pink-jade.jpg",
     "gallery": [
-      "image/granite-watermark/g635-dark-pink-jade.jpg"
+      "./image/granite-watermark/g635-dark-pink-jade.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13367,9 +13367,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-041",
     "name": "TG056 VisconWhite-วิสคอนไวท์",
-    "image": "image/granite-watermark/tg056-visconwhite.jpg",
+    "image": "./image/granite-watermark/tg056-visconwhite.jpg",
     "gallery": [
-      "image/granite-watermark/tg056-visconwhite.jpg"
+      "./image/granite-watermark/tg056-visconwhite.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",
@@ -13385,9 +13385,9 @@ const BMC_CATALOG = [
   {
     "id": "granite-watermarked-042",
     "name": "G657 พิงค์เพอร์ริโน่",
-    "image": "image/granite-watermark/g657.jpg",
+    "image": "./image/granite-watermark/g657.jpg",
     "gallery": [
-      "image/granite-watermark/g657.jpg"
+      "./image/granite-watermark/g657.jpg"
     ],
     "category": "granite",
     "categoryLabel": "หินแกรนิต",

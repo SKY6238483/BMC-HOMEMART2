@@ -1,4 +1,4 @@
-    BMC HOMEMART - EDIT NOTES / จุดแก้ไขเว็บไซต์
+BMC HOMEMART - EDIT NOTES / จุดแก้ไขเว็บไซต์
 วันที่แก้ไข: 2026-09-14
 
 ============================================================
@@ -239,5 +239,3 @@ initProjectSlider()
 - Corrected English product catalog fields so `nameEn`, `categoryLabelEn`, `subcategoryEn` and `descriptionEn` no longer contain Thai text.
 - Reduced spacing between the four main material sections and tightened the material heading/category controls while keeping the existing sticky navigation behavior and top offset.
 - Added `PRODUCT_ADD_NOTE.md` explaining exactly where to add products, images, categories and bilingual content.
-
-    

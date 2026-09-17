@@ -540,7 +540,7 @@ function productFromLegacy(id){
         "white-carrara":{
             name:"White Carrara Marble",category:"หินอ่อน",categoryCode:"marble",price:1850,unit:"ตร.ม.",
             description:"หินอ่อนสีขาว ลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและผนัง ใช้ได้กับเคาน์เตอร์และงานตกแต่งภายในที่ต้องการความหรูหราและสะอาดตา",
-            images:["image/carrara-white.jpg","image/carrara-white-2.jpg","image/carrara-white-3.jpg","image/carrara-white-4.jpg"]
+            images:["./image/carrara-white.jpg","./image/carrara-white-2.jpg","./image/carrara-white-3.jpg","./image/carrara-white-4.jpg"]
         }
     };
     return legacy[id] || null;
