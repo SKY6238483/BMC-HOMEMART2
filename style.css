@@ -926,7 +926,7 @@ nav a:hover {
 
 .service h3 {
 
-    font-size: 25px;
+    font-size: 15px;
 
     margin: 20px 0;
 
@@ -5844,7 +5844,7 @@ body{
 
 /* ---------- CLIENT LOGO MARQUEE ---------- */
 .client-logo-banner{
-    --client-logo-size:50px;
+    --client-logo-size:35px;
     --client-logo-gap:58px;
     --client-logo-banner-margin-top:58px;
     margin-top:var(--client-logo-banner-margin-top);
