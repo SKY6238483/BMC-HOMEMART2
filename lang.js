@@ -19,7 +19,7 @@ BMC HOMEMART — ระบบภาษา TH/EN
     'รวมวัสดุไม้สำหรับพื้น งานตกแต่ง และบันได เลือกตามคุณสมบัติและรูปแบบการใช้งาน':'Wood materials for flooring, interiors and stairs, selected by performance and application.',
     'รวมวัสดุสำหรับงานพื้น ผนัง และงานตกแต่งเพิ่มเติม':'Additional materials for floors, walls and decorative applications.',
     'หินควอตไซต์':'Quartzite','หินไลม์สโตน':'Limestone','หินทราเวอร์ทีน':'Travertine','หินออนิกซ์':'Onyx','หินปูสระว่ายน้ำ':'Pool Stone','หินโมเสค':'Stone Mosaic',
-    'หินควอตซ์':'Quartz','หินอ่อนอัด':'Compressed Marble','หินเทอราซโซ่':'Terrazzo',
+    'หินควอตซ์':'Quartz','หินอ่อนอัด':'Compressed Marble','หินเทอราซโซ่':'Terrazzo','หินคริสคัล':'Crystal','หินซินเทอเรส':'Sintered',
     'ไม้ Solid':'Solid Wood','ไม้เทียม WPC':'WPC Wood','ไม้เทียม SPC':'SPC Wood','ไม้บันได':'Stair Wood','ไม้เอ็นจิเนียร์':'Engineered Wood','ไม้ลาบิเนต':'Laminate Flooring','ไม้ลามิเนต':'Laminate Flooring','ไม้ Engineered':'Engineered Wood','ไม้ Laminate':'Laminate Flooring',
     'กระเบื้องหินอ่อน':'Marble Tile','กระเบื้องเซรามิก':'Ceramic Tile','กระเบื้องพอซเซเลน':'Porcelain Tile','เฟอร์นิเจอร์':'Furniture','โมเสค':'Mosaic',
     'หินอ่อน':'Marble','หินแกรนิต':'Granite','พื้นไม้':'Wood Flooring','ประตู':'Doors','ทุกหมวดสินค้า':'All Categories','ทั้งหมด':'All',
