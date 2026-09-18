@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="th">
 <head>
@@ -206,22 +207,29 @@
 /* =========================================================
    ส่วนที่ 3: ขั้นตอนการทำงาน
    ---------------------------------------------------------
-   Section นี้แก้ไขให้:
-   - กว้างเต็มหน้าจอ
-   - ชิดขอบซ้ายและขวา
-   - ไม่ล้นหน้าจอ
-   - คอม / iPad / มือถือ แสดง 3 ใบในแถวเดียว
-   - ปรับขนาดตัวอักษรตามพื้นที่
+   แก้ไขเฉพาะ "ความยาว / ความสูง" ของ Section นี้
+   ไม่ได้ลดความกว้างของ Section
+
+   - Desktop = 3 ใบในแถวเดียว
+   - iPad = 3 ใบในแถวเดียว
+   - Mobile = 3 ใบในแถวเดียว
+   - ลดความสูงของรูป
+   - ลด Padding ด้านใน
+   - ลดระยะห่างของข้อความ
+   - ป้องกันข้อความดันความสูงการ์ดมากเกินไป
    ========================================================= */
 
 
-/* ---------- พื้นหลัง Section ---------- */
+/* ---------- พื้นหลัง Section 3 ---------- */
 
 .craft-page .craft-process-section{
     width:100%;
     max-width:none;
     margin:0;
-    padding:32px 20px 36px;
+
+    /* ลดความยาวของ Section จากเดิม */
+    padding:22px 20px 24px;
+
     box-sizing:border-box;
     background:#dfe4e6;
     overflow:hidden;
@@ -241,10 +249,10 @@
 /* ---------- หัวข้อ Section 3 ---------- */
 
 .craft-page .craft-process-section .craft-eyebrow{
-    margin:0 0 3px;
+    margin:0 0 2px;
     color:#9b7644;
     font-size:14px;
-    line-height:1.4;
+    line-height:1.35;
     font-weight:400;
 }
 
@@ -252,25 +260,26 @@
     margin:0;
     color:#171717;
     font-size:clamp(26px,3vw,40px);
-    line-height:1.15;
+    line-height:1.1;
     font-weight:700;
     letter-spacing:-.3px;
 }
 
 
-/* ---------- กลุ่มการ์ด 3 ขั้นตอน ----------
-   ใช้ 3 คอลัมน์ตลอดทุกขนาดหน้าจอ
-   minmax(0,1fr) ป้องกันการ์ดล้น
---------------------------------------------------------- */
+/* ---------- กลุ่มการ์ด 3 ขั้นตอน ---------- */
 
 .craft-page .craft-process-grid{
     width:100%;
     max-width:none;
-    margin:17px 0 0;
+    margin:10px 0 0;
     padding:0;
+
     display:grid;
     grid-template-columns:repeat(3,minmax(0,1fr));
-    gap:16px;
+
+    /* ลดช่องว่างระหว่างการ์ด */
+    gap:13px;
+
     box-sizing:border-box;
 }
 
@@ -282,9 +291,11 @@
     min-width:0;
     max-width:none;
     overflow:hidden;
-    border-radius:10px;
+
+    border-radius:9px;
     background:#38516a;
     box-shadow:0 2px 7px rgba(0,0,0,.12);
+
     color:#fff;
     box-sizing:border-box;
 }
@@ -295,11 +306,15 @@
 
 
 /* ---------- รูปภาพ ---------- */
+/* ลดเฉพาะ "ความสูง" ของรูป */
 
 .craft-page .craft-process-card img{
     display:block;
     width:100%;
-    height:145px;
+
+    /* เดิม 145px → ลดเหลือ 125px */
+    height:125px;
+
     margin:0;
     object-fit:cover;
     object-position:center;
@@ -311,7 +326,10 @@
 .craft-page .craft-process-copy{
     width:100%;
     min-width:0;
-    padding:0 18px 18px;
+
+    /* ลดพื้นที่ด้านบน/ล่างของข้อมูล */
+    padding:0 14px 12px;
+
     box-sizing:border-box;
 }
 
@@ -321,10 +339,14 @@
 .craft-page .craft-process-no{
     display:block;
     position:relative;
-    margin-top:-19px;
-    font-size:30px;
+
+    /* ทำให้หมายเลขทับเข้ามาบนรูปเล็กน้อย */
+    margin-top:-16px;
+
+    font-size:27px;
     line-height:1;
     font-weight:600;
+
     text-shadow:0 1px 2px rgba(0,0,0,.25);
 }
 
@@ -332,11 +354,13 @@
 /* ---------- หัวข้อแต่ละขั้นตอน ---------- */
 
 .craft-page .craft-process-copy h3{
-    margin:9px 0 6px;
+    margin:7px 0 4px;
+
     color:#fff;
-    font-size:17px;
-    line-height:1.4;
+    font-size:16px;
+    line-height:1.3;
     font-weight:600;
+
     overflow-wrap:anywhere;
     word-break:break-word;
 }
@@ -346,9 +370,11 @@
 
 .craft-page .craft-process-copy p{
     margin:0;
+
     color:#fff;
-    font-size:12px;
-    line-height:1.6;
+    font-size:11px;
+    line-height:1.45;
+
     overflow-wrap:anywhere;
     word-break:break-word;
 }
@@ -423,6 +449,7 @@
 /* =========================================================
    Responsive: iPad / Tablet
    ---------------------------------------------------------
+   ปรับ "ความสูง" ของ Section 3
    ยังคง 3 การ์ดในแถวเดียว
    ========================================================= */
 
@@ -456,8 +483,9 @@
     /* ---------- Section 3 บน iPad ---------- */
 
     .craft-page .craft-process-section{
-        width:100%;
-        padding:28px 12px 30px;
+
+        /* ลดความสูงของ Section */
+        padding:18px 12px 20px;
     }
 
     .craft-page .craft-process-section > .craft-container{
@@ -465,10 +493,14 @@
     }
 
     .craft-page .craft-process-grid{
-        width:100%;
+
+        /* ต้องคง 3 ใบในแถวเดียว */
         grid-template-columns:repeat(3,minmax(0,1fr));
-        gap:10px;
-        margin-top:14px;
+
+        gap:9px;
+
+        /* ลดระยะหัวข้อกับการ์ด */
+        margin-top:8px;
     }
 
     .craft-page .craft-process-card{
@@ -476,28 +508,31 @@
     }
 
     .craft-page .craft-process-card img{
-        width:100%;
-        height:115px;
+
+        /* เดิม 115px → ลดเหลือ 100px */
+        height:100px;
     }
 
     .craft-page .craft-process-copy{
-        padding:0 11px 13px;
+
+        /* ลดความสูงของพื้นที่ข้อความ */
+        padding:0 9px 10px;
     }
 
     .craft-page .craft-process-no{
-        margin-top:-17px;
-        font-size:27px;
+        margin-top:-14px;
+        font-size:24px;
     }
 
     .craft-page .craft-process-copy h3{
-        margin:8px 0 5px;
-        font-size:14px;
-        line-height:1.35;
+        margin:6px 0 3px;
+        font-size:13px;
+        line-height:1.25;
     }
 
     .craft-page .craft-process-copy p{
-        font-size:10px;
-        line-height:1.55;
+        font-size:9px;
+        line-height:1.4;
     }
 }
 
@@ -505,8 +540,8 @@
 /* =========================================================
    Responsive: Mobile
    ---------------------------------------------------------
+   ปรับ "ความสูง / ความยาว" ให้สั้นลง
    ยังคง 3 การ์ดในแถวเดียว
-   ปรับขนาดให้เหมาะกับหน้าจอมือถือ
    ========================================================= */
 
 @media (max-width:650px){
@@ -564,14 +599,17 @@
 
     /* =====================================================
        Section 3 Mobile
-       สำคัญ: ไม่ให้ใช้ grid-template-columns:1fr
-       เพราะต้องการ 3 ใบในแถวเดียว
+       -----------------------------------------------------
+       ลดเฉพาะ "ความสูง"
+       ไม่เปลี่ยนเป็น 1 คอลัมน์
+       ยังคง 3 ใบในแถวเดียว
        ===================================================== */
 
     .craft-page .craft-process-section{
-        width:100%;
-        max-width:100%;
-        padding:22px 6px 25px;
+
+        /* ลดความสูง Section */
+        padding:14px 6px 17px;
+
         overflow:hidden;
     }
 
@@ -582,12 +620,16 @@
     }
 
     .craft-page .craft-process-grid{
-        width:100%;
-        max-width:none;
+
+        /* สำคัญมาก:
+           ต้องเป็น 3 คอลัมน์เสมอ */
         display:grid;
         grid-template-columns:repeat(3,minmax(0,1fr)) !important;
-        gap:6px;
-        margin-top:11px;
+
+        /* ลดช่องว่างระหว่างการ์ด */
+        gap:5px;
+
+        margin-top:6px;
     }
 
     .craft-page .craft-process-card{
@@ -597,36 +639,38 @@
     }
 
     .craft-page .craft-process-card img{
-        width:100%;
-        height:78px;
+
+        /* ลดความสูงของรูป */
+        height:68px;
+
         object-fit:cover;
     }
 
     .craft-page .craft-process-copy{
-        width:100%;
-        min-width:0;
-        padding:0 6px 8px;
+
+        /* ลดพื้นที่ข้อความ */
+        padding:0 5px 6px;
     }
 
     .craft-page .craft-process-no{
-        margin-top:-12px;
-        font-size:20px;
+        margin-top:-10px;
+        font-size:18px;
     }
 
     .craft-page .craft-process-copy h3{
-        margin:6px 0 3px;
-        font-size:10px;
-        line-height:1.3;
+        margin:5px 0 2px;
+        font-size:9.5px;
+        line-height:1.2;
     }
 
     .craft-page .craft-process-copy p{
-        font-size:7.5px;
-        line-height:1.45;
+        font-size:7px;
+        line-height:1.35;
     }
 
 
-    /* ---------- Section 4 ---------- */
-
+    /* ---------- Section 4 ----------
+       ส่วนนี้คงการทำงานเดิม */
     .craft-page .craft-why-grid{
         grid-template-columns:1fr;
     }
@@ -636,11 +680,16 @@
 /* =========================================================
    Mobile จอแคบมาก
    เช่น 320px / 360px
+   ---------------------------------------------------------
+   ลดความสูงของการ์ดเพิ่มเติม
+   แต่ยังคง 3 ใบในแถวเดียว
    ========================================================= */
 
 @media (max-width:380px){
 
     .craft-page .craft-process-section{
+        padding-top:12px;
+        padding-bottom:14px;
         padding-left:4px;
         padding-right:4px;
     }
@@ -650,27 +699,30 @@
     }
 
     .craft-page .craft-process-card img{
-        height:70px;
+
+        /* ลดความสูงเพิ่มเติม */
+        height:62px;
     }
 
     .craft-page .craft-process-copy{
-        padding-left:5px;
-        padding-right:5px;
-        padding-bottom:7px;
+        padding-left:4px;
+        padding-right:4px;
+        padding-bottom:5px;
     }
 
     .craft-page .craft-process-no{
-        font-size:18px;
-        margin-top:-11px;
+        font-size:17px;
+        margin-top:-9px;
     }
 
     .craft-page .craft-process-copy h3{
-        font-size:9px;
+        font-size:8.5px;
+        line-height:1.15;
     }
 
     .craft-page .craft-process-copy p{
-        font-size:7px;
-        line-height:1.4;
+        font-size:6.5px;
+        line-height:1.3;
     }
 }
 </style>
@@ -1707,3 +1759,4 @@ render();
 
 </body>
 </html>
+```
