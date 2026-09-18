@@ -53,13 +53,21 @@
 .craft-page .craft-custom-copy h3{margin:0 0 6px;color:#222;font-size:20px;line-height:1.35;font-weight:600;}
 .craft-page .craft-custom-copy p{margin:0;max-width:470px;color:#343434;font-size:13px;line-height:1.65;}
 
-/* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ---------- */
+/* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ----------
+   ใช้กำหนดขนาดและตำแหน่งของพื้นหลัง Section ขั้นตอนการทำงาน
+   ปรับ width = ความกว้างของ Section
+   ปรับ margin-left = ตำแหน่งกึ่งกลางของ Section
+------------------------------------------------ */
+
 .craft-page .craft-process-section{
     background:#dfe4e6;
-    width:100vw;
-    margin-left:calc(50% - 1vw);
+
+    width:100%;
+    margin-left:0;
+
     padding:28px 0 30px;
     box-sizing:border-box;
+
 }
 .craft-page .craft-process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px;}
 .craft-page .craft-process-card{overflow:hidden;border-radius:9px;background:#38516a;box-shadow:0 2px 7px rgba(0,0,0,.12);color:#fff;}
