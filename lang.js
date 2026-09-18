@@ -31,7 +31,7 @@ BMC HOMEMART — ระบบภาษา TH/EN
     'หินสำหรับปูสระว่ายน้ำและพื้นที่รอบสระ คัดเลือกให้เหมาะกับงานภายนอก':'Stone selected for swimming pools and surrounding areas, suitable for exterior applications.',
     'โมเสคสำหรับผนัง พื้น และงานตกแต่ง เพิ่มรายละเอียดและเอกลักษณ์ให้กับพื้นที่':'Mosaic for walls, floors and decorative applications, adding detail and character to spaces.',
     'หินควอตซ์ พื้นผิวสม่ำเสมอ ดูแลรักษาง่าย เหมาะสำหรับเคาน์เตอร์ Island top โต๊ะ และงานตกแต่งภายใน':'Quartz / engineered stone has a consistent surface and is easy to maintain, ideal for countertops, island tops, tables and interiors.',
-    'หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง':'Compressed marble is manufactured for consistent patterns and tones, suitable for floors, walls, countertops and decorative applications.',
+    'หินอ่อนอัดเป็นวัสดุที่ผลิตให้มีลวดลายและโทนสีสม่ำเสมอ เหมาะสำหรับ ผนัง เคาน์เตอร์ และงานตกแต่ง':'Compressed marble is manufactured for consistent patterns and tones, suitable for walls, countertops and decorative applications.',
     'หินเทอราซโซ่โดดเด่นด้วยเม็ดวัสดุและลวดลายเฉพาะตัว เหมาะสำหรับพื้น ผนัง เคาน์เตอร์ และงานตกแต่งที่ต้องการความโดดเด่น':'Terrazzo is defined by distinctive aggregate patterns, suitable for floors, walls, countertops and statement interiors.',
     'พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน':'Solid wood flooring is made from real wood with natural texture and grain, ideal for floors and interiors.',
     'ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อการใช้งาน':'WPC wood is suitable for exterior areas and spaces requiring durable performance.',
