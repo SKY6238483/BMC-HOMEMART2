@@ -8,6 +8,99 @@
 <link rel="stylesheet" href="policy.css">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="./github-image-fix.js" defer></script>
+
+<style>
+/* =========================================================
+   BMC HOMEMART — หน้า "งานแปรรูปหิน" เท่านั้น
+   หมายเหตุ: CSS ชุดนี้ scope ด้วย .craft-page เพื่อไม่กระทบ
+   หน้า Services อื่น ๆ และไม่แตะ CSS/Footer ของเว็บไซต์ส่วนอื่น
+   ========================================================= */
+.craft-page .detail-hero,
+.craft-page .service-intro-section,
+.craft-page .service-gallery-section{display:none!important;}
+
+.craft-page{background:#f7f7f4;}
+.craft-page .service-special-section,
+.craft-page .service-process,
+.craft-page .craft-why-section{margin:0;padding:0;}
+
+/* ---------- ส่วนที่ 1: งานทำผิวหิน 5 แบบ ---------- */
+.craft-page .craft-section{padding:30px 0 42px;}
+.craft-page .craft-top{padding-top:28px;}
+.craft-page .craft-container{width:90%;max-width:1260px;margin:0 auto;}
+.craft-page .craft-eyebrow{margin:0 0 3px;color:#9b7644;font-size:14px;line-height:1.4;font-weight:400;}
+.craft-page .craft-title{margin:0;color:#171717;font-size:clamp(28px,3vw,42px);line-height:1.12;font-weight:700;letter-spacing:-.4px;}
+.craft-page .craft-subtitle{margin:5px 0 0;color:#3c3c3c;font-size:13px;line-height:1.55;}
+.craft-page .craft-finish-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:16px;}
+.craft-page .craft-finish-card{overflow:hidden;border:1px solid #ddd9d1;border-radius:9px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.craft-page .craft-finish-card.featured{background:#38516a;color:#fff;border-color:#38516a;}
+.craft-page .craft-finish-image{display:block;width:100%;height:126px;object-fit:cover;object-position:center;}
+.craft-page .craft-finish-body{padding:12px 12px 13px;min-height:142px;}
+.craft-page .craft-finish-body h3{margin:0 0 7px;font-size:16px;line-height:1.35;font-weight:600;color:#171717;}
+.craft-page .craft-finish-card.featured .craft-finish-body h3{color:#fff;}
+.craft-page .craft-finish-body p{margin:0;color:#444;font-size:12px;line-height:1.55;}
+.craft-page .craft-finish-card.featured .craft-finish-body p{color:#fff;}
+.craft-page .craft-finish-body ul{margin:7px 0 0;padding-left:16px;color:#333;font-size:11px;line-height:1.5;}
+.craft-page .craft-finish-card.featured .craft-finish-body ul{color:#fff;}
+
+/* ---------- ส่วนที่ 2: งานสั่งทำตามแบบ ---------- */
+.craft-page .craft-custom-section{padding-top:5px;padding-bottom:43px;}
+.craft-page .craft-custom-list{margin-top:15px;display:grid;gap:13px;}
+.craft-page .craft-custom-row{display:grid;grid-template-columns:minmax(0,52%) minmax(0,48%);align-items:center;min-height:145px;}
+.craft-page .craft-custom-media{height:145px;border-radius:9px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);}
+.craft-page .craft-custom-media img{display:block;width:100%;height:100%;object-fit:cover;}
+.craft-page .craft-custom-copy{padding:10px 0 10px 35px;}
+.craft-page .craft-custom-copy h3{margin:0 0 6px;color:#222;font-size:20px;line-height:1.35;font-weight:600;}
+.craft-page .craft-custom-copy p{margin:0;max-width:470px;color:#343434;font-size:13px;line-height:1.65;}
+
+/* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ---------- */
+.craft-page .craft-process-section{background:#dfe4e6;padding:28px 0 30px;}
+.craft-page .craft-process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px;}
+.craft-page .craft-process-card{overflow:hidden;border-radius:9px;background:#38516a;box-shadow:0 2px 7px rgba(0,0,0,.12);color:#fff;}
+.craft-page .craft-process-card:nth-child(2){background:#b39b7a;}
+.craft-page .craft-process-card img{display:block;width:100%;height:128px;object-fit:cover;}
+.craft-page .craft-process-copy{padding:0 15px 15px;}
+.craft-page .craft-process-no{display:block;margin-top:-18px;position:relative;font-size:29px;line-height:1;font-weight:600;text-shadow:0 1px 2px rgba(0,0,0,.25);}
+.craft-page .craft-process-copy h3{margin:9px 0 5px;color:#fff;font-size:16px;line-height:1.35;font-weight:600;}
+.craft-page .craft-process-copy p{margin:0;color:#fff;font-size:11px;line-height:1.55;}
+
+/* ---------- ส่วนที่ 4: บริการที่ใส่ใจรายละเอียด ---------- */
+.craft-page .craft-why-section{background:#fafaf7;padding:31px 0 48px;}
+.craft-page .craft-why-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:15px;}
+.craft-page .craft-why-card{min-height:135px;padding:16px 15px 14px;border:1px solid #ddd;border-radius:8px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.10);}
+.craft-page .craft-why-icon{width:40px;height:40px;margin-bottom:7px;color:#4b5962;}
+.craft-page .craft-why-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
+.craft-page .craft-why-card h3{margin:0 0 5px;font-size:15px;line-height:1.4;color:#222;font-weight:600;}
+.craft-page .craft-why-card p{margin:0;color:#444;font-size:11px;line-height:1.55;}
+
+/* ---------- ภาษาอังกฤษ: ให้ขนาดข้อความยังคงใกล้กับต้นแบบ ---------- */
+.craft-page.lang-en .craft-title{letter-spacing:-.7px;}
+
+/* ---------- Responsive: iPad / Mobile ---------- */
+@media (max-width:900px){
+  .craft-page .craft-container{width:92%;}
+  .craft-page .craft-finish-grid{grid-template-columns:repeat(5,minmax(120px,1fr));overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory;}
+  .craft-page .craft-finish-card{scroll-snap-align:start;min-width:120px;}
+  .craft-page .craft-custom-row{grid-template-columns:52% 48%;}
+  .craft-page .craft-custom-copy{padding-left:22px;}
+}
+@media (max-width:650px){
+  .craft-page .craft-section{padding:23px 0 32px;}
+  .craft-page .craft-finish-grid{grid-template-columns:repeat(5,calc((100vw - 2 * 4vw - 28px)/2.15));gap:10px;}
+  .craft-page .craft-finish-card{min-width:0;}
+  .craft-page .craft-finish-image{height:112px;}
+  .craft-page .craft-finish-body{min-height:155px;padding:10px;}
+  .craft-page .craft-finish-body h3{font-size:14px;}
+  .craft-page .craft-finish-body p{font-size:11px;}
+  .craft-page .craft-custom-row{grid-template-columns:1fr;gap:10px;}
+  .craft-page .craft-custom-media{height:180px;}
+  .craft-page .craft-custom-copy{padding:0 3px;}
+  .craft-page .craft-custom-copy h3{font-size:18px;}
+  .craft-page .craft-process-grid,.craft-page .craft-why-grid{grid-template-columns:1fr;}
+  .craft-page .craft-process-card img{height:170px;}
+}
+</style>
+
 </head>
 <body>
 <header class="header">
@@ -190,6 +283,139 @@ function render(){
  const data=services[key]||services.installation;
  const en=(localStorage.getItem('bmcLang')||'th')==='en';
  const t=o=>o && typeof o==='object' && 'th' in o ? (en?o.en:o.th) : (o||'');
+ const page=document.getElementById('serviceDetail');
+
+ /* =========================================================
+    หน้า "งานแปรรูปหิน" — สร้างเฉพาะเมื่อ URL เป็น ?type=craft
+    หน้า Installation / Polishing ใช้โครงสร้างเดิมทั้งหมด
+    ========================================================= */
+ if(key==='craft'){
+  page.classList.add('craft-page');
+  page.classList.toggle('lang-en',en);
+  document.getElementById('serviceSpecial').style.display='block';
+  document.querySelector('.detail-hero').style.display='none';
+  document.querySelector('.service-intro-section').style.display='none';
+  document.querySelector('.service-gallery-section').style.display='none';
+
+  const finishImages=[
+   './image/five-stone/shock.jpg',
+   './image/five-stone/blasting.jpg',
+   './image/five-stone/fire-breathing-brush.jpg',
+   './image/five-stone/pickling.jpg',
+   './image/five-stone/wax.jpg'
+  ];
+  const customImages=[
+   './image/service-craft/bookmatch.jpg',
+   './image/service-craft/waterjet.jpg',
+   './image/service-craft/molding.jpg'
+  ];
+  const processImages=[
+   './image/service-craft/process-consult.jpg',
+   './image/service-craft/process-design.jpg',
+   './image/service-craft/process-install.jpg'
+  ];
+  const finishes=data.finishes||[];
+  const custom=data.custom||[];
+  const process=data.process||[];
+
+  /* ---------- ส่วนบน: ผิวหิน 5 แบบ ---------- */
+  document.getElementById('serviceSpecial').innerHTML=`
+   <section class="craft-section craft-top">
+    <div class="craft-container">
+     <p class="craft-eyebrow">${en?'STONE FINISHES':'งานทำผิวหิน'}</p>
+     <h1 class="craft-title">${esc(t(data.specialTitle))}</h1>
+     <p class="craft-subtitle">${en?'Different surface finishes for floors, walls and exterior applications':'ระดับที่หลากหลายสำหรับงานพื้น ผนัง และงานภายนอก'}</p>
+     <div class="craft-finish-grid">
+      ${finishes.map((x,i)=>`<article class="craft-finish-card ${i===0?'featured':''}">
+       <img class="craft-finish-image" src="${finishImages[i]}" alt="${esc(en?x[1]:x[0])}" loading="eager">
+       <div class="craft-finish-body">
+        <h3>${esc(en?x[1]:x[0])}</h3>
+        <p>${esc(en?x[3]:x[2])}</p>
+        <ul><li>${esc(en?['Strong visual depth','Low-reflection appearance','Textured surface','Soft tactile texture','Aged decorative character'][i]:['เด่นชัดและสะท้อนแสง','เรียบด้านดูสงบ','ผิวหยาบช่วยเพิ่มแรงเสียดทาน','สัมผัสสม่ำเสมอ เหมาะกับงานกึ่งภายนอก','ให้ลุคเก่าอย่างตั้งใจ'][i])}</li></ul>
+       </div>
+      </article>`).join('')}
+     </div>
+    </div>
+   </section>
+
+   <section class="craft-section craft-custom-section">
+    <div class="craft-container">
+     <p class="craft-eyebrow">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p>
+     <h2 class="craft-title">${esc(t(data.customTitle))}</h2>
+     <div class="craft-custom-list">
+      ${custom.map((x,i)=>`<article class="craft-custom-row">
+       <div class="craft-custom-media"><img src="${customImages[i]}" alt="${esc(en?x[1]:x[0])}" loading="lazy"></div>
+       <div class="craft-custom-copy"><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></div>
+      </article>`).join('')}
+     </div>
+    </div>
+   </section>
+  `;
+
+  /* ---------- ขั้นตอนการทำงาน 3 ขั้นตอน ตามภาพต้นแบบ ---------- */
+  const processTitles=en?['Understand Client Requirements','Present Design or Samples','Fabrication & Delivery']:[
+   'รับความต้องการของลูกค้า','นำเสนอดีไซน์หรือตัวอย่าง','ดำเนินการผลิต'
+  ];
+  const processText=en?[
+   'Discuss the project requirements, material and intended use before fabrication begins.',
+   'Present a design or sample to confirm the scope and prepare the fabrication details.',
+   'Produce the approved work accurately and deliver the completed pieces.'
+  ]:[
+   'พูดคุยความต้องการของลูกค้า ตรวจสอบรายละเอียดของงาน และกำหนดขอบเขตงานให้ชัดเจนก่อนเริ่มผลิต',
+   'นำเสนอดีไซน์หรือตัวอย่าง เพื่อยืนยันรูปแบบกับลูกค้า และเตรียมรายละเอียดสำหรับการผลิต',
+   'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการ ตรวจสอบงาน และส่งมอบชิ้นงาน'
+  ];
+  document.getElementById('serviceProcess').innerHTML=`
+   <section class="craft-process-section">
+    <div class="craft-container">
+     <p class="craft-eyebrow">${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}</p>
+     <h2 class="craft-title">${en?'Our Process':'ขั้นตอนการทำงาน'}</h2>
+     <div class="craft-process-grid">
+      ${process.map((x,i)=>`<article class="craft-process-card">
+       <img src="${processImages[i]}" alt="${esc(processTitles[i])}" loading="lazy">
+       <div class="craft-process-copy"><span class="craft-process-no">0${i+1}</span><h3>${esc(processTitles[i])}</h3><p>${esc(processText[i])}</p></div>
+      </article>`).join('')}
+     </div>
+    </div>
+   </section>
+  `;
+
+  /* ---------- บริการที่ใส่ใจรายละเอียด ---------- */
+  const why=en?[
+   {title:'Quality-focused workflow',text:'We plan each fabrication step around the material, design and actual site requirements.'},
+   {title:'Step-by-step coordination',text:'Clear coordination helps connect design, fabrication and installation details.'},
+   {title:'Precision in every detail',text:'Edges, corners, joints and the overall pattern are checked before handover.'}
+  ]:[
+   {title:'เชื่อถือได้ในงานนี้',text:'ช่วยวางแนวทางให้เหมาะกับวัสดุ ลักษณะพื้นที่ และรายละเอียดของงานก่อนเริ่มผลิต'},
+   {title:'ประสานงานเป็นขั้นตอน',text:'จัดลำดับการทำงานให้สอดคล้องกับแบบ วัสดุ และรายละเอียดหน้างาน'},
+   {title:'เป็นความพิถีพิถัน',text:'ใส่ใจงานขอบ มุม รอยต่อ และภาพรวมของลายหินก่อนตรวจและส่งมอบ'}
+  ];
+  const icons=[
+   '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="7" width="32" height="25" rx="2"></rect><path d="M13 14h22M13 20h18M13 26h12"></path><circle cx="34" cy="34" r="8"></circle><path d="M34 30v5l3 2"></path></svg>',
+   '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 8h12l2 4v28H16V12z"></path><path d="M20 17h8M20 22h8M20 27h5"></path><circle cx="35" cy="32" r="8"></circle><path d="M35 28v4l3 2"></path></svg>',
+   '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 35h30M13 35V14h12v21M25 20h10v15M17 20h5M17 25h5M17 30h5"></path><path d="M31 14v6M28 17h6"></path></svg>'
+  ];
+  const whySection=document.querySelector('.craft-why-section');
+  if(!whySection) document.querySelector('#serviceDetail > .detail-section:last-child').classList.add('craft-why-section');
+  const whyTarget=document.querySelector('.craft-why-section .service-extra') || document.querySelector('#serviceDetail > .detail-section:last-child .service-extra');
+  if(whyTarget){
+   whyTarget.innerHTML=`
+    <div class="craft-container">
+     <p class="craft-eyebrow">${en?'WHY BMC':'ทำไมต้อง BMC'}</p>
+     <h2 class="craft-title">${en?'Detail-focused service':'บริการที่ใส่ใจรายละเอียด'}</h2>
+     <div class="craft-why-grid">${why.map((x,i)=>`<article class="craft-why-card"><div class="craft-why-icon">${icons[i]}</div><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></article>`).join('')}</div>
+    </div>`;
+  }
+  document.documentElement.lang=en?'en':'th';
+  return;
+ }
+
+ /* ---------- หน้าอื่น: คืนค่าการทำงานเดิม ---------- */
+ page.classList.remove('craft-page','lang-en');
+ document.querySelector('.detail-hero').style.display='';
+ document.querySelector('.service-intro-section').style.display='';
+ document.querySelector('.service-gallery-section').style.display='';
+ document.getElementById('serviceSpecial').style.display='';
  document.getElementById('serviceTitle').textContent=t(data.title);
  document.getElementById('serviceHeading').textContent=t(data.heading);
  document.getElementById('serviceLead').textContent=t(data.lead);
