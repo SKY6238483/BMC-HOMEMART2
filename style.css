@@ -6354,7 +6354,7 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 .svc-btn{display:inline-flex;align-items:center;justify-content:center;min-width:132px;padding:10px 20px;border-radius:22px;background:#a27a4f;color:#fff!important;text-decoration:none;font-size:12px;font-weight:500;box-shadow:0 5px 15px rgba(0,0,0,.12)}
 .svc-btn-dark{background:#a27a4f}
 
-/* dark craft / polishing top 
+/* dark craft / polishing top */
 .svc-dark-top{background:#31485b;color:#fff;padding:48px 0 0;position:relative;overflow:hidden}
 .svc-hero-dark{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center;min-height:400px}
 .svc-hero-photo{height:310px;border-radius:8px;overflow:hidden}
