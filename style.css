@@ -6354,7 +6354,7 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 .svc-btn{display:inline-flex;align-items:center;justify-content:center;min-width:132px;padding:10px 20px;border-radius:22px;background:#a27a4f;color:#fff!important;text-decoration:none;font-size:12px;font-weight:500;box-shadow:0 5px 15px rgba(0,0,0,.12)}
 .svc-btn-dark{background:#a27a4f}
 
-/* dark craft / polishing top */
+/* dark craft / polishing top 
 .svc-dark-top{background:#31485b;color:#fff;padding:48px 0 0;position:relative;overflow:hidden}
 .svc-hero-dark{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center;min-height:400px}
 .svc-hero-photo{height:310px;border-radius:8px;overflow:hidden}
@@ -6382,7 +6382,7 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 .svc-collage-2{width:170px;height:128px;left:30%;top:0;transform:rotate(1deg)}
 .svc-collage-3{width:150px;height:114px;right:0;top:29px;transform:rotate(1deg)}
 .svc-collage-4{width:145px;height:113px;left:2%;bottom:7px;transform:rotate(-1deg)}
-.svc-collage-5{width:150px;height:145px;left:31%;bottom:0;transform:rotate(0)}
+.svc-collage-5{width:150px;height:145px;left:31%;bottom:0;transform:rotate(0)} 
 
 /* five finishes */
 .svc-finishes{background:#f7f6f3;padding:48px 0 58px}
