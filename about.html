@@ -30,69 +30,272 @@ BMC HOMEMART — หน้าเกี่ยวกับเรา
 </div>
 </header>
 
-<main class="detail-page">
-<section class="detail-hero">
-<div class="container detail-hero-inner">
-<p class="eyebrow gold">ABOUT BMC HOMEMART</p>
-<h1>วัสดุคุณภาพสำหรับบ้าน<br>และโครงการ</h1>
-<p>BMC HOMEMART หรือ บริษัท บางกอก แมททีเรียล จำกัด มุ่งนำเสนอวัสดุตกแต่งที่เหมาะสมสำหรับบ้านและโครงการ พร้อมการประสานงานและบริการที่ช่วยให้งานเดินหน้าได้อย่างที่คุณต้องการ และตามรูปแบบที่คุณออกแบบ</p>
-</div>
+<main class="about-page">
+<style>
+/* =========================================================
+   ABOUT PAGE ONLY — BMC HOMEMART
+   ไม่กระทบ CSS / JS ของหน้าอื่น
+========================================================= */
+.about-page{background:#f7f5f0;color:#222;overflow:hidden}
+.about-page *{box-sizing:border-box}
+.about-page .container{width:min(90%,1250px);margin:0 auto}
+.about-page .eyebrow{margin:0 0 10px;font-size:12px;letter-spacing:2.8px;font-weight:600}
+.about-page .gold{color:#a17a42}
+.about-page h1,.about-page h2,.about-page h3,.about-page p{margin-top:0}
+
+/* HERO */
+.about-hero{min-height:360px;display:flex;align-items:center;position:relative;background-image:linear-gradient(90deg,rgba(18,14,10,.78),rgba(18,14,10,.28)),url('./image/hero3.jpg');background-size:cover;background-position:center 55%;color:#fff}
+.about-hero-inner{padding:72px 0 68px}
+.about-hero h1{font-size:clamp(38px,5vw,64px);line-height:1.08;margin:0 0 18px;font-weight:500;letter-spacing:.2px}
+.about-hero-copy{max-width:610px;font-size:15px;line-height:1.9;color:rgba(255,255,255,.9);margin:0}
+
+/* STORY */
+.about-story{padding:86px 0 68px;background:#f7f5f0}
+.about-story-grid{display:grid;grid-template-columns:1.02fr .98fr;gap:54px;align-items:center}
+.about-story-image{height:355px;overflow:hidden;background:#ddd}
+.about-story-image img{width:100%;height:100%;display:block;object-fit:cover;object-position:center}
+.about-story-copy h2{font-size:clamp(30px,3.2vw,44px);line-height:1.2;margin:0 0 20px;font-weight:500}
+.about-story-copy p{font-size:14px;line-height:1.95;color:#555;max-width:610px;margin:0 0 12px}
+
+/* VALUES */
+.about-values{padding:18px 0 82px;background:#f7f5f0}
+.about-values-heading{margin-bottom:35px}
+.about-values-heading h2{font-size:clamp(30px,3vw,40px);font-weight:500;margin:0}
+.about-values-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #d8d0c3;border-bottom:1px solid #d8d0c3}
+.about-value{min-height:120px;padding:26px 30px;display:grid;grid-template-columns:48px 1fr;column-gap:20px;align-items:start}
+.about-value+ .about-value{border-left:1px solid #d8d0c3}
+.about-value-number{font-size:26px;color:#a17a42;font-weight:400;line-height:1}
+.about-value h3{font-size:16px;font-weight:600;margin:0 0 8px}
+.about-value p{font-size:12.5px;line-height:1.75;color:#666;margin:0}
+
+/* PROJECT REFERENCE */
+.about-projects{padding:78px 0 88px;background:#efede7}
+.about-project-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin-bottom:24px}
+.about-project-head h2{font-size:clamp(32px,3.4vw,46px);line-height:1.1;font-weight:500;margin:0}
+.about-project-intro{font-size:13px;line-height:1.7;color:#666;max-width:600px;margin:8px 0 0}
+.about-project-count{display:flex;align-items:center;gap:15px;color:#8d6a3b;font-size:12px;letter-spacing:1.5px;white-space:nowrap;padding-bottom:6px}
+.about-project-count-line{display:block;width:42px;height:1px;background:#a17a42}
+.about-carousel{position:relative}
+.about-project-stage{position:relative;height:min(49vw,470px);min-height:300px;overflow:hidden;background:#d6d1c8}
+.about-project-slide{position:absolute;inset:0;opacity:0;transform:scale(1.015);transition:opacity .45s ease,transform .55s ease;pointer-events:none}
+.about-project-slide.active{opacity:1;transform:scale(1);pointer-events:auto}
+.about-project-slide img{width:100%;height:100%;display:block;object-fit:cover}
+.about-project-overlay{position:absolute;inset:auto 0 0 0;padding:78px 34px 28px;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.76))}
+.about-project-overlay span{font-size:11px;letter-spacing:2px;color:#e1c18f}
+.about-project-overlay h3{font-size:clamp(21px,2.2vw,30px);font-weight:500;margin:7px 0 3px}
+.about-project-overlay p{font-size:12px;color:#eee;margin:0}
+.about-project-arrow{position:absolute;z-index:5;top:50%;transform:translateY(-50%);width:48px;height:48px;border:1px solid rgba(255,255,255,.75);border-radius:50%;background:rgba(133,98,52,.88);color:#fff;font-size:28px;line-height:1;display:grid;place-items:center;cursor:pointer;transition:.2s ease}
+.about-project-arrow:hover{background:#a17a42;transform:translateY(-50%) scale(1.04)}
+.about-project-prev{left:-24px}.about-project-next{right:-24px}
+.about-thumbs{display:grid;grid-template-columns:repeat(12,minmax(62px,1fr));gap:9px;margin-top:14px}
+.about-thumb{border:1px solid transparent;padding:0;background:none;cursor:pointer;opacity:.72;min-width:0}
+.about-thumb.active{opacity:1;border-color:#a17a42}
+.about-thumb img{width:100%;height:55px;display:block;object-fit:cover}
+.about-thumb span{display:block;padding-top:5px;font-size:9px;color:#777;letter-spacing:.5px}
+.about-thumb.active span{color:#a17a42;font-weight:600}
+
+/* WORK WITH BMC */
+.about-work{min-height:255px;display:flex;align-items:center;color:#fff;position:relative;background:linear-gradient(90deg,rgba(15,14,12,.91),rgba(15,14,12,.58)),url('./image/golden-portoro-01.jpg') center/cover}
+.about-work-inner{padding:55px 0}
+.about-work h2{font-size:clamp(30px,3.2vw,44px);font-weight:500;margin:0 0 12px}
+.about-work p{max-width:620px;color:#ddd;font-size:13px;line-height:1.9;margin:0 0 20px}
+.about-work .about-work-btn{display:inline-flex;align-items:center;gap:15px;border:1px solid #b18a54;color:#fff;text-decoration:none;padding:11px 22px;border-radius:28px;font-size:13px;transition:.2s}
+.about-work .about-work-btn:hover{background:#a17a42;color:#fff}
+
+/* RESPONSIVE — same visual system on desktop / iPad / mobile */
+@media (max-width:1100px){
+  .about-page .container{width:min(92%,1100px)}
+  .about-story-grid{gap:34px}
+  .about-project-stage{height:48vw}
+  .about-thumbs{grid-template-columns:repeat(12,78px);overflow-x:auto;overflow-y:hidden;padding-bottom:5px;scrollbar-width:thin}
+  .about-thumb img{height:58px}
+}
+@media (max-width:900px){
+  .about-hero{min-height:330px;background-position:center}
+  .about-hero-inner{padding:62px 0}
+  .about-story{padding-top:64px}
+  .about-story-grid{grid-template-columns:1fr;gap:30px}
+  .about-story-image{height:320px;order:1}
+  .about-story-copy{order:2}
+  .about-values{padding-bottom:65px}
+  .about-values-grid{grid-template-columns:1fr}
+  .about-value{min-height:auto;padding:22px 0}
+  .about-value+.about-value{border-left:0;border-top:1px solid #d8d0c3}
+  .about-projects{padding:62px 0 70px}
+  .about-project-head{align-items:flex-end}
+  .about-project-stage{height:56vw;min-height:310px}
+  .about-project-prev{left:12px}.about-project-next{right:12px}
+  .about-project-arrow{width:44px;height:44px}
+}
+@media (max-width:600px){
+  .about-page .container{width:calc(100% - 30px)}
+  .about-hero{min-height:300px;background-position:center}
+  .about-hero-inner{padding:52px 0}
+  .about-hero h1{font-size:37px}
+  .about-hero-copy{font-size:13px;line-height:1.8}
+  .about-story{padding:52px 0 50px}
+  .about-story-image{height:245px}
+  .about-story-copy h2{font-size:31px}
+  .about-story-copy p{font-size:13px;line-height:1.85}
+  .about-values{padding:0 0 52px}
+  .about-values-heading{margin-bottom:24px}
+  .about-value{grid-template-columns:42px 1fr;padding:20px 0}
+  .about-value-number{font-size:23px}
+  .about-projects{padding:52px 0 58px}
+  .about-project-head{display:block;margin-bottom:20px}
+  .about-project-head h2{font-size:32px}
+  .about-project-intro{font-size:12px;margin-top:7px}
+  .about-project-count{margin-top:12px}
+  .about-project-stage{height:64vw;min-height:245px}
+  .about-project-overlay{padding:65px 20px 18px}
+  .about-project-overlay h3{font-size:21px}
+  .about-project-overlay p{font-size:11px}
+  .about-project-arrow{width:38px;height:38px;font-size:22px}
+  .about-project-prev{left:8px}.about-project-next{right:8px}
+  .about-thumbs{gap:7px;grid-template-columns:repeat(12,72px);margin-top:11px}
+  .about-thumb img{height:52px}
+  .about-work{min-height:285px}
+  .about-work-inner{padding:48px 0}
+  .about-work h2{font-size:31px}
+  .about-work p{font-size:12px;line-height:1.8}
+}
+@media (max-width:900px) and (orientation:landscape){
+  .about-hero{min-height:280px}
+  .about-story-grid{grid-template-columns:1fr 1fr;align-items:center}
+  .about-story-image{height:270px;order:initial}
+  .about-story-copy{order:initial}
+  .about-values-grid{grid-template-columns:repeat(3,1fr)}
+  .about-value+.about-value{border-left:1px solid #d8d0c3;border-top:0}
+  .about-project-stage{height:46vw;min-height:260px;max-height:390px}
+  .about-work{min-height:230px}
+}
+</style>
+
+<section class="about-hero">
+  <div class="container about-hero-inner">
+    <p class="eyebrow gold" data-th="ABOUT BMC HOMEMART" data-en="ABOUT BMC HOMEMART">ABOUT BMC HOMEMART</p>
+    <h1 data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</h1>
+    <p class="about-hero-copy" data-th="ศูนย์รวมวัสดุตกแต่ง สำหรับบ้านและโครงการ" data-en="A curated destination for finishing materials for homes and projects.">ศูนย์รวมวัสดุตกแต่ง สำหรับบ้านและโครงการ</p>
+  </div>
 </section>
 
-<section class="detail-section">
-<div class="container about-story-grid">
-<div><img class="detail-main-image" src="./image/about/page1.jpg" alt="BMC HOMEMART"></div>
-<div class="detail-copy">
-<p class="eyebrow gold">OUR STORY</p>
-<h2>จากการเลือกวัสดุ สู่พื้นที่ที่ใช้งานได้จริง</h2>
-<p>BMC HOMEMART ให้ความสำคัญกับการคัดเลือกวัสดุสำหรับงานหิน กระเบื้อง โมเสค ประตู และงานไม้ เพื่อให้ลูกค้าสามารถเลือกวัสดุให้เหมาะกับรูปแบบพื้นที่ งบประมาณ และรายละเอียดของโครงการ</p>
-<p>เรารองรับทั้งเจ้าของบ้าน นักออกแบบ ผู้รับเหมา และโครงการ โดยเน้นการให้ข้อมูลสินค้า การเลือกวัสดุ การประสานงาน และบริการหน้างาน</p>
-</div>
-</div>
+<section class="about-story">
+  <div class="container about-story-grid">
+    <div class="about-story-image"><img src="./image/hero1.jpg" alt="BMC HOMEMART interior materials"></div>
+    <div class="about-story-copy">
+      <p class="eyebrow gold" data-th="OUR STORY" data-en="OUR STORY">OUR STORY</p>
+      <h2 data-th="เรื่องราวของเรา" data-en="Our Story">เรื่องราวของเรา</h2>
+      <p data-th="BMC HOMEMART เป็นศูนย์รวมวัสดุตกแต่งสำหรับบ้านและโครงการ เราคัดสรรวัสดุคุณภาพทั้งหิน ไม้ กระเบื้อง และวัสดุตกแต่งต่างๆ เพื่อให้ลูกค้าได้วัสดุที่ดีที่สุด พร้อมทั้งให้คำแนะนำอย่างมืออาชีพ ตอบโจทย์ทุกความต้องการของคุณ" data-en="BMC HOMEMART is a destination for finishing materials for homes and projects. We carefully select stone, wood, tiles and decorative materials, while providing professional guidance to help customers choose materials that suit their spaces and project needs.">BMC HOMEMART เป็นศูนย์รวมวัสดุตกแต่งสำหรับบ้านและโครงการ เราคัดสรรวัสดุคุณภาพทั้งหิน ไม้ กระเบื้อง และวัสดุตกแต่งต่างๆ เพื่อให้ลูกค้าได้วัสดุที่ดีที่สุด พร้อมทั้งให้คำแนะนำอย่างมืออาชีพ ตอบโจทย์ทุกความต้องการของคุณ</p>
+    </div>
+  </div>
 </section>
 
-<section class="detail-section about-values">
-<div class="container">
-<div class="section-heading">
-<p class="eyebrow gold">BMC HOMEMART</p>
-<h2>สิ่งที่เราให้ความสำคัญ</h2>
-</div>
-<div class="detail-benefits">
-<div><span>01</span><h3>คุณภาพวัสดุ</h3><p>รวบรวมวัสดุหลายประเภทเพื่อให้เลือกตามการใช้งานและรูปแบบงาน</p></div>
-<div><span>02</span><h3>ข้อมูลและคำแนะนำ</h3><p>ช่วยเปรียบเทียบวัสดุและเลือกแนวทางที่เหมาะกับพื้นที่</p></div>
-<div><span>03</span><h3>งานโครงการ</h3><p>สนับสนุนการประสานงานตั้งแต่การเลือกวัสดุไปจนถึงงานบริการ และส่งมอบงาน</p></div>
-</div>
-</div>
+<section class="about-values">
+  <div class="container">
+    <div class="about-values-heading">
+      <p class="eyebrow gold" data-th="BMC HOMEMART" data-en="BMC HOMEMART">BMC HOMEMART</p>
+      <h2 data-th="สิ่งที่เราให้ความสำคัญ" data-en="What We Value">สิ่งที่เราให้ความสำคัญ</h2>
+    </div>
+    <div class="about-values-grid">
+      <div class="about-value"><span class="about-value-number">01</span><div><h3 data-th="คัดสรรวัสดุคุณภาพ" data-en="Quality Materials">คัดสรรวัสดุคุณภาพ</h3><p data-th="เลือกสรรวัสดุที่เหมาะสม เพื่อบ้านและโครงการของคุณ" data-en="Carefully selected materials for your home and project.">เลือกสรรวัสดุที่เหมาะสม เพื่อบ้านและโครงการของคุณ</p></div></div>
+      <div class="about-value"><span class="about-value-number">02</span><div><h3 data-th="ให้คำปรึกษาอย่างมืออาชีพ" data-en="Professional Advice">ให้คำปรึกษาอย่างมืออาชีพ</h3><p data-th="ทีมงานให้ข้อมูลและคำแนะนำ เพื่อช่วยคุณตัดสินใจ" data-en="Practical information and advice to support your decisions.">ทีมงานให้ข้อมูลและคำแนะนำ เพื่อช่วยคุณตัดสินใจ</p></div></div>
+      <div class="about-value"><span class="about-value-number">03</span><div><h3 data-th="ตอบโจทย์ทุกความต้องการ" data-en="Solutions for Every Need">ตอบโจทย์ทุกความต้องการ</h3><p data-th="ทั้งบ้านพักอาศัย และโครงการขนาดใหญ่" data-en="For residential spaces and large-scale projects.">ทั้งบ้านพักอาศัย และโครงการขนาดใหญ่</p></div></div>
+    </div>
+  </div>
 </section>
 
-<section class="project-reference">
-<div class="container">
-<div class="section-heading">
-<p class="eyebrow gold">PROJECT REFERENCE</p>
-<h2>ผลงานของเรา</h2>
-<p>รวบรวมภาพอ้างอิงพร้อมรายละเอียด เพื่อใช้เป็นแนวทางในการเลือกวัสดุและวางภาพรวมของโครงการ</p>
-</div>
-<div class="reference-grid">
-<article class="reference-card"><img src="./image/about/wp-20140430-002.jpg" alt="Residential material reference"><div><span>RESIDENTIAL</span><h3>Residential Material Reference</h3><p><b>ประเภทงาน:</b> บ้านพักอาศัย<br><b>แนวทางวัสดุ:</b> หินและไม้สำหรับพื้นที่ส่วนกลางและพื้นที่อยู่อาศัย<br><b>จุดเน้น:</b> ความอบอุ่น ดูสะอาด และใช้งานได้จริง</p></div></article>
-<article class="reference-card"><img src="./image/about/wp-20140501-001.jpg" alt="Interior reference"><div><span>INTERIOR</span><h3>Modern Interior Reference</h3><p><b>ประเภทงาน:</b> งานตกแต่งภายใน<br><b>แนวทางวัสดุ:</b> หิน กระเบื้อง โมเสค และงานไม้<br><b>จุดเน้น:</b> จัดโทนวัสดุให้ต่อเนื่องและดูเป็นหนึ่งเดียว</p></div></article>
-<article class="reference-card"><img src="./image/about/wp-20140501-005-large.jpg" alt="Stone and surface reference"><div><span>SURFACE</span><h3>Stone Surface Reference</h3><p><b>ประเภทงาน:</b> พื้น ผนัง และเคาน์เตอร์<br><b>แนวทางวัสดุ:</b> หินอ่อน หินแกรนิต และหินสังเคราะห์<br><b>จุดเน้น:</b> เลือกลายและพื้นผิวให้เหมาะกับการใช้งาน</p></div></article>
-<article class="reference-card"><img src="./image/about/wp-20140430-003.jpg" alt="Project detail reference"><div><span>DETAIL</span><h3>Material Detail Reference</h3><p><b>ประเภทงาน:</b> งานเก็บรายละเอียด<br><b>แนวทางวัสดุ:</b> งานเข้ามุม รอยต่อ และขอบวัสดุ<br><b>จุดเน้น:</b> ความเรียบร้อยของรายละเอียดก่อนส่งมอบ</p></div></article>
-<article class="reference-card"><img src="./image/about/even.jpg" alt="Commercial reference"><div><span>COMMERCIAL</span><h3>Commercial Space Reference</h3><p><b>ประเภทงาน:</b> พื้นที่เชิงพาณิชย์<br><b>แนวทางวัสดุ:</b> วัสดุที่ดูแลรักษาง่ายและรองรับการใช้งานต่อเนื่อง<br><b>จุดเน้น:</b> ภาพลักษณ์และความทนทาน</p></div></article>
-<article class="reference-card"><img src="./image/about/page-image.png" alt="Installation reference"><div><span>INSTALLATION</span><h3>Installation &amp; Coordination</h3><p><b>ประเภทงาน:</b> งานติดตั้งและประสานงาน<br><b>แนวทางวัสดุ:</b> วางลำดับงานให้เหมาะกับวัสดุแต่ละประเภท<br><b>จุดเน้น:</b> ตรวจสอบหน้างานและส่งมอบอย่างเป็นระบบ</p></div></article>
-</div>
-</div>
+<section class="about-projects" id="about-project-reference">
+  <div class="container">
+    <div class="about-project-head">
+      <div>
+        <p class="eyebrow gold" data-th="PROJECT REFERENCE" data-en="PROJECT REFERENCE">PROJECT REFERENCE</p>
+        <h2 data-th="ผลงานของเรา" data-en="Our Projects">ผลงานของเรา</h2>
+        <p class="about-project-intro" data-th="ชมภาพตัวอย่างผลงานและการใช้งานวัสดุ เพื่อเป็นแนวทางสำหรับบ้านและโครงการของคุณ" data-en="Explore project references and material applications for homes and projects.">ชมภาพตัวอย่างผลงานและการใช้งานวัสดุ เพื่อเป็นแนวทางสำหรับบ้านและโครงการของคุณ</p>
+      </div>
+      <div class="about-project-count"><span id="aboutProjectCurrent">01</span><span>/ 12</span><span class="about-project-count-line"></span></div>
+    </div>
+
+    <div class="about-carousel" aria-label="Project Reference carousel">
+      <button class="about-project-arrow about-project-prev" type="button" aria-label="Previous project">‹</button>
+      <div class="about-project-stage" id="aboutProjectStage">
+        <article class="about-project-slide active"><img src="./image/hero2.jpg" alt="Project Reference 01"><div class="about-project-overlay"><span>RESIDENTIAL</span><h3 data-th="Project Reference 01" data-en="Project Reference 01">Project Reference 01</h3><p data-th="บ้านพักอาศัย / งานตกแต่งภายใน / กรุงเทพฯ" data-en="Residential / Interior / Bangkok">บ้านพักอาศัย / งานตกแต่งภายใน / กรุงเทพฯ</p></div></article>
+        <article class="about-project-slide"><img src="./image/hero3.jpg" alt="Project Reference 02"><div class="about-project-overlay"><span>INTERIOR</span><h3>Project Reference 02</h3><p>Interior / Marble / Bangkok</p></div></article>
+        <article class="about-project-slide"><img src="./image/hero4.jpg" alt="Project Reference 03"><div class="about-project-overlay"><span>INTERIOR</span><h3>Project Reference 03</h3><p>Interior / Wood / Residential</p></div></article>
+        <article class="about-project-slide"><img src="./image/marble-01.jpg" alt="Project Reference 04"><div class="about-project-overlay"><span>MARBLE</span><h3>Project Reference 04</h3><p>Marble / Interior / Residential</p></div></article>
+        <article class="about-project-slide"><img src="./image/marble-02.jpg" alt="Project Reference 05"><div class="about-project-overlay"><span>MARBLE</span><h3>Project Reference 05</h3><p>Marble / Wall / Interior</p></div></article>
+        <article class="about-project-slide"><img src="./image/granite-01.jpg" alt="Project Reference 06"><div class="about-project-overlay"><span>GRANITE</span><h3>Project Reference 06</h3><p>Granite / Countertop / Kitchen</p></div></article>
+        <article class="about-project-slide"><img src="./image/granite-02.jpg" alt="Project Reference 07"><div class="about-project-overlay"><span>STONE</span><h3>Project Reference 07</h3><p>Natural Stone / Exterior</p></div></article>
+        <article class="about-project-slide"><img src="./image/golden-portoro-01.jpg" alt="Project Reference 08"><div class="about-project-overlay"><span>PREMIUM STONE</span><h3>Project Reference 08</h3><p>Premium Stone / Feature Wall</p></div></article>
+        <article class="about-project-slide"><img src="./image/golden-portoro-02.jpg" alt="Project Reference 09"><div class="about-project-overlay"><span>SURFACE</span><h3>Project Reference 09</h3><p>Stone Surface / Interior</p></div></article>
+        <article class="about-project-slide"><img src="./image/oak-engineer.jpg" alt="Project Reference 10"><div class="about-project-overlay"><span>WOOD FLOORING</span><h3>Project Reference 10</h3><p>Engineered Wood / Flooring</p></div></article>
+        <article class="about-project-slide"><img src="./image/flooring-01.jpg" alt="Project Reference 11"><div class="about-project-overlay"><span>WOOD</span><h3>Project Reference 11</h3><p>Wood Flooring / Interior</p></div></article>
+        <article class="about-project-slide"><img src="./image/about-bmc-2.jpg" alt="Project Reference 12"><div class="about-project-overlay"><span>BMC HOMEMART</span><h3>Project Reference 12</h3><p>Materials / Project Reference</p></div></article>
+      </div>
+      <button class="about-project-arrow about-project-next" type="button" aria-label="Next project">›</button>
+    </div>
+
+    <div class="about-thumbs" id="aboutProjectThumbs">
+      <button class="about-thumb active" type="button" data-index="0"><img src="./image/hero2.jpg" alt="01"><span>01</span></button>
+      <button class="about-thumb" type="button" data-index="1"><img src="./image/hero3.jpg" alt="02"><span>02</span></button>
+      <button class="about-thumb" type="button" data-index="2"><img src="./image/hero4.jpg" alt="03"><span>03</span></button>
+      <button class="about-thumb" type="button" data-index="3"><img src="./image/marble-01.jpg" alt="04"><span>04</span></button>
+      <button class="about-thumb" type="button" data-index="4"><img src="./image/marble-02.jpg" alt="05"><span>05</span></button>
+      <button class="about-thumb" type="button" data-index="5"><img src="./image/granite-01.jpg" alt="06"><span>06</span></button>
+      <button class="about-thumb" type="button" data-index="6"><img src="./image/granite-02.jpg" alt="07"><span>07</span></button>
+      <button class="about-thumb" type="button" data-index="7"><img src="./image/golden-portoro-01.jpg" alt="08"><span>08</span></button>
+      <button class="about-thumb" type="button" data-index="8"><img src="./image/golden-portoro-02.jpg" alt="09"><span>09</span></button>
+      <button class="about-thumb" type="button" data-index="9"><img src="./image/oak-engineer.jpg" alt="10"><span>10</span></button>
+      <button class="about-thumb" type="button" data-index="10"><img src="./image/flooring-01.jpg" alt="11"><span>11</span></button>
+      <button class="about-thumb" type="button" data-index="11"><img src="./image/about-bmc-2.jpg" alt="12"><span>12</span></button>
+    </div>
+  </div>
 </section>
 
-<section class="detail-section">
-<div class="container">
-<div class="section-heading">
-<p class="eyebrow gold">WORK WITH BMC</p>
-<h2>เริ่มต้นโปรเจกต์ในฝันของคุณของคุณกับเรา</h2>
-<p>ส่งแบบหรือพูดคุยความต้องการกับทีม BMC HOMEMART เพื่อช่วยเลือกวัสดุและแนวทางการใช้งานให้เหมาะกับโครงการ</p>
-<a href="index.html#contact" class="btn btn-gold">ติดต่อเรา</a>
-</div>
-</div>
+<section class="about-work">
+  <div class="container about-work-inner">
+    <p class="eyebrow gold" data-th="WORK WITH BMC" data-en="WORK WITH BMC">WORK WITH BMC</p>
+    <h2 data-th="ร่วมงานกับเรา" data-en="Work With Us">ร่วมงานกับเรา</h2>
+    <p data-th="เรายินดีต้อนรับพันธมิตร ผู้รับเหมา สถาปนิก และผู้ที่สนใจ ร่วมเป็นส่วนหนึ่งของความสำเร็จของ BMC HOMEMART" data-en="We welcome partners, contractors, designers and project teams to work with BMC HOMEMART.">เรายินดีต้อนรับพันธมิตร ผู้รับเหมา สถาปนิก และผู้ที่สนใจ ร่วมเป็นส่วนหนึ่งของความสำเร็จของ BMC HOMEMART</p>
+    <a href="index.html#contact" class="about-work-btn" data-th="ติดต่อเรา →" data-en="Contact Us →">ติดต่อเรา →</a>
+  </div>
 </section>
+
+<script>
+(function(){
+  function initAboutProjects(){
+    const root=document.querySelector('.about-page');
+    if(!root || root.dataset.projectReady==='1') return;
+    root.dataset.projectReady='1';
+    const slides=[...root.querySelectorAll('.about-project-slide')];
+    const thumbs=[...root.querySelectorAll('.about-thumb')];
+    const current=root.querySelector('#aboutProjectCurrent');
+    const prev=root.querySelector('.about-project-prev');
+    const next=root.querySelector('.about-project-next');
+    const stage=root.querySelector('#aboutProjectStage');
+    let index=0;
+    let startX=0;
+    let dragging=false;
+    function show(i){
+      index=(i+slides.length)%slides.length;
+      slides.forEach((s,n)=>s.classList.toggle('active',n===index));
+      thumbs.forEach((t,n)=>t.classList.toggle('active',n===index));
+      if(current) current.textContent=String(index+1).padStart(2,'0');
+      const activeThumb=thumbs[index];
+      if(activeThumb && window.innerWidth<=1100) activeThumb.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+    }
+    prev.addEventListener('click',()=>show(index-1));
+    next.addEventListener('click',()=>show(index+1));
+    thumbs.forEach(t=>t.addEventListener('click',()=>show(Number(t.dataset.index))));
+    stage.addEventListener('touchstart',e=>{startX=e.touches[0].clientX;dragging=true},{passive:true});
+    stage.addEventListener('touchend',e=>{if(!dragging)return;const dx=e.changedTouches[0].clientX-startX;dragging=false;if(Math.abs(dx)>45)show(index+(dx<0?1:-1));},{passive:true});
+    stage.addEventListener('mousedown',e=>{startX=e.clientX;dragging=true});
+    window.addEventListener('mouseup',e=>{if(!dragging)return;const dx=e.clientX-startX;dragging=false;if(Math.abs(dx)>55)show(index+(dx<0?1:-1));});
+    show(0);
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initAboutProjects); else initAboutProjects();
+  window.addEventListener('bmcLanguageChanged',initAboutProjects);
+})();
+</script>
 </main>
 
 <footer>
