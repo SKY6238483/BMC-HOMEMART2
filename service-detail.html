@@ -123,6 +123,28 @@ function icon(type){
  const paths={user:'<circle cx="12" cy="8" r="3"/><path d="M5 20c.8-3.3 3.2-5 7-5s6.2 1.7 7 5"/>',plan:'<rect x="5" y="4" width="14" height="16" rx="2"/><path d="M8 8h8M8 12h5M8 16h4"/><path d="M16 12v5m-2.5-2.5h5"/>',check:'<circle cx="12" cy="12" r="8"/><path d="m8.5 12 2.2 2.2 4.8-5"/>',tools:'<path d="M7 4v7M4 7h6M17 4v7M14 7h6M12 13v7M9 16h6"/>'};
  return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(paths[type]||paths.check)+'</svg>';
 }
+function initServiceLightbox(){
+ if(document.getElementById('svcLightbox')) return;
+ const box=document.createElement('div');
+ box.id='svcLightbox';
+ box.className='svc-lightbox';
+ box.setAttribute('role','dialog');
+ box.setAttribute('aria-modal','true');
+ box.setAttribute('aria-label','ดูรูปภาพขนาดใหญ่');
+ box.innerHTML='<button type="button" class="svc-lightbox-close" aria-label="ปิด">&times;</button><img class="svc-lightbox-image" alt="">';
+ document.body.appendChild(box);
+ const image=box.querySelector('.svc-lightbox-image');
+ const close=()=>{box.classList.remove('is-open');document.body.classList.remove('svc-lightbox-open');image.removeAttribute('src');};
+ const open=(src,alt)=>{image.src=src;image.alt=alt||'';box.classList.add('is-open');document.body.classList.add('svc-lightbox-open');};
+ box.addEventListener('click',e=>{if(e.target===box || e.target===close || e.target.closest('.svc-lightbox-close')) close();});
+ document.addEventListener('keydown',e=>{if(e.key==='Escape') close();});
+ document.getElementById('serviceDetail').addEventListener('click',e=>{
+   const img=e.target.closest('img');
+   if(!img) return;
+   e.preventDefault();
+   open(img.currentSrc||img.src,img.alt);
+ });
+}
 function render(){
  const key=new URLSearchParams(location.search).get('type')||'installation';
  const d=services[key]||services.installation;
@@ -133,6 +155,7 @@ function render(){
  if(key==='installation') html+=renderInstallation(d,en); else html+=renderDarkPage(d,en,key);
  main.innerHTML=html;
  document.documentElement.lang=en?'en':'th';
+ initServiceLightbox();
 }
 function renderDarkPage(d,en,key){
  const h=d.hero;

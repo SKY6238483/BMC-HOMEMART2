@@ -6502,3 +6502,172 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
  .svc-process-grid article{min-height:155px}
  .svc-process-grid h3{font-size:17px}
 }
+
+
+/* =========================================================
+   SERVICE DETAIL — PORTRAIT TABLET / MOBILE
+   Keep the same horizontal composition as landscape/desktop.
+   Scoped ONLY to service-detail.html; header/footer untouched.
+   ========================================================= */
+@media (min-width:561px) and (max-width:1024px){
+  body.service-detail-page .svc-wrap{width:calc(100% - 32px);max-width:none}
+  body.service-detail-page .svc-dark-top{padding:28px 0 0}
+  body.service-detail-page .svc-hero-dark{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;min-height:0;padding-bottom:22px}
+  body.service-detail-page .svc-hero-photo,
+  body.service-detail-page .svc-hero-panel{height:245px;min-width:0}
+  body.service-detail-page .svc-panel-content{padding:20px 22px;border-radius:105px 105px 0 0}
+  body.service-detail-page .svc-panel-content h1{font-size:22px;line-height:1.25;margin-bottom:9px}
+  body.service-detail-page .svc-panel-content p{font-size:9px;line-height:1.55;margin-bottom:7px}
+  body.service-detail-page .svc-eyebrow{font-size:9px;letter-spacing:1.5px;margin-bottom:5px}
+  body.service-detail-page .svc-btn{min-width:100px;padding:7px 12px;font-size:9px}
+  body.service-detail-page .svc-portfolio-dark{grid-template-columns:minmax(0,40%) minmax(0,60%);gap:12px;padding:35px 0 30px;min-height:250px}
+  body.service-detail-page .svc-portfolio-copy{padding:0;min-width:0}
+  body.service-detail-page .svc-portfolio-copy h2{font-size:22px;line-height:1.2;margin-bottom:7px}
+  body.service-detail-page .svc-portfolio-copy p{font-size:9px;line-height:1.55;margin-bottom:7px}
+  body.service-detail-page .svc-portfolio-copy .svc-small-copy{font-size:8px}
+  body.service-detail-page .svc-collage{height:220px;min-width:0}
+  body.service-detail-page .svc-collage-1{width:112px;height:86px}
+  body.service-detail-page .svc-collage-2{width:132px;height:98px}
+  body.service-detail-page .svc-collage-3{width:118px;height:88px}
+  body.service-detail-page .svc-collage-4{width:112px;height:86px}
+  body.service-detail-page .svc-collage-5{width:120px;height:112px}
+
+  body.service-detail-page .svc-finishes{padding:34px 0 38px}
+  body.service-detail-page .svc-section-head{margin-bottom:18px}
+  body.service-detail-page .svc-section-head h2{font-size:25px;line-height:1.2}
+  body.service-detail-page .svc-section-head p{font-size:9px;line-height:1.55}
+  body.service-detail-page .svc-finish-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:7px}
+  body.service-detail-page .svc-finish-image{height:105px}
+  body.service-detail-page .svc-finish-copy{padding:9px 7px 12px;min-height:92px}
+  body.service-detail-page .svc-finish-copy h3{font-size:10px;line-height:1.25;margin-bottom:5px}
+  body.service-detail-page .svc-finish-copy p{font-size:7px;line-height:1.45}
+  body.service-detail-page .svc-dot{right:6px;bottom:5px;font-size:7px}
+  body.service-detail-page .svc-custom{padding:4px 0 38px}
+  body.service-detail-page .svc-custom-grid{gap:9px}
+  body.service-detail-page .svc-custom-grid article{grid-template-columns:38% 62%;gap:12px}
+  body.service-detail-page .svc-custom-grid img{height:82px}
+  body.service-detail-page .svc-custom-grid h3{font-size:13px;margin-bottom:4px}
+  body.service-detail-page .svc-custom-grid p{font-size:8px;line-height:1.5}
+
+  body.service-detail-page .svc-install-hero{padding:28px 0 32px}
+  body.service-detail-page .svc-install-hero .svc-wrap{min-height:275px}
+  body.service-detail-page .svc-install-photo{width:56%;height:250px;right:0;top:0;padding:6px}
+  body.service-detail-page .svc-install-card{left:2%;top:35px;width:51%;min-height:190px;padding:20px 22px}
+  body.service-detail-page .svc-install-card:after{inset:-10px auto 12px -10px}
+  body.service-detail-page .svc-install-card h1{font-size:22px;line-height:1.12;margin-bottom:8px}
+  body.service-detail-page .svc-install-card p{font-size:8px;line-height:1.5;margin-bottom:6px}
+  body.service-detail-page .svc-install-portfolio{padding:34px 0 38px}
+  body.service-detail-page .svc-install-gallery{grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);grid-template-rows:105px 105px 88px;gap:7px}
+  body.service-detail-page .svc-install-gallery figcaption{height:20px;padding:3px 5px;font-size:7px}
+  body.service-detail-page .svc-install-gallery img{height:calc(100% - 20px)}
+
+  body.service-detail-page .svc-process{padding:38px 0 45px}
+  body.service-detail-page .svc-process:before{top:118px}
+  body.service-detail-page .svc-process:after{bottom:60px}
+  body.service-detail-page .svc-process-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  body.service-detail-page .svc-process-grid article{min-height:125px;padding:24px 12px 12px;border-radius:13px}
+  body.service-detail-page .svc-process-icon{top:9px;left:10px;width:28px;height:28px}
+  body.service-detail-page .svc-process-icon svg{width:17px;height:17px}
+  body.service-detail-page .svc-number{top:8px;right:10px;font-size:21px}
+  body.service-detail-page .svc-process-grid h3{font-size:11px;line-height:1.25;margin:27px 0 5px}
+  body.service-detail-page .svc-process-grid p{font-size:7px;line-height:1.5}
+  body.service-detail-page .svc-why{padding:32px 0 42px}
+  body.service-detail-page .svc-why-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+  body.service-detail-page .svc-why-grid article{padding:0 5px}
+  body.service-detail-page .svc-why-icon{width:40px;height:40px;margin-bottom:6px}
+  body.service-detail-page .svc-why-icon svg{width:20px;height:20px}
+  body.service-detail-page .svc-why-grid h3{font-size:10px;margin-bottom:4px}
+  body.service-detail-page .svc-why-grid p{font-size:7px;line-height:1.45}
+}
+
+@media (max-width:560px){
+  /* Portrait phone: retain horizontal/desktop composition, only scale it down. */
+  body.service-detail-page .svc-wrap{width:calc(100% - 18px);max-width:none}
+  body.service-detail-page .svc-dark-top{padding:18px 0 0}
+  body.service-detail-page .svc-hero-dark{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:7px;padding-bottom:16px;min-height:0}
+  body.service-detail-page .svc-hero-photo,
+  body.service-detail-page .svc-hero-panel{height:175px}
+  body.service-detail-page .svc-panel-content{padding:13px 12px;border-radius:78px 78px 0 0}
+  body.service-detail-page .svc-panel-content h1{font-size:13px;line-height:1.2;margin-bottom:5px}
+  body.service-detail-page .svc-panel-content p{font-size:6.5px;line-height:1.42;margin-bottom:4px}
+  body.service-detail-page .svc-panel-content .svc-btn{margin-top:0}
+  body.service-detail-page .svc-eyebrow{font-size:6px;letter-spacing:1px;margin-bottom:3px}
+  body.service-detail-page .svc-btn{min-width:68px;padding:5px 7px;font-size:6.5px;border-radius:14px}
+  body.service-detail-page .svc-portfolio-dark{grid-template-columns:minmax(0,40%) minmax(0,60%);gap:7px;padding:22px 0 20px;min-height:190px}
+  body.service-detail-page .svc-portfolio-copy{padding:0}
+  body.service-detail-page .svc-portfolio-copy h2{font-size:13px;line-height:1.2;margin-bottom:5px}
+  body.service-detail-page .svc-portfolio-copy p{font-size:6.5px;line-height:1.42;margin-bottom:5px}
+  body.service-detail-page .svc-portfolio-copy .svc-small-copy{font-size:6px}
+  body.service-detail-page .svc-collage{height:160px}
+  body.service-detail-page .svc-collage figure{border-width:2px;border-radius:10px}
+  body.service-detail-page .svc-collage-1{width:78px;height:60px;left:1%;top:24px}
+  body.service-detail-page .svc-collage-2{width:91px;height:67px;left:29%;top:0}
+  body.service-detail-page .svc-collage-3{width:82px;height:62px;right:0;top:20px}
+  body.service-detail-page .svc-collage-4{width:78px;height:60px;left:1%;bottom:4px}
+  body.service-detail-page .svc-collage-5{width:82px;height:78px;left:31%;bottom:0}
+
+  body.service-detail-page .svc-finishes{padding:22px 0 25px}
+  body.service-detail-page .svc-section-head{margin-bottom:12px}
+  body.service-detail-page .svc-section-head h2{font-size:15px;line-height:1.2;margin-bottom:4px}
+  body.service-detail-page .svc-section-head p{font-size:6.5px;line-height:1.4}
+  body.service-detail-page .svc-finish-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:3px}
+  body.service-detail-page .svc-finish-grid article{border-radius:5px}
+  body.service-detail-page .svc-finish-image{height:62px}
+  body.service-detail-page .svc-finish-copy{padding:5px 4px 8px;min-height:70px}
+  body.service-detail-page .svc-finish-copy h3{font-size:6.5px;line-height:1.2;margin-bottom:3px}
+  body.service-detail-page .svc-finish-copy p{font-size:4.8px;line-height:1.35}
+  body.service-detail-page .svc-dot{right:3px;bottom:2px;font-size:5px}
+  body.service-detail-page .svc-custom{padding:2px 0 25px}
+  body.service-detail-page .svc-custom-grid{gap:6px}
+  body.service-detail-page .svc-custom-grid article{grid-template-columns:38% 62%;gap:7px}
+  body.service-detail-page .svc-custom-grid img{height:58px;border-radius:5px}
+  body.service-detail-page .svc-custom-grid h3{font-size:8px;margin-bottom:2px;line-height:1.2}
+  body.service-detail-page .svc-custom-grid p{font-size:5.5px;line-height:1.4}
+
+  body.service-detail-page .svc-install-hero{padding:18px 0 20px}
+  body.service-detail-page .svc-install-hero .svc-wrap{min-height:195px}
+  body.service-detail-page .svc-install-photo{width:57%;height:175px;right:0;top:0;padding:4px;border-radius:6px}
+  body.service-detail-page .svc-install-card{left:1%;top:25px;width:51%;min-height:125px;padding:12px 11px;border-radius:6px}
+  body.service-detail-page .svc-install-card:after{inset:-6px auto 8px -6px;border-radius:7px}
+  body.service-detail-page .svc-install-card h1{font-size:13px;line-height:1.08;margin-bottom:5px}
+  body.service-detail-page .svc-install-card p{font-size:5.8px;line-height:1.38;margin-bottom:4px}
+  body.service-detail-page .svc-install-portfolio{padding:22px 0 25px}
+  body.service-detail-page .svc-install-gallery{grid-template-columns:minmax(0,2fr) minmax(0,1fr) minmax(0,1fr);grid-template-rows:72px 72px 58px;gap:4px}
+  body.service-detail-page .svc-install-gallery figure{border-radius:5px}
+  body.service-detail-page .svc-install-gallery figcaption{height:13px;padding:2px 3px;font-size:4.8px;line-height:1.2}
+  body.service-detail-page .svc-install-gallery img{height:calc(100% - 13px)}
+
+  body.service-detail-page .svc-process{padding:24px 0 28px}
+  body.service-detail-page .svc-process:before{top:82px}
+  body.service-detail-page .svc-process:after{bottom:40px}
+  body.service-detail-page .svc-process-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}
+  body.service-detail-page .svc-process-grid article{min-height:92px;padding:18px 6px 7px;border-radius:9px}
+  body.service-detail-page .svc-process-icon{top:6px;left:6px;width:20px;height:20px}
+  body.service-detail-page .svc-process-icon svg{width:12px;height:12px}
+  body.service-detail-page .svc-number{top:4px;right:6px;font-size:14px}
+  body.service-detail-page .svc-process-grid h3{font-size:7px;line-height:1.18;margin:20px 0 3px}
+  body.service-detail-page .svc-process-grid p{font-size:4.8px;line-height:1.35}
+  body.service-detail-page .svc-why{padding:22px 0 28px}
+  body.service-detail-page .svc-why-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+  body.service-detail-page .svc-why-grid article{padding:0 2px}
+  body.service-detail-page .svc-why-icon{width:28px;height:28px;margin-bottom:3px}
+  body.service-detail-page .svc-why-icon svg{width:14px;height:14px}
+  body.service-detail-page .svc-why-grid h3{font-size:6.5px;margin-bottom:2px}
+  body.service-detail-page .svc-why-grid p{font-size:4.7px;line-height:1.35}
+}
+
+/* =========================================================
+   SERVICE IMAGE LIGHTBOX — content images only
+   ========================================================= */
+body.service-detail-page .svc-main img{cursor:zoom-in}
+.svc-lightbox{position:fixed;inset:0;z-index:10000;display:none;align-items:center;justify-content:center;padding:28px;background:rgba(8,12,16,.92);backdrop-filter:blur(3px)}
+.svc-lightbox.is-open{display:flex}
+.svc-lightbox-image{display:block;max-width:min(94vw,1400px);max-height:88vh;width:auto;height:auto;object-fit:contain;border-radius:4px;box-shadow:0 18px 60px rgba(0,0,0,.45);cursor:default}
+.svc-lightbox-close{position:absolute;top:14px;right:18px;width:44px;height:44px;border:1px solid rgba(255,255,255,.6);border-radius:50%;background:rgba(0,0,0,.35);color:#fff;font:300 30px/40px Arial,sans-serif;text-align:center;cursor:pointer;z-index:2}
+.svc-lightbox-close:hover{background:rgba(255,255,255,.14)}
+body.svc-lightbox-open{overflow:hidden}
+@media (max-width:560px){
+ .svc-lightbox{padding:14px}
+ .svc-lightbox-image{max-width:96vw;max-height:82vh}
+ .svc-lightbox-close{top:8px;right:8px;width:36px;height:36px;font-size:24px;line-height:32px}
+}
