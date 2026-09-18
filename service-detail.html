@@ -7,6 +7,56 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="./github-image-fix.js" defer></script>
+<style>
+/* =========================================================
+   INSTALLATION SERVICE — SECTION 3 ONLY
+   Scoped to prevent changes to other pages/sections.
+========================================================= */
+.svc-install-process-v2{background:#f8f7f4;padding:72px 0 82px;}
+.svc-install-process-head{margin-bottom:34px;}
+.svc-install-process-head .svc-eyebrow{color:#a17a42;}
+.svc-install-process-head h2{margin-top:5px;}
+.svc-install-process-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:22px 24px;align-items:stretch;}
+.svc-install-step{position:relative;background:#fff;border-radius:18px;padding:12px 12px 18px;box-shadow:0 12px 28px rgba(32,32,32,.10);min-width:0;overflow:hidden;}
+.svc-install-step:nth-child(-n+3){grid-column:span 2;}
+.svc-install-step:nth-child(4){grid-column:2 / span 2;}
+.svc-install-step:nth-child(5){grid-column:4 / span 2;}
+.svc-install-step-icon{width:48px;height:48px;border:1.5px solid #b18a55;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#a17a42;margin:0 0 9px 4px;background:#fff;}
+.svc-install-step-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
+.svc-install-step-image{width:100%;height:154px;border-radius:13px;overflow:hidden;background:#eee;}
+.svc-install-step-image img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .35s ease;}
+.svc-install-step:hover .svc-install-step-image img{transform:scale(1.025);}
+.svc-install-step-content{position:relative;padding:12px 4px 0;min-height:112px;}
+.svc-install-step-content h3{font-size:24px;line-height:1.15;font-weight:600;color:#171717;padding-right:52px;margin:0 0 5px;}
+.svc-install-step-content p{font-size:16px;line-height:1.45;color:#444;margin:0;padding-right:2px;}
+.svc-install-step-number{position:absolute;right:3px;top:5px;color:#a17a42;font-size:39px;line-height:1;font-weight:500;letter-spacing:-1px;}
+@media (max-width:1100px){
+ .svc-install-process-v2{padding:58px 0 68px;}
+ .svc-install-process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
+ .svc-install-step:nth-child(n){grid-column:auto;}
+ .svc-install-step:nth-child(5){grid-column:1 / -1;max-width:calc(50% - 10px);justify-self:center;width:100%;}
+ .svc-install-step-image{height:180px;}
+ .svc-install-step-content h3{font-size:22px;}
+}
+@media (max-width:640px){
+ .svc-install-process-v2{padding:46px 0 56px;}
+ .svc-install-process-head{margin-bottom:24px;}
+ .svc-install-process-grid{grid-template-columns:1fr;gap:18px;}
+ .svc-install-step:nth-child(5){grid-column:auto;max-width:none;}
+ .svc-install-step{border-radius:16px;padding:10px 10px 16px;}
+ .svc-install-step-icon{width:44px;height:44px;margin-bottom:8px;}
+ .svc-install-step-image{height:190px;border-radius:12px;}
+ .svc-install-step-content{padding-top:11px;min-height:0;}
+ .svc-install-step-content h3{font-size:21px;}
+ .svc-install-step-content p{font-size:15px;line-height:1.48;}
+ .svc-install-step-number{font-size:34px;}
+}
+@media (min-width:641px) and (max-width:1100px) and (orientation:landscape){
+ .svc-install-step-image{height:155px;}
+ .svc-install-step-content h3{font-size:20px;}
+ .svc-install-step-content p{font-size:14px;}
+}
+</style>
 </head>
 <body class="service-detail-page">
 <header class="header">
@@ -89,10 +139,11 @@ const services={
    [about+'wp-20140501-004.jpg',{th:'การประสานงานหน้างาน',en:'Site coordination'}]
   ]},
   process:[
-   [{th:'ประเมินหน้างาน',en:'Site Assessment'},{th:'ตรวจสอบพื้นที่ วัสดุ และเงื่อนไขหน้างาน เพื่อกำหนดแนวทางที่เหมาะสม',en:'Inspect the site, materials and conditions to define the right approach.'}],
-   [{th:'วางแผนงาน',en:'Work Planning'},{th:'วางลำดับการติดตั้ง เตรียมวัสดุ และประสานงานกับทีมที่เกี่ยวข้อง',en:'Plan the installation sequence, prepare materials and coordinate with the teams involved.'}],
-   [{th:'ติดตั้ง',en:'Installation'},{th:'ดำเนินงานตามแบบและมาตรฐาน ตรวจสอบความเรียบร้อยระหว่างการทำงาน',en:'Install according to the approved design and standards while checking the work throughout.'}],
-   [{th:'ตรวจและส่งมอบ',en:'Inspection & Handover'},{th:'ตรวจงานรอบสุดท้ายและส่งมอบ พร้อมแนะนำการดูแลหลังติดตั้ง',en:'Complete the final inspection and handover with post-installation care guidance.'}]
+   [{th:'ประเมินหน้างาน',en:'Site Assessment'},{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะสมกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define the right approach for the materials and design.'}],
+   [{th:'วางแผนงาน',en:'Work Planning'},{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select materials, plan the work sequence and prepare the details for execution.'}],
+   [{th:'ดำเนินการผลิต',en:'Fabrication'},{th:'ผลิตชิ้นงานตามแบบและรายละเอียดที่ได้รับ พร้อมตรวจสอบก่อนนำเข้าหน้างาน',en:'Fabricate each piece according to the approved design and inspect it before delivery to site.'}],
+   [{th:'ติดตั้ง',en:'Installation'},{th:'ติดตั้งตามขอบเขตงานและแบบที่กำหนด ด้วยความประณีตและเป็นระบบ',en:'Install according to the approved scope and design with care and a systematic process.'}],
+   [{th:'ตรวจและส่งมอบ',en:'Inspection & Handover'},{th:'ตรวจสอบความเรียบร้อย เก็บรายละเอียด และส่งมอบงานพร้อมคำแนะนำหลังติดตั้ง',en:'Complete the final inspection, refine details and hand over the finished work with care guidance.'}]
   ]
  },
  polishing:{
@@ -120,7 +171,7 @@ const services={
 function esc(v){return String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
 function text(v,en){return v && typeof v==='object' ? (en?v.en:v.th) : (v||'');}
 function icon(type){
- const paths={user:'<circle cx="12" cy="8" r="3"/><path d="M5 20c.8-3.3 3.2-5 7-5s6.2 1.7 7 5"/>',plan:'<rect x="5" y="4" width="14" height="16" rx="2"/><path d="M8 8h8M8 12h5M8 16h4"/><path d="M16 12v5m-2.5-2.5h5"/>',check:'<circle cx="12" cy="12" r="8"/><path d="m8.5 12 2.2 2.2 4.8-5"/>',tools:'<path d="M7 4v7M4 7h6M17 4v7M14 7h6M12 13v7M9 16h6"/>'};
+ const paths={user:'<circle cx="12" cy="8" r="3"/><path d="M5 20c.8-3.3 3.2-5 7-5s6.2 1.7 7 5"/>',plan:'<rect x="5" y="4" width="14" height="16" rx="2"/><path d="M8 8h8M8 12h5M8 16h4"/><path d="M16 12v5m-2.5-2.5h5"/>',check:'<circle cx="12" cy="12" r="8"/><path d="m8.5 12 2.2 2.2 4.8-5"/>',tools:'<path d="M7 4v7M4 7h6M17 4v7M14 7h6M12 13v7M9 16h6"/>',production:'<rect x="4" y="5" width="16" height="14" rx="2"/><path d="M7 9h10M7 13h6M7 16h4"/><circle cx="16.5" cy="15.5" r="1.5"/>'};
  return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(paths[type]||paths.check)+'</svg>';
 }
 function initServiceLightbox(){
@@ -181,7 +232,15 @@ function renderDarkPage(d,en,key){
 }
 function renderInstallation(d,en){
  const h=d.hero;
- return `<section class="svc-install-hero"><div class="svc-wrap"><div class="svc-install-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-install-card"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><p>${esc(text(h.body,en))}</p><p>${en?'We coordinate materials, teams and schedule from preparation through final handover.':'ประสานงานวัสดุ ทีมช่าง และลำดับงานตั้งแต่เตรียมพื้นที่จนถึงตรวจส่งมอบอย่างเป็นระบบ'}</p><a class="svc-btn svc-btn-dark" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></section><section class="svc-install-portfolio"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'PORTFOLIO':'ผลงานและขั้นตอน'}</span><h2>${esc(text(d.portfolio.title,en))}</h2><p>${esc(text(d.portfolio.lead,en))}</p></div><div class="svc-install-gallery">${d.portfolio.items.map((x,i)=>`<figure class="install-${i+1}"><img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy"><figcaption>${esc(text(x[1],en))}</figcaption></figure>`).join('')}</div></div></section>${renderProcess(d,en)}`;
+ const steps=[
+  [d.process[0], about+'wp-20140501-001.jpg','user'],
+  [d.process[1], about+'catolog.jpg','plan'],
+  [d.process[2], about+'waterjet.png','production'],
+  [d.process[3], about+'banner-installation.jpg','tools'],
+  [d.process[4], about+'wp-20140501-003.jpg','check']
+ ];
+ return `<section class="svc-install-hero"><div class="svc-wrap"><div class="svc-install-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-install-card"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><p>${esc(text(h.body,en))}</p><p>${en?'We coordinate materials, teams and schedule from preparation through final handover.':'ประสานงานวัสดุ ทีมช่าง และลำดับงานตั้งแต่เตรียมพื้นที่จนถึงตรวจส่งมอบอย่างเป็นระบบ'}</p><a class="svc-btn svc-btn-dark" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></section>
+<section class="svc-install-process-v2"><div class="svc-wrap"><div class="svc-section-head svc-install-process-head"><span class="svc-eyebrow">${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}</span><h2>${en?'Work Process':'ขั้นตอนการทำงาน'}</h2></div><div class="svc-install-process-grid">${steps.map((x,i)=>{const item=x[0], image=x[1], iconType=x[2]; return `<article class="svc-install-step"><div class="svc-install-step-icon">${icon(iconType)}</div><div class="svc-install-step-image"><img src="${esc(image)}" alt="${esc(text(item[0],en))}" loading="lazy"></div><div class="svc-install-step-content"><h3>${esc(text(item[0],en))}</h3><span class="svc-install-step-number">0${i+1}</span><p>${esc(text(item[1],en))}</p></div></article>`;}).join('')}</div></div></section>`;
 }
 function renderProcess(d,en){return `<section class="svc-process"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}</span><h2>${en?'Work Process':'ขั้นตอนการทำงาน'}</h2></div><div class="svc-process-grid">${d.process.map((x,i)=>`<article><div class="svc-process-icon">${icon(i===0?'user':i===1?'plan':'check')}</div><span class="svc-number">0${i+1}</span><h3>${esc(text(x[0],en))}</h3><p>${esc(text(x[1],en))}</p></article>`).join('')}</div></div></section>`;}
 function renderWhy(d,en){return `<section class="svc-why"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'WHY CHOOSE BMC':'WHY CHOOSE BMC'}</span><h2>${en?'Why choose BMC':'ทำไมต้อง BMC'}</h2></div><div class="svc-why-grid">${d.why.map((x,i)=>`<article><div class="svc-why-icon">${icon(i===0?'tools':i===1?'user':'check')}</div><h3>${esc(text(x[0],en))}</h3><p>${esc(text(x[1],en))}</p></article>`).join('')}</div></div></section>`;}
