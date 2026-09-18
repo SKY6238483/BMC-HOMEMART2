@@ -6338,3 +6338,167 @@ body{
     .service-detail-gallery img{height:220px;}
     .service-feature-grid article{padding:20px;}
 }
+
+/* =========================================================
+   BMC SERVICE DETAIL — NEW REFERENCE-MATCHED PAGES
+   Scope: service-detail.html only. Header / footer and other
+   pages are intentionally not changed by these rules.
+   ========================================================= */
+body.service-detail-page{background:#f7f6f3;color:#171717;overflow-x:hidden}
+body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
+.svc-wrap{width:min(1120px,calc(100% - 96px));margin:0 auto}
+.svc-eyebrow{display:block;font-size:12px;letter-spacing:2.1px;font-weight:500;text-transform:uppercase;color:#9a7650;margin-bottom:8px}
+.svc-section-head{margin-bottom:28px}
+.svc-section-head h2{margin:0 0 7px;font-size:35px;line-height:1.2;font-weight:600;letter-spacing:-.5px}
+.svc-section-head p{margin:0;max-width:760px;font-size:14px;line-height:1.8;color:#5d5a56}
+.svc-btn{display:inline-flex;align-items:center;justify-content:center;min-width:132px;padding:10px 20px;border-radius:22px;background:#a27a4f;color:#fff!important;text-decoration:none;font-size:12px;font-weight:500;box-shadow:0 5px 15px rgba(0,0,0,.12)}
+.svc-btn-dark{background:#a27a4f}
+
+/* dark craft / polishing top */
+.svc-dark-top{background:#31485b;color:#fff;padding:48px 0 0;position:relative;overflow:hidden}
+.svc-hero-dark{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center;min-height:400px}
+.svc-hero-photo{height:310px;border-radius:8px;overflow:hidden}
+.svc-hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.svc-hero-panel{height:310px;position:relative;border:1px solid #b99779;border-radius:2px;padding:7px}
+.svc-ring{position:absolute;inset:0;border:1px solid #a87f60;border-radius:150px 150px 0 0;clip-path:polygon(0 0,100% 0,100% 100%,0 100%);opacity:.9}
+.svc-panel-content{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:center;padding:36px 42px;border:1px solid rgba(192,157,126,.35);border-radius:135px 135px 0 0}
+.svc-panel-content .svc-eyebrow{color:#c4a283}
+.svc-panel-content h1{font-size:31px;line-height:1.35;font-weight:400;margin:0 0 15px;white-space:normal}
+.svc-rule{height:1px;width:80%;background:#a9866d;margin:0 0 15px}
+.svc-panel-content p{font-size:12px;line-height:1.75;color:#eef1f2;margin:0 0 10px}
+.svc-hero-note{opacity:.9}
+.svc-panel-content .svc-btn{align-self:flex-start;margin-top:3px}
+.svc-portfolio-dark{display:grid;grid-template-columns:40% 60%;gap:26px;align-items:center;padding:62px 0 48px;min-height:325px}
+.svc-portfolio-copy{padding-bottom:20px}
+.svc-portfolio-copy .svc-eyebrow{color:#c4a283}
+.svc-portfolio-copy h2{font-size:31px;line-height:1.25;font-weight:400;margin:0 0 12px}
+.svc-portfolio-copy p{font-size:12px;line-height:1.8;color:#edf0f1;margin:0 0 12px;max-width:380px}
+.svc-portfolio-copy .svc-small-copy{font-size:11px;color:#cbd2d6}
+.svc-collage{position:relative;height:290px;max-width:600px;margin-left:auto}
+.svc-collage figure{position:absolute;margin:0;overflow:hidden;border:3px solid #b9aa9e;border-radius:18px;box-shadow:0 8px 20px rgba(0,0,0,.25);background:#fff}
+.svc-collage img{display:block;width:100%;height:100%;object-fit:cover}
+.svc-collage figcaption{display:none}
+.svc-collage-1{width:145px;height:112px;left:2%;top:34px;transform:rotate(-1deg)}
+.svc-collage-2{width:170px;height:128px;left:30%;top:0;transform:rotate(1deg)}
+.svc-collage-3{width:150px;height:114px;right:0;top:29px;transform:rotate(1deg)}
+.svc-collage-4{width:145px;height:113px;left:2%;bottom:7px;transform:rotate(-1deg)}
+.svc-collage-5{width:150px;height:145px;left:31%;bottom:0;transform:rotate(0)}
+
+/* five finishes */
+.svc-finishes{background:#f7f6f3;padding:48px 0 58px}
+.svc-finish-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.svc-finish-grid article{border-radius:8px;overflow:hidden;background:#fff;border:1px solid #ddd9d3;box-shadow:0 4px 10px rgba(0,0,0,.06);min-width:0}
+.svc-finish-image{height:148px;overflow:hidden}
+.svc-finish-image img{width:100%;height:100%;object-fit:cover;display:block}
+.svc-finish-copy{position:relative;padding:15px 13px 18px;min-height:135px}
+.svc-finish-copy h3{font-size:16px;line-height:1.35;margin:0 0 8px;font-weight:500}
+.svc-finish-copy p{font-size:11px;line-height:1.7;margin:0;color:#555}
+.svc-dot{position:absolute;right:12px;bottom:9px;font-size:10px;color:#a27a4f;letter-spacing:1px}
+.svc-custom{background:#f7f6f3;padding:8px 0 58px}
+.svc-custom-grid{display:grid;gap:16px}
+.svc-custom-grid article{display:grid;grid-template-columns:310px 1fr;gap:25px;align-items:center}
+.svc-custom-grid img{width:100%;height:120px;object-fit:cover;border-radius:8px;display:block}
+.svc-custom-grid h3{font-size:19px;margin:0 0 6px}
+.svc-custom-grid p{font-size:12px;line-height:1.75;margin:0;color:#5b5956}
+
+/* installation reference */
+.svc-install-hero{background:#f8f7f4;padding:42px 0 54px;position:relative}
+.svc-install-hero .svc-wrap{position:relative;min-height:360px}
+.svc-install-photo{position:absolute;right:0;top:0;width:57%;height:335px;border:1px solid #a48a70;padding:8px;border-radius:10px}
+.svc-install-photo img{width:100%;height:100%;object-fit:cover;border-radius:5px;display:block}
+.svc-install-card{position:absolute;left:2%;top:48px;width:52%;min-height:245px;background:#fff;border-radius:8px;padding:27px 30px;box-shadow:0 11px 25px rgba(0,0,0,.16);z-index:2}
+.svc-install-card:after{content:'';position:absolute;inset:-15px auto 20px -15px;width:calc(100% + 20px);border:1px solid #b79d83;border-radius:11px;z-index:-1}
+.svc-install-card h1{font-size:31px;line-height:1.15;margin:0 0 13px;font-weight:600}
+.svc-install-card p{font-size:12px;line-height:1.7;color:#4f4b48;margin:0 0 9px;max-width:620px}
+.svc-install-card .svc-btn{margin-top:4px}
+.svc-install-portfolio{background:#e9e0d7;padding:54px 0 60px}
+.svc-install-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:150px 150px 125px;gap:12px}
+.svc-install-gallery figure{margin:0;background:#fff;border-radius:9px;overflow:hidden;box-shadow:0 5px 12px rgba(0,0,0,.12);position:relative}
+.svc-install-gallery img{width:100%;height:calc(100% - 27px);object-fit:cover;display:block}
+.svc-install-gallery figcaption{height:27px;padding:5px 9px;font-size:10px;line-height:1.5;color:#292725;background:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.install-1{grid-row:1 / span 2}
+.install-2{grid-column:2}
+.install-3{grid-column:3}
+.install-4{grid-column:2}
+.install-5{grid-column:3}
+.install-6{grid-column:1}
+.install-7{grid-column:2}
+.install-8{grid-column:3}
+
+/* shared process / why */
+.svc-process{background:#faf9f7;padding:60px 0 72px;position:relative;overflow:hidden}
+.svc-process:before,.svc-process:after{content:'';position:absolute;height:1px;background:#c3a78d;opacity:.6;left:0;right:0;top:168px}
+.svc-process:after{top:auto;bottom:95px;left:8%;right:42%}
+.svc-process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:1}
+.svc-process-grid article{position:relative;min-height:178px;background:#fff;border-radius:18px;padding:31px 22px 20px;box-shadow:0 9px 20px rgba(0,0,0,.14);border:1px solid #e7e2dc}
+.svc-process-grid article:last-child:nth-child(4){grid-column:1}
+.svc-process-icon{position:absolute;top:16px;left:18px;width:42px;height:42px;border:1px solid #c0a080;border-radius:50%;display:grid;place-items:center;background:#fbf8f3}
+.svc-process-icon svg,.svc-why-icon svg{width:25px;height:25px;fill:none;stroke:#a27a4f;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.svc-number{position:absolute;top:13px;right:20px;font-size:31px;font-weight:600;color:#1c1b1a}
+.svc-process-grid h3{font-size:18px;line-height:1.35;margin:37px 0 8px}
+.svc-process-grid p{font-size:11px;line-height:1.75;color:#555;margin:0}
+.svc-why{background:#f7f7f6;padding:48px 0 68px}
+.svc-why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:50px;text-align:center}
+.svc-why-grid article{padding:0 18px}
+.svc-why-icon{width:58px;height:58px;margin:0 auto 10px;display:grid;place-items:center}
+.svc-why-grid h3{font-size:16px;margin:0 0 7px;font-weight:500}
+.svc-why-grid p{font-size:11px;line-height:1.7;color:#5d5956;margin:0}
+
+/* polishing and craft share process, but finish/custom sections can be hidden below reference fold on polishing */
+.svc-polishing .svc-dark-top{padding-bottom:10px}
+.svc-polishing .svc-process{padding-top:58px}
+.svc-polishing .svc-process-grid article{min-height:178px}
+.svc-polishing .svc-why{padding-top:45px}
+.svc-polishing .svc-dark-top + .svc-process{}
+
+@media (max-width:900px){
+ .svc-wrap{width:min(100% - 34px,700px)}
+ .svc-hero-dark{grid-template-columns:1fr;gap:18px;padding-bottom:25px}
+ .svc-hero-photo,.svc-hero-panel{height:270px}
+ .svc-panel-content{padding:30px}
+ .svc-panel-content h1{font-size:26px}
+ .svc-portfolio-dark{grid-template-columns:1fr;padding-top:38px}
+ .svc-portfolio-copy{padding-bottom:0}
+ .svc-collage{width:100%;height:250px;margin:0 auto}
+ .svc-finish-grid{grid-template-columns:repeat(2,1fr)}
+ .svc-finish-image{height:170px}
+ .svc-custom-grid article{grid-template-columns:1fr;gap:12px}
+ .svc-custom-grid img{height:180px}
+ .svc-install-hero .svc-wrap{min-height:600px}
+ .svc-install-photo{position:absolute;width:100%;height:360px;top:0}
+ .svc-install-card{left:4%;top:270px;width:92%;min-height:250px}
+ .svc-install-gallery{grid-template-columns:1fr 1fr;grid-template-rows:220px repeat(4,150px)}
+ .install-1{grid-column:1 / span 2;grid-row:1}
+ .install-2,.install-3,.install-4,.install-5,.install-6,.install-7,.install-8{grid-column:auto;grid-row:auto}
+ .svc-process-grid{grid-template-columns:1fr 1fr}
+ .svc-process-grid article:last-child:nth-child(4){grid-column:auto}
+ .svc-process:before{top:150px}
+ .svc-why-grid{grid-template-columns:1fr;gap:28px}
+}
+@media (max-width:560px){
+ .svc-wrap{width:calc(100% - 24px)}
+ .svc-dark-top{padding-top:24px}
+ .svc-hero-photo{height:210px}
+ .svc-hero-panel{height:auto;min-height:300px}
+ .svc-panel-content{padding:28px 24px}
+ .svc-panel-content h1{font-size:23px}
+ .svc-panel-content p{font-size:11px}
+ .svc-portfolio-dark{padding-bottom:35px}
+ .svc-portfolio-copy h2{font-size:25px}
+ .svc-collage{height:220px}
+ .svc-collage-1{width:112px;height:88px}.svc-collage-2{width:128px;height:96px}.svc-collage-3{width:112px;height:86px}.svc-collage-4{width:112px;height:85px}.svc-collage-5{width:118px;height:115px}
+ .svc-finish-grid{grid-template-columns:1fr;gap:12px}
+ .svc-finish-image{height:200px}
+ .svc-section-head h2{font-size:27px}
+ .svc-install-hero{padding-top:24px}
+ .svc-install-hero .svc-wrap{min-height:585px}
+ .svc-install-photo{height:300px}
+ .svc-install-card{top:235px;padding:23px 20px}
+ .svc-install-card h1{font-size:25px}
+ .svc-install-gallery{grid-template-columns:1fr;grid-template-rows:auto}
+ .svc-install-gallery figure{height:180px;grid-column:auto!important;grid-row:auto!important}
+ .svc-process-grid{grid-template-columns:1fr;gap:16px}
+ .svc-process:before,.svc-process:after{display:none}
+ .svc-process-grid article{min-height:155px}
+ .svc-process-grid h3{font-size:17px}
+}
