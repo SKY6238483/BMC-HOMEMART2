@@ -157,16 +157,28 @@ function render(){
  document.documentElement.lang=en?'en':'th';
  initServiceLightbox();
 }
-function renderDarkPage(d,en,key){
+/*function renderDarkPage(d,en,key){
  const h=d.hero;
- let out=`<section class="svc-dark-top"><div class="svc-wrap"><div class="svc-hero-dark"><div class="svc-hero-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-hero-panel"><div class="svc-ring"></div><div class="svc-panel-content"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><div class="svc-rule"></div><p>${esc(text(h.body,en))}</p><p class="svc-hero-note">${en?'Careful surface preparation, professional equipment and detailed finishing for every project.':'ใส่ใจตั้งแต่การเตรียมพื้นผิว เลือกอุปกรณ์ และเก็บรายละเอียด เพื่อให้งานออกมาสวยและพร้อมใช้งาน'}</p><a class="svc-btn" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></div>`;
+ let out=`<section class="svc-dark-top"><div class="svc-wrap">
+    <div class="svc-hero-dark"><div class="svc-hero-photo">
+        <img src="${esc(h.image)}" alt="${esc(text(h.title,en))}">
+        </div>
+        <div class="svc-hero-panel"><div class="svc-ring">
+            </div>
+            <div class="svc-panel-content">
+                <span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en))
+                    .replace(/\n/g,'<br>')}</h1>
+                    <div class="svc-rule">
+                        </div>
+                        <p>${esc(text(h.body,en))}</p>
+                        <p class="svc-hero-note">${en?'Careful surface preparation, professional equipment and detailed finishing for every project.':'ใส่ใจตั้งแต่การเตรียมพื้นผิว เลือกอุปกรณ์ และเก็บรายละเอียด เพื่อให้งานออกมาสวยและพร้อมใช้งาน'}</p><a class="svc-btn" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></div>`;
  out+=`<section class="svc-portfolio-dark"><div class="svc-portfolio-copy"><span class="svc-eyebrow">${key==='craft'?'PORTFOLIO':'PORTFOLIO'}</span><h2>${esc(text(d.portfolio.title,en))}</h2><p>${esc(text(d.portfolio.lead||{th:'งานตัวอย่างและขั้นตอนการทำงานที่เกี่ยวข้องกับบริการของเรา',en:'Selected examples and working processes related to our service.'},en))}</p><p class="svc-small-copy">${en?'Careful planning and practical execution help each project achieve a consistent finish.':'งานทุกขั้นตอนเน้นความละเอียดและการประสานงาน เพื่อให้ได้ผลงานที่สวยและต่อเนื่อง'}</p></div><div class="svc-collage">${d.portfolio.items.map((x,i)=>`<figure class="svc-collage-${i+1}"><img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy"><figcaption>${esc(text(x[1],en))}</figcaption></figure>`).join('')}</div></section></div></section>`;
  if(d.finishes){out+=`<section class="svc-finishes"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'STONE FINISHES':'งานทำผิวหิน'}</span><h2>${esc(text(d.title,en))}</h2><p>${esc(text(d.subtitle,en))}</p></div><div class="svc-finish-grid">${d.finishes.map((x,i)=>`<article><div class="svc-finish-image"><img src="${esc(img+'five-stone/'+x[4])}" alt="${esc(en?x[1]:x[0])}" loading="lazy"></div><div class="svc-finish-copy"><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p><span class="svc-dot">0${i+1}</span></div></article>`).join('')}</div></div></section>`;}
  if(d.finishes){out+=`<section class="svc-custom"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</span><h2>${esc(text(d.portfolio.title,en))}</h2></div><div class="svc-custom-grid">${d.portfolio.items.map((x,i)=>`<article><img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy"><div><h3>${esc(text(x[1],en))}</h3><p>${esc(text(x[2],en))}</p></div></article>`).join('')}</div></div></section>`;}
  out+=renderProcess(d,en);
  if(d.why) out+=renderWhy(d,en);
  return out;
-}
+}*/
 function renderInstallation(d,en){
  const h=d.hero;
  return `<section class="svc-install-hero"><div class="svc-wrap"><div class="svc-install-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-install-card"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><p>${esc(text(h.body,en))}</p><p>${en?'We coordinate materials, teams and schedule from preparation through final handover.':'ประสานงานวัสดุ ทีมช่าง และลำดับงานตั้งแต่เตรียมพื้นที่จนถึงตรวจส่งมอบอย่างเป็นระบบ'}</p><a class="svc-btn svc-btn-dark" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></section><section class="svc-install-portfolio"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'PORTFOLIO':'ผลงานและขั้นตอน'}</span><h2>${esc(text(d.portfolio.title,en))}</h2><p>${esc(text(d.portfolio.lead,en))}</p></div><div class="svc-install-gallery">${d.portfolio.items.map((x,i)=>`<figure class="install-${i+1}"><img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy"><figcaption>${esc(text(x[1],en))}</figcaption></figure>`).join('')}</div></div></section>${renderProcess(d,en)}`;
