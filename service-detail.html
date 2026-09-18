@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="policy.css">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="./github-image-fix.js" defer></script>
+<script src="./github-image-fix.js" defer></script>
 
 <style>
 /* =========================================================
@@ -15,82 +15,272 @@
    หมายเหตุ: CSS ชุดนี้ scope ด้วย .craft-page เพื่อไม่กระทบ
    หน้า Services อื่น ๆ และไม่แตะ CSS/Footer ของเว็บไซต์ส่วนอื่น
    ========================================================= */
+
 .craft-page .detail-hero,
 .craft-page .service-intro-section,
-.craft-page .service-gallery-section{display:none!important;}
+.craft-page .service-gallery-section{
+    display:none!important;
+}
 
-.craft-page{background:#f7f7f4;}
+.craft-page{
+    background:#f7f7f4;
+}
+
 .craft-page .service-special-section,
 .craft-page .service-process,
-.craft-page .craft-why-section{margin:0;padding:0;}
+.craft-page .craft-why-section{
+    margin:0;
+    padding:0;
+}
 
-/* ---------- ส่วนที่ 1: งานทำผิวหิน 5 แบบ ---------- */
-.craft-page .craft-section{padding:30px 0 42px;}
-.craft-page .craft-top{padding-top:28px;}
-.craft-page .craft-container{width:90%;max-width:1260px;margin:0 auto;}
-.craft-page .craft-eyebrow{margin:0 0 3px;color:#9b7644;font-size:14px;line-height:1.4;font-weight:400;}
-.craft-page .craft-title{margin:0;color:#171717;font-size:clamp(28px,3vw,42px);line-height:1.12;font-weight:700;letter-spacing:-.4px;}
-.craft-page .craft-subtitle{margin:5px 0 0;color:#3c3c3c;font-size:13px;line-height:1.55;}
-.craft-page .craft-finish-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:16px;}
-.craft-page .craft-finish-card{overflow:hidden;border:1px solid #ddd9d1;border-radius:9px;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);}
-.craft-page .craft-finish-card.featured{background:#38516a;color:#fff;border-color:#38516a;}
-.craft-page .craft-finish-image{display:block;width:100%;height:126px;object-fit:cover;object-position:center;}
-.craft-page .craft-finish-body{padding:12px 12px 13px;min-height:142px;}
-.craft-page .craft-finish-body h3{margin:0 0 7px;font-size:16px;line-height:1.35;font-weight:600;color:#171717;}
-.craft-page .craft-finish-card.featured .craft-finish-body h3{color:#fff;}
-.craft-page .craft-finish-body p{margin:0;color:#444;font-size:12px;line-height:1.55;}
-.craft-page .craft-finish-card.featured .craft-finish-body p{color:#fff;}
-.craft-page .craft-finish-body ul{margin:7px 0 0;padding-left:16px;color:#333;font-size:11px;line-height:1.5;}
-.craft-page .craft-finish-card.featured .craft-finish-body ul{color:#fff;}
 
-/* ---------- ส่วนที่ 2: งานสั่งทำตามแบบ ---------- */
-.craft-page .craft-custom-section{padding-top:5px;padding-bottom:43px;}
-.craft-page .craft-custom-list{margin-top:15px;display:grid;gap:13px;}
-.craft-page .craft-custom-row{display:grid;grid-template-columns:minmax(0,52%) minmax(0,48%);align-items:center;min-height:145px;}
-.craft-page .craft-custom-media{height:145px;border-radius:9px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);}
-.craft-page .craft-custom-media img{display:block;width:100%;height:170%;object-fit:cover;}
-.craft-page .craft-custom-copy{padding:10px 0 10px 35px;}
-.craft-page .craft-custom-copy h3{margin:0 0 6px;color:#222;font-size:20px;line-height:1.35;font-weight:600;}
-.craft-page .craft-custom-copy p{margin:0;max-width:470px;color:#343434;font-size:13px;line-height:1.65;}
+/* =========================================================
+   ส่วนที่ 1: งานทำผิวหิน 5 แบบ
+   ========================================================= */
 
-/* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ----------
-   Section นี้เป็นพื้นหลังเต็มความกว้างหน้าจอ
-   ชิดขอบซ้ายและขวา ไม่ให้เกิดพื้นที่ว่างด้านข้าง
-   เนื้อหาภายในการ์ดจะถูกจำกัดขนาดให้อยู่ในจอเสมอ
---------------------------------------------------- */
+.craft-page .craft-section{
+    padding:30px 0 42px;
+}
+
+.craft-page .craft-top{
+    padding-top:28px;
+}
+
+.craft-page .craft-container{
+    width:90%;
+    max-width:1260px;
+    margin:0 auto;
+}
+
+.craft-page .craft-eyebrow{
+    margin:0 0 3px;
+    color:#9b7644;
+    font-size:14px;
+    line-height:1.4;
+    font-weight:400;
+}
+
+.craft-page .craft-title{
+    margin:0;
+    color:#171717;
+    font-size:clamp(28px,3vw,42px);
+    line-height:1.12;
+    font-weight:700;
+    letter-spacing:-.4px;
+}
+
+.craft-page .craft-subtitle{
+    margin:5px 0 0;
+    color:#3c3c3c;
+    font-size:13px;
+    line-height:1.55;
+}
+
+.craft-page .craft-finish-grid{
+    display:grid;
+    grid-template-columns:repeat(5,minmax(0,1fr));
+    gap:14px;
+    margin-top:16px;
+}
+
+.craft-page .craft-finish-card{
+    overflow:hidden;
+    border:1px solid #ddd9d1;
+    border-radius:9px;
+    background:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,.06);
+}
+
+.craft-page .craft-finish-card.featured{
+    background:#38516a;
+    color:#fff;
+    border-color:#38516a;
+}
+
+.craft-page .craft-finish-image{
+    display:block;
+    width:100%;
+    height:126px;
+    object-fit:cover;
+    object-position:center;
+}
+
+.craft-page .craft-finish-body{
+    padding:12px 12px 13px;
+    min-height:142px;
+}
+
+.craft-page .craft-finish-body h3{
+    margin:0 0 7px;
+    font-size:16px;
+    line-height:1.35;
+    font-weight:600;
+    color:#171717;
+}
+
+.craft-page .craft-finish-card.featured .craft-finish-body h3{
+    color:#fff;
+}
+
+.craft-page .craft-finish-body p{
+    margin:0;
+    color:#444;
+    font-size:12px;
+    line-height:1.55;
+}
+
+.craft-page .craft-finish-card.featured .craft-finish-body p{
+    color:#fff;
+}
+
+.craft-page .craft-finish-body ul{
+    margin:7px 0 0;
+    padding-left:16px;
+    color:#333;
+    font-size:11px;
+    line-height:1.5;
+}
+
+.craft-page .craft-finish-card.featured .craft-finish-body ul{
+    color:#fff;
+}
+
+
+/* =========================================================
+   ส่วนที่ 2: งานสั่งทำตามแบบ
+   ========================================================= */
+
+.craft-page .craft-custom-section{
+    padding-top:5px;
+    padding-bottom:43px;
+}
+
+.craft-page .craft-custom-list{
+    margin-top:15px;
+    display:grid;
+    gap:13px;
+}
+
+.craft-page .craft-custom-row{
+    display:grid;
+    grid-template-columns:minmax(0,52%) minmax(0,48%);
+    align-items:center;
+    min-height:145px;
+}
+
+.craft-page .craft-custom-media{
+    height:145px;
+    border-radius:9px;
+    overflow:hidden;
+    box-shadow:0 1px 4px rgba(0,0,0,.08);
+}
+
+.craft-page .craft-custom-media img{
+    display:block;
+    width:100%;
+    height:170%;
+    object-fit:cover;
+}
+
+.craft-page .craft-custom-copy{
+    padding:10px 0 10px 35px;
+}
+
+.craft-page .craft-custom-copy h3{
+    margin:0 0 6px;
+    color:#222;
+    font-size:20px;
+    line-height:1.35;
+    font-weight:600;
+}
+
+.craft-page .craft-custom-copy p{
+    margin:0;
+    max-width:470px;
+    color:#343434;
+    font-size:13px;
+    line-height:1.65;
+}
+
+
+/* =========================================================
+   ส่วนที่ 3: ขั้นตอนการทำงาน
+   ---------------------------------------------------------
+   Section นี้แก้ไขให้:
+   - กว้างเต็มหน้าจอ
+   - ชิดขอบซ้ายและขวา
+   - ไม่ล้นหน้าจอ
+   - คอม / iPad / มือถือ แสดง 3 ใบในแถวเดียว
+   - ปรับขนาดตัวอักษรตามพื้นที่
+   ========================================================= */
+
+
+/* ---------- พื้นหลัง Section ---------- */
 
 .craft-page .craft-process-section{
     width:100%;
     max-width:none;
     margin:0;
-    padding:32px 20px 34px;
+    padding:32px 20px 36px;
     box-sizing:border-box;
     background:#dfe4e6;
     overflow:hidden;
 }
 
-/* ---------- กลุ่มการ์ดขั้นตอนการทำงาน ----------
-   Desktop: แสดง 3 ใบในแถวเดียว
-   ใช้ minmax เพื่อป้องกันการ์ดดันออกนอกหน้าจอ
---------------------------------------------------- */
+
+/* ---------- Container ของ Section 3 ---------- */
+
+.craft-page .craft-process-section > .craft-container{
+    width:100%;
+    max-width:1400px;
+    margin:0 auto;
+    box-sizing:border-box;
+}
+
+
+/* ---------- หัวข้อ Section 3 ---------- */
+
+.craft-page .craft-process-section .craft-eyebrow{
+    margin:0 0 3px;
+    color:#9b7644;
+    font-size:14px;
+    line-height:1.4;
+    font-weight:400;
+}
+
+.craft-page .craft-process-section .craft-title{
+    margin:0;
+    color:#171717;
+    font-size:clamp(26px,3vw,40px);
+    line-height:1.15;
+    font-weight:700;
+    letter-spacing:-.3px;
+}
+
+
+/* ---------- กลุ่มการ์ด 3 ขั้นตอน ----------
+   ใช้ 3 คอลัมน์ตลอดทุกขนาดหน้าจอ
+   minmax(0,1fr) ป้องกันการ์ดล้น
+--------------------------------------------------------- */
 
 .craft-page .craft-process-grid{
     width:100%;
-    max-width:1250px;
-    margin:16px auto 0;
+    max-width:none;
+    margin:17px 0 0;
+    padding:0;
     display:grid;
     grid-template-columns:repeat(3,minmax(0,1fr));
     gap:16px;
     box-sizing:border-box;
 }
 
-/* ---------- การ์ดแต่ละขั้นตอน ----------
-   การ์ดจะยืดตามพื้นที่ที่มี
-   แต่ไม่ทำให้ Section ล้นหน้าจอ
---------------------------------------------------- */
+
+/* ---------- การ์ดแต่ละขั้นตอน ---------- */
 
 .craft-page .craft-process-card{
+    width:100%;
     min-width:0;
+    max-width:none;
     overflow:hidden;
     border-radius:10px;
     background:#38516a;
@@ -103,196 +293,399 @@
     background:#b39b7a;
 }
 
-/* ---------- รูปภาพในแต่ละขั้นตอน ----------
-   ปรับความสูงตามขนาดหน้าจอ
-   object-fit:cover ช่วยไม่ให้รูปเสียสัดส่วน
---------------------------------------------------- */
+
+/* ---------- รูปภาพ ---------- */
 
 .craft-page .craft-process-card img{
     display:block;
     width:100%;
-    height:150px;
+    height:145px;
+    margin:0;
     object-fit:cover;
+    object-position:center;
 }
 
-/* ---------- เนื้อหาภายในการ์ด ----------
-   ปรับ padding ให้เหมาะสมกับพื้นที่การ์ด
---------------------------------------------------- */
+
+/* ---------- เนื้อหาการ์ด ---------- */
 
 .craft-page .craft-process-copy{
+    width:100%;
+    min-width:0;
     padding:0 18px 18px;
     box-sizing:border-box;
 }
 
-/* ---------- หมายเลขขั้นตอน ----------
-   เลขจะซ้อนขึ้นมาบริเวณด้านล่างของรูป
---------------------------------------------------- */
+
+/* ---------- หมายเลข 01 / 02 / 03 ---------- */
 
 .craft-page .craft-process-no{
     display:block;
-    margin-top:-20px;
     position:relative;
-    font-size:32px;
+    margin-top:-19px;
+    font-size:30px;
     line-height:1;
     font-weight:600;
     text-shadow:0 1px 2px rgba(0,0,0,.25);
 }
 
-/* ---------- หัวข้อขั้นตอน ---------- */
+
+/* ---------- หัวข้อแต่ละขั้นตอน ---------- */
 
 .craft-page .craft-process-copy h3{
-    margin:10px 0 6px;
+    margin:9px 0 6px;
     color:#fff;
-    font-size:18px;
+    font-size:17px;
     line-height:1.4;
     font-weight:600;
+    overflow-wrap:anywhere;
+    word-break:break-word;
 }
 
-/* ---------- รายละเอียดขั้นตอน ---------- */
+
+/* ---------- รายละเอียดแต่ละขั้นตอน ---------- */
 
 .craft-page .craft-process-copy p{
     margin:0;
     color:#fff;
-    font-size:13px;
+    font-size:12px;
     line-height:1.6;
     overflow-wrap:anywhere;
+    word-break:break-word;
 }
 
 
-/* ===================================================
-   TABLET / iPAD
-   ลดขนาดรูปและข้อความให้พอดีกับหน้าจอ
-=================================================== */
+/* =========================================================
+   ส่วนที่ 4: บริการที่ใส่ใจรายละเอียด
+   ========================================================= */
+
+.craft-page .craft-why-section{
+    background:#fafaf7;
+    padding:31px 0 48px;
+}
+
+.craft-page .craft-why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:13px;
+    margin-top:15px;
+}
+
+.craft-page .craft-why-card{
+    min-height:135px;
+    padding:16px 15px 14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+}
+
+.craft-page .craft-why-icon{
+    width:40px;
+    height:40px;
+    margin-bottom:7px;
+    color:#4b5962;
+}
+
+.craft-page .craft-why-icon svg{
+    display:block;
+    width:100%;
+    height:100%;
+    fill:none;
+    stroke:currentColor;
+    stroke-width:1.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+.craft-page .craft-why-card h3{
+    margin:0 0 5px;
+    font-size:15px;
+    line-height:1.4;
+    color:#222;
+    font-weight:600;
+}
+
+.craft-page .craft-why-card p{
+    margin:0;
+    color:#444;
+    font-size:11px;
+    line-height:1.55;
+}
+
+
+/* ---------- ภาษาอังกฤษ ---------- */
+
+.craft-page.lang-en .craft-title{
+    letter-spacing:-.7px;
+}
+
+
+/* =========================================================
+   Responsive: iPad / Tablet
+   ---------------------------------------------------------
+   ยังคง 3 การ์ดในแถวเดียว
+   ========================================================= */
 
 @media (max-width:900px){
 
-    .craft-page .craft-process-section{
-        padding:28px 16px 30px;
+    .craft-page .craft-container{
+        width:92%;
     }
 
-    .craft-page .craft-process-grid{
-        gap:12px;
-        margin-top:14px;
+    .craft-page .craft-finish-grid{
+        grid-template-columns:repeat(5,minmax(120px,1fr));
+        overflow-x:auto;
+        padding-bottom:6px;
+        scroll-snap-type:x mandatory;
     }
 
-    .craft-page .craft-process-card img{
-        height:125px;
+    .craft-page .craft-finish-card{
+        scroll-snap-align:start;
+        min-width:120px;
     }
 
-    .craft-page .craft-process-copy{
-        padding:0 14px 15px;
+    .craft-page .craft-custom-row{
+        grid-template-columns:52% 48%;
     }
 
-    .craft-page .craft-process-no{
-        font-size:28px;
-        margin-top:-18px;
+    .craft-page .craft-custom-copy{
+        padding-left:22px;
     }
 
-    .craft-page .craft-process-copy h3{
-        font-size:16px;
-        margin-top:9px;
-    }
 
-    .craft-page .craft-process-copy p{
-        font-size:11px;
-        line-height:1.55;
-    }
-}
-
-
-/* ===================================================
-   MOBILE
-   ยังคง 3 ใบในแถวเดียวตามรูปแบบที่ต้องการ
-   ลดขนาดการ์ดและข้อความเพื่อไม่ให้ล้นจอ
-=================================================== */
-
-@media (max-width:600px){
+    /* ---------- Section 3 บน iPad ---------- */
 
     .craft-page .craft-process-section{
         width:100%;
-        padding:24px 8px 26px;
+        padding:28px 12px 30px;
+    }
+
+    .craft-page .craft-process-section > .craft-container{
+        width:100%;
     }
 
     .craft-page .craft-process-grid{
         width:100%;
         grid-template-columns:repeat(3,minmax(0,1fr));
-        gap:7px;
-        margin-top:12px;
+        gap:10px;
+        margin-top:14px;
     }
 
     .craft-page .craft-process-card{
-        width:100%;
-        border-radius:8px;
+        min-width:0;
     }
 
     .craft-page .craft-process-card img{
         width:100%;
-        height:82px;
+        height:115px;
     }
 
     .craft-page .craft-process-copy{
-        padding:0 7px 9px;
+        padding:0 11px 13px;
     }
 
     .craft-page .craft-process-no{
-        margin-top:-13px;
-        font-size:22px;
+        margin-top:-17px;
+        font-size:27px;
     }
 
     .craft-page .craft-process-copy h3{
-        margin:7px 0 4px;
+        margin:8px 0 5px;
+        font-size:14px;
+        line-height:1.35;
+    }
+
+    .craft-page .craft-process-copy p{
+        font-size:10px;
+        line-height:1.55;
+    }
+}
+
+
+/* =========================================================
+   Responsive: Mobile
+   ---------------------------------------------------------
+   ยังคง 3 การ์ดในแถวเดียว
+   ปรับขนาดให้เหมาะกับหน้าจอมือถือ
+   ========================================================= */
+
+@media (max-width:650px){
+
+    .craft-page .craft-section{
+        padding:23px 0 32px;
+    }
+
+    .craft-page .craft-finish-grid{
+        grid-template-columns:repeat(
+            5,
+            calc((100vw - 2 * 4vw - 28px)/2.15)
+        );
+        gap:10px;
+    }
+
+    .craft-page .craft-finish-card{
+        min-width:0;
+    }
+
+    .craft-page .craft-finish-image{
+        height:112px;
+    }
+
+    .craft-page .craft-finish-body{
+        min-height:155px;
+        padding:10px;
+    }
+
+    .craft-page .craft-finish-body h3{
+        font-size:14px;
+    }
+
+    .craft-page .craft-finish-body p{
         font-size:11px;
+    }
+
+    .craft-page .craft-custom-row{
+        grid-template-columns:1fr;
+        gap:10px;
+    }
+
+    .craft-page .craft-custom-media{
+        height:180px;
+    }
+
+    .craft-page .craft-custom-copy{
+        padding:0 3px;
+    }
+
+    .craft-page .craft-custom-copy h3{
+        font-size:18px;
+    }
+
+
+    /* =====================================================
+       Section 3 Mobile
+       สำคัญ: ไม่ให้ใช้ grid-template-columns:1fr
+       เพราะต้องการ 3 ใบในแถวเดียว
+       ===================================================== */
+
+    .craft-page .craft-process-section{
+        width:100%;
+        max-width:100%;
+        padding:22px 6px 25px;
+        overflow:hidden;
+    }
+
+    .craft-page .craft-process-section > .craft-container{
+        width:100%;
+        max-width:none;
+        margin:0;
+    }
+
+    .craft-page .craft-process-grid{
+        width:100%;
+        max-width:none;
+        display:grid;
+        grid-template-columns:repeat(3,minmax(0,1fr)) !important;
+        gap:6px;
+        margin-top:11px;
+    }
+
+    .craft-page .craft-process-card{
+        width:100%;
+        min-width:0;
+        border-radius:7px;
+    }
+
+    .craft-page .craft-process-card img{
+        width:100%;
+        height:78px;
+        object-fit:cover;
+    }
+
+    .craft-page .craft-process-copy{
+        width:100%;
+        min-width:0;
+        padding:0 6px 8px;
+    }
+
+    .craft-page .craft-process-no{
+        margin-top:-12px;
+        font-size:20px;
+    }
+
+    .craft-page .craft-process-copy h3{
+        margin:6px 0 3px;
+        font-size:10px;
         line-height:1.3;
     }
 
     .craft-page .craft-process-copy p{
-        font-size:8px;
+        font-size:7.5px;
         line-height:1.45;
+    }
+
+
+    /* ---------- Section 4 ---------- */
+
+    .craft-page .craft-why-grid{
+        grid-template-columns:1fr;
     }
 }
 
-/* ---------- ส่วนที่ 4: บริการที่ใส่ใจรายละเอียด ---------- */
-.craft-page .craft-why-section{background:#fafaf7;padding:31px 0 48px;}
-.craft-page .craft-why-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:15px;}
-.craft-page .craft-why-card{min-height:135px;padding:16px 15px 14px;border:1px solid #ddd;border-radius:8px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.10);}
-.craft-page .craft-why-icon{width:40px;height:40px;margin-bottom:7px;color:#4b5962;}
-.craft-page .craft-why-icon svg{display:block;width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;}
-.craft-page .craft-why-card h3{margin:0 0 5px;font-size:15px;line-height:1.4;color:#222;font-weight:600;}
-.craft-page .craft-why-card p{margin:0;color:#444;font-size:11px;line-height:1.55;}
 
-/* ---------- ภาษาอังกฤษ: ให้ขนาดข้อความยังคงใกล้กับต้นแบบ ---------- */
-.craft-page.lang-en .craft-title{letter-spacing:-.7px;}
+/* =========================================================
+   Mobile จอแคบมาก
+   เช่น 320px / 360px
+   ========================================================= */
 
-/* ---------- Responsive: iPad / Mobile ---------- */
-@media (max-width:900px){
-  .craft-page .craft-container{width:92%;}
-  .craft-page .craft-finish-grid{grid-template-columns:repeat(5,minmax(120px,1fr));overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory;}
-  .craft-page .craft-finish-card{scroll-snap-align:start;min-width:120px;}
-  .craft-page .craft-custom-row{grid-template-columns:52% 48%;}
-  .craft-page .craft-custom-copy{padding-left:22px;}
-}
-@media (max-width:650px){
-  .craft-page .craft-section{padding:23px 0 32px;}
-  .craft-page .craft-finish-grid{grid-template-columns:repeat(5,calc((100vw - 2 * 4vw - 28px)/2.15));gap:10px;}
-  .craft-page .craft-finish-card{min-width:0;}
-  .craft-page .craft-finish-image{height:112px;}
-  .craft-page .craft-finish-body{min-height:155px;padding:10px;}
-  .craft-page .craft-finish-body h3{font-size:14px;}
-  .craft-page .craft-finish-body p{font-size:11px;}
-  .craft-page .craft-custom-row{grid-template-columns:1fr;gap:10px;}
-  .craft-page .craft-custom-media{height:180px;}
-  .craft-page .craft-custom-copy{padding:0 3px;}
-  .craft-page .craft-custom-copy h3{font-size:18px;}
-  .craft-page .craft-process-grid,.craft-page .craft-why-grid{grid-template-columns:1fr;}
-  .craft-page .craft-process-card img{height:170px;}
+@media (max-width:380px){
+
+    .craft-page .craft-process-section{
+        padding-left:4px;
+        padding-right:4px;
+    }
+
+    .craft-page .craft-process-grid{
+        gap:4px;
+    }
+
+    .craft-page .craft-process-card img{
+        height:70px;
+    }
+
+    .craft-page .craft-process-copy{
+        padding-left:5px;
+        padding-right:5px;
+        padding-bottom:7px;
+    }
+
+    .craft-page .craft-process-no{
+        font-size:18px;
+        margin-top:-11px;
+    }
+
+    .craft-page .craft-process-copy h3{
+        font-size:9px;
+    }
+
+    .craft-page .craft-process-copy p{
+        font-size:7px;
+        line-height:1.4;
+    }
 }
 </style>
 
 </head>
+
 <body>
+
 <header class="header">
 <div class="container nav">
-<a href="index.html" class="logo"><img src="./image/logo-bmc.jpg" alt="BMC HOMEMART"></a>
+
+<a href="index.html" class="logo">
+<img src="./image/logo-bmc.jpg" alt="BMC HOMEMART">
+</a>
+
 <nav id="navMenu">
 <a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
 <a href="products.html" data-th="สินค้า" data-en="Products">สินค้า</a>
@@ -301,15 +694,28 @@
 <a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a>
 <a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a>
 </nav>
+
 <div class="header-actions">
-<a href="cart.html" class="cart-btn" aria-label="ตะกร้าสินค้า">🛒 <span id="cartCount">0</span></a>
-<div class="language-switch" aria-label="เลือกภาษา"><button type="button" class="lang-btn" data-lang="th">TH</button><span>|</span><button type="button" class="lang-btn" data-lang="en">EN</button></div>
+
+<a href="cart.html" class="cart-btn" aria-label="ตะกร้าสินค้า">
+🛒 <span id="cartCount">0</span>
+</a>
+
+<div class="language-switch" aria-label="เลือกภาษา">
+<button type="button" class="lang-btn" data-lang="th">TH</button>
+<span>|</span>
+<button type="button" class="lang-btn" data-lang="en">EN</button>
+</div>
+
 <button class="mobile-menu" onclick="toggleMenu()" aria-label="เปิดเมนู">☰</button>
+
 </div>
 </div>
 </header>
 
+
 <main class="detail-page" id="serviceDetail">
+
 <section class="detail-hero">
 <div class="container detail-hero-inner">
 <p class="eyebrow gold" data-th="บริการของเรา" data-en="OUR SERVICES">บริการของเรา</p>
@@ -318,317 +724,986 @@
 </div>
 </section>
 
+
 <section class="detail-section service-intro-section">
 <div class="container service-detail-grid">
-<div><img id="serviceImage" class="detail-main-image" src="" alt=""></div>
+
+<div>
+<img id="serviceImage" class="detail-main-image" src="" alt="">
+</div>
+
 <div class="detail-copy">
 <p class="eyebrow gold" data-th="รายละเอียดบริการ" data-en="SERVICE DETAIL">รายละเอียดบริการ</p>
 <h2 id="serviceHeading"></h2>
 <div id="serviceBody"></div>
-<a href="index.html#contact" class="btn btn-gold" data-th="สอบถามบริการ" data-en="INQUIRE ABOUT THIS SERVICE">สอบถามบริการ</a>
+<a href="index.html#contact" class="btn btn-gold"
+data-th="สอบถามบริการ"
+data-en="INQUIRE ABOUT THIS SERVICE">
+สอบถามบริการ
+</a>
 </div>
+
 </div>
 </section>
 
+
 <section class="detail-section service-gallery-section">
 <div class="container">
+
 <div class="section-heading">
 <p class="eyebrow gold" data-th="ผลงานและขั้นตอน" data-en="WORK & PROCESS">ผลงานและขั้นตอน</p>
 <h2 id="galleryTitle"></h2>
 <p id="galleryLead"></p>
 </div>
+
 <div class="service-detail-gallery" id="serviceGallery"></div>
+
 </div>
 </section>
+
 
 <section class="detail-section service-special-section" id="serviceSpecial"></section>
 
+
 <section class="detail-section service-process">
+
 <div class="container">
-<div class="section-heading"><p class="eyebrow gold" data-th="ขั้นตอนการทำงาน" data-en="OUR PROCESS">ขั้นตอนการทำงาน</p><h2 data-th="ขั้นตอนการทำงาน" data-en="Our Process">ขั้นตอนการทำงาน</h2></div>
+
+<div class="section-heading">
+<p class="eyebrow gold" data-th="ขั้นตอนการทำงาน" data-en="OUR PROCESS">
+ขั้นตอนการทำงาน
+</p>
+
+<h2 data-th="ขั้นตอนการทำงาน" data-en="Our Process">
+ขั้นตอนการทำงาน
+</h2>
+</div>
+
 <div class="detail-benefits" id="serviceProcess"></div>
+
 </div>
 </section>
+
 
 <section class="detail-section">
+
 <div class="container service-extra">
-<div class="section-heading"><p class="eyebrow gold" data-th="ทำไมต้อง BMC" data-en="WHY BMC">ทำไมต้อง BMC</p><h2 data-th="บริการที่ใส่ใจรายละเอียด" data-en="Detail-focused service">บริการที่ใส่ใจรายละเอียด</h2></div>
+
+<div class="section-heading">
+
+<p class="eyebrow gold"
+data-th="ทำไมต้อง BMC"
+data-en="WHY BMC">
+ทำไมต้อง BMC
+</p>
+
+<h2
+data-th="บริการที่ใส่ใจรายละเอียด"
+data-en="Detail-focused service">
+บริการที่ใส่ใจรายละเอียด
+</h2>
+
+</div>
+
 <div class="service-extra-grid" id="serviceWhy"></div>
+
 </div>
 </section>
+
 </main>
 
+
 <footer>
+
 <div class="container footer-grid">
-<div><div class="footer-logo">BMC <span>HOMEMART</span></div><p data-th="ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ" data-en="Quality materials for homes, interiors and projects">ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ</p></div>
-<div><h4 data-th="เมนู" data-en="MENU">เมนู</h4><a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a><a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a><a href="index.html#services" data-th="บริการ" data-en="Services">บริการ</a><a href="index.html#projects" data-th="ผลงาน" data-en="Projects">ผลงาน</a><a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a></div>
-<div><h4 data-th="สินค้า" data-en="PRODUCTS">สินค้า</h4><a href="index.html#natural-stone" data-th="หินธรรมชาติ" data-en="Natural Stone">หินธรรมชาติ</a><a href="index.html#synthetic-stone" data-th="หินสังเคราะห์" data-en="Engineered Stone">หินสังเคราะห์</a><a href="index.html#wood-floor" data-th="พื้นไม้ของเรา" data-en="Our Wood Flooring">พื้นไม้ของเรา</a><a href="index.html#other-products" data-th="สินค้าอื่นๆ" data-en="Other Products">สินค้าอื่นๆ</a></div>
-<div><h4 data-th="บริษัท บางกอก แมททีเรียล จำกัด" data-en="Bangkok Material Co., Ltd.">บริษัท บางกอก แมททีเรียล จำกัด</h4><p>2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>เขตสวนหลวง กรุงเทพมหานคร 10250</p><p data-th="โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772" data-en="Tel: 02-320-1084-5<br/>Mobile: 087-686-7772">โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772</p><div class="footer-social"><a aria-label="LINE" href="https://page.line.me/553anmze" target="_blank"><img alt="LINE" src="./image/line.png"></a><a aria-label="Facebook" href="https://www.facebook.com/bmchomemart" target="_blank"><img alt="Facebook" src="./image/facebook.png"></a><a aria-label="Email" href="mailto:info@bmchomemart.com"><img alt="Email" src="./image/email.png"></a><a aria-label="IG" href="https://www.instagram.com/bmchomemart" target="_blank" rel="noopener noreferrer"><img alt="Instagram" src="./image/instagram.png"></a><a aria-label="TikTok" href="https://www.tiktok.com/@bmc.homemart" target="_blank" rel="noopener noreferrer"><img alt="TikTok" src="./image/tiktok.png"></a></div></div>
+
+<div>
+<div class="footer-logo">
+BMC <span>HOMEMART</span>
 </div>
-<div class="copyright">© 2026 BMC HOMEMART. All Rights Reserved.<span class="footer-policy-links"><a class="footer-privacy" href="privacy-policy.html" data-th="นโยบายความเป็นส่วนตัว" data-en="Privacy Policy">นโยบายความเป็นส่วนตัว</a><span class="footer-policy-separator">|</span><a class="footer-cookie" href="cookie-policy.html" data-th="นโยบายการใช้งานคุกกี้" data-en="Cookie Policy">นโยบายการใช้งานคุกกี้</a></span></div>
+
+<p
+data-th="ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ"
+data-en="Quality materials for homes, interiors and projects">
+ศูนย์รวมวัสดุคุณภาพ สำหรับบ้าน งานตกแต่ง และโครงการ
+</p>
+</div>
+
+
+<div>
+
+<h4 data-th="เมนู" data-en="MENU">เมนู</h4>
+
+<a href="index.html" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+<a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a>
+<a href="index.html#services" data-th="บริการ" data-en="Services">บริการ</a>
+<a href="index.html#projects" data-th="ผลงาน" data-en="Projects">ผลงาน</a>
+<a href="index.html#contact" data-th="ติดต่อเรา" data-en="Contact Us">ติดต่อเรา</a>
+
+</div>
+
+
+<div>
+
+<h4 data-th="สินค้า" data-en="PRODUCTS">สินค้า</h4>
+
+<a href="index.html#natural-stone" data-th="หินธรรมชาติ" data-en="Natural Stone">หินธรรมชาติ</a>
+<a href="index.html#synthetic-stone" data-th="หินสังเคราะห์" data-en="Engineered Stone">หินสังเคราะห์</a>
+<a href="index.html#wood-floor" data-th="พื้นไม้ของเรา" data-en="Our Wood Flooring">พื้นไม้ของเรา</a>
+<a href="index.html#other-products" data-th="สินค้าอื่นๆ" data-en="Other Products">สินค้าอื่นๆ</a>
+
+</div>
+
+
+<div>
+
+<h4
+data-th="บริษัท บางกอก แมททีเรียล จำกัด"
+data-en="Bangkok Material Co., Ltd.">
+บริษัท บางกอก แมททีเรียล จำกัด
+</h4>
+
+<p>
+2296 ถนนพระราม 9 แขวงพัฒนาการ<br/>
+เขตสวนหลวง กรุงเทพมหานคร 10250
+</p>
+
+<p
+data-th="โทร : 02-320-1084-5<br/>เบอร์โทรศัพท์ : 087-686-7772"
+data-en="Tel: 02-320-1084-5<br/>Mobile: 087-686-7772">
+โทร : 02-320-1084-5<br/>
+เบอร์โทรศัพท์ : 087-686-7772
+</p>
+
+<div class="footer-social">
+
+<a aria-label="LINE"
+href="https://page.line.me/553anmze"
+target="_blank">
+<img alt="LINE" src="./image/line.png">
+</a>
+
+<a aria-label="Facebook"
+href="https://www.facebook.com/bmchomemart"
+target="_blank">
+<img alt="Facebook" src="./image/facebook.png">
+</a>
+
+<a aria-label="Email"
+href="mailto:info@bmchomemart.com">
+<img alt="Email" src="./image/email.png">
+</a>
+
+<a aria-label="IG"
+href="https://www.instagram.com/bmchomemart"
+target="_blank"
+rel="noopener noreferrer">
+<img alt="Instagram" src="./image/instagram.png">
+</a>
+
+<a aria-label="TikTok"
+href="https://www.tiktok.com/@bmc.homemart"
+target="_blank"
+rel="noopener noreferrer">
+<img alt="TikTok" src="./image/tiktok.png">
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="copyright">
+© 2026 BMC HOMEMART. All Rights Reserved.
+
+<span class="footer-policy-links">
+
+<a class="footer-privacy"
+href="privacy-policy.html"
+data-th="นโยบายความเป็นส่วนตัว"
+data-en="Privacy Policy">
+นโยบายความเป็นส่วนตัว
+</a>
+
+<span class="footer-policy-separator">|</span>
+
+<a class="footer-cookie"
+href="cookie-policy.html"
+data-th="นโยบายการใช้งานคุกกี้"
+data-en="Cookie Policy">
+นโยบายการใช้งานคุกกี้
+</a>
+
+</span>
+</div>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 <script>
+
 (function(){
+
 const services={
- installation:{
-  title:{th:'บริการติดตั้ง',en:'Installation Services'},
-  heading:{th:'ติดตั้งอย่างเป็นระบบ ตั้งแต่เตรียมพื้นที่จนถึงส่งมอบ',en:'Systematic installation from site preparation to handover'},
-  lead:{th:'บริการติดตั้งวัสดุสำหรับบ้านและโครงการ โดยให้ความสำคัญกับการเตรียมพื้นที่ ลำดับงาน และความเรียบร้อยของหน้างาน',en:'Material installation services for homes and projects, with careful attention to site preparation, work sequencing and a well-organized site.'},
-  image:'./image/about/banner-installation.jpg',
-  body:[
-   {th:'ทีมงานช่วยประเมินพื้นที่และวางแผนลำดับงานก่อนติดตั้ง เพื่อให้วัสดุแต่ละประเภททำงานร่วมกันได้อย่างเหมาะสม',en:'Our team assesses the site and plans the work sequence before installation so different materials can work together properly.'},
-   {th:'ดำเนินการติดตั้งอย่างมืออาชีพตามขอบเขตและระยะเวลาที่กำหนดโดยโครงการ เหมาะกับงานพื้น งานผนัง งานหิน กระเบื้อง โมเสค พื้นไม้ และงานตกแต่ง',en:'We install professionally within the project scope and schedule, covering floors, walls, stone, tiles, mosaic, wood flooring and decorative work.'}
-  ],
-  galleryTitle:{th:'ภาพงานติดตั้งและการประสานงานหน้างาน',en:'Installation & Site Coordination'},
-  galleryLead:{th:'ภาพตัวอย่างจากการเตรียมพื้นที่ การทำงานหน้างาน และการประสานงานเพื่อส่งมอบงานอย่างเป็นระบบ',en:'Examples of site preparation, on-site work and coordination for an organized handover.'},
-  gallery:[
-   ['./image/about/banner-installation.jpg','เตรียมพื้นที่และตรวจหน้างาน','Site preparation and inspection'],
-   ['./image/about/banner-service.jpg','ทีมงานและการประสานงาน','Team and project coordination'],
-   ['./image/about/wp-20140501-001.jpg','การทำงานหน้างาน','On-site work'],
-   ['./image/about/wp-20140501-003.jpg','ตรวจรายละเอียดงาน','Detail inspection'],
-   ['./image/about/wp-20140430-002.jpg','อุปกรณ์และการเตรียมงาน','Tools and preparation'],
-   ['./image/about/page-image.png','การจัดการวัสดุในโรงงาน','Material handling in the workshop']
-  ],
-  process:[
-   {th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the materials and project.'}},
-   {th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select materials, plan the work sequence and prepare the details needed for execution.'}},
-   {th:'ติดตั้ง',en:'Installation',p:{th:'ติดตั้งตามขอบเขตงานและตามกำหนดการที่ได้รับ พร้อมความประณีต',en:'Install according to the approved scope and schedule, with careful attention to finish quality.'}},
-   {th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished work and provide guidance for care and maintenance.'}}
-  ]
- },
- craft:{
-  title:{th:'งานแปรรูปหิน',en:'Stone Fabrication'},
-  heading:{th:'ทำให้บ้านในฝันที่คุณออกแบบไว้เกิดขึ้นจริง',en:'Bring the home you designed to life'},
-  lead:{th:'รายละเอียดเล็ก ๆ ที่ทำให้งานดูแตกต่าง ด้วยงานทำผิวหิน 5 แบบ งานวางแพทเทิร์นแบบต่อลายหรือ Bookmatch งานตัดด้วยวอเตอร์เจ็ท งานบัว และการขึ้นรูปแบบพิเศษ ด้วยโรงงานของเรา',en:'Small details make a difference. We provide five stone finishes, bookmatching, waterjet cutting, custom molding and special profiles, produced in our own workshop.'},
-  image:'./image/about/banner-services.jpg',
-  body:[
-   {th:'บริการแปรรูปหินสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง โดยเลือกวิธีให้เหมาะกับชนิดวัสดุ แบบ และการใช้งานจริง',en:'Stone fabrication for floors, walls, countertops and decorative work, with methods selected to suit the material, design and application.'},
-   {th:'งานทุกขั้นตอนเน้นความแม่นยำของขนาด ขอบ มุม รอยต่อ และภาพรวมของลายหิน เพื่อให้ชิ้นงานพร้อมสำหรับการติดตั้งและส่งมอบ',en:'Every stage focuses on dimensional accuracy, edges, corners, joints and overall stone pattern continuity so each piece is ready for installation and handover.'}
-  ],
-  galleryTitle:{th:'บริการแปรรูปและภาพงานจากโรงงาน',en:'Fabrication Services & Workshop'},
-  galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ พื้นที่ทำงาน และงานแปรรูปที่เกี่ยวข้องกับการเตรียมชิ้นงานหิน',en:'Examples of equipment, workshop areas and fabrication-related work used to prepare stone pieces.'},
-  gallery:[
-   ['./image/about/banner-services.jpg','งานช่างและการเตรียมผิว','Craft work and surface preparation'],
-   ['./image/about/page-image.png','พื้นที่โรงงานและการจัดการแผ่นหิน','Workshop and stone-slab handling'],
-   ['./image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานแปรรูป','Fabrication equipment'],
-   ['./image/about/wp-20140430-002.jpg','การเตรียมเครื่องมือและชิ้นงาน','Tool and workpiece preparation'],
-   ['./image/granite-watermark/g655-dark-flower.jpg','ตัวอย่างลายหินสำหรับงานแปรรูป','Stone pattern for fabrication'],
-   ['./image/marble-watermark/rd200812-rain-forest-polish.jpg','ตัวอย่างพื้นผิวหิน','Stone surface example']
-  ],
-  specialTitle:{th:'งานทำผิวหิน 5 แบบ',en:'Five Stone Surface Finishes'},
-  specialLead:{th:'เลือกผิวให้เหมาะกับวัสดุ พื้นที่ และภาพลักษณ์ของงาน',en:'Choose the finish according to the material, location and design intent.'},
-  finishes:[
-   ['ผิวเงา (Polished)','Polished','ขัดจนสะท้อนแสง ให้สีและลายหินเข้มชัดที่สุด เหมาะกับพื้นและผนังภายใน','Highly polished to reflect light and enhance the depth of color and veining; ideal for interior floors and walls.'],
-   ['ผิวด้าน (Honed)','Honed','ขัดเรียบแต่ไม่สะท้อน ดูสงบ รอยขีดข่วนเห็นน้อยกว่าผิวเงา เหมาะกับพื้นที่ใช้งานหนัก','Smooth but non-reflective, with a calm appearance and less visible scratching than polished finishes; suitable for heavy-use areas.'],
-   ['ผิวเผาไฟ (Flamed)','Flamed','เผาผิวให้แตกเป็นเม็ดหยาบ กันลื่นได้ดี เหมาะกับพื้นภายนอกและรอบสระ','Thermally textured to create a rough, slip-resistant surface; suitable for exterior floors and pool surrounds.'],
-   ['ผิวพ่นทราย (Sandblasted)','Sandblasted','พ่นทรายให้ผิวสาก สัมผัสนุ่มกว่าเผาไฟ เหมาะกับทางเดินและพื้นที่กึ่งภายนอก','Sandblasted for a textured surface that feels softer than flamed stone; suitable for walkways and semi-outdoor areas.'],
-   ['ผิวแอนทีค (Antique)','Antique','แปรงผิวให้เป็นคลื่นนุ่ม ให้ลุคเก่าอย่างตั้งใจ เหมาะกับงานตกแต่งที่ต้องการมิติ','Brushed to create soft undulations and an intentionally aged look; ideal for decorative work with added dimension.']
-  ],
-  customTitle:{th:'งานสั่งทำตามแบบ',en:'Custom Fabrication'},
-  custom:[
-   ['งานต่อลายหิน (Bookmatch)','Bookmatching','จัดเรียงแผ่นให้ลายต่อเนื่องเป็นภาพเดียวกันบนพื้น ผนัง หรือเคาน์เตอร์','Arrange slabs so the veining flows as one continuous image across floors, walls or countertops.'],
-   ['งานตัดลายด้วยวอเตอร์เจ็ท','Waterjet Cutting','ตัดโค้ง ตัดลายละเอียด และประกอบเป็นรูปแบบพิเศษ ที่เครื่องตัดทั่วไปทำไม่ได้','Cut curves, intricate patterns and special assemblies that conventional cutting cannot achieve.'],
-   ['งานบัวและงานขึ้นรูปแบบพิเศษ','Custom Molding & Profiles','เสาหิน บัวหิน จมูกบันได เซาะร่องกันลื่น เข้ามุม 45° และงานโค้งตามแบบ','Stone columns, moldings, stair nosings, anti-slip grooves, 45° corners and custom curved profiles.']
-  ],
-  process:[
-   {th:'รับความต้องการของลูกค้า',en:'Understand Requirements',p:{th:'พูดคุยความต้องการ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements and define an approach suited to the material and design.'}},
-   {th:'นำเสนอดีไซน์หรือตัวอย่าง',en:'Present Design or Samples',p:{th:'นำเสนอดีไซน์หรือตัวอย่างเพื่อกำหนดขอบเขตงานที่ถูกต้องกับลูกค้า และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Present designs or samples to confirm the correct scope with the client and prepare fabrication details.'}},
-   {th:'ดำเนินการผลิต',en:'Fabrication & Delivery',p:{th:'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการและส่งมอบ',en:'Fabricate according to the approved design and deliver the completed work.'}}
-  ]
- },
- polishing:{
-  title:{th:'งานขัดและดูแลพื้นผิว',en:'Surface Polishing & Care'},
-  heading:{th:'ฟื้นฟูพื้นผิวให้กลับมาดูสะอาดและสวยงาม',en:'Restore surfaces to a clean and beautiful finish'},
-  lead:{th:'บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน โดยเลือกวิธีให้เหมาะกับสภาพและชนิดของวัสดุ',en:'Stone cleaning, polishing and surface-care services using methods suited to the condition and type of material.'},
-  image:'./image/about/banner-polishing-solution.png',
-  body:[
-   {th:'ประเมินสภาพพื้นผิวก่อนเลือกวิธีดูแล จากนั้นทำความสะอาดและขัดตามประเภทวัสดุและสภาพหน้างาน',en:'We assess the surface before selecting a care method, then clean and polish according to the material and site condition.'},
-   {th:'เหมาะสำหรับพื้นที่หินที่ต้องการฟื้นฟูความเรียบร้อย ลดคราบและร่องรอยจากการใช้งาน และเตรียมพื้นผิวให้พร้อมใช้งาน',en:'Suitable for stone areas that need renewed appearance, reduced stains and wear marks, and a surface prepared for continued use.'}
-  ],
-  galleryTitle:{th:'ภาพงานขัดและดูแลพื้นผิว',en:'Polishing & Surface Care'},
-  galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ งานเตรียมพื้นผิว และกระบวนการดูแลพื้นผิว',en:'Examples of equipment, surface preparation and care processes.'},
-  gallery:[
-   ['./image/about/banner-polishing-solution.png','ชุดอุปกรณ์และน้ำยาดูแลพื้นผิว','Polishing equipment and care products'],
-   ['./image/about/tools.png','เครื่องมือสำหรับงานขัด','Tools for polishing work'],
-   ['./image/about/tools.jpg','อุปกรณ์ขัดและดูแลพื้นผิว','Polishing and surface-care equipment'],
-   ['./image/about/wp-20140430-002.jpg','การเตรียมอุปกรณ์หน้างาน','On-site equipment preparation'],
-   ['./image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานพื้นผิว','Surface-care equipment'],
-   ['./image/about/banner-services.jpg','การทำงานของทีมช่าง','Technician work']
-  ],
-  process:[
-   {th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the material and project.'}},
-   {th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select the appropriate method, plan the work sequence and prepare the details for execution.'}},
-   {th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished surface and provide guidance for ongoing care and maintenance.'}}
-  ]
- }
-};
-function esc(v){return String(v).replace(/[&<>\"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[m]));}
-function render(){
- const key=new URLSearchParams(location.search).get('type')||'installation';
- const data=services[key]||services.installation;
- const en=(localStorage.getItem('bmcLang')||'th')==='en';
- const t=o=>o && typeof o==='object' && 'th' in o ? (en?o.en:o.th) : (o||'');
- const page=document.getElementById('serviceDetail');
 
- /* =========================================================
-    หน้า "งานแปรรูปหิน" — สร้างเฉพาะเมื่อ URL เป็น ?type=craft
-    หน้า Installation / Polishing ใช้โครงสร้างเดิมทั้งหมด
-    ========================================================= */
- if(key==='craft'){
-  page.classList.add('craft-page');
-  page.classList.toggle('lang-en',en);
-  document.getElementById('serviceSpecial').style.display='block';
-  document.querySelector('.detail-hero').style.display='none';
-  document.querySelector('.service-intro-section').style.display='none';
-  document.querySelector('.service-gallery-section').style.display='none';
+installation:{
+title:{th:'บริการติดตั้ง',en:'Installation Services'},
+heading:{th:'ติดตั้งอย่างเป็นระบบ ตั้งแต่เตรียมพื้นที่จนถึงส่งมอบ',en:'Systematic installation from site preparation to handover'},
+lead:{th:'บริการติดตั้งวัสดุสำหรับบ้านและโครงการ โดยให้ความสำคัญกับการเตรียมพื้นที่ ลำดับงาน และความเรียบร้อยของหน้างาน',en:'Material installation services for homes and projects, with careful attention to site preparation, work sequencing and a well-organized site.'},
+image:'./image/about/banner-installation.jpg',
 
-  const finishImages=[
-   './image/five-stone/shock.jpg',
-   './image/five-stone/blasting.jpg',
-   './image/five-stone/fire-breathing-brush.jpg',
-   './image/five-stone/pickling.jpg',
-   './image/five-stone/wax.jpg'
-  ];
-  const customImages=[
-   './image/service-craft/bookmatch.jpg',
-   './image/service-craft/waterjet.jpg',
-   './image/service-craft/molding.jpg'
-  ];
-  const processImages=[
-   './image/service-craft/process-consult.jpg',
-   './image/service-craft/process-design.jpg',
-   './image/service-craft/process-install.jpg'
-  ];
-  const finishes=data.finishes||[];
-  const custom=data.custom||[];
-  const process=data.process||[];
+body:[
+{th:'ทีมงานช่วยประเมินพื้นที่และวางแผนลำดับงานก่อนติดตั้ง เพื่อให้วัสดุแต่ละประเภททำงานร่วมกันได้อย่างเหมาะสม',en:'Our team assesses the site and plans the work sequence before installation so different materials can work together properly.'},
+{th:'ดำเนินการติดตั้งอย่างมืออาชีพตามขอบเขตและระยะเวลาที่กำหนดโดยโครงการ เหมาะกับงานพื้น งานผนัง งานหิน กระเบื้อง โมเสค พื้นไม้ และงานตกแต่ง',en:'We install professionally within the project scope and schedule, covering floors, walls, stone, tiles, mosaic, wood flooring and decorative work.'}
+],
 
-  /* ---------- ส่วนบน: ผิวหิน 5 แบบ ---------- */
-  document.getElementById('serviceSpecial').innerHTML=`
-   <section class="craft-section craft-top">
-    <div class="craft-container">
-     <p class="craft-eyebrow">${en?'STONE FINISHES':'งานทำผิวหิน'}</p>
-     <h1 class="craft-title">${esc(t(data.specialTitle))}</h1>
-     <p class="craft-subtitle">${en?'Different surface finishes for floors, walls and exterior applications':'ระดับที่หลากหลายสำหรับงานพื้น ผนัง และงานภายนอก'}</p>
-     <div class="craft-finish-grid">
-      ${finishes.map((x,i)=>`<article class="craft-finish-card ${i===0?'featured':''}">
-       <img class="craft-finish-image" src="${finishImages[i]}" alt="${esc(en?x[1]:x[0])}" loading="eager">
-       <div class="craft-finish-body">
-        <h3>${esc(en?x[1]:x[0])}</h3>
-        <p>${esc(en?x[3]:x[2])}</p>
-        <ul><li>${esc(en?['Strong visual depth','Low-reflection appearance','Textured surface','Soft tactile texture','Aged decorative character'][i]:['เด่นชัดและสะท้อนแสง','เรียบด้านดูสงบ','ผิวหยาบช่วยเพิ่มแรงเสียดทาน','สัมผัสสม่ำเสมอ เหมาะกับงานกึ่งภายนอก','ให้ลุคเก่าอย่างตั้งใจ'][i])}</li></ul>
-       </div>
-      </article>`).join('')}
-     </div>
-    </div>
-   </section>
+galleryTitle:{th:'ภาพงานติดตั้งและการประสานงานหน้างาน',en:'Installation & Site Coordination'},
+galleryLead:{th:'ภาพตัวอย่างจากการเตรียมพื้นที่ การทำงานหน้างาน และการประสานงานเพื่อส่งมอบงานอย่างเป็นระบบ',en:'Examples of site preparation, on-site work and coordination for an organized handover.'},
 
-   <section class="craft-section craft-custom-section">
-    <div class="craft-container">
-     <p class="craft-eyebrow">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p>
-     <h2 class="craft-title">${esc(t(data.customTitle))}</h2>
-     <div class="craft-custom-list">
-      ${custom.map((x,i)=>`<article class="craft-custom-row">
-       <div class="craft-custom-media"><img src="${customImages[i]}" alt="${esc(en?x[1]:x[0])}" loading="lazy"></div>
-       <div class="craft-custom-copy"><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></div>
-      </article>`).join('')}
-     </div>
-    </div>
-   </section>
-  `;
+gallery:[
+['./image/about/banner-installation.jpg','เตรียมพื้นที่และตรวจหน้างาน','Site preparation and inspection'],
+['./image/about/banner-service.jpg','ทีมงานและการประสานงาน','Team and project coordination'],
+['./image/about/wp-20140501-001.jpg','การทำงานหน้างาน','On-site work'],
+['./image/about/wp-20140501-003.jpg','ตรวจรายละเอียดงาน','Detail inspection'],
+['./image/about/wp-20140430-002.jpg','อุปกรณ์และการเตรียมงาน','Tools and preparation'],
+['./image/about/page-image.png','การจัดการวัสดุในโรงงาน','Material handling in the workshop']
+],
 
-  /* ---------- ขั้นตอนการทำงาน 3 ขั้นตอน ตามภาพต้นแบบ ---------- */
-  const processTitles=en?['Understand Client Requirements','Present Design or Samples','Fabrication & Delivery']:[
-   'รับความต้องการของลูกค้า','นำเสนอดีไซน์หรือตัวอย่าง','ดำเนินการผลิต'
-  ];
-  const processText=en?[
-   'Discuss the project requirements, material and intended use before fabrication begins.',
-   'Present a design or sample to confirm the scope and prepare the fabrication details.',
-   'Produce the approved work accurately and deliver the completed pieces.'
-  ]:[
-   'พูดคุยความต้องการของลูกค้า ตรวจสอบรายละเอียดของงาน และกำหนดขอบเขตงานให้ชัดเจนก่อนเริ่มผลิต',
-   'นำเสนอดีไซน์หรือตัวอย่าง เพื่อยืนยันรูปแบบกับลูกค้า และเตรียมรายละเอียดสำหรับการผลิต',
-   'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการ ตรวจสอบงาน และส่งมอบชิ้นงาน'
-  ];
-  document.getElementById('serviceProcess').innerHTML=`
-   <section class="craft-process-section">
-    <div class="craft-container">
-     <p class="craft-eyebrow">${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}</p>
-     <h2 class="craft-title">${en?'Our Process':'ขั้นตอนการทำงาน'}</h2>
-     <div class="craft-process-grid">
-      ${process.map((x,i)=>`<article class="craft-process-card">
-       <img src="${processImages[i]}" alt="${esc(processTitles[i])}" loading="lazy">
-       <div class="craft-process-copy"><span class="craft-process-no">0${i+1}</span><h3>${esc(processTitles[i])}</h3><p>${esc(processText[i])}</p></div>
-      </article>`).join('')}
-     </div>
-    </div>
-   </section>
-  `;
+process:[
+{th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the materials and project.'}},
+{th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select materials, plan the work sequence and prepare the details needed for execution.'}},
+{th:'ติดตั้ง',en:'Installation',p:{th:'ติดตั้งตามขอบเขตงานและตามกำหนดการที่ได้รับ พร้อมความประณีต',en:'Install according to the approved scope and schedule, with careful attention to finish quality.'}},
+{th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished work and provide guidance for care and maintenance.'}}
+]
 
-  /* ---------- บริการที่ใส่ใจรายละเอียด ---------- */
-  const why=en?[
-   {title:'Quality-focused workflow',text:'We plan each fabrication step around the material, design and actual site requirements.'},
-   {title:'Step-by-step coordination',text:'Clear coordination helps connect design, fabrication and installation details.'},
-   {title:'Precision in every detail',text:'Edges, corners, joints and the overall pattern are checked before handover.'}
-  ]:[
-   {title:'เชื่อถือได้ในงานนี้',text:'ช่วยวางแนวทางให้เหมาะกับวัสดุ ลักษณะพื้นที่ และรายละเอียดของงานก่อนเริ่มผลิต'},
-   {title:'ประสานงานเป็นขั้นตอน',text:'จัดลำดับการทำงานให้สอดคล้องกับแบบ วัสดุ และรายละเอียดหน้างาน'},
-   {title:'เป็นความพิถีพิถัน',text:'ใส่ใจงานขอบ มุม รอยต่อ และภาพรวมของลายหินก่อนตรวจและส่งมอบ'}
-  ];
-  const icons=[
-   '<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="7" width="32" height="25" rx="2"></rect><path d="M13 14h22M13 20h18M13 26h12"></path><circle cx="34" cy="34" r="8"></circle><path d="M34 30v5l3 2"></path></svg>',
-   '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 8h12l2 4v28H16V12z"></path><path d="M20 17h8M20 22h8M20 27h5"></path><circle cx="35" cy="32" r="8"></circle><path d="M35 28v4l3 2"></path></svg>',
-   '<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 35h30M13 35V14h12v21M25 20h10v15M17 20h5M17 25h5M17 30h5"></path><path d="M31 14v6M28 17h6"></path></svg>'
-  ];
-  const whySection=document.querySelector('.craft-why-section');
-  if(!whySection) document.querySelector('#serviceDetail > .detail-section:last-child').classList.add('craft-why-section');
-  const whyTarget=document.querySelector('.craft-why-section .service-extra') || document.querySelector('#serviceDetail > .detail-section:last-child .service-extra');
-  if(whyTarget){
-   whyTarget.innerHTML=`
-    <div class="craft-container">
-     <p class="craft-eyebrow">${en?'WHY BMC':'ทำไมต้อง BMC'}</p>
-     <h2 class="craft-title">${en?'Detail-focused service':'บริการที่ใส่ใจรายละเอียด'}</h2>
-     <div class="craft-why-grid">${why.map((x,i)=>`<article class="craft-why-card"><div class="craft-why-icon">${icons[i]}</div><h3>${esc(x.title)}</h3><p>${esc(x.text)}</p></article>`).join('')}</div>
-    </div>`;
-  }
-  document.documentElement.lang=en?'en':'th';
-  return;
- }
+},
 
- /* ---------- หน้าอื่น: คืนค่าการทำงานเดิม ---------- */
- page.classList.remove('craft-page','lang-en');
- document.querySelector('.detail-hero').style.display='';
- document.querySelector('.service-intro-section').style.display='';
- document.querySelector('.service-gallery-section').style.display='';
- document.getElementById('serviceSpecial').style.display='';
- document.getElementById('serviceTitle').textContent=t(data.title);
- document.getElementById('serviceHeading').textContent=t(data.heading);
- document.getElementById('serviceLead').textContent=t(data.lead);
- const main=document.getElementById('serviceImage'); main.src=data.image; main.alt=t(data.title);
- document.getElementById('serviceBody').innerHTML=data.body.map(x=>`<p>${esc(t(x))}</p>`).join('');
- document.getElementById('galleryTitle').textContent=t(data.galleryTitle);
- document.getElementById('galleryLead').textContent=t(data.galleryLead);
- document.getElementById('serviceGallery').innerHTML=data.gallery.map(x=>`<figure><img src="${esc(x[0])}" alt="${esc(en?x[2]:x[1])}" loading="lazy"><figcaption>${esc(en?x[2]:x[1])}</figcaption></figure>`).join('');
- const special=document.getElementById('serviceSpecial');
- if(data.finishes){
-  special.innerHTML=`<div class="container service-special"><div class="section-heading"><p class="eyebrow gold">${en?'STONE FINISHES':'งานทำผิวหิน'}</p><h2>${esc(t(data.specialTitle))}</h2><p>${esc(t(data.specialLead))}</p></div><div class="service-feature-grid">${data.finishes.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div><div class="section-heading service-custom-heading"><p class="eyebrow gold">${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}</p><h2>${esc(t(data.customTitle))}</h2></div><div class="service-feature-grid">${data.custom.map(x=>`<article><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></article>`).join('')}</div></div>`;
- } else {special.innerHTML='';}
- document.getElementById('serviceProcess').innerHTML=data.process.map((x,i)=>`<div><span>${String(i+1).padStart(2,'0')}</span><h3>${esc(t({th:x.th,en:x.en}))}</h3><p>${esc(t(x.p))}</p></div>`).join('');
- const why=[
-  {th:'เลือกวิธีให้เหมาะกับวัสดุ',en:'Choose the right method for the material',p:{th:'พิจารณาวัสดุ และชนิดพื้นผิว ลักษณะพื้นที่ และวัตถุประสงค์ของงานก่อนเลือกวิธีดำเนินการ',en:'Consider the material, surface type, site conditions and purpose before selecting the working method.'}},
-  {th:'ประสานงานเป็นขั้นตอน',en:'Coordinate step by step',p:{th:'ช่วยจัดลำดับการทำงานให้สอดคล้องกับงานวัสดุและหน้างาน เพื่อลดปัญหาที่อาจเกิดขึ้น',en:'Coordinate the work sequence with materials and site conditions to reduce avoidable issues.'}},
-  {th:'เน้นความเรียบร้อย',en:'Focus on finish quality',p:{th:'ให้ความสำคัญกับขอบ มุม รอยต่อ และภาพรวมของพื้นที่ก่อนส่งมอบ',en:'Pay close attention to edges, corners, joints and the overall appearance before handover.'}}
- ];
- document.getElementById('serviceWhy').innerHTML=why.map(x=>`<div><h3>${esc(en?x.en:x.th)}</h3><p>${esc(t(x.p))}</p></div>`).join('');
- document.documentElement.lang=en?'en':'th';
+
+craft:{
+
+title:{th:'งานแปรรูปหิน',en:'Stone Fabrication'},
+
+heading:{th:'ทำให้บ้านในฝันที่คุณออกแบบไว้เกิดขึ้นจริง',en:'Bring the home you designed to life'},
+
+lead:{th:'รายละเอียดเล็ก ๆ ที่ทำให้งานดูแตกต่าง ด้วยงานทำผิวหิน 5 แบบ งานวางแพทเทิร์นแบบต่อลายหรือ Bookmatch งานตัดด้วยวอเตอร์เจ็ท งานบัว และการขึ้นรูปแบบพิเศษ ด้วยโรงงานของเรา',en:'Small details make a difference. We provide five stone finishes, bookmatching, waterjet cutting, custom molding and special profiles, produced in our own workshop.'},
+
+image:'./image/about/banner-services.jpg',
+
+body:[
+{th:'บริการแปรรูปหินสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง โดยเลือกวิธีให้เหมาะกับชนิดวัสดุ แบบ และการใช้งานจริง',en:'Stone fabrication for floors, walls, countertops and decorative work, with methods selected to suit the material, design and application.'},
+{th:'งานทุกขั้นตอนเน้นความแม่นยำของขนาด ขอบ มุม รอยต่อ และภาพรวมของลายหิน เพื่อให้ชิ้นงานพร้อมสำหรับการติดตั้งและส่งมอบ',en:'Every stage focuses on dimensional accuracy, edges, corners, joints and overall stone pattern continuity so each piece is ready for installation and handover.'}
+],
+
+galleryTitle:{th:'บริการแปรรูปและภาพงานจากโรงงาน',en:'Fabrication Services & Workshop'},
+
+galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ พื้นที่ทำงาน และงานแปรรูปที่เกี่ยวข้องกับการเตรียมชิ้นงานหิน',en:'Examples of equipment, workshop areas and fabrication-related work used to prepare stone pieces.'},
+
+gallery:[
+['./image/about/banner-services.jpg','งานช่างและการเตรียมผิว','Craft work and surface preparation'],
+['./image/about/page-image.png','พื้นที่โรงงานและการจัดการแผ่นหิน','Workshop and stone-slab handling'],
+['./image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานแปรรูป','Fabrication equipment'],
+['./image/about/wp-20140430-002.jpg','การเตรียมเครื่องมือและชิ้นงาน','Tool and workpiece preparation'],
+['./image/granite-watermark/g655-dark-flower.jpg','ตัวอย่างลายหินสำหรับงานแปรรูป','Stone pattern for fabrication'],
+['./image/marble-watermark/rd200812-rain-forest-polish.jpg','ตัวอย่างพื้นผิวหิน','Stone surface example']
+],
+
+specialTitle:{th:'งานทำผิวหิน 5 แบบ',en:'Five Stone Surface Finishes'},
+
+specialLead:{th:'เลือกผิวให้เหมาะกับวัสดุ พื้นที่ และภาพลักษณ์ของงาน',en:'Choose the finish according to the material, location and design intent.'},
+
+finishes:[
+['ผิวเงา (Polished)','Polished','ขัดจนสะท้อนแสง ให้สีและลายหินเข้มชัดที่สุด เหมาะกับพื้นและผนังภายใน','Highly polished to reflect light and enhance the depth of color and veining; ideal for interior floors and walls.'],
+['ผิวด้าน (Honed)','Honed','ขัดเรียบแต่ไม่สะท้อน ดูสงบ รอยขีดข่วนเห็นน้อยกว่าผิวเงา เหมาะกับพื้นที่ใช้งานหนัก','Smooth but non-reflective, with a calm appearance and less visible scratching than polished finishes; suitable for heavy-use areas.'],
+['ผิวเผาไฟ (Flamed)','Flamed','เผาผิวให้แตกเป็นเม็ดหยาบ กันลื่นได้ดี เหมาะกับพื้นภายนอกและรอบสระ','Thermally textured to create a rough, slip-resistant surface; suitable for exterior floors and pool surrounds.'],
+['ผิวพ่นทราย (Sandblasted)','Sandblasted','พ่นทรายให้ผิวสาก สัมผัสนุ่มกว่าเผาไฟ เหมาะกับทางเดินและพื้นที่กึ่งภายนอก','Sandblasted for a textured surface that feels softer than flamed stone; suitable for walkways and semi-outdoor areas.'],
+['ผิวแอนทีค (Antique)','Antique','แปรงผิวให้เป็นคลื่นนุ่ม ให้ลุคเก่าอย่างตั้งใจ เหมาะกับงานตกแต่งที่ต้องการมิติ','Brushed to create soft undulations and an intentionally aged look; ideal for decorative work with added dimension.']
+],
+
+customTitle:{th:'งานสั่งทำตามแบบ',en:'Custom Fabrication'},
+
+custom:[
+['งานต่อลายหิน (Bookmatch)','Bookmatching','จัดเรียงแผ่นให้ลายต่อเนื่องเป็นภาพเดียวกันบนพื้น ผนัง หรือเคาน์เตอร์','Arrange slabs so the veining flows as one continuous image across floors, walls or countertops.'],
+['งานตัดลายด้วยวอเตอร์เจ็ท','Waterjet Cutting','ตัดโค้ง ตัดลายละเอียด และประกอบเป็นรูปแบบพิเศษ ที่เครื่องตัดทั่วไปทำไม่ได้','Cut curves, intricate patterns and special assemblies that conventional cutting cannot achieve.'],
+['งานบัวและงานขึ้นรูปแบบพิเศษ','Custom Molding & Profiles','เสาหิน บัวหิน จมูกบันได เซาะร่องกันลื่น เข้ามุม 45° และงานโค้งตามแบบ','Stone columns, moldings, stair nosings, anti-slip grooves, 45° corners and custom curved profiles.']
+],
+
+process:[
+{th:'รับความต้องการของลูกค้า',en:'Understand Requirements',p:{th:'พูดคุยความต้องการ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements and define an approach suited to the material and design.'}},
+{th:'นำเสนอดีไซน์หรือตัวอย่าง',en:'Present Design or Samples',p:{th:'นำเสนอดีไซน์หรือตัวอย่างเพื่อกำหนดขอบเขตงานที่ถูกต้องกับลูกค้า และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Present designs or samples to confirm the correct scope with the client and prepare fabrication details.'}},
+{th:'ดำเนินการผลิต',en:'Fabrication & Delivery',p:{th:'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการและส่งมอบ',en:'Fabricate according to the approved design and deliver the completed work.'}}
+]
+
+},
+
+
+polishing:{
+
+title:{th:'งานขัดและดูแลพื้นผิว',en:'Surface Polishing & Care'},
+
+heading:{th:'ฟื้นฟูพื้นผิวให้กลับมาดูสะอาดและสวยงาม',en:'Restore surfaces to a clean and beautiful finish'},
+
+lead:{th:'บริการทำความสะอาด ขัด และดูแลพื้นผิวหิน โดยเลือกวิธีให้เหมาะกับสภาพและชนิดของวัสดุ',en:'Stone cleaning, polishing and surface-care services using methods suited to the condition and type of material.'},
+
+image:'./image/about/banner-polishing-solution.png',
+
+body:[
+{th:'ประเมินสภาพพื้นผิวก่อนเลือกวิธีดูแล จากนั้นทำความสะอาดและขัดตามประเภทวัสดุและสภาพหน้างาน',en:'We assess the surface before selecting a care method, then clean and polish according to the material and site condition.'},
+{th:'เหมาะสำหรับพื้นที่หินที่ต้องการฟื้นฟูความเรียบร้อย ลดคราบและร่องรอยจากการใช้งาน และเตรียมพื้นผิวให้พร้อมใช้งาน',en:'Suitable for stone areas that need renewed appearance, reduced stains and wear marks, and a surface prepared for continued use.'}
+],
+
+galleryTitle:{th:'ภาพงานขัดและดูแลพื้นผิว',en:'Polishing & Surface Care'},
+
+galleryLead:{th:'ภาพตัวอย่างอุปกรณ์ งานเตรียมพื้นผิว และกระบวนการดูแลพื้นผิว',en:'Examples of equipment, surface preparation and care processes.'},
+
+gallery:[
+['./image/about/banner-polishing-solution.png','ชุดอุปกรณ์และน้ำยาดูแลพื้นผิว','Polishing equipment and care products'],
+['./image/about/tools.png','เครื่องมือสำหรับงานขัด','Tools for polishing work'],
+['./image/about/tools.jpg','อุปกรณ์ขัดและดูแลพื้นผิว','Polishing and surface-care equipment'],
+['./image/about/wp-20140430-002.jpg','การเตรียมอุปกรณ์หน้างาน','On-site equipment preparation'],
+['./image/about/wp-20140430-003.jpg','อุปกรณ์สำหรับงานพื้นผิว','Surface-care equipment'],
+['./image/about/banner-services.jpg','การทำงานของทีมช่าง','Technician work']
+],
+
+process:[
+{th:'ประเมินหน้างาน',en:'Site Assessment',p:{th:'พูดคุยความต้องการ ตรวจพื้นที่ และกำหนดแนวทางให้เหมาะกับวัสดุและรูปแบบงาน',en:'Discuss requirements, inspect the site and define an approach suited to the material and project.'}},
+{th:'วางแผนงาน',en:'Work Planning',p:{th:'เลือกวัสดุ วางลำดับงาน และเตรียมรายละเอียดสำหรับการดำเนินงาน',en:'Select the appropriate method, plan the work sequence and prepare the details for execution.'}},
+{th:'ตรวจและส่งมอบ',en:'Inspection & Handover',p:{th:'ตรวจสอบรายละเอียดความเรียบร้อย พร้อมแนะนำแนวทางดูแลรักษาหลังงานเสร็จ',en:'Inspect the finished surface and provide guidance for ongoing care and maintenance.'}}
+]
+
 }
+
+};
+
+
+function esc(v){
+return String(v).replace(/[&<>\"']/g,m=>({
+'&':'&amp;',
+'<':'&lt;',
+'>':'&gt;',
+'\"':'&quot;',
+"'":'&#39;'
+}[m]));
+}
+
+
+function render(){
+
+const key=new URLSearchParams(location.search).get('type')||'installation';
+
+const data=services[key]||services.installation;
+
+const en=(localStorage.getItem('bmcLang')||'th')==='en';
+
+const t=o=>o && typeof o==='object' && 'th' in o
+    ? (en?o.en:o.th)
+    : (o||'');
+
+const page=document.getElementById('serviceDetail');
+
+
+/* =========================================================
+   หน้า "งานแปรรูปหิน"
+   ========================================================= */
+
+if(key==='craft'){
+
+page.classList.add('craft-page');
+page.classList.toggle('lang-en',en);
+
+document.getElementById('serviceSpecial').style.display='block';
+
+document.querySelector('.detail-hero').style.display='none';
+document.querySelector('.service-intro-section').style.display='none';
+document.querySelector('.service-gallery-section').style.display='none';
+
+
+const finishImages=[
+'./image/five-stone/shock.jpg',
+'./image/five-stone/blasting.jpg',
+'./image/five-stone/fire-breathing-brush.jpg',
+'./image/five-stone/pickling.jpg',
+'./image/five-stone/wax.jpg'
+];
+
+
+const customImages=[
+'./image/service-craft/bookmatch.jpg',
+'./image/service-craft/waterjet.jpg',
+'./image/service-craft/molding.jpg'
+];
+
+
+const processImages=[
+'./image/service-craft/process-consult.jpg',
+'./image/service-craft/process-design.jpg',
+'./image/service-craft/process-install.jpg'
+];
+
+
+const finishes=data.finishes||[];
+const custom=data.custom||[];
+const process=data.process||[];
+
+
+/* ---------- ส่วนบน: ผิวหิน 5 แบบ ---------- */
+
+document.getElementById('serviceSpecial').innerHTML=`
+
+<section class="craft-section craft-top">
+
+<div class="craft-container">
+
+<p class="craft-eyebrow">
+${en?'STONE FINISHES':'งานทำผิวหิน'}
+</p>
+
+<h1 class="craft-title">
+${esc(t(data.specialTitle))}
+</h1>
+
+<p class="craft-subtitle">
+${en
+?'Different surface finishes for floors, walls and exterior applications'
+:'ระดับที่หลากหลายสำหรับงานพื้น ผนัง และงานภายนอก'}
+</p>
+
+
+<div class="craft-finish-grid">
+
+${finishes.map((x,i)=>`
+
+<article class="craft-finish-card ${i===0?'featured':''}">
+
+<img
+class="craft-finish-image"
+src="${finishImages[i]}"
+alt="${esc(en?x[1]:x[0])}"
+loading="eager">
+
+<div class="craft-finish-body">
+
+<h3>
+${esc(en?x[1]:x[0])}
+</h3>
+
+<p>
+${esc(en?x[3]:x[2])}
+</p>
+
+<ul>
+<li>
+${esc(
+en
+?[
+'Strong visual depth',
+'Low-reflection appearance',
+'Textured surface',
+'Soft tactile texture',
+'Aged decorative character'
+][i]
+:[
+'เด่นชัดและสะท้อนแสง',
+'เรียบด้านดูสงบ',
+'ผิวหยาบช่วยเพิ่มแรงเสียดทาน',
+'สัมผัสสม่ำเสมอ เหมาะกับงานกึ่งภายนอก',
+'ให้ลุคเก่าอย่างตั้งใจ'
+][i]
+)}
+</li>
+</ul>
+
+</div>
+</article>
+
+`).join('')}
+
+</div>
+</div>
+</section>
+
+
+<section class="craft-section craft-custom-section">
+
+<div class="craft-container">
+
+<p class="craft-eyebrow">
+${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}
+</p>
+
+<h2 class="craft-title">
+${esc(t(data.customTitle))}
+</h2>
+
+<div class="craft-custom-list">
+
+${custom.map((x,i)=>`
+
+<article class="craft-custom-row">
+
+<div class="craft-custom-media">
+<img
+src="${customImages[i]}"
+alt="${esc(en?x[1]:x[0])}"
+loading="lazy">
+</div>
+
+<div class="craft-custom-copy">
+
+<h3>
+${esc(en?x[1]:x[0])}
+</h3>
+
+<p>
+${esc(en?x[3]:x[2])}
+</p>
+
+</div>
+
+</article>
+
+`).join('')}
+
+</div>
+</div>
+</section>
+`;
+
+
+/* =========================================================
+   ส่วนที่ 3: ขั้นตอนการทำงาน 3 ขั้นตอน
+   ========================================================= */
+
+const processTitles=en
+?[
+'Understand Client Requirements',
+'Present Design or Samples',
+'Fabrication & Delivery'
+]
+:[
+'รับความต้องการของลูกค้า',
+'นำเสนอดีไซน์หรือตัวอย่าง',
+'ดำเนินการผลิต'
+];
+
+
+const processText=en
+?[
+'Discuss the project requirements, material and intended use before fabrication begins.',
+'Present a design or sample to confirm the scope and prepare the fabrication details.',
+'Produce the approved work accurately and deliver the completed pieces.'
+]
+:[
+'พูดคุยความต้องการของลูกค้า ตรวจสอบรายละเอียดของงาน และกำหนดขอบเขตงานให้ชัดเจนก่อนเริ่มผลิต',
+'นำเสนอดีไซน์หรือตัวอย่าง เพื่อยืนยันรูปแบบกับลูกค้า และเตรียมรายละเอียดสำหรับการผลิต',
+'ดำเนินการผลิตตามรูปแบบที่ลูกค้าต้องการ ตรวจสอบงาน และส่งมอบชิ้นงาน'
+];
+
+
+document.getElementById('serviceProcess').innerHTML=`
+
+<section class="craft-process-section">
+
+<div class="craft-container">
+
+<p class="craft-eyebrow">
+${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}
+</p>
+
+<h2 class="craft-title">
+${en?'Our Process':'ขั้นตอนการทำงาน'}
+</h2>
+
+
+<div class="craft-process-grid">
+
+${process.map((x,i)=>`
+
+<article class="craft-process-card">
+
+<img
+src="${processImages[i]}"
+alt="${esc(processTitles[i])}"
+loading="lazy">
+
+<div class="craft-process-copy">
+
+<span class="craft-process-no">
+0${i+1}
+</span>
+
+<h3>
+${esc(processTitles[i])}
+</h3>
+
+<p>
+${esc(processText[i])}
+</p>
+
+</div>
+
+</article>
+
+`).join('')}
+
+</div>
+</div>
+</section>
+`;
+
+
+/* =========================================================
+   บริการที่ใส่ใจรายละเอียด
+   ========================================================= */
+
+const why=en
+?[
+{
+title:'Quality-focused workflow',
+text:'We plan each fabrication step around the material, design and actual site requirements.'
+},
+{
+title:'Step-by-step coordination',
+text:'Clear coordination helps connect design, fabrication and installation details.'
+},
+{
+title:'Precision in every detail',
+text:'Edges, corners, joints and the overall pattern are checked before handover.'
+}
+]
+:[
+{
+title:'เชื่อถือได้ในงานนี้',
+text:'ช่วยวางแนวทางให้เหมาะกับวัสดุ ลักษณะพื้นที่ และรายละเอียดของงานก่อนเริ่มผลิต'
+},
+{
+title:'ประสานงานเป็นขั้นตอน',
+text:'จัดลำดับการทำงานให้สอดคล้องกับแบบ วัสดุ และรายละเอียดหน้างาน'
+},
+{
+title:'เป็นความพิถีพิถัน',
+text:'ใส่ใจงานขอบ มุม รอยต่อ และภาพรวมของลายหินก่อนตรวจและส่งมอบ'
+}
+];
+
+
+const icons=[
+
+'<svg viewBox="0 0 48 48" aria-hidden="true"><rect x="8" y="7" width="32" height="25" rx="2"></rect><path d="M13 14h22M13 20h18M13 26h12"></path><circle cx="34" cy="34" r="8"></circle><path d="M34 30v5l3 2"></path></svg>',
+
+'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 8h12l2 4v28H16V12z"></path><path d="M20 17h8M20 22h8M20 27h5"></path><circle cx="35" cy="32" r="8"></circle><path d="M35 28v4l3 2"></path></svg>',
+
+'<svg viewBox="0 0 48 48" aria-hidden="true"><path d="M9 35h30M13 35V14h12v21M25 20h10v15M17 20h5M17 25h5M17 30h5"></path><path d="M31 14v6M28 17h6"></path></svg>'
+
+];
+
+
+const whySection=document.querySelector('.craft-why-section');
+
+if(!whySection)
+document
+.querySelector('#serviceDetail > .detail-section:last-child')
+.classList.add('craft-why-section');
+
+
+const whyTarget=
+document.querySelector('.craft-why-section .service-extra')
+||
+document.querySelector('#serviceDetail > .detail-section:last-child .service-extra');
+
+
+if(whyTarget){
+
+whyTarget.innerHTML=`
+
+<div class="craft-container">
+
+<p class="craft-eyebrow">
+${en?'WHY BMC':'ทำไมต้อง BMC'}
+</p>
+
+<h2 class="craft-title">
+${en?'Detail-focused service':'บริการที่ใส่ใจรายละเอียด'}
+</h2>
+
+
+<div class="craft-why-grid">
+
+${why.map((x,i)=>`
+
+<article class="craft-why-card">
+
+<div class="craft-why-icon">
+${icons[i]}
+</div>
+
+<h3>
+${esc(x.title)}
+</h3>
+
+<p>
+${esc(x.text)}
+</p>
+
+</article>
+
+`).join('')}
+
+</div>
+</div>
+`;
+}
+
+
+document.documentElement.lang=en?'en':'th';
+
+return;
+}
+
+
+/* =========================================================
+   หน้าอื่น: คืนค่าการทำงานเดิม
+   ========================================================= */
+
+page.classList.remove('craft-page','lang-en');
+
+document.querySelector('.detail-hero').style.display='';
+document.querySelector('.service-intro-section').style.display='';
+document.querySelector('.service-gallery-section').style.display='';
+document.getElementById('serviceSpecial').style.display='';
+
+document.getElementById('serviceTitle').textContent=t(data.title);
+
+document.getElementById('serviceHeading').textContent=t(data.heading);
+
+document.getElementById('serviceLead').textContent=t(data.lead);
+
+
+const main=document.getElementById('serviceImage');
+
+main.src=data.image;
+main.alt=t(data.title);
+
+
+document.getElementById('serviceBody').innerHTML=
+data.body
+.map(x=>`<p>${esc(t(x))}</p>`)
+.join('');
+
+
+document.getElementById('galleryTitle').textContent=
+t(data.galleryTitle);
+
+document.getElementById('galleryLead').textContent=
+t(data.galleryLead);
+
+
+document.getElementById('serviceGallery').innerHTML=
+data.gallery
+.map(x=>`
+
+<figure>
+
+<img
+src="${esc(x[0])}"
+alt="${esc(en?x[2]:x[1])}"
+loading="lazy">
+
+<figcaption>
+${esc(en?x[2]:x[1])}
+</figcaption>
+
+</figure>
+
+`)
+.join('');
+
+
+const special=document.getElementById('serviceSpecial');
+
+
+if(data.finishes){
+
+special.innerHTML=`
+
+<div class="container service-special">
+
+<div class="section-heading">
+
+<p class="eyebrow gold">
+${en?'STONE FINISHES':'งานทำผิวหิน'}
+</p>
+
+<h2>
+${esc(t(data.specialTitle))}
+</h2>
+
+<p>
+${esc(t(data.specialLead))}
+</p>
+
+</div>
+
+
+<div class="service-feature-grid">
+
+${data.finishes.map(x=>`
+
+<article>
+
+<h3>
+${esc(en?x[1]:x[0])}
+</h3>
+
+<p>
+${esc(en?x[3]:x[2])}
+</p>
+
+</article>
+
+`).join('')}
+
+</div>
+
+
+<div class="section-heading service-custom-heading">
+
+<p class="eyebrow gold">
+${en?'CUSTOM WORK':'งานสั่งทำตามแบบ'}
+</p>
+
+<h2>
+${esc(t(data.customTitle))}
+</h2>
+
+</div>
+
+
+<div class="service-feature-grid">
+
+${data.custom.map(x=>`
+
+<article>
+
+<h3>
+${esc(en?x[1]:x[0])}
+</h3>
+
+<p>
+${esc(en?x[3]:x[2])}
+</p>
+
+</article>
+
+`).join('')}
+
+</div>
+
+</div>
+`;
+
+}else{
+
+special.innerHTML='';
+
+}
+
+
+document.getElementById('serviceProcess').innerHTML=
+data.process
+.map((x,i)=>`
+
+<div>
+
+<span>
+${String(i+1).padStart(2,'0')}
+</span>
+
+<h3>
+${esc(t({th:x.th,en:x.en}))}
+</h3>
+
+<p>
+${esc(t(x.p))}
+</p>
+
+</div>
+
+`)
+.join('');
+
+
+const why=[
+
+{
+th:'เลือกวิธีให้เหมาะกับวัสดุ',
+en:'Choose the right method for the material',
+p:{
+th:'พิจารณาวัสดุ และชนิดพื้นผิว ลักษณะพื้นที่ และวัตถุประสงค์ของงานก่อนเลือกวิธีดำเนินการ',
+en:'Consider the material, surface type, site conditions and purpose before selecting the working method.'
+}
+},
+
+{
+th:'ประสานงานเป็นขั้นตอน',
+en:'Coordinate step by step',
+p:{
+th:'ช่วยจัดลำดับการทำงานให้สอดคล้องกับงานวัสดุและหน้างาน เพื่อลดปัญหาที่อาจเกิดขึ้น',
+en:'Coordinate the work sequence with materials and site conditions to reduce avoidable issues.'
+}
+},
+
+{
+th:'เน้นความเรียบร้อย',
+en:'Focus on finish quality',
+p:{
+th:'ให้ความสำคัญกับขอบ มุม รอยต่อ และภาพรวมของพื้นที่ก่อนส่งมอบ',
+en:'Pay close attention to edges, corners, joints and the overall appearance before handover.'
+}
+}
+
+];
+
+
+document.getElementById('serviceWhy').innerHTML=
+why
+.map(x=>`
+
+<div>
+
+<h3>
+${esc(en?x.en:x.th)}
+</h3>
+
+<p>
+${esc(t(x.p))}
+</p>
+
+</div>
+
+`)
+.join('');
+
+
+document.documentElement.lang=en?'en':'th';
+
+}
+
+
 window.renderServiceDetail=render;
+
 window.addEventListener('bmcLanguageChanged',render);
+
 render();
+
 })();
+
 </script>
+
 <script src="lang.js"></script>
+
 </body>
 </html>
