@@ -157,7 +157,7 @@ function render(){
  document.documentElement.lang=en?'en':'th';
  initServiceLightbox();
 }
-/*function renderDarkPage(d,en,key){
+function renderDarkPage(d,en,key){
  const h=d.hero;
  let out=`<section class="svc-dark-top"><div class="svc-wrap">
     <div class="svc-hero-dark"><div class="svc-hero-photo">
@@ -178,7 +178,7 @@ function render(){
  out+=renderProcess(d,en);
  if(d.why) out+=renderWhy(d,en);
  return out;
-}*/
+}
 function renderInstallation(d,en){
  const h=d.hero;
  return `<section class="svc-install-hero"><div class="svc-wrap"><div class="svc-install-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-install-card"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><p>${esc(text(h.body,en))}</p><p>${en?'We coordinate materials, teams and schedule from preparation through final handover.':'ประสานงานวัสดุ ทีมช่าง และลำดับงานตั้งแต่เตรียมพื้นที่จนถึงตรวจส่งมอบอย่างเป็นระบบ'}</p><a class="svc-btn svc-btn-dark" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></section><section class="svc-install-portfolio"><div class="svc-wrap"><div class="svc-section-head"><span class="svc-eyebrow">${en?'PORTFOLIO':'ผลงานและขั้นตอน'}</span><h2>${esc(text(d.portfolio.title,en))}</h2><p>${esc(text(d.portfolio.lead,en))}</p></div><div class="svc-install-gallery">${d.portfolio.items.map((x,i)=>`<figure class="install-${i+1}"><img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy"><figcaption>${esc(text(x[1],en))}</figcaption></figure>`).join('')}</div></div></section>${renderProcess(d,en)}`;
