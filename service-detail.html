@@ -48,13 +48,19 @@
 .craft-page .craft-custom-list{margin-top:15px;display:grid;gap:13px;}
 .craft-page .craft-custom-row{display:grid;grid-template-columns:minmax(0,52%) minmax(0,48%);align-items:center;min-height:145px;}
 .craft-page .craft-custom-media{height:145px;border-radius:9px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);}
-.craft-page .craft-custom-media img{display:block;width:100%;height:100%;object-fit:cover;}
+.craft-page .craft-custom-media img{display:block;width:100%;height:170%;object-fit:cover;}
 .craft-page .craft-custom-copy{padding:10px 0 10px 35px;}
 .craft-page .craft-custom-copy h3{margin:0 0 6px;color:#222;font-size:20px;line-height:1.35;font-weight:600;}
 .craft-page .craft-custom-copy p{margin:0;max-width:470px;color:#343434;font-size:13px;line-height:1.65;}
 
 /* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ---------- */
-.craft-page .craft-process-section{background:#dfe4e6;padding:28px 0 30px;}
+.craft-page .craft-process-section{
+    background:#dfe4e6;
+    width:100vw;
+    margin-left:calc(50% - 50vw);
+    padding:28px 0 30px;
+    box-sizing:border-box;
+}
 .craft-page .craft-process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px;}
 .craft-page .craft-process-card{overflow:hidden;border-radius:9px;background:#38516a;box-shadow:0 2px 7px rgba(0,0,0,.12);color:#fff;}
 .craft-page .craft-process-card:nth-child(2){background:#b39b7a;}
