@@ -53,32 +53,415 @@
 .craft-page .craft-custom-copy h3{margin:0 0 6px;color:#222;font-size:20px;line-height:1.35;font-weight:600;}
 .craft-page .craft-custom-copy p{margin:0;max-width:470px;color:#343434;font-size:13px;line-height:1.65;}
 
-/* ---------- ส่วนที่ 3: ขั้นตอนการทำงาน ----------
-   Section นี้เป็นพื้นหลังเต็มความกว้างหน้าจอ
-   ใช้สำหรับแถบ "ขั้นตอนการทำงาน" ตรงกลางหน้าเว็บไซต์
-   width:100vw = กว้างเท่ากับหน้าจอทั้งหมด
-   margin-left:50% + transform = จัด Section ให้อยู่กึ่งกลางจอ
-   box-sizing:border-box = ป้องกัน padding ทำให้ความกว้างเกินจอ
------------------------------------------------- */
+```css
+/* =========================================================
+   ส่วนที่ 3: ขั้นตอนการทำงาน
+   ---------------------------------------------------------
+   พื้นหลัง Section เต็มความกว้างหน้าจอ
+   ไม่ขึ้นกับความกว้างของ .craft-container
+   เหมาะสำหรับ Desktop / iPad / Mobile
+========================================================= */
 
 .craft-page .craft-process-section{
     background:#dfe4e6;
 
+    /* ทำให้พื้นหลังเต็มจอจริง */
     width:100vw;
-    margin-left:50%;
-    transform:translateX(-50%);
+    max-width:100vw;
 
-    padding:28px 0 30px;
+    /* ดึงออกจาก container ให้อยู่กึ่งกลางหน้าจอ */
+    margin-left:calc(50% - 50vw);
+
+    padding:38px 0 42px;
     box-sizing:border-box;
 }
-.craft-page .craft-process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:14px;}
-.craft-page .craft-process-card{overflow:hidden;border-radius:9px;background:#38516a;box-shadow:0 2px 7px rgba(0,0,0,.12);color:#fff;}
-.craft-page .craft-process-card:nth-child(2){background:#b39b7a;}
-.craft-page .craft-process-card img{display:block;width:100%;height:128px;object-fit:cover;}
-.craft-page .craft-process-copy{padding:0 15px 15px;}
-.craft-page .craft-process-no{display:block;margin-top:-18px;position:relative;font-size:29px;line-height:1;font-weight:600;text-shadow:0 1px 2px rgba(0,0,0,.25);}
-.craft-page .craft-process-copy h3{margin:9px 0 5px;color:#fff;font-size:16px;line-height:1.35;font-weight:600;}
-.craft-page .craft-process-copy p{margin:0;color:#fff;font-size:11px;line-height:1.55;}
+
+
+/* ---------- กล่องเนื้อหาด้านใน Section ---------- */
+/* จำกัดเฉพาะเนื้อหา ไม่ให้ข้อความและการ์ดชิดขอบจอ */
+
+.craft-page .craft-process-section > .craft-container{
+    width:92%;
+    max-width:1180px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* ---------- การ์ดขั้นตอนการทำงาน ---------- */
+
+.craft-page .craft-process-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:18px;
+    margin-top:20px;
+}
+
+
+/* ---------- ตัวการ์ด ---------- */
+
+.craft-page .craft-process-card{
+    overflow:hidden;
+    border-radius:10px;
+    background:#38516a;
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+    color:#fff;
+    min-width:0;
+}
+
+
+/* การ์ดใบที่ 2 */
+
+.craft-page .craft-process-card:nth-child(2){
+    background:#b39b7a;
+}
+
+
+/* ---------- รูปภาพการ์ด ---------- */
+
+.craft-page .craft-process-card img{
+    display:block;
+    width:100%;
+    height:150px;
+    object-fit:cover;
+}
+
+
+/* ---------- เนื้อหาภายในการ์ด ---------- */
+
+.craft-page .craft-process-copy{
+    padding:0 18px 18px;
+}
+
+
+/* ---------- หมายเลขขั้นตอน ---------- */
+
+.craft-page .craft-process-no{
+    display:block;
+    margin-top:-20px;
+    position:relative;
+
+    font-size:30px;
+    line-height:1;
+    font-weight:600;
+
+    text-shadow:0 1px 2px rgba(0,0,0,.25);
+}
+
+
+/* ---------- หัวข้อการ์ด ---------- */
+
+.craft-page .craft-process-copy h3{
+    margin:11px 0 6px;
+
+    color:#fff;
+    font-size:17px;
+    line-height:1.4;
+    font-weight:600;
+}
+
+
+/* ---------- รายละเอียดการ์ด ---------- */
+
+.craft-page .craft-process-copy p{
+    margin:0;
+
+    color:#fff;
+    font-size:12px;
+    line-height:1.65;
+}
+
+
+/* =========================================================
+   ส่วนที่ 4: บริการที่ใส่ใจรายละเอียด
+========================================================= */
+
+.craft-page .craft-why-section{
+    background:#fafaf7;
+    padding:40px 0 52px;
+}
+
+
+/* ---------- กล่องเนื้อหาด้านใน ---------- */
+
+.craft-page .craft-why-section > .craft-container{
+    width:92%;
+    max-width:1180px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* ---------- Grid บริการ ---------- */
+
+.craft-page .craft-why-grid{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:18px;
+    margin-top:20px;
+}
+
+
+/* ---------- การ์ดบริการ ---------- */
+
+.craft-page .craft-why-card{
+    min-height:150px;
+
+    padding:19px 18px 17px;
+
+    border:1px solid #ddd;
+    border-radius:10px;
+
+    background:#fff;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.09);
+
+    box-sizing:border-box;
+}
+
+
+/* ---------- Icon ---------- */
+
+.craft-page .craft-why-icon{
+    width:42px;
+    height:42px;
+    margin-bottom:9px;
+    color:#4b5962;
+}
+
+
+.craft-page .craft-why-icon svg{
+    display:block;
+    width:100%;
+    height:100%;
+
+    fill:none;
+    stroke:currentColor;
+    stroke-width:1.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+
+/* ---------- หัวข้อบริการ ---------- */
+
+.craft-page .craft-why-card h3{
+    margin:0 0 6px;
+
+    font-size:16px;
+    line-height:1.45;
+    color:#222;
+    font-weight:600;
+}
+
+
+/* ---------- รายละเอียดบริการ ---------- */
+
+.craft-page .craft-why-card p{
+    margin:0;
+
+    color:#444;
+    font-size:12px;
+    line-height:1.65;
+}
+
+
+/* =========================================================
+   ภาษาอังกฤษ
+========================================================= */
+
+.craft-page.lang-en .craft-title{
+    letter-spacing:-.7px;
+}
+
+
+/* =========================================================
+   Responsive: iPad / Tablet
+   ---------------------------------------------------------
+   ปรับขนาดให้ยังคงรูปแบบ Desktop
+   แต่ลดระยะห่างและขนาดการ์ดให้เหมาะกับหน้าจอ
+========================================================= */
+
+@media (max-width:900px){
+
+    /* Container ของหน้า */
+    .craft-page .craft-container{
+        width:92%;
+        max-width:none;
+    }
+
+
+    /* ---------- Section ขั้นตอน ---------- */
+
+    .craft-page .craft-process-section{
+        width:100vw;
+        max-width:100vw;
+        margin-left:calc(50% - 50vw);
+
+        padding:32px 0 38px;
+    }
+
+
+    .craft-page .craft-process-section > .craft-container{
+        width:92%;
+    }
+
+
+    /* ---------- Grid ขั้นตอน ---------- */
+
+    .craft-page .craft-process-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+        gap:12px;
+        margin-top:17px;
+    }
+
+
+    .craft-page .craft-process-card img{
+        height:125px;
+    }
+
+
+    .craft-page .craft-process-copy{
+        padding:0 13px 15px;
+    }
+
+
+    .craft-page .craft-process-no{
+        font-size:27px;
+        margin-top:-18px;
+    }
+
+
+    .craft-page .craft-process-copy h3{
+        font-size:15px;
+    }
+
+
+    .craft-page .craft-process-copy p{
+        font-size:11px;
+        line-height:1.55;
+    }
+
+
+    /* ---------- Finish Grid ---------- */
+
+    .craft-page .craft-finish-grid{
+        grid-template-columns:repeat(5,minmax(120px,1fr));
+        overflow-x:auto;
+
+        padding-bottom:6px;
+
+        scroll-snap-type:x mandatory;
+    }
+
+
+    .craft-page .craft-finish-card{
+        scroll-snap-align:start;
+        min-width:120px;
+    }
+
+
+    /* ---------- Custom ---------- */
+
+    .craft-page .craft-custom-row{
+        grid-template-columns:52% 48%;
+    }
+
+
+    .craft-page .craft-custom-copy{
+        padding-left:22px;
+    }
+
+
+    /* ---------- Why Section ---------- */
+
+    .craft-page .craft-why-section{
+        padding:34px 0 44px;
+    }
+
+
+    .craft-page .craft-why-section > .craft-container{
+        width:92%;
+    }
+
+
+    .craft-page .craft-why-grid{
+        grid-template-columns:repeat(3,minmax(0,1fr));
+        gap:12px;
+        margin-top:17px;
+    }
+
+
+    .craft-page .craft-why-card{
+        min-height:140px;
+        padding:16px 14px;
+    }
+
+
+    .craft-page .craft-why-card h3{
+        font-size:15px;
+    }
+
+
+    .craft-page .craft-why-card p{
+        font-size:11px;
+    }
+
+}
+
+
+/* ---------- ส่วนที่ 3: ขั้นตอนการทำงานบนมือถือ ----------
+   แสดงการ์ด 3 ใบในแถวเดียว
+   ลดช่องว่างและขนาดให้พอดีกับหน้าจอมือถือ
+------------------------------------------------ */
+
+.craft-page .craft-process-grid{
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:8px;
+    margin-top:16px;
+}
+
+
+/* ---------- รูปภาพการ์ดบนมือถือ ---------- */
+
+.craft-page .craft-process-card img{
+    height:95px;
+}
+
+
+/* ---------- เนื้อหาการ์ด ---------- */
+
+.craft-page .craft-process-copy{
+    padding:0 8px 10px;
+}
+
+
+/* ---------- หมายเลขขั้นตอน ---------- */
+
+.craft-page .craft-process-no{
+    font-size:22px;
+    margin-top:-15px;
+}
+
+
+/* ---------- หัวข้อ ---------- */
+
+.craft-page .craft-process-copy h3{
+    font-size:12px;
+    line-height:1.35;
+    margin:8px 0 4px;
+}
+
+
+/* ---------- รายละเอียด ---------- */
+
+.craft-page .craft-process-copy p{
+    font-size:9px;
+    line-height:1.45;
+}
+
+
+
 
 /* ---------- ส่วนที่ 4: บริการที่ใส่ใจรายละเอียด ---------- */
 .craft-page .craft-why-section{background:#fafaf7;padding:31px 0 48px;}
