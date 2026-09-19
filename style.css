@@ -6621,8 +6621,8 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
     position:absolute;
     right:0;
     top:0;
-    width:170%;
-    height:500px;
+    width:68%;
+    height:360px;
     border:1px solid #a48a70;
     padding:8px;
     border-radius:10px
@@ -6633,11 +6633,36 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 .svc-install-card h1{font-size:31px;line-height:1.15;margin:0 0 13px;font-weight:600}
 .svc-install-card p{font-size:12px;line-height:1.7;color:#4f4b48;margin:0 0 9px;max-width:620px}
 .svc-install-card .svc-btn{margin-top:4px}
-.svc-install-portfolio{background:#e9e0d7;padding:54px 0 60px}
-.svc-install-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:260px 260px 260px;gap:12px}
-.svc-install-gallery figure{margin:0;background:#fff;border-radius:9px;overflow:hidden;box-shadow:0 5px 12px rgba(0,0,0,.12);position:relative}
-.svc-install-gallery img{width:100%;height:calc(100% - 27px);object-fit:cover;display:block}
-.svc-install-gallery figcaption{height:27px;padding:5px 9px;font-size:10px;line-height:1.5;color:#292725;background:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.svc-install-portfolio{
+    background:#e9e0d7;
+    padding:54px 0 60px}
+.svc-install-gallery{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    grid-template-rows:260px 260px 260px;
+    gap:12px}
+.svc-install-gallery figure{
+    margin:0;
+    background:#fff;
+    border-radius:9px;
+    overflow:hidden;
+    box-shadow:0 5px 12px rgba(0,0,0,.12);
+    position:relative}
+.svc-install-gallery img{
+    width:100%;
+    height:calc(100% - 27px);
+    object-fit:cover;
+    display:block}
+.svc-install-gallery figcaption{
+    height:27px;
+    padding:5px 9px;
+    font-size:10px;
+    line-height:1.5;
+    color:#292725;
+    background:#fff;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis}
 .install-1{grid-row:1 / span 2}
 .install-2{grid-column:2}
 .install-3{grid-column:3}
