@@ -6355,34 +6355,241 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 .svc-btn-dark{background:#a27a4f}
 
 /* dark craft / polishing top */
-.svc-dark-top{background:#31485b;color:#fff;padding:48px 0 0;position:relative;overflow:hidden}
-.svc-hero-dark{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:center;min-height:400px}
-.svc-hero-photo{height:310px;border-radius:8px;overflow:hidden}
-.svc-hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
-.svc-hero-panel{height:310px;position:relative;border:1px solid #b99779;border-radius:2px;padding:7px}
-.svc-ring{position:absolute;inset:0;border:1px solid #a87f60;border-radius:150px 150px 0 0;clip-path:polygon(0 0,100% 0,100% 100%,0 100%);opacity:.9}
-.svc-panel-content{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:center;padding:36px 42px;border:1px solid rgba(192,157,126,.35);border-radius:135px 135px 0 0}
-.svc-panel-content .svc-eyebrow{color:#c4a283}
-.svc-panel-content h1{font-size:31px;line-height:1.35;font-weight:400;margin:0 0 15px;white-space:normal}
-.svc-rule{height:1px;width:80%;background:#a9866d;margin:0 0 15px}
-.svc-panel-content p{font-size:12px;line-height:1.75;color:#eef1f2;margin:0 0 10px}
-.svc-hero-note{opacity:.9}
-.svc-panel-content .svc-btn{align-self:flex-start;margin-top:3px}
-.svc-portfolio-dark{display:grid;grid-template-columns:40% 60%;gap:26px;align-items:center;padding:62px 0 48px;min-height:325px}
-.svc-portfolio-copy{padding-bottom:20px}
-.svc-portfolio-copy .svc-eyebrow{color:#c4a283}
-.svc-portfolio-copy h2{font-size:31px;line-height:1.25;font-weight:400;margin:0 0 12px}
-.svc-portfolio-copy p{font-size:12px;line-height:1.8;color:#edf0f1;margin:0 0 12px;max-width:380px}
-.svc-portfolio-copy .svc-small-copy{font-size:11px;color:#cbd2d6}
-.svc-collage{position:relative;height:290px;max-width:600px;margin-left:auto}
-.svc-collage figure{position:absolute;margin:0;overflow:hidden;border:3px solid #b9aa9e;border-radius:18px;box-shadow:0 8px 20px rgba(0,0,0,.25);background:#fff}
-.svc-collage img{display:block;width:100%;height:100%;object-fit:cover}
-.svc-collage figcaption{display:none}
-.svc-collage-1{width:145px;height:112px;left:2%;top:34px;transform:rotate(-1deg)}
-.svc-collage-2{width:170px;height:128px;left:30%;top:0;transform:rotate(1deg)}
-.svc-collage-3{width:150px;height:114px;right:0;top:29px;transform:rotate(1deg)}
-.svc-collage-4{width:145px;height:113px;left:2%;bottom:7px;transform:rotate(-1deg)}
-.svc-collage-5{width:150px;height:145px;left:31%;bottom:0;transform:rotate(0)} 
+/* ---------- DARK CRAFT / POLISHING TOP ---------- */
+
+/* ส่วนบนของหน้างานทำผิวหิน */
+.svc-dark-top{
+    background:#31485b;
+    color:#fff;
+    padding:25px 0 0;
+    position:relative;
+    overflow:hidden;
+}
+
+/* ---------- HERO SECTION ---------- */
+/* ส่วน Hero ด้านบน แบ่งเป็นรูปภาพซ้าย + ข้อมูลขวา */
+.svc-hero-dark{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px;
+    align-items:center;
+    min-height:320px;
+}
+
+/* รูปภาพ Hero */
+.svc-hero-photo{
+    height:250px;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+/* รูปภาพภายใน Hero */
+.svc-hero-photo img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+/* กรอบข้อมูลด้านขวาของ Hero */
+.svc-hero-panel{
+    height:250px;
+    position:relative;
+    border:1px solid #b99779;
+    border-radius:2px;
+    padding:7px;
+}
+
+/* เส้นโค้งตกแต่งภายในกรอบ Hero */
+.svc-ring{
+    position:absolute;
+    inset:0;
+    border:1px solid #a87f60;
+    border-radius:150px 150px 0 0;
+    clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+    opacity:.9;
+}
+
+/* เนื้อหาภายในกรอบ Hero */
+.svc-panel-content{
+    position:relative;
+    z-index:1;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:30px 36px;
+    border:1px solid rgba(192,157,126,.35);
+    border-radius:135px 135px 0 0;
+}
+
+/* ข้อความหัวข้อเล็กด้านบน */
+.svc-panel-content .svc-eyebrow{
+    color:#c4a283;
+}
+
+/* หัวข้อหลัก Hero */
+.svc-panel-content h1{
+    font-size:31px;
+    line-height:1.35;
+    font-weight:400;
+    margin:0 0 15px;
+    white-space:normal;
+}
+
+/* เส้นคั่น */
+.svc-rule{
+    height:1px;
+    width:80%;
+    background:#a9866d;
+    margin:0 0 15px;
+}
+
+/* คำอธิบาย Hero */
+.svc-panel-content p{
+    font-size:12px;
+    line-height:1.75;
+    color:#eef1f2;
+    margin:0 0 10px;
+}
+
+/* ข้อความหมายเหตุ */
+.svc-hero-note{
+    opacity:.9;
+}
+
+/* ปุ่มใน Hero */
+.svc-panel-content .svc-btn{
+    align-self:flex-start;
+    margin-top:3px;
+}
+
+
+/* ---------- PORTFOLIO SECTION ---------- */
+/* ส่วนแสดงผลงานและภาพตัวอย่าง */
+.svc-portfolio-dark{
+    display:grid;
+    grid-template-columns:40% 60%;
+    gap:20px;
+    align-items:center;
+    padding:35px 0 30px;
+    min-height:260px;
+}
+
+/* กลุ่มข้อความฝั่งซ้าย */
+.svc-portfolio-copy{
+    padding-bottom:15px;
+}
+
+/* ข้อความหัวข้อเล็ก */
+.svc-portfolio-copy .svc-eyebrow{
+    color:#c4a283;
+}
+
+/* หัวข้อ Portfolio */
+.svc-portfolio-copy h2{
+    font-size:31px;
+    line-height:1.25;
+    font-weight:400;
+    margin:0 0 12px;
+}
+
+/* คำอธิบาย Portfolio */
+.svc-portfolio-copy p{
+    font-size:12px;
+    line-height:1.8;
+    color:#edf0f1;
+    margin:0 0 12px;
+    max-width:380px;
+}
+
+/* ข้อความขนาดเล็ก */
+.svc-portfolio-copy .svc-small-copy{
+    font-size:11px;
+    color:#cbd2d6;
+}
+
+
+/* ---------- COLLAGE IMAGES ---------- */
+/* กลุ่มรูปภาพผลงานด้านขวา */
+.svc-collage{
+    position:relative;
+    height:230px;
+    max-width:600px;
+    margin-left:auto;
+}
+
+/* กรอบรูปแต่ละใบ */
+.svc-collage figure{
+    position:absolute;
+    margin:0;
+    overflow:hidden;
+    border:3px solid #b9aa9e;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    background:#fff;
+}
+
+/* รูปภาพภายใน Collage */
+.svc-collage img{
+    display:block;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ไม่แสดงคำอธิบายใต้รูป */
+.svc-collage figcaption{
+    display:none;
+}
+
+
+/* ---------- COLLAGE IMAGE POSITIONS ---------- */
+
+/* รูปที่ 1 */
+.svc-collage-1{
+    width:145px;
+    height:112px;
+    left:2%;
+    top:25px;
+    transform:rotate(-1deg);
+}
+
+/* รูปที่ 2 */
+.svc-collage-2{
+    width:170px;
+    height:128px;
+    left:20%;
+    top:0;
+    transform:rotate(1deg);
+}
+
+/* รูปที่ 3 */
+.svc-collage-3{
+    width:150px;
+    height:114px;
+    right:0;
+    top:22px;
+    transform:rotate(1deg);
+}
+
+/* รูปที่ 4 */
+.svc-collage-4{
+    width:145px;
+    height:113px;
+    left:-10%;
+    bottom:0;
+    transform:rotate(-1deg);
+}
+
+/* รูปที่ 5 */
+.svc-collage-5{
+    width:150px;
+    height:145px;
+    left:-20%;
+    bottom:0;
+    transform:rotate(0);
+}
 
 /* five finishes */
 .svc-finishes{background:#f7f6f3;padding:48px 0 58px}
