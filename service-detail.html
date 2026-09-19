@@ -19,8 +19,11 @@
 .svc-install-process-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:22px 24px;align-items:stretch;}
 .svc-install-step{position:relative;background:#fff;border-radius:18px;padding:12px 12px 18px;box-shadow:0 12px 28px rgba(32,32,32,.10);min-width:0;overflow:hidden;}
 .svc-install-step:nth-child(-n+3){grid-column:span 2;}
-.svc-install-step:nth-child(4){grid-column:2 / span 2;}
-.svc-install-step:nth-child(5){grid-column:4 / span 2;}
+.svc-install-step:nth-child(4),
+.svc-install-step:nth-child(5){grid-column:span 2;}
+/* แก้เฉพาะส่วนขั้นตอนการทำงานหน้างานติดตั้ง: ขั้นตอน 04 และ 05 ต้องมีขนาดการ์ดเท่ากัน */
+.svc-install-step:nth-child(4),
+.svc-install-step:nth-child(5){width:100%;max-width:none;height:100%;}
 .svc-install-step-icon{width:48px;height:48px;border:1.5px solid #b18a55;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#a17a42;margin:0 0 9px 4px;background:#fff;}
 .svc-install-step-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;}
 .svc-install-step-image{width:100%;height:154px;border-radius:13px;overflow:hidden;background:#eee;}
@@ -31,21 +34,42 @@
 .svc-install-step-content p{font-size:16px;line-height:1.45;color:#444;margin:0;padding-right:2px;}
 .svc-install-step-number{position:absolute;right:3px;top:5px;color:#a17a42;font-size:39px;line-height:1;font-weight:500;letter-spacing:-1px;}
 @media (max-width:1100px){
+ /* iPad / Tablet: 04 และ 05 ต้องใช้ความสูงการ์ดเดียวกัน เพื่อไม่ให้การ์ด 05 สั้นหรือยาวกว่า 04 */
  .svc-install-process-v2{padding:58px 0 68px;}
  .svc-install-process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;}
  .svc-install-step:nth-child(n){grid-column:auto;}
- .svc-install-step:nth-child(5){grid-column:1 / -1;max-width:calc(50% - 10px);justify-self:center;width:100%;}
- .svc-install-step-image{height:180px;}
+ .svc-install-step:nth-child(4),
+ .svc-install-step:nth-child(5){
+   grid-column:auto;
+   max-width:none;
+   justify-self:stretch;
+   width:100%;
+   height:390px;
+   min-height:390px;
+   box-sizing:border-box;
+ }
+ .svc-install-step-image{height:180px;flex:0 0 180px;}
+ .svc-install-step-content{min-height:112px;}
  .svc-install-step-content h3{font-size:22px;}
 }
 @media (max-width:640px){
+ /* มือถือ: 04 และ 05 ยังคงความกว้าง 100% และกำหนดความสูงเท่ากัน */
  .svc-install-process-v2{padding:46px 0 56px;}
  .svc-install-process-head{margin-bottom:24px;}
  .svc-install-process-grid{grid-template-columns:1fr;gap:18px;}
- .svc-install-step:nth-child(5){grid-column:auto;max-width:none;}
+ .svc-install-step:nth-child(4),
+ .svc-install-step:nth-child(5){
+   grid-column:auto;
+   max-width:none;
+   justify-self:stretch;
+   width:100%;
+   height:395px;
+   min-height:395px;
+   box-sizing:border-box;
+ }
  .svc-install-step{border-radius:16px;padding:10px 10px 16px;}
  .svc-install-step-icon{width:44px;height:44px;margin-bottom:8px;}
- .svc-install-step-image{height:190px;border-radius:12px;}
+ .svc-install-step-image{height:190px;flex:0 0 190px;border-radius:12px;}
  .svc-install-step-content{padding-top:11px;min-height:0;}
  .svc-install-step-content h3{font-size:21px;}
  .svc-install-step-content p{font-size:15px;line-height:1.48;}
@@ -56,95 +80,408 @@
  .svc-install-step-content h3{font-size:20px;}
  .svc-install-step-content p{font-size:14px;}
 }
+
 /* =========================================================
-   FIX & IMPROVE: งานสั่งทำตามแบบ (CUSTOM FABRICATION)
+   CRAFT PAGE — REFERENCE LAYOUT (ONLY ?type=craft)
+   หมายเหตุ: CSS ชุดนี้ใช้เฉพาะหน้างานแปรรูปหิน
+   ไม่เปลี่ยน Header / Footer และไม่กระทบ installation / polishing
 ========================================================= */
-.svc-custom {
-  background: #f3ebeb; /* พื้นหลังโทนเข้ม หรูหรา */
-  padding: 72px 0 82px;
-  color: #fff;
+body.service-detail-page .svc-craft-reference{
+  --craft-bg:#f5f1ea;
+  --craft-paper:#fbfaf7;
+  --craft-white:#fff;
+  --craft-text:#20272b;
+  --craft-muted:#66615b;
+  --craft-gold:#a27a4f;
+  --craft-line:#dfd5c8;
+  background:var(--craft-bg);
+  color:var(--craft-text);
+  overflow:hidden;
 }
-
-.svc-custom .svc-section-head h2 {
-  color: #fff;
-  margin-top: 5px;
+body.service-detail-page .svc-craft-reference *{box-sizing:border-box}
+body.service-detail-page .craft-wrap{
+  width:min(1180px,calc(100% - 64px));
+  margin:0 auto;
 }
-
-.svc-custom-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  margin-top: 34px;
+body.service-detail-page .craft-eyebrow{
+  display:block;
+  margin:0 0 10px;
+  color:#9b7855;
+  font-size:11px;
+  line-height:1.3;
+  letter-spacing:2px;
+  font-weight:500;
+  text-transform:uppercase;
 }
-
-.svc-custom-grid article {
-  background: #222222;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  display: flex;
-  flex-direction: column;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+body.service-detail-page .craft-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  min-width:155px;
+  min-height:42px;
+  padding:10px 22px;
+  border:0;
+  border-radius:5px;
+  background:var(--craft-gold);
+  color:#fff!important;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:500;
 }
-
-.svc-custom-grid article:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 16px 35px rgba(0,0,0,0.5);
-  border-color: rgba(161, 122, 66, 0.4);
+body.service-detail-page .craft-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.04fr) minmax(0,.96fr);
+  min-height:390px;
+  background:var(--craft-paper);
 }
-
-.svc-custom-grid article img {
-  width: 100%;
-  height: 240px;
-  object-fit: cover; /* ป้องกันรูปภาพเบี้ยวหรือขยายซ้อนทับ */
-  display: block;
+body.service-detail-page .craft-hero-media{
+  min-width:0;
+  min-height:390px;
+  overflow:hidden;
 }
-
-.svc-custom-grid article > div {
-  padding: 22px 20px;
-  flex-grow: 1;
+body.service-detail-page .craft-hero-media img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
 }
-
-.svc-custom-grid article h3 {
-  font-size: 20px;
-  font-weight: 600;
-  color: #a17a42; /* สีทองพรีเมียม */
-  margin: 0 0 10px;
-  line-height: 1.3;
+body.service-detail-page .craft-hero-copy{
+  position:relative;
+  display:flex;
+  align-items:center;
+  min-width:0;
+  padding:58px clamp(28px,5vw,76px);
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 88% 24%,rgba(183,151,112,.10),transparent 28%),
+    linear-gradient(135deg,#fbfaf7 0%,#f3eee5 100%);
 }
-
-.svc-custom-grid article p {
-  font-size: 15px;
-  line-height: 1.55;
-  color: #cccccc;
-  margin: 0;
+body.service-detail-page .craft-hero-copy:after{
+  content:"";
+  position:absolute;
+  width:430px;
+  height:430px;
+  right:-235px;
+  top:-125px;
+  border:1px solid rgba(162,122,79,.35);
+  border-radius:50%;
+  pointer-events:none;
 }
-
-/* Responsive สำหรับแท็บเล็ตและมือถือ */
-@media (max-width: 860px) {
-  .svc-custom-grid {
-    grid-template-columns: repeat(2, 1fr);
+body.service-detail-page .craft-hero-content{
+  position:relative;
+  z-index:1;
+  max-width:560px;
+}
+body.service-detail-page .craft-hero-content h1{
+  margin:0 0 18px;
+  font-size:clamp(36px,4.1vw,60px);
+  line-height:1.15;
+  font-weight:500;
+  letter-spacing:-1.2px;
+}
+body.service-detail-page .craft-hero-content p{
+  margin:0 0 24px;
+  max-width:600px;
+  color:#45413d;
+  font-size:17px;
+  line-height:1.75;
+}
+body.service-detail-page .craft-finishes{
+  padding:58px 0 68px;
+  background:
+    radial-gradient(circle at 12% 22%,rgba(190,164,132,.12),transparent 24%),
+    radial-gradient(circle at 90% 80%,rgba(190,164,132,.09),transparent 28%),
+    #f4f0e9;
+}
+body.service-detail-page .craft-section-head{
+  text-align:center;
+  margin:0 auto 30px;
+  max-width:760px;
+}
+body.service-detail-page .craft-section-head h2{
+  margin:0 0 8px;
+  font-size:clamp(28px,3.2vw,42px);
+  line-height:1.2;
+  font-weight:500;
+  letter-spacing:-.5px;
+}
+body.service-detail-page .craft-section-head p{
+  margin:0;
+  color:var(--craft-muted);
+  font-size:14px;
+  line-height:1.75;
+}
+body.service-detail-page .craft-slider{
+  position:relative;
+  min-width:0;
+  padding:0 54px;
+}
+body.service-detail-page .craft-slider-viewport{
+  width:100%;
+  overflow:hidden;
+}
+body.service-detail-page .craft-slider-track{
+  display:flex;
+  gap:18px;
+  width:100%;
+  transition:transform .45s cubic-bezier(.22,.61,.36,1);
+  will-change:transform;
+}
+body.service-detail-page .craft-finish-card{
+  flex:0 0 calc((100% - 36px)/3);
+  min-width:0;
+  overflow:hidden;
+  border:1px solid #e2d9ce;
+  border-radius:8px;
+  background:rgba(255,255,255,.96);
+  box-shadow:0 12px 28px rgba(82,68,52,.08);
+}
+body.service-detail-page .craft-finish-image{
+  aspect-ratio:1.42/1;
+  overflow:hidden;
+  background:#e9e4dc;
+}
+body.service-detail-page .craft-finish-image img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  cursor:zoom-in;
+  transition:transform .4s ease;
+}
+body.service-detail-page .craft-finish-card:hover .craft-finish-image img{
+  transform:scale(1.025);
+}
+body.service-detail-page .craft-finish-copy{
+  min-height:142px;
+  padding:18px 18px 20px;
+  background:#fff;
+}
+body.service-detail-page .craft-finish-copy h3{
+  margin:0 0 9px;
+  color:#20272b;
+  font-size:18px;
+  line-height:1.35;
+  font-weight:500;
+}
+body.service-detail-page .craft-finish-copy p{
+  margin:0;
+  color:#68635d;
+  font-size:13px;
+  line-height:1.7;
+}
+body.service-detail-page .craft-slider-btn{
+  position:absolute;
+  top:50%;
+  z-index:3;
+  width:40px;
+  height:40px;
+  margin-top:-20px;
+  border:1px solid #bca990;
+  border-radius:50%;
+  background:rgba(255,255,255,.92);
+  color:#8f6e4b;
+  display:grid;
+  place-items:center;
+  cursor:pointer;
+  box-shadow:0 6px 16px rgba(75,61,45,.08);
+  font-size:22px;
+  line-height:1;
+}
+body.service-detail-page .craft-slider-btn.prev{left:0}
+body.service-detail-page .craft-slider-btn.next{right:0}
+body.service-detail-page .craft-slider-btn:hover{
+  background:#fff;
+  border-color:var(--craft-gold);
+}
+body.service-detail-page .craft-slider-btn:disabled{
+  opacity:.35;
+  cursor:default;
+}
+body.service-detail-page .craft-slider-dots{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+  margin-top:22px;
+}
+body.service-detail-page .craft-slider-dot{
+  width:8px;
+  height:8px;
+  padding:0;
+  border:1px solid #b9a58e;
+  border-radius:50%;
+  background:transparent;
+  cursor:pointer;
+}
+body.service-detail-page .craft-slider-dot.is-active{
+  background:var(--craft-gold);
+  border-color:var(--craft-gold);
+}
+body.service-detail-page .craft-custom{
+  padding:62px 0 70px;
+  background:#fbfaf7;
+}
+body.service-detail-page .craft-custom-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:20px;
+}
+body.service-detail-page .craft-custom-card{
+  min-width:0;
+  overflow:hidden;
+  border:1px solid #e4ddd4;
+  border-radius:8px;
+  background:#fff;
+  box-shadow:0 10px 24px rgba(82,68,52,.06);
+}
+body.service-detail-page .craft-custom-card img{
+  width:100%;
+  height:225px;
+  display:block;
+  object-fit:cover;
+  cursor:zoom-in;
+}
+body.service-detail-page .craft-custom-card-copy{
+  min-height:145px;
+  padding:18px 18px 20px;
+}
+body.service-detail-page .craft-custom-card h3{
+  margin:0 0 8px;
+  color:#242b2f;
+  font-size:18px;
+  line-height:1.35;
+  font-weight:500;
+}
+body.service-detail-page .craft-custom-card p{
+  margin:0;
+  color:#68635d;
+  font-size:13px;
+  line-height:1.7;
+}
+body.service-detail-page .craft-process{
+  padding:60px 0 72px;
+  background:
+    radial-gradient(circle at 8% 70%,rgba(184,159,128,.12),transparent 23%),
+    #f3eee6;
+}
+body.service-detail-page .craft-process .craft-section-head{
+  margin-bottom:38px;
+}
+body.service-detail-page .craft-process-grid{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:38px;
+}
+body.service-detail-page .craft-process-grid:before{
+  content:"";
+  position:absolute;
+  top:27px;
+  left:15%;
+  right:15%;
+  height:1px;
+  background:#bca990;
+}
+body.service-detail-page .craft-process-item{
+  position:relative;
+  z-index:1;
+  min-width:0;
+  text-align:center;
+}
+body.service-detail-page .craft-process-number{
+  width:56px;
+  height:56px;
+  margin:0 auto 16px;
+  display:grid;
+  place-items:center;
+  border:1px solid #b18a61;
+  border-radius:50%;
+  background:#f3eee6;
+  color:#9b7349;
+  font-size:15px;
+  font-weight:500;
+}
+body.service-detail-page .craft-process-item h3{
+  margin:0 0 9px;
+  color:#242b2f;
+  font-size:18px;
+  line-height:1.35;
+  font-weight:500;
+}
+body.service-detail-page .craft-process-item p{
+  max-width:290px;
+  margin:0 auto;
+  color:#68635d;
+  font-size:13px;
+  line-height:1.7;
+}
+@media (max-width:900px){
+  body.service-detail-page .craft-wrap{width:calc(100% - 40px)}
+  body.service-detail-page .craft-hero{
+    grid-template-columns:1fr 1fr;
+    min-height:310px;
   }
+  body.service-detail-page .craft-hero-media{min-height:310px}
+  body.service-detail-page .craft-hero-copy{padding:38px 30px}
+  body.service-detail-page .craft-hero-content h1{font-size:34px}
+  body.service-detail-page .craft-hero-content p{font-size:13px;line-height:1.7}
+  body.service-detail-page .craft-finishes{padding:48px 0 56px}
+  body.service-detail-page .craft-slider{padding:0 44px}
+  body.service-detail-page .craft-slider-track{gap:12px}
+  body.service-detail-page .craft-finish-card{flex-basis:calc((100% - 24px)/3)}
+  body.service-detail-page .craft-finish-copy{min-height:132px;padding:14px}
+  body.service-detail-page .craft-finish-copy h3{font-size:14px}
+  body.service-detail-page .craft-finish-copy p{font-size:11px;line-height:1.55}
+  body.service-detail-page .craft-custom{padding:50px 0 58px}
+  body.service-detail-page .craft-custom-grid{gap:14px}
+  body.service-detail-page .craft-custom-card img{height:170px}
+  body.service-detail-page .craft-custom-card-copy{min-height:128px;padding:14px}
+  body.service-detail-page .craft-custom-card h3{font-size:14px}
+  body.service-detail-page .craft-custom-card p{font-size:11px;line-height:1.55}
+  body.service-detail-page .craft-process{padding:50px 0 58px}
+  body.service-detail-page .craft-process-grid{gap:18px}
+  body.service-detail-page .craft-process-item h3{font-size:14px}
+  body.service-detail-page .craft-process-item p{font-size:11px}
 }
-
-@media (max-width: 360px) {
-  .svc-custom {
-    padding: 48px 0 58px;
-  }
-  .svc-custom-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-  .svc-custom-grid article img {
-    height: 200px;
-  }
-  .svc-custom-grid article > div {
-    padding: 18px 16px;
-  }
-  .svc-custom-grid article h3 {
-    font-size: 18px;
-  }
+@media (max-width:560px){
+  /* มือถือยังคงโครงสร้างเดียวกัน: Hero 2 คอลัมน์ + Slider 3 ใบ + Custom 3 ใบ + Process 3 ขั้น */
+  body.service-detail-page .craft-wrap{width:calc(100% - 20px)}
+  body.service-detail-page .craft-hero{min-height:235px}
+  body.service-detail-page .craft-hero-media{min-height:235px}
+  body.service-detail-page .craft-hero-copy{padding:24px 16px}
+  body.service-detail-page .craft-hero-content h1{font-size:21px;line-height:1.18;margin-bottom:9px}
+  body.service-detail-page .craft-hero-content p{font-size:8px;line-height:1.55;margin-bottom:12px}
+  body.service-detail-page .craft-eyebrow{font-size:7px;letter-spacing:1.1px;margin-bottom:5px}
+  body.service-detail-page .craft-btn{min-width:88px;min-height:28px;padding:6px 10px;font-size:7px;border-radius:4px}
+  body.service-detail-page .craft-hero-copy:after{width:220px;height:220px;right:-130px;top:-70px}
+  body.service-detail-page .craft-finishes{padding:30px 0 34px}
+  body.service-detail-page .craft-section-head{margin-bottom:17px}
+  body.service-detail-page .craft-section-head h2{font-size:20px}
+  body.service-detail-page .craft-section-head p{font-size:8px;line-height:1.5}
+  body.service-detail-page .craft-slider{padding:0 27px}
+  body.service-detail-page .craft-slider-track{gap:6px}
+  body.service-detail-page .craft-finish-card{flex-basis:calc((100% - 12px)/3);border-radius:5px}
+  body.service-detail-page .craft-finish-copy{min-height:102px;padding:8px 7px 10px}
+  body.service-detail-page .craft-finish-copy h3{font-size:8px;line-height:1.25;margin-bottom:4px}
+  body.service-detail-page .craft-finish-copy p{font-size:6px;line-height:1.4}
+  body.service-detail-page .craft-slider-btn{width:25px;height:25px;margin-top:-12px;font-size:15px}
+  body.service-detail-page .craft-slider-dots{gap:5px;margin-top:12px}
+  body.service-detail-page .craft-slider-dot{width:6px;height:6px}
+  body.service-detail-page .craft-custom{padding:34px 0 40px}
+  body.service-detail-page .craft-custom-grid{gap:7px}
+  body.service-detail-page .craft-custom-card{border-radius:5px}
+  body.service-detail-page .craft-custom-card img{height:105px}
+  body.service-detail-page .craft-custom-card-copy{min-height:102px;padding:8px 7px 10px}
+  body.service-detail-page .craft-custom-card h3{font-size:8px;line-height:1.25;margin-bottom:4px}
+  body.service-detail-page .craft-custom-card p{font-size:6px;line-height:1.4}
+  body.service-detail-page .craft-process{padding:34px 0 42px}
+  body.service-detail-page .craft-process .craft-section-head{margin-bottom:22px}
+  body.service-detail-page .craft-process-grid{gap:7px}
+  body.service-detail-page .craft-process-grid:before{top:18px;left:13%;right:13%}
+  body.service-detail-page .craft-process-number{width:36px;height:36px;margin-bottom:10px;font-size:9px}
+  body.service-detail-page .craft-process-item h3{font-size:8px;line-height:1.25;margin-bottom:4px}
+  body.service-detail-page .craft-process-item p{font-size:5.8px;line-height:1.4}
 }
 
 </style>
@@ -294,10 +631,127 @@ function render(){
  const main=document.getElementById('serviceDetail');
  main.className='svc-main svc-'+d.kind+' svc-'+key;
  let html='';
- if(key==='installation') html+=renderInstallation(d,en); else html+=renderDarkPage(d,en,key);
+ /* NOTE: เฉพาะ type=craft ใช้ Layout ใหม่ตามภาพอ้างอิง
+    หน้า installation และ polishing ใช้ระบบเดิมทั้งหมด */
+ if(key==='craft') html=renderCraftReference(d,en);
+ else if(key==='installation') html=renderInstallation(d,en);
+ else html=renderDarkPage(d,en,key);
  main.innerHTML=html;
  document.documentElement.lang=en?'en':'th';
  initServiceLightbox();
+ if(key==='craft') initCraftFinishSlider();
+}
+function renderCraftReference(d,en){
+ const finishItems=d.finishes||[];
+ const customItems=d.portfolio?.items||[];
+ const h=d.hero;
+ const process=d.process||[];
+ return `<div class="svc-craft-reference">
+   <section class="craft-hero">
+     <div class="craft-hero-media">
+       <img src="${esc(h.image)}" alt="${esc(text(h.title,en))}">
+     </div>
+     <div class="craft-hero-copy">
+       <div class="craft-hero-content">
+         <span class="craft-eyebrow">${en?'STONE CRAFT & FABRICATION':'STONE CRAFT & FABRICATION'}</span>
+         <h1>${en?'Stone Surface Finishes':'งานทำผิวหิน'}</h1>
+         <p>${esc(text(h.body,en))}</p>
+         <a class="craft-btn" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'} <span aria-hidden="true">→</span></a>
+       </div>
+     </div>
+   </section>
+
+   <section class="craft-finishes">
+     <div class="craft-wrap">
+       <div class="craft-section-head">
+         <span class="craft-eyebrow">${en?'STONE FINISHES':'STONE FINISHES'}</span>
+         <h2>${esc(text(d.title,en))}</h2>
+         <p>${esc(text(d.subtitle,en))}</p>
+       </div>
+       <div class="craft-slider" data-craft-slider>
+         <button class="craft-slider-btn prev" type="button" aria-label="${en?'Previous':'ก่อนหน้า'}" data-craft-prev>‹</button>
+         <div class="craft-slider-viewport">
+           <div class="craft-slider-track" data-craft-track>
+             ${finishItems.map(x=>`<article class="craft-finish-card">
+               <div class="craft-finish-image"><img src="${esc(img+'five-stone/'+x[4])}" alt="${esc(en?x[1]:x[0])}" loading="lazy"></div>
+               <div class="craft-finish-copy"><h3>${esc(en?x[1]:x[0])}</h3><p>${esc(en?x[3]:x[2])}</p></div>
+             </article>`).join('')}
+           </div>
+         </div>
+         <button class="craft-slider-btn next" type="button" aria-label="${en?'Next':'ถัดไป'}" data-craft-next>›</button>
+         <div class="craft-slider-dots" data-craft-dots aria-label="${en?'Slider position':'ตำแหน่งสไลด์'}"></div>
+       </div>
+     </div>
+   </section>
+
+   <section class="craft-custom">
+     <div class="craft-wrap">
+       <div class="craft-section-head">
+         <span class="craft-eyebrow">${en?'CUSTOM FABRICATION':'CUSTOM FABRICATION'}</span>
+         <h2>${esc(text(d.portfolio.title,en))}</h2>
+         <p>${en?'Designed and produced according to your detailed requirements.':'งานที่ออกแบบและผลิตตามรายละเอียดของคุณ'}</p>
+       </div>
+       <div class="craft-custom-grid">
+         ${customItems.map(x=>`<article class="craft-custom-card">
+           <img src="${esc(x[0])}" alt="${esc(text(x[1],en))}" loading="lazy">
+           <div class="craft-custom-card-copy">
+             <h3>${esc(text(x[1],en))}</h3>
+             <p>${esc(text(x[2],en))}</p>
+           </div>
+         </article>`).join('')}
+       </div>
+     </div>
+   </section>
+
+   <section class="craft-process">
+     <div class="craft-wrap">
+       <div class="craft-section-head">
+         <span class="craft-eyebrow">${en?'WORK PROCESS':'WORK PROCESS'}</span>
+         <h2>${en?'Work Process':'ขั้นตอนการทำงาน'}</h2>
+         <p>${en?'Clear steps from requirements to completed fabrication.':'ดูแลทุกขั้นตอน เพื่อให้งานคุณภาพสูงสุด'}</p>
+       </div>
+       <div class="craft-process-grid">
+         ${process.map((x,i)=>`<article class="craft-process-item">
+           <div class="craft-process-number">0${i+1}</div>
+           <h3>${esc(text(x[0],en))}</h3>
+           <p>${esc(text(x[1],en))}</p>
+         </article>`).join('')}
+       </div>
+     </div>
+   </section>
+ </div>`;
+}
+function initCraftFinishSlider(){
+ const slider=document.querySelector('[data-craft-slider]');
+ if(!slider) return;
+ const track=slider.querySelector('[data-craft-track]');
+ const prev=slider.querySelector('[data-craft-prev]');
+ const next=slider.querySelector('[data-craft-next]');
+ const dots=slider.querySelector('[data-craft-dots]');
+ if(!track || !prev || !next || !dots) return;
+ const cards=[...track.children];
+ const visible=3;
+ const maxIndex=Math.max(0,cards.length-visible);
+ let current=0;
+ dots.innerHTML=Array.from({length:maxIndex+1},(_,i)=>`<button type="button" class="craft-slider-dot${i===0?' is-active':''}" aria-label="ไปยังสไลด์ ${i+1}" data-index="${i}"></button>`).join('');
+ const update=()=>{
+   const first=cards[0];
+   const step=first ? first.getBoundingClientRect().width + parseFloat(getComputedStyle(track).gap||'0') : 0;
+   track.style.transform=`translateX(-${current*step}px)`;
+   prev.disabled=current===0;
+   next.disabled=current===maxIndex;
+   dots.querySelectorAll('.craft-slider-dot').forEach((dot,i)=>dot.classList.toggle('is-active',i===current));
+ };
+ prev.addEventListener('click',()=>{if(current>0){current--;update();}});
+ next.addEventListener('click',()=>{if(current<maxIndex){current++;update();}});
+ dots.addEventListener('click',e=>{
+   const btn=e.target.closest('[data-index]');
+   if(!btn) return;
+   current=Math.max(0,Math.min(maxIndex,Number(btn.dataset.index)));
+   update();
+ });
+ window.addEventListener('resize',update,{passive:true});
+ update();
 }
 function renderDarkPage(d,en,key){
  const h=d.hero;
