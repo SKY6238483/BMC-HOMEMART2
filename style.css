@@ -6731,8 +6731,7 @@ body.svc-lightbox-open{overflow:hidden}
 
   /* 4 — Five stone finishes: keep five cards in one row and
      enlarge the section/cards/images by about 20%. */
-  body.service-detail-page.svc-craft .svc-finishes .svc-wrap,
-  body.service-detail-page.svc-craft .svc-custom .svc-wrap{
+  body.service-detail-page.svc-craft .svc-finishes .svc-wrap{
     width:min(1344px,calc(100% - 96px));
   }
   body.service-detail-page.svc-craft .svc-finish-grid{
@@ -6745,6 +6744,46 @@ body.svc-lightbox-open{overflow:hidden}
     min-height:162px;
     padding:18px 16px 21px;
   }
+}
+
+/* 1 — Polishing / Craft portfolio collage on iPad:
+   use a clean 3+2 grid so the images do not overlap. Mobile is untouched. */
+@media (min-width:561px) and (max-width:1024px){
+  body.service-detail-page.svc-polishing .svc-collage,
+  body.service-detail-page.svc-craft .svc-collage{
+    width:100%;
+    height:auto;
+    min-height:0;
+    display:grid;
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    grid-template-rows:112px 112px;
+    gap:12px;
+    align-items:stretch;
+    margin:0 auto;
+    max-width:none;
+  }
+  body.service-detail-page.svc-polishing .svc-collage figure,
+  body.service-detail-page.svc-craft .svc-collage figure{
+    position:relative;
+    inset:auto;
+    width:auto;
+    height:auto;
+    min-width:0;
+    min-height:0;
+    transform:none;
+    border-width:2px;
+    border-radius:12px;
+  }
+  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(1),
+  body.service-detail-page.svc-craft .svc-collage figure:nth-child(1){grid-column:1 / span 2;grid-row:1;}
+  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(2),
+  body.service-detail-page.svc-craft .svc-collage figure:nth-child(2){grid-column:3 / span 2;grid-row:1;}
+  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(3),
+  body.service-detail-page.svc-craft .svc-collage figure:nth-child(3){grid-column:5 / span 2;grid-row:1;}
+  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(4),
+  body.service-detail-page.svc-craft .svc-collage figure:nth-child(4){grid-column:2 / span 2;grid-row:2;}
+  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(5),
+  body.service-detail-page.svc-craft .svc-collage figure:nth-child(5){grid-column:4 / span 2;grid-row:2;}
 }
 
 /* 5 — Custom fabrication on iPad: reduce the existing iPad image
