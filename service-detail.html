@@ -110,9 +110,9 @@ const services={
    ['ผิวปั่นแปรง (Antique)','Antique','แปรงและปรับผิวให้มีมิติและความเก่าอย่างตั้งใจ เหมาะกับงานตกแต่งที่ต้องการเอกลักษณ์','Brushed and aged for character and dimension in decorative applications.','antiquee.png']
   ],
   portfolio:{title:{th:'งานสั่งทำตามแบบ',en:'CUSTOM FABRICATION'},items:[
-   [about+'bookmatch.jpg',{th:'งานต่อลายหิน (Bookmatch)',en:'Bookmatching'},{th:'จัดเรียงแผ่นหินให้ลายต่อเนื่องเป็นภาพเดียวกันสำหรับผนัง เคาน์เตอร์ และงานตกแต่ง',en:'Arrange slabs so the veining flows as one continuous image across walls, counters and decorative work.'}],
-   [about+'waterjetf.jpg',{th:'งานตัดลายด้วยวอเตอร์เจ็ท',en:'Waterjet Cutting'},{th:'ตัดเส้นโค้ง ลวดลายละเอียด และรูปทรงพิเศษตามแบบด้วยความแม่นยำ',en:'Cut curves, intricate patterns and custom shapes with precision.'}],
-   [about+'lutus.jpg',{th:'งานบัวและงานขึ้นรูปแบบพิเศษ',en:'Custom Molding & Profiles'},{th:'บัวหิน เสาหิน จมูกบันได เซาะร่อง และรูปทรงพิเศษตามแบบงาน',en:'Stone moldings, columns, stair nosings, grooves and custom profiles.'}]
+   [about+'wax.jpg',{th:'งานต่อลายหิน (Bookmatch)',en:'Bookmatching'},{th:'จัดเรียงแผ่นหินให้ลายต่อเนื่องเป็นภาพเดียวกันสำหรับผนัง เคาน์เตอร์ และงานตกแต่ง',en:'Arrange slabs so the veining flows as one continuous image across walls, counters and decorative work.'}],
+   [about+'waterjet.png',{th:'งานตัดลายด้วยวอเตอร์เจ็ท',en:'Waterjet Cutting'},{th:'ตัดเส้นโค้ง ลวดลายละเอียด และรูปทรงพิเศษตามแบบด้วยความแม่นยำ',en:'Cut curves, intricate patterns and custom shapes with precision.'}],
+   [about+'shock.jpg',{th:'งานบัวและงานขึ้นรูปแบบพิเศษ',en:'Custom Molding & Profiles'},{th:'บัวหิน เสาหิน จมูกบันได เซาะร่อง และรูปทรงพิเศษตามแบบงาน',en:'Stone moldings, columns, stair nosings, grooves and custom profiles.'}]
   ]},
   process:[
    [{th:'รับความต้องการของลูกค้า',en:'Understand Requirements'},{th:'พูดคุยความต้องการ ตรวจแบบ และกำหนดขอบเขตงานให้ชัดเจนก่อนเริ่มผลิต',en:'Discuss requirements, review drawings and confirm the scope before production.'}],
@@ -150,11 +150,11 @@ const services={
   kind:'dark',
   hero:{image:about+'banner-polishing-solution.png',kicker:{th:'SERVICES',en:'SERVICES'},title:{th:'ฟื้นฟูพื้นผิวให้กลับมา\nสะอาดและสวยงาม',en:'Restore surfaces to a\nclean and beautiful finish'},body:{th:'เปลี่ยนพื้นผิวที่ดูหมองให้กลับมาดูมีชีวิตอีกครั้ง ด้วยการดูแลอย่างถูกวิธี และประสบการณ์ของทีมช่าง',en:'Bring tired surfaces back to life with the right care methods and experienced technicians.'}},
   portfolio:{title:{th:'ภาพงานขัดและดูแลพื้นผิว',en:'POLISHING & SURFACE CARE'},lead:{th:'ตัวอย่างงานขัด ทำความสะอาด และดูแลพื้นผิวหินด้วยอุปกรณ์และขั้นตอนที่เหมาะกับแต่ละวัสดุ',en:'Examples of stone cleaning, polishing and surface care using the right equipment and process for each material.'},items:[
-   [about+'polish1.jpg',{th:'ชุดอุปกรณ์และน้ำยาดูแลพื้นผิว',en:'Care products and equipment'}],
-   [about+'polish2.jpg',{th:'อุปกรณ์ขัดและเครื่องมือ',en:'Polishing tools'}],
-   [about+'polish3.jpg',{th:'เครื่องมือสำหรับงานขัด',en:'Polishing equipment'}],
-   [about+'polish4.jpg',{th:'การเตรียมอุปกรณ์หน้างาน',en:'On-site preparation'}],
-   [about+'polish5.jpg',{th:'ทีมช่างกำลังทำงาน',en:'Technician work'}]
+   [about+'banner-polishing-solution.png',{th:'ชุดอุปกรณ์และน้ำยาดูแลพื้นผิว',en:'Care products and equipment'}],
+   [about+'tools.jpg',{th:'อุปกรณ์ขัดและเครื่องมือ',en:'Polishing tools'}],
+   [about+'tools.png',{th:'เครื่องมือสำหรับงานขัด',en:'Polishing equipment'}],
+   [about+'wp-20140430-002.jpg',{th:'การเตรียมอุปกรณ์หน้างาน',en:'On-site preparation'}],
+   [about+'wp-20140430-003.jpg',{th:'ทีมช่างกำลังทำงาน',en:'Technician work'}]
   ]},
   process:[
    [{th:'ประเมินหน้างาน',en:'Site Assessment'},{th:'ตรวจสภาพพื้นผิวและคราบ พร้อมเลือกวิธีดูแลให้เหมาะกับวัสดุ',en:'Inspect the surface and stains, then choose the appropriate care method.'}],
@@ -233,11 +233,11 @@ function renderDarkPage(d,en,key){
 function renderInstallation(d,en){
  const h=d.hero;
  const steps=[
-  [d.process[0], about+'site.jpg','user'],
-  [d.process[1], about+'plan.jpg','plan'],
-  [d.process[2], about+'process.jpg','production'],
+  [d.process[0], about+'wp-20140501-001.jpg','user'],
+  [d.process[1], about+'catolog.jpg','plan'],
+  [d.process[2], about+'waterjet.png','production'],
   [d.process[3], about+'banner-installation.jpg','tools'],
-  [d.process[4], about+'inspection.jpg','check']
+  [d.process[4], about+'wp-20140501-003.jpg','check']
  ];
  return `<section class="svc-install-hero"><div class="svc-wrap"><div class="svc-install-photo"><img src="${esc(h.image)}" alt="${esc(text(h.title,en))}"></div><div class="svc-install-card"><span class="svc-eyebrow">${esc(text(h.kicker,en))}</span><h1>${esc(text(h.title,en)).replace(/\n/g,'<br>')}</h1><p>${esc(text(h.body,en))}</p><p>${en?'We coordinate materials, teams and schedule from preparation through final handover.':'ประสานงานวัสดุ ทีมช่าง และลำดับงานตั้งแต่เตรียมพื้นที่จนถึงตรวจส่งมอบอย่างเป็นระบบ'}</p><a class="svc-btn svc-btn-dark" href="index.html#contact">${en?'INQUIRE ABOUT SERVICE':'สอบถามบริการ'}</a></div></div></section>
 <section class="svc-install-process-v2"><div class="svc-wrap"><div class="svc-section-head svc-install-process-head"><span class="svc-eyebrow">${en?'WORK PROCESS':'ขั้นตอนการทำงาน'}</span><h2>${en?'Work Process':'ขั้นตอนการทำงาน'}</h2></div><div class="svc-install-process-grid">${steps.map((x,i)=>{const item=x[0], image=x[1], iconType=x[2]; return `<article class="svc-install-step"><div class="svc-install-step-icon">${icon(iconType)}</div><div class="svc-install-step-image"><img src="${esc(image)}" alt="${esc(text(item[0],en))}" loading="lazy"></div><div class="svc-install-step-content"><h3>${esc(text(item[0],en))}</h3><span class="svc-install-step-number">0${i+1}</span><p>${esc(text(item[1],en))}</p></div></article>`;}).join('')}</div></div></section>`;
