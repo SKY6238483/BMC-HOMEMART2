@@ -6545,49 +6545,55 @@ body.service-detail-page .svc-main{font-family:'Prompt',sans-serif}
 
 
 /* ---------- COLLAGE IMAGE POSITIONS ---------- */
+/* 
+   กลุ่มรูปภาพ Collage ของส่วนงานบริการ
+   จัดตำแหน่งใหม่ให้รูปทั้ง 5 ใบไม่ซ้อนทับกัน
+   และอยู่ภายในพื้นที่ของ Section โดยไม่ล้นจอ
+*/
 
-/* รูปที่ 1 */
+/* รูปที่ 1 — ซ้ายบน */
 .svc-collage-1{
-    width:145px;
-    height:112px;
+    width:135px;
+    height:105px;
     left:2%;
-    top:25px;
+    top:15px;
     transform:rotate(-1deg);
 }
 
-/* รูปที่ 2 */
+/* รูปที่ 2 — กลางบน */
 .svc-collage-2{
-    width:170px;
-    height:128px;
-    left:20%;
-    top:0;
-    transform:rotate(1deg);
-}
-
-/* รูปที่ 3 */
-.svc-collage-3{
     width:150px;
     height:114px;
-    right:0;
-    top:22px;
+    left:34%;
+    top:5px;
     transform:rotate(1deg);
 }
 
-/* รูปที่ 4 */
+/* รูปที่ 3 — ขวาบน */
+.svc-collage-3{
+    width:135px;
+    height:103px;
+    right:2%;
+    top:15px;
+    transform:rotate(1deg);
+}
+
+/* รูปที่ 4 — ซ้ายล่าง */
 .svc-collage-4{
-    width:145px;
-    height:113px;
-    left:-10%;
-    bottom:0;
+    width:135px;
+    height:105px;
+    left:10%;
+    bottom:5px;
     transform:rotate(-1deg);
 }
 
-/* รูปที่ 5 */
+/* รูปที่ 5 — กลางล่าง */
 .svc-collage-5{
-    width:150px;
-    height:145px;
-    left:-20%;
+    width:135px;
+    height:130px;
+    left:50%;
     bottom:0;
+    transform:translateX(-50%);
     transform:rotate(0);
 }
 
