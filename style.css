@@ -6683,178 +6683,137 @@ body.svc-lightbox-open{overflow:hidden}
 
 
 /* =========================================================
-   SERVICE DETAIL — REQUESTED DESKTOP / iPAD ADJUSTMENTS
-   Scoped to the requested service sections only.
-   No JavaScript, footer, text content, or unrelated sections changed.
+   USER REQUESTED SERVICE DETAIL LAYOUT FIXES
+   Only the requested sections are changed.
 ========================================================= */
-@media (min-width:1025px){
-  /* 1 & 3 — Polishing / Craft portfolio collage:
-     cleaner non-overlapping desktop composition only. */
-  body.service-detail-page.svc-polishing .svc-portfolio-dark,
-  body.service-detail-page.svc-craft .svc-portfolio-dark{
-    grid-template-columns:minmax(0,40%) minmax(0,60%);
-  }
-  body.service-detail-page.svc-polishing .svc-collage,
-  body.service-detail-page.svc-craft .svc-collage{
-    height:auto;
-    min-height:0;
+
+/* 1) Polishing — desktop + iPad: cleaner gallery, no heavy overlap.
+   Mobile keeps the existing collage unchanged. */
+@media (min-width:561px){
+  body.service-detail-page .svc-polishing .svc-collage{
+    height:360px;
+    max-width:620px;
     display:grid;
-    grid-template-columns:repeat(6,minmax(0,1fr));
-    grid-template-rows:150px 150px;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    grid-template-rows:repeat(2,minmax(0,1fr));
     gap:14px;
-    align-items:stretch;
-    max-width:600px;
     margin-left:auto;
   }
-  body.service-detail-page.svc-polishing .svc-collage figure,
-  body.service-detail-page.svc-craft .svc-collage figure{
+  body.service-detail-page .svc-polishing .svc-collage figure{
     position:relative;
     inset:auto;
     width:auto;
     height:auto;
-    min-width:0;
-    min-height:0;
-    transform:none;
-    border-width:3px;
-    border-radius:14px;
-  }
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(1),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(1){grid-column:1 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(2),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(2){grid-column:3 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(3),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(3){grid-column:5 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(4),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(4){grid-column:2 / span 2;grid-row:2;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(5),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(5){grid-column:4 / span 2;grid-row:2;}
-
-  /* 4 — Five stone finishes: keep five cards in one row and
-     enlarge the section/cards/images by about 20%. */
-  body.service-detail-page.svc-craft .svc-finishes .svc-wrap{
-    width:min(1344px,calc(100% - 96px));
-  }
-  body.service-detail-page.svc-craft .svc-finish-grid{
-    gap:14px;
-  }
-  body.service-detail-page.svc-craft .svc-finish-image{
-    height:178px;
-  }
-  body.service-detail-page.svc-craft .svc-finish-copy{
-    min-height:162px;
-    padding:18px 16px 21px;
-  }
-}
-
-/* 1 — Polishing / Craft portfolio collage on iPad:
-   use a clean 3+2 grid so the images do not overlap. Mobile is untouched. */
-@media (min-width:561px) and (max-width:1024px){
-  body.service-detail-page.svc-polishing .svc-collage,
-  body.service-detail-page.svc-craft .svc-collage{
-    width:100%;
-    height:auto;
-    min-height:0;
-    display:grid;
-    grid-template-columns:repeat(6,minmax(0,1fr));
-    grid-template-rows:112px 112px;
-    gap:12px;
-    align-items:stretch;
-    margin:0 auto;
-    max-width:none;
-  }
-  body.service-detail-page.svc-polishing .svc-collage figure,
-  body.service-detail-page.svc-craft .svc-collage figure{
-    position:relative;
-    inset:auto;
-    width:auto;
-    height:auto;
-    min-width:0;
-    min-height:0;
     transform:none;
     border-width:2px;
-    border-radius:12px;
+    border-radius:14px;
   }
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(1),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(1){grid-column:1 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(2),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(2){grid-column:3 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(3),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(3){grid-column:5 / span 2;grid-row:1;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(4),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(4){grid-column:2 / span 2;grid-row:2;}
-  body.service-detail-page.svc-polishing .svc-collage figure:nth-child(5),
-  body.service-detail-page.svc-craft .svc-collage figure:nth-child(5){grid-column:4 / span 2;grid-row:2;}
+  body.service-detail-page .svc-polishing .svc-collage-1{grid-column:1;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-2{grid-column:2;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-3{grid-column:3;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-4{grid-column:1 / span 2;grid-row:2;}
+  body.service-detail-page .svc-polishing .svc-collage-5{grid-column:3;grid-row:2;}
 }
 
-/* 5 — Custom fabrication on iPad: reduce the existing iPad image
-   frame/size by about 40%, and match typography to the other sections. */
-@media (min-width:561px) and (max-width:1024px){
-  body.service-detail-page.svc-craft .svc-custom .svc-wrap{
-    width:calc(100% - 32px);
-    max-width:none;
+/* 2) Stone finishes — computer only: slightly larger image frames,
+   while keeping all 5 cards in one row. */
+@media (min-width:1101px){
+  body.service-detail-page .svc-craft .svc-finish-grid{
+    gap:14px;
   }
-  body.service-detail-page.svc-craft .svc-custom-grid{
-    gap:9px;
+  body.service-detail-page .svc-craft .svc-finish-image{
+    height:180px;
   }
-  body.service-detail-page.svc-craft .svc-custom-grid article{
-    grid-template-columns:23% minmax(0,77%);
-    gap:10px;
-    min-width:0;
-  }
-  body.service-detail-page.svc-craft .svc-custom-grid img{
-    width:100%;
-    height:50px;
-    border-radius:7px;
-  }
-  body.service-detail-page.svc-craft .svc-custom-grid article > div{
-    min-width:0;
-  }
-  body.service-detail-page.svc-craft .svc-custom-grid h3{
-    font-size:10px;
-    line-height:1.25;
-    margin-bottom:4px;
-  }
-  body.service-detail-page.svc-craft .svc-custom-grid p{
-    font-size:7px;
-    line-height:1.45;
+  body.service-detail-page .svc-craft .svc-finish-copy{
+    min-height:145px;
+    padding:16px 14px 19px;
   }
 }
 
-/* 2 — Installation process on iPad: all five cards use the same
-   two-column sizing; the final card is centered at exactly one card width. */
-@media (min-width:561px) and (max-width:1024px){
-  body.service-detail-page.svc-installation .svc-install-process-grid{
-    grid-template-columns:repeat(2,minmax(0,1fr));
-    gap:20px;
-    width:100%;
-    max-width:none;
-  }
-  body.service-detail-page.svc-installation .svc-install-step{
-    grid-column:auto !important;
-    width:100%;
-    max-width:none !important;
-    min-width:0;
-    box-sizing:border-box;
-  }
-  body.service-detail-page.svc-installation .svc-install-step:nth-child(5){
-    grid-column:1 / 2 !important;
-    justify-self:stretch;
-  }
-  body.service-detail-page.svc-installation .svc-install-step-image{
-    width:100%;
-    max-width:100%;
-    box-sizing:border-box;
-  }
-}
-
-/* Prevent horizontal overflow in the requested tablet/desktop service
-   areas without altering the mobile composition. */
+/* 3) Custom fabrication — computer + iPad: larger image/frame,
+   with safe flexible widths so nothing can overflow. */
 @media (min-width:561px){
-  body.service-detail-page.svc-installation .svc-install-process-v2,
-  body.service-detail-page.svc-craft .svc-custom,
-  body.service-detail-page.svc-craft .svc-finishes,
-  body.service-detail-page.svc-polishing .svc-portfolio-dark,
-  body.service-detail-page.svc-craft .svc-portfolio-dark{
-    overflow-x:hidden;
+  body.service-detail-page .svc-craft .svc-custom-grid article{
+    grid-template-columns:minmax(0,48%) minmax(0,52%);
+    gap:28px;
   }
+  body.service-detail-page .svc-craft .svc-custom-grid img{
+    width:100%;
+    height:240px;
+    border:3px solid #d4c5b7;
+    border-radius:12px;
+    object-fit:cover;
+    box-sizing:border-box;
+  }
+  body.service-detail-page .svc-craft .svc-custom-grid h3{
+    font-size:22px;
+    line-height:1.35;
+  }
+  body.service-detail-page .svc-craft .svc-custom-grid p{
+    font-size:13px;
+    line-height:1.8;
+  }
+}
+
+/* 4) Installation — keep the desktop composition on iPad and phone
+   (3 cards across, then 2 centered), but scale safely to the viewport.
+   No horizontal overflow. */
+body.service-detail-page .svc-install-process-grid{
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:18px;
+}
+body.service-detail-page .svc-install-step:nth-child(-n+3){grid-column:span 2;}
+body.service-detail-page .svc-install-step:nth-child(4){grid-column:2 / span 2;}
+body.service-detail-page .svc-install-step:nth-child(5){grid-column:4 / span 2;}
+
+@media (min-width:561px) and (max-width:1100px){
+  body.service-detail-page .svc-install-process-grid{
+    gap:12px;
+  }
+  body.service-detail-page .svc-install-step{
+    padding:10px 9px 14px;
+  }
+  body.service-detail-page .svc-install-step-content h3{
+    font-size:18px;
+    padding-right:40px;
+  }
+  body.service-detail-page .svc-install-step-content p{
+    font-size:12px;
+    line-height:1.5;
+  }
+  body.service-detail-page .svc-install-step-image{
+    height:150px;
+  }
+  body.service-detail-page .svc-install-step-number{
+    font-size:30px;
+  }
+}
+
+@media (max-width:560px){
+  body.service-detail-page .svc-install-process-grid{
+    gap:5px;
+  }
+  body.service-detail-page .svc-install-step{
+    padding:7px 5px 10px;
+  }
+  body.service-detail-page .svc-install-step-content h3{
+    font-size:7px;
+    padding-right:25px;
+  }
+  body.service-detail-page .svc-install-step-content p{
+    font-size:4.8px;
+  }
+  body.service-detail-page .svc-install-step-image{
+    height:72px;
+  }
+  body.service-detail-page .svc-install-step-number{
+    font-size:14px;
+  }
+}
+
+/* Global overflow guard for the service-detail page only. */
+body.service-detail-page,
+body.service-detail-page .svc-main{
+  max-width:100%;
+  overflow-x:hidden;
 }
