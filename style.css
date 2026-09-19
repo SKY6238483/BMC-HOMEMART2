@@ -6680,3 +6680,140 @@ body.svc-lightbox-open{overflow:hidden}
  .svc-lightbox-image{max-width:96vw;max-height:82vh}
  .svc-lightbox-close{top:8px;right:8px;width:36px;height:36px;font-size:24px;line-height:32px}
 }
+
+
+/* =========================================================
+   USER REQUESTED SERVICE DETAIL LAYOUT FIXES
+   Only the requested sections are changed.
+========================================================= */
+
+/* 1) Polishing — desktop + iPad: cleaner gallery, no heavy overlap.
+   Mobile keeps the existing collage unchanged. */
+@media (min-width:561px){
+  body.service-detail-page .svc-polishing .svc-collage{
+    height:360px;
+    max-width:620px;
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    grid-template-rows:repeat(2,minmax(0,1fr));
+    gap:14px;
+    margin-left:auto;
+  }
+  body.service-detail-page .svc-polishing .svc-collage figure{
+    position:relative;
+    inset:auto;
+    width:auto;
+    height:auto;
+    transform:none;
+    border-width:2px;
+    border-radius:14px;
+  }
+  body.service-detail-page .svc-polishing .svc-collage-1{grid-column:1;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-2{grid-column:2;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-3{grid-column:3;grid-row:1;}
+  body.service-detail-page .svc-polishing .svc-collage-4{grid-column:1 / span 2;grid-row:2;}
+  body.service-detail-page .svc-polishing .svc-collage-5{grid-column:3;grid-row:2;}
+}
+
+/* 2) Stone finishes — computer only: slightly larger image frames,
+   while keeping all 5 cards in one row. */
+@media (min-width:1101px){
+  body.service-detail-page .svc-craft .svc-finish-grid{
+    gap:14px;
+  }
+  body.service-detail-page .svc-craft .svc-finish-image{
+    height:180px;
+  }
+  body.service-detail-page .svc-craft .svc-finish-copy{
+    min-height:145px;
+    padding:16px 14px 19px;
+  }
+}
+
+/* 3) Custom fabrication — computer + iPad: larger image/frame,
+   with safe flexible widths so nothing can overflow. */
+@media (min-width:561px){
+  body.service-detail-page .svc-craft .svc-custom-grid article{
+    grid-template-columns:minmax(0,48%) minmax(0,52%);
+    gap:28px;
+  }
+  body.service-detail-page .svc-craft .svc-custom-grid img{
+    width:100%;
+    height:240px;
+    border:3px solid #d4c5b7;
+    border-radius:12px;
+    object-fit:cover;
+    box-sizing:border-box;
+  }
+  body.service-detail-page .svc-craft .svc-custom-grid h3{
+    font-size:22px;
+    line-height:1.35;
+  }
+  body.service-detail-page .svc-craft .svc-custom-grid p{
+    font-size:13px;
+    line-height:1.8;
+  }
+}
+
+/* 4) Installation — keep the desktop composition on iPad and phone
+   (3 cards across, then 2 centered), but scale safely to the viewport.
+   No horizontal overflow. */
+body.service-detail-page .svc-install-process-grid{
+  grid-template-columns:repeat(6,minmax(0,1fr));
+  gap:18px;
+}
+body.service-detail-page .svc-install-step:nth-child(-n+3){grid-column:span 2;}
+body.service-detail-page .svc-install-step:nth-child(4){grid-column:2 / span 2;}
+body.service-detail-page .svc-install-step:nth-child(5){grid-column:4 / span 2;}
+
+@media (min-width:561px) and (max-width:1100px){
+  body.service-detail-page .svc-install-process-grid{
+    gap:12px;
+  }
+  body.service-detail-page .svc-install-step{
+    padding:10px 9px 14px;
+  }
+  body.service-detail-page .svc-install-step-content h3{
+    font-size:18px;
+    padding-right:40px;
+  }
+  body.service-detail-page .svc-install-step-content p{
+    font-size:12px;
+    line-height:1.5;
+  }
+  body.service-detail-page .svc-install-step-image{
+    height:150px;
+  }
+  body.service-detail-page .svc-install-step-number{
+    font-size:30px;
+  }
+}
+
+@media (max-width:560px){
+  body.service-detail-page .svc-install-process-grid{
+    gap:5px;
+  }
+  body.service-detail-page .svc-install-step{
+    padding:7px 5px 10px;
+  }
+  body.service-detail-page .svc-install-step-content h3{
+    font-size:7px;
+    padding-right:25px;
+  }
+  body.service-detail-page .svc-install-step-content p{
+    font-size:4.8px;
+  }
+  body.service-detail-page .svc-install-step-image{
+    height:72px;
+  }
+  body.service-detail-page .svc-install-step-number{
+    font-size:14px;
+  }
+}
+
+/* Global overflow guard for the service-detail page only. */
+body.service-detail-page,
+body.service-detail-page .svc-main{
+  max-width:100%;
+  overflow-x:hidden;
+}
