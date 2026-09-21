@@ -11421,12 +11421,12 @@ const BMC_CATALOG = [
     "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
   },
   {
-    "id": "solid-bamboo",
-    "name": "BAMBOO",
-    "nameEn": "BAMBOO",
-    "image": "./image/solid-wood/bamboo.jpg",
+    "id": "solid-1",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-1",
+    "image": "./image/solid-wood/oak-1.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo.jpg"
+      "./image/solid-wood/oak-1.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11439,99 +11439,9 @@ const BMC_CATALOG = [
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-beech",
-    "name": "beech-",
-    "nameEn": "beech-",
-    "image": "./image/solid-wood/beech.jpg",
-    "gallery": [
-      "./image/solid-wood/beech.jpg"
-    ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "categoryLabelEn": "Solid Wood",
-    "subcategory": "ไม้ Solid",
-    "subcategoryEn": "Solid Wood",
-    "price": 0,
-    "unit": "รายการ",
-    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
-  {
-    "id": "solid-kempus",
-    "name": "kempus",
-    "nameEn": "kempus",
-    "image": "./image/solid-wood/kempus.jpg",
-    "gallery": [
-      "./image/solid-wood/kempus.jpg"
-    ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "categoryLabelEn": "Solid Wood",
-    "subcategory": "ไม้ Solid",
-    "subcategoryEn": "Solid Wood",
-    "price": 0,
-    "unit": "รายการ",
-    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
-  {
-    "id": "solid-merbau",
-    "name": "MERBAU-",
-    "nameEn": "MERBAU-",
-    "image": "./image/solid-wood/merbau-2.jpg",
-    "gallery": [
-      "./image/solid-wood/merbau-2.jpg"
-    ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "categoryLabelEn": "Solid Wood",
-    "subcategory": "ไม้ Solid",
-    "subcategoryEn": "Solid Wood",
-    "price": 0,
-    "unit": "รายการ",
-    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
-  {
-    "id": "solid-merbau-2",
-    "name": "MERBAU",
-    "nameEn": "MERBAU",
-    "image": "./image/solid-wood/merbau.jpg",
-    "gallery": [
-      "./image/solid-wood/merbau.jpg"
-    ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "categoryLabelEn": "Solid Wood",
-    "subcategory": "ไม้ Solid",
-    "subcategoryEn": "Solid Wood",
-    "price": 0,
-    "unit": "รายการ",
-    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
-  {
-    "id": "solid-oak",
-    "name": "oak-",
-    "nameEn": "oak-",
-    "image": "./image/solid-wood/oak.jpg",
-    "gallery": [
-      "./image/solid-wood/oak.jpg"
-    ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "categoryLabelEn": "Solid Wood",
-    "subcategory": "ไม้ Solid",
-    "subcategoryEn": "Solid Wood",
-    "price": 0,
-    "unit": "รายการ",
-    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
-  {
-    "id": "solid-oak-2",
-    "name": "OAK",
-    "nameEn": "OAK",
+    "id": "solid-2",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-2",
     "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
       "./image/solid-wood/oak-2.jpg"
@@ -11547,12 +11457,12 @@ const BMC_CATALOG = [
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-tali",
-    "name": "TALI",
-    "nameEn": "TALI",
-    "image": "./image/solid-wood/tali.jpg",
+    "id": "solid-3",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-3",
+    "image": "./image/solid-wood/oak-3.jpg",
     "gallery": [
-      "./image/solid-wood/tali.jpg"
+      "./image/solid-wood/oak-3.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11565,12 +11475,12 @@ const BMC_CATALOG = [
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-tauari",
-    "name": "TAUARI",
-    "nameEn": "TAUARI",
-    "image": "./image/solid-wood/tauari.jpg",
+    "id": "solid-4",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-4",
+    "image": "./image/solid-wood/oak-4.jpg",
     "gallery": [
-      "./image/solid-wood/tauari.jpg"
+      "./image/solid-wood/oak-4.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11583,12 +11493,12 @@ const BMC_CATALOG = [
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-teak",
-    "name": "teak-",
-    "nameEn": "teak-",
-    "image": "./image/solid-wood/teak-2.jpg",
+    "id": "solid-5",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-5",
+    "image": "./image/solid-wood/oak-5.jpg",
     "gallery": [
-      "./image/solid-wood/teak-2.jpg"
+      "./image/solid-wood/oak-5.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -11601,6 +11511,96 @@ const BMC_CATALOG = [
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
   {
+    "id": "solid-6",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-6",
+    "image": "./image/solid-wood/oak-6.jpg",
+    "gallery": [
+      "./image/solid-wood/oak-6.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-7",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-7",
+    "image": "./image/solid-wood/oak-7.jpg",
+    "gallery": [
+      "./image/solid-wood/oak-7.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-8",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-8",
+    "image": "./image/solid-wood/oak-8.jpg",
+    "gallery": [
+      "./image/solid-wood/oak-8.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-9",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-9",
+    "image": "./image/solid-wood/oak-9.jpg",
+    "gallery": [
+      "./image/solid-wood/oak-9.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  {
+    "id": "solid-10",
+    "name": "ไม้โซลิค",
+    "nameEn": "Oak-10",
+    "image": "./image/solid-wood/oak-10.jpg",
+    "gallery": [
+      "./image/solid-wood/oak-10.jpg"
+    ],
+    "category": "solid",
+    "categoryLabel": "ไม้ Solid",
+    "categoryLabelEn": "Solid Wood",
+    "subcategory": "ไม้ Solid",
+    "subcategoryEn": "Solid Wood",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
+    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+  },
+  /*{
     "id": "solid-teak-2",
     "name": "TEAK",
     "nameEn": "TEAK",
@@ -11617,7 +11617,7 @@ const BMC_CATALOG = [
     "unit": "รายการ",
     "description": "ไม้พื้น Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับงานพื้นและตกแต่งภายใน",
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
+  },*/
   {
     "id": "furniture-kl5181310-8mm",
     "name": "KL5181310    （8mm）",
