@@ -301,7 +301,7 @@ function getProductById(id){
 }
 
 const categoryLabelsEn = {
-    all:'All Categories', natural:'Natural Stone', marble:'Marble', granite:'Granite', quartz:'Quartz', quartzite:'Quartzite', limestone:'Limestone', travertine:'Travertine', onyx:'Onyx', pool:'Pool Stone', mosaic:'Mosaic', 'compressed-marble':'Compressed Marble', terrazzo:'Terrazzo', solid:'Solid Wood', wpc:'WPC Wood', spc:'SPC Flooring', stair:'Stair Wood', engineered:'Engineered Wood', laminate:'Laminate Flooring', 'marble-tile':'Marble Tile', ceramic:'Ceramic Tile', porcelain:'Porcelain Tile', tile:'Tiles', furniture:'Furniture', pvc:'PVC Wood', door:'Doors', granite:'Granite'
+    all:'All Categories', natural:'Natural Stone', marble:'Marble', granite:'Granite', quartz:'Quartz', quartzite:'Quartzite', limestone:'Limestone', travertine:'Travertine', onyx:'Onyx', pool:'Pool Stone', mosaic:'Mosaic', 'compressed-marble':'Compressed Marble', terrazzo:'Terrazzo', crystal:'Crystal', solid:'Solid Wood', wpc:'WPC Wood', spc:'SPC Flooring', stair:'Stair Wood', engineered:'Engineered Wood', laminate:'Laminate Flooring', 'marble-tile':'Marble Tile', ceramic:'Ceramic Tile', porcelain:'Porcelain Tile', tile:'Tiles', furniture:'Furniture', pvc:'PVC Wood', door:'Doors', granite:'Granite'
 };
 const descriptionEnByCategory = {
  marble:'Natural marble with distinctive patterns, suitable for floors, walls, countertops and premium interiors.',
@@ -315,6 +315,7 @@ const descriptionEnByCategory = {
  quartz:'Quartz / engineered stone with a consistent surface and easy maintenance, ideal for countertops, island tops, tables and interiors.',
  'compressed-marble':'Compressed marble with consistent patterns and tones, suitable for floors, walls, countertops and decorative applications.',
  terrazzo:'Terrazzo with distinctive aggregate patterns, suitable for floors, walls, countertops and statement interiors.',
+ crystal:'Crystal stone for decorative applications, floors, walls and countertops, with distinctive patterns and surface character.',
  solid:'Solid wood flooring made from real wood with natural texture and grain, ideal for floors and interiors.',
  wpc:'WPC flooring for exterior areas and spaces requiring durable performance.',
  spc:'SPC flooring that is easy to maintain and suitable for interior applications.',
