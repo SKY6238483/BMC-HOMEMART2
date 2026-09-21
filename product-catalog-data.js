@@ -10395,11 +10395,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-1",
     "name": "ไม้เทียม SPC 1",
-    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/spc/bmc6002-1.png",
     "gallery": [
-      "./image/laminate-wood/201412221246063860.jpg",
-      "./image/laminate-wood/201412221246513588.jpg",
-      "./image/laminate-wood/201412221246586423.jpg"
+      "./image/spc/bmc6002-1.png",
+      "./image/spc/bmc6002-1.png",
+      "./image/spc/bmc6002-1.png"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10415,11 +10415,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-2",
     "name": "ไม้เทียม SPC 2",
-    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/spc/bmc6002-2.png",
     "gallery": [
-      "./image/laminate-wood/201412221246063860.jpg",
-      "./image/laminate-wood/201412221246513588.jpg",
-      "./image/laminate-wood/201412221246586423.jpg"
+      "./image/spc/bmc6002-2.png",
+      "./image/spc/bmc6002-2.png",
+      "./image/spc/bmc6002-2.png"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10435,11 +10435,11 @@ const BMC_CATALOG = [
   {
     "id": "spc-3",
     "name": "ไม้เทียม SPC 3",
-    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "image": "./image/spc/bmc6002-3.png",
     "gallery": [
-      "./image/laminate-wood/201412221246063860.jpg",
-      "./image/laminate-wood/201412221246513588.jpg",
-      "./image/laminate-wood/201412221246586423.jpg"
+      "./image/spc/bmc6002-3.png",
+      "./image/spc/bmc6002-3.png",
+      "./image/spc/bmc6002-3.png"
     ],
     "category": "spc",
     "categoryLabel": "ไม้เทียม SPC",
@@ -10448,6 +10448,86 @@ const BMC_CATALOG = [
     "unit": "รายการ",
     "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
     "nameEn": "SPC Wood 3",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+   {
+    "id": "spc-5",
+    "name": "ไม้เทียม SPC 4",
+    "image": "./image/spc/bmc6002-5.png",
+    "gallery": [
+      "./image/spc/bmc6002-5.png",
+      "./image/spc/bmc6002-5.png",
+      "./image/spc/bmc6002-5.png"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 4",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+   {
+    "id": "spc-5",
+    "name": "ไม้เทียม SPC 5",
+    "image": "./image/spc/bmc6002-7.png",
+    "gallery": [
+      "./image/spc/bmc6002-7.png",
+      "./image/spc/bmc6002-7.png",
+      "./image/spc/bmc6002-7.png"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 5",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+   {
+    "id": "spc-6",
+    "name": "ไม้เทียม SPC 6",
+    "image": "./image/spc/bmc6009-1.png",
+    "gallery": [
+      "./image/spc/bmc6009-1.png",
+      "./image/spc/bmc6009-1.png",
+      "./image/spc/bmc6009-1.png"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 6",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+   {
+    "id": "spc-7",
+    "name": "ไม้เทียม SPC 7",
+    "image": "./image/spc/bmc6009-2.png",
+    "gallery": [
+      "./image/spc/bmc6009-2.png",
+      "./image/spc/bmc6009-2.png",
+      "./image/spc/bmc6009-2.png"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 7",
     "categoryLabelEn": "SPC Wood",
     "subcategoryEn": "SPC Wood",
     "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
