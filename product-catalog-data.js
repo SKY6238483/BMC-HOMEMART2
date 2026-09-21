@@ -11422,7 +11422,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-1",
-    "name": "ไม้โซลิค",
+    "name": "Oak-1",
     "nameEn": "Oak-1",
     "image": "./image/solid-wood/oak-1.jpg",
     "gallery": [
@@ -11440,7 +11440,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-2",
-    "name": "ไม้โซลิค",
+    "name": "Oak-2",
     "nameEn": "Oak-2",
     "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
@@ -11458,7 +11458,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-3",
-    "name": "ไม้โซลิค",
+    "name": "Oak-3",
     "nameEn": "Oak-3",
     "image": "./image/solid-wood/oak-3.jpg",
     "gallery": [
@@ -11476,7 +11476,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-4",
-    "name": "ไม้โซลิค",
+    "name": "Oak-4",
     "nameEn": "Oak-4",
     "image": "./image/solid-wood/oak-4.jpg",
     "gallery": [
@@ -11494,7 +11494,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-5",
-    "name": "ไม้โซลิค",
+    "name": "Oak-5",
     "nameEn": "Oak-5",
     "image": "./image/solid-wood/oak-5.jpg",
     "gallery": [
@@ -11512,7 +11512,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-6",
-    "name": "ไม้โซลิค",
+    "name": "Oak-6",
     "nameEn": "Oak-6",
     "image": "./image/solid-wood/oak-6.jpg",
     "gallery": [
@@ -11530,7 +11530,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-7",
-    "name": "ไม้โซลิค",
+    "name": "Oak-7",
     "nameEn": "Oak-7",
     "image": "./image/solid-wood/oak-7.jpg",
     "gallery": [
@@ -11548,7 +11548,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-8",
-    "name": "ไม้โซลิค",
+    "name": "Oak-8",
     "nameEn": "Oak-8",
     "image": "./image/solid-wood/oak-8.jpg",
     "gallery": [
@@ -11566,7 +11566,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-9",
-    "name": "ไม้โซลิค",
+    "name": "Oak-9",
     "nameEn": "Oak-9",
     "image": "./image/solid-wood/oak-9.jpg",
     "gallery": [
@@ -11584,7 +11584,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-10",
-    "name": "ไม้โซลิค",
+    "name": "Oak-10",
     "nameEn": "Oak-10",
     "image": "./image/solid-wood/oak-10.jpg",
     "gallery": [
