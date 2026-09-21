@@ -9672,7 +9672,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Stair Wood",
     "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
-  /*{
+  {
     "id": "solid-6",
     "name": "oak-6",
     "image": "./image/solid-wood/oak-6.jpg",
@@ -9752,7 +9752,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Solid Wood",
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
-  {
+  /*{
     "id": "solid-10",
     "name": "oak-10",
     "image": "./image/solid-wood/oak-10.jpg",
