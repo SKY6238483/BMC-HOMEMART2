@@ -9575,11 +9575,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-1",
     "name": "Bamboo-",
-    "image": "./image/solid-wood/bamboo-2.jpg",
+    "image": "./image/solid-wood/oak-1.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-1.jpg",
+      "./image/solid-wood/oak-1.jpg",
+      "./image/solid-wood/oak-1.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9595,11 +9595,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-2",
     "name": "BAMBOO",
-    "image": "./image/solid-wood/bamboo.jpg",
+    "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-2.jpg",
+      "./image/solid-wood/oak-2.jpg",
+      "./image/solid-wood/oak-2.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9615,11 +9615,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-3",
     "name": "beech-",
-    "image": "./image/solid-wood/beech.jpg",
+    "image": "./image/solid-wood/oak-3.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-3.jpg",
+      "./image/solid-wood/oak-3.jpg",
+      "./image/solid-wood/oak-3.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9635,11 +9635,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-4",
     "name": "kempus",
-    "image": "./image/solid-wood/kempus.jpg",
+    "image": "./image/solid-wood/oak-4.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-4.jpg",
+      "./image/solid-wood/oak-4.jpg",
+      "./image/solid-wood/oak-4.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9655,11 +9655,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-5",
     "name": "MERBAU-",
-    "image": "./image/solid-wood/merbau-2.jpg",
+    "image": "./image/solid-wood/oak-5.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-5.jpg",
+      "./image/solid-wood/oak-5.jpg",
+      "./image/solid-wood/oak-5.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9675,11 +9675,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-6",
     "name": "MERBAU",
-    "image": "./image/solid-wood/merbau.jpg",
+    "image": "./image/solid-wood/oak-6.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-6.jpg",
+      "./image/solid-wood/oak-6.jpg",
+      "./image/solid-wood/oak-6.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9695,11 +9695,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-7",
     "name": "oak-",
-    "image": "./image/solid-wood/oak.jpg",
+    "image": "./image/solid-wood/oak-7.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-7.jpg",
+      "./image/solid-wood/oak-7.jpg",
+      "./image/solid-wood/oak-7.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9715,11 +9715,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-8",
     "name": "OAK",
-    "image": "./image/solid-wood/oak-2.jpg",
+    "image": "./image/solid-wood/oak-8.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-8.jpg",
+      "./image/solid-wood/oak-8.jpg",
+      "./image/solid-wood/oak-8.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9735,11 +9735,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-9",
     "name": "TALI",
-    "image": "./image/solid-wood/tali.jpg",
+    "image": "./image/solid-wood/oak-9.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-9.jpg",
+      "./image/solid-wood/oak-9.jpg",
+      "./image/solid-wood/oak-9.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
@@ -9755,11 +9755,11 @@ const BMC_CATALOG = [
   {
     "id": "solid-10",
     "name": "TAUARI",
-    "image": "./image/solid-wood/tauari.jpg",
+    "image": "./image/solid-wood/oak-10.jpg",
     "gallery": [
-      "./image/solid-wood/bamboo-2.jpg",
-      "./image/solid-wood/bamboo.jpg",
-      "./image/solid-wood/beech.jpg"
+      "./image/solid-wood/oak-10.jpg",
+      "./image/solid-wood/oak-10.jpg",
+      "./image/solid-wood/oak-10.jpg"
     ],
     "category": "solid",
     "categoryLabel": "ไม้ Solid",
