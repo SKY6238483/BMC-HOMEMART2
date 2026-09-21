@@ -6510,7 +6510,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "04",
+    "nameEn": "efs_8502",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6531,7 +6531,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "oak-litte white",
+    "nameEn": "efs_8503",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6552,7 +6552,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "Walnut -",
+    "nameEn": "efs_8504",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6573,7 +6573,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "1(1)",
+    "nameEn": "efs-10113",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6594,7 +6594,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "maple",
+    "nameEn": "efs-10130",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6615,7 +6615,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "oak",
+    "nameEn": "efs-10411",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6636,7 +6636,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "IMG_8502",
+    "nameEn": "efs-20102",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -6657,7 +6657,7 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "ตร.ม.",
     "description": "ไม้ Engineered สำหรับงานพื้น ให้ความอบอุ่นเป็นธรรมชาติ เหมาะกับบ้านพักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "3(1)",
+    "nameEn": "efs-30201",
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
@@ -9573,106 +9573,106 @@ const BMC_CATALOG = [
     "descriptionEn": "Terrazzo with distinctive aggregate patterns, suitable for floors, walls and decorative surfaces."
   },
   {
-    "id": "solid-1",
-    "name": "oak-1",
-    "image": "./image/solid-wood/oak-1.jpg",
+    "id": "stair-1",
+    "name": "ไม้บันไดสั่งทำตามรูปแบบ#1",
+    "image": "./image/stair-wood/stair-1.jpg",
     "gallery": [
-      "./image/solid-wood/oak-1.jpg",
-      "./image/solid-wood/oak-1.jpg",
-      "./image/solid-wood/oak-1.jpg"
+      "./image/stair-wood/stair-1.jpg",
+      "./image/stair-wood/stair-1.jpg",
+      "./image/stair-wood/stair-1.jpg"
     ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "subcategory": "ไม้ Solid",
+    "category": "stair",
+    "categoryLabel": "ไม้บันได]",
+    "subcategory": "ไม้บันได",
     "price": 0,
     "unit": "รายการ",
-    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "Bamboo-",
-    "categoryLabelEn": "Solid Wood",
-    "subcategoryEn": "Solid Wood",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+    "description": "ไม้บันไดสั่งทำ ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Tailor-Made Timber Steps #1",
+    "categoryLabelEn": "Stair Wood",
+    "subcategoryEn": "Stair Wood",
+    "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-2",
-    "name": "oak-2",
-    "image": "./image/solid-wood/oak-2.jpg",
+    "id": "stair-2",
+    "name": "ไม้บันไดสั่งทำตามรูปแบบ#2",
+    "image": "./image/stair-wood/stair-2.jpg",
     "gallery": [
-      "./image/solid-wood/oak-2.jpg",
-      "./image/solid-wood/oak-2.jpg",
-      "./image/solid-wood/oak-2.jpg"
+      "./image/stair-wood/stair-2.jpg",
+      "./image/stair-wood/stair-2.jpg",
+      "./image/stair-wood/stair-2.jpg"
     ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "subcategory": "ไม้ Solid",
+    "category": "stair",
+    "categoryLabel": "ไม้บันได",
+    "subcategory": "ไม้บันได",
     "price": 0,
     "unit": "รายการ",
-    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "BAMBOO",
-    "categoryLabelEn": "Solid Wood",
-    "subcategoryEn": "Solid Wood",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+    "description": "ไม้บันไดสั่งทำ ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Tailor-Made Timber Steps #2",
+    "categoryLabelEn": "Stair Wood",
+    "subcategoryEn": "Stair Wood",
+    "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-3",
-    "name": "oak-3",
-    "image": "./image/solid-wood/oak-3.jpg",
+    "id": "stair-3",
+    "name": "ไม้บันไดสั่งทำตามรูปแบบ#3",
+    "image": "./image/stair-wood/stair-3.jpg",
     "gallery": [
-      "./image/solid-wood/oak-3.jpg",
-      "./image/solid-wood/oak-3.jpg",
-      "./image/solid-wood/oak-3.jpg"
+      "./image/stair-wood/stair-3.jpg",
+      "./image/stair-wood/stair-3.jpg",
+      "./image/stair-wood/stair-3.jpg"
     ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "subcategory": "ไม้ Solid",
+    "category": "stair",
+    "categoryLabel": "ไม้บันได",
+    "subcategory": "ไม้บันได",
     "price": 0,
     "unit": "รายการ",
-    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "beech-",
-    "categoryLabelEn": "Solid Wood",
-    "subcategoryEn": "Solid Wood",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+    "description": "ไม้บันไดสั่งทำ ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Tailor-Made Timber Steps #3",
+    "categoryLabelEn": "Stair Wood",
+    "subcategoryEn": "Stair Wood",
+    "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-4",
-    "name": "oak-4",
-    "image": "./image/solid-wood/oak-4.jpg",
+    "id": "stair-4",
+    "name": "ไม้บันไดสั่งทำตามรูปแบบ#4",
+    "image": "./image/stair-wood/stair-4.jpg",
     "gallery": [
-      "./image/solid-wood/oak-4.jpg",
-      "./image/solid-wood/oak-4.jpg",
-      "./image/solid-wood/oak-4.jpg"
+      "./image/stair-wood/stair-4.jpg",
+      "./image/stair-wood/stair-4.jpg",
+      "./image/stair-wood/stair-4.jpg"
     ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "subcategory": "ไม้ Solid",
+    "category": "stair",
+    "categoryLabel": "ไม้บันได",
+    "subcategory": "ไม้บันได",
     "price": 0,
     "unit": "รายการ",
-    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "kempus",
-    "categoryLabelEn": "Solid Wood",
-    "subcategoryEn": "Solid Wood",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+    "description": "ไม้บันไดสั่งทำ ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Tailor-Made Timber Steps #4",
+    "categoryLabelEn": "Stair Wood",
+    "subcategoryEn": "Stair Wood",
+    "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
   {
-    "id": "solid-5",
-    "name": "oak-5",
-    "image": "./image/solid-wood/oak-5.jpg",
+    "id": "stair-5",
+    "name": "ไม้บันไดสั่งทำตามรูปแบบ#5",
+    "image": "./image/stair-wood/stair-5.jpg",
     "gallery": [
-      "./image/solid-wood/oak-5.jpg",
-      "./image/solid-wood/oak-5.jpg",
-      "./image/solid-wood/oak-5.jpg"
+      "./image/stair-wood/stair-5.jpg",
+      "./image/stair-wood/stair-5.jpg",
+      "./image/stair-wood/stair-5.jpg"
     ],
-    "category": "solid",
-    "categoryLabel": "ไม้ Solid",
-    "subcategory": "ไม้ Solid",
+    "category": "stair",
+    "categoryLabel": "ไม้บันได",
+    "subcategory": "ไม้บันได",
     "price": 0,
     "unit": "รายการ",
-    "description": "พื้นไม้ Solid ผลิตจากไม้จริง ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
-    "nameEn": "MERBAU-",
-    "categoryLabelEn": "Solid Wood",
-    "subcategoryEn": "Solid Wood",
-    "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
+    "description": "ไม้บันไดสั่งทำ ให้สัมผัสและลวดลายธรรมชาติ เหมาะสำหรับพื้นที่พักอาศัยและงานตกแต่งภายใน",
+    "nameEn": "Tailor-Made Timber Steps #5",
+    "categoryLabelEn": "Stair Wood",
+    "subcategoryEn": "Stair Wood",
+    "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
-  {
+  /*{
     "id": "solid-6",
     "name": "oak-6",
     "image": "./image/solid-wood/oak-6.jpg",
@@ -9811,7 +9811,7 @@ const BMC_CATALOG = [
     "categoryLabelEn": "Solid Wood",
     "subcategoryEn": "Solid Wood",
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
-  },
+  },*/
   {
     "id": "furniture-1",
     "name": "KL514011",
