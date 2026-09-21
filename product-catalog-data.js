@@ -10172,296 +10172,286 @@ const BMC_CATALOG = [
     "subcategoryEn": "Furniture",
     "descriptionEn": "Furniture selected for homes and interior projects, balancing design and material suitability."
   },
-{
-  "id": "wpc-1",
-  "name": "bmc6002-3_0",
-  "image": "./image/wpc/bmc6002-3_0.png",
-  "gallery": [
-    "./image/wpc/bmc6002-3_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6002-3_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-2",
-  "name": "bmc6002-5_0",
-  "image": "./image/wpc/bmc6002-5_0.png",
-  "gallery": [
-    "./image/wpc/bmc6002-5_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6002-5_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-3",
-  "name": "bmc6002-7_0",
-  "image": "./image/wpc/bmc6002-7_0.png",
-  "gallery": [
-    "./image/wpc/bmc6002-7_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6002-7_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-4",
-  "name": "bmc6009-1_0",
-  "image": "./image/wpc/bmc6009-1_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-1_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-1_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-5",
-  "name": "bmc6009-2_0",
-  "image": "./image/wpc/bmc6009-2_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-2_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-2_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-6",
-  "name": "bmc6009-3_0",
-  "image": "./image/wpc/bmc6009-3_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-3_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-3_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-7",
-  "name": "bmc6009-4_0",
-  "image": "./image/wpc/bmc6009-4_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-4_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-4_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-8",
-  "name": "bmc6009-5_0",
-  "image": "./image/wpc/bmc6009-5_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-5_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-5_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-9",
-  "name": "bmc6009-6_0",
-  "image": "./image/wpc/bmc6009-6_0.png",
-  "gallery": [
-    "./image/wpc/bmc6009-6_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6009-6_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-{
-  "id": "wpc-10",
-  "name": "bmc6010-1_0",
-  "image": "./image/wpc/bmc6010-1_0.png",
-  "gallery": [
-    "./image/wpc/bmc6010-1_0.png"
-  ],
-  "category": "wpc",
-  "categoryLabel": "ไม้เทียม WPC",
-  "subcategory": "ไม้เทียม WPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม WPC สำหรับงานภายนอกและพื้นที่ที่ต้องการความทนทานต่อแดด ฝน และการใช้งาน",
-  "nameEn": "bmc6010-1_0",
-  "categoryLabelEn": "WPC Wood",
-  "subcategoryEn": "WPC Wood",
-  "descriptionEn": "WPC wood for exterior and high-durability applications, designed for sun, rain and regular use."
-},
-,
-{
-  "id": "spc-1",
-  "name": "bmc6002",
-  "image": "./image/spc/bmc6002-1.png",
-  "gallery": [
-    "./image/spc/bmc6002-1.png",
-    "./image/spc/bmc6002-2.png",
-    "./image/spc/bmc6002-3.png",
-    "./image/spc/bmc6002-5.png",
-    "./image/spc/bmc6002-7.png"
-  ],
-  "category": "spc",
-  "categoryLabel": "ไม้เทียม SPC",
-  "subcategory": "ไม้เทียม SPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม SPC สำหรับงานพื้นภายในอาคาร ทนความชื้น ดูแลรักษาง่าย และเหมาะกับพื้นที่ที่ต้องการความทนทาน",
-  "nameEn": "bmc6002",
-  "categoryLabelEn": "SPC Wood",
-  "subcategoryEn": "SPC Wood",
-  "descriptionEn": "SPC flooring for interior applications, moisture-resistant, easy to maintain and suitable for durable everyday use."
-},
-{
-  "id": "spc-2",
-  "name": "bmc6009",
-  "image": "./image/spc/bmc6009-1.png",
-  "gallery": [
-    "./image/spc/bmc6009-1.png",
-    "./image/spc/bmc6009-2.png",
-    "./image/spc/bmc6009-3.png",
-    "./image/spc/bmc6009-4.png",
-    "./image/spc/bmc6009-5.png",
-    "./image/spc/bmc6009-6.png"
-  ],
-  "category": "spc",
-  "categoryLabel": "ไม้เทียม SPC",
-  "subcategory": "ไม้เทียม SPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม SPC สำหรับงานพื้นภายในอาคาร ทนความชื้น ดูแลรักษาง่าย และเหมาะกับพื้นที่ที่ต้องการความทนทาน",
-  "nameEn": "bmc6009",
-  "categoryLabelEn": "SPC Wood",
-  "subcategoryEn": "SPC Wood",
-  "descriptionEn": "SPC flooring for interior applications, moisture-resistant, easy to maintain and suitable for durable everyday use."
-},
-{
-  "id": "spc-3",
-  "name": "bmc6010",
-  "image": "./image/spc/bmc6010-1.png",
-  "gallery": [
-    "./image/spc/bmc6010-1.png",
-    "./image/spc/bmc6010-4.png",
-    "./image/spc/bmc6010-6.png",
-    "./image/spc/bmc6010-7.png"
-  ],
-  "category": "spc",
-  "categoryLabel": "ไม้เทียม SPC",
-  "subcategory": "ไม้เทียม SPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม SPC สำหรับงานพื้นภายในอาคาร ทนความชื้น ดูแลรักษาง่าย และเหมาะกับพื้นที่ที่ต้องการความทนทาน",
-  "nameEn": "bmc6010",
-  "categoryLabelEn": "SPC Wood",
-  "subcategoryEn": "SPC Wood",
-  "descriptionEn": "SPC flooring for interior applications, moisture-resistant, easy to maintain and suitable for durable everyday use."
-},
-{
-  "id": "spc-4",
-  "name": "bmc6018",
-  "image": "./image/spc/bmc6018-10.png",
-  "gallery": [
-    "./image/spc/bmc6018-10.png",
-    "./image/spc/bmc6018-12.png",
-    "./image/spc/bmc6018-6.png",
-    "./image/spc/bmc6018-9.png"
-  ],
-  "category": "spc",
-  "categoryLabel": "ไม้เทียม SPC",
-  "subcategory": "ไม้เทียม SPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม SPC สำหรับงานพื้นภายในอาคาร ทนความชื้น ดูแลรักษาง่าย และเหมาะกับพื้นที่ที่ต้องการความทนทาน",
-  "nameEn": "bmc6018",
-  "categoryLabelEn": "SPC Wood",
-  "subcategoryEn": "SPC Wood",
-  "descriptionEn": "SPC flooring for interior applications, moisture-resistant, easy to maintain and suitable for durable everyday use."
-},
-{
-  "id": "spc-5",
-  "name": "bmc6109",
-  "image": "./image/spc/bmc6109-1.png",
-  "gallery": [
-    "./image/spc/bmc6109-1.png",
-    "./image/spc/bmc6109-2.png",
-    "./image/spc/bmc6109-3.png",
-    "./image/spc/bmc6109-4.png",
-    "./image/spc/bmc6109-5.png"
-  ],
-  "category": "spc",
-  "categoryLabel": "ไม้เทียม SPC",
-  "subcategory": "ไม้เทียม SPC",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "ไม้เทียม SPC สำหรับงานพื้นภายในอาคาร ทนความชื้น ดูแลรักษาง่าย และเหมาะกับพื้นที่ที่ต้องการความทนทาน",
-  "nameEn": "bmc6109",
-  "categoryLabelEn": "SPC Wood",
-  "subcategoryEn": "SPC Wood",
-  "descriptionEn": "SPC flooring for interior applications, moisture-resistant, easy to maintain and suitable for durable everyday use."
-},
+  {
+    "id": "wpc-1",
+    "name": "BMC6002-3_0",
+    "image": "./image/wpc/bmc6002-3_0.png",
+    "gallery": [
+      "./image//wpc/bmc6002-3_0.png",
+      "./image//wpc/bmc6002-3_0.png",
+      "./image//wpc/bmc6002-3_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6002-3_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+  {
+    "id": "wpc-2",
+    "name": "BMC6002-5_0",
+    "image": "./image/wpc/bmc6002-5_0.png",
+    "gallery": [
+      "./image/wpc/bmc6002-5_0.png",
+      "./image/wpc/bmc6002-5_0.png",
+      "./image/wpc/bmc6002-5_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6002-5_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+  {
+    "id": "wpc-3",
+    "name": "BMC6002-7_0",
+    "image": "./image/wpc/bmc6002-7_0.png",
+    "gallery": [
+      "./image/wpc/bmc6002-7_0.png",
+      "./image/wpc/bmc6002-7_0.png",
+      "./image/wpc/bmc6002-7_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6002-7_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-4",
+    "name": "BMC6009-1_0",
+    "image": "./image/wpc/bmc6009-1_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-7_0.png",
+      "./image/wpc/bmc6009-7_0.png",
+      "./image/wpc/bmc6009-7_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-1_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+  {
+    "id": "wpc-5",
+    "name": "BMC6009-2_0",
+    "image": "./image/wpc/bmc6009-2_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-2_0.png",
+      "./image/wpc/bmc6009-2_0.png",
+      "./image/wpc/bmc6009-2_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-2_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-6",
+    "name": "BMC6009-3_0",
+    "image": "./image/wpc/bmc6009-3_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-3_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-7",
+    "name": "BMC6009-3_0",
+    "image": "./image/wpc/bmc6009-3_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-3_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-8",
+    "name": "BMC6009-4_0",
+    "image": "./image/wpc/bmc6009-4_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-4_0.png",
+      "./image/wpc/bmc6009-4_0.png",
+      "./image/wpc/bmc6009-4_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-4_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-9",
+    "name": "BMC6009-2_0",
+    "image": "./image/wpc/bmc6009-5_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-5_0.png",
+      "./image/wpc/bmc6009-5_0.png",
+      "./image/wpc/bmc6009-5_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-5_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-10",
+    "name": "BMC6009-6_0",
+    "image": "./image/wpc/bmc6009-6_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-6_0.png",
+      "./image/wpc/bmc6009-6_0.png",
+      "./image/wpc/bmc6009-6_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-6_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-11",
+    "name": "BMC60010-1_0",
+    "image": "./image/wpc/bmc60010-1_0.png",
+    "gallery": [
+      "./image/wpc/bmc60010-1_0.png",
+      "./image/wpc/bmc60010-1_0.png",
+      "./image/wpc/bmc60010-1_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC60010-1_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+  {
+    "id": "spc-1",
+    "name": "ไม้เทียม SPC 1",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "gallery": [
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 1",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+  {
+    "id": "spc-2",
+    "name": "ไม้เทียม SPC 2",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "gallery": [
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 2",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
+  {
+    "id": "spc-3",
+    "name": "ไม้เทียม SPC 3",
+    "image": "./image/laminate-wood/201412221246063860.jpg",
+    "gallery": [
+      "./image/laminate-wood/201412221246063860.jpg",
+      "./image/laminate-wood/201412221246513588.jpg",
+      "./image/laminate-wood/201412221246586423.jpg"
+    ],
+    "category": "spc",
+    "categoryLabel": "ไม้เทียม SPC",
+    "subcategory": "ไม้เทียม SPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม SPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม SPC",
+    "nameEn": "SPC Wood 3",
+    "categoryLabelEn": "SPC Wood",
+    "subcategoryEn": "SPC Wood",
+    "descriptionEn": "SPC wood for decorative and project applications. Replace the current sample images with actual product images when the SPC product folder is available."
+  },
   {
     "id": "ceramic-1",
     "name": "กระเบื้องเซรามิก 1",
@@ -13570,61 +13560,59 @@ const BMC_CATALOG = [
     "subcategoryEn": "Granite",
     "descriptionEn": "Granite for floors, walls, countertops and decorative applications, offering strength and durability for homes and projects."
   },
-{
-  "id": "crystal-1",
-  "name": "CC0001 Crystal White",
-  "image": "./image/crystal/cc0001-crystal-white.jpg",
-  "gallery": [
-    "./image/crystal/cc0001-crystal-white.jpg",
-    "./image/crystal/cc0001.png",
-    "./image/crystal/cc0002.png"
-  ],
-  "category": "crystal",
-  "categoryLabel": "หินคริสตัล",
-  "subcategory": "หินคริสตัล",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "หินคริสตัลสำหรับงานตกแต่ง พื้น ผนัง และเคาน์เตอร์ มีลวดลายและผิวสัมผัสที่โดดเด่น",
-  "nameEn": "CC0001 Crystal White",
-  "categoryLabelEn": "Crystal",
-  "subcategoryEn": "Crystal",
-  "descriptionEn": "Crystal stone for decorative applications, floors, walls and countertops, with distinctive patterns and surface character."
-},
-{
-  "id": "crystal-2",
-  "name": "CC0001",
-  "image": "./image/crystal/cc0001.png",
-  "gallery": [
-    "./image/crystal/cc0001.png"
-  ],
-  "category": "crystal",
-  "categoryLabel": "หินคริสตัล",
-  "subcategory": "หินคริสตัล",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "หินคริสตัล CC0001 สำหรับงานตกแต่งและโครงการ",
-  "nameEn": "CC0001",
-  "categoryLabelEn": "Crystal",
-  "subcategoryEn": "Crystal",
-  "descriptionEn": "CC0001 crystal stone for decorative and project applications."
-},
-{
-  "id": "crystal-3",
-  "name": "CC0002",
-  "image": "./image/crystal/cc0002.png",
-  "gallery": [
-    "./image/crystal/cc0002.png"
-  ],
-  "category": "crystal",
-  "categoryLabel": "หินคริสตัล",
-  "subcategory": "หินคริสตัล",
-  "price": 0,
-  "unit": "รายการ",
-  "description": "หินคริสตัล CC0002 สำหรับงานตกแต่งและโครงการ",
-  "nameEn": "CC0002",
-  "categoryLabelEn": "Crystal",
-  "subcategoryEn": "Crystal",
-  "descriptionEn": "CC0002 crystal stone for decorative and project applications."
-}
+  {
+    "id": "crytral-1",
+    "name": "CC0001 Crystral White",
+    "image": "./image/crystal/cc0001-crystal-white.jpg",
+    "gallery": [
+      "./image/crystal/cc0001-crystal-white.jpg"
+    ],
+    "category": "crystal",
+    "categoryLabel": "หินคริสตัล",
+    "subcategory": "Crystal",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินแกรนิตสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง มีความแข็งแรงและทนทาน เหมาะสำหรับงานบ้านและโครงการ",
+    "nameEn": "CC0001 Crystral White",
+    "categoryLabelEn": "Crystral",
+    "subcategoryEn": "Crystral",
+    "descriptionEn": "Granite for floors, walls, countertops and decorative applications, offering strength and durability for homes and projects."
+  },
+  {
+    "id": "crytral-2",
+    "name": "CC0001",
+    "image": "./image/crystal/cc0001.png",
+    "gallery": [
+      "./image/crystal/cc0001.png"
+    ],
+    "category": "crystal",
+    "categoryLabel": "หินคริสตัล",
+    "subcategory": "Crystal",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินแกรนิตสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง มีความแข็งแรงและทนทาน เหมาะสำหรับงานบ้านและโครงการ",
+    "nameEn": "CC0001",
+    "categoryLabelEn": "Crystral",
+    "subcategoryEn": "Crystral",
+    "descriptionEn": "Granite for floors, walls, countertops and decorative applications, offering strength and durability for homes and projects."
+  },
+  {
+    "id": "crytral-3",
+    "name": "CC0002",
+    "image": "./image/crystal/cc0002.png",
+    "gallery": [
+      "./image/crystal/cc0002.png"
+    ],
+    "category": "crystal",
+    "categoryLabel": "หินคริสตัล",
+    "subcategory": "Crystal",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "หินแกรนิตสำหรับงานพื้น ผนัง เคาน์เตอร์ และงานตกแต่ง มีความแข็งแรงและทนทาน เหมาะสำหรับงานบ้านและโครงการ",
+    "nameEn": "CC0002",
+    "categoryLabelEn": "Crystral",
+    "subcategoryEn": "Crystral",
+    "descriptionEn": "Granite for floors, walls, countertops and decorative applications, offering strength and durability for homes and projects."
+  }
 
 ];
