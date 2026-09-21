@@ -6496,13 +6496,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-304",
-    "name": "04",
-    "image": "./image/engineered-wood/04.jpg",
+    "name": "efs_8502",
+    "image": "./image/engineered-wood/efs_8502.jpg",
     "gallery": [
-      "./image/engineered-wood/04.jpg",
-      "./image/engineered-wood/oak-litte-white.jpg",
-      "./image/engineered-wood/walnut.jpg",
-      "./image/engineered-wood/1-1.jpg"
+      "./image/engineered-wood/efs_8502.jpg",
+      "./image/engineered-wood/efs_8502.jpg",
+      "./image/engineered-wood/efs_8502.jpg",
+      "./image/engineered-wood/efs_8502.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6517,13 +6517,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-305",
-    "name": "oak-litte white",
-    "image": "./image/engineered-wood/oak-litte-white.jpg",
+    "name": "efs_8503",
+    "image": "./image/engineered-wood/efs_8503.jpg",
     "gallery": [
-      "./image/engineered-wood/oak-litte-white.jpg",
-      "./image/engineered-wood/walnut.jpg",
-      "./image/engineered-wood/1-1.jpg",
-      "./image/engineered-wood/maple.jpg"
+      "./image/engineered-wood/efs_8503.jpg",
+      "./image/engineered-wood/efs_8503.jpg",
+      "./image/engineered-wood/efs_8503.jpg",
+      "./image/engineered-wood/efs_8503.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6538,13 +6538,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-306",
-    "name": "Walnut -",
-    "image": "./image/engineered-wood/walnut.jpg",
+    "name": "efs_8504",
+    "image": "./image/engineered-wood/efs_8504.jpg",
     "gallery": [
-      "./image/engineered-wood/walnut.jpg",
-      "./image/engineered-wood/1-1.jpg",
-      "./image/engineered-wood/maple.jpg",
-      "./image/engineered-wood/oak-2.jpg"
+      "./image/engineered-wood/efs_8504.jpg",
+      "./image/engineered-wood/efs_8504.jpg",
+      "./image/engineered-wood/efs_8504.jpg",
+      "./image/engineered-wood/efs_8504.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6559,13 +6559,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-307",
-    "name": "1(1)",
-    "image": "./image/engineered-wood/1-1.jpg",
+    "name": "efs-10113",
+    "image": "./image/engineered-wood/efs-10113.jpg",
     "gallery": [
-      "./image/engineered-wood/1-1.jpg",
-      "./image/engineered-wood/maple.jpg",
-      "./image/engineered-wood/oak-2.jpg",
-      "./image/engineered-wood/img-8502.jpg"
+      "./image/engineered-wood/efs-10113",
+      "./image/engineered-wood/efs-10113",
+      "./image/engineered-wood/efs-10113",
+      "./image/engineered-wood/efs-10113.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6580,13 +6580,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-308",
-    "name": "maple",
-    "image": "./image/engineered-wood/maple.jpg",
+    "name": "efs-10130",
+    "image": "./image/engineered-wood/efs-10130.jpg",
     "gallery": [
-      "./image/engineered-wood/maple.jpg",
-      "./image/engineered-wood/oak-2.jpg",
-      "./image/engineered-wood/img-8502.jpg",
-      "./image/engineered-wood/3-1.jpg"
+      "./image/engineered-wood/efs-10130.jpg",
+      "./image/engineered-wood/efs-10130.jpg",
+      "./image/engineered-wood/efs-10130.jpg",
+      "./image/engineered-wood/efs-10130.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6601,13 +6601,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-309",
-    "name": "oak",
-    "image": "./image/engineered-wood/oak-2.jpg",
+    "name": "efs-10411",
+    "image": "./image/engineered-wood/efs-10411.jpg",
     "gallery": [
-      "./image/engineered-wood/oak-2.jpg",
-      "./image/engineered-wood/img-8502.jpg",
-      "./image/engineered-wood/3-1.jpg",
-      "./image/engineered-wood/img-8504.jpg"
+      "./image/engineered-wood/efs-10411.jpg",
+      "./image/engineered-wood/efs-10411.jpg",
+      "./image/engineered-wood/efs-10411.jpg",
+      "./image/engineered-wood/efs-10411.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6622,12 +6622,12 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-310",
-    "name": "IMG_8502",
-    "image": "./image/engineered-wood/img-8502.jpg",
+    "name": "efs-20102",
+    "image": "./image/engineered-wood/efs-20102.jpg",
     "gallery": [
-      "./image/engineered-wood/img-8502.jpg",
-      "./image/engineered-wood/3-1.jpg",
-      "./image/engineered-wood/img-8504.jpg",
+      "./image/engineered-wood/efs-20102.jpg",
+      "./image/engineered-wood/efs-20102.jpg",
+      "./image/engineered-wood/efs-20102.jpg",
       "./image/engineered-wood/efs-20102.jpg"
     ],
     "category": "engineered",
@@ -6643,13 +6643,13 @@ const BMC_CATALOG = [
   },
   {
     "id": "catalog-311",
-    "name": "3(1)",
-    "image": "./image/engineered-wood/3-1.jpg",
+    "name": "efs-30201",
+    "image": "./image/engineered-wood/efs-30201.jpg",
     "gallery": [
-      "./image/engineered-wood/3-1.jpg",
-      "./image/engineered-wood/img-8504.jpg",
-      "./image/engineered-wood/efs-20102.jpg",
-      "./image/engineered-wood/1.jpg"
+      "./image/engineered-wood/efs-30201.jpg",
+      "./image/engineered-wood/efs-30201.jpg",
+      "./image/engineered-wood/efs-30201.jpg",
+      "./image/engineered-wood/efs-30201.jpg"
     ],
     "category": "engineered",
     "categoryLabel": "ไม้ Engineered",
@@ -6662,7 +6662,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
   },
-  {
+  /*{
     "id": "catalog-312",
     "name": "IMG_8504",
     "image": "./image/engineered-wood/img-8504.jpg",
@@ -7036,7 +7036,7 @@ const BMC_CATALOG = [
     "categoryLabelEn": "Engineered Wood",
     "subcategoryEn": "Engineered Wood",
     "descriptionEn": "Engineered wood combines the beauty of real wood with a multi-layer structure, ideal for interior flooring."
-  },
+  },*/
   {
     "id": "catalog-330",
     "name": "B03",
@@ -9574,7 +9574,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-1",
-    "name": "Bamboo-",
+    "name": "oak-1",
     "image": "./image/solid-wood/oak-1.jpg",
     "gallery": [
       "./image/solid-wood/oak-1.jpg",
@@ -9594,7 +9594,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-2",
-    "name": "BAMBOO",
+    "name": "oak-2",
     "image": "./image/solid-wood/oak-2.jpg",
     "gallery": [
       "./image/solid-wood/oak-2.jpg",
@@ -9614,7 +9614,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-3",
-    "name": "beech-",
+    "name": "oak-3",
     "image": "./image/solid-wood/oak-3.jpg",
     "gallery": [
       "./image/solid-wood/oak-3.jpg",
@@ -9634,7 +9634,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-4",
-    "name": "kempus",
+    "name": "oak-4",
     "image": "./image/solid-wood/oak-4.jpg",
     "gallery": [
       "./image/solid-wood/oak-4.jpg",
@@ -9654,7 +9654,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-5",
-    "name": "MERBAU-",
+    "name": "oak-5",
     "image": "./image/solid-wood/oak-5.jpg",
     "gallery": [
       "./image/solid-wood/oak-5.jpg",
@@ -9674,7 +9674,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-6",
-    "name": "MERBAU",
+    "name": "oak-6",
     "image": "./image/solid-wood/oak-6.jpg",
     "gallery": [
       "./image/solid-wood/oak-6.jpg",
@@ -9694,7 +9694,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-7",
-    "name": "oak-",
+    "name": "oak-7",
     "image": "./image/solid-wood/oak-7.jpg",
     "gallery": [
       "./image/solid-wood/oak-7.jpg",
@@ -9714,7 +9714,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-8",
-    "name": "OAK",
+    "name": "oak-8",
     "image": "./image/solid-wood/oak-8.jpg",
     "gallery": [
       "./image/solid-wood/oak-8.jpg",
@@ -9734,7 +9734,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-9",
-    "name": "TALI",
+    "name": "oak-9",
     "image": "./image/solid-wood/oak-9.jpg",
     "gallery": [
       "./image/solid-wood/oak-9.jpg",
@@ -9754,7 +9754,7 @@ const BMC_CATALOG = [
   },
   {
     "id": "solid-10",
-    "name": "TAUARI",
+    "name": "oak-10",
     "image": "./image/solid-wood/oak-10.jpg",
     "gallery": [
       "./image/solid-wood/oak-10.jpg",
