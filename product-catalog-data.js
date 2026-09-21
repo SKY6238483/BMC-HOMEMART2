@@ -10355,11 +10355,11 @@ const BMC_CATALOG = [
     {
     "id": "wpc-10",
     "name": "BMC6009-6_0",
-    "image": "./image/wpc/bmc6009-6_0.png",
+    "image": "./image/wpc/bmc6010-6_0.png",
     "gallery": [
-      "./image/wpc/bmc6009-6_0.png",
-      "./image/wpc/bmc6009-6_0.png",
-      "./image/wpc/bmc6009-6_0.png"
+      "./image/wpc/bmc6010-6_0.png",
+      "./image/wpc/bmc6010-6_0.png",
+      "./image/wpc/bmc6010-6_0.png"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
