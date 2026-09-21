@@ -9672,7 +9672,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Stair Wood",
     "descriptionEn": "Stair wood, offering natural texture and grain for floors and interiors."
   },
-  {
+  /*{
     "id": "solid-6",
     "name": "oak-6",
     "image": "./image/solid-wood/oak-6.jpg",
@@ -9752,7 +9752,7 @@ const BMC_CATALOG = [
     "subcategoryEn": "Solid Wood",
     "descriptionEn": "Solid wood flooring made from real wood, offering natural texture and grain for floors and interiors."
   },
-  /*{
+  {
     "id": "solid-10",
     "name": "oak-10",
     "image": "./image/solid-wood/oak-10.jpg",
@@ -10174,12 +10174,12 @@ const BMC_CATALOG = [
   },
   {
     "id": "wpc-1",
-    "name": "ไม้เทียม WPC 1",
-    "image": "./image/engineered-wood/01.jpg",
+    "name": "BMC6002-3_0",
+    "image": "./image/wpc/bmc6002-3_0.png",
     "gallery": [
-      "./image/engineered-wood/01.jpg",
-      "./image/engineered-wood/02.jpg",
-      "./image/engineered-wood/04.jpg"
+      "./image//wpc/bmc6002-3_0.png",
+      "./image//wpc/bmc6002-3_0.png",
+      "./image//wpc/bmc6002-3_0.png"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10187,19 +10187,19 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "รายการ",
     "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
-    "nameEn": "WPC Wood 1",
+    "nameEn": "BMC6002-3_0",
     "categoryLabelEn": "WPC Wood",
     "subcategoryEn": "WPC Wood",
     "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
   },
   {
     "id": "wpc-2",
-    "name": "ไม้เทียม WPC 2",
-    "image": "./image/engineered-wood/01.jpg",
+    "name": "BMC6002-5_0",
+    "image": "./image/wpc/bmc6002-5_0.png",
     "gallery": [
-      "./image/engineered-wood/01.jpg",
-      "./image/engineered-wood/02.jpg",
-      "./image/engineered-wood/04.jpg"
+      "./image/wpc/bmc6002-5_0.png",
+      "./image/wpc/bmc6002-5_0.png",
+      "./image/wpc/bmc6002-5_0.png"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10207,19 +10207,19 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "รายการ",
     "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
-    "nameEn": "WPC Wood 2",
+    "nameEn": "BMC6002-5_0",
     "categoryLabelEn": "WPC Wood",
     "subcategoryEn": "WPC Wood",
     "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
   },
   {
     "id": "wpc-3",
-    "name": "ไม้เทียม WPC 3",
-    "image": "./image/engineered-wood/01.jpg",
+    "name": "BMC6002-7_0",
+    "image": "./image/wpc/bmc6002-7_0.png",
     "gallery": [
-      "./image/engineered-wood/01.jpg",
-      "./image/engineered-wood/02.jpg",
-      "./image/engineered-wood/04.jpg"
+      "./image/wpc/bmc6002-7_0.png",
+      "./image/wpc/bmc6002-7_0.png",
+      "./image/wpc/bmc6002-7_0.png"
     ],
     "category": "wpc",
     "categoryLabel": "ไม้เทียม WPC",
@@ -10227,7 +10227,167 @@ const BMC_CATALOG = [
     "price": 0,
     "unit": "รายการ",
     "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
-    "nameEn": "WPC Wood 3",
+    "nameEn": "BMC6002-7_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-4",
+    "name": "BMC6009-1_0",
+    "image": "./image/wpc/bmc6009-1_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-7_0.png",
+      "./image/wpc/bmc6009-7_0.png",
+      "./image/wpc/bmc6009-7_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-1_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+  {
+    "id": "wpc-5",
+    "name": "BMC6009-2_0",
+    "image": "./image/wpc/bmc6009-2_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-2_0.png",
+      "./image/wpc/bmc6009-2_0.png",
+      "./image/wpc/bmc6009-2_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-2_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-6",
+    "name": "BMC6009-3_0",
+    "image": "./image/wpc/bmc6009-3_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-3_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-7",
+    "name": "BMC6009-3_0",
+    "image": "./image/wpc/bmc6009-3_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png",
+      "./image/wpc/bmc6009-3_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-3_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-8",
+    "name": "BMC6009-4_0",
+    "image": "./image/wpc/bmc6009-4_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-4_0.png",
+      "./image/wpc/bmc6009-4_0.png",
+      "./image/wpc/bmc6009-4_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-4_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-9",
+    "name": "BMC6009-2_0",
+    "image": "./image/wpc/bmc6009-5_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-5_0.png",
+      "./image/wpc/bmc6009-5_0.png",
+      "./image/wpc/bmc6009-5_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-5_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-10",
+    "name": "BMC6009-6_0",
+    "image": "./image/wpc/bmc6009-6_0.png",
+    "gallery": [
+      "./image/wpc/bmc6009-6_0.png",
+      "./image/wpc/bmc6009-6_0.png",
+      "./image/wpc/bmc6009-6_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC6009-6_0",
+    "categoryLabelEn": "WPC Wood",
+    "subcategoryEn": "WPC Wood",
+    "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
+  },
+    {
+    "id": "wpc-11",
+    "name": "BMC60010-1_0",
+    "image": "./image/wpc/bmc60010-1_0.png",
+    "gallery": [
+      "./image/wpc/bmc60010-1_0.png",
+      "./image/wpc/bmc60010-1_0.png",
+      "./image/wpc/bmc60010-1_0.png"
+    ],
+    "category": "wpc",
+    "categoryLabel": "ไม้เทียม WPC",
+    "subcategory": "ไม้เทียม WPC",
+    "price": 0,
+    "unit": "รายการ",
+    "description": "ไม้เทียม WPC สำหรับงานตกแต่งและโครงการ โดยใช้ภาพตัวอย่างจากชุดไฟล์ปัจจุบัน กรุณาเปลี่ยนเป็นภาพสินค้าจริงเมื่อมีโฟลเดอร์ ไม้เทียม WPC",
+    "nameEn": "BMC60010-1_0",
     "categoryLabelEn": "WPC Wood",
     "subcategoryEn": "WPC Wood",
     "descriptionEn": "WPC wood for decorative and project applications. Replace the current sample images with actual product images when the WPC product folder is available."
