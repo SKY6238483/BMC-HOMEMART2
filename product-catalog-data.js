@@ -7,7 +7,7 @@ BMC HOMEMART — ฐานข้อมูลสินค้า
 หมายเหตุ: ห้ามลบรายการเดิมโดยไม่ตั้งใจ; หมวดไม้บันไดสามารถอ้างอิงภาพจาก ./image/solid-wood ผ่านระบบกรองสินค้า
 */
 const BMC_CATALOG = [
-  {
+ /* {
     "id": "white-carrara",
     "name": "White Carrara Marble",
     "image": "./image/carrara-white.jpg",
@@ -48,7 +48,7 @@ const BMC_CATALOG = [
     "categoryLabelEn": "Marble",
     "subcategoryEn": "Marble",
     "descriptionEn": "Black marble with white veining, creating a luxurious and distinctive look for floors, walls, countertops and decorative applications."
-  },*/
+  },
   {
     "id": "black-galaxy",
     "name": "Black Galaxy Granite",
