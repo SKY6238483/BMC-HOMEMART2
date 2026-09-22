@@ -400,7 +400,7 @@ function matchesCategory(product, selected){
     if(selected === "all") return true;
     /* NOTE: หมวดไม้บันไดใช้ชุดภาพจากโฟลเดอร์ "ไม้ Solid" ตามที่กำหนด
        โดยไม่ทำสำเนาข้อมูลสินค้าในฐานข้อมูลหลัก */
-    if(selected === "stair") return product.category === "solid";
+    if(selected === "stair") return product.category === "stair";
     if(selected === "marble-tile") return product.category === "marble-tile" || product.category === "tile";
     /* NOTE: หมวด 'กระเบื้อง' รวม Ceramic + Porcelain ไว้ด้วยกัน */
     if(selected === "tile") return product.category === "ceramic" || product.category === "porcelain" || product.category === "tile";
