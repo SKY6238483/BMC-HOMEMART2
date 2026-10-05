@@ -84,65 +84,88 @@ BMC HOMEMART — โครงสร้างหน้าแรก
 
     <div class="container hero-content"> -->
 <!-- ================= HERO SLIDER ================= -->
-<!-- ================= HERO SLIDER ================= -->
+index.html
+<!-- ================================
+     BMC HOMEMART — HERO
+================================ -->
+
 <section class="hero">
-<div class="hero-slider">
-<div class="hero-track" id="heroTrack">
-<!-- SLIDE 1 -->
-<div class="hero-slide">
-<img alt="BMC HOMEMART" src="./image/about/heroslide1.jpg"/>
-</div>
-<!-- SLIDE 2 -->
-<div class="hero-slide">
-<img alt="BMC HOMEMART" src="./image/about/heroslide2.jpg"/>
-</div>
-<!-- SLIDE 3 -->
-<div class="hero-slide">
-<img alt="BMC HOMEMART" src="./image/about/heroslide3.jpg"/>
-</div>
-<!-- SLIDE 4 -->
-<div class="hero-slide">
-<img alt="BMC HOMEMART" src="./image/about/heroslide4.jpg"/>
-</div>
-<!-- SLIDE 5 -->
-<div class="hero-slide">
-<img alt="BMC HOMEMART" src="./image/about/heroslide5.jpg"/>
-</div>
-</div>
-<!-- Overlay -->
-<div class="hero-overlay"></div>
-<!-- ข้อความ -->
-<div class="container hero-content">
-<p class="eyebrow">
+
+    <!-- HERO VIDEO -->
+    <div class="hero-media">
+
+        <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="auto"
+            poster="./image/about/herovdo-poster.jpg"
+            aria-label="BMC HOMEMART Premium Natural Stone"
+        >
+            <source src="./image/about/herovdo.mp4" type="video/mp4">
+        </video>
+
+    </div>
+
+    <!-- DARK OVERLAY -->
+    <div class="hero-overlay"></div>
+
+    <!-- HERO CONTENT -->
+    <div class="container hero-content">
+
+        <div class="hero-text">
+
+            <div class="hero-eyebrow">
                 BMC HOMEMART
-            </p>
-<h1>
-                ศูนย์รวมหินธรรมชาติ หินสังเคราะห์<br/>
-                กระเบื้อง ไม้ปูพื้น พร้อมบริการติดตั้ง
+            </div>
+
+            <h1>
+                ศูนย์รวมหินธรรมชาติ<br>
+                หินสังเคราะห์ และวัสดุตกแต่ง
             </h1>
-<!--<p class="hero-description">
-                ศูนย์รวมวัสดุคุณภาพสำหรับบ้าน
-                งานตกแต่ง และโครงการ
-                คัดสรรวัสดุที่ตอบโจทย์ทุกพื้นที่
-            </p> -->
-<div class="hero-buttons"><a class="btn btn-gold" href="products.html" data-th="ดูสินค้า" data-en="VIEW PRODUCTS">ดูสินค้า</a><a class="btn btn-light" href="#contact" data-th="ติดต่อเรา" data-en="CONTACT US">ติดต่อเรา</a><a class="btn btn-light hero-sample-btn" href="https://page.line.me/553anmze" rel="noopener noreferrer" target="_blank" data-line-profile="bmc-homemart" data-th="ขอตัวอย่างสินค้า" data-en="REQUEST SAMPLE" target="_blank" rel="noopener noreferrer">ขอตัวอย่างสินค้า</a></div>
-</div>
-<!-- ปุ่มซ้าย -->
-<button aria-label="Previous slide" class="slider-btn slider-prev" id="heroPrev">
 
-            ‹
+            <p class="hero-description">
+                คัดสรรวัสดุคุณภาพสำหรับบ้าน งานตกแต่ง
+                และโครงการ พร้อมบริการติดตั้งโดยทีมงานมืออาชีพ
+            </p>
 
-        </button>
-<!-- ปุ่มขวา -->
-<button aria-label="Next slide" class="slider-btn slider-next" id="heroNext">
+            <div class="hero-buttons">
 
-            ›
+                <a
+                    href="products.html"
+                    class="hero-btn hero-btn-gold"
+                >
+                    <span>ดูสินค้า</span>
+                    <span class="hero-btn-arrow">→</span>
+                </a>
 
-        </button>
-<!-- จุดบอก Slide -->
-<div class="slider-dots" id="sliderDots">
-</div>
-</div>
+                <a
+                    href="#contact"
+                    class="hero-btn hero-btn-outline"
+                >
+                    ติดต่อเรา
+                </a>
+
+                <a
+                    href="https://page.line.me/553anmze"
+                    class="hero-btn hero-btn-outline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    ขอตัวอย่างสินค้า
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- BOTTOM DECORATION -->
+    <div class="hero-bottom-line"></div>
+
 </section>
 <!-- ================= INTRO ================= -->
 <section class="intro" id="about">
