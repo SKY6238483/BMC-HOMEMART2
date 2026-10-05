@@ -300,7 +300,552 @@ nav a:hover {
 /* ==========================================
    HERO
 ========================================== */
+style.css
+/* =========================================
+   BMC HOMEMART
+   PREMIUM HERO
+========================================= */
 
+.hero {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    min-height: 600px;
+
+    overflow: hidden;
+
+    color: #fff;
+    background: #111;
+
+    isolation: isolate;
+}
+
+
+/* =========================================
+   HERO MEDIA
+========================================= */
+
+.hero-media {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    z-index: 0;
+}
+
+
+.hero-video {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center center;
+
+    background: #111;
+}
+
+
+/* =========================================
+   DARK OVERLAY
+========================================= */
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    z-index: 1;
+
+    pointer-events: none;
+
+    /*
+       ด้านซ้ายเข้มกว่าเพื่อให้อ่านข้อความง่าย
+       ด้านขวาปล่อยให้เห็นรายละเอียดของหิน
+    */
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.78) 0%,
+            rgba(0, 0, 0, 0.60) 28%,
+            rgba(0, 0, 0, 0.32) 58%,
+            rgba(0, 0, 0, 0.12) 100%
+        );
+}
+
+
+/* เพิ่มความ cinematic ด้านบนและด้านล่าง */
+
+.hero-overlay::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.30) 0%,
+            transparent 25%,
+            transparent 72%,
+            rgba(0,0,0,.38) 100%
+        );
+}
+
+
+/* =========================================
+   HERO CONTENT
+========================================= */
+
+.hero-content {
+    position: relative;
+
+    z-index: 3;
+
+    width: 100%;
+    max-width: 1400px;
+
+    height: 100%;
+
+    margin: 0 auto;
+
+    padding-left: 6%;
+    padding-right: 6%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.hero-text {
+    width: 100%;
+    max-width: 850px;
+
+    margin-top: -10px;
+}
+
+
+/* =========================================
+   EYEBROW
+========================================= */
+
+.hero-eyebrow {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+
+    margin-bottom: 22px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #d5b27a;
+}
+
+
+/* เส้นทองด้านหน้า */
+
+.hero-eyebrow::before {
+    content: "";
+
+    width: 42px;
+    height: 1px;
+
+    background: #c8a36a;
+
+    display: inline-block;
+}
+
+
+/* =========================================
+   HERO TITLE
+========================================= */
+
+.hero h1 {
+    margin: 0 0 26px;
+
+    max-width: 850px;
+
+    font-size: clamp(42px, 5vw, 72px);
+
+    line-height: 1.04;
+
+    font-weight: 500;
+
+    letter-spacing: -2.5px;
+
+    color: #fff;
+
+    text-shadow:
+        0 3px 25px rgba(0,0,0,.30);
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.hero-description {
+    max-width: 650px;
+
+    margin: 0 0 34px;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    font-weight: 300;
+
+    color: rgba(255,255,255,.88);
+
+    text-shadow:
+        0 2px 12px rgba(0,0,0,.35);
+}
+
+
+/* =========================================
+   BUTTONS
+========================================= */
+
+.hero-buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+
+/* =========================================
+   BUTTON BASE
+========================================= */
+
+.hero-btn {
+    position: relative;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 18px;
+
+    min-height: 52px;
+
+    padding: 0 27px;
+
+    border: 1px solid transparent;
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    letter-spacing: .5px;
+
+    transition:
+        background .3s ease,
+        color .3s ease,
+        border-color .3s ease,
+        transform .3s ease,
+        box-shadow .3s ease;
+
+    cursor: pointer;
+}
+
+
+/* =========================================
+   GOLD BUTTON
+========================================= */
+
+.hero-btn-gold {
+    color: #17130e;
+
+    background: #c7a267;
+
+    border-color: #c7a267;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.20);
+}
+
+
+.hero-btn-gold:hover {
+    color: #fff;
+
+    background: #9f7b45;
+
+    border-color: #9f7b45;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 14px 35px rgba(0,0,0,.30);
+}
+
+
+/* ลูกศร */
+
+.hero-btn-arrow {
+    font-size: 18px;
+
+    transition:
+        transform .3s ease;
+}
+
+
+.hero-btn-gold:hover .hero-btn-arrow {
+    transform: translateX(5px);
+}
+
+
+/* =========================================
+   OUTLINE BUTTON
+========================================= */
+
+.hero-btn-outline {
+    color: #fff;
+
+    background: rgba(255,255,255,.05);
+
+    border-color: rgba(255,255,255,.65);
+
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+
+.hero-btn-outline:hover {
+    color: #15120f;
+
+    background: #fff;
+
+    border-color: #fff;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   BOTTOM LINE
+========================================= */
+
+.hero-bottom-line {
+    position: absolute;
+
+    left: 6%;
+    bottom: 28px;
+
+    width: 90px;
+    height: 1px;
+
+    background: rgba(255,255,255,.65);
+
+    z-index: 4;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .hero {
+        height: 620px;
+        min-height: 560px;
+    }
+
+    .hero-content {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .hero h1 {
+        font-size: clamp(40px, 6vw, 58px);
+    }
+
+    .hero-description {
+        font-size: 16px;
+        max-width: 580px;
+    }
+
+    .hero-overlay {
+        background:
+            linear-gradient(
+                90deg,
+                rgba(0,0,0,.72) 0%,
+                rgba(0,0,0,.48) 55%,
+                rgba(0,0,0,.22) 100%
+            );
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .hero {
+        height: 680px;
+        min-height: 620px;
+    }
+
+    /*
+       Mobile ให้ภาพขยับไปทางขวาเล็กน้อย
+       เพื่อโชว์ texture ของหิน
+    */
+
+    .hero-video {
+        object-position: 58% center;
+    }
+
+    .hero-overlay {
+        background:
+            linear-gradient(
+                90deg,
+                rgba(0,0,0,.78) 0%,
+                rgba(0,0,0,.58) 55%,
+                rgba(0,0,0,.30) 100%
+            );
+    }
+
+    .hero-content {
+        align-items: center;
+
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-eyebrow {
+        margin-bottom: 18px;
+
+        font-size: 12px;
+
+        letter-spacing: 3px;
+    }
+
+    .hero-eyebrow::before {
+        width: 28px;
+    }
+
+    .hero h1 {
+        margin-bottom: 20px;
+
+        font-size: clamp(34px, 10vw, 46px);
+
+        line-height: 1.08;
+
+        letter-spacing: -1.5px;
+    }
+
+    .hero-description {
+        margin-bottom: 28px;
+
+        font-size: 15px;
+
+        line-height: 1.7;
+
+        max-width: 470px;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .hero-btn {
+        min-height: 48px;
+
+        padding: 0 20px;
+
+        font-size: 13px;
+    }
+
+    .hero-bottom-line {
+        left: 24px;
+        bottom: 20px;
+
+        width: 60px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .hero {
+        height: 650px;
+        min-height: 600px;
+    }
+
+    .hero-video {
+        object-position: 60% center;
+    }
+
+    .hero-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .hero-btn {
+        width: auto;
+        min-width: 180px;
+    }
+
+}
+
+
+/* =========================================
+   ACCESSIBILITY
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero-video {
+        animation: none;
+    }
+
+    .hero-btn {
+        transition: none;
+    }
+}
 .hero {
 
     position: relative;
